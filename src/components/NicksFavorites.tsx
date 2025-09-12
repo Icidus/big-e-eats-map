@@ -146,7 +146,7 @@ export const NicksFavoritesSection = ({
             </div>
             <div>
               <h2 className="text-2xl font-bold text-foreground">Nick's Favorites</h2>
-              <p className="text-muted-foreground">Hand-picked must-try foods at the Big E</p>
+              <p className="text-muted-foreground">10 must-try foods (ordered by map location)</p>
             </div>
           </div>
           <Badge variant="secondary" className="bg-accent/20 text-accent">

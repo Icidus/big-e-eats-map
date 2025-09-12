@@ -15,7 +15,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/big-e-eats-map">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/location/:id" element={<LocationDetail />} />

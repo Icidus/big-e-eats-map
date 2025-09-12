@@ -140,7 +140,7 @@ export default function LocationDetail() {
                       )}
                       {nicksFavorite && (
                         <Badge variant="secondary" className="bg-accent/20 text-accent text-xs">
-                          #{nicksFavorite.priority}
+                          Nick's Pick
                         </Badge>
                       )}
                     </div>
@@ -276,7 +276,7 @@ export default function LocationDetail() {
                         <div className="flex-1">
                           <div className="flex items-center gap-2 mb-1">
                             <Badge variant="secondary" className="bg-accent/20 text-accent text-xs">
-                              Nick's Pick #{favorite.priority}
+                              Nick's Pick
                             </Badge>
                           </div>
                           <h4 className="font-semibold text-foreground mb-1">{favorite.name}</h4>

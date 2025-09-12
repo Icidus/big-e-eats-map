@@ -2,7 +2,7 @@ import { NicksFavoritesSection } from "@/components/NicksFavorites";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, User, Star } from "lucide-react";
+import { ArrowLeft, User, Star, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import { nicksFavorites } from "@/data/nicksFavorites";
 
@@ -35,7 +35,8 @@ const NicksFavoritesPage = () => {
               {nicksFavorites.length} Curated Picks
             </Badge>
             <Badge variant="secondary" className="bg-accent/20 text-primary-foreground border-accent/30">
-              Priority Ranked
+              <MapPin className="w-4 h-4 mr-2" />
+              Map Ordered
             </Badge>
           </div>
         </div>
@@ -92,7 +93,7 @@ const NicksFavoritesPage = () => {
             <ul className="space-y-2 text-accent-foreground/90">
               <li className="flex items-start gap-2">
                 <Star className="w-4 h-4 text-accent-foreground mt-0.5 flex-shrink-0" />
-                <span>Start with the top 3 priorities - they're the absolute must-haves</span>
+                <span>All 10 picks are equally great - there's no wrong choice!</span>
               </li>
               <li className="flex items-start gap-2">
                 <Star className="w-4 h-4 text-accent-foreground mt-0.5 flex-shrink-0" />
@@ -100,7 +101,7 @@ const NicksFavoritesPage = () => {
               </li>
               <li className="flex items-start gap-2">
                 <Star className="w-4 h-4 text-accent-foreground mt-0.5 flex-shrink-0" />
-                <span>Check vendor locations as some operate in multiple spots</span>
+                <span>Use the map to plan your route efficiently around the fair</span>
               </li>
               <li className="flex items-start gap-2">
                 <Star className="w-4 h-4 text-accent-foreground mt-0.5 flex-shrink-0" />
