@@ -149,12 +149,6 @@ export default function LocationDetail() {
                         {highlightText(food.description, searchQuery)}
                       </p>
                     )}
-                    {nicksFavorite?.nickComment && (
-                      <div className="mt-2 p-2 bg-accent/10 border border-accent/20 rounded text-xs">
-                        <span className="font-medium text-accent">Nick says:</span>
-                        <span className="text-foreground italic ml-1">"{nicksFavorite.nickComment}"</span>
-                      </div>
-                    )}
                   </div>
                   {food.price && (
                     <Badge variant="outline" className="ml-2 flex items-center gap-1">
@@ -281,12 +275,6 @@ export default function LocationDetail() {
                           </div>
                           <h4 className="font-semibold text-foreground mb-1">{favorite.name}</h4>
                           <p className="text-sm text-muted-foreground mb-2">{favorite.vendor}</p>
-                          {favorite.nickComment && (
-                            <div className="bg-accent/10 border border-accent/20 rounded p-2 text-xs">
-                              <span className="font-medium text-accent">Nick says:</span>
-                              <span className="text-foreground italic ml-1">"{favorite.nickComment}"</span>
-                            </div>
-                          )}
                         </div>
                         {food.price && (
                           <Badge variant="outline" className="ml-2 flex items-center gap-1">

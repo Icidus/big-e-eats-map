@@ -3,7 +3,6 @@ import { Food } from "./locations";
 export interface NicksFavorite extends Food {
   locationId: string;
   locationName: string;
-  nickComment?: string;
   mapOrder: number; // Order by location on the map (not priority)
 }
 
@@ -14,7 +13,6 @@ export const nicksFavorites: NicksFavorite[] = [
     vendor: "Marion's Fried Dough",
     locationId: "new-england-avenue",
     locationName: "New England Avenue",
-    nickComment: "The ultimate fair food experience - you have to try this!",
     mapOrder: 1,
     isRecommended: true
   },
@@ -24,7 +22,6 @@ export const nicksFavorites: NicksFavorite[] = [
     vendor: "Anna's Fried Dough",
     locationId: "east-road",
     locationName: "East Road",
-    nickComment: "Amazing fried dough creation that's a game changer.",
     mapOrder: 2
   },
   {
@@ -33,7 +30,6 @@ export const nicksFavorites: NicksFavorite[] = [
     vendor: "Giant Corn Dog Factory",
     locationId: "west-road",
     locationName: "West Road",
-    nickComment: "Best corn dog variation at the fair, hands down.",
     mapOrder: 3
   },
   {
@@ -42,7 +38,6 @@ export const nicksFavorites: NicksFavorite[] = [
     vendor: "New England Craft Beer Pub",
     locationId: "avenue-of-states",
     locationName: "Avenue of States",
-    nickComment: "Three birds in one sandwich - only at the Big E!",
     mapOrder: 4
   },
   {
@@ -51,7 +46,6 @@ export const nicksFavorites: NicksFavorite[] = [
     vendor: "Macken's Specialty Sliders",
     locationId: "state-buildings",
     locationName: "The State Buildings (Outside Massachusetts Building)",
-    nickComment: "Sweet and savory perfection between two waffles.",
     mapOrder: 5
   },
   {
@@ -60,7 +54,6 @@ export const nicksFavorites: NicksFavorite[] = [
     vendor: "Moolicious",
     locationId: "springfield-road",
     locationName: "Springfield Road",
-    nickComment: "Creamy, delicious, and you can find them in two locations!",
     mapOrder: 6
   },
   {
@@ -69,7 +62,6 @@ export const nicksFavorites: NicksFavorite[] = [
     vendor: "The Broccoli Bar",
     locationId: "springfield-road",
     locationName: "Springfield Road",
-    nickComment: "Don't let the name fool you - this healthy option is surprisingly amazing.",
     mapOrder: 7
   },
   {
@@ -78,7 +70,6 @@ export const nicksFavorites: NicksFavorite[] = [
     vendor: "Porky's",
     locationId: "commonwealth-avenue",
     locationName: "Commonwealth Avenue",
-    nickComment: "BBQ in sundae form - innovative and delicious.",
     mapOrder: 8
   },
   {
@@ -87,7 +78,6 @@ export const nicksFavorites: NicksFavorite[] = [
     vendor: "Angela's Pizza",
     locationId: "commonwealth-avenue",
     locationName: "Commonwealth Avenue",
-    nickComment: "Exactly what it sounds like, but bigger and better than you imagine.",
     mapOrder: 9
   },
   {
@@ -96,7 +86,6 @@ export const nicksFavorites: NicksFavorite[] = [
     vendor: "Vermont Marshmallow Company",
     locationId: "state-buildings",
     locationName: "The State Buildings (Vermont Building)",
-    nickComment: "S'mores meets macarons - pure Vermont innovation.",
     mapOrder: 10
   }
 ];

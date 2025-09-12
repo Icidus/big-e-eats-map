@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Star, MapPin, User, ArrowRight } from "lucide-react";
+import { Star, MapPin, ArrowRight } from "lucide-react";
 import { NicksFavorite, getNicksFavoritesByPriority } from "@/data/nicksFavorites";
 
 interface NicksFavoriteCardProps {
@@ -35,18 +35,6 @@ export const NicksFavoriteCard = ({ favorite, compact = false }: NicksFavoriteCa
             </div>
           </div>
         </div>
-        
-        {favorite.nickComment && (
-          <div className="bg-accent/10 border border-accent/20 rounded-lg p-3 mb-4">
-            <div className="flex items-start gap-2">
-              <User className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-              <div>
-                <p className="text-xs font-medium text-accent mb-1">Nick says:</p>
-                <p className="text-sm text-foreground italic">"{favorite.nickComment}"</p>
-              </div>
-            </div>
-          </div>
-        )}
         
         <div className="flex items-center justify-between">
           <Link to={`/location/${favorite.locationId}`}>
@@ -142,7 +130,7 @@ export const NicksFavoritesSection = ({
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3">
             <div className="p-2 bg-accent/20 rounded-lg">
-              <User className="w-6 h-6 text-accent" />
+              <Star className="w-6 h-6 text-accent" />
             </div>
             <div>
               <h2 className="text-2xl font-bold text-foreground">Nick's Favorites</h2>
