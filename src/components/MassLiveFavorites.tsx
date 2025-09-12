@@ -2,16 +2,17 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Star, MapPin, ArrowRight } from "lucide-react";
-import { NicksFavorite, getNicksFavoritesByPriority } from "@/data/nicksFavorites";
+import { MassLiveFavorite, getMassLiveFavoritesByPriority } from "@/data/massLiveFavorites";
 
-interface NicksFavoriteCardProps {
-  favorite: NicksFavorite;
+interface MassLiveFavoriteCardProps {
+  favorite: MassLiveFavorite;
   compact?: boolean;
 }
 
-export const NicksFavoriteCard = ({ favorite, compact = false }: NicksFavoriteCardProps) => {
+export const MassLiveFavoriteCard = ({ favorite, compact = false }: MassLiveFavoriteCardProps) => {
   return (
     <Card className="shadow-card hover:shadow-warm transition-all duration-200 border-l-4 border-l-accent">
       <CardContent className={`p-${compact ? '4' : '6'}`}>
@@ -20,7 +21,7 @@ export const NicksFavoriteCard = ({ favorite, compact = false }: NicksFavoriteCa
             <div className="flex items-center gap-2 mb-2">
               <Star className="w-4 h-4 text-accent fill-accent" />
               <Badge variant="secondary" className="text-xs bg-accent/20 text-accent">
-                Nick's Pick
+                MassLive Pick
               </Badge>
             </div>
             <h3 className={`font-bold text-foreground mb-1 ${compact ? 'text-lg' : 'text-xl'}`}>
@@ -53,7 +54,7 @@ export const NicksFavoriteCard = ({ favorite, compact = false }: NicksFavoriteCa
   );
 };
 
-interface NicksFavoritesSectionProps {
+interface MassLiveFavoritesSectionProps {
   limit?: number;
   showHeader?: boolean;
   compact?: boolean;
@@ -61,28 +62,28 @@ interface NicksFavoritesSectionProps {
   showMap?: boolean;
 }
 
-export const NicksFavoritesSection = ({ 
+export const MassLiveFavoritesSection = ({ 
   limit = 10, 
   showHeader = true, 
   compact = false,
   showMassLiveLink = false,
   showMap = false
-}: NicksFavoritesSectionProps) => {
-  const favorites = getNicksFavoritesByPriority(limit);
+}: MassLiveFavoritesSectionProps) => {
+  const favorites = getMassLiveFavoritesByPriority(limit);
   const [mapImage, setMapImage] = useState<string | null>(null);
   const [mapLoading, setMapLoading] = useState(false);
 
-  // Load Nick's favorites map
+  // Load MassLive favorites map
   useEffect(() => {
     if (!showMap) return;
     
     const loadMapImage = async () => {
       setMapLoading(true);
       try {
-        const mapModule = await import(`@/assets/maps/locations/nicks-favorites.png`);
+  const mapModule = await import(`@/assets/maps/locations/nicks-favorites.png`);
         setMapImage(mapModule.default);
       } catch (error) {
-        console.log('No Nick\'s favorites map found');
+  console.log('No MassLive favorites map found');
         setMapImage(null);
       } finally {
         setMapLoading(false);
@@ -99,7 +100,7 @@ export const NicksFavoritesSection = ({
           <CardContent className="p-6">
             <div className="flex items-center gap-2 mb-4">
               <MapPin className="w-5 h-5 text-primary" />
-              <h3 className="text-xl font-semibold text-foreground">Nick's Favorites Map</h3>
+              <h3 className="text-xl font-semibold text-foreground">MassLive Favorites Map</h3>
             </div>
             {mapLoading ? (
               <div className="bg-muted rounded-lg p-8 text-center">
@@ -108,17 +109,24 @@ export const NicksFavoritesSection = ({
               </div>
             ) : mapImage ? (
               <div className="rounded-lg overflow-hidden">
-                <img 
-                  src={mapImage} 
-                  alt="Nick's Favorites Location Map"
-                  className="w-full h-auto max-h-96 object-contain bg-muted rounded-lg"
-                />
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <img 
+                      src={mapImage} 
+                      alt="MassLive Favorites Location Map"
+                      className="w-full h-auto max-h-96 object-contain bg-muted rounded-lg cursor-zoom-in"
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="max-w-5xl">
+                    <img src={mapImage} alt="MassLive Favorites Map (large)" className="w-full h-auto" />
+                  </DialogContent>
+                </Dialog>
               </div>
             ) : (
               <div className="bg-muted rounded-lg p-8 text-center">
                 <MapPin className="w-12 h-12 text-primary mx-auto mb-4" />
                 <p className="text-muted-foreground">
-                  Map showing all Nick's favorite locations coming soon!
+                  Map showing all MassLive favorite locations coming soon!
                 </p>
               </div>
             )}
@@ -133,7 +141,7 @@ export const NicksFavoritesSection = ({
               <Star className="w-6 h-6 text-accent" />
             </div>
             <div>
-              <h2 className="text-2xl font-bold text-foreground">Nick's Favorites</h2>
+              <h2 className="text-2xl font-bold text-foreground">MassLive Favorites</h2>
               <p className="text-muted-foreground">10 must-try foods (ordered by map location)</p>
             </div>
           </div>
@@ -145,7 +153,7 @@ export const NicksFavoritesSection = ({
       
       <div className={`grid gap-${compact ? '4' : '6'} ${compact ? 'md:grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-3'}`}>
         {favorites.map((favorite) => (
-          <NicksFavoriteCard 
+          <MassLiveFavoriteCard 
             key={favorite.id} 
             favorite={favorite} 
             compact={compact}
@@ -155,9 +163,9 @@ export const NicksFavoritesSection = ({
       
       {limit && favorites.length >= limit && (
         <div className="text-center mt-6">
-          <Link to="/nicks-favorites">
+          <Link to="/masslive-favorites">
             <Button variant="festival" size="lg">
-              View All Nick's Favorites
+              View All MassLive Favorites
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
           </Link>

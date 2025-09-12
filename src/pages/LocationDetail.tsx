@@ -2,12 +2,13 @@ import { useParams, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Input } from "@/components/ui/input";
 import { ArrowLeft, Star, MapPin, DollarSign, Search, X, User } from "lucide-react";
 import { locations, Food } from "@/data/locations";
-import { getNicksFavoritesForLocation } from "@/data/nicksFavorites";
+import { getMassLiveFavoritesForLocation } from "@/data/massLiveFavorites";
 import { getLocationMapPath, PLACEHOLDER_MAP } from "@/assets/maps/mapUtils";
 
 export default function LocationDetail() {
@@ -67,7 +68,7 @@ export default function LocationDetail() {
 
   const recommendedFoods = filteredFoods.filter(food => food.isRecommended);
   const allFoods = filteredFoods;
-  const nicksFavorites = getNicksFavoritesForLocation(location.id);
+  const massLiveFavorites = getMassLiveFavoritesForLocation(location.id);
 
   // Group foods by vendor
   const groupedFoods = allFoods.reduce((acc, food) => {
@@ -102,34 +103,34 @@ export default function LocationDetail() {
   };
 
   const VendorGroup = ({ vendor, foods, showVendorName = true }: { vendor: string; foods: Food[]; showVendorName?: boolean }) => {
-    const hasNicksFavorite = foods.some(food => 
-      nicksFavorites.some(fav => fav.name === food.name && fav.vendor === food.vendor)
+    const hasMassLiveFavorite = foods.some(food => 
+      massLiveFavorites.some(fav => fav.name === food.name && fav.vendor === food.vendor)
     );
     
     return (
-      <Card className={`shadow-card hover:shadow-warm transition-all duration-200 ${hasNicksFavorite ? 'border-l-4 border-l-accent' : ''}`}>
+      <Card className={`shadow-card hover:shadow-warm transition-all duration-200 ${hasMassLiveFavorite ? 'border-l-4 border-l-accent' : ''}`}>
         <CardContent className="p-4">
           {showVendorName && (
             <div className="flex items-center justify-between mb-3 border-b border-border pb-2">
               <h3 className="text-lg font-bold text-foreground">
                 {highlightText(vendor, searchQuery)}
               </h3>
-              {hasNicksFavorite && (
+              {hasMassLiveFavorite && (
                 <Badge variant="secondary" className="bg-accent/20 text-accent text-xs">
-                  <User className="w-3 h-3 mr-1" />
-                  Nick's Pick
+                  <Star className="w-3 h-3 mr-1" />
+                  MassLive Pick
                 </Badge>
               )}
             </div>
           )}
           <div className="space-y-3">
             {foods.map(food => {
-              const nicksFavorite = nicksFavorites.find(fav => 
+              const massLiveFavorite = massLiveFavorites.find(fav => 
                 fav.name === food.name && fav.vendor === food.vendor
               );
               
               return (
-                <div key={food.id} className={`flex items-start justify-between ${nicksFavorite ? 'bg-accent/5 p-2 rounded-lg' : ''}`}>
+                <div key={food.id} className={`flex items-start justify-between ${massLiveFavorite ? 'bg-accent/5 p-2 rounded-lg' : ''}`}>
                   <div className="flex-1">
                     <div className="flex items-center gap-2 mb-1">
                       <h4 className="font-semibold text-foreground">
@@ -138,9 +139,9 @@ export default function LocationDetail() {
                       {food.isRecommended && (
                         <Star className="w-4 h-4 text-accent fill-accent" />
                       )}
-                      {nicksFavorite && (
+                      {massLiveFavorite && (
                         <Badge variant="secondary" className="bg-accent/20 text-accent text-xs">
-                          Nick's Pick
+                          MassLive Pick
                         </Badge>
                       )}
                     </div>
@@ -247,20 +248,20 @@ export default function LocationDetail() {
           </section>
         )}
 
-        {/* Nick's Favorites Section */}
-        {nicksFavorites.length > 0 && (
+        {/* MassLive Favorites Section */}
+        {massLiveFavorites.length > 0 && (
           <section className="mb-12">
             <div className="flex items-center gap-2 mb-6">
-              <User className="w-6 h-6 text-accent" />
-              <h2 className="text-2xl font-bold text-foreground">Nick's Favorites Here</h2>
-              <Link to="/nicks-favorites">
+              <Star className="w-6 h-6 text-accent" />
+              <h2 className="text-2xl font-bold text-foreground">MassLive Favorites Here</h2>
+              <Link to="/masslive-favorites">
                 <Badge variant="outline" className="hover:bg-accent hover:text-accent-foreground cursor-pointer">
                   View All Picks
                 </Badge>
               </Link>
             </div>
             <div className="grid gap-4 md:grid-cols-2">
-              {nicksFavorites.map(favorite => {
+              {massLiveFavorites.map(favorite => {
                 const food = allFoods.find(f => f.name === favorite.name && f.vendor === favorite.vendor);
                 if (!food) return null;
                 return (
@@ -270,7 +271,8 @@ export default function LocationDetail() {
                         <div className="flex-1">
                           <div className="flex items-center gap-2 mb-1">
                             <Badge variant="secondary" className="bg-accent/20 text-accent text-xs">
-                              Nick's Pick
+                              <Star className="w-3 h-3 mr-1" />
+                              MassLive Pick
                             </Badge>
                           </div>
                           <h4 className="font-semibold text-foreground mb-1">{favorite.name}</h4>
@@ -335,11 +337,18 @@ export default function LocationDetail() {
               ) : mapImage ? (
                 <div className="space-y-4">
                   <div className="rounded-lg overflow-hidden">
-                    <img 
-                      src={mapImage} 
-                      alt={`Map of ${location.name}`}
-                      className="w-full h-auto max-h-96 object-contain bg-muted rounded-lg"
-                    />
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <img 
+                          src={mapImage} 
+                          alt={`Map of ${location.name}`}
+                          className="w-full h-auto max-h-96 object-contain bg-muted rounded-lg cursor-zoom-in"
+                        />
+                      </DialogTrigger>
+                      <DialogContent className="max-w-5xl">
+                        <img src={mapImage} alt={`Map of ${location.name} (large)`} className="w-full h-auto" />
+                      </DialogContent>
+                    </Dialog>
                   </div>
                   <div className="text-center">
                     <h3 className="text-lg font-semibold mb-2">{location.name}</h3>

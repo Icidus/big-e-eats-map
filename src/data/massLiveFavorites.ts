@@ -1,12 +1,12 @@
 import { Food } from "./locations";
 
-export interface NicksFavorite extends Food {
+export interface MassLiveFavorite extends Food {
   locationId: string;
   locationName: string;
   mapOrder: number; // Order by location on the map (not priority)
 }
 
-export const nicksFavorites: NicksFavorite[] = [
+export const massLiveFavorites: MassLiveFavorite[] = [
   {
     id: "marions-fried-dough-fried-butter",
     name: "Fried Butter",
@@ -17,7 +17,7 @@ export const nicksFavorites: NicksFavorite[] = [
     isRecommended: true
   },
   {
-    id: "nicks-favorite-doughco",
+    id: "masslive-favorite-doughco",
     name: "DoughCo",
     vendor: "Anna's Fried Dough",
     locationId: "east-road",
@@ -25,7 +25,7 @@ export const nicksFavorites: NicksFavorite[] = [
     mapOrder: 2
   },
   {
-    id: "nicks-favorite-dilly-dilly-dog",
+    id: "masslive-favorite-dilly-dilly-dog",
     name: "Dilly Dilly Dog",
     vendor: "Giant Corn Dog Factory",
     locationId: "west-road",
@@ -33,7 +33,7 @@ export const nicksFavorites: NicksFavorite[] = [
     mapOrder: 3
   },
   {
-    id: "nicks-favorite-turducken-sandwich",
+    id: "masslive-favorite-turducken-sandwich",
     name: "Turducken Sandwich",
     vendor: "New England Craft Beer Pub",
     locationId: "avenue-of-states",
@@ -41,7 +41,7 @@ export const nicksFavorites: NicksFavorite[] = [
     mapOrder: 4
   },
   {
-    id: "nicks-favorite-bacon-waffle-burger",
+    id: "masslive-favorite-bacon-waffle-burger",
     name: "Bacon Waffle Burger",
     vendor: "Macken's Specialty Sliders",
     locationId: "state-buildings",
@@ -49,7 +49,7 @@ export const nicksFavorites: NicksFavorite[] = [
     mapOrder: 5
   },
   {
-    id: "nicks-favorite-moonugs",
+    id: "masslive-favorite-moonugs",
     name: "MooNugs",
     vendor: "Moolicious",
     locationId: "springfield-road",
@@ -57,7 +57,7 @@ export const nicksFavorites: NicksFavorite[] = [
     mapOrder: 6
   },
   {
-    id: "nicks-favorite-big-sexy",
+    id: "masslive-favorite-big-sexy",
     name: "The Big Sexy",
     vendor: "The Broccoli Bar",
     locationId: "springfield-road",
@@ -65,7 +65,7 @@ export const nicksFavorites: NicksFavorite[] = [
     mapOrder: 7
   },
   {
-    id: "nicks-favorite-bbq-sundae",
+    id: "masslive-favorite-bbq-sundae",
     name: "BBQ Sundae",
     vendor: "Porky's",
     locationId: "commonwealth-avenue",
@@ -73,7 +73,7 @@ export const nicksFavorites: NicksFavorite[] = [
     mapOrder: 8
   },
   {
-    id: "nicks-favorite-giant-mozzarella-stick",
+    id: "masslive-favorite-giant-mozzarella-stick",
     name: "Giant Mozzarella Stick",
     vendor: "Angela's Pizza",
     locationId: "commonwealth-avenue",
@@ -81,7 +81,7 @@ export const nicksFavorites: NicksFavorite[] = [
     mapOrder: 9
   },
   {
-    id: "nicks-favorite-smacarons",
+    id: "masslive-favorite-smacarons",
     name: "S'macarons",
     vendor: "Vermont Marshmallow Company",
     locationId: "state-buildings",
@@ -90,13 +90,13 @@ export const nicksFavorites: NicksFavorite[] = [
   }
 ];
 
-// Helper function to get Nick's favorites by map order
-export const getNicksFavoritesByPriority = (limit?: number): NicksFavorite[] => {
-  const sorted = nicksFavorites.sort((a, b) => a.mapOrder - b.mapOrder);
+// Helper function to get MassLive favorites by map order
+export const getMassLiveFavoritesByPriority = (limit?: number): MassLiveFavorite[] => {
+  const sorted = massLiveFavorites.sort((a, b) => a.mapOrder - b.mapOrder);
   return limit ? sorted.slice(0, limit) : sorted;
 };
 
 // Helper function to get favorites for a specific location
-export const getNicksFavoritesForLocation = (locationId: string): NicksFavorite[] => {
-  return nicksFavorites.filter(fav => fav.locationId === locationId);
+export const getMassLiveFavoritesForLocation = (locationId: string): MassLiveFavorite[] => {
+  return massLiveFavorites.filter(fav => fav.locationId === locationId);
 };

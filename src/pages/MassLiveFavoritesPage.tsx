@@ -1,12 +1,12 @@
-import { NicksFavoritesSection } from "@/components/NicksFavorites";
+import { MassLiveFavoritesSection } from "@/components/MassLiveFavorites";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, User, Star, MapPin } from "lucide-react";
+import { ArrowLeft, Star, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
-import { nicksFavorites } from "@/data/nicksFavorites";
+import { massLiveFavorites } from "@/data/massLiveFavorites";
 
-const NicksFavoritesPage = () => {
+const MassLiveFavoritesPage = () => {
   return (
     <div className="min-h-screen bg-gradient-subtle">
       {/* Header */}
@@ -20,10 +20,10 @@ const NicksFavoritesPage = () => {
           </Link>
           <div className="flex items-center gap-4 mb-4">
             <div className="p-3 bg-primary-foreground/20 rounded-lg">
-              <User className="w-8 h-8" />
+              <Star className="w-8 h-8" />
             </div>
             <div>
-              <h1 className="text-3xl md:text-4xl font-bold">Nick's Favorites</h1>
+              <h1 className="text-3xl md:text-4xl font-bold">MassLive Favorites</h1>
               <p className="text-primary-foreground/90 text-lg">
                 Hand-picked must-try foods at the Big E
               </p>
@@ -32,7 +32,7 @@ const NicksFavoritesPage = () => {
           <div className="flex items-center gap-4 mt-4">
             <Badge variant="secondary" className="bg-primary-foreground/20 text-primary-foreground border-primary-foreground/30">
               <Star className="w-4 h-4 mr-2" />
-              {nicksFavorites.length} Curated Picks
+              {massLiveFavorites.length} Curated Picks
             </Badge>
             <Badge variant="secondary" className="bg-accent/20 text-primary-foreground border-accent/30">
               <MapPin className="w-4 h-4 mr-2" />
@@ -48,13 +48,13 @@ const NicksFavoritesPage = () => {
           <CardContent className="p-6">
             <div className="flex items-start gap-4">
               <div className="p-2 bg-accent/20 rounded-lg flex-shrink-0">
-                <User className="w-6 h-6 text-accent" />
+                <Star className="w-6 h-6 text-accent" />
               </div>
               <div>
-                <h2 className="text-xl font-bold text-foreground mb-2">About Nick's Picks</h2>
+                <h2 className="text-xl font-bold text-foreground mb-2">About MassLive Favorites</h2>
                 <p className="text-muted-foreground mb-4">
-                  With dozens of vendors and hundreds of food options, it can be pretty overwhelming to try and actually pick out what to eat at the fair. 
-                  With that in mind, here are Nick's picks for what folks should eat at the fair. You don't need to try all 10, but if you're looking to narrow things down, here's the short list.
+                  With dozens of vendors and hundreds of food options, it can be overwhelming to figure out what to eat at the fair.
+                  These MassLive favorites are a curated shortlist to help you plan a great food route. You don't need to try all 10, but if you're looking to narrow things down, this list helps.
                 </p>
                 <p className="text-sm text-muted-foreground/80 mb-4 italic">
                   Note: These are not ranked by preference. They're just ordered by where they are on the map.
@@ -83,13 +83,13 @@ const NicksFavoritesPage = () => {
           </CardContent>
         </Card>
 
-        {/* All Nick's Favorites */}
-        <NicksFavoritesSection showHeader={false} limit={undefined} showMap={true} />
+        {/* All MassLive Favorites */}
+        <MassLiveFavoritesSection showHeader={false} limit={undefined} showMap={true} />
 
         {/* Tips Section */}
         <Card className="shadow-card bg-gradient-warm mt-8">
           <CardContent className="p-6">
-            <h3 className="text-xl font-bold text-accent-foreground mb-4">Pro Tips from Nick</h3>
+            <h3 className="text-xl font-bold text-accent-foreground mb-4">Pro Tips from MassLive</h3>
             <ul className="space-y-2 text-accent-foreground/90">
               <li className="flex items-start gap-2">
                 <Star className="w-4 h-4 text-accent-foreground mt-0.5 flex-shrink-0" />
@@ -116,7 +116,7 @@ const NicksFavoritesPage = () => {
           <CardContent className="p-6 text-center">
             <h3 className="text-lg font-semibold text-foreground mb-2">Source & Attribution</h3>
             <p className="text-muted-foreground mb-4">
-              Nick's curated favorites are based on extensive research and the comprehensive Big E Eater's Guide 2025 by MassLive.
+              This curated list is based on extensive research and the comprehensive Big E Eater's Guide 2025 by MassLive.
             </p>
             <a 
               href="https://www.masslive.com/the-big-e/2025/09/the-big-e-eaters-guide-2025-what-to-eat-and-where-to-find-it.html"
@@ -134,4 +134,4 @@ const NicksFavoritesPage = () => {
   );
 };
 
-export default NicksFavoritesPage;
+export default MassLiveFavoritesPage;
