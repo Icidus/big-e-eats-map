@@ -1,10 +1,12 @@
 import { LocationCard } from "@/components/LocationCard";
+import { NicksFavoritesSection } from "@/components/NicksFavorites";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { MapPin, Search, Calendar, Users } from "lucide-react";
 import { locations } from "@/data/locations";
+import { nicksFavorites } from "@/data/nicksFavorites";
 import { useState } from "react";
 import heroImage from "@/assets/big-e-hero.jpg";
 
@@ -40,7 +42,7 @@ const Index = () => {
                 Big E Fair 2025
               </h1>
               <p className="text-xl md:text-2xl mb-6 drop-shadow-md opacity-95">
-                Your Family's Guide to the Best Fair Food
+                Your Family's Guide to the Best Fair Food + Nick's Curated Favorites
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
                 <Badge variant="secondary" className="bg-primary-foreground/20 text-primary-foreground border-primary-foreground/30 text-sm px-3 py-1">
@@ -78,17 +80,20 @@ const Index = () => {
           </Card>
           <Card className="shadow-card bg-card/95 backdrop-blur">
             <CardContent className="p-4 text-center">
-              <div className="text-2xl font-bold text-accent mb-1">{totalRecommended}</div>
-              <div className="text-sm text-muted-foreground">Recommended</div>
+              <div className="text-2xl font-bold text-accent mb-1">{nicksFavorites.length}</div>
+              <div className="text-sm text-muted-foreground">Nick's Picks</div>
             </CardContent>
           </Card>
           <Card className="shadow-card bg-card/95 backdrop-blur">
             <CardContent className="p-4 text-center">
-              <div className="text-2xl font-bold text-secondary mb-1">2025</div>
-              <div className="text-sm text-muted-foreground">Fair Year</div>
+              <div className="text-2xl font-bold text-secondary mb-1">{totalRecommended}</div>
+              <div className="text-sm text-muted-foreground">Recommended</div>
             </CardContent>
           </Card>
         </div>
+
+        {/* Nick's Favorites Section */}
+        <NicksFavoritesSection limit={6} showMassLiveLink={true} />
 
         {/* Search Section */}
         <Card className="shadow-card mb-8">

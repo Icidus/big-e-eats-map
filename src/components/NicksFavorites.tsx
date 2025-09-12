@@ -1,0 +1,197 @@
+import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Star, MapPin, User, ArrowRight } from "lucide-react";
+import { NicksFavorite, getNicksFavoritesByPriority } from "@/data/nicksFavorites";
+
+interface NicksFavoriteCardProps {
+  favorite: NicksFavorite;
+  compact?: boolean;
+}
+
+export const NicksFavoriteCard = ({ favorite, compact = false }: NicksFavoriteCardProps) => {
+  return (
+    <Card className="shadow-card hover:shadow-warm transition-all duration-200 border-l-4 border-l-accent">
+      <CardContent className={`p-${compact ? '4' : '6'}`}>
+        <div className="flex items-start justify-between mb-3">
+          <div className="flex-1">
+            <div className="flex items-center gap-2 mb-2">
+              <Star className="w-4 h-4 text-accent fill-accent" />
+              <Badge variant="secondary" className="text-xs bg-accent/20 text-accent">
+                Nick's Pick
+              </Badge>
+            </div>
+            <h3 className={`font-bold text-foreground mb-1 ${compact ? 'text-lg' : 'text-xl'}`}>
+              {favorite.name}
+            </h3>
+            <p className="text-sm text-muted-foreground mb-1">
+              {favorite.vendor}
+            </p>
+            <div className="flex items-center gap-1 text-xs text-muted-foreground mb-2">
+              <MapPin className="w-3 h-3" />
+              {favorite.locationName}
+            </div>
+          </div>
+        </div>
+        
+        {favorite.nickComment && (
+          <div className="bg-accent/10 border border-accent/20 rounded-lg p-3 mb-4">
+            <div className="flex items-start gap-2">
+              <User className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+              <div>
+                <p className="text-xs font-medium text-accent mb-1">Nick says:</p>
+                <p className="text-sm text-foreground italic">"{favorite.nickComment}"</p>
+              </div>
+            </div>
+          </div>
+        )}
+        
+        <div className="flex items-center justify-between">
+          <Link to={`/location/${favorite.locationId}`}>
+            <Button variant="outline" size="sm" className="hover:bg-accent hover:text-accent-foreground">
+              Visit Location
+              <ArrowRight className="w-4 h-4 ml-2" />
+            </Button>
+          </Link>
+          <Badge variant="outline" className="text-xs">
+            <MapPin className="w-3 h-3 mr-1" />
+            {favorite.locationName}
+          </Badge>
+        </div>
+      </CardContent>
+    </Card>
+  );
+};
+
+interface NicksFavoritesSectionProps {
+  limit?: number;
+  showHeader?: boolean;
+  compact?: boolean;
+  showMassLiveLink?: boolean;
+  showMap?: boolean;
+}
+
+export const NicksFavoritesSection = ({ 
+  limit = 10, 
+  showHeader = true, 
+  compact = false,
+  showMassLiveLink = false,
+  showMap = false
+}: NicksFavoritesSectionProps) => {
+  const favorites = getNicksFavoritesByPriority(limit);
+  const [mapImage, setMapImage] = useState<string | null>(null);
+  const [mapLoading, setMapLoading] = useState(false);
+
+  // Load Nick's favorites map
+  useEffect(() => {
+    if (!showMap) return;
+    
+    const loadMapImage = async () => {
+      setMapLoading(true);
+      try {
+        const mapModule = await import(`@/assets/maps/locations/nicks-favorites.png`);
+        setMapImage(mapModule.default);
+      } catch (error) {
+        console.log('No Nick\'s favorites map found');
+        setMapImage(null);
+      } finally {
+        setMapLoading(false);
+      }
+    };
+
+    loadMapImage();
+  }, [showMap]);
+
+  return (
+    <section className="mb-12">
+      {showMap && (
+        <Card className="shadow-card mb-8">
+          <CardContent className="p-6">
+            <div className="flex items-center gap-2 mb-4">
+              <MapPin className="w-5 h-5 text-primary" />
+              <h3 className="text-xl font-semibold text-foreground">Nick's Favorites Map</h3>
+            </div>
+            {mapLoading ? (
+              <div className="bg-muted rounded-lg p-8 text-center">
+                <MapPin className="w-12 h-12 text-primary mx-auto mb-4 animate-pulse" />
+                <p className="text-muted-foreground">Loading map...</p>
+              </div>
+            ) : mapImage ? (
+              <div className="rounded-lg overflow-hidden">
+                <img 
+                  src={mapImage} 
+                  alt="Nick's Favorites Location Map"
+                  className="w-full h-auto max-h-96 object-contain bg-muted rounded-lg"
+                />
+              </div>
+            ) : (
+              <div className="bg-muted rounded-lg p-8 text-center">
+                <MapPin className="w-12 h-12 text-primary mx-auto mb-4" />
+                <p className="text-muted-foreground">
+                  Map showing all Nick's favorite locations coming soon!
+                </p>
+              </div>
+            )}
+          </CardContent>
+        </Card>
+      )}
+      
+      {showHeader && (
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-3">
+            <div className="p-2 bg-accent/20 rounded-lg">
+              <User className="w-6 h-6 text-accent" />
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold text-foreground">Nick's Favorites</h2>
+              <p className="text-muted-foreground">Hand-picked must-try foods at the Big E</p>
+            </div>
+          </div>
+          <Badge variant="secondary" className="bg-accent/20 text-accent">
+            {favorites.length} Picks
+          </Badge>
+        </div>
+      )}
+      
+      <div className={`grid gap-${compact ? '4' : '6'} ${compact ? 'md:grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-3'}`}>
+        {favorites.map((favorite) => (
+          <NicksFavoriteCard 
+            key={favorite.id} 
+            favorite={favorite} 
+            compact={compact}
+          />
+        ))}
+      </div>
+      
+      {limit && favorites.length >= limit && (
+        <div className="text-center mt-6">
+          <Link to="/nicks-favorites">
+            <Button variant="festival" size="lg">
+              View All Nick's Favorites
+              <ArrowRight className="w-4 h-4 ml-2" />
+            </Button>
+          </Link>
+        </div>
+      )}
+      
+      {showMassLiveLink && (
+        <div className="text-center mt-6 pt-4 border-t border-border">
+          <p className="text-sm text-muted-foreground mb-2">
+            Based on the comprehensive Big E food guide by MassLive
+          </p>
+          <a 
+            href="https://www.masslive.com/the-big-e/2025/09/the-big-e-eaters-guide-2025-what-to-eat-and-where-to-find-it.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium"
+          >
+            Read the Full MassLive Big E Eater's Guide 2025
+            <ArrowRight className="w-4 h-4" />
+          </a>
+        </div>
+      )}
+    </section>
+  );
+};
