@@ -1040,6 +1040,11 @@ export const locations: Location[] = [
       "description": null
     },
     {
+      "id": "veggie-patch-tempura-plate",
+      "name": "Tempura Plate",
+      "vendor": "Veggie Patch"
+    },
+    {
       "id": "veggie-patch-buffalo-cauliflower-wings",
       "name": "Buffalo Cauliflower Wings",
       "vendor": "Veggie Patch",
@@ -1223,6 +1228,11 @@ export const locations: Location[] = [
       "description": null
     },
     {
+      "id": "ebs-food-for-fun-fried-mac-cheese-balls-bacon",
+      "name": "Fried Mac & Cheese Balls w/ Bacon",
+      "vendor": "EB’s Food For Fun"
+    },
+    {
       "id": "hofbrauhaus-oktoberfest-biergarten-bratwurst-in-a-blanket",
       "name": "Bratwurst in a Blanket",
       "vendor": "Hofbrauhaus Oktoberfest Biergarten",
@@ -1233,6 +1243,11 @@ export const locations: Location[] = [
       "name": "Potato Pancakes",
       "vendor": "Hofbrauhaus Oktoberfest Biergarten",
       "description": null
+    },
+    {
+      "id": "hofbrauhaus-oktoberfest-biergarten-fried-camembert-cheese",
+      "name": "Fried Camembert Cheese",
+      "vendor": "Hofbrauhaus Oktoberfest Biergarten"
     },
     {
       "id": "hofbrauhaus-oktoberfest-biergarten-pork-chops",
@@ -1714,6 +1729,11 @@ export const locations: Location[] = [
     {
       "id": "big-kahunas-gluten-friendly",
       "name": "Gluten-Friendly Options",
+      "vendor": "Big Kahuna’s"
+    },
+    {
+      "id": "big-kahunas-dr-pepper-pickle-juice",
+      "name": "Dr. Pepper Pickle Juice",
       "vendor": "Big Kahuna’s"
     },
     {

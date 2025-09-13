@@ -69,8 +69,10 @@ const RULES: Array<{
   { category: 'smoothie', patterns: [/\bsmoothies?\b/, /\btie-?dye smoothie\b/] },
   { category: 'coffee',   patterns: [/\bcoffee\b/, /\bespresso\b/, /\biced coffee\b/] },
   { category: 'tea',      patterns: [/\bbubble tea\b/, /\btea\b/] },
-  { category: 'lemonade', patterns: [/\blemonade\b/] },
-  { category: 'soda',     patterns: [/\bsoda\b/] },
+  { category: 'lemonade', patterns: [/\blemonade\b/, /\b(?:strawberry|pink|blue)\s+lemonade\b/i, /\b(?:limeade|orangeade|cherryade)\b/i] },
+  { category: 'soda',     patterns: [/\bsoda\b/, /\b(pop|soft drink)\b/i, /\b(dr\.?\s*pepper|coca-?cola|pepsi|mountain dew|sprite|root beer|ginger ale)\b/i] },
+  // Treat generic juices as drinks (fallback is 'drink' tag also handles this)
+  { category: 'drink',    patterns: [/\bjuice(s)?\b/] },
   { category: 'water',    patterns: [/\bwater\b/] },
   { category: 'drink',    patterns: [/\bdrinks?\b/] },
 
