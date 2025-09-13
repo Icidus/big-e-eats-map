@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -13,6 +13,7 @@ import { getLocationMapPath, PLACEHOLDER_MAP } from "@/assets/maps/mapUtils";
 
 export default function LocationDetail() {
   const { id } = useParams<{ id: string }>();
+  const routerLocation = useLocation();
   const [searchQuery, setSearchQuery] = useState("");
   const [mapImage, setMapImage] = useState<string | null>(null);
   const [mapLoading, setMapLoading] = useState(false);
@@ -38,6 +39,13 @@ export default function LocationDetail() {
 
     loadMapImage();
   }, [location]);
+
+  // Populate search from query param (for deep links from Home)
+  useEffect(() => {
+    const params = new URLSearchParams(routerLocation.search);
+    const q = params.get('q');
+    if (q) setSearchQuery(q);
+  }, [routerLocation.search]);
 
   if (!location) {
     return (
