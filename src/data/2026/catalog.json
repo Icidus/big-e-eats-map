@@ -1,1 +1,3893 @@
-[]
+[
+  {
+    "id": "tater-tot-heaven-tater-tot-buckets",
+    "year": 2026,
+    "name": "Tater Tot Buckets",
+    "vendor": "Tater Tot Heaven",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Tater Tot Buckets as an offering from Tater Tot Heaven.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "tater-tot-heaven-strawberry-lemonade",
+    "year": 2026,
+    "name": "Strawberry Lemonade",
+    "vendor": "Tater Tot Heaven",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Strawberry Lemonade as an offering from Tater Tot Heaven.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "tater-tot-heaven-fountain-drinks",
+    "year": 2026,
+    "name": "Fountain Drinks",
+    "vendor": "Tater Tot Heaven",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Fountain Drinks as an offering from Tater Tot Heaven.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "cantina-louie-burrito-bowl",
+    "year": 2026,
+    "name": "Burrito Bowl",
+    "vendor": "Cantina Louie",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Burrito Bowl as an offering from Cantina Louie.",
+    "categoryIds": [
+      "tacos-mexican"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "cantina-louie-traditional-tacos",
+    "year": 2026,
+    "name": "Traditional Tacos",
+    "vendor": "Cantina Louie",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Traditional Tacos as an offering from Cantina Louie.",
+    "categoryIds": [
+      "tacos-mexican"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "cantina-louie-walking-taco",
+    "year": 2026,
+    "name": "Walking Taco",
+    "vendor": "Cantina Louie",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Walking Taco as an offering from Cantina Louie.",
+    "categoryIds": [
+      "tacos-mexican"
+    ],
+    "tagIds": [
+      "savory",
+      "spicy",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "cantina-louie-birria-tacos",
+    "year": 2026,
+    "name": "Birria Tacos",
+    "vendor": "Cantina Louie",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Birria Tacos as an offering from Cantina Louie.",
+    "categoryIds": [
+      "tacos-mexican"
+    ],
+    "tagIds": [
+      "savory",
+      "birria",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "cantina-louie-loaded-nachos",
+    "year": 2026,
+    "name": "Loaded Nachos",
+    "vendor": "Cantina Louie",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Loaded Nachos as an offering from Cantina Louie.",
+    "categoryIds": [
+      "tacos-mexican"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "cantina-louie-corn-on-a-stick",
+    "year": 2026,
+    "name": "Corn on a Stick",
+    "vendor": "Cantina Louie",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Corn on a Stick as an offering from Cantina Louie.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory",
+      "food-on-a-stick",
+      "spicy",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "cantina-louie-mango-loco",
+    "year": 2026,
+    "name": "Mango Loco",
+    "vendor": "Cantina Louie",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Mango Loco as an offering from Cantina Louie.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "spicy",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "cantina-louie-frozen-margarita-mocktail",
+    "year": 2026,
+    "name": "Frozen Margarita Mocktail",
+    "vendor": "Cantina Louie",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Frozen Margarita Mocktail as an offering from Cantina Louie.",
+    "categoryIds": [
+      "mocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "deep-fried-calzones",
+    "year": 2026,
+    "name": "Deep-fried Calzones",
+    "vendor": "Deep-fried Calzones",
+    "locationIds": [
+      "industrial-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Deep-fried Calzones as an offering from Deep-fried Calzones.",
+    "categoryIds": [
+      "pizza-italian"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "golden-k-dog-korean-corndogs",
+    "year": 2026,
+    "name": "Korean Corndogs",
+    "vendor": "Golden K-Dog",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies Korean Corndogs as an offering from Golden K-Dog.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "golden-k-dog-classic-corndogs",
+    "year": 2026,
+    "name": "Classic Corndogs",
+    "vendor": "Golden K-Dog",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies Classic Corndogs as an offering from Golden K-Dog.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "golden-k-dog-half-and-half-korean-corndog",
+    "year": 2026,
+    "name": "Half & Half Korean Corndog",
+    "vendor": "Golden K-Dog",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies Half & Half Korean Corndog as an offering from Golden K-Dog.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "golden-k-dog-cinnamozza",
+    "year": 2026,
+    "name": "CinnaMozza",
+    "vendor": "Golden K-Dog",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies CinnaMozza as an offering from Golden K-Dog.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "sweet",
+      "cheese",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "golden-k-dog-half-and-half-flamin-hot-cheetos",
+    "year": 2026,
+    "name": "Half & Half Flamin’ Hot Cheetos",
+    "vendor": "Golden K-Dog",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies Half & Half Flamin’ Hot Cheetos as an offering from Golden K-Dog.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory",
+      "spicy",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "ks-japanese-deep-fried-sushi",
+    "year": 2026,
+    "name": "Deep-Fried Sushi",
+    "vendor": "K’s Japanese Restaurant Food Court",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Deep-Fried Sushi as an offering from K’s Japanese Restaurant Food Court.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "ks-japanese-push-up-sushi-pops",
+    "year": 2026,
+    "name": "Push-Up Sushi Pops",
+    "vendor": "K’s Japanese Restaurant Food Court",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Push-Up Sushi Pops as an offering from K’s Japanese Restaurant Food Court.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
+      "spicy",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "mclaughlin-maine-blueberry-ice-cream",
+    "year": 2026,
+    "name": "Maine Blueberry",
+    "vendor": "McLaughlin Family Homemade Ice Cream",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "The official 2026 New Foods listing names Maine blueberry among this vendor's homemade ice cream flavors.",
+    "categoryIds": [
+      "ice-cream"
+    ],
+    "tagIds": [
+      "sweet",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "mclaughlin-sea-salt-caramel-ice-cream",
+    "year": 2026,
+    "name": "Sea Salt Caramel",
+    "vendor": "McLaughlin Family Homemade Ice Cream",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "The official 2026 New Foods listing names sea salt caramel among this vendor's homemade ice cream flavors.",
+    "categoryIds": [
+      "ice-cream"
+    ],
+    "tagIds": [
+      "sweet",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "mclaughlin-pumpkin-chocolate-chip-ice-cream",
+    "year": 2026,
+    "name": "Pumpkin Chocolate Chip",
+    "vendor": "McLaughlin Family Homemade Ice Cream",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "The official 2026 New Foods listing names pumpkin chocolate chip among this vendor's homemade ice cream flavors.",
+    "categoryIds": [
+      "ice-cream"
+    ],
+    "tagIds": [
+      "sweet",
+      "pumpkin",
+      "chocolate",
+      "fall-flavors",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "mclaughlin-chocolate-coconut-ice-cream",
+    "year": 2026,
+    "name": "Chocolate Coconut",
+    "vendor": "McLaughlin Family Homemade Ice Cream",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "The official 2026 New Foods listing names chocolate coconut among this vendor's homemade ice cream flavors.",
+    "categoryIds": [
+      "ice-cream"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "moose-joose-fall-in-a-cup",
+    "year": 2026,
+    "name": "Fall in a Cup",
+    "vendor": "Moose Joose Slush",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Fall in a Cup as an offering from Moose Joose Slush.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "apple",
+      "fall-flavors",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "moose-joose-strawberry-cheesecake-slush",
+    "year": 2026,
+    "name": "Strawberry Cheesecake Slush",
+    "vendor": "Moose Joose Slush",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Strawberry Cheesecake Slush as an offering from Moose Joose Slush.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "moose-joose-summerween",
+    "year": 2026,
+    "name": "Summerween",
+    "vendor": "Moose Joose Slush",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Summerween as an offering from Moose Joose Slush.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "rickeys-jerky-assorted-beef-jerky",
+    "year": 2026,
+    "name": "Assorted Beef Jerky",
+    "vendor": "Rickey’s Jerky",
+    "locationIds": [
+      "better-living-center"
+    ],
+    "description": "The official 2026 New Foods listing identifies Assorted Beef Jerky as an offering from Rickey’s Jerky.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "simply-gluten-free-funnel-cakes",
+    "year": 2026,
+    "name": "Funnel Cakes",
+    "vendor": "Simply Gluten Free",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Funnel Cakes as an offering from Simply Gluten Free.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "fried",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "simply-gluten-free-fried-oreos",
+    "year": 2026,
+    "name": "Fried Oreos",
+    "vendor": "Simply Gluten Free",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Fried Oreos as an offering from Simply Gluten Free.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "fried",
+      "chocolate",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "simply-gluten-free-corndogs",
+    "year": 2026,
+    "name": "Corndogs",
+    "vendor": "Simply Gluten Free",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Corndogs as an offering from Simply Gluten Free.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "simply-gluten-free-chicken-tenders",
+    "year": 2026,
+    "name": "Chicken Tenders",
+    "vendor": "Simply Gluten Free",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Chicken Tenders as an offering from Simply Gluten Free.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "simply-gluten-free-jumbo-mozzarella-stick",
+    "year": 2026,
+    "name": "Jumbo Mozzarella Stick",
+    "vendor": "Simply Gluten Free",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Jumbo Mozzarella Stick as an offering from Simply Gluten Free.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "cheese",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "simply-gluten-free-fountain-lemonade",
+    "year": 2026,
+    "name": "Fountain Lemonade",
+    "vendor": "Simply Gluten Free",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Fountain Lemonade as an offering from Simply Gluten Free.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "spudtastic-all-american-sweet-potato",
+    "year": 2026,
+    "name": "All-American Sweet Potato",
+    "vendor": "Spudtastic",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies All-American Sweet Potato as an offering from Spudtastic.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "sweet",
+      "apple",
+      "fall-flavors",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "spudtastic-plain-jane",
+    "year": 2026,
+    "name": "Plain Jane",
+    "vendor": "Spudtastic",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Plain Jane as an offering from Spudtastic.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "sweet",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "spudtastic-batata",
+    "year": 2026,
+    "name": "Batata",
+    "vendor": "Spudtastic",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Batata as an offering from Spudtastic.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "spudtastic-sweet-potato-fries",
+    "year": 2026,
+    "name": "Sweet Potato Fries",
+    "vendor": "Spudtastic",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Sweet Potato Fries as an offering from Spudtastic.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "sweet",
+      "hot-honey",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "spudtastic-sweet-potato-ribbon-fries",
+    "year": 2026,
+    "name": "Sweet Potato Ribbon Fries",
+    "vendor": "Spudtastic",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Sweet Potato Ribbon Fries as an offering from Spudtastic.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "sweet",
+      "hot-honey",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sweet-and-salty-founders-fizz",
+    "year": 2026,
+    "name": "Founder’s Fizz",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Founder’s Fizz as an offering from Sweet & Salty.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sweet-and-salty-fluffy-cola",
+    "year": 2026,
+    "name": "Fluffy Cola",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Fluffy Cola as an offering from Sweet & Salty.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sweet-and-salty-sweet-shirley",
+    "year": 2026,
+    "name": "Sweet Shirley",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Sweet Shirley as an offering from Sweet & Salty.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sweet-and-salty-cotton-candy-cloud",
+    "year": 2026,
+    "name": "Cotton Candy Cloud",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Cotton Candy Cloud as an offering from Sweet & Salty.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "sweet",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sweet-and-salty-autumn-apple",
+    "year": 2026,
+    "name": "Autumn Apple",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Autumn Apple as an offering from Sweet & Salty.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "apple",
+      "fall-flavors",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sweet-and-salty-dirty-dot-cake",
+    "year": 2026,
+    "name": "Dirty Dot Cake",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Dirty Dot Cake as an offering from Sweet & Salty.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sweet-and-salty-slush-milk",
+    "year": 2026,
+    "name": "Slush Milk",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Slush Milk as an offering from Sweet & Salty.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sweet-and-salty-island-treasure",
+    "year": 2026,
+    "name": "Island Treasure",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Island Treasure as an offering from Sweet & Salty.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sweet-and-salty-hallowtacular",
+    "year": 2026,
+    "name": "Hallowtacular",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Hallowtacular as an offering from Sweet & Salty.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sweet-and-salty-mocha-chocolate-craze",
+    "year": 2026,
+    "name": "Mocha Chocolate Craze",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Mocha Chocolate Craze as an offering from Sweet & Salty.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "chocolate",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sweet-and-salty-pumpkin-spice-dirty-soda",
+    "year": 2026,
+    "name": "Pumpkin Spice dirty soda",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Pumpkin Spice dirty soda as an offering from Sweet & Salty.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "pumpkin",
+      "fall-flavors",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "tripps-hashbrown-breakfast-sandwich",
+    "year": 2026,
+    "name": "Hashbrown Breakfast Sandwich",
+    "vendor": "Tripp’s Farmhouse Café",
+    "locationIds": [
+      "craft-common"
+    ],
+    "description": "The official 2026 New Foods listing identifies Hashbrown Breakfast Sandwich as an offering from Tripp’s Farmhouse Café.",
+    "categoryIds": [
+      "breakfast"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "tripps-donuts",
+    "year": 2026,
+    "name": "Donuts",
+    "vendor": "Tripp’s Farmhouse Café",
+    "locationIds": [
+      "craft-common"
+    ],
+    "description": "The official 2026 New Foods listing identifies Donuts as an offering from Tripp’s Farmhouse Café.",
+    "categoryIds": [
+      "donuts-pastries"
+    ],
+    "tagIds": [
+      "sweet",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "tripps-brownies",
+    "year": 2026,
+    "name": "Brownies",
+    "vendor": "Tripp’s Farmhouse Café",
+    "locationIds": [
+      "craft-common"
+    ],
+    "description": "The official 2026 New Foods listing identifies Brownies as an offering from Tripp’s Farmhouse Café.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "tripps-fried-oreos",
+    "year": 2026,
+    "name": "Fried Oreos",
+    "vendor": "Tripp’s Farmhouse Café",
+    "locationIds": [
+      "craft-common"
+    ],
+    "description": "The official 2026 New Foods listing identifies Fried Oreos as an offering from Tripp’s Farmhouse Café.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "fried",
+      "chocolate",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "tripps-chicken-fingers",
+    "year": 2026,
+    "name": "Chicken Fingers",
+    "vendor": "Tripp’s Farmhouse Café",
+    "locationIds": [
+      "craft-common"
+    ],
+    "description": "The official 2026 New Foods listing identifies Chicken Fingers as an offering from Tripp’s Farmhouse Café.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "tripps-grass-fed-burgers",
+    "year": 2026,
+    "name": "Grass-fed Burgers",
+    "vendor": "Tripp’s Farmhouse Café",
+    "locationIds": [
+      "craft-common"
+    ],
+    "description": "The official 2026 New Foods listing identifies Grass-fed Burgers as an offering from Tripp’s Farmhouse Café.",
+    "categoryIds": [
+      "burgers"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "tripps-french-fries",
+    "year": 2026,
+    "name": "French Fries",
+    "vendor": "Tripp’s Farmhouse Café",
+    "locationIds": [
+      "craft-common"
+    ],
+    "description": "The official 2026 New Foods listing identifies French Fries as an offering from Tripp’s Farmhouse Café.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "savory",
+      "new-vendor"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "big-e-bakery-peanut-butter-cream-puff",
+    "year": 2026,
+    "name": "Peanut Butter Cream Puff",
+    "vendor": "The Big E Bakery",
+    "locationIds": [
+      "new-england-avenue",
+      "better-living-center",
+      "hampden-avenue",
+      "avenue-of-states"
+    ],
+    "description": "The official 2026 New Foods listing identifies Peanut Butter Cream Puff as an offering from The Big E Bakery.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "all-american-stinger-cheeseburger",
+    "year": 2026,
+    "name": "The Stinger Cheeseburger",
+    "vendor": "All American Craft Beer Bar & Grill",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies The Stinger Cheeseburger as an offering from All American Craft Beer Bar & Grill.",
+    "categoryIds": [
+      "burgers"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese",
+      "spicy"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "apple-fries-best-of-both-worlds",
+    "year": 2026,
+    "name": "The Best of Both Worlds Apple Fries",
+    "vendor": "Apple Fries",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies The Best of Both Worlds Apple Fries as an offering from Apple Fries.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "sweet",
+      "apple",
+      "hot-honey",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "apple-fries-creamsicle-slush",
+    "year": 2026,
+    "name": "Creamsicle Slush",
+    "vendor": "Apple Fries",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Creamsicle Slush as an offering from Apple Fries.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "barbies-frozen-cheesecake-dipped-in-chocolate",
+    "year": 2026,
+    "name": "Frozen Cheesecake Dipped in Chocolate",
+    "vendor": "Barbie’s Ice Cream",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Frozen Cheesecake Dipped in Chocolate as an offering from Barbie’s Ice Cream.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "barbies-upside-down-banana-split",
+    "year": 2026,
+    "name": "Upside-down Banana Split",
+    "vendor": "Barbie’s Ice Cream",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Upside-down Banana Split as an offering from Barbie’s Ice Cream.",
+    "categoryIds": [
+      "ice-cream"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "big-kahunas-fried-feta-cheese-cubes",
+    "year": 2026,
+    "name": "Fried Feta Cheese Cubes",
+    "vendor": "Big Kahuna’s",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Fried Feta Cheese Cubes as an offering from Big Kahuna’s.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "boricua-xl-empanada-cheesy-dog",
+    "year": 2026,
+    "name": "XL Empanada Cheesy Dog",
+    "vendor": "Boricua Bites",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies XL Empanada Cheesy Dog as an offering from Boricua Bites.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "broccoli-bar-broccarita",
+    "year": 2026,
+    "name": "The Broccarita",
+    "vendor": "Broccoli Bar",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies The Broccarita as an offering from Broccoli Bar.",
+    "categoryIds": [
+      "mocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "bunis-apple-crumble-cinnamon-roll",
+    "year": 2026,
+    "name": "Apple Crumble Cinnamon Roll",
+    "vendor": "Buni’s Bakery",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Apple Crumble Cinnamon Roll as an offering from Buni’s Bakery.",
+    "categoryIds": [
+      "donuts-pastries"
+    ],
+    "tagIds": [
+      "sweet",
+      "apple",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "butcher-boys-pop-pops-greek-burger",
+    "year": 2026,
+    "name": "Pop Pop’s Greek Burger",
+    "vendor": "Butcher Boys",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Pop Pop’s Greek Burger as an offering from Butcher Boys.",
+    "categoryIds": [
+      "burgers"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "butcher-boys-rice-and-bean-bowls",
+    "year": 2026,
+    "name": "Rice and Bean Bowls",
+    "vendor": "Butcher Boys",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies Rice and Bean Bowls as an offering from Butcher Boys.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "butcher-boys-london-broil-steak-sandwich",
+    "year": 2026,
+    "name": "London Broil Steak Sandwich",
+    "vendor": "Butcher Boys",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies London Broil Steak Sandwich as an offering from Butcher Boys.",
+    "categoryIds": [
+      "sandwiches"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "butcher-boys-charbroiled-chicken-pita",
+    "year": 2026,
+    "name": "Charbroiled Chicken Pita",
+    "vendor": "Butcher Boys",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies Charbroiled Chicken Pita as an offering from Butcher Boys.",
+    "categoryIds": [
+      "sandwiches"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "calabrese-panella",
+    "year": 2026,
+    "name": "Panella",
+    "vendor": "Calabrese Market",
+    "locationIds": [
+      "food-court",
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Panella as an offering from Calabrese Market.",
+    "categoryIds": [
+      "sandwiches"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "calabrese-brie-fig-prosciutto",
+    "year": 2026,
+    "name": "Brie Cheese, Fig Jam and Prosciutto",
+    "vendor": "Calabrese Market",
+    "locationIds": [
+      "food-court",
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Brie Cheese, Fig Jam and Prosciutto as an offering from Calabrese Market.",
+    "categoryIds": [
+      "sandwiches"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "calabrese-fluffernutter",
+    "year": 2026,
+    "name": "Fluffernutter",
+    "vendor": "Calabrese Market",
+    "locationIds": [
+      "food-court",
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Fluffernutter as an offering from Calabrese Market.",
+    "categoryIds": [
+      "sandwiches"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "calabrese-artery-clogger",
+    "year": 2026,
+    "name": "The Artery Clogger",
+    "vendor": "Calabrese Market",
+    "locationIds": [
+      "food-court",
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies The Artery Clogger as an offering from Calabrese Market.",
+    "categoryIds": [
+      "sandwiches"
+    ],
+    "tagIds": [
+      "sweet",
+      "cheese",
+      "bacon"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "calabrese-alcoholic-bellinis",
+    "year": 2026,
+    "name": "Alcoholic Bellinis",
+    "vendor": "Calabrese Market",
+    "locationIds": [
+      "food-court",
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Alcoholic Bellinis as an offering from Calabrese Market.",
+    "categoryIds": [
+      "cocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "chocolate-moonshine-chocolate-covered-pickles",
+    "year": 2026,
+    "name": "Chocolate-covered Pickles",
+    "vendor": "Chocolate Moonshine",
+    "locationIds": [
+      "better-living-center",
+      "young-building",
+      "industrial-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Chocolate-covered Pickles as an offering from Chocolate Moonshine.",
+    "categoryIds": [
+      "candy"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate",
+      "pickle"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "chocolate-moonshine-candy-lollipops",
+    "year": 2026,
+    "name": "Candy Lollipops",
+    "vendor": "Chocolate Moonshine",
+    "locationIds": [
+      "better-living-center",
+      "young-building",
+      "industrial-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Candy Lollipops as an offering from Chocolate Moonshine.",
+    "categoryIds": [
+      "candy"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "chompers-chicken-pot-pie-chompers",
+    "year": 2026,
+    "name": "Chicken Pot Pie Chompers",
+    "vendor": "Chompers",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Chicken Pot Pie Chompers as an offering from Chompers.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "cinnamon-saloon-apple-cider-slush",
+    "year": 2026,
+    "name": "Apple Cider Slush",
+    "vendor": "Cinnamon Saloon",
+    "locationIds": [
+      "hampden-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Apple Cider Slush as an offering from Cinnamon Saloon.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "apple",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "crave-ube-coconut-cloud-with-jelly",
+    "year": 2026,
+    "name": "Ube Coconut Cloud with Jelly",
+    "vendor": "Crave Café",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "The official 2026 New Foods listing identifies Ube Coconut Cloud with Jelly as an offering from Crave Café.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "crave-strawberry-mojito-sparkling-boba",
+    "year": 2026,
+    "name": "Strawberry Mojito Sparkling Boba",
+    "vendor": "Crave Café",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "The official 2026 New Foods listing identifies Strawberry Mojito Sparkling Boba as an offering from Crave Café.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "crave-honey-dew-milk-tea-with-tapioca",
+    "year": 2026,
+    "name": "Honey Dew Milk Tea with Tapioca",
+    "vendor": "Crave Café",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "The official 2026 New Foods listing identifies Honey Dew Milk Tea with Tapioca as an offering from Crave Café.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "crave-caramelized-orange-butter-crepe",
+    "year": 2026,
+    "name": "The Caramelized Orange Butter Crêpe",
+    "vendor": "Crave Café",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "The official 2026 New Foods listing identifies The Caramelized Orange Butter Crêpe as an offering from Crave Café.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "crave-cookie-butter-crepe",
+    "year": 2026,
+    "name": "Cookie Butter Crêpe",
+    "vendor": "Crave Café",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "The official 2026 New Foods listing identifies Cookie Butter Crêpe as an offering from Crave Café.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "dollys-classic-cheddar-cheese-dog",
+    "year": 2026,
+    "name": "Classic Cheddar Cheese Dog",
+    "vendor": "Dolly’s Honky Tonk",
+    "locationIds": [
+      "industrial-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Classic Cheddar Cheese Dog as an offering from Dolly’s Honky Tonk.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "dollys-chili-cheese-dog",
+    "year": 2026,
+    "name": "Chili Cheese Dog",
+    "vendor": "Dolly’s Honky Tonk",
+    "locationIds": [
+      "industrial-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Chili Cheese Dog as an offering from Dolly’s Honky Tonk.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "dollys-pulled-pork-cheese-dog",
+    "year": 2026,
+    "name": "Pulled Pork Cheese Dog",
+    "vendor": "Dolly’s Honky Tonk",
+    "locationIds": [
+      "industrial-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Pulled Pork Cheese Dog as an offering from Dolly’s Honky Tonk.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "downeast-cream-puff-cider",
+    "year": 2026,
+    "name": "Cream Puff",
+    "vendor": "Downeast Cider Garden",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "A 5% ABV cider inspired by The Big E Bakery's cream puff.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic",
+      "apple"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "dr-vegetable-nashville-hot-pickles",
+    "year": 2026,
+    "name": "Nashville Hot Pickles",
+    "vendor": "Dr. Vegetable",
+    "locationIds": [
+      "springfield-road",
+      "hampden-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Nashville Hot Pickles as an offering from Dr. Vegetable.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "pickle",
+      "spicy"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "dribbles-mini-pancakes",
+    "year": 2026,
+    "name": "Mini Pancakes",
+    "vendor": "Dribbles",
+    "locationIds": [
+      "better-living-center"
+    ],
+    "description": "The official 2026 New Foods listing identifies Mini Pancakes as an offering from Dribbles.",
+    "categoryIds": [
+      "breakfast"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "ebs-fried-turkey-dinner",
+    "year": 2026,
+    "name": "Everything-but-the-football-game Fried Turkey Dinner",
+    "vendor": "E.B.’s",
+    "locationIds": [
+      "food-court",
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Everything-but-the-football-game Fried Turkey Dinner as an offering from E.B.’s.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
+      "fried"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "kora-milas-brandy-old-fashioned-cookie-dough",
+    "year": 2026,
+    "name": "Brandy Old Fashioned Cookie Dough",
+    "vendor": "Kora & Mila's Cookie Dough",
+    "locationIds": [
+      "hampden-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Brandy Old Fashioned Cookie Dough as an offering from Kora & Mila's Cookie Dough.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate",
+      "food-on-a-stick"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "ferrindino-maple-creemee-bacon-waffle",
+    "year": 2026,
+    "name": "Maple Creemee Bacon Waffle",
+    "vendor": "Ferrindino Maple",
+    "locationIds": [
+      "better-living-center"
+    ],
+    "description": "The official 2026 New Foods listing identifies Maple Creemee Bacon Waffle as an offering from Ferrindino Maple.",
+    "categoryIds": [
+      "ice-cream"
+    ],
+    "tagIds": [
+      "sweet",
+      "maple",
+      "bacon"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "fluffys-cookie-butter-cheesecake-donut",
+    "year": 2026,
+    "name": "Cookie Butter Cheesecake Donut",
+    "vendor": "Fluffy’s Hand Cut Donuts",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Cookie Butter Cheesecake Donut as an offering from Fluffy’s Hand Cut Donuts.",
+    "categoryIds": [
+      "donuts-pastries"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "granville-mac-n-cheese-bread-bowl",
+    "year": 2026,
+    "name": "Mac ‘n Cheese Bread Bowl",
+    "vendor": "Granville Country Store",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies Mac ‘n Cheese Bread Bowl as an offering from Granville Country Store.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "granville-kansas-city-potato",
+    "year": 2026,
+    "name": "Kansas City Potato",
+    "vendor": "Granville Country Store",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies Kansas City Potato as an offering from Granville Country Store.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "harpoon-reuben",
+    "year": 2026,
+    "name": "Reuben",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Reuben as an offering from Harpoon Beer Hall.",
+    "categoryIds": [
+      "sandwiches"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "harpoon-maple-bourbon-bacon-corned-beef-sandwich",
+    "year": 2026,
+    "name": "Maple Bourbon Bacon Corned Beef Sandwich",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Maple Bourbon Bacon Corned Beef Sandwich as an offering from Harpoon Beer Hall.",
+    "categoryIds": [
+      "sandwiches"
+    ],
+    "tagIds": [
+      "savory",
+      "maple",
+      "bacon"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "hofbrauhaus-reuben-egg-rolls",
+    "year": 2026,
+    "name": "Reuben Egg Rolls",
+    "vendor": "Hofbrauhaus Beer Garden",
+    "locationIds": [
+      "food-court",
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Reuben Egg Rolls as an offering from Hofbrauhaus Beer Garden.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "hofbrauhaus-famous-goulash-stew",
+    "year": 2026,
+    "name": "Hofbrauhaus Famous Goulash Stew",
+    "vendor": "Hofbrauhaus Beer Garden",
+    "locationIds": [
+      "food-court",
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Hofbrauhaus Famous Goulash Stew as an offering from Hofbrauhaus Beer Garden.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "hofbrauhaus-deep-fried-reuben-wrap",
+    "year": 2026,
+    "name": "Deep-fried Reuben Wrap",
+    "vendor": "Hofbrauhaus Beer Garden",
+    "locationIds": [
+      "food-court",
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Deep-fried Reuben Wrap as an offering from Hofbrauhaus Beer Garden.",
+    "categoryIds": [
+      "sandwiches"
+    ],
+    "tagIds": [
+      "savory",
+      "fried"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "hofbrauhaus-german-home-fries",
+    "year": 2026,
+    "name": "German Home Fries with Westphalian Ham",
+    "vendor": "Hofbrauhaus Beer Garden",
+    "locationIds": [
+      "food-court",
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies German Home Fries with Westphalian Ham as an offering from Hofbrauhaus Beer Garden.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "jacks-chicken-bacon-ranch-fries",
+    "year": 2026,
+    "name": "Jack’s Signature Fries",
+    "vendor": "Jack’s Fries",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Jack's signature fries are newly available loaded with chicken, bacon, and ranch.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "savory",
+      "bacon"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "jacks-fried-spicy-pickle-fries",
+    "year": 2026,
+    "name": "Fried Spicy Pickle Fries",
+    "vendor": "Jack’s Fries",
+    "locationIds": [
+      "industrial-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Fried Spicy Pickle Fries as an offering from Jack’s Fries.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "pickle",
+      "spicy"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "jims-deep-fried-birria-taco",
+    "year": 2026,
+    "name": "Deep-fried Birria Taco",
+    "vendor": "Jim’s Deep Fried Taco",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Deep-fried Birria Taco as an offering from Jim’s Deep Fried Taco.",
+    "categoryIds": [
+      "tacos-mexican"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "birria"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "jims-nacho-grande",
+    "year": 2026,
+    "name": "The Nacho Grande",
+    "vendor": "Jim’s Deep Fried Taco",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies The Nacho Grande as an offering from Jim’s Deep Fried Taco.",
+    "categoryIds": [
+      "tacos-mexican"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "las-kangris-yellow-rice",
+    "year": 2026,
+    "name": "Yellow Rice",
+    "vendor": "Las Kangris Food Truck",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "Yellow rice newly served with green pigeon peas.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "luanns-build-your-own-brownie-bar",
+    "year": 2026,
+    "name": "Build-Your-Own Brownie Bar",
+    "vendor": "LuAnn’s Bakery",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Build-Your-Own Brownie Bar as an offering from LuAnn’s Bakery.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate"
+    ],
+    "dietaryClaims": [
+      "gluten-free"
+    ],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "macho-taco-birria-bomb",
+    "year": 2026,
+    "name": "Birria Bomb",
+    "vendor": "Macho Taco",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Birria Bomb as an offering from Macho Taco.",
+    "categoryIds": [
+      "tacos-mexican"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "birria",
+      "spicy"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "meatball-factory-sushi-corndog",
+    "year": 2026,
+    "name": "Sushi Corndog",
+    "vendor": "Meatball Factory",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "The official 2026 New Foods listing identifies Sushi Corndog as an offering from Meatball Factory.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "moolicious-campfire-on-a-stick",
+    "year": 2026,
+    "name": "Campfire on a Stick",
+    "vendor": "Moolicious Farm",
+    "locationIds": [
+      "west-road",
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Campfire on a Stick as an offering from Moolicious Farm.",
+    "categoryIds": [
+      "ice-cream"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate",
+      "food-on-a-stick"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "moolicious-buttered-popcorn-soft-serve",
+    "year": 2026,
+    "name": "Buttered Popcorn Soft Serve",
+    "vendor": "Moolicious Farm",
+    "locationIds": [
+      "west-road",
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Buttered Popcorn Soft Serve as an offering from Moolicious Farm.",
+    "categoryIds": [
+      "ice-cream"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "nola-cajun-lobster-tail",
+    "year": 2026,
+    "name": "Cajun Lobster Tail",
+    "vendor": "NOLA Cajun Kitchen & Raw Bar",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Cajun Lobster Tail as an offering from NOLA Cajun Kitchen & Raw Bar.",
+    "categoryIds": [
+      "seafood"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "nola-crawfish-po-boy",
+    "year": 2026,
+    "name": "Crawfish Po’ Boy",
+    "vendor": "NOLA Cajun Kitchen & Raw Bar",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Crawfish Po’ Boy as an offering from NOLA Cajun Kitchen & Raw Bar.",
+    "categoryIds": [
+      "seafood"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "nola-hush-puppy-skewers",
+    "year": 2026,
+    "name": "Hush Puppy Skewers",
+    "vendor": "NOLA Cajun Kitchen & Raw Bar",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Hush Puppy Skewers as an offering from NOLA Cajun Kitchen & Raw Bar.",
+    "categoryIds": [
+      "seafood"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "hot-honey",
+      "food-on-a-stick"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "poppies-green-tea-refresher",
+    "year": 2026,
+    "name": "Green Tea Refresher",
+    "vendor": "Poppie’s Fresh Onion Rings",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Green Tea Refresher as an offering from Poppie’s Fresh Onion Rings.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "poppies-lemonade-refresher",
+    "year": 2026,
+    "name": "Lemonade Refresher",
+    "vendor": "Poppie’s Fresh Onion Rings",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Lemonade Refresher as an offering from Poppie’s Fresh Onion Rings.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "porkys-pork-belly-lollipops",
+    "year": 2026,
+    "name": "Pork Belly Lollipops",
+    "vendor": "Porky’s BBQ Concessions",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Pork Belly Lollipops as an offering from Porky’s BBQ Concessions.",
+    "categoryIds": [
+      "barbecue"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "poutine-hot-honey-and-bacon-poutine",
+    "year": 2026,
+    "name": "Hot Honey and Bacon Poutine",
+    "vendor": "Poutine Gourmet",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Hot Honey and Bacon Poutine as an offering from Poutine Gourmet.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "savory",
+      "hot-honey",
+      "bacon",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "rudys-baked-potato-pizza",
+    "year": 2026,
+    "name": "Baked Potato Pizza",
+    "vendor": "Rudy’s Pizza",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Baked Potato Pizza as an offering from Rudy’s Pizza.",
+    "categoryIds": [
+      "pizza-italian"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese",
+      "bacon"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "rudys-frozen-pickle-lemonade-slush",
+    "year": 2026,
+    "name": "Frozen Pickle Lemonade Slush",
+    "vendor": "Rudy’s Slush",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Frozen Pickle Lemonade Slush as an offering from Rudy’s Slush.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "pickle"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "sam-adams-headless-pumpkin-cider",
+    "year": 2026,
+    "name": "Headless Pumpkin Cider",
+    "vendor": "Sam Adams Beer Garden",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "The official 2026 New Foods listing identifies Headless Pumpkin Cider as an offering from Sam Adams Beer Garden.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic",
+      "pumpkin",
+      "apple",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "steaming-tender-smores-whiskey-bread-pudding",
+    "year": 2026,
+    "name": "S’mores Whiskey Bread Pudding",
+    "vendor": "Steaming Tender",
+    "locationIds": [
+      "craft-common"
+    ],
+    "description": "The official 2026 New Foods listing identifies S’mores Whiskey Bread Pudding as an offering from Steaming Tender.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "storrowton-fried-boneless-chicken-basket",
+    "year": 2026,
+    "name": "Fried Boneless Chicken Basket",
+    "vendor": "Storrowton Soup Shack",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "The official 2026 New Foods listing identifies Fried Boneless Chicken Basket as an offering from Storrowton Soup Shack.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
+      "fried"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "donut-family-star-spangled-mini-donuts",
+    "year": 2026,
+    "name": "Star-Spangled White Chocolate Raspberry Mini Donuts",
+    "vendor": "The Donut Family",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Star-Spangled White Chocolate Raspberry Mini Donuts as an offering from The Donut Family.",
+    "categoryIds": [
+      "donuts-pastries"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "indian-restaurant-vada-pav",
+    "year": 2026,
+    "name": "Vada Pav",
+    "vendor": "The Indian Restaurant in the Food Court",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Vada Pav as an offering from The Indian Restaurant in the Food Court.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
+      "spicy"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "italian-pavillion-arancini",
+    "year": 2026,
+    "name": "Arancini",
+    "vendor": "The Italian Pavillion",
+    "locationIds": [
+      "industrial-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Arancini as an offering from The Italian Pavillion.",
+    "categoryIds": [
+      "pizza-italian"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "italian-pavillion-gnocchi-and-tortellini",
+    "year": 2026,
+    "name": "Gnocchi and Tortellini",
+    "vendor": "The Italian Pavillion",
+    "locationIds": [
+      "industrial-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Gnocchi and Tortellini as an offering from The Italian Pavillion.",
+    "categoryIds": [
+      "pizza-italian"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "italian-pavillion-garlic-knots",
+    "year": 2026,
+    "name": "Garlic Knots",
+    "vendor": "The Italian Pavillion",
+    "locationIds": [
+      "industrial-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Garlic Knots as an offering from The Italian Pavillion.",
+    "categoryIds": [
+      "pizza-italian"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "italian-pavillion-gelato",
+    "year": 2026,
+    "name": "Gelato",
+    "vendor": "The Italian Pavillion",
+    "locationIds": [
+      "industrial-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Gelato as an offering from The Italian Pavillion.",
+    "categoryIds": [
+      "ice-cream"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "the-mick-alfredo-pasta-bomb",
+    "year": 2026,
+    "name": "The Alfredo Pasta Bomb",
+    "vendor": "The Mick",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "The official 2026 New Foods listing identifies The Alfredo Pasta Bomb as an offering from The Mick.",
+    "categoryIds": [
+      "pizza-italian"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "new-england-craft-beer-pub-cheeseburger-nachos",
+    "year": 2026,
+    "name": "Cheeseburger Nachos",
+    "vendor": "The New England Craft Beer Pub",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "The official 2026 New Foods listing identifies Cheeseburger Nachos as an offering from The New England Craft Beer Pub.",
+    "categoryIds": [
+      "tacos-mexican"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "paddock-the-stack",
+    "year": 2026,
+    "name": "The Stack",
+    "vendor": "The Paddock",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies The Stack as an offering from The Paddock.",
+    "categoryIds": [
+      "burgers"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "paddock-loaded-sweet-potato-fries",
+    "year": 2026,
+    "name": "Loaded Sweet Potato Fries",
+    "vendor": "The Paddock",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Loaded Sweet Potato Fries as an offering from The Paddock.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "tootsies-deep-fried-cheesecake",
+    "year": 2026,
+    "name": "Deep-fried Cheesecake",
+    "vendor": "Tootsie’s Fried Dough",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Deep-fried Cheesecake as an offering from Tootsie’s Fried Dough.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "fried",
+      "food-on-a-stick"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "v-one-snow-globe-martini",
+    "year": 2026,
+    "name": "Snow Globe Martini",
+    "vendor": "V-One Vodka",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "The official 2026 New Foods listing identifies Snow Globe Martini as an offering from V-One Vodka.",
+    "categoryIds": [
+      "cocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "v-one-caramel-apple",
+    "year": 2026,
+    "name": "Caramel Apple",
+    "vendor": "V-One Vodka",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "The official 2026 New Foods listing identifies Caramel Apple as an offering from V-One Vodka.",
+    "categoryIds": [
+      "cocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic",
+      "apple",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "v-one-salted-caramel-espresso-martini",
+    "year": 2026,
+    "name": "Salted Caramel Espresso Martini",
+    "vendor": "V-One Vodka",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "The official 2026 New Foods listing identifies Salted Caramel Espresso Martini as an offering from V-One Vodka.",
+    "categoryIds": [
+      "cocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "v-one-ultra-premium-vodka-seltzer",
+    "year": 2026,
+    "name": "Ulta-Premium Vodka Seltzer",
+    "vendor": "V-One Vodka",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "V-One's first canned vodka seltzer, offered in Late Checkout Lime and Late Checkout Raspberry.",
+    "categoryIds": [
+      "cocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "veggie-patch-dr-pepper-pickle-juice",
+    "year": 2026,
+    "name": "Dr. Pepper Pickle Juice",
+    "vendor": "Veggie Patch",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Dr. Pepper Pickle Juice as an offering from Veggie Patch.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "pickle"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "veggie-patch-sweet-chili-cauliflower-wings",
+    "year": 2026,
+    "name": "Sweet Chili Cauliflower Wings",
+    "vendor": "Veggie Patch",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Sweet Chili Cauliflower Wings as an offering from Veggie Patch.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
+      "spicy"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "veggie-patch-fried-deviled-eggs",
+    "year": 2026,
+    "name": "Fried Deviled Eggs",
+    "vendor": "Veggie Patch",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Fried Deviled Eggs as an offering from Veggie Patch.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "bacon"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "wave-caramel-apple-mocktail",
+    "year": 2026,
+    "name": "Caramel Apple Mocktail",
+    "vendor": "W.A.V.E. Mocktail Bar",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "The official 2026 New Foods listing identifies Caramel Apple Mocktail as an offering from W.A.V.E. Mocktail Bar.",
+    "categoryIds": [
+      "mocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "apple",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "west-springfield-lions-flatliner-hot-dog",
+    "year": 2026,
+    "name": "Flatliner Hot Dog",
+    "vendor": "West Springfield Lions Club",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Flatliner Hot Dog as an offering from West Springfield Lions Club.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory",
+      "bacon",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "west-springfield-lions-flatliner-burger",
+    "year": 2026,
+    "name": "Flatliner Burger",
+    "vendor": "West Springfield Lions Club",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Flatliner Burger as an offering from West Springfield Lions Club.",
+    "categoryIds": [
+      "burgers"
+    ],
+    "tagIds": [
+      "savory",
+      "bacon",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "white-hut-uncrusta-double-burger",
+    "year": 2026,
+    "name": "Uncrusta Double Burger",
+    "vendor": "White Hut in the Food Court",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Uncrusta Double Burger as an offering from White Hut in the Food Court.",
+    "categoryIds": [
+      "burgers"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "wurst-haus-german-mac-n-cheese",
+    "year": 2026,
+    "name": "German Mac ‘n Cheese",
+    "vendor": "Wurst Haus",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies German Mac ‘n Cheese as an offering from Wurst Haus.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese",
+      "bacon"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "wurst-haus-apple-pretzel-bites",
+    "year": 2026,
+    "name": "Apple Pretzel Bites",
+    "vendor": "Wurst Haus",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "The official 2026 New Foods listing identifies Apple Pretzel Bites as an offering from Wurst Haus.",
+    "categoryIds": [
+      "donuts-pastries"
+    ],
+    "tagIds": [
+      "sweet",
+      "apple",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "yankee-boy-smoked-honey-barbeque-sticky-wings",
+    "year": 2026,
+    "name": "Smoked Honey Barbeque Sticky Wings",
+    "vendor": "Yankee Boy",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Smoked Honey Barbeque Sticky Wings as an offering from Yankee Boy.",
+    "categoryIds": [
+      "barbecue"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "yankee-boy-colossal-centennial-lobster-roll",
+    "year": 2026,
+    "name": "Colossal Centennial Lobster Roll",
+    "vendor": "Yankee Boy",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Colossal Centennial Lobster Roll as an offering from Yankee Boy.",
+    "categoryIds": [
+      "seafood"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "yankee-boy-wagyu-beef-surf-n-turf-burger",
+    "year": 2026,
+    "name": "Wagyu Beef Surf 'n Turf Burger",
+    "vendor": "Yankee Boy",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "The official 2026 New Foods listing identifies Wagyu Beef Surf 'n Turf Burger as an offering from Yankee Boy.",
+    "categoryIds": [
+      "burgers"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  }
+]

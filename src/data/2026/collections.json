@@ -1,1 +1,119 @@
-[]
+[
+  {
+    "id": "wildest-new-foods",
+    "title": "Wildest New Foods",
+    "description": "Five especially unexpected 2026 fair foods from the official listing.",
+    "itemIds": [
+      "white-hut-uncrusta-double-burger",
+      "yankee-boy-wagyu-beef-surf-n-turf-burger",
+      "meatball-factory-sushi-corndog",
+      "macho-taco-birria-bomb",
+      "veggie-patch-fried-deviled-eggs"
+    ],
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "cocktails-and-mocktails",
+    "title": "Cocktails and Mocktails",
+    "description": "Source-listed cocktails and mocktails, with the nonalcoholic choices first.",
+    "itemIds": [
+      "wave-caramel-apple-mocktail",
+      "cantina-louie-frozen-margarita-mocktail",
+      "broccoli-bar-broccarita",
+      "calabrese-alcoholic-bellinis",
+      "v-one-snow-globe-martini",
+      "v-one-caramel-apple",
+      "v-one-salted-caramel-espresso-martini",
+      "v-one-ultra-premium-vodka-seltzer"
+    ],
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "desserts-worth-the-detour",
+    "title": "Desserts Worth the Detour",
+    "description": "Five source-listed sweet stops across the fairgrounds.",
+    "itemIds": [
+      "big-e-bakery-peanut-butter-cream-puff",
+      "tootsies-deep-fried-cheesecake",
+      "fluffys-cookie-butter-cheesecake-donut",
+      "ferrindino-maple-creemee-bacon-waffle",
+      "moolicious-campfire-on-a-stick"
+    ],
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "gluten-free-fair-food",
+    "title": "Gluten-Free Fair Food",
+    "description": "Only choices carrying an explicit gluten-free statement on the official page.",
+    "itemIds": [
+      "simply-gluten-free-funnel-cakes",
+      "simply-gluten-free-fried-oreos",
+      "simply-gluten-free-corndogs",
+      "simply-gluten-free-chicken-tenders",
+      "simply-gluten-free-jumbo-mozzarella-stick",
+      "simply-gluten-free-fountain-lemonade",
+      "tripps-hashbrown-breakfast-sandwich",
+      "tripps-donuts",
+      "tripps-brownies",
+      "tripps-fried-oreos",
+      "tripps-chicken-fingers",
+      "tripps-grass-fed-burgers",
+      "tripps-french-fries",
+      "luanns-build-your-own-brownie-bar"
+    ],
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "fall-flavors",
+    "title": "Fall Flavors",
+    "description": "Apple, pumpkin, and autumn-inspired drinks from the 2026 listing.",
+    "itemIds": [
+      "moose-joose-fall-in-a-cup",
+      "cinnamon-saloon-apple-cider-slush",
+      "sam-adams-headless-pumpkin-cider",
+      "wave-caramel-apple-mocktail",
+      "sweet-and-salty-pumpkin-spice-dirty-soda"
+    ],
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "savory-food-on-a-stick",
+    "title": "Savory Food on a Stick",
+    "description": "Savory source-listed foods explicitly presented on sticks or skewers.",
+    "itemIds": [
+      "cantina-louie-corn-on-a-stick",
+      "nola-hush-puppy-skewers"
+    ],
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  }
+]
