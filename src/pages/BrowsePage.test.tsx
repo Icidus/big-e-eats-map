@@ -271,8 +271,18 @@ describe("filter sheet", () => {
 
     await user.click(screen.getByRole("button", { name: /^filters/i }));
     const status = screen.getByRole("status", { name: /result count/i });
-    const count = Number(status.textContent?.match(/\d+/)?.[0]);
-    expect(screen.getByRole("button", { name: `Show ${count} results` })).toBeInTheDocument();
+    const initialCount = Number(status.textContent?.match(/\d+/)?.[0]);
+    expect(screen.getByRole("button", { name: `Show ${initialCount} results` })).toBeInTheDocument();
+
+    // Toggling a facet without closing the sheet should update the footer count live,
+    // in step with the same aria-live status the sticky bar shows.
+    await user.click(screen.getByLabelText("Burgers"));
+
+    await waitFor(() => {
+      const updatedCount = Number(status.textContent?.match(/\d+/)?.[0]);
+      expect(updatedCount).not.toBe(initialCount);
+      expect(screen.getByRole("button", { name: `Show ${updatedCount} results` })).toBeInTheDocument();
+    });
   });
 
   it("moves sort into the sheet", async () => {
