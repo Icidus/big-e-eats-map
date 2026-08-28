@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render, screen } from "@testing-library/react";
+import { cleanup, fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { PLAN_STORAGE_KEY } from "./planStore";
 import { FoodPlanProvider, useFoodPlan } from "./FoodPlanProvider";
@@ -55,13 +55,17 @@ function renderPlan(storage: MemoryStorage) {
   );
 }
 
+function readPersistedPlan(storage: MemoryStorage) {
+  return JSON.parse(storage.getItem(PLAN_STORAGE_KEY) ?? "null");
+}
+
 afterEach(() => {
   cleanup();
   vi.unstubAllGlobals();
 });
 
 describe("FoodPlanProvider", () => {
-  it("loads once and updates actions while persisting normalized plan state", () => {
+  it("loads once and updates actions while persisting normalized plan state", async () => {
     const storage = new MemoryStorage({
       [PLAN_STORAGE_KEY]: JSON.stringify({ itemIds: ["a"], checkedIds: ["a"] }),
     });
@@ -70,7 +74,7 @@ describe("FoodPlanProvider", () => {
     expect(screen.getByTestId("item-ids")).toHaveTextContent("a");
     expect(screen.getByTestId("checked-ids")).toHaveTextContent("a");
     expect(screen.getByTestId("has-a")).toHaveTextContent("true");
-    expect(JSON.parse(storage.getItem(PLAN_STORAGE_KEY)!)).toEqual({ itemIds: ["a"], checkedIds: ["a"] });
+    expect(readPersistedPlan(storage)).toEqual({ itemIds: ["a"], checkedIds: ["a"] });
 
     fireEvent.click(screen.getByRole("button", { name: "add a" }));
     fireEvent.click(screen.getByRole("button", { name: "add b" }));
@@ -78,24 +82,31 @@ describe("FoodPlanProvider", () => {
 
     expect(screen.getByTestId("item-ids")).toHaveTextContent("a,b");
     expect(screen.getByTestId("checked-ids")).toBeEmptyDOMElement();
-    expect(JSON.parse(storage.getItem(PLAN_STORAGE_KEY)!)).toEqual({ itemIds: ["a", "b"], checkedIds: [] });
+    await waitFor(() => {
+      expect(readPersistedPlan(storage)).toEqual({ itemIds: ["a", "b"], checkedIds: [] });
+    });
   });
 
-  it("removes associated checks and ignores check toggles for unselected IDs", () => {
+  it("removes associated checks and never persists an unselected checked ID", async () => {
     const storage = new MemoryStorage({
       [PLAN_STORAGE_KEY]: JSON.stringify({ itemIds: ["a"], checkedIds: ["a"] }),
     });
     renderPlan(storage);
 
     fireEvent.click(screen.getByRole("button", { name: "remove a" }));
+    await waitFor(() => {
+      expect(readPersistedPlan(storage)).toEqual({ itemIds: [], checkedIds: [] });
+    });
+
     fireEvent.click(screen.getByRole("button", { name: "toggle missing" }));
 
     expect(screen.getByTestId("item-ids")).toBeEmptyDOMElement();
     expect(screen.getByTestId("checked-ids")).toBeEmptyDOMElement();
     expect(screen.getByTestId("has-a")).toHaveTextContent("false");
+    expect(readPersistedPlan(storage)).toEqual({ itemIds: [], checkedIds: [] });
   });
 
-  it("replaces selected IDs and merges new IDs in first-selection order", () => {
+  it("replaces selected IDs and merges new IDs in first-selection order", async () => {
     const storage = new MemoryStorage({
       [PLAN_STORAGE_KEY]: JSON.stringify({ itemIds: ["a"], checkedIds: ["a"] }),
     });
@@ -104,10 +115,16 @@ describe("FoodPlanProvider", () => {
     fireEvent.click(screen.getByRole("button", { name: "replace" }));
     expect(screen.getByTestId("item-ids")).toHaveTextContent("b,a");
     expect(screen.getByTestId("checked-ids")).toHaveTextContent("a");
+    await waitFor(() => {
+      expect(readPersistedPlan(storage)).toEqual({ itemIds: ["b", "a"], checkedIds: ["a"] });
+    });
 
     fireEvent.click(screen.getByRole("button", { name: "merge" }));
     expect(screen.getByTestId("item-ids")).toHaveTextContent("b,a,c");
     expect(screen.getByTestId("checked-ids")).toHaveTextContent("a");
+    await waitFor(() => {
+      expect(readPersistedPlan(storage)).toEqual({ itemIds: ["b", "a", "c"], checkedIds: ["a"] });
+    });
   });
 
   it("continues updating state when local storage reads or writes throw", () => {
