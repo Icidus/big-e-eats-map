@@ -1,14 +1,16 @@
-import { collections, locations } from "@/features/catalog/catalog";
+import { collections, locations, vendorOptions } from "@/features/catalog/catalog";
 import { CATEGORIES, DIETARY_CLAIMS, TAGS, type CategoryId, type DietaryClaim, type TagId } from "@/features/catalog/taxonomy";
 import { EMPTY_DISCOVERY_STATE, type DiscoveryState, type SortMode } from "./types";
 
 const categoryIds = CATEGORIES.map(([id]) => id);
 const collectionIds = collections.map((collection) => collection.id);
 const locationIds = locations.map((location) => location.id);
+const vendorIds = vendorOptions.map((vendor) => vendor.id);
 const sortModes = ["relevance", "name", "vendor", "location"] as const;
 
 export function parseDiscoveryState(parameters: URLSearchParams): DiscoveryState {
-  const query = parameters.get("q")?.trim() ?? "";
+  const rawQuery = parameters.get("q") ?? "";
+  const query = rawQuery.trim() ? rawQuery : "";
   const collectionId = readControlledValue(parameters, "collection", collectionIds);
   const sort = readControlledValue(parameters, "sort", sortModes);
 
@@ -18,6 +20,7 @@ export function parseDiscoveryState(parameters: URLSearchParams): DiscoveryState
     tagIds: readControlledValues(parameters, "tags", TAGS) as TagId[],
     dietaryClaims: readControlledValues(parameters, "dietary", DIETARY_CLAIMS) as DietaryClaim[],
     locationIds: readControlledValues(parameters, "locations", [...locationIds, "tbd"]),
+    vendorIds: readControlledValues(parameters, "vendors", vendorIds),
     ...(collectionId ? { collectionId } : {}),
     ...(sort ? { sort: sort as SortMode } : {}),
   };
@@ -25,13 +28,14 @@ export function parseDiscoveryState(parameters: URLSearchParams): DiscoveryState
 
 export function serializeDiscoveryState(state: DiscoveryState): URLSearchParams {
   const parameters = new URLSearchParams();
-  const query = state.query.trim();
+  const query = state.query.trim() ? state.query : "";
 
   if (query) parameters.set("q", query);
   setList(parameters, "categories", state.categoryIds, categoryIds);
   setList(parameters, "tags", state.tagIds, TAGS);
   setList(parameters, "dietary", state.dietaryClaims, DIETARY_CLAIMS);
   setList(parameters, "locations", state.locationIds, [...locationIds, "tbd"]);
+  setList(parameters, "vendors", state.vendorIds, vendorIds);
   if (state.collectionId && collectionIds.includes(state.collectionId)) parameters.set("collection", state.collectionId);
   if (state.sort && sortModes.includes(state.sort)) parameters.set("sort", state.sort);
 

@@ -8,6 +8,7 @@ export interface DiscoveryState {
   tagIds: TagId[];
   dietaryClaims: DietaryClaim[];
   locationIds: string[];
+  vendorIds: string[];
   collectionId?: string;
   sort?: SortMode;
 }
@@ -18,4 +19,5 @@ export const EMPTY_DISCOVERY_STATE: DiscoveryState = {
   tagIds: [],
   dietaryClaims: [],
   locationIds: [],
+  vendorIds: [],
 };

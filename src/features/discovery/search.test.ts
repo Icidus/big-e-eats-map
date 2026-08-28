@@ -11,9 +11,9 @@ const source = {
 };
 
 const locations: FairLocation[] = [
-  { id: "the-front-porch", name: "The Front Porch", description: "Porch", mapImage: "porch.png", order: 2 },
-  { id: "east-road", name: "East Road", description: "East", mapImage: "east.png", order: 7 },
-  { id: "west-road", name: "West Road", description: "West", mapImage: "west.png", order: 8 },
+  { id: "the-front-porch", name: "The Front Porch", description: "Porch", order: 2 },
+  { id: "east-road", name: "East Road", description: "East", order: 7 },
+  { id: "west-road", name: "West Road", description: "West", order: 8 },
 ];
 
 function item(overrides: Partial<CatalogItem> & Pick<CatalogItem, "id" | "name">): CatalogItem {
@@ -88,6 +88,16 @@ describe("searchAndFilter", () => {
     }, context);
 
     expect(results.filter((result) => result.id === "multi-location")).toHaveLength(1);
+  });
+
+  it("uses OR within the vendor facet and AND across other facets", () => {
+    const results = searchAndFilter(items, {
+      ...EMPTY_DISCOVERY_STATE,
+      vendorIds: ["alpha-drinks", "zulu-sweets"],
+      categoryIds: ["cocktails"],
+    }, context);
+
+    expect(results.map((result) => result.id)).toEqual(["front-cocktail"]);
   });
 
   it("ranks exact names above fuzzy description and vendor matches", () => {

@@ -10,7 +10,6 @@ export interface PlanState {
 export interface PlanGroup {
   id: string;
   name: string;
-  mapImage?: string;
   items: CatalogItem[];
 }
 
@@ -91,7 +90,7 @@ export function groupPlanItems(items: CatalogItem[], locations: FairLocation[]):
   const groups = [...knownGroups.entries()]
     .map(([id, groupItems]) => {
       const location = locationsById.get(id)!;
-      return { id, name: location.name, mapImage: location.mapImage, items: groupItems };
+      return { id, name: location.name, items: groupItems };
     })
     .sort((first, second) => locationsById.get(first.id)!.order - locationsById.get(second.id)!.order);
 

@@ -1,6 +1,6 @@
 import { cleanup, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { MemoryRouter, useLocation, useNavigate } from "react-router-dom";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
 import { AppRoutes } from "./App";
@@ -49,5 +49,19 @@ describe("legacy public routes", () => {
 
     await user.click(screen.getByRole("button", { name: "Back" }));
     expect(screen.getByTestId("route-location")).toHaveTextContent(/^\/browse$/);
+  });
+});
+
+describe("not-found navigation", () => {
+  it("keeps the return-home link inside a non-root router basename", () => {
+    const consoleError = vi.spyOn(console, "error").mockImplementation(() => undefined);
+    render(
+      <MemoryRouter basename="/food-guide" initialEntries={["/food-guide/missing"]}>
+        <FoodPlanProvider><AppRoutes /></FoodPlanProvider>
+      </MemoryRouter>,
+    );
+
+    expect(screen.getByRole("link", { name: /return to home/i })).toHaveAttribute("href", "/food-guide");
+    consoleError.mockRestore();
   });
 });

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { loadCatalogData } from "./catalog";
+import { loadCatalogData, vendorIdForName } from "./catalog";
 
 const source = {
   publisher: "The Big E",
@@ -11,7 +11,6 @@ const location = {
   id: "the-front-porch",
   name: "The Front Porch",
   description: "A fairground food and entertainment area.",
-  mapImage: "the-front-porch.png",
   order: 2,
 };
 const item = {
@@ -70,5 +69,39 @@ describe("loadCatalogData", () => {
       locations: [location],
       collections: [{ id: "picks", title: "Picks", description: "Editor picks", itemIds: ["missing"] }],
     })).toThrow(/collection/i);
+  });
+
+  it("rejects an item without a controlled category", () => {
+    expect(() => loadCatalogData({
+      items: [{ ...item, categoryIds: [] }],
+      locations: [location],
+      collections: [],
+    })).toThrow(/categoryIds/i);
+  });
+
+  it("exposes deterministic ordered vendor options and name lookup", () => {
+    const data = loadCatalogData({
+      items: [item, { ...item, id: "apple-treat", vendor: "Apple Booth" }],
+      locations: [location],
+      collections: [],
+    });
+
+    expect(vendorIdForName("W.A.V.E. Mocktail Bar")).toBe("w-a-v-e-mocktail-bar");
+    expect(data.vendorOptions).toEqual([
+      { id: "apple-booth", name: "Apple Booth" },
+      { id: "w-a-v-e-mocktail-bar", name: "W.A.V.E. Mocktail Bar" },
+    ]);
+    expect(data.vendorNamesById.get("w-a-v-e-mocktail-bar")).toBe("W.A.V.E. Mocktail Bar");
+  });
+
+  it("rejects vendor slug collisions instead of merging different names", () => {
+    expect(() => loadCatalogData({
+      items: [
+        { ...item, vendor: "A & B" },
+        { ...item, id: "second-item", vendor: "A and B" },
+      ],
+      locations: [location],
+      collections: [],
+    })).toThrow(/vendor slug collision/i);
   });
 });

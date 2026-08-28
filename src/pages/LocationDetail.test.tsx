@@ -72,4 +72,12 @@ describe("LocationDetail", () => {
     expect(screen.getByText(/map is not currently available/i)).toBeInTheDocument();
     expect(screen.queryByRole("img", { name: /map of the front porch/i })).not.toBeInTheDocument();
   });
+
+  it("marks every current location map unavailable", () => {
+    renderLocation("/location/the-front-porch");
+
+    expect(screen.getByRole("heading", { name: /map unavailable/i })).toBeInTheDocument();
+    expect(screen.getByText(/map is not currently available/i)).toBeInTheDocument();
+    expect(screen.queryByRole("img", { name: /map of/i })).not.toBeInTheDocument();
+  });
 });

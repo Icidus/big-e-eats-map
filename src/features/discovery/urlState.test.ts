@@ -10,6 +10,7 @@ describe("discovery URL state", () => {
       tagIds: ["spicy"],
       dietaryClaims: ["gluten-free"],
       locationIds: ["the-front-porch", "tbd"],
+      vendorIds: ["w-a-v-e-mocktail-bar"],
       collectionId: "fall-flavors",
       sort: "vendor",
     } satisfies DiscoveryState;
@@ -30,10 +31,26 @@ describe("discovery URL state", () => {
       tagIds: [],
       dietaryClaims: [],
       locationIds: [],
+      vendorIds: [],
     });
 
     expect(serialized.toString()).toBe("categories=cocktails");
     expect(parseDiscoveryState(new URLSearchParams("categories=cocktails,bogus,cocktails&locations=tbd,missing,tbd")))
       .toEqual({ ...EMPTY_DISCOVERY_STATE, categoryIds: ["cocktails"], locationIds: ["tbd"] });
+  });
+
+  it("preserves meaningful in-progress query spaces and normalizes whitespace-only input", () => {
+    expect(parseDiscoveryState(new URLSearchParams("q=hot+honey")).query).toBe("hot honey");
+    expect(parseDiscoveryState(new URLSearchParams("q=hot+")).query).toBe("hot ");
+    expect(serializeDiscoveryState({ ...EMPTY_DISCOVERY_STATE, query: "hot " }).get("q")).toBe("hot ");
+    expect(parseDiscoveryState(new URLSearchParams("q=+++"))).toEqual(EMPTY_DISCOVERY_STATE);
+    expect(serializeDiscoveryState({ ...EMPTY_DISCOVERY_STATE, query: "   " }).has("q")).toBe(false);
+  });
+
+  it("drops unknown vendor IDs while round-tripping controlled vendors", () => {
+    expect(parseDiscoveryState(new URLSearchParams("vendors=w-a-v-e-mocktail-bar,missing")))
+      .toEqual({ ...EMPTY_DISCOVERY_STATE, vendorIds: ["w-a-v-e-mocktail-bar"] });
+    expect(serializeDiscoveryState({ ...EMPTY_DISCOVERY_STATE, vendorIds: ["w-a-v-e-mocktail-bar"] }).toString())
+      .toBe("vendors=w-a-v-e-mocktail-bar");
   });
 });

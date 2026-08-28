@@ -8,7 +8,7 @@ import { SelectedFilters, type SelectedFilter } from "@/components/discovery/Sel
 import { SortSelect } from "@/components/discovery/SortSelect";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { catalogItems, collectionsById, locations, locationsById } from "@/features/catalog/catalog";
+import { catalogItems, collectionsById, locations, locationsById, vendorNamesById } from "@/features/catalog/catalog";
 import { CATEGORIES } from "@/features/catalog/taxonomy";
 import { searchAndFilter } from "@/features/discovery/search";
 import { parseDiscoveryState, serializeDiscoveryState } from "@/features/discovery/urlState";
@@ -35,6 +35,7 @@ export function BrowsePage() {
     if (kind === "categories") return replaceState({ ...state, categoryIds: state.categoryIds.filter((entry) => entry !== value) });
     if (kind === "locations") return replaceState({ ...state, locationIds: state.locationIds.filter((entry) => entry !== value) });
     if (kind === "dietary") return replaceState({ ...state, dietaryClaims: state.dietaryClaims.filter((entry) => entry !== value) });
+    if (kind === "vendors") return replaceState({ ...state, vendorIds: state.vendorIds.filter((entry) => entry !== value) });
     if (kind === "tags") return replaceState({ ...state, tagIds: state.tagIds.filter((entry) => entry !== value) });
   }
 
@@ -85,6 +86,7 @@ function selectedFiltersFor(state: DiscoveryState): SelectedFilter[] {
     ...state.categoryIds.map((id) => ({ id: `categories:${id}`, label: categoryLabels.get(id) ?? id })),
     ...state.locationIds.map((id) => ({ id: `locations:${id}`, label: id === "tbd" ? "Location TBD" : locationsById.get(id)?.name ?? id })),
     ...state.dietaryClaims.map((id) => ({ id: `dietary:${id}`, label: titleCase(id) })),
+    ...state.vendorIds.map((id) => ({ id: `vendors:${id}`, label: vendorNamesById.get(id) ?? id })),
     ...state.tagIds.map((id) => ({ id: `tags:${id}`, label: titleCase(id) })),
     ...(state.collectionId ? [{ id: "collection", label: collectionsById.get(state.collectionId)?.title ?? state.collectionId }] : []),
   ];

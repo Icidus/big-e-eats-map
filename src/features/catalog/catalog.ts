@@ -12,6 +12,11 @@ import {
 
 export type { CatalogItem, EditorialCollection, FairLocation } from "./schema";
 
+export interface VendorOption {
+  id: string;
+  name: string;
+}
+
 export interface CatalogData {
   items: CatalogItem[];
   locations: FairLocation[];
@@ -19,6 +24,8 @@ export interface CatalogData {
   itemsById: Map<string, CatalogItem>;
   locationsById: Map<string, FairLocation>;
   collectionsById: Map<string, EditorialCollection>;
+  vendorOptions: VendorOption[];
+  vendorNamesById: Map<string, string>;
 }
 
 export function loadCatalogData(raw: {
@@ -33,6 +40,7 @@ export function loadCatalogData(raw: {
   const itemsById = createIdMap(items, "catalog item");
   const locationsById = createIdMap(locations, "location");
   const collectionsById = createIdMap(collections, "collection");
+  const { vendorOptions, vendorNamesById } = createVendorCatalog(items);
 
   for (const item of items) {
     for (const locationId of item.locationIds) {
@@ -50,7 +58,52 @@ export function loadCatalogData(raw: {
     }
   }
 
-  return { items, locations, collections, itemsById, locationsById, collectionsById };
+  return {
+    items,
+    locations,
+    collections,
+    itemsById,
+    locationsById,
+    collectionsById,
+    vendorOptions,
+    vendorNamesById,
+  };
+}
+
+export function vendorIdForName(name: string): string {
+  return name
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLocaleLowerCase()
+    .replace(/[\u2018\u2019']/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function createVendorCatalog(items: CatalogItem[]): {
+  vendorOptions: VendorOption[];
+  vendorNamesById: Map<string, string>;
+} {
+  const vendorNamesById = new Map<string, string>();
+
+  for (const item of items) {
+    const vendorId = vendorIdForName(item.vendor);
+    if (!vendorId) {
+      throw new Error(`Catalog item "${item.id}" has a vendor name that cannot produce a vendor ID.`);
+    }
+
+    const existingName = vendorNamesById.get(vendorId);
+    if (existingName && existingName !== item.vendor) {
+      throw new Error(`Vendor slug collision for "${existingName}" and "${item.vendor}" at "${vendorId}".`);
+    }
+    vendorNamesById.set(vendorId, item.vendor);
+  }
+
+  const vendorOptions = [...vendorNamesById].map(([id, name]) => ({ id, name }))
+    .sort((left, right) => left.name.localeCompare(right.name, undefined, { sensitivity: "base" }) || left.id.localeCompare(right.id));
+
+  return { vendorOptions, vendorNamesById };
 }
 
 function createIdMap<T extends { id: string }>(records: T[], entityName: string): Map<string, T> {
@@ -72,4 +125,13 @@ export const catalogData = loadCatalogData({
   collections: collectionsJson,
 });
 
-export const { items: catalogItems, locations, collections, itemsById, locationsById, collectionsById } = catalogData;
+export const {
+  items: catalogItems,
+  locations,
+  collections,
+  itemsById,
+  locationsById,
+  collectionsById,
+  vendorOptions,
+  vendorNamesById,
+} = catalogData;

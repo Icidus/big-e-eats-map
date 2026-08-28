@@ -12,8 +12,8 @@ const item = (id: string, name: string, locationIds: string[] = []): CatalogItem
   categoryIds: [], tagIds: [], dietaryClaims: [], isNewFor2026: false, source,
 });
 const fixtureLocations: FairLocation[] = [
-  { id: "front", name: "The Front Porch", description: "", mapImage: "front.png", order: 1 },
-  { id: "east", name: "East Road", description: "", mapImage: "east.png", order: 2 },
+  { id: "front", name: "The Front Porch", description: "", order: 1 },
+  { id: "east", name: "East Road", description: "", order: 2 },
 ];
 const knownEast = item("east-item", "East Treat", ["east"]);
 const knownFront = item("front-item", "Front Treat", ["front"]);
@@ -96,7 +96,7 @@ describe("PlanView", () => {
     expect(screen.getByRole("heading", { name: "East Road" })).toBeInTheDocument();
   });
 
-  it("has descriptive check and remove controls and only maps known mapped groups", async () => {
+  it("has descriptive check and remove controls without map links", async () => {
     const user = userEvent.setup();
     const onToggleChecked = vi.fn();
     const onRemove = vi.fn();
@@ -104,19 +104,15 @@ describe("PlanView", () => {
       <MemoryRouter><PlanView items={[knownFront, unknown]} locations={fixtureLocations} checkedIds={[knownFront.id]} onToggleChecked={onToggleChecked} onRemove={onRemove} /></MemoryRouter>,
     );
     expect(screen.getByRole("checkbox", { name: "Mark Front Treat as not visited" })).toBeChecked();
-    expect(screen.getByRole("link", { name: "View location map for The Front Porch" })).toHaveAttribute("href", "/location/front");
-    expect(screen.queryByRole("link", { name: /location tbd/i })).not.toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: /view location map/i })).not.toBeInTheDocument();
     await user.click(screen.getByRole("checkbox", { name: "Mark Front Treat as not visited" }));
     await user.click(screen.getByRole("button", { name: "Remove Front Treat from my plan" }));
     expect(onToggleChecked).toHaveBeenCalledWith(knownFront.id);
     expect(onRemove).toHaveBeenCalledWith(knownFront.id);
   });
 
-  it("does not expose a map action when a known group has no map image", () => {
-    renderPlanView({
-      items: [knownFront],
-      locations: [{ ...fixtureLocations[0], mapImage: "" }, fixtureLocations[1]],
-    });
+  it("does not expose a map action for any known plan group", () => {
+    renderPlanView({ items: [knownFront], locations: fixtureLocations });
     expect(screen.queryByRole("link", { name: /view location map/i })).not.toBeInTheDocument();
   });
 

@@ -19,7 +19,7 @@ export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: Ite
   const knownLocations = item.locationIds
     .map((locationId) => locationsById.get(locationId))
     .filter((location): location is FairLocation => Boolean(location));
-  const tags = [...item.categoryIds.map((id) => categoryLabels.get(id) ?? id), ...item.tagIds, ...item.dietaryClaims];
+  const tags = [...item.categoryIds.map((id) => categoryLabels.get(id) ?? id), ...item.tagIds];
   const listingLabel = item.isNewFor2026 ? "New for 2026" : "2026 listing";
 
   return (
@@ -46,11 +46,21 @@ export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: Ite
 
       <p className="mt-4 text-sm leading-6 text-foreground/80">{item.description}</p>
 
-      <div className="mt-4 flex flex-wrap gap-1.5" aria-label="Item tags">
+      <section className="mt-4 flex flex-wrap gap-1.5" aria-label="Item tags">
         {tags.map((tag) => (
           <Badge key={tag} variant="outline" className="border-secondary/60 bg-secondary/10 text-[11px] capitalize">{tag}</Badge>
         ))}
-      </div>
+      </section>
+
+      {item.dietaryClaims.length > 0 ? (
+        <section className="mt-4 border-l-2 border-secondary bg-secondary/10 px-3 py-2" aria-label="Source-reported dietary claims">
+          <p className="font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-primary">Source-reported dietary {item.dietaryClaims.length === 1 ? "claim" : "claims"}</p>
+          <div className="mt-1 flex flex-wrap gap-1.5">
+            {item.dietaryClaims.map((claim) => <Badge key={claim} variant="outline">{titleCase(claim)}</Badge>)}
+          </div>
+          <p className="mt-2 text-xs leading-5 text-muted-foreground">Confirm dietary needs and preparation details with the vendor.</p>
+        </section>
+      ) : null}
 
       <div className="mt-auto border-t border-dashed border-border pt-4">
         <section className="flex items-start gap-2 text-sm" aria-label="Item location">
@@ -58,15 +68,19 @@ export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: Ite
           {knownLocations.length > 0 ? (
             <span className="flex flex-wrap gap-x-2 gap-y-1">
               {knownLocations.map((location) => (
-                <Link className="font-semibold text-primary underline decoration-primary/35 underline-offset-4 hover:decoration-primary" to={`/location/${location.id}`} key={location.id}>{location.name}</Link>
+                <Link className="inline-flex min-h-11 items-center font-semibold text-primary underline decoration-primary/35 underline-offset-4 hover:decoration-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" to={`/location/${location.id}`} key={location.id}>{location.name}</Link>
               ))}
             </span>
           ) : <span className="font-medium text-muted-foreground">Location not yet announced</span>}
         </section>
-        <a className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-primary underline decoration-primary/35 underline-offset-4 hover:decoration-primary" href={item.source.url} target="_blank" rel="noreferrer">
+        <a className="mt-3 inline-flex min-h-11 items-center gap-1 text-xs font-semibold text-primary underline decoration-primary/35 underline-offset-4 hover:decoration-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" href={item.source.url} target="_blank" rel="noreferrer">
           {item.source.publisher}: {item.source.title}<ExternalLink className="h-3 w-3" aria-hidden="true" />
         </a>
       </div>
     </article>
   );
+}
+
+function titleCase(value: string): string {
+  return value.replace(/-/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
 }

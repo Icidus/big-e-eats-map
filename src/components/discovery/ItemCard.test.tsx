@@ -48,4 +48,35 @@ describe("ItemCard", () => {
     expect(screen.getByText("2026 listing")).toBeInTheDocument();
     expect(screen.queryByText("New for 2026")).not.toBeInTheDocument();
   });
+
+  it("separates source-reported dietary claims from editorial tags", () => {
+    render(
+      <MemoryRouter><ItemCard item={{ ...item, dietaryClaims: ["gluten-free"] }} locationsById={new Map()} isInPlan={false} onAdd={() => undefined} onRemove={() => undefined} /></MemoryRouter>,
+    );
+
+    const tags = screen.getByRole("region", { name: "Item tags" });
+    const claims = screen.getByRole("region", { name: "Source-reported dietary claims" });
+    expect(within(tags).queryByText("gluten-free")).not.toBeInTheDocument();
+    expect(within(claims).getByText("Gluten Free")).toBeInTheDocument();
+    expect(within(claims).getByText(/confirm dietary needs and preparation details with the vendor/i)).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /the big e: new foods/i })).toHaveAttribute("href", item.source.url);
+  });
+
+  it("omits the dietary-claim disclosure when the source reports no claim", () => {
+    render(
+      <MemoryRouter><ItemCard item={item} locationsById={new Map()} isInPlan={false} onAdd={() => undefined} onRemove={() => undefined} /></MemoryRouter>,
+    );
+
+    expect(screen.queryByRole("region", { name: "Source-reported dietary claims" })).not.toBeInTheDocument();
+  });
+
+  it("gives location and source links 44px effective touch targets", () => {
+    const knownLocation = { id: "test-kitchen", name: "Test Kitchen", description: "Test", order: 1 };
+    render(
+      <MemoryRouter><ItemCard item={{ ...item, locationIds: [knownLocation.id] }} locationsById={new Map([[knownLocation.id, knownLocation]])} isInPlan={false} onAdd={() => undefined} onRemove={() => undefined} /></MemoryRouter>,
+    );
+
+    expect(screen.getByRole("link", { name: "Test Kitchen" })).toHaveClass("min-h-11");
+    expect(screen.getByRole("link", { name: /the big e: new foods/i })).toHaveClass("min-h-11");
+  });
 });

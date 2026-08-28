@@ -17,7 +17,7 @@ export const catalogItemSchema = z.object({
   vendor: z.string().min(1),
   locationIds: z.array(z.string().min(1)).default([]),
   description: z.string().min(1),
-  categoryIds: z.array(z.enum(categoryIds)),
+  categoryIds: z.array(z.enum(categoryIds)).min(1),
   tagIds: z.array(z.enum(TAGS)),
   dietaryClaims: z.array(z.enum(DIETARY_CLAIMS)),
   isNewFor2026: z.boolean(),
@@ -28,7 +28,6 @@ export const fairLocationSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   description: z.string().min(1),
-  mapImage: z.string().min(1),
   order: z.number().int().positive(),
 });
 

@@ -10,6 +10,7 @@ const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const sourceRoot = join(projectRoot, "src");
 const catalogPath = join(sourceRoot, "data/2026/catalog.json");
 const collectionsPath = join(sourceRoot, "data/2026/collections.json");
+const locationMapRoot = join(sourceRoot, "assets/maps/locations");
 const legacyCopy = /\b2025\b|MassLive 2025/i;
 const testDirectoryNames = new Set(["test", "tests", "__tests__"]);
 
@@ -74,6 +75,13 @@ describe("public copy", () => {
     const userVisibleSource = (await Promise.all(files.map((path) => readFile(path, "utf8")))).join("\n");
 
     expect(userVisibleSource).not.toMatch(legacyCopy);
+  });
+
+  it("keeps no annotated location image assets in source", async () => {
+    const locationMapEntries = await readdir(locationMapRoot);
+
+    expect(locationMapEntries.filter((entry) => extname(entry).toLowerCase() === ".png")).toEqual([]);
+    expect(locationMapEntries.some((entry) => entry.toLowerCase().includes(["nicks", "favorites"].join("-")))).toBe(false);
   });
 
   it("contains no legacy year in catalog public fields", () => {

@@ -1,46 +1,5 @@
 # Maps Directory
 
-This directory contains map images and assets for the Big E food locations.
+Current 2026 locations intentionally have no map associations. Previously annotated food maps were retired because their vendor labels were not confirmed for the current catalog.
 
-## Directory Structure
-
-```
-maps/
-├── locations/          # Individual location maps
-│   ├── new-england-avenue.jpg
-│   ├── front-porch.jpg
-│   ├── commonwealth-avenue.jpg
-│   └── ...
-├── overview/           # General fair maps
-│   ├── full-fair-map.jpg
-│   ├── food-areas-overview.jpg
-│   └── parking-map.jpg
-├── interactive/        # Interactive map assets
-│   ├── markers/
-│   └── overlays/
-└── thumbnails/         # Smaller versions for cards
-    ├── new-england-avenue-thumb.jpg
-    ├── front-porch-thumb.jpg
-    └── ...
-```
-
-## File Naming Convention
-
-- Location maps: `{location-id}.jpg` (matching the location ID from locations.ts)
-- Thumbnails: `{location-id}-thumb.jpg`
-- Overview maps: descriptive names like `full-fair-map.jpg`
-
-## Supported Formats
-
-- `.jpg` - Primary format for photographs and detailed maps
-- `.png` - For maps with transparency or simple graphics
-- `.svg` - For scalable vector maps (if available)
-
-## Usage
-
-Maps can be imported in components like:
-
-```typescript
-import newEnglandAvenueMap from '@/assets/maps/locations/new-england-avenue.jpg';
-import newEnglandAvenueThumb from '@/assets/maps/thumbnails/new-england-avenue-thumb.jpg';
-```
+The application exposes a generic, base-aware unavailable status. A future venue-only map may be added only after its labels and location information are vetted for the current fair year.

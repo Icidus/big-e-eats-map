@@ -464,20 +464,45 @@
     }
   },
   {
-    "id": "ks-japanese-push-up-sushi-pops",
+    "id": "ks-japanese-spicy-tuna-roll-push-up-sushi-pop",
     "year": 2026,
-    "name": "Push-Up Sushi Pops",
+    "name": "Spicy Tuna Roll Push-Up Sushi Pop",
     "vendor": "K’s Japanese Restaurant Food Court",
     "locationIds": [
       "east-road"
     ],
-    "description": "The official 2026 New Foods listing identifies Push-Up Sushi Pops as an offering from K’s Japanese Restaurant Food Court.",
+    "description": "A spicy tuna roll served in a portable push-up sushi pop format.",
     "categoryIds": [
       "other-savory"
     ],
     "tagIds": [
       "savory",
       "spicy",
+      "new-vendor"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-08-27"
+    }
+  },
+  {
+    "id": "ks-japanese-california-roll-push-up-sushi-pop",
+    "year": 2026,
+    "name": "California Roll Push-Up Sushi Pop",
+    "vendor": "K’s Japanese Restaurant Food Court",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "A California roll served in a portable push-up sushi pop format.",
+    "categoryIds": [
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
       "new-vendor"
     ],
     "dietaryClaims": [],

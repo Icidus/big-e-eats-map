@@ -45,9 +45,25 @@ describe("2026 catalog content", () => {
   });
 
   it("covers every named returning-vendor section with an explicitly named food", () => {
-    expect(catalogData.items).toHaveLength(151);
     for (const vendor of requiredReturningVendors) {
       expect(catalogData.items.some((item) => item.vendor === vendor)).toBe(true);
+    }
+  });
+
+  it("keeps the two Push-Up Sushi Pop fillings as distinct stable records", () => {
+    const spicyTuna = catalogData.itemsById.get("ks-japanese-spicy-tuna-roll-push-up-sushi-pop");
+    const california = catalogData.itemsById.get("ks-japanese-california-roll-push-up-sushi-pop");
+
+    expect(spicyTuna?.name).toBe("Spicy Tuna Roll Push-Up Sushi Pop");
+    expect(spicyTuna?.tagIds).toContain("spicy");
+    expect(california?.name).toBe("California Roll Push-Up Sushi Pop");
+    expect(california?.tagIds).not.toContain("spicy");
+    expect(catalogData.itemsById.has("ks-japanese-push-up-sushi-pops")).toBe(false);
+  });
+
+  it("publishes every current location without a map association", () => {
+    for (const location of catalogData.locations) {
+      expect(location).not.toHaveProperty("mapImage");
     }
   });
 

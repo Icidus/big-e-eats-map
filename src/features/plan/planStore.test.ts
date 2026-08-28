@@ -46,8 +46,8 @@ const item = (id: string, locationIds: string[] = []): CatalogItem => ({
 });
 
 const locations: FairLocation[] = [
-  { id: "east-road", name: "East Road", description: "", mapImage: "east.png", order: 2 },
-  { id: "avenue", name: "Avenue", description: "", mapImage: "avenue.png", order: 1 },
+  { id: "east-road", name: "East Road", description: "", order: 2 },
+  { id: "avenue", name: "Avenue", description: "", order: 1 },
 ];
 
 describe("plan storage", () => {
@@ -107,7 +107,8 @@ describe("plan grouping", () => {
     const groups = groupPlanItems([multiLocationItem, unknownLocationItem, noLocationItem], locations);
 
     expect(groups.map((group) => group.id)).toEqual(["east-road", "tbd"]);
-    expect(groups[0]).toMatchObject({ name: "East Road", mapImage: "east.png", items: [multiLocationItem] });
+    expect(groups[0]).toMatchObject({ name: "East Road", items: [multiLocationItem] });
+    expect(groups[0]).not.toHaveProperty("mapImage");
     expect(groups[1]).toEqual({ id: "tbd", name: "Location TBD", items: [unknownLocationItem, noLocationItem] });
   });
 

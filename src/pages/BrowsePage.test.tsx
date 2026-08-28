@@ -68,6 +68,9 @@ describe("BrowsePage", () => {
       </MemoryRouter>,
     );
 
+    expect(screen.getByRole("button", { name: /remove mocktails filter/i })).toHaveClass("min-h-11");
+    expect(screen.getByRole("button", { name: "Clear all" })).toHaveClass("min-h-11");
+
     await user.click(screen.getByRole("button", { name: /remove mocktails filter/i }));
     expect(screen.getByTestId("location-search")).toHaveTextContent("locations=the-front-porch");
 
@@ -135,7 +138,7 @@ describe("BrowsePage", () => {
 
   it("offers Location TBD only when unlocated records exist", () => {
     const props = {
-      state: { query: "", categoryIds: [], tagIds: [], dietaryClaims: [], locationIds: [] },
+      state: { query: "", categoryIds: [], tagIds: [], dietaryClaims: [], locationIds: [], vendorIds: [] },
       locations: [],
       onStateChange: () => undefined,
       onClear: () => undefined,
@@ -145,6 +148,53 @@ describe("BrowsePage", () => {
 
     rerender(<FilterPanel {...props} hasUnlocatedItems={false} />);
     expect(screen.queryByLabelText("Location TBD")).not.toBeInTheDocument();
+  });
+
+  it("preserves a multiword query while typing each character into URL-backed state", async () => {
+    const user = userEvent.setup();
+    render(
+      <MemoryRouter initialEntries={["/browse"]}>
+        <FoodPlanProvider>
+          <Routes><Route path="/browse" element={<BrowsePage />} /></Routes>
+          <LocationSearch />
+        </FoodPlanProvider>
+      </MemoryRouter>,
+    );
+
+    const search = screen.getByLabelText("Search the midway");
+    await user.type(search, "hot honey");
+
+    expect(search).toHaveValue("hot honey");
+    expect(screen.getByTestId("location-search")).toHaveTextContent("q=hot+honey");
+    expect(screen.getByText("Hot Honey and Bacon Poutine")).toBeInTheDocument();
+  });
+
+  it("filters by a controlled vendor and exposes a removable vendor chip", async () => {
+    const user = userEvent.setup();
+    render(
+      <MemoryRouter initialEntries={["/browse"]}>
+        <FoodPlanProvider>
+          <Routes><Route path="/browse" element={<BrowsePage />} /></Routes>
+          <LocationSearch />
+        </FoodPlanProvider>
+      </MemoryRouter>,
+    );
+
+    await user.click(screen.getByLabelText("W.A.V.E. Mocktail Bar"));
+
+    expect(screen.getByTestId("location-search")).toHaveTextContent("vendors=w-a-v-e-mocktail-bar");
+    expect(screen.getByText("Caramel Apple Mocktail")).toBeInTheDocument();
+    expect(screen.queryByText("Tater Tot Buckets")).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /remove w\.a\.v\.e\. mocktail bar filter/i })).toBeInTheDocument();
+  });
+
+  it("gives representative filter rows and the Sheet close control 44px targets", async () => {
+    const user = userEvent.setup();
+    renderBrowse("/browse");
+
+    expect(screen.getByLabelText("Cocktails").closest("label")).toHaveClass("min-h-11");
+    await user.click(screen.getByRole("button", { name: /open filters/i }));
+    expect(screen.getByRole("button", { name: "Close" })).toHaveClass("min-h-11", "min-w-11");
   });
 
   it("opens mobile filters in a dialog and restores focus on close", async () => {

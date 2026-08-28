@@ -1,4 +1,4 @@
-import { Check, Map, MapPin, Share2, Trash2 } from "lucide-react";
+import { Check, MapPin, Share2, Trash2 } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { toast } from "@/components/ui/sonner";
@@ -53,7 +53,6 @@ export function PlanView({
                 <h2 id={`plan-group-${group.id}`} className="font-serif text-2xl font-bold tracking-tight">{group.name}</h2>
               </div>
             </div>
-            {group.mapImage ? <Link to={`/location/${group.id}`} className="inline-flex min-h-11 items-center gap-2 border border-primary/50 bg-card px-3 text-sm font-bold text-primary underline-offset-4 transition-colors hover:bg-primary hover:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" aria-label={`View location map for ${group.name}`}><Map className="h-4 w-4" aria-hidden="true" />View location map</Link> : null}
           </div>
           <ol className="mt-4 grid gap-3">
             {group.items.map((item) => {

@@ -1,6 +1,6 @@
 import { ArrowLeft, MapPin } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
-import { getLocationMap, type LocationMapImage } from "@/assets/maps/mapUtils";
+import { getUnavailableLocationMap, type LocationMapImage } from "@/assets/maps/mapUtils";
 import { ItemCard } from "@/components/discovery/ItemCard";
 import { Button } from "@/components/ui/button";
 import { catalogItems, locationsById, type FairLocation } from "@/features/catalog/catalog";
@@ -25,7 +25,7 @@ export default function LocationDetail() {
   }
 
   const items = catalogItems.filter((item) => item.locationIds.includes(location.id));
-  const map = getLocationMap(location.mapImage);
+  const map = getUnavailableLocationMap();
 
   return (
     <div className="min-h-screen bg-[radial-gradient(hsl(var(--secondary)/0.16)_1px,transparent_1px)] bg-[size:13px_13px] text-foreground">
@@ -74,8 +74,8 @@ export default function LocationDetail() {
 export function LocationMap({ location, map }: { location: FairLocation; map: LocationMapImage }) {
   return (
     <aside className="self-start border border-primary/25 bg-card p-5 shadow-[4px_4px_0_hsl(var(--secondary)/0.3)]" aria-labelledby="location-map-title">
-      <p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">Map reference</p>
-      <h2 id="location-map-title" className="mt-1 font-serif text-2xl font-bold">Find this stop</h2>
+      <p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">Location reference</p>
+      <h2 id="location-map-title" className="mt-1 font-serif text-2xl font-bold">Map unavailable</h2>
       {map.isAvailable ? (
         <img src={map.src} alt={`Map of ${location.name}`} className="mt-4 w-full border border-border bg-muted object-contain" />
       ) : (
@@ -84,7 +84,7 @@ export function LocationMap({ location, map }: { location: FairLocation; map: Lo
           <p className="mt-3 text-sm font-semibold">Map is not currently available for this location.</p>
         </div>
       )}
-      <p className="mt-4 text-sm leading-6 text-muted-foreground">Use this location reference while you explore the fairgrounds. Ask fair staff for current directions or accessibility help.</p>
+      <p className="mt-4 text-sm leading-6 text-muted-foreground">Ask fair staff for current directions or accessibility help.</p>
     </aside>
   );
 }

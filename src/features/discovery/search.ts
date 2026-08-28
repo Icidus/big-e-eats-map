@@ -1,5 +1,5 @@
 import MiniSearch from "minisearch";
-import type { CatalogItem, EditorialCollection, FairLocation } from "@/features/catalog/catalog";
+import { vendorIdForName, type CatalogItem, type EditorialCollection, type FairLocation } from "@/features/catalog/catalog";
 import { CATEGORIES, TAGS } from "@/features/catalog/taxonomy";
 import type { DiscoveryState, SortMode } from "./types";
 
@@ -116,7 +116,8 @@ function matchesFacets(item: CatalogItem, state: DiscoveryState): boolean {
   return (!state.categoryIds.length || state.categoryIds.some((id) => item.categoryIds.includes(id)))
     && (!state.tagIds.length || state.tagIds.some((id) => item.tagIds.includes(id)))
     && (!state.dietaryClaims.length || state.dietaryClaims.some((claim) => item.dietaryClaims.includes(claim)))
-    && (!state.locationIds.length || matchesLocations(item, state.locationIds));
+    && (!state.locationIds.length || matchesLocations(item, state.locationIds))
+    && (!state.vendorIds.length || state.vendorIds.includes(vendorIdForName(item.vendor)));
 }
 
 function matchesLocations(item: CatalogItem, locationIds: string[]): boolean {
