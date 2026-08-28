@@ -34,7 +34,7 @@ export function PlanView({
         <p className="mx-auto mt-3 max-w-lg text-sm leading-6 text-muted-foreground">Save the treats worth crossing the fairgrounds for, then check them off as you go.</p>
         <nav className="mt-6 flex flex-wrap justify-center gap-3" aria-label="Browse food categories">
           <Button asChild variant="outline" className="min-h-11"><Link to="/browse">Browse all food</Link></Button>
-          <Button asChild variant="secondary" className="min-h-11"><Link to="/browse?categories=drinks">Browse drinks</Link></Button>
+          <Button asChild variant="secondary" className="min-h-11"><Link to="/browse?tags=drinks">Browse drinks</Link></Button>
           <Button asChild variant="outline" className="min-h-11"><Link to="/browse?categories=desserts">Browse desserts</Link></Button>
         </nav>
       </section>
@@ -60,7 +60,7 @@ export function PlanView({
               const isChecked = checked.has(item.id);
               return (
                 <li key={item.id} className={`group flex gap-3 border border-primary/20 bg-card p-4 shadow-[3px_3px_0_hsl(var(--secondary)/0.22)] ${isChecked ? "border-primary/55" : ""}`}>
-                  <label className="flex min-h-11 shrink-0 cursor-pointer items-center" htmlFor={`plan-check-${item.id}`}>
+                  <label className="flex min-h-11 min-w-11 shrink-0 cursor-pointer items-center justify-center" htmlFor={`plan-check-${item.id}`}>
                     <input id={`plan-check-${item.id}`} type="checkbox" checked={isChecked} onChange={() => onToggleChecked(item.id)} className="h-5 w-5 accent-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" aria-label={`Mark ${item.name} as ${isChecked ? "not visited" : "visited"}`} />
                   </label>
                   <div className="min-w-0 flex-1">
@@ -71,7 +71,7 @@ export function PlanView({
                         <p className="mt-1 flex items-center gap-1 text-xs text-muted-foreground"><MapPin className="h-3.5 w-3.5" aria-hidden="true" />{group.name}</p>
                         {isChecked ? <p className="mt-2 inline-flex items-center gap-1 text-xs font-bold uppercase tracking-wide"><Check className="h-3.5 w-3.5" aria-hidden="true" />Visited</p> : null}
                       </div>
-                      <Button type="button" variant="ghost" className="min-h-11 shrink-0 text-primary hover:bg-destructive hover:text-destructive-foreground" onClick={() => onRemove(item.id)} aria-label={`Remove ${item.name} from my plan`}><Trash2 aria-hidden="true" />Remove</Button>
+                      <Button type="button" variant="ghost" className="min-h-11 shrink-0 text-primary hover:bg-[hsl(0_74%_42%)] hover:text-white" onClick={() => onRemove(item.id)} aria-label={`Remove ${item.name} from my plan`}><Trash2 aria-hidden="true" />Remove</Button>
                     </div>
                   </div>
                 </li>
@@ -88,7 +88,7 @@ export function PlanPage(): JSX.Element {
   const [searchParams, setSearchParams] = useSearchParams();
   const { itemIds, checkedIds, mergeItems, removeItem, replaceItems, toggleChecked } = useFoodPlan();
   const [feedback, setFeedback] = useState("");
-  const rawSharedItems = searchParams.get("items") ?? "";
+  const rawSharedItems = searchParams.getAll("items").join(",");
   const hasSharedItems = searchParams.has("items");
   const shared = useMemo(() => decodeSharedItems(rawSharedItems, itemsById), [rawSharedItems]);
   const plannedItems = useMemo(
@@ -103,6 +103,12 @@ export function PlanPage(): JSX.Element {
   }
 
   function applyShared(mode: "merge" | "replace") {
+    if (!shared.itemIds.length) {
+      setFeedback("No shared items are available to add.");
+      clearSharedParam();
+      return;
+    }
+
     if (mode === "merge") {
       mergeItems(shared.itemIds);
       setFeedback(`Added ${shared.itemIds.length} shared item${shared.itemIds.length === 1 ? "" : "s"} to your plan.`);
@@ -118,16 +124,17 @@ export function PlanPage(): JSX.Element {
     const shareUrl = new URL("plan", baseUrl);
     shareUrl.searchParams.set("items", encodeSharedItems(itemIds));
     const shareData = { title: "My Big E Food Plan", text: "My Big E food plan", url: shareUrl.toString() };
+    const browserNavigator = typeof globalThis.navigator === "undefined" ? undefined : globalThis.navigator;
 
     try {
-      if (typeof navigator !== "undefined" && typeof navigator.share === "function") {
-        await navigator.share(shareData);
+      if (typeof browserNavigator?.share === "function") {
+        await browserNavigator.share(shareData);
         setFeedback("Your food plan was shared.");
         toast("Your food plan was shared.");
         return;
       }
-      if (typeof navigator !== "undefined" && navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
-        await navigator.clipboard.writeText(shareUrl.toString());
+      if (browserNavigator?.clipboard && typeof browserNavigator.clipboard.writeText === "function") {
+        await browserNavigator.clipboard.writeText(shareUrl.toString());
         setFeedback("Share link copied to your clipboard.");
         toast("Share link copied to your clipboard.");
         return;
@@ -135,7 +142,7 @@ export function PlanPage(): JSX.Element {
       setFeedback("Sharing is not available in this browser.");
       toast("Sharing is not available in this browser.");
     } catch {
-      const message = typeof navigator !== "undefined" && typeof navigator.share === "function"
+      const message = typeof browserNavigator?.share === "function"
         ? "Your food plan was not shared."
         : "Couldn't copy the share link.";
       setFeedback(message);
@@ -153,7 +160,7 @@ export function PlanPage(): JSX.Element {
       </header>
       <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
         {feedback ? <p role="status" className="mb-6 border-l-4 border-primary bg-card px-4 py-3 text-sm font-semibold shadow-[3px_3px_0_hsl(var(--secondary)/0.22)]">{feedback}</p> : null}
-        {hasSharedItems ? <section className="mb-7 border-2 border-secondary bg-card p-5 shadow-[6px_6px_0_hsl(var(--primary)/0.16)]" aria-labelledby="shared-plan-title"><p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">A friend sent a route</p><h2 id="shared-plan-title" className="mt-1 font-serif text-2xl font-bold">Review shared food plan</h2><p className="mt-2 text-sm leading-6 text-muted-foreground">{shared.itemIds.length} shared item{shared.itemIds.length === 1 ? " is" : "s are"} available to add. {shared.missingIds.length ? `${shared.missingIds.length} shared item${shared.missingIds.length === 1 ? " could" : "s could"} not be found in the current catalog.` : ""}</p><div className="mt-4 flex flex-wrap gap-3"><Button type="button" className="min-h-11" onClick={() => applyShared("replace")}>Replace my plan</Button><Button type="button" variant="outline" className="min-h-11" onClick={() => applyShared("merge")}>Merge with my plan</Button></div></section> : null}
+        {hasSharedItems ? <section className="mb-7 border-2 border-secondary bg-card p-5 shadow-[6px_6px_0_hsl(var(--primary)/0.16)]" aria-labelledby="shared-plan-title"><p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">A friend sent a route</p><h2 id="shared-plan-title" className="mt-1 font-serif text-2xl font-bold">Review shared food plan</h2><p className="mt-2 text-sm leading-6 text-muted-foreground">{shared.itemIds.length} shared item{shared.itemIds.length === 1 ? " is" : "s are"} available to add. {shared.missingIds.length ? `${shared.missingIds.length} shared item${shared.missingIds.length === 1 ? " could" : "s could"} not be found in the current catalog.` : ""}</p><div className="mt-4 flex flex-wrap gap-3">{shared.itemIds.length ? <><Button type="button" className="min-h-11" onClick={() => applyShared("replace")}>Replace my plan</Button><Button type="button" variant="outline" className="min-h-11" onClick={() => applyShared("merge")}>Merge with my plan</Button></> : <Button type="button" variant="outline" className="min-h-11" onClick={clearSharedParam}>Dismiss shared plan</Button>}</div></section> : null}
         <PlanView items={plannedItems} locations={locations} checkedIds={checkedIds} onToggleChecked={toggleChecked} onRemove={removeItem} />
       </main>
     </div>

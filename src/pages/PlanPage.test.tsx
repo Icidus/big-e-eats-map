@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render, screen } from "@testing-library/react";
+import { cleanup, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { BrowserRouter, MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
@@ -37,6 +37,7 @@ beforeEach(() => {
 afterEach(() => {
   cleanup();
   vi.unstubAllGlobals();
+  vi.unstubAllEnvs();
 });
 
 function renderPlanView(props: Pick<React.ComponentProps<typeof PlanView>, "items" | "locations">) {
@@ -111,10 +112,23 @@ describe("PlanView", () => {
     expect(onRemove).toHaveBeenCalledWith(knownFront.id);
   });
 
+  it("does not expose a map action when a known group has no map image", () => {
+    renderPlanView({
+      items: [knownFront],
+      locations: [{ ...fixtureLocations[0], mapImage: "" }, fixtureLocations[1]],
+    });
+    expect(screen.queryByRole("link", { name: /view location map/i })).not.toBeInTheDocument();
+  });
+
+  it("gives the checkbox label a 44px touch target", () => {
+    renderPlanView({ items: [knownFront], locations: fixtureLocations });
+    expect(screen.getByRole("checkbox", { name: /mark front treat as visited/i }).parentElement).toHaveClass("min-h-11", "min-w-11");
+  });
+
   it("offers useful browse links when the plan is empty", () => {
     renderPlanView({ items: [], locations: fixtureLocations });
     expect(screen.getByRole("link", { name: /browse all food/i })).toHaveAttribute("href", "/browse");
-    expect(screen.getByRole("link", { name: /browse drinks/i })).toHaveAttribute("href", "/browse?categories=drinks");
+    expect(screen.getByRole("link", { name: /browse drinks/i })).toHaveAttribute("href", "/browse?tags=drinks");
   });
 });
 
@@ -156,10 +170,26 @@ describe("PlanPage shared plans", () => {
     expect(screen.getByTestId("plan-ids")).toHaveTextContent("wave-caramel-apple-mocktail");
   });
 
-  it("handles a shared set with no known items without mutating the plan", () => {
+  it("does not offer mutating actions for a missing-only shared plan", async () => {
+    const user = userEvent.setup();
+    window.localStorage.setItem("big-e-food-plan:v1", JSON.stringify({ itemIds: ["wave-caramel-apple-mocktail"], checkedIds: [] }));
     renderPlan("/plan?items=missing-only");
     expect(screen.getByText(/0 shared items are available/i)).toBeInTheDocument();
-    expect(screen.getByTestId("plan-ids")).toBeEmptyDOMElement();
+    expect(screen.queryByRole("button", { name: /replace my plan/i })).not.toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: /merge with my plan/i })).not.toBeInTheDocument();
+    expect(screen.getByTestId("plan-ids")).toHaveTextContent("wave-caramel-apple-mocktail");
+    await user.click(screen.getByRole("button", { name: /dismiss shared plan/i }));
+    expect(screen.getByTestId("plan-ids")).toHaveTextContent("wave-caramel-apple-mocktail");
+    expect(screen.getByTestId("location-search")).toBeEmptyDOMElement();
+  });
+
+  it("decodes repeated shared item parameters in order before de-duplicating", async () => {
+    const user = userEvent.setup();
+    renderPlan("/plan?items=wave-caramel-apple-mocktail&items=west-springfield-lions-flatliner-hot-dog,missing");
+    expect(screen.getByText(/2 shared items are available/i)).toBeInTheDocument();
+    expect(screen.getByText(/1 shared item could not be found/i)).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: /merge with my plan/i }));
+    expect(screen.getByTestId("plan-ids")).toHaveTextContent("wave-caramel-apple-mocktail,west-springfield-lions-flatliner-hot-dog");
   });
 
   it("uses the navigator share URL without checked state", async () => {
@@ -170,8 +200,54 @@ describe("PlanPage shared plans", () => {
     renderPlan("/plan");
     await user.click(screen.getByRole("button", { name: /share my plan/i }));
     const url = share.mock.calls[0][0].url;
-    expect(url).toBe(`${new URL("plan", new URL(import.meta.env.BASE_URL, window.location.origin))}?items=wave-caramel-apple-mocktail`);
+    const sharedUrl = new URL(url);
+    expect(sharedUrl.pathname).toBe("/plan");
+    expect(sharedUrl.searchParams.get("items")).toBe("wave-caramel-apple-mocktail");
     expect(url).not.toContain("checked");
+  });
+
+  it("includes the production basename exactly once in a shared URL", async () => {
+    vi.stubEnv("BASE_URL", "/big-e-eats-map/");
+    const share = vi.fn().mockResolvedValue(undefined);
+    vi.stubGlobal("navigator", { share });
+    const user = userEvent.setup();
+    window.localStorage.setItem("big-e-food-plan:v1", JSON.stringify({ itemIds: ["wave-caramel-apple-mocktail"], checkedIds: [] }));
+    renderPlan("/plan");
+    await user.click(screen.getByRole("button", { name: /share my plan/i }));
+    const sharedUrl = new URL(share.mock.calls[0][0].url);
+    expect(sharedUrl.pathname).toBe("/big-e-eats-map/plan");
+    expect(sharedUrl.pathname.match(/big-e-eats-map/g)).toHaveLength(1);
+  });
+
+  it("copies the share URL when native sharing is unavailable", async () => {
+    const writeText = vi.fn().mockResolvedValue(undefined);
+    const user = userEvent.setup();
+    vi.stubGlobal("navigator", { clipboard: { writeText } });
+    window.localStorage.setItem("big-e-food-plan:v1", JSON.stringify({ itemIds: ["wave-caramel-apple-mocktail"], checkedIds: [] }));
+    renderPlan("/plan");
+    await user.click(screen.getByRole("button", { name: /share my plan/i }));
+    expect(writeText).toHaveBeenCalledWith(expect.stringContaining("/plan?items=wave-caramel-apple-mocktail"));
+    expect(screen.getByText(/share link copied to your clipboard/i)).toBeInTheDocument();
+  });
+
+  it("reports clipboard failure without an unhandled rejection", async () => {
+    const writeText = vi.fn().mockRejectedValue(new Error("blocked"));
+    const user = userEvent.setup();
+    vi.stubGlobal("navigator", { clipboard: { writeText } });
+    window.localStorage.setItem("big-e-food-plan:v1", JSON.stringify({ itemIds: ["wave-caramel-apple-mocktail"], checkedIds: [] }));
+    renderPlan("/plan");
+    await user.click(screen.getByRole("button", { name: /share my plan/i }));
+    expect(writeText).toHaveBeenCalledTimes(1);
+    expect(await screen.findByText(/couldn't copy/i)).toBeInTheDocument();
+  });
+
+  it("explains when no sharing API is available", async () => {
+    const user = userEvent.setup();
+    vi.stubGlobal("navigator", {});
+    window.localStorage.setItem("big-e-food-plan:v1", JSON.stringify({ itemIds: ["wave-caramel-apple-mocktail"], checkedIds: [] }));
+    renderPlan("/plan");
+    await user.click(screen.getByRole("button", { name: /share my plan/i }));
+    expect(await screen.findByText(/sharing is not available/i)).toBeInTheDocument();
   });
 
   it("reports an honest failure when native sharing is rejected", async () => {
