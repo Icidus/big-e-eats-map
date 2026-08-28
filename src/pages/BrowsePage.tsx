@@ -25,12 +25,7 @@ export function BrowsePage() {
   const selectedFilters = selectedFiltersFor(state);
 
   function replaceState(next: DiscoveryState) {
-    setSearchParams(serializeDiscoveryState(next), { replace: true });
-  }
-
-  function updateQuery(query: string) {
-    const sort = !query.trim() && state.sort === "relevance" ? undefined : state.sort;
-    replaceState({ ...state, query, sort });
+    setSearchParams(serializeDiscoveryState(normalizeDiscoveryState(next)), { replace: true });
   }
 
   function removeFilter(id: string) {
@@ -49,7 +44,7 @@ export function BrowsePage() {
         <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
           <p className="font-mono text-xs font-bold uppercase tracking-[0.24em] text-secondary">The Big E · West Springfield</p>
           <h1 className="mt-2 font-serif text-4xl font-black tracking-tight sm:text-5xl">Browse 2026 Food</h1>
-          <p className="mt-3 max-w-2xl text-base leading-6 text-primary-foreground/90">A living field guide to the fair’s confirmed new bites—sorted by craving, not guesswork.</p>
+          <p className="mt-3 max-w-2xl text-base leading-6 text-primary-foreground/90">A living field guide to confirmed 2026 food listings—sorted by craving, not guesswork.</p>
         </div>
       </header>
       <CatalogStatusNotice />
@@ -62,7 +57,7 @@ export function BrowsePage() {
             <Input
               id="browse-search"
               value={state.query}
-              onChange={(event) => updateQuery(event.target.value)}
+              onChange={(event) => replaceState({ ...state, query: event.target.value })}
               placeholder="Try apple, hot honey, or a vendor…"
               className="h-12 border-primary/30 pl-10 text-base"
             />
@@ -93,6 +88,13 @@ function selectedFiltersFor(state: DiscoveryState): SelectedFilter[] {
     ...state.tagIds.map((id) => ({ id: `tags:${id}`, label: titleCase(id) })),
     ...(state.collectionId ? [{ id: "collection", label: collectionsById.get(state.collectionId)?.title ?? state.collectionId }] : []),
   ];
+}
+
+function normalizeDiscoveryState(state: DiscoveryState): DiscoveryState {
+  if (!state.query.trim() && state.sort === "relevance") {
+    return { ...state, sort: undefined };
+  }
+  return state;
 }
 
 function titleCase(value: string): string {

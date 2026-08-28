@@ -104,6 +104,23 @@ describe("BrowsePage", () => {
     expect(screen.getByTestId("location-search")).not.toHaveTextContent("sort=relevance");
   });
 
+  it("normalizes relevance when its query chip is removed", async () => {
+    const user = userEvent.setup();
+    render(
+      <MemoryRouter initialEntries={["/browse?q=apple&sort=relevance"]}>
+        <FoodPlanProvider>
+          <Routes><Route path="/browse" element={<BrowsePage />} /></Routes>
+          <LocationSearch />
+        </FoodPlanProvider>
+      </MemoryRouter>,
+    );
+
+    await user.click(screen.getByRole("button", { name: /remove search: apple filter/i }));
+
+    expect(screen.getByTestId("location-search")).toBeEmptyDOMElement();
+    expect(screen.getByLabelText("Sort")).toHaveValue("name");
+  });
+
   it("replaces browser history entries for discovery updates", async () => {
     const user = userEvent.setup();
     renderBrowseInWindow("/browse?categories=mocktails&locations=the-front-porch");
