@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
+import { AppNav } from "@/components/AppNav";
 import Index from "./pages/Index";
 import { BrowsePage } from "./pages/BrowsePage";
 import LocationDetail from "./pages/LocationDetail";
@@ -14,16 +15,19 @@ const queryClient = new QueryClient();
 
 export function AppRoutes() {
   return (
-    <Routes>
-      <Route path="/" element={<Index />} />
-      <Route path="/browse" element={<BrowsePage />} />
-      <Route path="/location/:id" element={<LocationDetail />} />
-      <Route path="/masslive-favorites" element={<Navigate replace to="/" />} />
-      <Route path="/drinks" element={<Navigate replace to="/browse?categories=cocktails,mocktails,beer-cider,nonalcoholic-drinks" />} />
-      <Route path="/plan" element={<PlanPage />} />
-      {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+    <div className="pb-16 md:pb-0">
+      <AppNav />
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/browse" element={<BrowsePage />} />
+        <Route path="/location/:id" element={<LocationDetail />} />
+        <Route path="/masslive-favorites" element={<Navigate replace to="/" />} />
+        <Route path="/drinks" element={<Navigate replace to="/browse?categories=cocktails,mocktails,beer-cider,nonalcoholic-drinks" />} />
+        <Route path="/plan" element={<PlanPage />} />
+        {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </div>
   );
 }
 
