@@ -1,7 +1,6 @@
 import { useState, type FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Beef, CupSoda, Dessert, GlassWater, Search, Soup, Wheat } from "lucide-react";
-import heroImage from "@/assets/big-e-hero.jpg";
 import { LocationCard } from "@/components/LocationCard";
 import { CatalogStatusNotice } from "@/components/discovery/CatalogStatusNotice";
 import { CategoryTile } from "@/components/discovery/CategoryTile";
@@ -38,17 +37,15 @@ const Index = () => {
 
   return (
     <div className="min-h-screen overflow-x-hidden bg-[radial-gradient(hsl(var(--secondary)/0.16)_1px,transparent_1px)] bg-[size:13px_13px] text-foreground">
-      <header className="relative isolate overflow-hidden border-b-4 border-primary bg-primary text-primary-foreground">
-        <div className="absolute inset-0 -z-10 bg-cover bg-center opacity-30 mix-blend-multiply" style={{ backgroundImage: `url(${heroImage})` }} />
-        <div className="absolute inset-0 -z-10 bg-[linear-gradient(110deg,hsl(var(--primary)/0.98),hsl(var(--primary)/0.84)_52%,hsl(var(--accent)/0.88))]" />
+      <header className="border-b-4 border-primary bg-[hsl(var(--hero-ink))] text-primary-foreground">
         <div className="mx-auto max-w-7xl px-4 py-9 sm:px-6 sm:py-11 lg:px-8">
           <p className="font-mono text-[10px] font-bold uppercase tracking-[0.24em] text-secondary">West Springfield · Field notes</p>
           <div className="mt-3 flex flex-wrap items-end justify-between gap-5">
             <div className="field-guide-reveal"><p className="font-serif text-xl font-bold sm:text-2xl">Big E 2026 Food Guide</p><h1 className="mt-1 font-serif text-4xl font-black leading-none tracking-tight sm:text-5xl">Find your next Big E bite</h1></div>
-            <p className="max-w-xs border-l-2 border-secondary pl-3 text-sm leading-5 text-primary-foreground/90">A first look at the official new-food listings, gathered for an easy fair-day wander.</p>
+            <p className="max-w-xs border-l-2 border-secondary pl-3 text-sm leading-5 text-primary-foreground">A first look at the official new-food listings, gathered for an easy fair-day wander.</p>
           </div>
           <form className="mt-7 max-w-2xl" onSubmit={submitSearch} role="search">
-            <label htmlFor="home-search" className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-primary-foreground/90">Search 2026 food</label>
+            <label htmlFor="home-search" className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-primary-foreground">Search 2026 food</label>
             <div className="mt-2 flex flex-col gap-2 sm:flex-row">
               <div className="relative min-w-0 flex-1"><Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-primary" aria-hidden="true" /><input id="home-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Apple, hot honey, a vendor…" className="h-12 w-full border-2 border-primary-foreground/75 bg-card px-10 text-base text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-2 focus-visible:ring-offset-primary" /></div>
               <button type="submit" className="min-h-12 border-2 border-secondary bg-secondary px-5 text-sm font-bold text-secondary-foreground transition-colors hover:bg-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary">Search food guide</button>
@@ -67,7 +64,7 @@ const Index = () => {
 
         <section aria-labelledby="locations-heading"><SectionHeading eyebrow="Follow the fair map" id="locations-heading">Browse by location</SectionHeading><p className="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground">These are the fair stops named by at least one confirmed 2026 listing. An item with more than one listed stop appears in each of them.</p><div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{populatedLocations.map(({ location, itemCount }) => <LocationCard key={location.id} location={location} itemCount={itemCount} />)}</div></section>
 
-        <section className="border-2 border-primary bg-primary p-5 text-primary-foreground shadow-[7px_7px_0_hsl(var(--secondary)/0.72)] sm:flex sm:items-center sm:justify-between sm:gap-6 sm:p-7" aria-labelledby="plan-heading"><div><p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-secondary">Keep your route handy</p><h2 id="plan-heading" className="mt-2 font-serif text-3xl font-bold">My Food Plan</h2><p className="mt-1 text-sm text-primary-foreground/90">{itemIds.length} {itemIds.length === 1 ? "bite" : "bites"} saved for your fair day.</p></div><Link to="/plan" className="mt-5 inline-flex min-h-11 items-center justify-center border-2 border-secondary bg-secondary px-5 text-sm font-bold text-secondary-foreground transition-colors hover:bg-primary-foreground sm:mt-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary" aria-label={`My Food Plan, ${itemIds.length} saved ${itemIds.length === 1 ? "bite" : "bites"}`}>View my plan</Link></section>
+        <section className="border-2 border-primary bg-[hsl(var(--hero-ink))] p-5 text-primary-foreground shadow-[7px_7px_0_hsl(var(--secondary)/0.72)] sm:flex sm:items-center sm:justify-between sm:gap-6 sm:p-7" aria-labelledby="plan-heading"><div><p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-secondary">Keep your route handy</p><h2 id="plan-heading" className="mt-2 font-serif text-3xl font-bold">My Food Plan</h2><p className="mt-1 text-sm text-primary-foreground">{itemIds.length} {itemIds.length === 1 ? "bite" : "bites"} saved for your fair day.</p></div><Link to="/plan" className="mt-5 inline-flex min-h-11 items-center justify-center border-2 border-secondary bg-secondary px-5 text-sm font-bold text-secondary-foreground transition-colors hover:bg-primary-foreground sm:mt-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary" aria-label={`My Food Plan, ${itemIds.length} saved ${itemIds.length === 1 ? "bite" : "bites"}`}>View my plan</Link></section>
       </main>
     </div>
   );

@@ -18,7 +18,11 @@ All colors MUST be HSL.
     --popover-foreground: 8 25% 15%;
 
     /* Big E Festival Colors - Warm and Inviting */
-    --primary: 8 85% 55%;
+    /* Dark, text-safe inks for the printed field-guide treatment. */
+    --brand-ink: 8 70% 31%;
+    --hero-ink: 8 70% 25%;
+
+    --primary: var(--brand-ink);
     --primary-foreground: 0 0% 100%;
     --primary-glow: 12 90% 65%;
 
@@ -26,7 +30,7 @@ All colors MUST be HSL.
     --secondary-foreground: 8 25% 15%;
 
     --muted: 45 25% 92%;
-    --muted-foreground: 8 15% 45%;
+    --muted-foreground: 8 18% 34%;
 
     --accent: 18 80% 58%;
     --accent-foreground: 0 0% 100%;

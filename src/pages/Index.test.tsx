@@ -1,4 +1,4 @@
-import { cleanup, render, screen } from "@testing-library/react";
+import { cleanup, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
@@ -92,12 +92,48 @@ describe("Index", () => {
     expect(screen.getByRole("link", { name: /browse .* confirmed items at the front porch/i })).toHaveAttribute("href", "/browse?locations=the-front-porch");
   });
 
+  it("routes the Spicy craving and every flavor pick through tag filters", () => {
+    renderIndex();
+
+    expect(screen.getByRole("link", { name: /browse spicy/i })).toHaveAttribute("href", "/browse?tags=spicy");
+    for (const [tag, label] of [["pickle", "Pickle"], ["birria", "Birria"], ["hot-honey", "Hot honey"], ["pumpkin", "Pumpkin"], ["apple", "Apple"], ["fall-flavors", "Fall flavors"]]) {
+      expect(screen.getByRole("link", { name: label })).toHaveAttribute("href", `/browse?tags=${tag}`);
+    }
+  });
+
+  it("resolves every collection link and displayed count from its declared items", () => {
+    renderIndex();
+
+    for (const collection of collections) {
+      const count = collection.itemIds.filter((id) => catalogItems.some((item) => item.id === id)).length;
+      const collectionLink = screen.getByRole("link", { name: `Browse ${collection.title}, ${count} confirmed items` });
+      expect(collectionLink).toHaveAttribute("href", `/browse?collection=${collection.id}`);
+      expect(within(collectionLink.closest("article")!).getByText(`2026 collection · ${count} items`)).toBeInTheDocument();
+    }
+  });
+
   it("shows only locations with confirmed items", () => {
     renderIndex();
+
+    for (const location of locations.filter((entry) => catalogItems.some((item) => item.locationIds.includes(entry.id)))) {
+      const count = catalogItems.filter((item) => item.locationIds.includes(location.id)).length;
+      expect(screen.getByRole("link", { name: `Browse ${count} confirmed items at ${location.name}` })).toHaveAttribute("href", `/browse?locations=${location.id}`);
+    }
 
     for (const location of locations.filter((entry) => !catalogItems.some((item) => item.locationIds.includes(entry.id)))) {
       expect(screen.queryByRole("link", { name: new RegExp(location.name, "i") })).not.toBeInTheDocument();
     }
+  });
+
+  it("keeps browse sections in the editorial entry order", () => {
+    renderIndex();
+
+    const landmarks = [...document.querySelectorAll("header, aside[aria-label='Catalog status'], main > section")];
+    expect(landmarks.map((element) => element.getAttribute("aria-labelledby") ?? element.tagName.toLowerCase())).toEqual([
+      "header", "aside", "cravings-heading", "collections-heading", "flavor-heading", "locations-heading", "plan-heading",
+    ]);
+    expect(landmarks[0]).toHaveTextContent(/find your next big e bite/i);
+    expect(landmarks[0]).toHaveTextContent(/search 2026 food/i);
   });
 
   it("calls flavor shortcuts editor selected, not trending", () => {
