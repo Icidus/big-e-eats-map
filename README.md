@@ -1,73 +1,48 @@
-# Welcome to your Lovable project
+# Big E 2026 Food Guide
 
-## Project info
+A static guide for discovering confirmed 2026 Big E food listings, locating vendors, and building a personal fair-food plan. It is designed for browsing, filtering, sharing a search state, and planning a visit without a server account or database.
 
-**URL**: https://lovable.dev/projects/b74f4fc3-8130-4444-bb61-6b025cf5b37a
+## Source and completeness policy
 
-## How can I edit this code?
+Catalog records are included only when backed by an official Big E source. Each catalog item and editorial collection retains its source publisher, title, URL, and access date in the JSON data. The guide intentionally does not claim to be a complete roster: only confirmed listings are shown, and the catalog is expanded as official information becomes available. Do not add unsourced vendor, menu, location, or availability claims.
 
-There are several ways of editing your application.
+## Architecture
 
-**Use Lovable**
+This is a Vite, React, TypeScript, and Tailwind static site. The application reads its catalog from versioned JSON files in `src/data/2026/`; `src/features/catalog/` validates and indexes that data at startup. Discovery, URL state, and the local food plan run entirely in the browser. GitHub Pages publishes the generated `dist/` artifact.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b74f4fc3-8130-4444-bb61-6b025cf5b37a) and start prompting.
+## Local development
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Use Node.js 20 or later.
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm ci
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Useful checks:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+npm test
+npm run lint
+npm run build
+```
 
-**Use GitHub Codespaces**
+## Updating the 2026 data safely
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Start with an official Big E page and record its publisher, title, URL, and access date in the relevant `source` object.
+2. Update `src/data/2026/catalog.json`, `collections.json`, or `locations.json` with only confirmed information. Keep item IDs stable and ensure every referenced location and collection item ID exists.
+3. Preserve source attribution and do not present source metadata as public menu copy.
+4. Run the focused catalog validation, then the complete checks:
 
-## What technologies are used for this project?
+   ```sh
+   npm test -- src/data/2026/catalog-content.test.ts
+   npm test
+   npm run lint
+   npm run build
+   ```
 
-This project is built with:
+5. Review the JSON diff for accidental duplicate items, unsupported taxonomy values, or unverified claims before committing.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## GitHub Pages deployment
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b74f4fc3-8130-4444-bb61-6b025cf5b37a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The GitHub Actions workflow at `.github/workflows/deploy.yml` deploys pushes to `main`. It installs dependencies with `npm ci`, builds the site, copies the built entry point to `dist/404.html` for SPA fallback, uploads the artifact, and deploys it with GitHub Pages. Run the production build locally before merging a deployment change.

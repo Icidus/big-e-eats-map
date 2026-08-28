@@ -25,3 +25,6 @@ dist-ssr
 
 # Isolated feature worktrees
 .worktrees/
+
+# Agent workflow artifacts
+.superpowers/
