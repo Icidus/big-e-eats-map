@@ -1,50 +1,21 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { MapPin, Utensils } from "lucide-react";
-import { Location } from "@/data/locations";
+import { MapPin, ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import type { FairLocation } from "@/features/catalog/catalog";
 
 interface LocationCardProps {
-  location: Location;
+  location: FairLocation;
+  itemCount: number;
 }
 
-export function LocationCard({ location }: LocationCardProps) {
-  const recommendedCount = location.foods.filter(food => food.isRecommended).length;
-  
+export function LocationCard({ location, itemCount }: LocationCardProps) {
   return (
-    <Card className="shadow-card hover:shadow-festival transition-all duration-300 hover:scale-[1.02] border-border/50">
-      <CardHeader className="pb-3">
-        <div className="flex items-center gap-2 mb-2">
-          <MapPin className="w-5 h-5 text-primary" />
-          <Badge variant="secondary" className="text-xs">
-            {location.foods.length} vendors
-          </Badge>
-          {recommendedCount > 0 && (
-            <Badge variant="default" className="text-xs bg-accent text-accent-foreground">
-              {recommendedCount} recommended
-            </Badge>
-          )}
-        </div>
-        <CardTitle className="text-lg font-bold text-foreground">{location.name}</CardTitle>
-        <CardDescription className="text-muted-foreground text-sm leading-relaxed">
-          {location.description}
-        </CardDescription>
-      </CardHeader>
-      <CardContent className="pt-0">
-        <div className="flex items-center gap-2 mb-4">
-          <Utensils className="w-4 h-4 text-accent" />
-          <span className="text-sm text-muted-foreground">
-            Featured: {location.foods.slice(0, 2).map(food => food.name).join(', ')}
-            {location.foods.length > 2 && '...'}
-          </span>
-        </div>
-        <Link to={`/location/${location.id}`}>
-          <Button variant="festival" className="w-full font-medium">
-            Explore Food Options
-          </Button>
-        </Link>
-      </CardContent>
-    </Card>
+    <article className="h-full border-l-4 border-secondary bg-card p-4 shadow-[3px_3px_0_hsl(var(--primary)/0.14)]">
+      <div className="flex items-start justify-between gap-3"><MapPin className="mt-0.5 h-5 w-5 shrink-0 text-primary" aria-hidden="true" /><span className="font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-muted-foreground">{itemCount} items</span></div>
+      <h3 className="mt-3 font-serif text-xl font-bold leading-tight text-foreground">{location.name}</h3>
+      <p className="mt-2 text-sm leading-5 text-muted-foreground">{location.description}</p>
+      <Link to={`/browse?locations=${encodeURIComponent(location.id)}`} className="mt-4 inline-flex min-h-11 items-center gap-2 text-sm font-bold text-primary underline decoration-secondary decoration-2 underline-offset-4 hover:text-primary/75 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-4" aria-label={`Browse ${itemCount} confirmed items at ${location.name}`}>
+        Browse this stop <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+      </Link>
+    </article>
   );
 }

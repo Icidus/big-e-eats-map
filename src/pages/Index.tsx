@@ -1,340 +1,80 @@
-import { LocationCard } from "@/components/LocationCard";
-import { MassLiveFavoritesSection } from "@/components/MassLiveFavorites";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
-import { MapPin, Search, Calendar, Users, CupSoda } from "lucide-react";
-import { locations } from "@/data/locations";
-import { getDrinks, augmentLocations } from "@/data/categories";
-import { massLiveFavorites } from "@/data/massLiveFavorites";
-import { useState } from "react";
+import { useState, type FormEvent } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { Beef, CupSoda, Dessert, GlassWater, Search, Soup, Wheat } from "lucide-react";
 import heroImage from "@/assets/big-e-hero.jpg";
+import { LocationCard } from "@/components/LocationCard";
+import { CatalogStatusNotice } from "@/components/discovery/CatalogStatusNotice";
+import { CategoryTile } from "@/components/discovery/CategoryTile";
+import { CollectionCard } from "@/components/discovery/CollectionCard";
+import { catalogItems, collections, itemsById, locations } from "@/features/catalog/catalog";
+import { useFoodPlan } from "@/features/plan/FoodPlanProvider";
+
+const cravings = [
+  { id: "cocktails", label: "Cocktails", icon: GlassWater, kind: "category" as const },
+  { id: "mocktails", label: "Mocktails", icon: CupSoda, kind: "category" as const },
+  { id: "desserts", label: "Desserts", icon: Dessert, kind: "category" as const },
+  { id: "burgers", label: "Burgers", icon: Beef, kind: "category" as const },
+  { id: "potatoes-fries", label: "Potatoes & Fries", icon: Wheat, kind: "category" as const },
+  { id: "spicy", label: "Spicy", icon: Soup, kind: "tag" as const },
+];
+
+const flavorPicks = [["pickle", "Pickle"], ["birria", "Birria"], ["hot-honey", "Hot honey"], ["pumpkin", "Pumpkin"], ["apple", "Apple"], ["fall-flavors", "Fall flavors"]] as const;
 
 const Index = () => {
-  const [searchTerm, setSearchTerm] = useState("");
-  
-  // Augment foods with categories/tags for richer search
-  const augmented = augmentLocations(locations);
-  const filteredLocations = augmented.filter((location) => {
-    const q = searchTerm.toLowerCase();
-    if (!q) return true;
-    return (
-      location.name.toLowerCase().includes(q) ||
-      location.description.toLowerCase().includes(q) ||
-      location.foods.some((food) =>
-        food.name.toLowerCase().includes(q) ||
-        food.vendor.toLowerCase().includes(q) ||
-        food.primaryCategory.toLowerCase().includes(q) ||
-        food.tags.some((t) => t.toLowerCase().includes(q))
-      )
-    );
-  });
+  const [query, setQuery] = useState("");
+  const navigate = useNavigate();
+  const { itemIds } = useFoodPlan();
+  const populatedLocations = locations
+    .map((location) => ({ location, itemCount: catalogItems.filter((item) => item.locationIds.includes(location.id)).length }))
+    .filter(({ itemCount }) => itemCount > 0)
+    .sort((first, second) => first.location.order - second.location.order);
 
-  // Also surface individual food matches across all locations
-  const matchingFoods = (() => {
-    const q = searchTerm.trim().toLowerCase();
-    if (!q) return [] as Array<{
-      id: string;
-      name: string;
-      vendor: string;
-      locationId: string;
-      locationName: string;
-      price?: string | null;
-      category?: string;
-      tags?: string[];
-    }>;
-    return augmented.flatMap((loc) =>
-      loc.foods
-        .filter((food) =>
-          food.name.toLowerCase().includes(q) ||
-          food.vendor.toLowerCase().includes(q) ||
-          (food.description?.toLowerCase().includes(q) ?? false) ||
-          food.primaryCategory.toLowerCase().includes(q) ||
-          food.tags.some((t) => t.toLowerCase().includes(q))
-        )
-        .map((food) => ({
-          id: `${loc.id}-${food.id}`,
-          name: food.name,
-          vendor: food.vendor,
-          locationId: loc.id,
-          locationName: loc.name,
-          price: food.price ?? null,
-          category: food.primaryCategory,
-          tags: food.tags,
-        }))
-    );
-  })();
-
-  const totalFoods = augmented.reduce((acc, location) => acc + location.foods.length, 0);
-  const totalRecommended = augmented.reduce((acc, location) =>
-    acc + location.foods.filter((food) => food.isRecommended).length,
-    0
-  );
-
-  // Build a drinks list across all locations using categorization
-  const drinks = getDrinks(locations).map((f) => ({
-    id: `${f.locationId}-${f.id}`,
-    name: f.name,
-    vendor: f.vendor,
-    locationId: f.locationId,
-    locationName: f.locationName,
-    price: f.price ?? null,
-  }));
-  const topDrinks = drinks.slice(0, 12);
-  const isSearching = searchTerm.trim().length > 0;
+  function submitSearch(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const value = query.trim();
+    if (!value) return navigate("/browse");
+    navigate(`/browse?${new URLSearchParams({ q: value }).toString()}`);
+  }
 
   return (
-    <div className="min-h-screen bg-gradient-subtle">
-      {/* Hero Section */}
-      <div className="relative">
-        <div 
-          className="h-96 bg-cover bg-center relative"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-b from-primary/60 to-primary/80" />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-center text-primary-foreground px-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-lg">
-                Big E Fair 2025
-              </h1>
-              <p className="text-xl md:text-2xl mb-6 drop-shadow-md opacity-95">
-                Your Family's Guide to the Best Fair Food + MassLive Favorites
-              </p>
-              <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
-                <Badge variant="secondary" className="bg-primary-foreground/20 text-primary-foreground border-primary-foreground/30 text-sm px-3 py-1">
-                  <Calendar className="w-4 h-4 mr-2" />
-                  September 2025
-                </Badge>
-                <Badge variant="secondary" className="bg-primary-foreground/20 text-primary-foreground border-primary-foreground/30 text-sm px-3 py-1">
-                  <MapPin className="w-4 h-4 mr-2" />
-                  {locations.length} Locations
-                </Badge>
-                <Badge variant="secondary" className="bg-primary-foreground/20 text-primary-foreground border-primary-foreground/30 text-sm px-3 py-1">
-                  <Users className="w-4 h-4 mr-2" />
-                  Family Friendly
-                </Badge>
-              </div>
-            </div>
+    <div className="min-h-screen overflow-x-hidden bg-[radial-gradient(hsl(var(--secondary)/0.16)_1px,transparent_1px)] bg-[size:13px_13px] text-foreground">
+      <header className="relative isolate overflow-hidden border-b-4 border-primary bg-primary text-primary-foreground">
+        <div className="absolute inset-0 -z-10 bg-cover bg-center opacity-30 mix-blend-multiply" style={{ backgroundImage: `url(${heroImage})` }} />
+        <div className="absolute inset-0 -z-10 bg-[linear-gradient(110deg,hsl(var(--primary)/0.98),hsl(var(--primary)/0.84)_52%,hsl(var(--accent)/0.88))]" />
+        <div className="mx-auto max-w-7xl px-4 py-9 sm:px-6 sm:py-11 lg:px-8">
+          <p className="font-mono text-[10px] font-bold uppercase tracking-[0.24em] text-secondary">West Springfield · Field notes</p>
+          <div className="mt-3 flex flex-wrap items-end justify-between gap-5">
+            <div className="field-guide-reveal"><p className="font-serif text-xl font-bold sm:text-2xl">Big E 2026 Food Guide</p><h1 className="mt-1 font-serif text-4xl font-black leading-none tracking-tight sm:text-5xl">Find your next Big E bite</h1></div>
+            <p className="max-w-xs border-l-2 border-secondary pl-3 text-sm leading-5 text-primary-foreground/90">A first look at the official new-food listings, gathered for an easy fair-day wander.</p>
           </div>
-        </div>
-      </div>
-
-      <div className="container mx-auto px-4 py-8">
-        {/* Stats Section (always visible, above search) */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 -mt-16 relative z-10">
-          <Card className="shadow-card bg-card/95 backdrop-blur">
-            <CardContent className="p-4 text-center">
-              <div className="text-2xl font-bold text-primary mb-1">{locations.length}</div>
-              <div className="text-sm text-muted-foreground">Locations</div>
-            </CardContent>
-          </Card>
-          <Card className="shadow-card bg-card/95 backdrop-blur">
-            <CardContent className="p-4 text-center">
-              <div className="text-2xl font-bold text-primary mb-1">{totalFoods}</div>
-              <div className="text-sm text-muted-foreground">Food Options</div>
-            </CardContent>
-          </Card>
-          <Card className="shadow-card bg-card/95 backdrop-blur">
-            <CardContent className="p-4 text-center">
-              <div className="text-2xl font-bold text-accent mb-1">{massLiveFavorites.length}</div>
-              <div className="text-sm text-muted-foreground">MassLive Favorites</div>
-            </CardContent>
-          </Card>
-          <Card className="shadow-card bg-card/95 backdrop-blur">
-            <CardContent className="p-4 text-center">
-              <div className="text-2xl font-bold text-secondary mb-1">{totalRecommended}</div>
-              <div className="text-sm text-muted-foreground">Recommended</div>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Search Section */}
-        <Card className="shadow-card mb-8">
-          <CardContent className="p-6">
-            <div className="flex items-center gap-2 mb-4">
-              <Search className="w-5 h-5 text-primary" />
-              <h2 className="text-xl font-bold text-foreground">Find Your Perfect Fair Food</h2>
+          <form className="mt-7 max-w-2xl" onSubmit={submitSearch} role="search">
+            <label htmlFor="home-search" className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-primary-foreground/90">Search 2026 food</label>
+            <div className="mt-2 flex flex-col gap-2 sm:flex-row">
+              <div className="relative min-w-0 flex-1"><Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-primary" aria-hidden="true" /><input id="home-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Apple, hot honey, a vendor…" className="h-12 w-full border-2 border-primary-foreground/75 bg-card px-10 text-base text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-2 focus-visible:ring-offset-primary" /></div>
+              <button type="submit" className="min-h-12 border-2 border-secondary bg-secondary px-5 text-sm font-bold text-secondary-foreground transition-colors hover:bg-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary">Search food guide</button>
             </div>
-            <div className="relative">
-              <Input
-                type="text"
-                placeholder="Search locations, foods, or vendors..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="pl-10 h-12 text-base"
-              />
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-            </div>
-            {searchTerm && (
-              <p className="text-sm text-muted-foreground mt-2">
-                Found {filteredLocations.length} location{filteredLocations.length !== 1 ? 's' : ''} and {matchingFoods.length} item{matchingFoods.length !== 1 ? 's' : ''} matching "{searchTerm}"
-              </p>
-            )}
-          </CardContent>
-        </Card>
-
-        {/* When searching, show item results prominently */}
-        {isSearching && matchingFoods.length > 0 && (
-          <Card className="shadow-card mb-8">
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between mb-6">
-                <div className="flex items-center gap-2">
-                  <Search className="w-5 h-5 text-primary" />
-                  <h2 className="text-xl font-bold text-foreground">Items matching "{searchTerm}"</h2>
-                </div>
-                <Badge variant="secondary" className="bg-primary/10 text-primary">
-                  {matchingFoods.length} Items
-                </Badge>
-              </div>
-              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-                {matchingFoods.map((item) => (
-                  <Card key={item.id} className="shadow-card">
-                    <CardContent className="p-4">
-                      <div className="flex items-start justify-between">
-                        <div>
-                          <h3 className="font-semibold text-foreground mb-1">{item.name}</h3>
-                          <p className="text-sm text-muted-foreground mb-2">{item.vendor}</p>
-                          <div className="flex items-center gap-2 text-xs text-muted-foreground flex-wrap">
-                            <span className="inline-flex items-center gap-1"><MapPin className="w-3 h-3" />{item.locationName}</span>
-                            {item.category && (
-                              <Badge variant="outline" className="text-[10px]">{item.category}</Badge>
-                            )}
-                          </div>
-                        </div>
-                        <div className="text-right">
-                          {item.price && (
-                            <Badge variant="outline" className="text-xs">{item.price}</Badge>
-                          )}
-                        </div>
-                      </div>
-                      <div className="mt-3">
-                        <a href={`/big-e-eats-map/location/${item.locationId}?q=${encodeURIComponent(item.name)}`} className="text-primary text-sm font-medium hover:underline">
-                          View at this location
-                        </a>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
-        )}
-
-        
-
-  {/* MassLive Favorites Section */}
-  {!isSearching && <MassLiveFavoritesSection limit={6} showMassLiveLink={true} />}
-
-        {/* Drinks Section */}
-        {!isSearching && topDrinks.length > 0 && (
-          <Card className="shadow-card mb-8">
-            <CardContent className="p-6">
-              <div className="flex items-center justify-between mb-6">
-                <div className="flex items-center gap-2">
-                  <CupSoda className="w-5 h-5 text-primary" />
-                  <h2 className="text-xl font-bold text-foreground">Drinks (Alcoholic & Non-Alcoholic)</h2>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Badge variant="secondary" className="bg-primary/10 text-primary">
-                    {drinks.length} Options
-                  </Badge>
-                  <a href="/big-e-eats-map/drinks" className="text-sm text-primary font-medium hover:underline">Browse all drinks</a>
-                </div>
-              </div>
-              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-                {topDrinks.map((item) => (
-                  <Card key={item.id} className="shadow-card">
-                    <CardContent className="p-4">
-                      <div className="flex items-start justify-between">
-                        <div>
-                          <h3 className="font-semibold text-foreground mb-1">{item.name}</h3>
-                          <p className="text-sm text-muted-foreground mb-2">{item.vendor}</p>
-                          <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                            <MapPin className="w-3 h-3" />
-                            {item.locationName}
-                          </div>
-                        </div>
-                        <div className="text-right">
-                          {item.price && (
-                            <Badge variant="outline" className="text-xs">{item.price}</Badge>
-                          )}
-                        </div>
-                      </div>
-                      <div className="mt-3">
-                        <a href={`/big-e-eats-map/location/${item.locationId}`} className="text-primary text-sm font-medium hover:underline">
-                          View location
-                        </a>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
-        )}
-
-  {/* Search Section moved to top */}
-
-        {/* Locations Grid */}
-        <div className="mb-8">
-          <div className="flex items-center gap-2 mb-6">
-            <MapPin className="w-6 h-6 text-primary" />
-            <h2 className="text-2xl font-bold text-foreground">
-              {isSearching ? 'Matching Locations' : 'Fair Locations'}
-            </h2>
-          </div>
-          
-          {filteredLocations.length === 0 ? (
-            <Card className="shadow-card">
-              <CardContent className="text-center py-12">
-                <Search className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">No Results Found</h3>
-                <p className="text-muted-foreground mb-4">
-                  Try searching for different food items, vendors, or locations.
-                </p>
-                <Button variant="festival" onClick={() => setSearchTerm('')}>
-                  Clear Search
-                </Button>
-              </CardContent>
-            </Card>
-          ) : (
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {filteredLocations.map((location) => (
-                <LocationCard key={location.id} location={location} />
-              ))}
-            </div>
-          )}
+          </form>
         </div>
+      </header>
+      <CatalogStatusNotice />
 
-  {/* Items grid moved above; no duplicate here */}
+      <main className="mx-auto max-w-7xl space-y-12 px-4 py-9 sm:px-6 lg:px-8">
+        <section aria-labelledby="cravings-heading"><SectionHeading eyebrow="Start with a craving" id="cravings-heading">Which corner are you hungry for?</SectionHeading><div className="mt-5 grid gap-3 min-[460px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-6">{cravings.map((craving) => <CategoryTile key={craving.id} {...craving} count={catalogItems.filter((item) => craving.kind === "tag" ? item.tagIds.includes(craving.id) : item.categoryIds.includes(craving.id)).length} />)}</div></section>
 
-        {/* Footer */}
-        {!isSearching && (
-          <Card className="shadow-card bg-gradient-warm">
-            <CardContent className="p-6 text-center">
-              <h3 className="text-xl font-bold text-accent-foreground mb-2">Ready for the Big E?</h3>
-              <p className="text-accent-foreground/80 mb-4">
-                Your family's ultimate guide to the best food at New England's Great State Fair.
-                Save this site and plan your perfect fair food adventure!
-              </p>
-              <div className="flex flex-wrap justify-center gap-2">
-                <Badge variant="secondary" className="bg-accent-foreground/20 text-accent-foreground">
-                  Mobile Optimized
-                </Badge>
-                <Badge variant="secondary" className="bg-accent-foreground/20 text-accent-foreground">
-                  Easy Navigation
-                </Badge>
-                <Badge variant="secondary" className="bg-accent-foreground/20 text-accent-foreground">
-                  Family Friendly
-                </Badge>
-              </div>
-            </CardContent>
-          </Card>
-        )}
-      </div>
+        <section aria-labelledby="collections-heading"><SectionHeading eyebrow="A few ready-made routes" id="collections-heading">2026 collection cards</SectionHeading><div className="mt-5 grid gap-5 md:grid-cols-2 xl:grid-cols-3">{collections.map((collection) => <CollectionCard key={collection.id} collection={collection} itemCount={collection.itemIds.filter((id) => itemsById.has(id)).length} />)}</div></section>
+
+        <section className="border-y-2 border-secondary/55 py-7" aria-labelledby="flavor-heading"><SectionHeading eyebrow="Marked in the margin" id="flavor-heading">Editor&apos;s flavor picks</SectionHeading><div className="mt-5 flex flex-wrap gap-2">{flavorPicks.map(([id, label]) => <Link key={id} to={`/browse?tags=${id}`} className="min-h-11 border border-primary/35 bg-card px-4 py-2 text-sm font-bold text-primary shadow-[2px_2px_0_hsl(var(--secondary)/0.32)] transition-colors hover:bg-secondary/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-4">{label}</Link>)}</div></section>
+
+        <section aria-labelledby="locations-heading"><SectionHeading eyebrow="Follow the fair map" id="locations-heading">Browse by location</SectionHeading><p className="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground">These are the fair stops named by at least one confirmed 2026 listing. An item with more than one listed stop appears in each of them.</p><div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{populatedLocations.map(({ location, itemCount }) => <LocationCard key={location.id} location={location} itemCount={itemCount} />)}</div></section>
+
+        <section className="border-2 border-primary bg-primary p-5 text-primary-foreground shadow-[7px_7px_0_hsl(var(--secondary)/0.72)] sm:flex sm:items-center sm:justify-between sm:gap-6 sm:p-7" aria-labelledby="plan-heading"><div><p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-secondary">Keep your route handy</p><h2 id="plan-heading" className="mt-2 font-serif text-3xl font-bold">My Food Plan</h2><p className="mt-1 text-sm text-primary-foreground/90">{itemIds.length} {itemIds.length === 1 ? "bite" : "bites"} saved for your fair day.</p></div><Link to="/plan" className="mt-5 inline-flex min-h-11 items-center justify-center border-2 border-secondary bg-secondary px-5 text-sm font-bold text-secondary-foreground transition-colors hover:bg-primary-foreground sm:mt-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary" aria-label={`My Food Plan, ${itemIds.length} saved ${itemIds.length === 1 ? "bite" : "bites"}`}>View my plan</Link></section>
+      </main>
     </div>
   );
 };
+
+function SectionHeading({ eyebrow, id, children }: { eyebrow: string; id: string; children: string }) {
+  return <div><p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">{eyebrow}</p><h2 id={id} className="mt-1 font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl">{children}</h2></div>;
+}
 
 export default Index;
