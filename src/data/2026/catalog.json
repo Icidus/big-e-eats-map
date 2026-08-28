@@ -1841,8 +1841,7 @@
     "name": "Panella",
     "vendor": "Calabrese Market",
     "locationIds": [
-      "food-court",
-      "east-road"
+      "food-court"
     ],
     "description": "The official 2026 New Foods listing identifies Panella as an offering from Calabrese Market.",
     "categoryIds": [
@@ -1866,8 +1865,7 @@
     "name": "Brie Cheese, Fig Jam and Prosciutto",
     "vendor": "Calabrese Market",
     "locationIds": [
-      "food-court",
-      "east-road"
+      "food-court"
     ],
     "description": "The official 2026 New Foods listing identifies Brie Cheese, Fig Jam and Prosciutto as an offering from Calabrese Market.",
     "categoryIds": [
@@ -1892,8 +1890,7 @@
     "name": "Fluffernutter",
     "vendor": "Calabrese Market",
     "locationIds": [
-      "food-court",
-      "east-road"
+      "food-court"
     ],
     "description": "The official 2026 New Foods listing identifies Fluffernutter as an offering from Calabrese Market.",
     "categoryIds": [
@@ -1917,8 +1914,7 @@
     "name": "The Artery Clogger",
     "vendor": "Calabrese Market",
     "locationIds": [
-      "food-court",
-      "east-road"
+      "food-court"
     ],
     "description": "The official 2026 New Foods listing identifies The Artery Clogger as an offering from Calabrese Market.",
     "categoryIds": [
@@ -1944,8 +1940,7 @@
     "name": "Alcoholic Bellinis",
     "vendor": "Calabrese Market",
     "locationIds": [
-      "food-court",
-      "east-road"
+      "food-court"
     ],
     "description": "The official 2026 New Foods listing identifies Alcoholic Bellinis as an offering from Calabrese Market.",
     "categoryIds": [
@@ -2352,8 +2347,7 @@
     "name": "Everything-but-the-football-game Fried Turkey Dinner",
     "vendor": "E.B.’s",
     "locationIds": [
-      "food-court",
-      "east-road"
+      "food-court"
     ],
     "description": "The official 2026 New Foods listing identifies Everything-but-the-football-game Fried Turkey Dinner as an offering from E.B.’s.",
     "categoryIds": [
@@ -2553,8 +2547,7 @@
     "name": "Reuben Egg Rolls",
     "vendor": "Hofbrauhaus Beer Garden",
     "locationIds": [
-      "food-court",
-      "east-road"
+      "food-court"
     ],
     "description": "The official 2026 New Foods listing identifies Reuben Egg Rolls as an offering from Hofbrauhaus Beer Garden.",
     "categoryIds": [
@@ -2580,8 +2573,7 @@
     "name": "Hofbrauhaus Famous Goulash Stew",
     "vendor": "Hofbrauhaus Beer Garden",
     "locationIds": [
-      "food-court",
-      "east-road"
+      "food-court"
     ],
     "description": "The official 2026 New Foods listing identifies Hofbrauhaus Famous Goulash Stew as an offering from Hofbrauhaus Beer Garden.",
     "categoryIds": [
@@ -2605,8 +2597,7 @@
     "name": "Deep-fried Reuben Wrap",
     "vendor": "Hofbrauhaus Beer Garden",
     "locationIds": [
-      "food-court",
-      "east-road"
+      "food-court"
     ],
     "description": "The official 2026 New Foods listing identifies Deep-fried Reuben Wrap as an offering from Hofbrauhaus Beer Garden.",
     "categoryIds": [
@@ -2631,8 +2622,7 @@
     "name": "German Home Fries with Westphalian Ham",
     "vendor": "Hofbrauhaus Beer Garden",
     "locationIds": [
-      "food-court",
-      "east-road"
+      "food-court"
     ],
     "description": "The official 2026 New Foods listing identifies German Home Fries with Westphalian Ham as an offering from Hofbrauhaus Beer Garden.",
     "categoryIds": [

@@ -23,6 +23,8 @@ const requiredReturningVendors = [
   "West Springfield Lions Club", "White Hut in the Food Court", "Wurst Haus", "Yankee Boy",
 ];
 
+const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
+
 describe("2026 catalog content", () => {
   it("contains only sourced 2026 records", () => {
     expect(catalogData.items.length).toBeGreaterThan(0);
@@ -52,6 +54,14 @@ describe("2026 catalog content", () => {
   it("uses the controlled taxonomy on every imported record", () => {
     for (const item of catalogData.items) {
       expect(item.categoryIds.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("maps the exact Food Court, East Road vendor label only to the Food Court", () => {
+    const compoundLabelItems = catalogData.items.filter((item) => foodCourtOnlyVendors.includes(item.vendor));
+    expect(compoundLabelItems.length).toBeGreaterThan(0);
+    for (const item of compoundLabelItems) {
+      expect(item.locationIds).toEqual(["food-court"]);
     }
   });
 
