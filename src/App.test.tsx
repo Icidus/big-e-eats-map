@@ -32,22 +32,22 @@ function renderRoutes(path: string, initialEntries = [path]) {
 describe("legacy public routes", () => {
   it("replaces drinks with the 2026 drink-category browse route", async () => {
     const user = userEvent.setup();
-    renderRoutes("/drinks", ["/", "/drinks"]);
+    renderRoutes("/drinks", ["/browse", "/drinks"]);
 
-    expect(screen.getByTestId("route-location")).toHaveTextContent("/browse?categories=cocktails,mocktails,beer-cider,nonalcoholic-drinks");
+    expect(screen.getByTestId("route-location")).toHaveTextContent(/^\/browse\?categories=cocktails,mocktails,beer-cider,nonalcoholic-drinks$/);
 
     await user.click(screen.getByRole("button", { name: "Back" }));
-    expect(screen.getByTestId("route-location")).toHaveTextContent("/");
+    expect(screen.getByTestId("route-location")).toHaveTextContent(/^\/browse$/);
   });
 
   it("replaces MassLive favorites with the 2026 guide home", async () => {
     const user = userEvent.setup();
-    renderRoutes("/masslive-favorites", ["/", "/masslive-favorites"]);
+    renderRoutes("/masslive-favorites", ["/browse", "/masslive-favorites"]);
 
-    expect(screen.getByTestId("route-location")).toHaveTextContent("/");
+    expect(screen.getByTestId("route-location")).toHaveTextContent(/^\/$/);
     expect(screen.queryByText(/MassLive Favorites/i)).not.toBeInTheDocument();
 
     await user.click(screen.getByRole("button", { name: "Back" }));
-    expect(screen.getByTestId("route-location")).toHaveTextContent("/");
+    expect(screen.getByTestId("route-location")).toHaveTextContent(/^\/browse$/);
   });
 });

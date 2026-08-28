@@ -3,7 +3,8 @@ import userEvent from "@testing-library/user-event";
 import { afterEach, describe, expect, it } from "vitest";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
-import LocationDetail from "./LocationDetail";
+import LocationDetail, { LocationMap } from "./LocationDetail";
+import { locationsById } from "@/features/catalog/catalog";
 
 afterEach(cleanup);
 
@@ -26,10 +27,16 @@ describe("LocationDetail", () => {
     expect(screen.queryByText(/MassLive Pick/i)).not.toBeInTheDocument();
   });
 
-  it("shows a multi-location item at each confirmed stop", () => {
-    renderLocation("/location/new-england-avenue");
+  it.each(["new-england-avenue", "better-living-center", "hampden-avenue", "avenue-of-states"])("shows a multi-location item exactly once at %s", (locationId) => {
+    renderLocation(`/location/${locationId}`);
 
-    expect(screen.getByText("Peanut Butter Cream Puff")).toBeInTheDocument();
+    expect(screen.getAllByText("Peanut Butter Cream Puff")).toHaveLength(1);
+  });
+
+  it("does not carry unrelated confirmed items into a location", () => {
+    renderLocation("/location/the-front-porch");
+
+    expect(screen.queryByText("Tater Tot Buckets")).not.toBeInTheDocument();
   });
 
   it("adds and removes a location item from the food plan", async () => {
@@ -54,5 +61,15 @@ describe("LocationDetail", () => {
 
     expect(screen.getByRole("heading", { name: /location not found/i })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /back to 2026 food guide/i })).toHaveAttribute("href", "/");
+  });
+
+  it("does not present a fallback graphic as a location map", () => {
+    const location = locationsById.get("the-front-porch");
+    if (!location) throw new Error("Expected the front porch catalog location");
+
+    render(<LocationMap location={location} map={{ src: "/big-e-eats-map/placeholder.svg", isAvailable: false }} />);
+
+    expect(screen.getByText(/map is not currently available/i)).toBeInTheDocument();
+    expect(screen.queryByRole("img", { name: /map of the front porch/i })).not.toBeInTheDocument();
   });
 });

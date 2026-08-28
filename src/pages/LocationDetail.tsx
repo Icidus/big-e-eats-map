@@ -1,9 +1,9 @@
 import { ArrowLeft, MapPin } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
-import { getLocationMapImage } from "@/assets/maps/mapUtils";
+import { getLocationMap, type LocationMapImage } from "@/assets/maps/mapUtils";
 import { ItemCard } from "@/components/discovery/ItemCard";
 import { Button } from "@/components/ui/button";
-import { catalogItems, locationsById } from "@/features/catalog/catalog";
+import { catalogItems, locationsById, type FairLocation } from "@/features/catalog/catalog";
 import { useFoodPlan } from "@/features/plan/FoodPlanProvider";
 
 export default function LocationDetail() {
@@ -25,7 +25,7 @@ export default function LocationDetail() {
   }
 
   const items = catalogItems.filter((item) => item.locationIds.includes(location.id));
-  const mapImage = getLocationMapImage(location.mapImage);
+  const map = getLocationMap(location.mapImage);
 
   return (
     <div className="min-h-screen bg-[radial-gradient(hsl(var(--secondary)/0.16)_1px,transparent_1px)] bg-[size:13px_13px] text-foreground">
@@ -64,14 +64,27 @@ export default function LocationDetail() {
             )}
           </div>
 
-          <aside className="self-start border border-primary/25 bg-card p-5 shadow-[4px_4px_0_hsl(var(--secondary)/0.3)]" aria-labelledby="location-map-title">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">Map reference</p>
-            <h2 id="location-map-title" className="mt-1 font-serif text-2xl font-bold">Find this stop</h2>
-            <img src={mapImage} alt={`Map of ${location.name}`} className="mt-4 w-full border border-border bg-muted object-contain" />
-            <p className="mt-4 text-sm leading-6 text-muted-foreground">Use this location reference while you explore the fairgrounds. Ask fair staff for current directions or accessibility help.</p>
-          </aside>
+          <LocationMap location={location} map={map} />
         </section>
       </main>
     </div>
+  );
+}
+
+export function LocationMap({ location, map }: { location: FairLocation; map: LocationMapImage }) {
+  return (
+    <aside className="self-start border border-primary/25 bg-card p-5 shadow-[4px_4px_0_hsl(var(--secondary)/0.3)]" aria-labelledby="location-map-title">
+      <p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">Map reference</p>
+      <h2 id="location-map-title" className="mt-1 font-serif text-2xl font-bold">Find this stop</h2>
+      {map.isAvailable ? (
+        <img src={map.src} alt={`Map of ${location.name}`} className="mt-4 w-full border border-border bg-muted object-contain" />
+      ) : (
+        <div className="mt-4 border border-dashed border-primary/40 bg-muted/45 p-5 text-center">
+          <MapPin className="mx-auto h-7 w-7 text-primary" aria-hidden="true" />
+          <p className="mt-3 text-sm font-semibold">Map is not currently available for this location.</p>
+        </div>
+      )}
+      <p className="mt-4 text-sm leading-6 text-muted-foreground">Use this location reference while you explore the fairgrounds. Ask fair staff for current directions or accessibility help.</p>
+    </aside>
   );
 }
