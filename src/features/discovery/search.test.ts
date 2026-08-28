@@ -34,11 +34,11 @@ function item(overrides: Partial<CatalogItem> & Pick<CatalogItem, "id" | "name">
 }
 
 const frontCocktail = item({
-  id: "front-cocktail", name: "Front Porch Cocktail", locationIds: ["the-front-porch"],
+  id: "front-cocktail", name: "Front Porch Cocktail", vendor: "Alpha Drinks", locationIds: ["the-front-porch"],
   categoryIds: ["cocktails"], tagIds: ["drinks", "alcoholic"],
 });
 const frontDessert = item({
-  id: "front-dessert", name: "Front Porch Sundae", locationIds: ["the-front-porch"],
+  id: "front-dessert", name: "Front Porch Sundae", vendor: "Zulu Sweets", locationIds: ["the-front-porch"],
   categoryIds: ["desserts"], tagIds: ["sweet"],
 });
 const multiLocation = item({
@@ -51,8 +51,8 @@ const creamPuff = item({
   categoryIds: ["desserts"], tagIds: ["sweet"],
 });
 const descriptionMatch = item({
-  id: "description-match", name: "Cinnamon Donut", vendor: "Cream Puff Kitchen",
-  locationIds: ["west-road"], description: "A cocktail-style cream puff topping.",
+  id: "description-match", name: "Cinnamon Donut", vendor: "Creem Poff Kitchen",
+  locationIds: ["west-road"], description: "A cocktail-style creem poff topping.",
   categoryIds: ["desserts"], tagIds: ["sweet"],
 });
 const punctuationItem = item({
@@ -65,6 +65,7 @@ const collection: EditorialCollection = {
   itemIds: ["front-dessert", "front-cocktail"], source,
 };
 const context: DiscoveryContext = { locations, collectionsById: new Map([[collection.id, collection]]) };
+const nameOrder = ["description-match", "front-cocktail", "front-dessert", "unknown-location", "punctuation-item", "cream-puff", "multi-location"];
 
 describe("searchAndFilter", () => {
   it("uses OR within categories and AND across locations", () => {
@@ -95,6 +96,14 @@ describe("searchAndFilter", () => {
     expect(results[0]?.name).toMatch(/Cream Puff/);
   });
 
+  it("handles duplicate IDs in text searches without returning duplicates", () => {
+    const results = searchAndFilter([...items, { ...frontCocktail }], {
+      ...EMPTY_DISCOVERY_STATE, query: "front porch cocktail",
+    }, context);
+
+    expect(results.map((result) => result.id)).toEqual(["front-cocktail"]);
+  });
+
   it("supports representative misspellings", () => {
     const results = searchAndFilter(items, { ...EMPTY_DISCOVERY_STATE, query: "coctail", sort: "relevance" }, context);
 
@@ -109,6 +118,28 @@ describe("searchAndFilter", () => {
   it("keeps collection order before further filtering", () => {
     expect(searchAndFilter(items, { ...EMPTY_DISCOVERY_STATE, collectionId: "front-picks" }, context).map((result) => result.id))
       .toEqual(["front-dessert", "front-cocktail"]);
+  });
+
+  it("defaults to name A-Z without a query or collection", () => {
+    expect(searchAndFilter(items, EMPTY_DISCOVERY_STATE, context).map((result) => result.id)).toEqual(nameOrder);
+  });
+
+  it("defaults a text query to relevance when sort is absent", () => {
+    expect(searchAndFilter(items, { ...EMPTY_DISCOVERY_STATE, query: "cream puff" }, context)[0]?.id).toBe("cream-puff");
+  });
+
+  it("uses explicit name and vendor sorts instead of collection order", () => {
+    const state = { ...EMPTY_DISCOVERY_STATE, collectionId: "front-picks" };
+
+    expect(searchAndFilter(items, { ...state, sort: "name" }, context).map((result) => result.id))
+      .toEqual(["front-cocktail", "front-dessert"]);
+    expect(searchAndFilter(items, { ...state, sort: "vendor" }, context).map((result) => result.id))
+      .toEqual(["front-cocktail", "front-dessert"]);
+  });
+
+  it("falls back to name A-Z for relevance without a query", () => {
+    expect(searchAndFilter(items, { ...EMPTY_DISCOVERY_STATE, sort: "relevance" }, context).map((result) => result.id))
+      .toEqual(nameOrder);
   });
 });
 

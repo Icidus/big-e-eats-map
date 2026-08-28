@@ -25,12 +25,14 @@ export function searchAndFilter(
   context: DiscoveryContext,
 ): CatalogItem[] {
   const query = normalizeSearchText(state.query);
-  const itemsById = new Map(items.map((item) => [item.id, item]));
+  const sortMode = state.sort === "relevance" && !query ? "name" : state.sort;
+  const catalogItems = uniqueCatalogItems(items);
+  const itemsById = new Map(catalogItems.map((item) => [item.id, item]));
   const collection = state.collectionId ? context.collectionsById.get(state.collectionId) : undefined;
   const collectionItems = collection
     ? collection.itemIds.map((itemId) => itemsById.get(itemId)).filter(isCatalogItem)
-    : items;
-  const relevance = query ? searchItems(items, query, context) : new Map<string, number>();
+    : catalogItems;
+  const relevance = query ? searchItems(catalogItems, query, context) : new Map<string, number>();
   const textMatches = query
     ? Array.from(relevance, ([itemId, score]) => ({ item: itemsById.get(itemId), score })).filter(isScoredItem)
     : collectionItems.map((item) => ({ item, score: 0 }));
@@ -39,13 +41,13 @@ export function searchAndFilter(
     .filter(({ item }) => !collection || collection.itemIds.includes(item.id))
     .filter(({ item }) => matchesFacets(item, state));
 
-  if (state.sort === "relevance" || (!state.sort && query)) {
+  if (sortMode === "relevance" || (!sortMode && query)) {
     return filtered.sort((left, right) => right.score - left.score || compareNames(left.item, right.item)).map(({ item }) => item);
   }
 
   const resultItems = filtered.map(({ item }) => item);
-  if (state.sort) {
-    return sortItems(resultItems, state.sort, context);
+  if (sortMode) {
+    return sortItems(resultItems, sortMode, context);
   }
 
   if (collection) {
@@ -126,6 +128,15 @@ function matchesLocations(item: CatalogItem, locationIds: string[]): boolean {
 function deduplicateById(items: Array<{ item: CatalogItem; score: number }>): Array<{ item: CatalogItem; score: number }> {
   const seenIds = new Set<string>();
   return items.filter(({ item }) => {
+    if (seenIds.has(item.id)) return false;
+    seenIds.add(item.id);
+    return true;
+  });
+}
+
+function uniqueCatalogItems(items: CatalogItem[]): CatalogItem[] {
+  const seenIds = new Set<string>();
+  return items.filter((item) => {
     if (seenIds.has(item.id)) return false;
     seenIds.add(item.id);
     return true;
