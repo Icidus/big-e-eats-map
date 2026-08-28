@@ -1,8 +1,8 @@
-import { cleanup, render, screen } from "@testing-library/react";
+import { cleanup, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { BrowserRouter, MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
 import { afterEach, describe, expect, it } from "vitest";
-import { FilterPanel } from "@/components/discovery/FilterPanel";
+import { FilterSheet } from "@/components/discovery/FilterSheet";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
 import { BrowsePage } from "./BrowsePage";
 
@@ -78,13 +78,16 @@ describe("BrowsePage", () => {
     expect(screen.getByTestId("location-search")).toBeEmptyDOMElement();
   });
 
-  it("only offers Relevance when a search query exists", () => {
+  it("only offers Relevance when a search query exists", async () => {
+    const user = userEvent.setup();
     renderBrowse("/browse");
-    expect(screen.queryByRole("option", { name: "Relevance" })).not.toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Filters" }));
+    expect(screen.queryByRole("radio", { name: "Relevance" })).not.toBeInTheDocument();
 
     cleanup();
     renderBrowse("/browse?q=apple");
-    expect(screen.getByRole("option", { name: "Relevance" })).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Filters" }));
+    expect(screen.getByRole("radio", { name: "Relevance" })).toBeInTheDocument();
   });
 
   it("clears an explicit relevance sort when its query is removed", async () => {
@@ -98,12 +101,16 @@ describe("BrowsePage", () => {
       </MemoryRouter>,
     );
 
-    await user.selectOptions(screen.getByLabelText("Sort"), "name");
-    await user.selectOptions(screen.getByLabelText("Sort"), "relevance");
-    await user.clear(screen.getByLabelText("Search the midway"));
+    await user.click(screen.getByRole("button", { name: "Filters" }));
+    await user.click(screen.getByRole("radio", { name: "Name A-Z" }));
+    await user.click(screen.getByRole("radio", { name: "Relevance" }));
+    await user.click(screen.getByRole("button", { name: /show \d+ results?/i }));
+    await waitFor(() => expect(screen.queryByRole("dialog")).not.toBeInTheDocument());
+    await user.clear(screen.getByLabelText("Search 2026 food"));
 
-    expect(screen.queryByRole("option", { name: "Relevance" })).not.toBeInTheDocument();
-    expect(screen.getByLabelText("Sort")).toHaveValue("name");
+    await user.click(screen.getByRole("button", { name: "Filters" }));
+    expect(screen.queryByRole("radio", { name: "Relevance" })).not.toBeInTheDocument();
+    expect(screen.getByRole("radio", { name: "Name A-Z" })).toBeChecked();
     expect(screen.getByTestId("location-search")).not.toHaveTextContent("sort=relevance");
   });
 
@@ -121,7 +128,8 @@ describe("BrowsePage", () => {
     await user.click(screen.getByRole("button", { name: /remove search: apple filter/i }));
 
     expect(screen.getByTestId("location-search")).toBeEmptyDOMElement();
-    expect(screen.getByLabelText("Sort")).toHaveValue("name");
+    await user.click(screen.getByRole("button", { name: "Filters" }));
+    expect(screen.getByRole("radio", { name: "Name A-Z" })).toBeChecked();
   });
 
   it("replaces browser history entries for discovery updates", async () => {
@@ -136,17 +144,21 @@ describe("BrowsePage", () => {
     expect(window.history.length).toBe(historyLength);
   });
 
-  it("offers Location TBD only when unlocated records exist", () => {
+  it("offers Location TBD only when unlocated records exist", async () => {
+    const user = userEvent.setup();
     const props = {
       state: { query: "", categoryIds: [], tagIds: [], dietaryClaims: [], locationIds: [], vendorIds: [] },
       locations: [],
+      resultCount: 0,
       onStateChange: () => undefined,
       onClear: () => undefined,
     };
-    const { rerender } = render(<FilterPanel {...props} hasUnlocatedItems />);
+    const { rerender } = render(<FilterSheet {...props} hasUnlocatedItems />);
+    await user.click(screen.getByRole("button", { name: "Filters" }));
+    await user.click(screen.getByRole("button", { name: "Location" }));
     expect(screen.getByLabelText("Location TBD")).toBeInTheDocument();
 
-    rerender(<FilterPanel {...props} hasUnlocatedItems={false} />);
+    rerender(<FilterSheet {...props} hasUnlocatedItems={false} />);
     expect(screen.queryByLabelText("Location TBD")).not.toBeInTheDocument();
   });
 
@@ -161,7 +173,7 @@ describe("BrowsePage", () => {
       </MemoryRouter>,
     );
 
-    const search = screen.getByLabelText("Search the midway");
+    const search = screen.getByLabelText("Search 2026 food");
     await user.type(search, "hot honey");
 
     expect(search).toHaveValue("hot honey");
@@ -169,10 +181,10 @@ describe("BrowsePage", () => {
     expect(screen.getByText("Hot Honey and Bacon Poutine")).toBeInTheDocument();
   });
 
-  it("filters by a controlled vendor and exposes a removable vendor chip", async () => {
+  it("supports a vendor filter via URL state and exposes a removable vendor chip even with no vendor facet UI", async () => {
     const user = userEvent.setup();
     render(
-      <MemoryRouter initialEntries={["/browse"]}>
+      <MemoryRouter initialEntries={["/browse?vendors=w-a-v-e-mocktail-bar"]}>
         <FoodPlanProvider>
           <Routes><Route path="/browse" element={<BrowsePage />} /></Routes>
           <LocationSearch />
@@ -180,9 +192,6 @@ describe("BrowsePage", () => {
       </MemoryRouter>,
     );
 
-    await user.click(screen.getByLabelText("W.A.V.E. Mocktail Bar"));
-
-    expect(screen.getByTestId("location-search")).toHaveTextContent("vendors=w-a-v-e-mocktail-bar");
     expect(screen.getByText("Caramel Apple Mocktail")).toBeInTheDocument();
     expect(screen.queryByText("Tater Tot Buckets")).not.toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: /remove w\.a\.v\.e\. mocktail bar filter/i }));
@@ -190,23 +199,24 @@ describe("BrowsePage", () => {
     expect(screen.getByText("Tater Tot Buckets")).toBeInTheDocument();
   });
 
-  it("gives representative filter rows and the Sheet close control 44px targets", async () => {
+  it("gives representative filter rows and the sheet's close control 44px targets", async () => {
     const user = userEvent.setup();
     renderBrowse("/browse");
 
+    await user.click(screen.getByRole("button", { name: "Filters" }));
     expect(screen.getByLabelText("Cocktails").closest("label")).toHaveClass("min-h-11");
-    await user.click(screen.getByRole("button", { name: /open filters/i }));
-    expect(screen.getByRole("button", { name: "Close" })).toHaveClass("min-h-11", "min-w-11");
+    expect(screen.getByRole("button", { name: /^show \d+ results?$/i })).toHaveClass("min-h-11");
   });
 
   it("opens mobile filters in a dialog and restores focus on close", async () => {
     const user = userEvent.setup();
     renderBrowse("/browse");
-    const trigger = screen.getByRole("button", { name: /open filters/i });
+    const trigger = screen.getByRole("button", { name: "Filters" });
     await user.click(trigger);
-    expect(screen.getByRole("dialog", { name: /find your next bite/i })).toBeInTheDocument();
+    expect(screen.getByRole("dialog", { name: "Filters" })).toBeInTheDocument();
 
-    await user.click(screen.getByRole("button", { name: "Close" }));
+    await user.click(screen.getByRole("button", { name: /^show \d+ results?$/i }));
+    await waitFor(() => expect(screen.queryByRole("dialog")).not.toBeInTheDocument());
     expect(trigger).toHaveFocus();
   });
 
@@ -240,5 +250,43 @@ describe("BrowsePage", () => {
       renderBrowse("/browse?locations=the-front-porch");
       expect(screen.queryByRole("button", { name: /^seafood/i })).not.toBeInTheDocument();
     });
+  });
+});
+
+describe("filter sheet", () => {
+  it("has no vendor facet but keeps vendors URL state working", () => {
+    const user = userEvent.setup();
+    renderBrowse("/browse?vendors=tripps-farmhouse-cafe");
+
+    expect(screen.getAllByText(/tripp/i).length).toBeGreaterThan(0);
+    return user.click(screen.getByRole("button", { name: /^filters/i })).then(() => {
+      expect(screen.queryByRole("button", { name: /^vendor$/i })).not.toBeInTheDocument();
+      expect(screen.queryByRole("checkbox", { name: /tripp/i })).not.toBeInTheDocument();
+    });
+  });
+
+  it("shows a live result count in the sheet footer", async () => {
+    const user = userEvent.setup();
+    renderBrowse("/browse?categories=desserts");
+
+    await user.click(screen.getByRole("button", { name: /^filters/i }));
+    const status = screen.getByRole("status", { name: /result count/i });
+    const count = Number(status.textContent?.match(/\d+/)?.[0]);
+    expect(screen.getByRole("button", { name: `Show ${count} results` })).toBeInTheDocument();
+  });
+
+  it("moves sort into the sheet", async () => {
+    const user = userEvent.setup();
+    renderBrowse("/browse");
+
+    expect(screen.queryByLabelText(/^sort$/i)).not.toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Filters" }));
+    expect(screen.getByRole("radio", { name: "Name A-Z" })).toBeChecked();
+    expect(screen.getByRole("radio", { name: "Vendor A-Z" })).toBeInTheDocument();
+  });
+
+  it("badges the Filters button with the active facet count", () => {
+    renderBrowse("/browse?categories=desserts,burgers&tags=fried");
+    expect(screen.getByRole("button", { name: "Filters, 3 active" })).toBeInTheDocument();
   });
 });

@@ -3,17 +3,16 @@ import { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import { CategoryChips } from "@/components/discovery/CategoryChips";
 import { CatalogStatusNotice } from "@/components/discovery/CatalogStatusNotice";
-import { FilterPanel } from "@/components/discovery/FilterPanel";
+import { FilterSheet } from "@/components/discovery/FilterSheet";
 import { ItemCard } from "@/components/discovery/ItemCard";
 import { SelectedFilters, type SelectedFilter } from "@/components/discovery/SelectedFilters";
-import { SortSelect } from "@/components/discovery/SortSelect";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { catalogItems, collectionsById, locations, locationsById, vendorNamesById } from "@/features/catalog/catalog";
 import { CATEGORIES, type CategoryId } from "@/features/catalog/taxonomy";
 import { searchAndFilter } from "@/features/discovery/search";
 import { parseDiscoveryState, serializeDiscoveryState } from "@/features/discovery/urlState";
-import { EMPTY_DISCOVERY_STATE, type DiscoveryState, type SortMode } from "@/features/discovery/types";
+import { EMPTY_DISCOVERY_STATE, type DiscoveryState } from "@/features/discovery/types";
 import { useFoodPlan } from "@/features/plan/FoodPlanProvider";
 
 const categoryLabels = new Map(CATEGORIES);
@@ -71,7 +70,7 @@ export function BrowsePage() {
 
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <section className="border border-primary/25 bg-card p-4 shadow-[6px_6px_0_hsl(var(--secondary)/0.32)] sm:p-5" aria-label="Search the food catalog">
-          <label className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-muted-foreground" htmlFor="browse-search">Search the midway</label>
+          <label className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-muted-foreground" htmlFor="browse-search">Search 2026 food</label>
           <div className="relative mt-2">
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-primary" aria-hidden="true" />
             <Input
@@ -82,17 +81,29 @@ export function BrowsePage() {
               className="h-12 border-primary/30 pl-10 text-base"
             />
           </div>
-          <div className="mt-4 flex flex-wrap items-center justify-between gap-3"><FilterPanel state={state} locations={locations} hasUnlocatedItems={catalogItems.some((item) => item.locationIds.length === 0)} onStateChange={replaceState} onClear={() => replaceState(EMPTY_DISCOVERY_STATE)} /><SortSelect state={state} onSortChange={(sort: SortMode | undefined) => replaceState({ ...state, sort })} /></div>
         </section>
 
-        <div className="mt-6"><SelectedFilters filters={selectedFilters} onRemove={removeFilter} onClear={() => replaceState(EMPTY_DISCOVERY_STATE)} /></div>
+        <div className="sticky top-0 z-30 -mx-4 mt-4 border-b border-primary/25 bg-background/95 px-4 py-2 backdrop-blur supports-[backdrop-filter]:bg-background/80 sm:mx-0 sm:px-0 md:top-11">
+          <div className="flex flex-wrap items-center gap-3">
+            <FilterSheet
+              state={state}
+              locations={locations}
+              hasUnlocatedItems={catalogItems.some((item) => item.locationIds.length === 0)}
+              resultCount={results.length}
+              onStateChange={replaceState}
+              onClear={() => replaceState(EMPTY_DISCOVERY_STATE)}
+            />
+            <p role="status" aria-live="polite" aria-label="Result count" className="text-sm font-semibold text-muted-foreground">{results.length} {results.length === 1 ? "result" : "results"}</p>
+          </div>
+          <div className="mt-2"><SelectedFilters filters={selectedFilters} onRemove={removeFilter} onClear={() => replaceState(EMPTY_DISCOVERY_STATE)} /></div>
+        </div>
 
         <div className="mt-4"><CategoryChips selected={state.categoryIds} counts={categoryCounts} onToggle={toggleCategory} /></div>
 
         <section className="mt-7" aria-labelledby="browse-results">
-          <div className="flex items-end justify-between gap-4 border-b border-primary/25 pb-3">
-            <div><p className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-primary">Issued from the fair desk</p><h2 id="browse-results" className="font-serif text-2xl font-bold">Food finder</h2></div>
-            <p role="status" aria-live="polite" className="text-sm font-semibold text-muted-foreground">{results.length} {results.length === 1 ? "item" : "items"} found</p>
+          <div className="border-b border-primary/25 pb-3">
+            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-primary">Issued from the fair desk</p>
+            <h2 id="browse-results" className="font-serif text-2xl font-bold">Food finder</h2>
           </div>
           {results.length ? <div className="mt-5 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">{results.map((item) => <ItemCard key={item.id} item={item} locationsById={locationsById} isInPlan={hasItem(item.id)} onAdd={() => addItem(item.id)} onRemove={() => removeItem(item.id)} />)}</div> : <div className="mt-5 border border-dashed border-primary/40 bg-card p-8 text-center shadow-[4px_4px_0_hsl(var(--secondary)/0.22)]"><p className="font-serif text-2xl font-bold">No bites in this corner of the fair.</p><p className="mt-2 text-sm text-muted-foreground">Try opening up the field guide to see everything confirmed so far.</p><Button type="button" className="mt-5 min-h-11" onClick={() => replaceState(EMPTY_DISCOVERY_STATE)}>Clear all filters</Button></div>}
         </section>
