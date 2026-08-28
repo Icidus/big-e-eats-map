@@ -74,7 +74,7 @@ export function vendorIdForName(name: string): string {
   return name
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
-    .toLocaleLowerCase()
+    .toLowerCase()
     .replace(/[\u2018\u2019']/g, "")
     .replace(/&/g, " and ")
     .replace(/[^a-z0-9]+/g, "-")
@@ -101,7 +101,7 @@ function createVendorCatalog(items: CatalogItem[]): {
   }
 
   const vendorOptions = [...vendorNamesById].map(([id, name]) => ({ id, name }))
-    .sort((left, right) => left.name.localeCompare(right.name, undefined, { sensitivity: "base" }) || left.id.localeCompare(right.id));
+    .sort((left, right) => left.name.localeCompare(right.name, "en", { sensitivity: "base" }) || left.id.localeCompare(right.id, "en"));
 
   return { vendorOptions, vendorNamesById };
 }

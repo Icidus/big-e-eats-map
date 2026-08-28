@@ -185,7 +185,9 @@ describe("BrowsePage", () => {
     expect(screen.getByTestId("location-search")).toHaveTextContent("vendors=w-a-v-e-mocktail-bar");
     expect(screen.getByText("Caramel Apple Mocktail")).toBeInTheDocument();
     expect(screen.queryByText("Tater Tot Buckets")).not.toBeInTheDocument();
-    expect(screen.getByRole("button", { name: /remove w\.a\.v\.e\. mocktail bar filter/i })).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: /remove w\.a\.v\.e\. mocktail bar filter/i }));
+    expect(screen.getByTestId("location-search")).not.toHaveTextContent("vendors=");
+    expect(screen.getByText("Tater Tot Buckets")).toBeInTheDocument();
   });
 
   it("gives representative filter rows and the Sheet close control 44px targets", async () => {
