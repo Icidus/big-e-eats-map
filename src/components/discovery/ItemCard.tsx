@@ -44,7 +44,7 @@ export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: Ite
         </Button>
       </div>
 
-      <p className="mt-4 text-sm leading-6 text-foreground/80">{item.description}</p>
+      {item.description ? <p className="mt-4 text-sm leading-6 text-foreground/80">{item.description}</p> : null}
 
       <section className="mt-4 flex flex-wrap gap-1.5" aria-label="Item tags">
         {tags.map((tag) => (

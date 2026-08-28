@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { loadCatalogData, vendorIdForName } from "./catalog";
+import { catalogItems, loadCatalogData, vendorIdForName } from "./catalog";
 
 const source = {
   publisher: "The Big E",
@@ -103,5 +103,12 @@ describe("loadCatalogData", () => {
       locations: [location],
       collections: [],
     })).toThrow(/vendor slug collision/i);
+  });
+
+  it("contains no generated boilerplate descriptions", () => {
+    for (const item of catalogItems) {
+      if (!item.description) continue;
+      expect(item.description).not.toMatch(/identifies .+ as an offering from/i);
+    }
   });
 });

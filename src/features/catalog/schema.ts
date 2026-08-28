@@ -16,7 +16,7 @@ export const catalogItemSchema = z.object({
   name: z.string().min(1),
   vendor: z.string().min(1),
   locationIds: z.array(z.string().min(1)).default([]),
-  description: z.string().min(1),
+  description: z.string().min(1).optional(),
   categoryIds: z.array(z.enum(categoryIds)).min(1),
   tagIds: z.array(z.enum(TAGS)),
   dietaryClaims: z.array(z.enum(DIETARY_CLAIMS)),
