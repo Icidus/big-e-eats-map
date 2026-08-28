@@ -8,7 +8,8 @@ interface SortSelectProps {
 
 export function SortSelect({ state, onSortChange }: SortSelectProps) {
   const defaultSort = state.query ? "relevance" : state.collectionId ? "collection" : "name";
-  const value = state.sort ?? defaultSort;
+  const normalizedSort = !state.query && state.sort === "relevance" ? undefined : state.sort;
+  const value = normalizedSort ?? defaultSort;
 
   function handleChange(event: ChangeEvent<HTMLSelectElement>) {
     const next = event.target.value;

@@ -1,8 +1,10 @@
-import { render, screen } from "@testing-library/react";
+import { cleanup, render, screen, within } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it } from "vitest";
 import type { CatalogItem } from "@/features/catalog/catalog";
 import { ItemCard } from "./ItemCard";
+
+afterEach(cleanup);
 
 const item: CatalogItem = {
   id: "test-treat",
@@ -27,6 +29,23 @@ describe("ItemCard", () => {
     );
 
     expect(screen.getByText("Location not yet announced")).toBeInTheDocument();
-    expect(screen.queryByRole("link", { name: /location/i })).not.toBeInTheDocument();
+    expect(within(screen.getByRole("region", { name: "Item location" })).queryByRole("link")).not.toBeInTheDocument();
+  });
+
+  it("labels new records as New for 2026", () => {
+    render(
+      <MemoryRouter><ItemCard item={item} locationsById={new Map()} isInPlan={false} onAdd={() => undefined} onRemove={() => undefined} /></MemoryRouter>,
+    );
+
+    expect(screen.getByText("New for 2026")).toBeInTheDocument();
+  });
+
+  it("uses a neutral label for 2026 records that are not new", () => {
+    render(
+      <MemoryRouter><ItemCard item={{ ...item, isNewFor2026: false }} locationsById={new Map()} isInPlan={false} onAdd={() => undefined} onRemove={() => undefined} /></MemoryRouter>,
+    );
+
+    expect(screen.getByText("2026 listing")).toBeInTheDocument();
+    expect(screen.queryByText("New for 2026")).not.toBeInTheDocument();
   });
 });

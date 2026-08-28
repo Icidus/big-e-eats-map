@@ -20,13 +20,14 @@ export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: Ite
     .map((locationId) => locationsById.get(locationId))
     .filter((location): location is FairLocation => Boolean(location));
   const tags = [...item.categoryIds.map((id) => categoryLabels.get(id) ?? id), ...item.tagIds, ...item.dietaryClaims];
+  const listingLabel = item.isNewFor2026 ? "New for 2026" : "2026 listing";
 
   return (
     <article className="group relative flex min-h-72 flex-col overflow-hidden border border-primary/20 bg-card p-5 shadow-[5px_5px_0_hsl(var(--secondary)/0.3)] transition-transform duration-200 motion-safe:hover:-translate-y-0.5">
       <div className="absolute left-0 top-0 h-1 w-full bg-gradient-warm" aria-hidden="true" />
       <div className="flex items-start justify-between gap-4">
         <div>
-          <p className="mb-1 font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-primary">2026 addition</p>
+          <p className="mb-1 font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-primary">{listingLabel}</p>
           <h2 className="font-serif text-2xl font-bold leading-tight text-foreground">{item.name}</h2>
           <p className="mt-1 text-sm font-semibold text-muted-foreground">{item.vendor}</p>
         </div>
@@ -46,18 +47,22 @@ export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: Ite
       <p className="mt-4 text-sm leading-6 text-foreground/80">{item.description}</p>
 
       <div className="mt-4 flex flex-wrap gap-1.5" aria-label="Item tags">
-        {tags.map((tag) => <Badge key={tag} variant="outline" className="border-secondary/60 bg-secondary/10 text-[11px] capitalize">{tag}</Badge>)}
+        {tags.map((tag) => (
+          <Badge key={tag} variant="outline" className="border-secondary/60 bg-secondary/10 text-[11px] capitalize">{tag}</Badge>
+        ))}
       </div>
 
       <div className="mt-auto border-t border-dashed border-border pt-4">
-        <div className="flex items-start gap-2 text-sm">
+        <section className="flex items-start gap-2 text-sm" aria-label="Item location">
           <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" aria-hidden="true" />
           {knownLocations.length > 0 ? (
             <span className="flex flex-wrap gap-x-2 gap-y-1">
-              {knownLocations.map((location) => <Link className="font-semibold text-primary underline decoration-primary/35 underline-offset-4 hover:decoration-primary" to={`/location/${location.id}`} key={location.id}>{location.name}</Link>)}
+              {knownLocations.map((location) => (
+                <Link className="font-semibold text-primary underline decoration-primary/35 underline-offset-4 hover:decoration-primary" to={`/location/${location.id}`} key={location.id}>{location.name}</Link>
+              ))}
             </span>
           ) : <span className="font-medium text-muted-foreground">Location not yet announced</span>}
-        </div>
+        </section>
         <a className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-primary underline decoration-primary/35 underline-offset-4 hover:decoration-primary" href={item.source.url} target="_blank" rel="noreferrer">
           {item.source.publisher}: {item.source.title}<ExternalLink className="h-3 w-3" aria-hidden="true" />
         </a>

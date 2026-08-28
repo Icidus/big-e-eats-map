@@ -1,6 +1,6 @@
 import { cleanup, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
 import { afterEach, describe, expect, it } from "vitest";
 import { FilterPanel } from "@/components/discovery/FilterPanel";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
@@ -24,6 +24,17 @@ function LocationSearch() {
   return <output data-testid="location-search">{location.search}</output>;
 }
 
+function renderBrowseInWindow(path: string) {
+  window.history.replaceState({}, "", path);
+  return render(
+    <BrowserRouter>
+      <FoodPlanProvider>
+        <Routes><Route path="/browse" element={<BrowsePage />} /></Routes>
+      </FoodPlanProvider>
+    </BrowserRouter>,
+  );
+}
+
 describe("BrowsePage", () => {
   it("renders URL facets and matching cards", () => {
     renderBrowse("/browse?categories=mocktails&locations=the-front-porch");
@@ -41,6 +52,9 @@ describe("BrowsePage", () => {
     await user.click(screen.getByRole("button", { name: /add caramel apple mocktail/i }));
 
     expect(screen.getByRole("button", { name: /remove caramel apple mocktail/i })).toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: /remove caramel apple mocktail/i }));
+    expect(screen.getByRole("button", { name: /add caramel apple mocktail/i })).toBeInTheDocument();
   });
 
   it("serializes removable chips and Clear all with replacement navigation", async () => {
@@ -68,6 +82,38 @@ describe("BrowsePage", () => {
     cleanup();
     renderBrowse("/browse?q=apple");
     expect(screen.getByRole("option", { name: "Relevance" })).toBeInTheDocument();
+  });
+
+  it("clears an explicit relevance sort when its query is removed", async () => {
+    const user = userEvent.setup();
+    render(
+      <MemoryRouter initialEntries={["/browse?q=apple"]}>
+        <FoodPlanProvider>
+          <Routes><Route path="/browse" element={<BrowsePage />} /></Routes>
+          <LocationSearch />
+        </FoodPlanProvider>
+      </MemoryRouter>,
+    );
+
+    await user.selectOptions(screen.getByLabelText("Sort"), "name");
+    await user.selectOptions(screen.getByLabelText("Sort"), "relevance");
+    await user.clear(screen.getByLabelText("Search the midway"));
+
+    expect(screen.queryByRole("option", { name: "Relevance" })).not.toBeInTheDocument();
+    expect(screen.getByLabelText("Sort")).toHaveValue("name");
+    expect(screen.getByTestId("location-search")).not.toHaveTextContent("sort=relevance");
+  });
+
+  it("replaces browser history entries for discovery updates", async () => {
+    const user = userEvent.setup();
+    renderBrowseInWindow("/browse?categories=mocktails&locations=the-front-porch");
+    const historyLength = window.history.length;
+
+    await user.click(screen.getByRole("button", { name: /remove mocktails filter/i }));
+    expect(window.history.length).toBe(historyLength);
+
+    await user.click(screen.getByRole("button", { name: "Clear all" }));
+    expect(window.history.length).toBe(historyLength);
   });
 
   it("offers Location TBD only when unlocated records exist", () => {

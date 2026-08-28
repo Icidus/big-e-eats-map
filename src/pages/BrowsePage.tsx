@@ -28,6 +28,11 @@ export function BrowsePage() {
     setSearchParams(serializeDiscoveryState(next), { replace: true });
   }
 
+  function updateQuery(query: string) {
+    const sort = !query.trim() && state.sort === "relevance" ? undefined : state.sort;
+    replaceState({ ...state, query, sort });
+  }
+
   function removeFilter(id: string) {
     if (id === "q") return replaceState({ ...state, query: "" });
     if (id === "collection") return replaceState({ ...state, collectionId: undefined });
@@ -52,7 +57,16 @@ export function BrowsePage() {
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <section className="border border-primary/25 bg-card p-4 shadow-[6px_6px_0_hsl(var(--secondary)/0.32)] sm:p-5" aria-label="Search the food catalog">
           <label className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-muted-foreground" htmlFor="browse-search">Search the midway</label>
-          <div className="relative mt-2"><Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-primary" aria-hidden="true" /><Input id="browse-search" value={state.query} onChange={(event) => replaceState({ ...state, query: event.target.value })} placeholder="Try apple, hot honey, or a vendor…" className="h-12 border-primary/30 pl-10 text-base" /></div>
+          <div className="relative mt-2">
+            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-primary" aria-hidden="true" />
+            <Input
+              id="browse-search"
+              value={state.query}
+              onChange={(event) => updateQuery(event.target.value)}
+              placeholder="Try apple, hot honey, or a vendor…"
+              className="h-12 border-primary/30 pl-10 text-base"
+            />
+          </div>
           <div className="mt-4 flex flex-wrap items-center justify-between gap-3"><FilterPanel state={state} locations={locations} hasUnlocatedItems={catalogItems.some((item) => item.locationIds.length === 0)} onStateChange={replaceState} onClear={() => replaceState(EMPTY_DISCOVERY_STATE)} /><SortSelect state={state} onSortChange={(sort: SortMode | undefined) => replaceState({ ...state, sort })} /></div>
         </section>
 
