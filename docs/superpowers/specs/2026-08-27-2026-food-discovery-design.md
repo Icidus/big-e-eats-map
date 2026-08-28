@@ -56,6 +56,8 @@ Examples:
 - `Spicy Tuna Push-Up Sushi Pop` and `California Roll Push-Up Sushi Pop` are separate items because the fillings differ.
 - A fountain drink with a list of available syrup choices remains one customizable item.
 
+A confirmed item does not need a confirmed fairground location. When a source omits the location or names an area that cannot yet be mapped to a controlled location ID, the item is retained with `locationIds: []`. The application labels it `Location not yet announced`; it must not infer a location from a prior year or a similarly named vendor.
+
 ### Dietary claims
 
 Dietary attributes such as `gluten-free` or `vegetarian` are stored only when the source states them explicitly. The application must distinguish a sourced gluten-free claim from ordinary category tagging. It must not infer allergen safety from ingredients.
@@ -74,7 +76,7 @@ Each record contains:
   "year": 2026,
   "name": "Caramel Apple Mocktail",
   "vendor": "W.A.V.E. Mocktail Bar",
-  "locationIds": ["front-porch"],
+  "locationIds": ["the-front-porch"],
   "description": "Local apple cider with vanilla, lemon, and caramel.",
   "categoryIds": ["mocktails"],
   "tagIds": ["drinks", "nonalcoholic", "apple", "fall-flavors"],
@@ -91,9 +93,13 @@ Each record contains:
 
 Item IDs are stable slugs based on vendor and item identity. Renaming display text must not silently change an existing ID because saved and shared plans depend on it.
 
+`isNewFor2026` is a required boolean, not a validation invariant that must always be `true`. The initial New Foods import will naturally contain new additions, while later source-confirmed returning items may set it to `false`.
+
 ### `locations.json`
 
-Locations retain the existing stable IDs and map-image association. Location descriptions and maps are venue information rather than menu records and may be retained where still accurate. Each catalog location reference must resolve to a known location.
+Locations retain the existing stable IDs and map-image association. Location descriptions and maps are venue information rather than menu records and may be retained where still accurate. Nonempty catalog location references must resolve to known locations; an empty `locationIds` array is the supported representation for an unannounced or unresolved location.
+
+Venue descriptions and map-image associations move from `src/data/locations.ts` into `locations.json`. After migration, delete the legacy `src/data/locations.ts`, `src/data/massLiveFavorites.ts`, and runtime-regex `src/data/categories.ts` files rather than leaving a second catalog path in the application.
 
 ### `collections.json`
 
@@ -131,8 +137,8 @@ The selected layout leads with inspiration rather than a large result grid:
 2. Prominent global search box
 3. "Start with a craving" category tiles
 4. Curated 2026 collection cards
-5. Trending ingredient or flavor shortcuts
-6. Browse-by-location entry points
+5. Editor-selected ingredient and flavor shortcuts
+6. Browse-by-location entry points for locations that have at least one confirmed 2026 item
 7. Persistent access to My Food Plan
 
 The page must identify the data as confirmed 2026 additions and explain that the complete fair roster has not yet been published.
@@ -144,10 +150,10 @@ Choosing a tile, collection, tag, location, or search suggestion opens a common 
 Example:
 
 ```text
-/browse?categories=cocktails,desserts&locations=front-porch&tags=fall-flavors
+/browse?categories=cocktails,desserts&locations=the-front-porch&tags=fall-flavors
 ```
 
-Within a facet, selections use OR semantics. Across different facets, selections use AND semantics. Therefore, `cocktails,desserts` at `front-porch` means cocktails or desserts that are available at the Front Porch.
+Within a facet, selections use OR semantics. Across different facets, selections use AND semantics. Therefore, `cocktails,desserts` at `the-front-porch` means cocktails or desserts that are available at the Front Porch. When the catalog contains unlocated items, the location facet also offers a generated `Location TBD` option; those items remain available through ordinary search, category, tag, and collection browsing.
 
 The result view includes:
 
@@ -158,6 +164,8 @@ The result view includes:
 - Reusable item cards
 
 Each item card displays the item name, vendor, location, relevant tags, short description, source attribution, and an Add to My Food Plan action.
+
+Default ordering is relevance when a text query is active, collection order when browsing an editorial collection, and item name A-Z for other browse results. The sort control offers Item name A-Z, Vendor A-Z, and Fairground location; Relevance is offered only for text searches. Location sorting follows the controlled fairground location order and places `Location TBD` last.
 
 ### Location pages
 
@@ -199,6 +207,7 @@ The food plan requires no account or server persistence.
 - The plan page groups selections by fairground location.
 - A deterministic location order provides a practical sequence of stops without claiming GPS optimization.
 - Each stop links to its available location map.
+- Items with `locationIds: []` appear in a `Location TBD` group after every known-location group and do not receive a map link.
 - Visitors may check off and remove items.
 - Check-off state remains local and is not embedded in shared links.
 - A share action creates `/plan?items=<comma-separated-encoded-ids>`.
@@ -226,9 +235,11 @@ Catalog loading must fail loudly in development and tests when:
 
 - A record is not for 2026.
 - An ID is duplicated.
-- A location, category, tag, collection item, or source field is invalid.
+- A nonempty location reference, category, tag, collection item, or source field is invalid.
 - An item has no category or source.
 - A dietary claim uses an uncontrolled value.
+
+An empty `locationIds` array is valid. Validation also permits either boolean value for `isNewFor2026`.
 
 Production UI handles empty results, missing maps, invalid URL filters, unavailable plan IDs, and local-storage failures without crashing. Invalid filter values are ignored and removed the next time URL state is serialized.
 
@@ -250,25 +261,27 @@ Required automated coverage:
 
 1. Catalog schema validation and relationship integrity
 2. A hard assertion that every food record has `year: 2026`
-3. No public 2025 copy or MassLive 2025 references
-4. Category and tag filtering, including OR-within/AND-across semantics
-5. Search ranking, prefix matches, punctuation normalization, and representative misspellings
-6. Browse URL parsing and serialization
-7. Plan local-storage behavior and share-link round trips
-8. Recovery from missing shared IDs and storage errors
+3. No `2025` or `MassLive 2025` strings in user-visible copy or public catalog data under `src/`; source URL and `accessedOn` metadata values are exempt, as are documentation, tests, lockfiles, and Git history
+4. Empty-location discovery, `Location TBD` filtering and sorting, and placement as the plan's final group
+5. Homepage location entries exclude locations with no confirmed 2026 items
+6. Category and tag filtering, including OR-within/AND-across semantics
+7. Search ranking, prefix matches, punctuation normalization, representative misspellings, and defined sort orders
+8. Browse URL parsing and serialization
+9. Plan local-storage behavior and share-link round trips
+10. Recovery from missing shared IDs and storage errors
 
 Completion verification includes linting, the full test suite, a production build, and visual checks of the homepage, browse results, location detail, and food plan at mobile and desktop sizes.
 
 ## Delivery sequence
 
-1. Establish tests, catalog schema, taxonomy, and typed data access.
-2. Translate the official 2026 New Foods page into validated catalog records.
+1. Establish tests, catalog schema, taxonomy, and typed data access, including the empty-location case.
+2. Translate the official 2026 New Foods page into validated catalog records and migrate venue metadata into `locations.json`.
 3. Implement search indexing, facets, and URL state.
 4. Build the browse-first homepage and shared browse-results components.
 5. Adapt location pages and legacy routes.
 6. Add editorial collections.
 7. Add My Food Plan and share links.
-8. Remove remaining public 2025 content and update metadata.
+8. Delete the legacy 2025 data and runtime-category files, remove remaining public 2025 content, and update metadata.
 9. Run automated and visual verification.
 
 ## Acceptance criteria
@@ -276,10 +289,11 @@ Completion verification includes linting, the full test suite, a production buil
 - The deployed site presents itself exclusively as a 2026 guide.
 - Every displayed menu item has an explicit 2026 source.
 - No unconfirmed 2025 food or 2025 recommendation content is searchable or visible.
+- Confirmed items with no mapped location remain discoverable, display `Location not yet announced`, and appear under `Location TBD` at the end of My Food Plan.
+- Homepage location entry points include only locations with confirmed 2026 items.
 - A visitor can browse cocktails, desserts, and other categories without typing.
 - A visitor can combine multiple category, location, and attribute filters and share the resulting URL.
 - Search tolerates representative misspellings and ranks direct item matches first.
 - Collections reuse catalog records and can be filtered further.
 - A visitor can create, persist, check off, and share a food plan without an account.
 - The application remains a static GitHub Pages deployment with no recurring infrastructure service.
-
