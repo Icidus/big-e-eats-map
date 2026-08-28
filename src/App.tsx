@@ -2,14 +2,12 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
 import Index from "./pages/Index";
 import { BrowsePage } from "./pages/BrowsePage";
 import LocationDetail from "./pages/LocationDetail";
-import MassLiveFavoritesPage from "./pages/MassLiveFavoritesPage";
 import NotFound from "./pages/NotFound";
-import DrinksPage from "./pages/DrinksPage";
 import { PlanPage } from "./pages/PlanPage";
 
 const queryClient = new QueryClient();
@@ -20,8 +18,8 @@ export function AppRoutes() {
       <Route path="/" element={<Index />} />
       <Route path="/browse" element={<BrowsePage />} />
       <Route path="/location/:id" element={<LocationDetail />} />
-      <Route path="/masslive-favorites" element={<MassLiveFavoritesPage />} />
-      <Route path="/drinks" element={<DrinksPage />} />
+      <Route path="/masslive-favorites" element={<Navigate replace to="/" />} />
+      <Route path="/drinks" element={<Navigate replace to="/browse?categories=cocktails,mocktails,beer-cider,nonalcoholic-drinks" />} />
       <Route path="/plan" element={<PlanPage />} />
       {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
       <Route path="*" element={<NotFound />} />
