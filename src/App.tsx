@@ -15,7 +15,7 @@ const queryClient = new QueryClient();
 
 export function AppRoutes() {
   return (
-    <div className="pb-16 md:pb-0">
+    <div className="pb-[calc(4rem+env(safe-area-inset-bottom))] md:pb-0">
       <AppNav />
       <Routes>
         <Route path="/" element={<Index />} />
