@@ -1,6 +1,7 @@
 import { Search } from "lucide-react";
 import { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
+import { CategoryChips } from "@/components/discovery/CategoryChips";
 import { CatalogStatusNotice } from "@/components/discovery/CatalogStatusNotice";
 import { FilterPanel } from "@/components/discovery/FilterPanel";
 import { ItemCard } from "@/components/discovery/ItemCard";
@@ -9,7 +10,7 @@ import { SortSelect } from "@/components/discovery/SortSelect";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { catalogItems, collectionsById, locations, locationsById, vendorNamesById } from "@/features/catalog/catalog";
-import { CATEGORIES } from "@/features/catalog/taxonomy";
+import { CATEGORIES, type CategoryId } from "@/features/catalog/taxonomy";
 import { searchAndFilter } from "@/features/discovery/search";
 import { parseDiscoveryState, serializeDiscoveryState } from "@/features/discovery/urlState";
 import { EMPTY_DISCOVERY_STATE, type DiscoveryState, type SortMode } from "@/features/discovery/types";
@@ -24,8 +25,26 @@ export function BrowsePage() {
   const { addItem, hasItem, removeItem } = useFoodPlan();
   const selectedFilters = selectedFiltersFor(state);
 
+  const categoryCounts = useMemo(() => {
+    const counts = new Map<CategoryId, number>();
+    for (const [categoryId] of CATEGORIES) {
+      counts.set(
+        categoryId,
+        searchAndFilter(catalogItems, { ...state, categoryIds: [categoryId] }, { locations, collectionsById }).length,
+      );
+    }
+    return counts;
+  }, [state]);
+
   function replaceState(next: DiscoveryState) {
     setSearchParams(serializeDiscoveryState(normalizeDiscoveryState(next)), { replace: true });
+  }
+
+  function toggleCategory(categoryId: CategoryId) {
+    const categoryIds = state.categoryIds.includes(categoryId)
+      ? state.categoryIds.filter((entry) => entry !== categoryId)
+      : [...state.categoryIds, categoryId];
+    replaceState({ ...state, categoryIds });
   }
 
   function removeFilter(id: string) {
@@ -67,6 +86,8 @@ export function BrowsePage() {
         </section>
 
         <div className="mt-6"><SelectedFilters filters={selectedFilters} onRemove={removeFilter} onClear={() => replaceState(EMPTY_DISCOVERY_STATE)} /></div>
+
+        <div className="mt-4"><CategoryChips selected={state.categoryIds} counts={categoryCounts} onToggle={toggleCategory} /></div>
 
         <section className="mt-7" aria-labelledby="browse-results">
           <div className="flex items-end justify-between gap-4 border-b border-primary/25 pb-3">

@@ -209,4 +209,36 @@ describe("BrowsePage", () => {
     await user.click(screen.getByRole("button", { name: "Close" }));
     expect(trigger).toHaveFocus();
   });
+
+  describe("category chips", () => {
+    it("renders pressed state from URL and a per-category count", () => {
+      renderBrowse("/browse?categories=desserts");
+
+      const chip = screen.getByRole("button", { name: /^desserts · \d+$/i });
+      expect(chip).toHaveAttribute("aria-pressed", "true");
+      expect(screen.getByRole("button", { name: /^burgers · \d+$/i })).toHaveAttribute("aria-pressed", "false");
+    });
+
+    it("toggles the categories URL parameter", async () => {
+      const user = userEvent.setup();
+      render(
+        <MemoryRouter initialEntries={["/browse?categories=desserts"]}>
+          <FoodPlanProvider>
+            <Routes><Route path="/browse" element={<><BrowsePage /><LocationSearch /></>} /></Routes>
+          </FoodPlanProvider>
+        </MemoryRouter>,
+      );
+
+      await user.click(screen.getByRole("button", { name: /^burgers · \d+$/i }));
+      expect(screen.getByTestId("location-search")).toHaveTextContent("categories=desserts%2Cburgers");
+
+      await user.click(screen.getByRole("button", { name: /^desserts · \d+$/i }));
+      expect(screen.getByTestId("location-search")).toHaveTextContent("categories=burgers");
+    });
+
+    it("hides categories with no items in the current context", () => {
+      renderBrowse("/browse?locations=the-front-porch");
+      expect(screen.queryByRole("button", { name: /^seafood/i })).not.toBeInTheDocument();
+    });
+  });
 });
