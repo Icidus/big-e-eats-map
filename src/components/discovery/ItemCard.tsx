@@ -12,13 +12,15 @@ interface ItemCardProps {
   item: CatalogItem;
   locationsById: Map<string, FairLocation>;
   isInPlan: boolean;
+  /** Label for the Back button on pages this card links to (map, location). */
+  backLabel?: string;
   onAdd(): void;
   onRemove(): void;
 }
 
 const categoryLabels = new Map(CATEGORIES);
 
-export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: ItemCardProps) {
+export function ItemCard({ item, locationsById, isInPlan, backLabel = "Back to results", onAdd, onRemove }: ItemCardProps) {
   const [expanded, setExpanded] = useState(false);
   const detailId = useId();
   const knownLocations = item.locationIds
@@ -71,6 +73,7 @@ export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: Ite
               <Link
                 key={location.id}
                 to={`/location/${location.id}`}
+                state={{ backLabel }}
                 className="inline-flex min-h-11 items-center font-semibold text-primary underline decoration-primary/35 underline-offset-4 hover:decoration-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
               >
                 {location.name}
@@ -81,6 +84,7 @@ export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: Ite
         {destination ? (
           <Link
             to={`/map?item=${encodeURIComponent(item.id)}`}
+            state={{ backLabel }}
             aria-label={`Take me to ${item.name} on the fair map`}
             className="ml-auto inline-flex min-h-11 shrink-0 items-center gap-1 border border-primary/35 bg-primary/5 px-2 text-xs font-bold text-primary transition-colors hover:bg-primary hover:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           >

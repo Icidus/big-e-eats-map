@@ -1,5 +1,5 @@
 import { Map as MapIcon, Search } from "lucide-react";
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { CategoryChips } from "@/components/discovery/CategoryChips";
 import { CatalogStatusNotice } from "@/components/discovery/CatalogStatusNotice";
@@ -12,6 +12,7 @@ import { catalogItems, collectionsById, locations, locationsById, vendorNamesByI
 import { CATEGORIES, type CategoryId } from "@/features/catalog/taxonomy";
 import { searchAndFilter } from "@/features/discovery/search";
 import { parseDiscoveryState, serializeDiscoveryState } from "@/features/discovery/urlState";
+import { rememberBrowseSearch } from "@/features/discovery/lastBrowse";
 import { EMPTY_DISCOVERY_STATE, type DiscoveryState } from "@/features/discovery/types";
 import { useFoodPlan } from "@/features/plan/FoodPlanProvider";
 
@@ -19,6 +20,8 @@ const categoryLabels = new Map(CATEGORIES);
 
 export function BrowsePage() {
   const [searchParams, setSearchParams] = useSearchParams();
+  const search = searchParams.toString();
+  useEffect(() => rememberBrowseSearch(search ? `?${search}` : ""), [search]);
   const state = useMemo(() => parseDiscoveryState(searchParams), [searchParams]);
   const results = useMemo(() => searchAndFilter(catalogItems, state, { locations, collectionsById }), [state]);
   const { addItem, hasItem, removeItem } = useFoodPlan();

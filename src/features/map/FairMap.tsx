@@ -84,7 +84,7 @@ export function FairMap({ locations, itemCounts, destination = null, userPositio
         {destination ? (
           <Marker
             position={destination.coordinates}
-            icon={markerIcon(destination.name, destination.locationId ? itemCounts.get(destination.locationId) ?? null : null, ["is-destination", destination.coordinates.precision === "estimated" ? "is-estimated" : ""])}
+            icon={markerIcon(destination.vendor ?? destination.name, destination.kind === "location" && destination.locationId ? itemCounts.get(destination.locationId) ?? null : null, ["is-destination", destination.coordinates.precision === "estimated" ? "is-estimated" : ""])}
             zIndexOffset={1000}
             keyboard
           >

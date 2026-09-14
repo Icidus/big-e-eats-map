@@ -57,7 +57,7 @@ export function PlanView({
               const groupLocation = fairLocations.find((location) => location.id === group.id);
               return groupLocation?.coordinates ? (
                 <Button asChild variant="outline" size="sm" className="min-h-11">
-                  <Link to={`/map?to=${encodeURIComponent(group.id)}`} aria-label={`Show ${group.name} on the fair map`}><MapPin aria-hidden="true" />Map</Link>
+                  <Link to={`/map?to=${encodeURIComponent(group.id)}`} state={{ backLabel: "Back to my plan" }} aria-label={`Show ${group.name} on the fair map`}><MapPin aria-hidden="true" />Map</Link>
                 </Button>
               ) : null;
             })()}

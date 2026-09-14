@@ -1,4 +1,4 @@
-import { ArrowLeft, LocateFixed, MapPin, Navigation, X } from "lucide-react";
+import { LocateFixed, MapPin, Navigation, X } from "lucide-react";
 import { useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -6,6 +6,7 @@ import { catalogItems, itemsById, locations, locationsById, type FairLocation } 
 import { FairMap } from "@/features/map/FairMap";
 import { describeWalk, detectPlatform, resolveDestination, walkingDirectionsUrl, type Destination } from "@/features/map/geo";
 import { useGeolocation, type GeolocationState } from "@/features/map/useGeolocation";
+import { BackButton } from "@/features/navigation/BackButton";
 
 const itemCounts = new Map<string, number>();
 for (const item of catalogItems) {
@@ -67,9 +68,7 @@ export function MapPage() {
     <div className="min-h-screen bg-[radial-gradient(hsl(var(--secondary)/0.15)_1px,transparent_1px)] bg-[size:13px_13px] text-foreground">
       <header className="border-b-4 border-primary bg-primary text-primary-foreground">
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <Button asChild variant="outline" className="min-h-11 border-primary-foreground/60 bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-            <Link to="/"><ArrowLeft aria-hidden="true" />Back to 2026 food guide</Link>
-          </Button>
+          <BackButton fallback={{ to: "/browse", label: "Browse all food" }} />
           <p className="mt-5 font-mono text-xs font-bold uppercase tracking-[0.24em] text-secondary">The Big E · West Springfield</p>
           <h1 className="mt-2 font-serif text-4xl font-black tracking-tight sm:text-5xl">Fair map</h1>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-primary-foreground/90">Find a food area, see where you are, and get walking directions.</p>
@@ -94,7 +93,8 @@ export function MapPage() {
           {destination ? (
             <section className="border-2 border-primary bg-card p-4 shadow-[4px_4px_0_hsl(var(--secondary)/0.4)]" aria-label="Destination">
               <p className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-primary">Destination</p>
-              <h2 className="mt-1 font-serif text-2xl font-bold leading-tight">{destination.name}</h2>
+              <h2 className="mt-1 font-serif text-2xl font-bold leading-tight">{destination.vendor ?? destination.name}</h2>
+              {destination.vendor ? <p className="mt-1 text-base font-semibold">{destination.name}</p> : null}
               {destination.areaName ? <p className="mt-1 text-sm font-semibold text-muted-foreground">{destination.areaName}</p> : null}
               {destination.coordinates.precision === "estimated" ? <p className="mt-2 inline-block border border-dashed border-primary/60 px-2 py-0.5 font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-primary">Approximate</p> : null}
               <p className="mt-3 text-sm font-semibold">{geolocation.position ? describeWalk(geolocation.position, destination.coordinates) : "Tap Find me to see distance"}</p>
@@ -137,7 +137,7 @@ function AreaRow({ location, onShow }: { location: FairLocation; onShow?(id: str
       </div>
       <div className="flex items-center gap-1">
         {onShow ? <Button type="button" variant="ghost" size="sm" className="min-h-11" onClick={() => onShow(location.id)} aria-label={`Show ${location.name} on map`}><MapPin aria-hidden="true" />Show on map</Button> : null}
-        <Button asChild variant="link" size="sm" className="min-h-11"><Link to={`/location/${location.id}`} aria-label={`${location.name} details`}>Details</Link></Button>
+        <Button asChild variant="link" size="sm" className="min-h-11"><Link to={`/location/${location.id}`} state={{ backLabel: "Back to map" }} aria-label={`${location.name} details`}>Details</Link></Button>
       </div>
     </li>
   );
