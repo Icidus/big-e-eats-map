@@ -39,7 +39,7 @@ describe("ItemCard", () => {
 
     expect(trigger).toHaveAttribute("aria-expanded", "true");
     expect(screen.getByRole("link", { name: /the big e: new foods/i })).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: /apple/i })).toHaveAttribute("href", expect.stringContaining("tags=apple"));
+    expect(screen.getByRole("link", { name: "Apple" })).toHaveAttribute("href", expect.stringContaining("tags=apple"));
   });
 
   it("shows a compact source-reported badge for dietary claims", () => {
@@ -62,7 +62,7 @@ describe("ItemCard", () => {
     await user.click(screen.getByRole("button", { name: `More about ${item.name}` }));
 
     expect(screen.getByRole("link", { name: /the big e: new foods/i })).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: /apple/i })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Apple" })).toBeInTheDocument();
   });
 
   it("renders the real description when the item has one, and the dietary disclaimer only when claims exist", async () => {
@@ -104,5 +104,21 @@ describe("ItemCard", () => {
     chipAndSourceLinks.forEach((link) => {
       expect(link).toHaveClass("min-h-11");
     });
+  });
+
+  it("offers Take me there only when the item resolves to a map pin", () => {
+    renderCard();
+    const link = screen.getByRole("link", { name: `Take me to ${item.name} on the fair map` });
+    expect(link).toHaveAttribute("href", `/map?item=${item.id}`);
+    expect(link).toHaveClass("min-h-11");
+
+    cleanup();
+    renderCard({ item: { ...item, locationIds: [] } });
+    expect(screen.queryByRole("link", { name: /take me to/i })).not.toBeInTheDocument();
+
+    cleanup();
+    const unplaced = { id: "mystery", name: "Mystery Corner", description: "Test", order: 99 };
+    renderCard({ item: { ...item, locationIds: [unplaced.id] }, locationsById: new Map([[unplaced.id, unplaced]]) });
+    expect(screen.queryByRole("link", { name: /take me to/i })).not.toBeInTheDocument();
   });
 });

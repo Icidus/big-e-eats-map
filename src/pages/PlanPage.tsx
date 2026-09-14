@@ -53,6 +53,14 @@ export function PlanView({
                 <h2 id={`plan-group-${group.id}`} className="font-serif text-2xl font-bold tracking-tight">{group.name}</h2>
               </div>
             </div>
+            {(() => {
+              const groupLocation = fairLocations.find((location) => location.id === group.id);
+              return groupLocation?.coordinates ? (
+                <Button asChild variant="outline" size="sm" className="min-h-11">
+                  <Link to={`/map?to=${encodeURIComponent(group.id)}`} aria-label={`Show ${group.name} on the fair map`}><MapPin aria-hidden="true" />Map</Link>
+                </Button>
+              ) : null;
+            })()}
           </div>
           <ol className="mt-4 grid gap-3">
             {group.items.map((item) => {

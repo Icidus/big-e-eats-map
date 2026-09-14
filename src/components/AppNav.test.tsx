@@ -42,4 +42,9 @@ describe("AppNav", () => {
 
     expect(screen.getByRole("link", { name: "My Plan, 1 item" })).toBeInTheDocument();
   });
+
+  it("links to the fair map", () => {
+    renderNav("/");
+    expect(screen.getByRole("link", { name: "Map" })).toHaveAttribute("href", "/map");
+  });
 });

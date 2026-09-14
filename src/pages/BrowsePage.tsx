@@ -1,6 +1,6 @@
-import { Search } from "lucide-react";
+import { Map as MapIcon, Search } from "lucide-react";
 import { useMemo } from "react";
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { CategoryChips } from "@/components/discovery/CategoryChips";
 import { CatalogStatusNotice } from "@/components/discovery/CatalogStatusNotice";
 import { FilterSheet } from "@/components/discovery/FilterSheet";
@@ -64,6 +64,7 @@ export function BrowsePage() {
           <p className="font-mono text-xs font-bold uppercase tracking-[0.24em] text-secondary">The Big E · West Springfield</p>
           <h1 className="mt-2 font-serif text-4xl font-black tracking-tight sm:text-5xl">Browse 2026 Food</h1>
           <p className="mt-3 max-w-2xl text-base leading-6 text-primary-foreground/90">A living field guide to confirmed 2026 food listings—sorted by craving, not guesswork.</p>
+          <Link to="/map" className="mt-4 inline-flex min-h-11 items-center gap-2 border-b-2 border-secondary pb-1 text-sm font-bold text-primary-foreground transition-colors hover:border-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-4 focus-visible:ring-offset-primary"><MapIcon className="h-4 w-4" aria-hidden="true" />Fair map</Link>
         </div>
       </header>
       <CatalogStatusNotice />

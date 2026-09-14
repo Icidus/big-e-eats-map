@@ -1,4 +1,4 @@
-import { ChevronDown, ExternalLink, MapPin, Minus, Plus } from "lucide-react";
+import { ChevronDown, ExternalLink, MapPin, Minus, Navigation, Plus } from "lucide-react";
 import { useId, useState } from "react";
 import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { vendorIdForName, type CatalogItem, type FairLocation } from "@/features/catalog/catalog";
 import { CATEGORIES } from "@/features/catalog/taxonomy";
+import { resolveDestination } from "@/features/map/geo";
 
 interface ItemCardProps {
   item: CatalogItem;
@@ -24,6 +25,7 @@ export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: Ite
     .map((locationId) => locationsById.get(locationId))
     .filter((location): location is FairLocation => Boolean(location));
   const isNewVendor = item.tagIds.includes("new-vendor");
+  const destination = resolveDestination(item, locationsById);
 
   return (
     <article className="relative border border-primary/20 bg-card p-4 shadow-[4px_4px_0_hsl(var(--secondary)/0.3)]">
@@ -76,6 +78,15 @@ export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: Ite
             ))}
           </span>
         ) : <span className="inline-flex min-h-11 items-center font-medium text-muted-foreground">Location not yet announced</span>}
+        {destination ? (
+          <Link
+            to={`/map?item=${encodeURIComponent(item.id)}`}
+            aria-label={`Take me to ${item.name} on the fair map`}
+            className="ml-auto inline-flex min-h-11 shrink-0 items-center gap-1 border border-primary/35 bg-primary/5 px-2 text-xs font-bold text-primary transition-colors hover:bg-primary hover:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          >
+            <Navigation className="h-3.5 w-3.5" aria-hidden="true" />Take me there
+          </Link>
+        ) : null}
       </div>
 
       <button

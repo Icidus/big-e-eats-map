@@ -1,4 +1,4 @@
-import { Compass, Home, MapPinned } from "lucide-react";
+import { Compass, Home, Map as MapIcon, MapPinned } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { useFoodPlan } from "@/features/plan/FoodPlanProvider";
@@ -15,6 +15,7 @@ export function AppNav() {
       <div className="mx-auto flex max-w-7xl items-stretch justify-around md:justify-end md:gap-1 md:px-6">
         <AppNavLink to="/" end icon={Home} label="Home" />
         <AppNavLink to="/browse" icon={Compass} label="Browse" />
+        <AppNavLink to="/map" icon={MapIcon} label="Map" />
         <AppNavLink to="/plan" icon={MapPinned} label="My Plan" ariaLabel={planLabel} badge={itemIds.length} />
       </div>
     </nav>

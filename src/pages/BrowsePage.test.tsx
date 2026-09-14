@@ -1,4 +1,4 @@
-import { cleanup, render, screen, waitFor } from "@testing-library/react";
+import { cleanup, render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { BrowserRouter, MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
 import { afterEach, describe, expect, it } from "vitest";
@@ -250,6 +250,11 @@ describe("BrowsePage", () => {
       renderBrowse("/browse?locations=the-front-porch");
       expect(screen.queryByRole("button", { name: /^seafood/i })).not.toBeInTheDocument();
     });
+  });
+
+  it("links to the fair map from the header", () => {
+    renderBrowse("/browse");
+    expect(within(screen.getByRole("banner")).getByRole("link", { name: /fair map/i })).toHaveAttribute("href", "/map");
   });
 });
 

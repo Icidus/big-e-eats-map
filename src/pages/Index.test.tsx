@@ -148,4 +148,9 @@ describe("Index", () => {
 
     expect(screen.getByRole("link", { name: /my food plan.*2 saved/i })).toHaveAttribute("href", "/plan");
   });
+
+  it("links to the fair map from the hero", () => {
+    renderIndex();
+    expect(screen.getByRole("link", { name: /fair map/i })).toHaveAttribute("href", "/map");
+  });
 });
