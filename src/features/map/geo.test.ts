@@ -94,19 +94,19 @@ describe("resolveDestination", () => {
   it("prefers an item's own coordinates and names its area", () => {
     const stand = { lat: 42.0906, lng: -72.6161, source: "on-site", precision: "mapped" as const };
     expect(resolveDestination({ ...item, coordinates: stand }, locationsById)).toEqual({
-      id: "panella", kind: "item", name: "Panella", areaName: "Food Court", locationId: "food-court", coordinates: stand,
+      id: "panella", kind: "item", name: "Panella", vendor: "Calabrese Market", areaName: "Food Court", locationId: "food-court", coordinates: stand,
     });
   });
 
   it("falls back to the first located area of an item", () => {
     expect(resolveDestination({ ...item, locationIds: ["unplaced", "the-front-porch"] }, locationsById)).toEqual({
-      id: "panella", kind: "item", name: "Panella", areaName: "The Front Porch", locationId: "the-front-porch", coordinates: mapped,
+      id: "panella", kind: "item", name: "Panella", vendor: "Calabrese Market", areaName: "The Front Porch", locationId: "the-front-porch", coordinates: mapped,
     });
   });
 
   it("resolves a location to itself", () => {
     expect(resolveDestination(foodCourt, locationsById)).toEqual({
-      id: "food-court", kind: "location", name: "Food Court", areaName: null, locationId: "food-court", coordinates: estimated,
+      id: "food-court", kind: "location", name: "Food Court", vendor: null, areaName: null, locationId: "food-court", coordinates: estimated,
     });
   });
 

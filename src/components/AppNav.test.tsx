@@ -6,7 +6,10 @@ import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
 import { BrowsePage } from "@/pages/BrowsePage";
 import { AppNav } from "./AppNav";
 
-afterEach(cleanup);
+afterEach(() => {
+  cleanup();
+  window.sessionStorage.clear();
+});
 
 function renderNav(path = "/browse") {
   window.localStorage?.clear();
@@ -41,6 +44,12 @@ describe("AppNav", () => {
     await user.click(screen.getByRole("button", { name: /add caramel apple mocktail/i }));
 
     expect(screen.getByRole("link", { name: "My Plan, 1 item" })).toBeInTheDocument();
+  });
+
+  it("sends the Browse tab back to the last remembered search", () => {
+    window.sessionStorage.setItem("big-e:last-browse-search", "?categories=desserts");
+    renderNav("/");
+    expect(screen.getByRole("link", { name: "Browse" })).toHaveAttribute("href", "/browse?categories=desserts");
   });
 
   it("links to the fair map", () => {

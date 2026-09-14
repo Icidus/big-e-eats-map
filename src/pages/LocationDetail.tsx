@@ -1,10 +1,11 @@
-import { ArrowLeft, MapPin, Navigation } from "lucide-react";
+import { MapPin, Navigation } from "lucide-react";
 import { lazy, Suspense } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ItemCard } from "@/components/discovery/ItemCard";
 import { Button } from "@/components/ui/button";
 import { catalogItems, locationsById, type FairLocation } from "@/features/catalog/catalog";
 import { detectPlatform, resolveDestination, walkingDirectionsUrl } from "@/features/map/geo";
+import { BackButton } from "@/features/navigation/BackButton";
 import { useFoodPlan } from "@/features/plan/FoodPlanProvider";
 
 const FairMap = lazy(() => import("@/features/map/FairMap").then((m) => ({ default: m.FairMap })));
@@ -33,9 +34,7 @@ export default function LocationDetail() {
     <div className="min-h-screen bg-[radial-gradient(hsl(var(--secondary)/0.16)_1px,transparent_1px)] bg-[size:13px_13px] text-foreground">
       <header className="border-b-4 border-primary bg-primary text-primary-foreground">
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-          <Button asChild variant="outline" className="min-h-11 border-primary-foreground/60 bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-            <Link to="/"><ArrowLeft aria-hidden="true" />Back to 2026 food guide</Link>
-          </Button>
+          <BackButton fallback={{ to: "/browse", label: "Browse all food" }} />
           <div className="mt-6 flex items-start gap-3">
             <MapPin className="mt-1 h-6 w-6 shrink-0 text-secondary" aria-hidden="true" />
             <div>
@@ -55,7 +54,7 @@ export default function LocationDetail() {
             <p className="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground">Only listings that currently name {location.name} are shown here.</p>
             {items.length ? (
               <div className="mt-6 grid gap-5 xl:grid-cols-2">
-                {items.map((item) => <ItemCard key={item.id} item={item} locationsById={locationsById} isInPlan={hasItem(item.id)} onAdd={() => addItem(item.id)} onRemove={() => removeItem(item.id)} />)}
+                {items.map((item) => <ItemCard key={item.id} item={item} locationsById={locationsById} isInPlan={hasItem(item.id)} backLabel={`Back to ${location.name}`} onAdd={() => addItem(item.id)} onRemove={() => removeItem(item.id)} />)}
               </div>
             ) : (
               <div className="mt-6 border-2 border-dashed border-primary/45 bg-card p-6 shadow-[4px_4px_0_hsl(var(--secondary)/0.28)]">
@@ -93,7 +92,7 @@ export function LocationMapPanel({ location, itemCount }: { location: FairLocati
             <Button asChild className="min-h-11">
               <a href={walkingDirectionsUrl(destination.coordinates, platform)} target="_blank" rel="noreferrer"><Navigation aria-hidden="true" />Walking directions</a>
             </Button>
-            <Button asChild variant="outline" className="min-h-11"><Link to={`/map?to=${encodeURIComponent(location.id)}`}>Open full map</Link></Button>
+            <Button asChild variant="outline" className="min-h-11"><Link to={`/map?to=${encodeURIComponent(location.id)}`} state={{ backLabel: `Back to ${location.name}` }}>Open full map</Link></Button>
           </div>
         </>
       ) : (

@@ -39,6 +39,32 @@ function renderMap(path: string) {
   );
 }
 
+describe("MapPage back navigation", () => {
+  it("falls back to Browse when opened cold", () => {
+    renderMap("/map?to=food-court");
+
+    expect(screen.getByRole("link", { name: /browse all food/i })).toHaveAttribute("href", "/browse");
+    expect(screen.queryByRole("button", { name: /^back/i })).not.toBeInTheDocument();
+  });
+
+  it("returns to the originating page with its label when arrived from inside the app", async () => {
+    const user = userEvent.setup();
+    render(
+      <MemoryRouter initialEntries={["/browse?categories=burgers", { pathname: "/map", search: "?item=calabrese-panella", state: { backLabel: "Back to results" } }]}>
+        <Routes>
+          <Route path="/map" element={<><MapPage /><LocationSearch /></>} />
+          <Route path="/browse" element={<div data-testid="browse-page"><LocationSearch /></div>} />
+        </Routes>
+      </MemoryRouter>,
+    );
+
+    await user.click(screen.getByRole("button", { name: "Back to results" }));
+
+    expect(screen.getByTestId("browse-page")).toBeInTheDocument();
+    expect(screen.getByTestId("location-search")).toHaveTextContent("?categories=burgers");
+  });
+});
+
 describe("MapPage", () => {
   it("renders the map and every area without a destination by default", () => {
     renderMap("/map");
@@ -61,11 +87,12 @@ describe("MapPage", () => {
     expect(screen.getByTestId("fair-map")).toHaveAttribute("data-destination", "food-court");
   });
 
-  it("selects an item destination and names its area", () => {
+  it("selects an item destination, leading with the vendor and naming its area", () => {
     renderMap("/map?item=calabrese-panella&to=east-road");
 
     const card = screen.getByRole("region", { name: /destination/i });
-    expect(within(card).getByRole("heading", { name: "Panella" })).toBeInTheDocument();
+    expect(within(card).getByRole("heading", { name: "Calabrese Market" })).toBeInTheDocument();
+    expect(within(card).getByText("Panella")).toBeInTheDocument();
     expect(within(card).getByText("Food Court")).toBeInTheDocument();
     expect(screen.getByTestId("fair-map")).toHaveAttribute("data-destination", "calabrese-panella");
   });

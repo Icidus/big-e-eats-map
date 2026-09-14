@@ -252,6 +252,16 @@ describe("BrowsePage", () => {
     });
   });
 
+  it("remembers the current search for the Browse nav tab", () => {
+    window.sessionStorage.clear();
+    renderBrowse("/browse?categories=mocktails");
+    expect(window.sessionStorage.getItem("big-e:last-browse-search")).toBe("?categories=mocktails");
+
+    cleanup();
+    renderBrowse("/browse");
+    expect(window.sessionStorage.getItem("big-e:last-browse-search")).toBe("");
+  });
+
   it("links to the fair map from the header", () => {
     renderBrowse("/browse");
     expect(within(screen.getByRole("banner")).getByRole("link", { name: /fair map/i })).toHaveAttribute("href", "/map");

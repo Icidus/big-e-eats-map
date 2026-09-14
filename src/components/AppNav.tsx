@@ -1,10 +1,14 @@
 import { Compass, Home, Map as MapIcon, MapPinned } from "lucide-react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import { readBrowseSearch } from "@/features/discovery/lastBrowse";
 import { useFoodPlan } from "@/features/plan/FoodPlanProvider";
 
 export function AppNav() {
   const { itemIds } = useFoodPlan();
+  // Re-read on every navigation so the tab tracks the latest remembered browse search.
+  useLocation();
+  const browseTo = `/browse${readBrowseSearch()}`;
   const planLabel = `My Plan, ${itemIds.length} ${itemIds.length === 1 ? "item" : "items"}`;
 
   return (
@@ -14,7 +18,7 @@ export function AppNav() {
     >
       <div className="mx-auto flex max-w-7xl items-stretch justify-around md:justify-end md:gap-1 md:px-6">
         <AppNavLink to="/" end icon={Home} label="Home" />
-        <AppNavLink to="/browse" icon={Compass} label="Browse" />
+        <AppNavLink to={browseTo} icon={Compass} label="Browse" />
         <AppNavLink to="/map" icon={MapIcon} label="Map" />
         <AppNavLink to="/plan" icon={MapPinned} label="My Plan" ariaLabel={planLabel} badge={itemIds.length} />
       </div>

@@ -22,6 +22,7 @@ export interface Destination {
   id: string;
   kind: "item" | "location";
   name: string;
+  vendor: string | null;
   areaName: string | null;
   locationId: string | null;
   coordinates: FairCoordinates;
@@ -82,7 +83,7 @@ function isCatalogItem(target: CatalogItem | FairLocation): target is CatalogIte
 export function resolveDestination(target: CatalogItem | FairLocation, locationsById: Map<string, FairLocation>): Destination | null {
   if (!isCatalogItem(target)) {
     if (!target.coordinates) return null;
-    return { id: target.id, kind: "location", name: target.name, areaName: null, locationId: target.id, coordinates: target.coordinates };
+    return { id: target.id, kind: "location", name: target.name, vendor: null, areaName: null, locationId: target.id, coordinates: target.coordinates };
   }
 
   const knownLocations = target.locationIds
@@ -91,10 +92,10 @@ export function resolveDestination(target: CatalogItem | FairLocation, locations
 
   if (target.coordinates) {
     const area = knownLocations[0] ?? null;
-    return { id: target.id, kind: "item", name: target.name, areaName: area?.name ?? null, locationId: area?.id ?? null, coordinates: target.coordinates };
+    return { id: target.id, kind: "item", name: target.name, vendor: target.vendor, areaName: area?.name ?? null, locationId: area?.id ?? null, coordinates: target.coordinates };
   }
 
   const placedArea = knownLocations.find((location) => location.coordinates);
   if (!placedArea?.coordinates) return null;
-  return { id: target.id, kind: "item", name: target.name, areaName: placedArea.name, locationId: placedArea.id, coordinates: placedArea.coordinates };
+  return { id: target.id, kind: "item", name: target.name, vendor: target.vendor, areaName: placedArea.name, locationId: placedArea.id, coordinates: placedArea.coordinates };
 }
