@@ -45,28 +45,30 @@ function markerIcon(label: string, count: number | null, modifiers: string[]): L
 function FitView({ destination, userPosition }: { destination?: Destination | null; userPosition?: UserPosition | null }) {
   const map = useMap();
   const destinationKey = destination ? `${destination.coordinates.lat},${destination.coordinates.lng}` : "";
-  const userKey = userPosition ? `${userPosition.lat},${userPosition.lng}` : "";
+  const hasUser = Boolean(userPosition);
 
   useEffect(() => {
     if (destination && userPosition) {
-      map.fitBounds(L.latLngBounds([destination.coordinates as LatLng, userPosition]), { padding: [48, 48], maxZoom: 18 });
+      map.fitBounds(L.latLngBounds([destination.coordinates, userPosition]), { padding: [48, 48], maxZoom: 18 });
       return;
     }
     if (destination) {
-      map.setView(destination.coordinates as LatLng, 17);
+      map.setView(destination.coordinates, 17);
       return;
     }
     map.fitBounds(FAIR_BOUNDS, { padding: [16, 16] });
-    // Keys change only when coordinates change, so panning does not fight the user.
+    // Fits once per destination change and once when a position first appears or
+    // disappears; later position updates only move the dot and line, not the view,
+    // so they do not fight the user's manual panning/zooming.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [map, destinationKey, userKey]);
+  }, [map, destinationKey, hasUser]);
 
   return null;
 }
 
 export function FairMap({ locations, itemCounts, destination = null, userPosition = null, onSelectLocation, overlay, className }: FairMapProps) {
   const placed = locations.filter((location): location is FairLocation & { coordinates: NonNullable<FairLocation["coordinates"]> } => Boolean(location.coordinates));
-  const line: LatLng[] | null = destination && userPosition ? [userPosition, destination.coordinates as LatLng] : null;
+  const line: LatLng[] | null = destination && userPosition ? [userPosition, destination.coordinates] : null;
 
   return (
     <div role="region" aria-label="Fairground map" className={cn("fair-map h-full w-full", className)}>
@@ -80,7 +82,7 @@ export function FairMap({ locations, itemCounts, destination = null, userPositio
           const count = itemCounts.get(location.id) ?? 0;
           const estimated = location.coordinates.precision === "estimated";
           return (
-            <Marker key={location.id} position={location.coordinates as LatLng} icon={markerIcon(location.name, count, estimated ? ["is-estimated"] : [])} keyboard>
+            <Marker key={location.id} position={location.coordinates} icon={markerIcon(location.name, count, estimated ? ["is-estimated"] : [])} keyboard>
               <Popup>
                 <p className="font-serif text-base font-bold">{location.name}</p>
                 <p className="mt-1 text-xs text-muted-foreground">{count} {count === 1 ? "item" : "items"}{estimated ? " · Approximate" : ""}</p>
@@ -95,7 +97,7 @@ export function FairMap({ locations, itemCounts, destination = null, userPositio
 
         {destination ? (
           <Marker
-            position={destination.coordinates as LatLng}
+            position={destination.coordinates}
             icon={markerIcon(destination.name, destination.locationId ? itemCounts.get(destination.locationId) ?? null : null, ["is-destination", destination.coordinates.precision === "estimated" ? "is-estimated" : ""])}
             zIndexOffset={1000}
             keyboard
