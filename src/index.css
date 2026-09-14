@@ -142,3 +142,74 @@ All colors MUST be HSL.
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* Fair map (Leaflet) */
+.fair-map {
+  position: relative;
+  isolation: isolate;
+  z-index: 0;
+}
+
+.fair-map .leaflet-container {
+  height: 100%;
+  width: 100%;
+  font: inherit;
+  background: hsl(var(--muted));
+}
+
+.fair-map-marker-wrapper {
+  background: none;
+  border: 0;
+}
+
+.fair-map-marker {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+  transform: translate(-50%, -100%);
+  border: 2px solid hsl(var(--primary));
+  background: hsl(var(--card));
+  color: hsl(var(--primary));
+  padding: 0.15rem 0.5rem;
+  font: 700 11px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.04em;
+  box-shadow: 2px 2px 0 hsl(var(--secondary) / 0.55);
+  cursor: pointer;
+}
+
+.fair-map-marker.is-estimated {
+  border-style: dashed;
+}
+
+.fair-map-marker.is-destination {
+  background: hsl(var(--secondary));
+  border-color: hsl(var(--primary));
+  color: hsl(var(--secondary-foreground));
+  font-size: 12px;
+}
+
+.fair-map-marker-count {
+  border-radius: 9999px;
+  background: hsl(var(--secondary));
+  color: hsl(var(--secondary-foreground));
+  padding: 0 0.4rem;
+}
+
+.fair-map-marker-wrapper:focus-visible .fair-map-marker {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+}
+
+.fair-map .leaflet-popup-content-wrapper {
+  border-radius: 0;
+  border: 1px solid hsl(var(--primary) / 0.3);
+  box-shadow: 4px 4px 0 hsl(var(--secondary) / 0.4);
+}
+
+.fair-map .leaflet-popup-content {
+  margin: 0.75rem 1rem;
+  font-size: 14px;
+  line-height: 1.4;
+}

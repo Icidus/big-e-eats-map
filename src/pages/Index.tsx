@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { Beef, CupSoda, Dessert, GlassWater, Search, Soup, Wheat } from "lucide-react";
+import { Beef, CupSoda, Dessert, GlassWater, Map as MapIcon, Search, Soup, Wheat } from "lucide-react";
 import { LocationCard } from "@/components/LocationCard";
 import { CatalogStatusNotice } from "@/components/discovery/CatalogStatusNotice";
 import { CategoryTile } from "@/components/discovery/CategoryTile";
@@ -51,6 +51,7 @@ const Index = () => {
               <button type="submit" className="min-h-12 border-2 border-secondary bg-secondary px-5 text-sm font-bold text-secondary-foreground transition-colors hover:bg-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-primary">Search food guide</button>
             </div>
           </form>
+          <Link to="/map" className="mt-4 inline-flex min-h-11 items-center gap-2 border-b-2 border-secondary pb-1 text-sm font-bold text-primary-foreground transition-colors hover:border-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-4 focus-visible:ring-offset-primary"><MapIcon className="h-4 w-4" aria-hidden="true" />Fair map</Link>
         </div>
       </header>
       <CatalogStatusNotice />

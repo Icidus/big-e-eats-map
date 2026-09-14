@@ -108,7 +108,7 @@ function createSearchDocument(item: CatalogItem, locationsById: Map<string, Fair
       ...item.tagIds.map((tagId) => TAGS.includes(tagId) ? tagId : ""),
     ].join(" "),
     locations: item.locationIds.map((locationId) => locationsById.get(locationId)?.name ?? "").join(" "),
-    description: item.description,
+    description: item.description ?? "",
   };
 }
 

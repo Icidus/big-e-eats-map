@@ -1,82 +1,130 @@
 import { cleanup, render, screen, within } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { MemoryRouter } from "react-router-dom";
-import { afterEach, describe, expect, it } from "vitest";
-import type { CatalogItem } from "@/features/catalog/catalog";
+import { afterEach, describe, expect, it, vi } from "vitest";
+import { itemsById, locationsById } from "@/features/catalog/catalog";
 import { ItemCard } from "./ItemCard";
 
 afterEach(cleanup);
 
-const item: CatalogItem = {
-  id: "test-treat",
-  year: 2026,
-  name: "Test Treat",
-  vendor: "The Test Kitchen",
-  locationIds: [],
-  description: "A focused fixture for location honesty.",
-  categoryIds: ["desserts"],
-  tagIds: ["sweet"],
-  dietaryClaims: [],
-  isNewFor2026: true,
-  source: { publisher: "The Big E", title: "New foods", url: "https://example.com/source", accessedOn: "2026-08-27" },
-};
+const item = itemsById.get("wave-caramel-apple-mocktail")!;
+
+function renderCard(overrides: Partial<Parameters<typeof ItemCard>[0]> = {}) {
+  return render(
+    <MemoryRouter>
+      <ItemCard item={item} locationsById={locationsById} isInPlan={false} onAdd={vi.fn()} onRemove={vi.fn()} {...overrides} />
+    </MemoryRouter>,
+  );
+}
 
 describe("ItemCard", () => {
-  it("states when a location is not yet announced without inventing a location link", () => {
+  it("shows only compact content until expanded", () => {
+    renderCard();
+
+    expect(screen.getByRole("heading", { name: item.name })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: `See everything from ${item.vendor}` })).toHaveAttribute("href", expect.stringContaining("/browse?vendors="));
+    expect(screen.queryByText(/2026 listing|new for 2026/i)).not.toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: /new foods/i })).not.toBeInTheDocument();
+    expect(screen.queryByText(/confirm dietary needs/i)).not.toBeInTheDocument();
+  });
+
+  it("expands in place to reveal tags, source, and disclaimer", async () => {
+    const user = userEvent.setup();
+    renderCard();
+
+    const trigger = screen.getByRole("button", { name: `More about ${item.name}` });
+    expect(trigger).toHaveAttribute("aria-expanded", "false");
+
+    await user.click(trigger);
+
+    expect(trigger).toHaveAttribute("aria-expanded", "true");
+    expect(screen.getByRole("link", { name: /the big e: new foods/i })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Apple" })).toHaveAttribute("href", expect.stringContaining("tags=apple"));
+  });
+
+  it("shows a compact source-reported badge for dietary claims", () => {
+    const gfItem = [...itemsById.values()].find((entry) => entry.dietaryClaims.includes("gluten-free"))!;
     render(
       <MemoryRouter>
-        <ItemCard item={item} locationsById={new Map()} isInPlan={false} onAdd={() => undefined} onRemove={() => undefined} />
+        <ItemCard item={gfItem} locationsById={locationsById} isInPlan={false} onAdd={vi.fn()} onRemove={vi.fn()} />
       </MemoryRouter>,
     );
 
-    expect(screen.getByText("Location not yet announced")).toBeInTheDocument();
-    expect(within(screen.getByRole("region", { name: "Item location" })).queryByRole("link")).not.toBeInTheDocument();
+    expect(screen.getByText("Gluten Free · source-reported")).toBeInTheDocument();
+    expect(screen.queryByText(/confirm dietary needs/i)).not.toBeInTheDocument();
   });
 
-  it("labels new records as New for 2026", () => {
-    render(
-      <MemoryRouter><ItemCard item={item} locationsById={new Map()} isInPlan={false} onAdd={() => undefined} onRemove={() => undefined} /></MemoryRouter>,
-    );
+  it("does not render a description paragraph when the item has none, but still expands tags and source", async () => {
+    expect(item.description).toBeUndefined();
+    const user = userEvent.setup();
+    renderCard();
 
-    expect(screen.getByText("New for 2026")).toBeInTheDocument();
+    const trigger = screen.getByRole("button", { name: `More about ${item.name}` });
+    await user.click(trigger);
+
+    const detailPanel = document.getElementById(trigger.getAttribute("aria-controls")!);
+    expect(detailPanel).not.toBeNull();
+    expect(within(detailPanel!).getByLabelText("Item tags")).toBe(detailPanel!.firstElementChild);
+
+    expect(screen.getByRole("link", { name: /the big e: new foods/i })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Apple" })).toBeInTheDocument();
   });
 
-  it("uses a neutral label for 2026 records that are not new", () => {
+  it("renders the real description when the item has one, and the dietary disclaimer only when claims exist", async () => {
+    const describedItem = [...itemsById.values()].find((entry) => typeof entry.description === "string" && entry.description.length > 0)!;
+    const user = userEvent.setup();
     render(
-      <MemoryRouter><ItemCard item={{ ...item, isNewFor2026: false }} locationsById={new Map()} isInPlan={false} onAdd={() => undefined} onRemove={() => undefined} /></MemoryRouter>,
+      <MemoryRouter>
+        <ItemCard item={describedItem} locationsById={locationsById} isInPlan={false} onAdd={vi.fn()} onRemove={vi.fn()} />
+      </MemoryRouter>,
     );
 
-    expect(screen.getByText("2026 listing")).toBeInTheDocument();
-    expect(screen.queryByText("New for 2026")).not.toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: `More about ${describedItem.name}` }));
+
+    expect(screen.getByText(describedItem.description!)).toBeInTheDocument();
+    if (describedItem.dietaryClaims.length > 0) {
+      expect(screen.getByText(/confirm dietary needs and preparation details with the vendor/i)).toBeInTheDocument();
+    } else {
+      expect(screen.queryByText(/confirm dietary needs and preparation details with the vendor/i)).not.toBeInTheDocument();
+    }
   });
 
-  it("separates source-reported dietary claims from editorial tags", () => {
-    render(
-      <MemoryRouter><ItemCard item={{ ...item, dietaryClaims: ["gluten-free"] }} locationsById={new Map()} isInPlan={false} onAdd={() => undefined} onRemove={() => undefined} /></MemoryRouter>,
-    );
+  it("gives the expand trigger and all category/tag chip links 44px tap targets", async () => {
+    const user = userEvent.setup();
+    renderCard();
 
-    const tags = screen.getByRole("region", { name: "Item tags" });
-    const claims = screen.getByRole("region", { name: "Source-reported dietary claims" });
-    expect(within(tags).queryByText("gluten-free")).not.toBeInTheDocument();
-    expect(within(claims).getByText("Gluten Free")).toBeInTheDocument();
-    expect(within(claims).getByText(/confirm dietary needs and preparation details with the vendor/i)).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: /the big e: new foods/i })).toHaveAttribute("href", item.source.url);
+    const expandTrigger = screen.getByRole("button", { name: `More about ${item.name}` });
+    expect(expandTrigger).toHaveClass("min-h-11");
+
+    await user.click(expandTrigger);
+
+    // Collect all chip and source links (filter by href pattern)
+    const allLinks = screen.getAllByRole("link");
+    const chipAndSourceLinks = allLinks.filter((link) => {
+      const href = link.getAttribute("href") || "";
+      return href.includes("?tags=") || href.includes("?categories=") || href.includes("thebige.com");
+    });
+
+    // Assert all chip and source links have min-h-11
+    expect(chipAndSourceLinks.length).toBeGreaterThan(0);
+    chipAndSourceLinks.forEach((link) => {
+      expect(link).toHaveClass("min-h-11");
+    });
   });
 
-  it("omits the dietary-claim disclosure when the source reports no claim", () => {
-    render(
-      <MemoryRouter><ItemCard item={item} locationsById={new Map()} isInPlan={false} onAdd={() => undefined} onRemove={() => undefined} /></MemoryRouter>,
-    );
+  it("offers Take me there only when the item resolves to a map pin", () => {
+    renderCard();
+    const link = screen.getByRole("link", { name: `Take me to ${item.name} on the fair map` });
+    expect(link).toHaveAttribute("href", `/map?item=${item.id}`);
+    expect(link).toHaveClass("min-h-11");
 
-    expect(screen.queryByRole("region", { name: "Source-reported dietary claims" })).not.toBeInTheDocument();
-  });
+    cleanup();
+    renderCard({ item: { ...item, locationIds: [] } });
+    expect(screen.queryByRole("link", { name: /take me to/i })).not.toBeInTheDocument();
 
-  it("gives location and source links 44px effective touch targets", () => {
-    const knownLocation = { id: "test-kitchen", name: "Test Kitchen", description: "Test", order: 1 };
-    render(
-      <MemoryRouter><ItemCard item={{ ...item, locationIds: [knownLocation.id] }} locationsById={new Map([[knownLocation.id, knownLocation]])} isInPlan={false} onAdd={() => undefined} onRemove={() => undefined} /></MemoryRouter>,
-    );
-
-    expect(screen.getByRole("link", { name: "Test Kitchen" })).toHaveClass("min-h-11");
-    expect(screen.getByRole("link", { name: /the big e: new foods/i })).toHaveClass("min-h-11");
+    cleanup();
+    const unplaced = { id: "mystery", name: "Mystery Corner", description: "Test", order: 99 };
+    renderCard({ item: { ...item, locationIds: [unplaced.id] }, locationsById: new Map([[unplaced.id, unplaced]]) });
+    expect(screen.queryByRole("link", { name: /take me to/i })).not.toBeInTheDocument();
   });
 });

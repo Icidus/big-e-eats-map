@@ -13,7 +13,7 @@ const item = (id: string, name: string, locationIds: string[] = []): CatalogItem
 });
 const fixtureLocations: FairLocation[] = [
   { id: "front", name: "The Front Porch", description: "", order: 1 },
-  { id: "east", name: "East Road", description: "", order: 2 },
+  { id: "east", name: "East Road", description: "", order: 2, coordinates: { lat: 42.0902, lng: -72.6167, source: "test", precision: "mapped" } },
 ];
 const knownEast = item("east-item", "East Treat", ["east"]);
 const knownFront = item("front-item", "Front Treat", ["front"]);
@@ -111,9 +111,12 @@ describe("PlanView", () => {
     expect(onRemove).toHaveBeenCalledWith(knownFront.id);
   });
 
-  it("does not expose a map action for any known plan group", () => {
-    renderPlanView({ items: [knownFront], locations: fixtureLocations });
-    expect(screen.queryByRole("link", { name: /view location map/i })).not.toBeInTheDocument();
+  it("links placed location groups to the fair map", () => {
+    renderPlanView({ items: [knownEast, knownFront, unknown], locations: fixtureLocations });
+
+    expect(screen.getByRole("link", { name: "Show East Road on the fair map" })).toHaveAttribute("href", "/map?to=east");
+    expect(screen.queryByRole("link", { name: /show the front porch on the fair map/i })).not.toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: /show location tbd on the fair map/i })).not.toBeInTheDocument();
   });
 
   it("gives the checkbox label a 44px touch target", () => {

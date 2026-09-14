@@ -1,10 +1,14 @@
-import { cleanup, render, screen } from "@testing-library/react";
+import { cleanup, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
+import type { FairMapProps } from "@/features/map/FairMap";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
-import LocationDetail, { LocationMap } from "./LocationDetail";
-import { locationsById } from "@/features/catalog/catalog";
+import LocationDetail, { LocationMapPanel } from "./LocationDetail";
+
+vi.mock("@/features/map/FairMap", () => ({
+  FairMap: (props: FairMapProps) => <div data-testid="fair-map" data-destination={props.destination?.id ?? ""} data-locations={props.locations.map((location) => location.id).join(",")} />,
+}));
 
 afterEach(cleanup);
 
@@ -63,21 +67,26 @@ describe("LocationDetail", () => {
     expect(screen.getByRole("link", { name: /back to 2026 food guide/i })).toHaveAttribute("href", "/");
   });
 
-  it("does not present a fallback graphic as a location map", () => {
-    const location = locationsById.get("the-front-porch");
-    if (!location) throw new Error("Expected the front porch catalog location");
-
-    render(<LocationMap location={location} map={{ src: "/big-e-eats-map/placeholder.svg", isAvailable: false }} />);
-
-    expect(screen.getByText(/map is not currently available/i)).toBeInTheDocument();
-    expect(screen.queryByRole("img", { name: /map of the front porch/i })).not.toBeInTheDocument();
-  });
-
-  it("marks every current location map unavailable", () => {
+  it("shows the real map with the location selected and a directions link", async () => {
     renderLocation("/location/the-front-porch");
 
-    expect(screen.getByRole("heading", { name: /map unavailable/i })).toBeInTheDocument();
-    expect(screen.getByText(/map is not currently available/i)).toBeInTheDocument();
-    expect(screen.queryByRole("img", { name: /map of/i })).not.toBeInTheDocument();
+    const panel = screen.getByRole("complementary", { name: /location map/i });
+    expect(await within(panel).findByTestId("fair-map")).toHaveAttribute("data-destination", "the-front-porch");
+    expect(within(panel).getByText("Approximate")).toBeInTheDocument();
+    expect(within(panel).getByRole("link", { name: /walking directions/i })).toHaveAttribute("href", expect.stringContaining("destination=42.0916,-72.619"));
+    expect(within(panel).getByRole("link", { name: /open full map/i })).toHaveAttribute("href", "/map?to=the-front-porch");
+    expect(screen.queryByText(/map is not currently available/i)).not.toBeInTheDocument();
+  });
+
+  it("stays honest for a location without coordinates", () => {
+    render(
+      <MemoryRouter>
+        <LocationMapPanel location={{ id: "mystery", name: "Mystery Corner", description: "Test", order: 99 }} itemCount={0} />
+      </MemoryRouter>,
+    );
+
+    expect(screen.getByText(/not yet placed on the map/i)).toBeInTheDocument();
+    expect(screen.queryByTestId("fair-map")).not.toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /open full map/i })).toHaveAttribute("href", "/map");
   });
 });

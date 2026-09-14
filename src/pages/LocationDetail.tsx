@@ -1,10 +1,13 @@
-import { ArrowLeft, MapPin } from "lucide-react";
+import { ArrowLeft, MapPin, Navigation } from "lucide-react";
+import { lazy, Suspense } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getUnavailableLocationMap, type LocationMapImage } from "@/assets/maps/mapUtils";
 import { ItemCard } from "@/components/discovery/ItemCard";
 import { Button } from "@/components/ui/button";
 import { catalogItems, locationsById, type FairLocation } from "@/features/catalog/catalog";
+import { detectPlatform, resolveDestination, walkingDirectionsUrl } from "@/features/map/geo";
 import { useFoodPlan } from "@/features/plan/FoodPlanProvider";
+
+const FairMap = lazy(() => import("@/features/map/FairMap").then((m) => ({ default: m.FairMap })));
 
 export default function LocationDetail() {
   const { id } = useParams<{ id: string }>();
@@ -25,7 +28,6 @@ export default function LocationDetail() {
   }
 
   const items = catalogItems.filter((item) => item.locationIds.includes(location.id));
-  const map = getUnavailableLocationMap();
 
   return (
     <div className="min-h-screen bg-[radial-gradient(hsl(var(--secondary)/0.16)_1px,transparent_1px)] bg-[size:13px_13px] text-foreground">
@@ -64,25 +66,44 @@ export default function LocationDetail() {
             )}
           </div>
 
-          <LocationMap location={location} map={map} />
+          <LocationMapPanel location={location} itemCount={items.length} />
         </section>
       </main>
     </div>
   );
 }
 
-export function LocationMap({ location, map }: { location: FairLocation; map: LocationMapImage }) {
+export function LocationMapPanel({ location, itemCount }: { location: FairLocation; itemCount: number }) {
+  const destination = resolveDestination(location, locationsById);
+  const platform = detectPlatform(typeof navigator === "undefined" ? "" : navigator.userAgent);
+
   return (
-    <aside className="self-start border border-primary/25 bg-card p-5 shadow-[4px_4px_0_hsl(var(--secondary)/0.3)]" aria-labelledby="location-map-title">
+    <aside className="self-start border border-primary/25 bg-card p-5 shadow-[4px_4px_0_hsl(var(--secondary)/0.3)]" aria-label="Location map">
       <p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">Location reference</p>
-      <h2 id="location-map-title" className="mt-1 font-serif text-2xl font-bold">Map unavailable</h2>
-      {map.isAvailable ? (
-        <img src={map.src} alt={`Map of ${location.name}`} className="mt-4 w-full border border-border bg-muted object-contain" />
+      <h2 className="mt-1 font-serif text-2xl font-bold">On the grounds</h2>
+      {destination ? (
+        <>
+          {destination.coordinates.precision === "estimated" ? <p className="mt-2 inline-block border border-dashed border-primary/60 px-2 py-0.5 font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-primary">Approximate</p> : null}
+          <div className="mt-4 h-72 border border-border">
+            <Suspense fallback={<div className="flex h-full items-center justify-center text-sm text-muted-foreground">Loading map…</div>}>
+              <FairMap locations={[location]} itemCounts={new Map([[location.id, itemCount]])} destination={destination} onSelectLocation={() => undefined} />
+            </Suspense>
+          </div>
+          <div className="mt-4 flex flex-col gap-2">
+            <Button asChild className="min-h-11">
+              <a href={walkingDirectionsUrl(destination.coordinates, platform)} target="_blank" rel="noreferrer"><Navigation aria-hidden="true" />Walking directions</a>
+            </Button>
+            <Button asChild variant="outline" className="min-h-11"><Link to={`/map?to=${encodeURIComponent(location.id)}`}>Open full map</Link></Button>
+          </div>
+        </>
       ) : (
-        <div className="mt-4 border border-dashed border-primary/40 bg-muted/45 p-5 text-center">
-          <MapPin className="mx-auto h-7 w-7 text-primary" aria-hidden="true" />
-          <p className="mt-3 text-sm font-semibold">Map is not currently available for this location.</p>
-        </div>
+        <>
+          <div className="mt-4 border border-dashed border-primary/40 bg-muted/45 p-5 text-center">
+            <MapPin className="mx-auto h-7 w-7 text-primary" aria-hidden="true" />
+            <p className="mt-3 text-sm font-semibold">This location is not yet placed on the map.</p>
+          </div>
+          <Button asChild variant="outline" className="mt-4 min-h-11"><Link to="/map">Open full map</Link></Button>
+        </>
       )}
       <p className="mt-4 text-sm leading-6 text-muted-foreground">Ask fair staff for current directions or accessibility help.</p>
     </aside>

@@ -179,3 +179,18 @@ describe("2026 catalog content", () => {
     ]);
   });
 });
+
+describe("2026 location coordinates", () => {
+  const estimatedLocationIds = ["the-front-porch", "food-court", "craft-common", "industrial-avenue", "new-england-center"];
+
+  it("places every location on the map", () => {
+    for (const location of catalogData.locations) {
+      expect(location.coordinates, `${location.id} has no coordinates`).toBeDefined();
+    }
+  });
+
+  it("marks exactly the hand-placed locations as estimated", () => {
+    const estimated = catalogData.locations.filter((location) => location.coordinates?.precision === "estimated").map((location) => location.id).sort();
+    expect(estimated).toEqual([...estimatedLocationIds].sort());
+  });
+});
