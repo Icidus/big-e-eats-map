@@ -24,14 +24,19 @@ const requiredReturningVendors = [
 ];
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
+const officialFoodSources = new Set([
+  "https://www.thebige.com/p/food2/newfoods",
+  "https://www.thebige.com/p/food2/bargain-bites",
+  "https://www.thebige.com/p/thingstodo/avenue/maine-building",
+]);
 
 describe("2026 catalog content", () => {
   it("contains only sourced 2026 records", () => {
     expect(catalogData.items.length).toBeGreaterThan(0);
     for (const item of catalogData.items) {
       expect(item.year).toBe(2026);
-      expect(item.source.url).toBe("https://www.thebige.com/p/food2/newfoods");
-      expect(item.source.accessedOn).toBe("2026-08-27");
+      expect(officialFoodSources.has(item.source.url)).toBe(true);
+      expect(item.source.accessedOn).toMatch(/^2026-09-14$|^2026-09-07$|^2026-08-27$/);
     }
   });
 
@@ -81,14 +86,25 @@ describe("2026 catalog content", () => {
     }
   });
 
-  it("defines only the six requested ordered editorial collections", () => {
+  it("defines the ordered editorial collections", () => {
     const expectedCollections = [
       ["wildest-new-foods", ["white-hut-uncrusta-double-burger", "yankee-boy-wagyu-beef-surf-n-turf-burger", "meatball-factory-sushi-corndog", "macho-taco-birria-bomb", "veggie-patch-fried-deviled-eggs"]],
       ["cocktails-and-mocktails", ["wave-caramel-apple-mocktail", "cantina-louie-frozen-margarita-mocktail", "broccoli-bar-broccarita", "calabrese-alcoholic-bellinis", "v-one-snow-globe-martini", "v-one-caramel-apple", "v-one-salted-caramel-espresso-martini", "v-one-ultra-premium-vodka-seltzer"]],
       ["desserts-worth-the-detour", ["big-e-bakery-peanut-butter-cream-puff", "tootsies-deep-fried-cheesecake", "fluffys-cookie-butter-cheesecake-donut", "ferrindino-maple-creemee-bacon-waffle", "moolicious-campfire-on-a-stick"]],
-      ["gluten-free-fair-food", ["simply-gluten-free-funnel-cakes", "simply-gluten-free-fried-oreos", "simply-gluten-free-corndogs", "simply-gluten-free-chicken-tenders", "simply-gluten-free-jumbo-mozzarella-stick", "simply-gluten-free-fountain-lemonade", "tripps-hashbrown-breakfast-sandwich", "tripps-donuts", "tripps-brownies", "tripps-fried-oreos", "tripps-chicken-fingers", "tripps-grass-fed-burgers", "tripps-french-fries", "luanns-build-your-own-brownie-bar"]],
+      ["gluten-free-fair-food", ["fields-fields-wild-blueberry-crisp", "simply-gluten-free-funnel-cakes", "simply-gluten-free-fried-oreos", "simply-gluten-free-corndogs", "simply-gluten-free-chicken-tenders", "simply-gluten-free-jumbo-mozzarella-stick", "simply-gluten-free-fountain-lemonade", "tripps-hashbrown-breakfast-sandwich", "tripps-donuts", "tripps-brownies", "tripps-fried-oreos", "tripps-chicken-fingers", "tripps-grass-fed-burgers", "tripps-french-fries", "luanns-build-your-own-brownie-bar"]],
       ["fall-flavors", ["moose-joose-fall-in-a-cup", "cinnamon-saloon-apple-cider-slush", "sam-adams-headless-pumpkin-cider", "wave-caramel-apple-mocktail", "sweet-and-salty-pumpkin-spice-dirty-soda"]],
       ["savory-food-on-a-stick", ["cantina-louie-corn-on-a-stick", "nola-hush-puppy-skewers"]],
+      ["bargain-bites-day", [
+        "captain-nemos-savory-snack-wrap", "indian-restaurant-mixed-veggie-pakora", "west-springfield-lions-bacon-cheeseburger",
+        "golden-kdog-cinnamozz-ball", "ny-style-pizza-hot-honey-chicken-pizza", "sugar-shakers-small-funnel-cake",
+        "the-big-cheese-cheese-curds", "poutine-gourmet-mini-poutine", "kora-milas-cookie-dough-stick",
+        "french-fry-corndog", "funnel-cake-waffle-cone", "carnival-candy-cotton-candy", "midway-slice-of-cheese-pizza",
+      ]],
+      ["maine-food-stops", [
+        "maine-aquaculture-smoked-salmon-on-a-stick", "maine-aquaculture-captn-elis-root-beer", "maine-lobster-roll",
+        "maine-potato-board-baked-potato", "fields-fields-wild-blueberry-crisp", "fire-and-co-wood-fired-pizza",
+        "qp-burger-food-truck-burger", "qp-burger-food-truck-hot-dog",
+      ]],
     ];
     expect(catalogData.collections.map((collection) => [collection.id, collection.itemIds])).toEqual(expectedCollections);
   });
@@ -107,5 +123,59 @@ describe("2026 catalog content", () => {
       expect(item?.tagIds).toContain("food-on-a-stick");
       expect(item?.tagIds).toContain("savory");
     }
+  });
+
+  it("publishes the official Bargain Bites specials as a dated collection", () => {
+    const collection = catalogData.collectionsById.get("bargain-bites-day");
+
+    expect(collection?.title).toBe("Bargain Bites Day");
+    expect(collection?.description).toContain("September 21");
+    expect(collection?.source).toEqual({
+      publisher: "The Big E",
+      title: "Bargain Bites Day",
+      url: "https://www.thebige.com/p/food2/bargain-bites",
+      accessedOn: "2026-09-07",
+    });
+
+    const itemNames = collection?.itemIds.map((itemId) => catalogData.itemsById.get(itemId)?.name);
+    expect(itemNames).toEqual([
+      "Nemo’s Savory Snack Wrap",
+      "Mixed Veggie Pakora",
+      "Bacon Cheeseburger",
+      "Cinnamozz Ball",
+      "Hot Honey Chicken Pizza",
+      "Small Funnel Cake",
+      "Cheese Curds",
+      "Mini Poutine",
+      "Cookie Dough Stick",
+      "Corndog",
+      "Waffle Cone",
+      "Cotton Candy",
+      "Slice of Cheese Pizza",
+    ]);
+  });
+
+  it("publishes official Maine Building food stops as a sourced collection", () => {
+    const collection = catalogData.collectionsById.get("maine-food-stops");
+
+    expect(collection?.title).toBe("Maine Food Stops");
+    expect(collection?.description).toContain("Maine Building");
+    expect(collection?.source).toEqual({
+      publisher: "The Big E",
+      title: "Maine Building",
+      url: "https://www.thebige.com/p/thingstodo/avenue/maine-building",
+      accessedOn: "2026-09-14",
+    });
+
+    expect(collection?.itemIds.map((itemId) => catalogData.itemsById.get(itemId)?.name)).toEqual([
+      "Smoked Salmon on a Stick",
+      "Capt’n Eli’s Root Beer",
+      "Maine Lobster Roll",
+      "Maine Baked Potato",
+      "Wild Blueberry Crisp",
+      "Wood-fired Pizza",
+      "Burger",
+      "Hot Dog",
+    ]);
   });
 });

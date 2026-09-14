@@ -1,5 +1,343 @@
 [
   {
+    "id": "maine-aquaculture-smoked-salmon-on-a-stick",
+    "year": 2026,
+    "name": "Smoked Salmon on a Stick",
+    "vendor": "Maine Aquaculture Association",
+    "locationIds": ["avenue-of-states"],
+    "description": "Smoked salmon on a stick from the Maine Aquaculture Association’s 2026 Maine Building exhibit.",
+    "categoryIds": ["seafood"],
+    "tagIds": ["savory", "food-on-a-stick"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": { "publisher": "The Big E", "title": "Maine Building", "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building", "accessedOn": "2026-09-14" }
+  },
+  {
+    "id": "maine-aquaculture-captn-elis-root-beer",
+    "year": 2026,
+    "name": "Capt’n Eli’s Root Beer",
+    "vendor": "Maine Aquaculture Association",
+    "locationIds": ["avenue-of-states"],
+    "description": "Old-fashioned Maine root beer from the Maine Aquaculture Association’s 2026 Maine Building exhibit.",
+    "categoryIds": ["nonalcoholic-drinks"],
+    "tagIds": ["drinks", "nonalcoholic"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": { "publisher": "The Big E", "title": "Maine Building", "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building", "accessedOn": "2026-09-14" }
+  },
+  {
+    "id": "maine-lobster-roll",
+    "year": 2026,
+    "name": "Maine Lobster Roll",
+    "vendor": "Maine Lobster Rolls",
+    "locationIds": ["avenue-of-states"],
+    "description": "Fresh Maine lobster rolls from the 2026 Maine Building exhibit.",
+    "categoryIds": ["seafood", "sandwiches"],
+    "tagIds": ["savory"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": { "publisher": "The Big E", "title": "Maine Building", "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building", "accessedOn": "2026-09-14" }
+  },
+  {
+    "id": "maine-potato-board-baked-potato",
+    "year": 2026,
+    "name": "Maine Baked Potato",
+    "vendor": "Maine Potato Board",
+    "locationIds": ["avenue-of-states"],
+    "description": "A fresh-baked Maine-grown potato with toppings from the Maine Potato Board exhibit.",
+    "categoryIds": ["potatoes-fries"],
+    "tagIds": ["savory"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": { "publisher": "The Big E", "title": "Maine Building", "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building", "accessedOn": "2026-09-14" }
+  },
+  {
+    "id": "fields-fields-wild-blueberry-crisp",
+    "year": 2026,
+    "name": "Wild Blueberry Crisp",
+    "vendor": "Fields Fields Blueberries",
+    "locationIds": ["avenue-of-states"],
+    "description": "Gluten-free wild blueberry crisp topped with Gifford’s ice cream from the Maine Building food trucks.",
+    "categoryIds": ["desserts"],
+    "tagIds": ["sweet"],
+    "dietaryClaims": ["gluten-free"],
+    "isNewFor2026": false,
+    "source": { "publisher": "The Big E", "title": "Maine Building", "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building", "accessedOn": "2026-09-14" }
+  },
+  {
+    "id": "fire-and-co-wood-fired-pizza",
+    "year": 2026,
+    "name": "Wood-fired Pizza",
+    "vendor": "Fire & Co. Catering",
+    "locationIds": ["avenue-of-states"],
+    "description": "Wood-fired pizza from Fire & Co. Catering in the Maine Building food-truck area.",
+    "categoryIds": ["pizza-italian"],
+    "tagIds": ["savory"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": { "publisher": "The Big E", "title": "Maine Building", "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building", "accessedOn": "2026-09-14" }
+  },
+  {
+    "id": "qp-burger-food-truck-burger",
+    "year": 2026,
+    "name": "Burger",
+    "vendor": "QP Burger Food Truck",
+    "locationIds": ["avenue-of-states"],
+    "description": "A burger from QP Burger Food Truck, served with Fox Family Potato Chips in the Maine Building food-truck area.",
+    "categoryIds": ["burgers"],
+    "tagIds": ["savory"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": { "publisher": "The Big E", "title": "Maine Building", "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building", "accessedOn": "2026-09-14" }
+  },
+  {
+    "id": "qp-burger-food-truck-hot-dog",
+    "year": 2026,
+    "name": "Hot Dog",
+    "vendor": "QP Burger Food Truck",
+    "locationIds": ["avenue-of-states"],
+    "description": "A hot dog from QP Burger Food Truck, served with Fox Family Potato Chips in the Maine Building food-truck area.",
+    "categoryIds": ["hot-dogs-corndogs"],
+    "tagIds": ["savory"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": { "publisher": "The Big E", "title": "Maine Building", "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building", "accessedOn": "2026-09-14" }
+  },
+  {
+    "id": "captain-nemos-savory-snack-wrap",
+    "year": 2026,
+    "name": "Nemo’s Savory Snack Wrap",
+    "vendor": "Captain Nemo’s",
+    "locationIds": [],
+    "description": "A golden crispy tender wrapped in a warm flour tortilla with lettuce, tomato, and creamy mayo, listed as a Bargain Bites Day special.",
+    "categoryIds": ["sandwiches"],
+    "tagIds": ["savory", "fried"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "indian-restaurant-mixed-veggie-pakora",
+    "year": 2026,
+    "name": "Mixed Veggie Pakora",
+    "vendor": "The Indian Restaurant",
+    "locationIds": ["food-court"],
+    "description": "Mixed vegetable pakora listed as a Bargain Bites Day special at The Indian Restaurant in the Food Court.",
+    "categoryIds": ["snacks-sides"],
+    "tagIds": ["savory", "fried", "spicy"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "west-springfield-lions-bacon-cheeseburger",
+    "year": 2026,
+    "name": "Bacon Cheeseburger",
+    "vendor": "West Springfield Lions Club",
+    "locationIds": ["west-road"],
+    "description": "A bacon cheeseburger listed as a Bargain Bites Day special.",
+    "categoryIds": ["burgers"],
+    "tagIds": ["savory", "cheese", "bacon"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "golden-kdog-cinnamozz-ball",
+    "year": 2026,
+    "name": "Cinnamozz Ball",
+    "vendor": "Golden K-Dog",
+    "locationIds": ["the-front-porch"],
+    "description": "A Cinnamozz Ball listed as a Bargain Bites Day special from Golden K-Dog.",
+    "categoryIds": ["hot-dogs-corndogs"],
+    "tagIds": ["sweet", "cheese"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "ny-style-pizza-hot-honey-chicken-pizza",
+    "year": 2026,
+    "name": "Hot Honey Chicken Pizza",
+    "vendor": "NY Style Pizza",
+    "locationIds": ["new-england-avenue"],
+    "description": "A small slice of Hot Honey Chicken Pizza listed as a Bargain Bites Day special.",
+    "categoryIds": ["pizza-italian"],
+    "tagIds": ["savory", "hot-honey", "cheese"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "sugar-shakers-small-funnel-cake",
+    "year": 2026,
+    "name": "Small Funnel Cake",
+    "vendor": "Sugar Shakers",
+    "locationIds": ["east-road", "new-england-avenue"],
+    "description": "A small funnel cake listed as a Bargain Bites Day special.",
+    "categoryIds": ["donuts-pastries"],
+    "tagIds": ["sweet", "fried"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "the-big-cheese-cheese-curds",
+    "year": 2026,
+    "name": "Cheese Curds",
+    "vendor": "The Big Cheese",
+    "locationIds": ["new-england-avenue"],
+    "description": "A sample portion of cheese curds listed as a Bargain Bites Day special.",
+    "categoryIds": ["snacks-sides"],
+    "tagIds": ["savory", "cheese"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "poutine-gourmet-mini-poutine",
+    "year": 2026,
+    "name": "Mini Poutine",
+    "vendor": "Poutine Gourmet",
+    "locationIds": ["springfield-road"],
+    "description": "A mini serving of poutine listed as a Bargain Bites Day special.",
+    "categoryIds": ["potatoes-fries"],
+    "tagIds": ["savory", "cheese"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "kora-milas-cookie-dough-stick",
+    "year": 2026,
+    "name": "Cookie Dough Stick",
+    "vendor": "Kora & Mila's Cookie Dough",
+    "locationIds": ["hampden-avenue"],
+    "description": "One regular cookie dough stick listed as a Bargain Bites Day special.",
+    "categoryIds": ["desserts"],
+    "tagIds": ["sweet", "food-on-a-stick"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "french-fry-corndog",
+    "year": 2026,
+    "name": "Corndog",
+    "vendor": "French Fry",
+    "locationIds": [],
+    "description": "A corndog listed as a Bargain Bites Day special at the Midway.",
+    "categoryIds": ["hot-dogs-corndogs"],
+    "tagIds": ["savory", "fried"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "funnel-cake-waffle-cone",
+    "year": 2026,
+    "name": "Waffle Cone",
+    "vendor": "Funnel Cake",
+    "locationIds": [],
+    "description": "A waffle cone listed as a Bargain Bites Day special at the Midway.",
+    "categoryIds": ["desserts"],
+    "tagIds": ["sweet"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "carnival-candy-cotton-candy",
+    "year": 2026,
+    "name": "Cotton Candy",
+    "vendor": "Carnival Candy",
+    "locationIds": [],
+    "description": "A small bag of cotton candy listed as a Bargain Bites Day special at the Midway.",
+    "categoryIds": ["candy"],
+    "tagIds": ["sweet"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
+    "id": "midway-slice-of-cheese-pizza",
+    "year": 2026,
+    "name": "Slice of Cheese Pizza",
+    "vendor": "Pizza",
+    "locationIds": [],
+    "description": "A slice of cheese pizza listed as a Bargain Bites Day special at the Midway.",
+    "categoryIds": ["pizza-italian"],
+    "tagIds": ["savory", "cheese"],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-07"
+    }
+  },
+  {
     "id": "tater-tot-heaven-tater-tot-buckets",
     "year": 2026,
     "name": "Tater Tot Buckets",
