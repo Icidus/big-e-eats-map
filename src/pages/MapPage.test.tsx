@@ -1,0 +1,130 @@
+import { cleanup, render, screen, within } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { BrowserRouter, MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
+import type { FairMapProps } from "@/features/map/FairMap";
+import type { GeolocationState } from "@/features/map/useGeolocation";
+import { MapPage } from "./MapPage";
+
+const geo = vi.hoisted((): GeolocationState => ({ status: "idle", position: null, error: null, locate: vi.fn(), stop: vi.fn() }));
+
+vi.mock("@/features/map/useGeolocation", () => ({ useGeolocation: () => geo }));
+vi.mock("@/features/map/FairMap", () => ({
+  FairMap: (props: FairMapProps) => (
+    <div data-testid="fair-map" data-destination={props.destination?.id ?? ""} data-user={props.userPosition ? "yes" : "no"} data-locations={props.locations.length}>
+      <button type="button" onClick={() => props.onSelectLocation("east-road")}>mock select east road</button>
+    </div>
+  ),
+}));
+
+afterEach(cleanup);
+beforeEach(() => {
+  geo.status = "idle";
+  geo.position = null;
+  geo.error = null;
+  vi.mocked(geo.locate).mockClear();
+});
+
+function LocationSearch() {
+  const location = useLocation();
+  return <div data-testid="location-search">{location.search}</div>;
+}
+
+function renderMap(path: string) {
+  return render(
+    <MemoryRouter initialEntries={[path]}>
+      <Routes><Route path="/map" element={<><MapPage /><LocationSearch /></>} /></Routes>
+    </MemoryRouter>,
+  );
+}
+
+describe("MapPage", () => {
+  it("renders the map and every area without a destination by default", () => {
+    renderMap("/map");
+
+    expect(screen.getByRole("heading", { name: /fair map/i })).toBeInTheDocument();
+    expect(screen.getByTestId("fair-map")).toHaveAttribute("data-destination", "");
+    expect(screen.getAllByRole("button", { name: /show .* on map/i })).toHaveLength(15);
+    expect(screen.queryByRole("region", { name: /destination/i })).not.toBeInTheDocument();
+    expect(screen.queryByText(/not yet placed/i)).not.toBeInTheDocument();
+  });
+
+  it("selects a location destination from the to parameter", () => {
+    renderMap("/map?to=food-court");
+
+    const card = screen.getByRole("region", { name: /destination/i });
+    expect(within(card).getByRole("heading", { name: "Food Court" })).toBeInTheDocument();
+    expect(within(card).getByText("Approximate")).toBeInTheDocument();
+    expect(within(card).getByText(/tap find me to see distance/i)).toBeInTheDocument();
+    expect(within(card).getByRole("link", { name: /walking directions/i })).toHaveAttribute("href", "https://www.google.com/maps/dir/?api=1&destination=42.0905,-72.616&travelmode=walking");
+    expect(screen.getByTestId("fair-map")).toHaveAttribute("data-destination", "food-court");
+  });
+
+  it("selects an item destination and names its area", () => {
+    renderMap("/map?item=calabrese-panella&to=east-road");
+
+    const card = screen.getByRole("region", { name: /destination/i });
+    expect(within(card).getByRole("heading", { name: "Panella" })).toBeInTheDocument();
+    expect(within(card).getByText("Food Court")).toBeInTheDocument();
+    expect(screen.getByTestId("fair-map")).toHaveAttribute("data-destination", "calabrese-panella");
+  });
+
+  it("ignores unknown ids", () => {
+    renderMap("/map?item=nope&to=nowhere");
+
+    expect(screen.queryByRole("region", { name: /destination/i })).not.toBeInTheDocument();
+    expect(screen.getByTestId("fair-map")).toHaveAttribute("data-destination", "");
+  });
+
+  it("describes the walk once a position is known", () => {
+    geo.status = "tracking";
+    geo.position = { lat: 42.0913, lng: -72.6185, accuracyMeters: 10 };
+    renderMap("/map?to=food-court");
+
+    expect(screen.getByRole("region", { name: /destination/i })).toHaveTextContent(/About \d+ m, (north|south|east|west)/);
+    expect(screen.getByTestId("fair-map")).toHaveAttribute("data-user", "yes");
+    expect(screen.getByRole("button", { name: /stop locating/i })).toBeInTheDocument();
+  });
+
+  it("starts geolocation only from the Find me button", async () => {
+    const user = userEvent.setup();
+    renderMap("/map");
+
+    expect(geo.locate).not.toHaveBeenCalled();
+    await user.click(screen.getByRole("button", { name: /find me/i }));
+    expect(geo.locate).toHaveBeenCalledTimes(1);
+  });
+
+  it("explains denied and unavailable states", () => {
+    geo.status = "denied";
+    renderMap("/map");
+    expect(screen.getByRole("status")).toHaveTextContent(/location access is off/i);
+
+    cleanup();
+    geo.status = "unavailable";
+    renderMap("/map");
+    expect(screen.getByRole("status")).toHaveTextContent(/can.t share your location/i);
+  });
+
+  it("clears the destination and selects areas with replacement navigation", async () => {
+    const user = userEvent.setup();
+    window.history.replaceState({}, "", "/map?to=food-court");
+    render(
+      <BrowserRouter>
+        <Routes><Route path="/map" element={<><MapPage /><LocationSearch /></>} /></Routes>
+      </BrowserRouter>,
+    );
+    const historyLength = window.history.length;
+
+    await user.click(screen.getByRole("button", { name: /clear destination/i }));
+    expect(screen.getByTestId("location-search")).toBeEmptyDOMElement();
+    expect(window.history.length).toBe(historyLength);
+
+    await user.click(screen.getByRole("button", { name: "Show East Road on map" }));
+    expect(screen.getByTestId("location-search")).toHaveTextContent("?to=east-road");
+    expect(window.history.length).toBe(historyLength);
+
+    await user.click(screen.getByRole("button", { name: "mock select east road" }));
+    expect(screen.getByTestId("location-search")).toHaveTextContent("?to=east-road");
+  });
+});

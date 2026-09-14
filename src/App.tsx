@@ -10,6 +10,7 @@ import { BrowsePage } from "./pages/BrowsePage";
 import LocationDetail from "./pages/LocationDetail";
 import NotFound from "./pages/NotFound";
 import { PlanPage } from "./pages/PlanPage";
+import { MapPage } from "./pages/MapPage";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ export function AppRoutes() {
         <Route path="/masslive-favorites" element={<Navigate replace to="/" />} />
         <Route path="/drinks" element={<Navigate replace to="/browse?categories=cocktails,mocktails,beer-cider,nonalcoholic-drinks" />} />
         <Route path="/plan" element={<PlanPage />} />
+        <Route path="/map" element={<MapPage />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="*" element={<NotFound />} />
       </Routes>
