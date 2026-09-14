@@ -1,8 +1,8 @@
-import { cleanup, render, screen } from "@testing-library/react";
+import { cleanup, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { BrowserRouter, MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
 import { afterEach, describe, expect, it } from "vitest";
-import { FilterPanel } from "@/components/discovery/FilterPanel";
+import { FilterSidebar } from "@/components/discovery/FilterPanel";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
 import { BrowsePage } from "./BrowsePage";
 
@@ -78,6 +78,19 @@ describe("BrowsePage", () => {
     expect(screen.getByTestId("location-search")).toBeEmptyDOMElement();
   });
 
+  it("renders the desktop filter sidebar beside the results, not inside the search toolbar", () => {
+    renderBrowse("/browse?collection=wildest-new-foods");
+
+    const toolbar = screen.getByRole("region", { name: "Search the food catalog" });
+    const sidebar = screen.getByRole("complementary", { name: "Filter foods" });
+    const results = screen.getByRole("region", { name: /food finder/i });
+
+    expect(toolbar).not.toContainElement(sidebar);
+    expect(sidebar).not.toContainElement(toolbar);
+    expect(sidebar).not.toContainElement(results);
+    expect(within(toolbar).getByRole("button", { name: /open filters/i })).toBeInTheDocument();
+  });
+
   it("only offers Relevance when a search query exists", () => {
     renderBrowse("/browse");
     expect(screen.queryByRole("option", { name: "Relevance" })).not.toBeInTheDocument();
@@ -143,10 +156,10 @@ describe("BrowsePage", () => {
       onStateChange: () => undefined,
       onClear: () => undefined,
     };
-    const { rerender } = render(<FilterPanel {...props} hasUnlocatedItems />);
+    const { rerender } = render(<FilterSidebar {...props} hasUnlocatedItems />);
     expect(screen.getByLabelText("Location TBD")).toBeInTheDocument();
 
-    rerender(<FilterPanel {...props} hasUnlocatedItems={false} />);
+    rerender(<FilterSidebar {...props} hasUnlocatedItems={false} />);
     expect(screen.queryByLabelText("Location TBD")).not.toBeInTheDocument();
   });
 

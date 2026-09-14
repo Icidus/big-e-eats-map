@@ -18,24 +18,29 @@ interface FilterContentsProps extends FilterPanelProps {
   mobile?: boolean;
 }
 
-export function FilterPanel(props: FilterPanelProps) {
+/** Desktop-only filter column. Sticks to the viewport and scrolls internally so its height never drives the page layout. */
+export function FilterSidebar(props: FilterPanelProps) {
   return (
-    <>
-      <aside className="hidden border border-primary/20 bg-card p-5 shadow-[4px_4px_0_hsl(var(--secondary)/0.25)] md:block" aria-label="Filter foods">
-        <FilterContents {...props} />
-      </aside>
-      <div className="md:hidden">
-        <Sheet>
-          <SheetTrigger asChild>
-            <Button type="button" variant="outline" className="min-h-11" aria-label="Open filters"><SlidersHorizontal aria-hidden="true" />Filters</Button>
-          </SheetTrigger>
-          <SheetContent side="left" className="w-[min(92vw,26rem)] overflow-y-auto bg-background p-5">
-            <SheetHeader><SheetTitle>Find your next bite</SheetTitle><SheetDescription>Choose as many field-guide markers as you like.</SheetDescription></SheetHeader>
-            <div className="mt-6"><FilterContents {...props} mobile /></div>
-          </SheetContent>
-        </Sheet>
-      </div>
-    </>
+    <aside className="hidden border border-primary/20 bg-card p-5 shadow-[4px_4px_0_hsl(var(--secondary)/0.25)] md:sticky md:top-4 md:block md:max-h-[calc(100vh-2rem)] md:overflow-y-auto" aria-label="Filter foods">
+      <FilterContents {...props} />
+    </aside>
+  );
+}
+
+/** Mobile-only filter trigger that opens the same facets in a side sheet. */
+export function FilterSheet(props: FilterPanelProps) {
+  return (
+    <div className="md:hidden">
+      <Sheet>
+        <SheetTrigger asChild>
+          <Button type="button" variant="outline" className="min-h-11" aria-label="Open filters"><SlidersHorizontal aria-hidden="true" />Filters</Button>
+        </SheetTrigger>
+        <SheetContent side="left" className="w-[min(92vw,26rem)] overflow-y-auto bg-background p-5">
+          <SheetHeader><SheetTitle>Find your next bite</SheetTitle><SheetDescription>Choose as many field-guide markers as you like.</SheetDescription></SheetHeader>
+          <div className="mt-6"><FilterContents {...props} mobile /></div>
+        </SheetContent>
+      </Sheet>
+    </div>
   );
 }
 
