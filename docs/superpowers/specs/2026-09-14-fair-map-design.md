@@ -99,7 +99,7 @@ New folder `src/features/map/`.
 - `distanceMeters(a, b)`: haversine distance.
 - `bearingDegrees(a, b)` and `compassWord(degrees)`: eight-point compass word (`north`, `northeast`, and so on).
 - `describeWalk(from, to)`: a sentence such as `About 350 m, northeast` (meters under 1 km, otherwise one decimal kilometer).
-- `walkingDirectionsUrl(to, label, platform)`: `https://maps.apple.com/?daddr=LAT,LNG&dirflg=w` when `platform` is `apple`, otherwise `https://www.google.com/maps/dir/?api=1&destination=LAT,LNG&travelmode=walking`. `detectPlatform(userAgent)` returns `apple` for iPhone, iPad, and Mac user agents.
+- `walkingDirectionsUrl(to, platform)`: `https://maps.apple.com/?daddr=LAT,LNG&dirflg=w` when `platform` is `apple`, otherwise `https://www.google.com/maps/dir/?api=1&destination=LAT,LNG&travelmode=walking`. `detectPlatform(userAgent)` returns `apple` for iPhone, iPad, and Mac user agents.
 - `resolveDestination` as described above.
 - `FAIRGROUND_BOUNDS` and `FAIRGROUND_CENTER` constants.
 
