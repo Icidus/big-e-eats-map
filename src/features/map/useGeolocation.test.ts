@@ -84,6 +84,7 @@ describe("useGeolocation", () => {
     act(() => watchPosition.mock.calls[0][0]({ coords: { latitude: 42.09, longitude: -72.62, accuracy: 30 } }));
     act(() => result.current.stop());
     expect(result.current.status).toBe("idle");
+    expect(result.current.position).toBeNull();
     expect(clearWatch).toHaveBeenCalledTimes(1);
 
     act(() => result.current.locate());

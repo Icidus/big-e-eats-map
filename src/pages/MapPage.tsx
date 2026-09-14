@@ -19,7 +19,10 @@ const orderedLocations = [...locations].sort((first, second) => first.order - se
 function destinationFromParams(params: URLSearchParams): Destination | null {
   const itemId = params.get("item");
   const item = itemId ? itemsById.get(itemId) : undefined;
-  if (item) return resolveDestination(item, locationsById);
+  if (item) {
+    const destination = resolveDestination(item, locationsById);
+    if (destination) return destination;
+  }
 
   const locationId = params.get("to");
   const location = locationId ? locationsById.get(locationId) : undefined;
@@ -74,7 +77,7 @@ export function MapPage() {
       </header>
 
       <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:grid lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start lg:gap-8 lg:px-8">
-        <div className="h-[60vh] min-h-[320px] border border-primary/25 bg-card shadow-[6px_6px_0_hsl(var(--secondary)/0.32)] lg:sticky lg:top-4 lg:h-[calc(100vh-2rem)]">
+        <div className="h-[60vh] min-h-[320px] border border-primary/25 bg-card shadow-[6px_6px_0_hsl(var(--secondary)/0.32)] lg:sticky lg:top-[calc(2.75rem+1rem)] lg:h-[calc(100vh-2.75rem-2rem)]">
           <FairMap locations={placedLocations} itemCounts={itemCounts} destination={destination} userPosition={geolocation.position} onSelectLocation={selectLocation} />
         </div>
 
@@ -85,13 +88,13 @@ export function MapPage() {
               <LocateFixed aria-hidden="true" />
               {geolocation.status === "requesting" ? "Finding you…" : geolocation.status === "tracking" ? "Stop locating" : "Find me"}
             </Button>
-            <p role="status" aria-live="polite" className="mt-3 text-sm leading-6 text-muted-foreground">{statusMessage(geolocation)}</p>
+            <p role="status" className="mt-3 text-sm leading-6 text-muted-foreground">{statusMessage(geolocation)}</p>
           </section>
 
           {destination ? (
             <section className="border-2 border-primary bg-card p-4 shadow-[4px_4px_0_hsl(var(--secondary)/0.4)]" aria-label="Destination">
               <p className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-primary">Destination</p>
-              <h2 id="map-destination-title" className="mt-1 font-serif text-2xl font-bold leading-tight">{destination.name}</h2>
+              <h2 className="mt-1 font-serif text-2xl font-bold leading-tight">{destination.name}</h2>
               {destination.areaName ? <p className="mt-1 text-sm font-semibold text-muted-foreground">{destination.areaName}</p> : null}
               {destination.coordinates.precision === "estimated" ? <p className="mt-2 inline-block border border-dashed border-primary/60 px-2 py-0.5 font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-primary">Approximate</p> : null}
               <p className="mt-3 text-sm font-semibold">{geolocation.position ? describeWalk(geolocation.position, destination.coordinates) : "Tap Find me to see distance"}</p>

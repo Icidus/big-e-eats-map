@@ -1,11 +1,13 @@
 import { ArrowLeft, MapPin, Navigation } from "lucide-react";
+import { lazy, Suspense } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ItemCard } from "@/components/discovery/ItemCard";
 import { Button } from "@/components/ui/button";
 import { catalogItems, locationsById, type FairLocation } from "@/features/catalog/catalog";
-import { FairMap } from "@/features/map/FairMap";
 import { detectPlatform, resolveDestination, walkingDirectionsUrl } from "@/features/map/geo";
 import { useFoodPlan } from "@/features/plan/FoodPlanProvider";
+
+const FairMap = lazy(() => import("@/features/map/FairMap").then((m) => ({ default: m.FairMap })));
 
 export default function LocationDetail() {
   const { id } = useParams<{ id: string }>();
@@ -78,12 +80,14 @@ export function LocationMapPanel({ location, itemCount }: { location: FairLocati
   return (
     <aside className="self-start border border-primary/25 bg-card p-5 shadow-[4px_4px_0_hsl(var(--secondary)/0.3)]" aria-label="Location map">
       <p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">Location reference</p>
-      <h2 id="location-map-title" className="mt-1 font-serif text-2xl font-bold">On the grounds</h2>
+      <h2 className="mt-1 font-serif text-2xl font-bold">On the grounds</h2>
       {destination ? (
         <>
           {destination.coordinates.precision === "estimated" ? <p className="mt-2 inline-block border border-dashed border-primary/60 px-2 py-0.5 font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-primary">Approximate</p> : null}
           <div className="mt-4 h-72 border border-border">
-            <FairMap locations={[location]} itemCounts={new Map([[location.id, itemCount]])} destination={destination} onSelectLocation={() => undefined} />
+            <Suspense fallback={<div className="flex h-full items-center justify-center text-sm text-muted-foreground">Loading map…</div>}>
+              <FairMap locations={[location]} itemCounts={new Map([[location.id, itemCount]])} destination={destination} onSelectLocation={() => undefined} />
+            </Suspense>
           </div>
           <div className="mt-4 flex flex-col gap-2">
             <Button asChild className="min-h-11">

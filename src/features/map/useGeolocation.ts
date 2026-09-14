@@ -44,6 +44,7 @@ export function useGeolocation(): GeolocationState {
   const stop = useCallback(() => {
     clearWatch();
     setStatus((current) => (current === "tracking" || current === "requesting" ? "idle" : current));
+    setPosition(null);
   }, [clearWatch]);
 
   const locate = useCallback(() => {

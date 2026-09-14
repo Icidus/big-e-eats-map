@@ -144,6 +144,12 @@ All colors MUST be HSL.
 }
 
 /* Fair map (Leaflet) */
+.fair-map {
+  position: relative;
+  isolation: isolate;
+  z-index: 0;
+}
+
 .fair-map .leaflet-container {
   height: 100%;
   width: 100%;
@@ -177,11 +183,6 @@ All colors MUST be HSL.
   border-style: dashed;
 }
 
-.fair-map-marker.is-selected {
-  background: hsl(var(--primary));
-  color: hsl(var(--primary-foreground));
-}
-
 .fair-map-marker.is-destination {
   background: hsl(var(--secondary));
   border-color: hsl(var(--primary));
@@ -194,6 +195,11 @@ All colors MUST be HSL.
   background: hsl(var(--secondary));
   color: hsl(var(--secondary-foreground));
   padding: 0 0.4rem;
+}
+
+.fair-map-marker-wrapper:focus-visible .fair-map-marker {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
 }
 
 .fair-map .leaflet-popup-content-wrapper {

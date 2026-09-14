@@ -2,6 +2,7 @@ import { cleanup, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { BrowserRouter, MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
+import { catalogItems, itemsById } from "@/features/catalog/catalog";
 import type { FairMapProps } from "@/features/map/FairMap";
 import type { GeolocationState } from "@/features/map/useGeolocation";
 import { MapPage } from "./MapPage";
@@ -74,6 +75,21 @@ describe("MapPage", () => {
 
     expect(screen.queryByRole("region", { name: /destination/i })).not.toBeInTheDocument();
     expect(screen.getByTestId("fair-map")).toHaveAttribute("data-destination", "");
+  });
+
+  it("falls through to the to param when a known item does not resolve to a destination", () => {
+    const unlocatedItemId = "test-unlocated-item";
+    itemsById.set(unlocatedItemId, { ...catalogItems[0], id: unlocatedItemId, locationIds: [] });
+
+    try {
+      renderMap(`/map?item=${unlocatedItemId}&to=east-road`);
+
+      const card = screen.getByRole("region", { name: /destination/i });
+      expect(within(card).getByRole("heading", { name: "East Road" })).toBeInTheDocument();
+      expect(screen.getByTestId("fair-map")).toHaveAttribute("data-destination", "east-road");
+    } finally {
+      itemsById.delete(unlocatedItemId);
+    }
   });
 
   it("describes the walk once a position is known", () => {

@@ -1,3 +1,4 @@
+import { lazy, Suspense } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -10,25 +11,32 @@ import { BrowsePage } from "./pages/BrowsePage";
 import LocationDetail from "./pages/LocationDetail";
 import NotFound from "./pages/NotFound";
 import { PlanPage } from "./pages/PlanPage";
-import { MapPage } from "./pages/MapPage";
+
+const MapPage = lazy(() => import("./pages/MapPage").then((m) => ({ default: m.MapPage })));
 
 const queryClient = new QueryClient();
+
+function RouteLoadingFallback() {
+  return <p className="p-8 text-center text-sm text-muted-foreground">Loading…</p>;
+}
 
 export function AppRoutes() {
   return (
     <div className="pb-[calc(4rem+env(safe-area-inset-bottom))] md:pb-0">
       <AppNav />
-      <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/browse" element={<BrowsePage />} />
-        <Route path="/location/:id" element={<LocationDetail />} />
-        <Route path="/masslive-favorites" element={<Navigate replace to="/" />} />
-        <Route path="/drinks" element={<Navigate replace to="/browse?categories=cocktails,mocktails,beer-cider,nonalcoholic-drinks" />} />
-        <Route path="/plan" element={<PlanPage />} />
-        <Route path="/map" element={<MapPage />} />
-        {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <Suspense fallback={<RouteLoadingFallback />}>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/browse" element={<BrowsePage />} />
+          <Route path="/location/:id" element={<LocationDetail />} />
+          <Route path="/masslive-favorites" element={<Navigate replace to="/" />} />
+          <Route path="/drinks" element={<Navigate replace to="/browse?categories=cocktails,mocktails,beer-cider,nonalcoholic-drinks" />} />
+          <Route path="/plan" element={<PlanPage />} />
+          <Route path="/map" element={<MapPage />} />
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Suspense>
     </div>
   );
 }

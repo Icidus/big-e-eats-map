@@ -6,6 +6,7 @@ import { Circle, CircleMarker, ImageOverlay, MapContainer, Marker, Polyline, Pop
 import type { FairLocation } from "@/features/catalog/schema";
 import { cn } from "@/lib/utils";
 import { FAIRGROUND_BOUNDS, type Destination, type LatLng } from "./geo";
+import { markerIcon } from "./markerIcon";
 import type { UserPosition } from "./useGeolocation";
 
 export interface MapOverlay {
@@ -26,21 +27,6 @@ export interface FairMapProps {
 const FAIR_BOUNDS = L.latLngBounds([FAIRGROUND_BOUNDS.south, FAIRGROUND_BOUNDS.west], [FAIRGROUND_BOUNDS.north, FAIRGROUND_BOUNDS.east]);
 const TILE_URL = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
 const TILE_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-
-function escapeHtml(value: string): string {
-  return value.replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character] ?? character);
-}
-
-function markerIcon(label: string, count: number | null, modifiers: string[]): L.DivIcon {
-  const countHtml = count === null ? "" : `<span class="fair-map-marker-count">${count}</span>`;
-  return L.divIcon({
-    className: "fair-map-marker-wrapper",
-    html: `<span class="fair-map-marker ${modifiers.join(" ")}">${escapeHtml(label)}${countHtml}</span>`,
-    iconSize: [0, 0],
-    iconAnchor: [0, 0],
-    popupAnchor: [0, -28],
-  });
-}
 
 function FitView({ destination, userPosition }: { destination?: Destination | null; userPosition?: UserPosition | null }) {
   const map = useMap();

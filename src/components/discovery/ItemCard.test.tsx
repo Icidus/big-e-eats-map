@@ -1,4 +1,4 @@
-import { cleanup, render, screen } from "@testing-library/react";
+import { cleanup, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { MemoryRouter } from "react-router-dom";
 import { afterEach, describe, expect, it, vi } from "vitest";
@@ -59,7 +59,12 @@ describe("ItemCard", () => {
     const user = userEvent.setup();
     renderCard();
 
-    await user.click(screen.getByRole("button", { name: `More about ${item.name}` }));
+    const trigger = screen.getByRole("button", { name: `More about ${item.name}` });
+    await user.click(trigger);
+
+    const detailPanel = document.getElementById(trigger.getAttribute("aria-controls")!);
+    expect(detailPanel).not.toBeNull();
+    expect(within(detailPanel!).getByLabelText("Item tags")).toBe(detailPanel!.firstElementChild);
 
     expect(screen.getByRole("link", { name: /the big e: new foods/i })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Apple" })).toBeInTheDocument();
@@ -101,6 +106,7 @@ describe("ItemCard", () => {
     });
 
     // Assert all chip and source links have min-h-11
+    expect(chipAndSourceLinks.length).toBeGreaterThan(0);
     chipAndSourceLinks.forEach((link) => {
       expect(link).toHaveClass("min-h-11");
     });

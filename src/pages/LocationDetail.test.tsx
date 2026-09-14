@@ -67,11 +67,11 @@ describe("LocationDetail", () => {
     expect(screen.getByRole("link", { name: /back to 2026 food guide/i })).toHaveAttribute("href", "/");
   });
 
-  it("shows the real map with the location selected and a directions link", () => {
+  it("shows the real map with the location selected and a directions link", async () => {
     renderLocation("/location/the-front-porch");
 
     const panel = screen.getByRole("complementary", { name: /location map/i });
-    expect(within(panel).getByTestId("fair-map")).toHaveAttribute("data-destination", "the-front-porch");
+    expect(await within(panel).findByTestId("fair-map")).toHaveAttribute("data-destination", "the-front-porch");
     expect(within(panel).getByText("Approximate")).toBeInTheDocument();
     expect(within(panel).getByRole("link", { name: /walking directions/i })).toHaveAttribute("href", expect.stringContaining("destination=42.0916,-72.619"));
     expect(within(panel).getByRole("link", { name: /open full map/i })).toHaveAttribute("href", "/map?to=the-front-porch");
