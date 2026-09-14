@@ -111,4 +111,29 @@ describe("loadCatalogData", () => {
       expect(item.description).not.toMatch(/identifies .+ as an offering from/i);
     }
   });
+
+  it("accepts fairground coordinates on locations and items", () => {
+    const coordinates = { lat: 42.0905, lng: -72.616, source: "test", precision: "estimated" as const };
+    const data = loadCatalogData({
+      items: [{ ...item, coordinates }],
+      locations: [{ ...location, coordinates: { ...coordinates, precision: "mapped" } }],
+      collections: [],
+    });
+
+    expect(data.items[0].coordinates).toEqual(coordinates);
+    expect(data.locations[0].coordinates?.precision).toBe("mapped");
+  });
+
+  it("rejects coordinates outside the fairground", () => {
+    expect(() => loadCatalogData({
+      items: [item],
+      locations: [{ ...location, coordinates: { lat: 42.2, lng: -72.616, source: "typo", precision: "mapped" } }],
+      collections: [],
+    })).toThrow(/lat/i);
+    expect(() => loadCatalogData({
+      items: [item],
+      locations: [{ ...location, coordinates: { lat: 42.0905, lng: -72.5, source: "typo", precision: "mapped" } }],
+      collections: [],
+    })).toThrow(/lng/i);
+  });
 });

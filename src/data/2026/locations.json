@@ -3,90 +3,180 @@
     "id": "new-england-avenue",
     "name": "New England Avenue",
     "description": "A fairground entry route running from Gate 9A toward the Court of Honor Stage and Coliseum.",
-    "order": 1
+    "order": 1,
+    "coordinates": {
+      "lat": 42.0916,
+      "lng": -72.6163,
+      "source": "OpenStreetMap way center, midpoint of two segments, queried 2026-09-14",
+      "precision": "mapped"
+    }
   },
   {
     "id": "the-front-porch",
     "name": "The Front Porch",
     "description": "A shaded corner near the Court of Honor Stage with seating.",
-    "order": 2
+    "order": 2,
+    "coordinates": {
+      "lat": 42.0916,
+      "lng": -72.619,
+      "source": "Estimated from location description (between the Coliseum and Brooks Building near the Court of Honor Stage); verify on site",
+      "precision": "estimated"
+    }
   },
   {
     "id": "commonwealth-avenue",
     "name": "Commonwealth Avenue",
     "description": "A main fairground thoroughfare with connections to surrounding side roads.",
-    "order": 3
+    "order": 3,
+    "coordinates": {
+      "lat": 42.0913,
+      "lng": -72.6202,
+      "source": "OpenStreetMap way center, queried 2026-09-14",
+      "precision": "mapped"
+    }
   },
   {
     "id": "food-court",
     "name": "Food Court",
     "description": "A dense fairground area with seating and shade.",
-    "order": 4
+    "order": 4,
+    "coordinates": {
+      "lat": 42.0905,
+      "lng": -72.616,
+      "source": "Estimated from location description (on East Road between the Mallary Complex and Young Building); verify on site",
+      "precision": "estimated"
+    }
   },
   {
     "id": "avenue-of-states",
     "name": "Avenue of States",
     "description": "The main road through the back of the fairground, alongside the New England state-house buildings.",
-    "order": 5
+    "order": 5,
+    "coordinates": {
+      "lat": 42.0909,
+      "lng": -72.6216,
+      "source": "OpenStreetMap way center, queried 2026-09-14",
+      "precision": "mapped"
+    }
   },
   {
     "id": "craft-common",
     "name": "Craft Common",
     "description": "A green space with trees and nearby shops.",
-    "order": 6
+    "order": 6,
+    "coordinates": {
+      "lat": 42.0918,
+      "lng": -72.6172,
+      "source": "Estimated from location description (green space south of the Better Living Center); verify on site",
+      "precision": "estimated"
+    }
   },
   {
     "id": "east-road",
     "name": "East Road",
     "description": "A connecting road passing the Mallary Complex, Midway, Food Court, and Young Building.",
-    "order": 7
+    "order": 7,
+    "coordinates": {
+      "lat": 42.0902,
+      "lng": -72.6167,
+      "source": "OpenStreetMap way center, queried 2026-09-14",
+      "precision": "mapped"
+    }
   },
   {
     "id": "west-road",
     "name": "West Road",
     "description": "A connecting road between the Midway and Coliseum that leads toward The Big E Arena.",
-    "order": 8
+    "order": 8,
+    "coordinates": {
+      "lat": 42.0901,
+      "lng": -72.6192,
+      "source": "OpenStreetMap way center, queried 2026-09-14",
+      "precision": "mapped"
+    }
   },
   {
     "id": "springfield-road",
     "name": "Springfield Road",
     "description": "A fairground road that serves as an entry route from Gate 7.",
-    "order": 9
+    "order": 9,
+    "coordinates": {
+      "lat": 42.0917,
+      "lng": -72.616,
+      "source": "OpenStreetMap way center, queried 2026-09-14",
+      "precision": "mapped"
+    }
   },
   {
     "id": "industrial-avenue",
     "name": "Industrial Avenue",
     "description": "A lively avenue between the Better Living Center and the main road.",
-    "order": 10
+    "order": 10,
+    "coordinates": {
+      "lat": 42.0931,
+      "lng": -72.6172,
+      "source": "Estimated from location description (between the Better Living Center and Memorial Avenue); verify on site",
+      "precision": "estimated"
+    }
   },
   {
     "id": "hampden-avenue",
     "name": "Hampden Avenue",
     "description": "An avenue between Gate 1 and the Court of Honor Stage plaza, near shops and animal attractions.",
-    "order": 11
+    "order": 11,
+    "coordinates": {
+      "lat": 42.0916,
+      "lng": -72.6217,
+      "source": "OpenStreetMap way center, queried 2026-09-14",
+      "precision": "mapped"
+    }
   },
   {
     "id": "young-building",
     "name": "Young Building",
     "description": "An indoor commercial building, also known as the International Building, with entrances on each side.",
-    "order": 12
+    "order": 12,
+    "coordinates": {
+      "lat": 42.0913,
+      "lng": -72.6166,
+      "source": "OpenStreetMap building center, queried 2026-09-14",
+      "precision": "mapped"
+    }
   },
   {
     "id": "better-living-center",
     "name": "Better Living Center",
     "description": "An indoor building with commercial vendors.",
-    "order": 13
+    "order": 13,
+    "coordinates": {
+      "lat": 42.0925,
+      "lng": -72.6169,
+      "source": "OpenStreetMap building center, queried 2026-09-14",
+      "precision": "mapped"
+    }
   },
   {
     "id": "new-england-center",
     "name": "New England Center",
     "description": "An indoor fairground building.",
-    "order": 14
+    "order": 14,
+    "coordinates": {
+      "lat": 42.0928,
+      "lng": -72.616,
+      "source": "Estimated from location description (indoor building east of the Better Living Center); verify on site",
+      "precision": "estimated"
+    }
   },
   {
     "id": "state-buildings",
     "name": "State Buildings",
     "description": "Replicas of the six New England state houses, each representing its state.",
-    "order": 15
+    "order": 15,
+    "coordinates": {
+      "lat": 42.0905,
+      "lng": -72.6221,
+      "source": "OpenStreetMap centroid of the six state-house buildings, queried 2026-09-14",
+      "precision": "mapped"
+    }
   }
 ]

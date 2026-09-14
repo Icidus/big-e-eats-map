@@ -10,7 +10,7 @@ import {
   type FairLocation,
 } from "./schema";
 
-export type { CatalogItem, EditorialCollection, FairLocation } from "./schema";
+export type { CatalogItem, EditorialCollection, FairCoordinates, FairLocation } from "./schema";
 
 export interface VendorOption {
   id: string;
