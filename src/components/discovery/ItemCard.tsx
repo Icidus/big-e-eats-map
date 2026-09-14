@@ -95,10 +95,10 @@ export function ItemCard({ item, locationsById, isInPlan, onAdd, onRemove }: Ite
           {item.description ? <p className="text-sm leading-6 text-foreground/80">{item.description}</p> : null}
           <div className={cn("flex flex-wrap gap-1.5", item.description && "mt-3")} aria-label="Item tags">
             {item.categoryIds.map((categoryId) => (
-              <Link key={categoryId} to={`/browse?categories=${encodeURIComponent(categoryId)}`} className="inline-flex min-h-8 items-center rounded-full border border-secondary/60 bg-secondary/10 px-2.5 text-[11px] font-semibold capitalize text-foreground hover:bg-secondary/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">{categoryLabels.get(categoryId) ?? categoryId}</Link>
+              <Link key={categoryId} to={`/browse?categories=${encodeURIComponent(categoryId)}`} className="inline-flex min-h-11 items-center rounded-full border border-secondary/60 bg-secondary/10 px-2.5 text-[11px] font-semibold capitalize text-foreground hover:bg-secondary/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">{categoryLabels.get(categoryId) ?? categoryId}</Link>
             ))}
             {item.tagIds.map((tagId) => (
-              <Link key={tagId} to={`/browse?tags=${encodeURIComponent(tagId)}`} className="inline-flex min-h-8 items-center rounded-full border border-secondary/60 bg-secondary/10 px-2.5 text-[11px] font-semibold capitalize text-foreground hover:bg-secondary/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">{titleCase(tagId)}</Link>
+              <Link key={tagId} to={`/browse?tags=${encodeURIComponent(tagId)}`} className="inline-flex min-h-11 items-center rounded-full border border-secondary/60 bg-secondary/10 px-2.5 text-[11px] font-semibold capitalize text-foreground hover:bg-secondary/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">{titleCase(tagId)}</Link>
             ))}
           </div>
           {item.dietaryClaims.length > 0 ? <p className="mt-3 text-xs leading-5 text-muted-foreground">Confirm dietary needs and preparation details with the vendor.</p> : null}

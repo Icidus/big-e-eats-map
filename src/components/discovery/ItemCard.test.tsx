@@ -83,4 +83,26 @@ describe("ItemCard", () => {
       expect(screen.queryByText(/confirm dietary needs and preparation details with the vendor/i)).not.toBeInTheDocument();
     }
   });
+
+  it("gives the expand trigger and all category/tag chip links 44px tap targets", async () => {
+    const user = userEvent.setup();
+    renderCard();
+
+    const expandTrigger = screen.getByRole("button", { name: `More about ${item.name}` });
+    expect(expandTrigger).toHaveClass("min-h-11");
+
+    await user.click(expandTrigger);
+
+    // Collect all chip and source links (filter by href pattern)
+    const allLinks = screen.getAllByRole("link");
+    const chipAndSourceLinks = allLinks.filter((link) => {
+      const href = link.getAttribute("href") || "";
+      return href.includes("?tags=") || href.includes("?categories=") || href.includes("thebige.com");
+    });
+
+    // Assert all chip and source links have min-h-11
+    chipAndSourceLinks.forEach((link) => {
+      expect(link).toHaveClass("min-h-11");
+    });
+  });
 });
