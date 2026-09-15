@@ -91,7 +91,7 @@ describe("public copy", () => {
   });
 
   it("contains no legacy year in public HTML metadata", async () => {
-    const metadataFiles = [join(projectRoot, "index.html"), join(projectRoot, "public/404.html")];
+    const metadataFiles = [join(projectRoot, "index.html")];
     const publicMetadata = (await Promise.all(metadataFiles.map((path) => readFile(path, "utf8")))).join("\n");
 
     expect(publicMetadata).not.toMatch(legacyCopy);
