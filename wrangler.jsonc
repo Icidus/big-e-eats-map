@@ -1,0 +1,12 @@
+{
+  // Cloudflare Workers static-asset hosting for the built site.
+  // Wrangler cannot auto-configure Vite 5, so this declares the deploy explicitly:
+  // serve dist/ and fall back to index.html for client-side routes (/map, /browse, ...).
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "big-e-eats",
+  "compatibility_date": "2026-08-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
