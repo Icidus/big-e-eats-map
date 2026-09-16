@@ -5,7 +5,8 @@ const requiredNewVendors = [
   "Tater Tot Heaven", "Cantina Louie", "Deep-fried Calzones", "Golden K-Dog",
   "K’s Japanese Restaurant Food Court", "McLaughlin Family Homemade Ice Cream",
   "Moose Joose Slush", "Rickey’s Jerky", "Simply Gluten Free", "Spudtastic",
-  "Sweet & Salty", "Tripp’s Farmhouse Café",
+  "Sweet & Salty", "Tripp’s Farmhouse Café", "Craic Sauce", "Delaney's Market",
+  "Iona's Kitchen", "Madhrasi",
 ];
 
 const requiredReturningVendors = [
@@ -28,6 +29,7 @@ const officialFoodSources = new Set([
   "https://www.thebige.com/p/food2/newfoods",
   "https://www.thebige.com/p/food2/bargain-bites",
   "https://www.thebige.com/p/thingstodo/avenue/maine-building",
+  "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building",
 ]);
 
 describe("2026 catalog content", () => {
@@ -36,12 +38,49 @@ describe("2026 catalog content", () => {
     for (const item of catalogData.items) {
       expect(item.year).toBe(2026);
       expect(officialFoodSources.has(item.source.url)).toBe(true);
-      expect(item.source.accessedOn).toMatch(/^2026-09-14$|^2026-09-07$|^2026-08-27$/);
+      expect(item.source.accessedOn).toMatch(/^2026-09-16$|^2026-09-14$|^2026-09-07$|^2026-08-27$/);
     }
   });
 
   it.each(requiredNewVendors)("includes new vendor %s", (vendor) => {
     expect(catalogData.items.some((item) => item.vendor === vendor)).toBe(true);
+  });
+
+  it("includes newly published Massachusetts Building food entries", () => {
+    const expectedEntries = [
+      ["cindy-drive-in-cake-shake", "Cindy's Drive-in", "Cake Shake"],
+      ["craic-sauce-hot-sauce", "Craic Sauce", "Hot Sauce"],
+      ["creme-bru-la-creme-brulee", "Crème Bru LA", "Crème Brûlée"],
+      ["delaneys-market-popover-sandwiches", "Delaney's Market", "Popover Sandwiches"],
+      ["finn-cakes-finnish-pancake", "Finn Cakes", "Finnish Pancake"],
+      ["iona-kitchen-southern-food", "Iona's Kitchen", "Southern Food"],
+      ["itskelewele31-ghanaian-inspired-food", "ItsKelewele31 LLC", "Ghanaian-inspired Food"],
+      ["janiks-pierogi-cafe-pierogi", "Janik's Pierogi Café", "Pierogi"],
+      ["joeys-deli-create-your-own-dinners", "Joey's Deli & Market", "Create-your-own Dinners"],
+      ["koffee-kup-bakery-baked-goods", "Koffee Kup Bakery", "Made-from-scratch Baked Goods"],
+      ["mackens-sliders-bbq-cowboy-slider", "Mackens Sliders", "BBQ Cowboy Slider"],
+      ["mackens-sliders-garlic-bomb-slider", "Mackens Sliders", "Garlic Bomb Slider"],
+      ["mackens-sliders-bacon-waffle-slider", "Mackens Sliders", "Bacon Waffle Slider"],
+      ["mackens-sliders-vegetarian-caprese-slider", "Mackens Sliders", "Vegetarian Caprese Slider"],
+      ["mackens-sliders-french-fries", "Mackens Sliders", "French Fries"],
+      ["madhrasi-specialty-chai", "Madhrasi", "Specialty Chai"],
+      ["main-street-deli-pilgrim-sandwich", "Main Street Deli", "Pilgrim Sandwich"],
+      ["main-street-deli-thanksgiving-bowl", "Main Street Deli", "Thanksgiving Bowl"],
+      ["maureens-sweet-shoppe-handmade-chocolates", "Maureen's Sweet Shoppe", "Handmade Chocolates"],
+      ["simply-dip-licious-dips", "Simply Dip-Licious", "Dips"],
+      ["sweet-babus-gluten-free-granola", "Sweet Babu's", "Gluten-free Granola"],
+      ["sweet-babus-maple-roasted-nuts", "Sweet Babu's", "Maple Roasted Nuts"],
+      ["the-bone-sauce-wings", "The Bone Sauce", "Wings"],
+    ];
+
+    for (const [id, vendor, name] of expectedEntries) {
+      const item = catalogData.itemsById.get(id);
+      expect(item?.vendor).toBe(vendor);
+      expect(item?.name).toBe(name);
+      expect(item?.locationIds).toEqual(["state-buildings"]);
+      expect(item?.source.url).toBe("https://www.thebige.com/p/thingstodo/avenue/massachusetts-building");
+      expect(item?.source.accessedOn).toBe("2026-09-16");
+    }
   });
 
   it("does not duplicate a vendor/item identity", () => {
@@ -91,7 +130,7 @@ describe("2026 catalog content", () => {
       ["wildest-new-foods", ["white-hut-uncrusta-double-burger", "yankee-boy-wagyu-beef-surf-n-turf-burger", "meatball-factory-sushi-corndog", "macho-taco-birria-bomb", "veggie-patch-fried-deviled-eggs"]],
       ["cocktails-and-mocktails", ["wave-caramel-apple-mocktail", "cantina-louie-frozen-margarita-mocktail", "broccoli-bar-broccarita", "calabrese-alcoholic-bellinis", "v-one-snow-globe-martini", "v-one-caramel-apple", "v-one-salted-caramel-espresso-martini", "v-one-ultra-premium-vodka-seltzer"]],
       ["desserts-worth-the-detour", ["big-e-bakery-peanut-butter-cream-puff", "tootsies-deep-fried-cheesecake", "fluffys-cookie-butter-cheesecake-donut", "ferrindino-maple-creemee-bacon-waffle", "moolicious-campfire-on-a-stick"]],
-      ["gluten-free-fair-food", ["fields-fields-wild-blueberry-crisp", "simply-gluten-free-funnel-cakes", "simply-gluten-free-fried-oreos", "simply-gluten-free-corndogs", "simply-gluten-free-chicken-tenders", "simply-gluten-free-jumbo-mozzarella-stick", "simply-gluten-free-fountain-lemonade", "tripps-hashbrown-breakfast-sandwich", "tripps-donuts", "tripps-brownies", "tripps-fried-oreos", "tripps-chicken-fingers", "tripps-grass-fed-burgers", "tripps-french-fries", "luanns-build-your-own-brownie-bar"]],
+      ["gluten-free-fair-food", ["fields-fields-wild-blueberry-crisp", "simply-gluten-free-funnel-cakes", "simply-gluten-free-fried-oreos", "simply-gluten-free-corndogs", "simply-gluten-free-chicken-tenders", "simply-gluten-free-jumbo-mozzarella-stick", "simply-gluten-free-fountain-lemonade", "tripps-hashbrown-breakfast-sandwich", "tripps-donuts", "tripps-brownies", "tripps-fried-oreos", "tripps-chicken-fingers", "tripps-grass-fed-burgers", "tripps-french-fries", "luanns-build-your-own-brownie-bar", "sweet-babus-gluten-free-granola"]],
       ["fall-flavors", ["moose-joose-fall-in-a-cup", "cinnamon-saloon-apple-cider-slush", "sam-adams-headless-pumpkin-cider", "wave-caramel-apple-mocktail", "sweet-and-salty-pumpkin-spice-dirty-soda"]],
       ["savory-food-on-a-stick", ["cantina-louie-corn-on-a-stick", "nola-hush-puppy-skewers"]],
       ["bargain-bites-day", [
