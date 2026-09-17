@@ -25,11 +25,13 @@ const requiredReturningVendors = [
 ];
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
-const officialFoodSources = new Set([
+const trustedFoodSources = new Set([
   "https://www.thebige.com/p/food2/newfoods",
   "https://www.thebige.com/p/food2/bargain-bites",
   "https://www.thebige.com/p/thingstodo/avenue/maine-building",
   "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building",
+  "https://www.wbur.org/news/2026/09/03/the-big-e-multi-state-fair-food-newsletter",
+  "https://www.pressherald.com/2026/09/08/a-foodie-festival-the-big-e-state-fair-overflows-with-maine-eats/",
 ]);
 
 describe("2026 catalog content", () => {
@@ -37,8 +39,8 @@ describe("2026 catalog content", () => {
     expect(catalogData.items.length).toBeGreaterThan(0);
     for (const item of catalogData.items) {
       expect(item.year).toBe(2026);
-      expect(officialFoodSources.has(item.source.url)).toBe(true);
-      expect(item.source.accessedOn).toMatch(/^2026-09-16$|^2026-09-14$|^2026-09-07$|^2026-08-27$/);
+      expect(trustedFoodSources.has(item.source.url)).toBe(true);
+      expect(item.source.accessedOn).toMatch(/^2026-09-17$|^2026-09-16$|^2026-09-14$|^2026-09-07$|^2026-08-27$/);
     }
   });
 
@@ -80,6 +82,29 @@ describe("2026 catalog content", () => {
       expect(item?.locationIds).toEqual(["state-buildings"]);
       expect(item?.source.url).toBe("https://www.thebige.com/p/thingstodo/avenue/massachusetts-building");
       expect(item?.source.accessedOn).toBe("2026-09-16");
+    }
+  });
+
+  it("includes food details reported by WBUR and the Portland Press Herald", () => {
+    const expectedEntries = [
+      ["paddock-the-maple-slider", "The Paddock", "The Maple"],
+      ["paddock-the-smash-slider", "The Paddock", "The Smash"],
+      ["paddock-the-ancho-slider", "The Paddock", "The Ancho"],
+      ["paddock-the-mac-slider", "The Paddock", "The Mac"],
+      ["fields-fields-blueberry-leaf-tea", "Fields Fields Blueberries", "Blueberry Leaf Tea"],
+      ["valley-view-orchard-pies-whoopie-pies", "Valley View Orchard Pies", "Whoopie Pies"],
+      ["valley-view-orchard-pies-blueberry-pie", "Valley View Orchard Pies", "Blueberry Pie"],
+      ["valley-view-orchard-pies-frozen-drinks", "Valley View Orchard Pies", "Frozen Drinks"],
+      ["hawkes-lobster-roll", "Hawke's", "Maine Lobster Roll"],
+      ["tree-of-life-maple-farm-maple-products", "Tree of Life Maple Farm", "Maple Products"],
+    ];
+
+    for (const [id, vendor, name] of expectedEntries) {
+      const item = catalogData.itemsById.get(id);
+      expect(item?.vendor).toBe(vendor);
+      expect(item?.name).toBe(name);
+      expect(item?.source.url).toMatch(/wbur\.org|pressherald\.com/);
+      expect(item?.source.accessedOn).toBe("2026-09-17");
     }
   });
 
