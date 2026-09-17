@@ -32,6 +32,7 @@ const trustedFoodSources = new Set([
   "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building",
   "https://www.wbur.org/news/2026/09/03/the-big-e-multi-state-fair-food-newsletter",
   "https://www.pressherald.com/2026/09/08/a-foodie-festival-the-big-e-state-fair-overflows-with-maine-eats/",
+  "https://www.beanrg.com/harpoonbeerhall",
 ]);
 
 describe("2026 catalog content", () => {
@@ -104,6 +105,39 @@ describe("2026 catalog content", () => {
       expect(item?.vendor).toBe(vendor);
       expect(item?.name).toBe(name);
       expect(item?.source.url).toMatch(/wbur\.org|pressherald\.com/);
+      expect(item?.source.accessedOn).toBe("2026-09-17");
+    }
+  });
+
+  it("includes the newly published Harpoon and Maine Building menu details", () => {
+    const expectedEntries = [
+      ["harpoon-the-plain-jane-loaded-pretzel-bites", "Harpoon Beer Hall", "The Plain Jane Loaded Pretzel Bites"],
+      ["harpoon-buffalo-chicken-loaded-pretzel-bites", "Harpoon Beer Hall", "Buffalo Chicken Loaded Pretzel Bites"],
+      ["harpoon-maple-bourbon-pretzel-bites", "Harpoon Beer Hall", "Maple Bourbon Pretzel Bites"],
+      ["harpoon-nacho-average-chicken-bacon-ranch-pretzel-bites", "Harpoon Beer Hall", "Nacho Average Chicken Bacon Ranch Pretzel Bites"],
+      ["harpoon-colossal-fried-shrimp-skewers", "Harpoon Beer Hall", "Colossal Fried Shrimp Skewers"],
+      ["harpoon-deli-style-smoked-corned-beef-sandwich", "Harpoon Beer Hall", "Deli Style Smoked Corned Beef Sandwich"],
+      ["harpoon-classic-smoked-corned-beef-sandwich", "Harpoon Beer Hall", "Classic Smoked Corned Beef Sandwich"],
+      ["harpoon-korean-style-smoked-corned-beef-sandwich", "Harpoon Beer Hall", "Korean Style Smoked Corned Beef Sandwich"],
+      ["tree-of-life-maple-farm-maple-syrup", "Tree of Life Maple Farm", "Maple Syrup"],
+      ["tree-of-life-maple-farm-maple-cream", "Tree of Life Maple Farm", "Maple Cream"],
+      ["tree-of-life-maple-farm-maple-candies", "Tree of Life Maple Farm", "Maple Candies"],
+      ["tree-of-life-maple-farm-maple-cotton-candy", "Tree of Life Maple Farm", "Maple Cotton Candy"],
+      ["tree-of-life-maple-farm-maple-coffee", "Tree of Life Maple Farm", "Maple Coffee"],
+      ["tree-of-life-maple-farm-maple-milkshake", "Tree of Life Maple Farm", "Maple Milkshake"],
+      ["royal-rose-wild-blueberry-beverage", "Royal Rose", "Wild Blueberry Beverage"],
+      ["bluet-sparkling-wild-blueberry-wine", "Bluet", "Sparkling Wild Blueberry Wine"],
+      ["run-amok-meadery-craft-mead", "Run Amok Meadery", "Craft Mead"],
+    ];
+
+    for (const [id, vendor, name] of expectedEntries) {
+      const item = catalogData.itemsById.get(id);
+      expect(item?.vendor).toBe(vendor);
+      expect(item?.name).toBe(name);
+      expect(item?.locationIds).toEqual(vendor === "Harpoon Beer Hall" ? ["new-england-avenue"] : ["avenue-of-states"]);
+      expect(item?.source.url).toBe(vendor === "Harpoon Beer Hall"
+        ? "https://www.beanrg.com/harpoonbeerhall"
+        : "https://www.thebige.com/p/thingstodo/avenue/maine-building");
       expect(item?.source.accessedOn).toBe("2026-09-17");
     }
   });
