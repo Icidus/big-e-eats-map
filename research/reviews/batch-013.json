@@ -1,0 +1,224 @@
+[
+  {
+    "vendorId": "valley-view-orchard-pies",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Valley View Orchard Pies\""
+    ],
+    "notes": "Read official website and Facebook profile with matching Oxford address. Current opening-day caption explicitly lists Maine Building blueberry tea, slushies, milkshakes and iced coffee. Added three missing drinks; existing Frozen Drinks covers slushies. Bakery’s general 19 whoopie flavors not imported.",
+    "accounts": [
+      {
+        "url": "https://valleyvieworchardpies.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl",
+        "evidence": "Matching Oxford bakery website/address and current own Big E opening-day menu."
+      },
+      {
+        "url": "https://www.facebook.com/ValleyViewOrchardPies/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl",
+        "evidence": "Matching Oxford bakery website/address and current own Big E opening-day menu."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Opening-day caption confirms blueberry tea, milkshakes and iced coffee in Maine Building.",
+        "url": "https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  },
+  {
+    "vendorId": "w-a-v-e-mocktail-bar",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"W.A.V.E.\" \"Big E\" mocktail"
+    ],
+    "notes": "Exact fair name search found historic V-One W.A.V.E. coverage but no separately verified current account/menu. Do not equate alcohol brand account to stand without direct evidence. Existing mocktails retained.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "wings-n-fries",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Wings-N-Fries\" \"Big E\""
+    ],
+    "notes": "Exact-name fair search found Eater’s Guide entries only and unrelated restaurants. No verified operator account or new current menu.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "boricua-bites",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Boricua Bites\" \"Big E\""
+    ],
+    "notes": "Read Springfield LLC Facebook profile: own current post explicitly invites guests to Big E and links opening-day review. Similar-name Facebook and Instagram candidates not verified. No restaurant delivery menu imported.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/p/Boricua-Bites-LLC-61571083928492/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/p/Boricua-Bites-LLC-61571083928492/",
+        "evidence": "Springfield LLC profile posts current own Big E invitation and2026 review."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "chompers",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Chompers\" \"Big E\" official"
+    ],
+    "notes": "Opened matching CT Facebook vendor. Current own post explicitly says Chicken Pot Pie Chompers are back at Big E; already cataloged. Profile lists four base flavors matching saved guide. General price not treated as fair-specific.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/TOMSCHOMPERS/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/TOMSCHOMPERS/",
+        "evidence": "Matching Canton food stand with current own Big E chicken pot pie announcement."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "delucas",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Deluca’s\" \"Big E\""
+    ],
+    "notes": "Exact name and unpunctuated social query returned unrelated restaurants/markets and historical guide, no confirmed operator.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "dr-vegetable",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Dr. Vegetable\" \"Big E\""
+    ],
+    "notes": "Official site links Facebook/Instagram. Opened Sep18 caption explicitly confirming two fair stands, food lineup, Nashville seasoning/ranch/hot sauce and Gate4/Gate9 landmarks. Added plain Fried Pickles separately from Nashville version.",
+    "accounts": [
+      {
+        "url": "https://www.drvegetableinc.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/",
+        "evidence": "Official website links profiles; September18 own fair menu and gate locations."
+      },
+      {
+        "url": "https://www.facebook.com/DrVegetableInc/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/",
+        "evidence": "Official website links profiles; September18 own fair menu and gate locations."
+      },
+      {
+        "url": "https://www.instagram.com/drvegetableinc/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/",
+        "evidence": "Official website links profiles; September18 own fair menu and gate locations."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Opening-day caption confirms plain fried pickles, Nashville version, other existing foods and gate landmarks.",
+        "url": "https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/",
+        "kind": "detail",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "vendorId": "e-b-s",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"E.B.’s\" \"Big E\""
+    ],
+    "notes": "Read official site and linked Big E section: thanks2025 and see2026, confirms operator only. Restaurant menu not imported. Official current Bargain Bites lists Brussels sprouts and toppings.",
+    "accounts": [
+      {
+        "url": "https://www.ebsrestaurant.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.ebsrestaurant.com/location#BigE",
+        "evidence": "Official restaurant website identifies its Big E stand and links Facebook."
+      },
+      {
+        "url": "https://www.facebook.com/ebsrestaurant/",
+        "verified": true,
+        "evidenceUrl": "https://www.ebsrestaurant.com/location#BigE",
+        "evidence": "Official restaurant website identifies its Big E stand and links Facebook."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "ferrindino-maple",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Ferrindino Maple\""
+    ],
+    "notes": "Read official website and linked Instagram. Sep18 own caption confirms waffle and hot dog inside Better Living Center near yellow slide. Added official fair maple cotton candy special; online syrup products excluded.",
+    "accounts": [
+      {
+        "url": "https://ferrindino.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/ferrindinomaple/p/DdbFxDPjaKs/",
+        "evidence": "Official site links both accounts; opening-day post explicitly names fair stand."
+      },
+      {
+        "url": "https://www.facebook.com/ferrindinomaple/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/ferrindinomaple/p/DdbFxDPjaKs/",
+        "evidence": "Official site links both accounts; opening-day post explicitly names fair stand."
+      },
+      {
+        "url": "https://www.instagram.com/ferrindinomaple/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/ferrindinomaple/p/DdbFxDPjaKs/",
+        "evidence": "Official site links both accounts; opening-day post explicitly names fair stand."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "fluffys-hand-cut-donuts",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Fluffy’s Hand Cut Donuts\""
+    ],
+    "notes": "Verified touring operator website and linked Instagram, excluding unrelated Spokane store. Latest fair collaboration is third-party; own recent posts concern Minnesota. Current official fair donut holes special added.",
+    "accounts": [
+      {
+        "url": "https://fluffyshandcutdonuts.com/",
+        "verified": true,
+        "evidenceUrl": "https://fluffyshandcutdonuts.com/",
+        "evidence": "Touring donut operator website links Instagram and shows current Big E collaboration."
+      },
+      {
+        "url": "https://www.instagram.com/fluffysdonuts/",
+        "verified": true,
+        "evidenceUrl": "https://fluffyshandcutdonuts.com/",
+        "evidence": "Touring donut operator website links Instagram and shows current Big E collaboration."
+      }
+    ],
+    "findings": []
+  }
+]

@@ -26,6 +26,10 @@ const requiredReturningVendors = [
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
 const trustedFoodSources = new Set([
+  "https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl",
+  "https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/",
+  "https://www.instagram.com/ferrindinomaple/p/DdbFxDPjaKs/",
+
   "https://angelasconcessions.com/menu/",
   "https://www.instagram.com/mick.express/p/DdZCTJKtwjF/",
 

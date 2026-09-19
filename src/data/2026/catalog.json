@@ -2953,7 +2953,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Fried pickles coated in Nashville hot seasoning, served with ranch dressing and Nashville hot sauce. Find the two stands near Gate 4 and down the way from Gate 9.",
+    "supportingSources": [
+      {
+        "publisher": "Dr. Vegetable",
+        "title": "Opening-day Big E menu and locations",
+        "url": "https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "dribbles-mini-pancakes",
@@ -3050,7 +3059,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Maple Creemee Bacon Waffle Find Ferrindino inside the Better Living Center near the Big Yellow Slide.",
+    "supportingSources": [
+      {
+        "publisher": "Ferrindino Maple",
+        "title": "Big E opening-day location",
+        "url": "https://www.instagram.com/ferrindinomaple/p/DdbFxDPjaKs/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "fluffys-cookie-butter-cheesecake-donut",
@@ -13912,7 +13930,7 @@
     "locationIds": [
       "better-living-center"
     ],
-    "description": "Ferrindino Maple Bacon Hot Dog listed for Ferrindino Maple in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Ferrindino Maple Bacon Hot Dog listed for Ferrindino Maple in MassLive’s 2026 Big E Eater’s Guide. Find Ferrindino inside the Better Living Center near the Big Yellow Slide.",
     "categoryIds": [
       "hot-dogs-corndogs"
     ],
@@ -13928,7 +13946,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Ferrindino Maple",
+        "title": "Big E opening-day location",
+        "url": "https://www.instagram.com/ferrindinomaple/p/DdbFxDPjaKs/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "ferrindino-maple-maple-creemee-sundae",
@@ -18553,6 +18579,182 @@
     ],
     "tagIds": [
       "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "valley-view-orchard-pies-blueberry-tea",
+    "year": 2026,
+    "name": "Blueberry Tea",
+    "vendor": "Valley View Orchard Pies",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Blueberry Tea at Valley View’s stand inside the Maine Building, confirmed in its opening-day fair post.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Valley View Orchard Pies",
+      "title": "Opening-day Maine Building menu",
+      "url": "https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "valley-view-orchard-pies-milkshakes",
+    "year": 2026,
+    "name": "Milkshakes",
+    "vendor": "Valley View Orchard Pies",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Milkshakes at Valley View’s stand inside the Maine Building, confirmed in its opening-day fair post.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Valley View Orchard Pies",
+      "title": "Opening-day Maine Building menu",
+      "url": "https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "valley-view-orchard-pies-iced-coffee",
+    "year": 2026,
+    "name": "Iced Coffee",
+    "vendor": "Valley View Orchard Pies",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Iced Coffee at Valley View’s stand inside the Maine Building, confirmed in its opening-day fair post.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Valley View Orchard Pies",
+      "title": "Opening-day Maine Building menu",
+      "url": "https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "dr-vegetable-fried-pickles",
+    "year": 2026,
+    "name": "Fried Pickles",
+    "vendor": "Dr. Vegetable",
+    "locationIds": [
+      "springfield-road",
+      "hampden-avenue"
+    ],
+    "description": "Classic fried pickles at Dr. Vegetable’s two Big E stands, near Gate 4 and down the way from Gate 9.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "pickle"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Dr. Vegetable",
+      "title": "Opening-day Big E menu and locations",
+      "url": "https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "ferrindino-maple-cotton-candy",
+    "year": 2026,
+    "name": "Maple Cotton Candy",
+    "vendor": "Ferrindino Maple",
+    "locationIds": [
+      "better-living-center"
+    ],
+    "description": "Maple cotton candy in the Better Living Center; a September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "candy"
+    ],
+    "tagIds": [
+      "sweet",
+      "maple"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "fluffys-donut-holes",
+    "year": 2026,
+    "name": "Glazed or Cinnamon-Sugar Donut Holes",
+    "vendor": "Fluffy’s Hand Cut Donuts",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Three glazed or cinnamon-sugar donut holes on New England Avenue; a September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "donuts-pastries"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "ebs-deep-fried-brussels-sprouts",
+    "year": 2026,
+    "name": "Deep Fried Brussels Sprouts",
+    "vendor": "E.B.’s",
+    "locationIds": [
+      "food-court"
+    ],
+    "description": "Deep-fried Brussels sprouts in the Food Court, with toppings including grated Parmesan, balsamic glaze, bacon bits, maple syrup or ranch; a September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory",
+      "fried"
     ],
     "dietaryClaims": [],
     "isNewFor2026": false,

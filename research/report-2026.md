@@ -1,6 +1,6 @@
 # Vendor research progress
 
-125 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+135 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -964,6 +964,20 @@ no-account-found · 2026-09-19 · 4 catalog items
 Exact-name fair search and historical Reminder operator interview identify BLC Ventures in Better Living Center. No current dedicated social account/menu established. Historical crepes not newly added.
 
 
+## W.A.V.E. Mocktail Bar
+
+no-account-found · 2026-09-19 · 4 catalog items
+
+Exact fair name search found historic V-One W.A.V.E. coverage but no separately verified current account/menu. Do not equate alcohol brand account to stand without direct evidence. Existing mocktails retained.
+
+
+## Wings-N-Fries
+
+no-account-found · 2026-09-19 · 4 catalog items
+
+Exact-name fair search found Eater’s Guide entries only and unrelated restaurants. No verified operator account or new current menu.
+
+
 ## Wisconsin Hot Cheese
 
 reviewed · 2026-09-19 · 4 catalog items
@@ -982,6 +996,14 @@ Official concessions menu explicitly identifies Big E on its route and links bot
 - Account: https://www.facebook.com/angelasinternational (verified)
 - Account: https://www.instagram.com/angelasconcessions/ (verified)
 
+## Boricua Bites
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Read Springfield LLC Facebook profile: own current post explicitly invites guests to Big E and links opening-day review. Similar-name Facebook and Instagram candidates not verified. No restaurant delivery menu imported.
+
+- Account: https://www.facebook.com/p/Boricua-Bites-LLC-61571083928492/ (verified)
+
 ## Chocolate Moonshine
 
 reviewed · 2026-09-19 · 5 catalog items
@@ -992,6 +1014,21 @@ Read official brand website and linked socials. Scanned 12 Instagram grid entrie
 - Account: https://www.instagram.com/chocolatemoonshineco/ (verified)
 - Account: https://www.facebook.com/chocolatemoonshineco/ (verified)
 - **lead / new-item**: Hand-painted Truffle Bar (Better Living Center) and Pecan Caramel Explosion (Young Building) are current September 21 specials. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## Chompers
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Opened matching CT Facebook vendor. Current own post explicitly says Chicken Pot Pie Chompers are back at Big E; already cataloged. Profile lists four base flavors matching saved guide. General price not treated as fair-specific.
+
+- Account: https://www.facebook.com/TOMSCHOMPERS/ (verified)
+
+## Deluca’s
+
+no-account-found · 2026-09-19 · 5 catalog items
+
+Exact name and unpunctuated social query returned unrelated restaurants/markets and historical guide, no confirmed operator.
+
 
 ## Poppie’s Fresh Onion Rings
 
@@ -1015,6 +1052,45 @@ Official website links Facebook and Instagram. Opened own Sep18 opening-day post
 - Account: https://www.facebook.com/SteamingTenderRestaurant/ (verified)
 - Account: https://www.instagram.com/steamingtender/ (verified)
 - **confirmed / new-item**: Opening-day post confirms Whiskey, Pumpkin, S’mores and Chocolate Banana Whiskey Bread Pudding at Craft Common. [Source](https://www.instagram.com/steamingtender/p/Ddbn0EsxBt5/) (checked 2026-09-19)
+
+## Dr. Vegetable
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Official site links Facebook/Instagram. Opened Sep18 caption explicitly confirming two fair stands, food lineup, Nashville seasoning/ranch/hot sauce and Gate4/Gate9 landmarks. Added plain Fried Pickles separately from Nashville version.
+
+- Account: https://www.drvegetableinc.com/ (verified)
+- Account: https://www.facebook.com/DrVegetableInc/ (verified)
+- Account: https://www.instagram.com/drvegetableinc/ (verified)
+- **confirmed / detail**: Opening-day caption confirms plain fried pickles, Nashville version, other existing foods and gate landmarks. [Source](https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/) (checked 2026-09-19)
+
+## E.B.’s
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Read official site and linked Big E section: thanks2025 and see2026, confirms operator only. Restaurant menu not imported. Official current Bargain Bites lists Brussels sprouts and toppings.
+
+- Account: https://www.ebsrestaurant.com/ (verified)
+- Account: https://www.facebook.com/ebsrestaurant/ (verified)
+
+## Ferrindino Maple
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Read official website and linked Instagram. Sep18 own caption confirms waffle and hot dog inside Better Living Center near yellow slide. Added official fair maple cotton candy special; online syrup products excluded.
+
+- Account: https://ferrindino.com/ (verified)
+- Account: https://www.facebook.com/ferrindinomaple/ (verified)
+- Account: https://www.instagram.com/ferrindinomaple/ (verified)
+
+## Fluffy’s Hand Cut Donuts
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Verified touring operator website and linked Instagram, excluding unrelated Spokane store. Latest fair collaboration is third-party; own recent posts concern Minnesota. Current official fair donut holes special added.
+
+- Account: https://fluffyshandcutdonuts.com/ (verified)
+- Account: https://www.instagram.com/fluffysdonuts/ (verified)
 
 ## Joey's Deli & Market
 
@@ -1053,6 +1129,16 @@ no-account-found · 2026-09-19 · 7 catalog items
 
 Imported from docs/vendor-instagram-pilot-2026-09-19.md; limited public review, not a complete archive scan. Searches did not identify a reliable account; other-fair menus are not Big E evidence.
 
+
+## Valley View Orchard Pies
+
+reviewed · 2026-09-19 · 7 catalog items
+
+Read official website and Facebook profile with matching Oxford address. Current opening-day caption explicitly lists Maine Building blueberry tea, slushies, milkshakes and iced coffee. Added three missing drinks; existing Frozen Drinks covers slushies. Bakery’s general 19 whoopie flavors not imported.
+
+- Account: https://valleyvieworchardpies.com/ (verified)
+- Account: https://www.facebook.com/ValleyViewOrchardPies/ (verified)
+- **lead / new-item**: Opening-day caption confirms blueberry tea, milkshakes and iced coffee in Maine Building. [Source](https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl) (checked 2026-09-19)
 
 ## ItsKelewele31 LLC
 

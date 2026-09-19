@@ -1,0 +1,27 @@
+{
+  "batchId": "batch-013",
+  "itemIds": [
+    "valley-view-orchard-pies-blueberry-tea",
+    "valley-view-orchard-pies-milkshakes",
+    "valley-view-orchard-pies-iced-coffee",
+    "dr-vegetable-fried-pickles",
+    "ferrindino-maple-cotton-candy",
+    "fluffys-donut-holes",
+    "ebs-deep-fried-brussels-sprouts"
+  ],
+  "updatedItemIds": [
+    "dr-vegetable-nashville-hot-pickles",
+    "ferrindino-maple-creemee-bacon-waffle",
+    "ferrindino-maple-ferrindino-maple-bacon-hot-dog"
+  ],
+  "vendorLinksAdded": [
+    "Valley View Orchard Pies",
+    "Boricua Bites",
+    "Chompers",
+    "Dr. Vegetable",
+    "E.B.’s",
+    "Ferrindino Maple",
+    "Fluffy’s Hand Cut Donuts"
+  ],
+  "notes": "Seven listings added, three descriptions enriched, seven profiles linked. Fair-specific captions and official specials only; general bakery flavors and unrelated restaurant menus excluded."
+}

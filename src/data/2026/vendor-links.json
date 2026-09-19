@@ -999,5 +999,96 @@
         "url": "https://www.facebook.com/100094585311866/"
       }
     ]
+  },
+  {
+    "name": "Valley View Orchard Pies",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://valleyvieworchardpies.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/ValleyViewOrchardPies/"
+      }
+    ]
+  },
+  {
+    "name": "Boricua Bites",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/p/Boricua-Bites-LLC-61571083928492/"
+      }
+    ]
+  },
+  {
+    "name": "Chompers",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/TOMSCHOMPERS/"
+      }
+    ]
+  },
+  {
+    "name": "Dr. Vegetable",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.drvegetableinc.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/DrVegetableInc/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/drvegetableinc/"
+      }
+    ]
+  },
+  {
+    "name": "E.B.’s",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.ebsrestaurant.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/ebsrestaurant/"
+      }
+    ]
+  },
+  {
+    "name": "Ferrindino Maple",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://ferrindino.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/ferrindinomaple/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/ferrindinomaple/"
+      }
+    ]
+  },
+  {
+    "name": "Fluffy’s Hand Cut Donuts",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://fluffyshandcutdonuts.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/fluffysdonuts/"
+      }
+    ]
   }
 ]

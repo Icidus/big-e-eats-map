@@ -4540,29 +4540,6 @@
       ]
     },
     {
-      "id": "valley-view-orchard-pies",
-      "name": "Valley View Orchard Pies",
-      "items": [
-        {
-          "id": "valley-view-orchard-pies-whoopie-pies",
-          "name": "Whoopie Pies"
-        },
-        {
-          "id": "valley-view-orchard-pies-blueberry-pie",
-          "name": "Blueberry Pie"
-        },
-        {
-          "id": "valley-view-orchard-pies-blueberry-crisp",
-          "name": "Blueberry Crisp"
-        },
-        {
-          "id": "valley-view-orchard-pies-frozen-drinks",
-          "name": "Frozen Drinks"
-        }
-      ],
-      "reviews": []
-    },
-    {
       "id": "w-a-v-e-mocktail-bar",
       "name": "W.A.V.E. Mocktail Bar",
       "items": [
@@ -4583,7 +4560,19 @@
           "name": "Mocktails"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "w-a-v-e-mocktail-bar",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"W.A.V.E.\" \"Big E\" mocktail"
+          ],
+          "notes": "Exact fair name search found historic V-One W.A.V.E. coverage but no separately verified current account/menu. Do not equate alcohol brand account to stand without direct evidence. Existing mocktails retained.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "wings-n-fries",
@@ -4606,7 +4595,19 @@
           "name": "Roasted Corn on the Cob"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "wings-n-fries",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Wings-N-Fries\" \"Big E\""
+          ],
+          "notes": "Exact-name fair search found Eater’s Guide entries only and unrelated restaurants. No verified operator account or new current menu.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "wisconsin-hot-cheese",
@@ -4733,7 +4734,26 @@
           "name": "Puerto Rican Foods"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "boricua-bites",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Boricua Bites\" \"Big E\""
+          ],
+          "notes": "Read Springfield LLC Facebook profile: own current post explicitly invites guests to Big E and links opening-day review. Similar-name Facebook and Instagram candidates not verified. No restaurant delivery menu imported.",
+          "accounts": [
+            {
+              "url": "https://www.facebook.com/p/Boricua-Bites-LLC-61571083928492/",
+              "verified": true,
+              "evidenceUrl": "https://www.facebook.com/p/Boricua-Bites-LLC-61571083928492/",
+              "evidence": "Springfield LLC profile posts current own Big E invitation and2026 review."
+            }
+          ],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "chocolate-moonshine",
@@ -4828,7 +4848,26 @@
           "name": "Vegetarian Potato & Corn Croquette"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "chompers",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Chompers\" \"Big E\" official"
+          ],
+          "notes": "Opened matching CT Facebook vendor. Current own post explicitly says Chicken Pot Pie Chompers are back at Big E; already cataloged. Profile lists four base flavors matching saved guide. General price not treated as fair-specific.",
+          "accounts": [
+            {
+              "url": "https://www.facebook.com/TOMSCHOMPERS/",
+              "verified": true,
+              "evidenceUrl": "https://www.facebook.com/TOMSCHOMPERS/",
+              "evidence": "Matching Canton food stand with current own Big E chicken pot pie announcement."
+            }
+          ],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "delucas",
@@ -4855,115 +4894,19 @@
           "name": "Deep-Fried Ice Cream Sandwich"
         }
       ],
-      "reviews": []
-    },
-    {
-      "id": "dr-vegetable",
-      "name": "Dr. Vegetable",
-      "items": [
+      "reviews": [
         {
-          "id": "dr-vegetable-nashville-hot-pickles",
-          "name": "Nashville Hot Pickles"
-        },
-        {
-          "id": "dr-vegetable-corn-dogs",
-          "name": "Corn Dogs"
-        },
-        {
-          "id": "dr-vegetable-fried-veggies",
-          "name": "Fried Veggies"
-        },
-        {
-          "id": "dr-vegetable-onion-rings",
-          "name": "Onion Rings"
-        },
-        {
-          "id": "dr-vegetable-mozzarella-sticks",
-          "name": "Mozzarella Sticks"
+          "vendorId": "delucas",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Deluca’s\" \"Big E\""
+          ],
+          "notes": "Exact name and unpunctuated social query returned unrelated restaurants/markets and historical guide, no confirmed operator.",
+          "accounts": [],
+          "findings": []
         }
-      ],
-      "reviews": []
-    },
-    {
-      "id": "e-b-s",
-      "name": "E.B.’s",
-      "items": [
-        {
-          "id": "ebs-fried-turkey-dinner",
-          "name": "Everything-but-the-football-game Fried Turkey Dinner"
-        },
-        {
-          "id": "eb-s-food-for-fun-fried-shepherd-s-pie",
-          "name": "Fried Shepherd’s Pie"
-        },
-        {
-          "id": "eb-s-food-for-fun-fried-mac-and-cheese",
-          "name": "Fried Mac & Cheese"
-        },
-        {
-          "id": "eb-s-food-for-fun-fried-thanksgiving-dinner",
-          "name": "Fried Thanksgiving Dinner"
-        },
-        {
-          "id": "e-b-s-fried-bacon-mac-and-cheese",
-          "name": "Fried Bacon Mac & Cheese"
-        }
-      ],
-      "reviews": []
-    },
-    {
-      "id": "ferrindino-maple",
-      "name": "Ferrindino Maple",
-      "items": [
-        {
-          "id": "ferrindino-maple-creemee-bacon-waffle",
-          "name": "Maple Creemee Bacon Waffle"
-        },
-        {
-          "id": "ferrindino-maple-ferrindino-maple-bacon-hot-dog",
-          "name": "Ferrindino Maple Bacon Hot Dog"
-        },
-        {
-          "id": "ferrindino-maple-maple-creemee-sundae",
-          "name": "Maple Creemee Sundae"
-        },
-        {
-          "id": "ferrindino-maple-maple-creemee-latte",
-          "name": "Maple Creemee Latte"
-        },
-        {
-          "id": "ferrindino-maple-maple-cannoli",
-          "name": "Maple Cannoli"
-        }
-      ],
-      "reviews": []
-    },
-    {
-      "id": "fluffys-hand-cut-donuts",
-      "name": "Fluffy’s Hand Cut Donuts",
-      "items": [
-        {
-          "id": "fluffys-cookie-butter-cheesecake-donut",
-          "name": "Cookie Butter Cheesecake Donut"
-        },
-        {
-          "id": "fluffys-samoa-doughnut",
-          "name": "Samoa Doughnut"
-        },
-        {
-          "id": "fluffy-s-hand-cut-donuts-giant-donuts",
-          "name": "Giant Donuts"
-        },
-        {
-          "id": "fluffy-s-hand-cut-donuts-donut-sundaes",
-          "name": "Donut Sundaes"
-        },
-        {
-          "id": "fluffys-hand-cut-donuts-iced-coffee-donut-float",
-          "name": "Iced Coffee Donut Float"
-        }
-      ],
-      "reviews": []
+      ]
     },
     {
       "id": "kora-mila-s-cookie-dough",
@@ -5642,6 +5585,253 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "id": "dr-vegetable",
+      "name": "Dr. Vegetable",
+      "items": [
+        {
+          "id": "dr-vegetable-nashville-hot-pickles",
+          "name": "Nashville Hot Pickles"
+        },
+        {
+          "id": "dr-vegetable-corn-dogs",
+          "name": "Corn Dogs"
+        },
+        {
+          "id": "dr-vegetable-fried-veggies",
+          "name": "Fried Veggies"
+        },
+        {
+          "id": "dr-vegetable-onion-rings",
+          "name": "Onion Rings"
+        },
+        {
+          "id": "dr-vegetable-mozzarella-sticks",
+          "name": "Mozzarella Sticks"
+        },
+        {
+          "id": "dr-vegetable-fried-pickles",
+          "name": "Fried Pickles"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "dr-vegetable",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Dr. Vegetable\" \"Big E\""
+          ],
+          "notes": "Official site links Facebook/Instagram. Opened Sep18 caption explicitly confirming two fair stands, food lineup, Nashville seasoning/ranch/hot sauce and Gate4/Gate9 landmarks. Added plain Fried Pickles separately from Nashville version.",
+          "accounts": [
+            {
+              "url": "https://www.drvegetableinc.com/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/",
+              "evidence": "Official website links profiles; September18 own fair menu and gate locations."
+            },
+            {
+              "url": "https://www.facebook.com/DrVegetableInc/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/",
+              "evidence": "Official website links profiles; September18 own fair menu and gate locations."
+            },
+            {
+              "url": "https://www.instagram.com/drvegetableinc/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/",
+              "evidence": "Official website links profiles; September18 own fair menu and gate locations."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Opening-day caption confirms plain fried pickles, Nashville version, other existing foods and gate landmarks.",
+              "url": "https://www.instagram.com/drvegetableinc/p/Ddbre_plNBB/",
+              "kind": "detail",
+              "confidence": "confirmed",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "publishedOn": "2026-09-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e-b-s",
+      "name": "E.B.’s",
+      "items": [
+        {
+          "id": "ebs-fried-turkey-dinner",
+          "name": "Everything-but-the-football-game Fried Turkey Dinner"
+        },
+        {
+          "id": "eb-s-food-for-fun-fried-shepherd-s-pie",
+          "name": "Fried Shepherd’s Pie"
+        },
+        {
+          "id": "eb-s-food-for-fun-fried-mac-and-cheese",
+          "name": "Fried Mac & Cheese"
+        },
+        {
+          "id": "eb-s-food-for-fun-fried-thanksgiving-dinner",
+          "name": "Fried Thanksgiving Dinner"
+        },
+        {
+          "id": "e-b-s-fried-bacon-mac-and-cheese",
+          "name": "Fried Bacon Mac & Cheese"
+        },
+        {
+          "id": "ebs-deep-fried-brussels-sprouts",
+          "name": "Deep Fried Brussels Sprouts"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "e-b-s",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"E.B.’s\" \"Big E\""
+          ],
+          "notes": "Read official site and linked Big E section: thanks2025 and see2026, confirms operator only. Restaurant menu not imported. Official current Bargain Bites lists Brussels sprouts and toppings.",
+          "accounts": [
+            {
+              "url": "https://www.ebsrestaurant.com/",
+              "verified": true,
+              "evidenceUrl": "https://www.ebsrestaurant.com/location#BigE",
+              "evidence": "Official restaurant website identifies its Big E stand and links Facebook."
+            },
+            {
+              "url": "https://www.facebook.com/ebsrestaurant/",
+              "verified": true,
+              "evidenceUrl": "https://www.ebsrestaurant.com/location#BigE",
+              "evidence": "Official restaurant website identifies its Big E stand and links Facebook."
+            }
+          ],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "ferrindino-maple",
+      "name": "Ferrindino Maple",
+      "items": [
+        {
+          "id": "ferrindino-maple-creemee-bacon-waffle",
+          "name": "Maple Creemee Bacon Waffle"
+        },
+        {
+          "id": "ferrindino-maple-ferrindino-maple-bacon-hot-dog",
+          "name": "Ferrindino Maple Bacon Hot Dog"
+        },
+        {
+          "id": "ferrindino-maple-maple-creemee-sundae",
+          "name": "Maple Creemee Sundae"
+        },
+        {
+          "id": "ferrindino-maple-maple-creemee-latte",
+          "name": "Maple Creemee Latte"
+        },
+        {
+          "id": "ferrindino-maple-maple-cannoli",
+          "name": "Maple Cannoli"
+        },
+        {
+          "id": "ferrindino-maple-cotton-candy",
+          "name": "Maple Cotton Candy"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "ferrindino-maple",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Ferrindino Maple\""
+          ],
+          "notes": "Read official website and linked Instagram. Sep18 own caption confirms waffle and hot dog inside Better Living Center near yellow slide. Added official fair maple cotton candy special; online syrup products excluded.",
+          "accounts": [
+            {
+              "url": "https://ferrindino.com/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/ferrindinomaple/p/DdbFxDPjaKs/",
+              "evidence": "Official site links both accounts; opening-day post explicitly names fair stand."
+            },
+            {
+              "url": "https://www.facebook.com/ferrindinomaple/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/ferrindinomaple/p/DdbFxDPjaKs/",
+              "evidence": "Official site links both accounts; opening-day post explicitly names fair stand."
+            },
+            {
+              "url": "https://www.instagram.com/ferrindinomaple/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/ferrindinomaple/p/DdbFxDPjaKs/",
+              "evidence": "Official site links both accounts; opening-day post explicitly names fair stand."
+            }
+          ],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "fluffys-hand-cut-donuts",
+      "name": "Fluffy’s Hand Cut Donuts",
+      "items": [
+        {
+          "id": "fluffys-cookie-butter-cheesecake-donut",
+          "name": "Cookie Butter Cheesecake Donut"
+        },
+        {
+          "id": "fluffys-samoa-doughnut",
+          "name": "Samoa Doughnut"
+        },
+        {
+          "id": "fluffy-s-hand-cut-donuts-giant-donuts",
+          "name": "Giant Donuts"
+        },
+        {
+          "id": "fluffy-s-hand-cut-donuts-donut-sundaes",
+          "name": "Donut Sundaes"
+        },
+        {
+          "id": "fluffys-hand-cut-donuts-iced-coffee-donut-float",
+          "name": "Iced Coffee Donut Float"
+        },
+        {
+          "id": "fluffys-donut-holes",
+          "name": "Glazed or Cinnamon-Sugar Donut Holes"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "fluffys-hand-cut-donuts",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Fluffy’s Hand Cut Donuts\""
+          ],
+          "notes": "Verified touring operator website and linked Instagram, excluding unrelated Spokane store. Latest fair collaboration is third-party; own recent posts concern Minnesota. Current official fair donut holes special added.",
+          "accounts": [
+            {
+              "url": "https://fluffyshandcutdonuts.com/",
+              "verified": true,
+              "evidenceUrl": "https://fluffyshandcutdonuts.com/",
+              "evidence": "Touring donut operator website links Instagram and shows current Big E collaboration."
+            },
+            {
+              "url": "https://www.instagram.com/fluffysdonuts/",
+              "verified": true,
+              "evidenceUrl": "https://fluffyshandcutdonuts.com/",
+              "evidence": "Touring donut operator website links Instagram and shows current Big E collaboration."
+            }
+          ],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "jims-deep-fried-taco",
@@ -6429,6 +6619,76 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "id": "valley-view-orchard-pies",
+      "name": "Valley View Orchard Pies",
+      "items": [
+        {
+          "id": "valley-view-orchard-pies-whoopie-pies",
+          "name": "Whoopie Pies"
+        },
+        {
+          "id": "valley-view-orchard-pies-blueberry-pie",
+          "name": "Blueberry Pie"
+        },
+        {
+          "id": "valley-view-orchard-pies-blueberry-crisp",
+          "name": "Blueberry Crisp"
+        },
+        {
+          "id": "valley-view-orchard-pies-frozen-drinks",
+          "name": "Frozen Drinks"
+        },
+        {
+          "id": "valley-view-orchard-pies-blueberry-tea",
+          "name": "Blueberry Tea"
+        },
+        {
+          "id": "valley-view-orchard-pies-milkshakes",
+          "name": "Milkshakes"
+        },
+        {
+          "id": "valley-view-orchard-pies-iced-coffee",
+          "name": "Iced Coffee"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "valley-view-orchard-pies",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Valley View Orchard Pies\""
+          ],
+          "notes": "Read official website and Facebook profile with matching Oxford address. Current opening-day caption explicitly lists Maine Building blueberry tea, slushies, milkshakes and iced coffee. Added three missing drinks; existing Frozen Drinks covers slushies. Bakery’s general 19 whoopie flavors not imported.",
+          "accounts": [
+            {
+              "url": "https://valleyvieworchardpies.com/",
+              "verified": true,
+              "evidenceUrl": "https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl",
+              "evidence": "Matching Oxford bakery website/address and current own Big E opening-day menu."
+            },
+            {
+              "url": "https://www.facebook.com/ValleyViewOrchardPies/",
+              "verified": true,
+              "evidenceUrl": "https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl",
+              "evidence": "Matching Oxford bakery website/address and current own Big E opening-day menu."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Opening-day caption confirms blueberry tea, milkshakes and iced coffee in Maine Building.",
+              "url": "https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl",
+              "kind": "new-item",
+              "confidence": "lead",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "west-springfield-lions-club",
@@ -7846,6 +8106,34 @@
         "e-b-s",
         "ferrindino-maple",
         "fluffys-hand-cut-donuts"
+      ],
+      "completedIds": [
+        "valley-view-orchard-pies",
+        "w-a-v-e-mocktail-bar",
+        "wings-n-fries",
+        "boricua-bites",
+        "chompers",
+        "delucas",
+        "dr-vegetable",
+        "e-b-s",
+        "ferrindino-maple",
+        "fluffys-hand-cut-donuts"
+      ]
+    },
+    {
+      "id": "batch-014",
+      "createdOn": "2026-09-19",
+      "vendorIds": [
+        "kora-mila-s-cookie-dough",
+        "macho-taco",
+        "mackens-sliders",
+        "marions-fried-dough",
+        "nola-cajun-kitchen-raw-bar",
+        "omar-gourmet-coffee",
+        "soulfully",
+        "sugar-shakers",
+        "the-donut-family",
+        "the-hub"
       ],
       "completedIds": []
     }
