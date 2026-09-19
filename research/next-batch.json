@@ -1,33 +1,37 @@
 {
-  "batchId": "batch-006",
+  "batchId": "batch-007",
   "vendors": [
     {
-      "vendorId": "the-spirited-christmas-bar",
-      "name": "The Spirited Christmas Bar",
+      "vendorId": "millies-pierogi",
+      "name": "Millie’s Pierogi",
       "catalogItems": [
         {
-          "id": "the-spirited-christmas-bar-holiday-themed-cocktails",
-          "name": "Holiday-themed Cocktails"
+          "id": "millie-s-pierogi-millie-s-masterpiece",
+          "name": "Millie’s Masterpiece"
+        },
+        {
+          "id": "millie-s-pierogi-pierogi",
+          "name": "Pierogi"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"The Spirited Christmas Bar\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22The+Spirited+Christmas+Bar%22+%22Big+E%22+2026"
+          "query": "\"Millie’s Pierogi\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Millie%E2%80%99s+Pierogi%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"The Spirited Christmas Bar\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22The+Spirited+Christmas+Bar%22+Instagram+Facebook+official"
+          "query": "\"Millie’s Pierogi\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Millie%E2%80%99s+Pierogi%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "the-spirited-christmas-bar",
+        "vendorId": "millies-pierogi",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"The Spirited Christmas Bar\" \"Big E\" 2026",
-          "\"The Spirited Christmas Bar\" Instagram Facebook official"
+          "\"Millie’s Pierogi\" \"Big E\" 2026",
+          "\"Millie’s Pierogi\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -35,32 +39,36 @@
       }
     },
     {
-      "vendorId": "valley-malt-beer-garden",
-      "name": "Valley Malt Beer Garden",
+      "vendorId": "new-england-ciders",
+      "name": "New England Ciders",
       "catalogItems": [
         {
-          "id": "valley-malt-beer-garden-craft-beer",
-          "name": "Craft Beer"
+          "id": "new-england-ciders-hard-cider",
+          "name": "Hard Cider"
+        },
+        {
+          "id": "new-england-ciders-big-e-cream-puff-cider",
+          "name": "Big E Cream Puff Cider"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Valley Malt Beer Garden\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Valley+Malt+Beer+Garden%22+%22Big+E%22+2026"
+          "query": "\"New England Ciders\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22New+England+Ciders%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Valley Malt Beer Garden\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Valley+Malt+Beer+Garden%22+Instagram+Facebook+official"
+          "query": "\"New England Ciders\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22New+England+Ciders%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "valley-malt-beer-garden",
+        "vendorId": "new-england-ciders",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Valley Malt Beer Garden\" \"Big E\" 2026",
-          "\"Valley Malt Beer Garden\" Instagram Facebook official"
+          "\"New England Ciders\" \"Big E\" 2026",
+          "\"New England Ciders\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -68,32 +76,36 @@
       }
     },
     {
-      "vendorId": "wrights-dairy-farm",
-      "name": "Wright’s Dairy Farm",
+      "vendorId": "pickle-barrel",
+      "name": "Pickle Barrel",
       "catalogItems": [
         {
-          "id": "wright-s-dairy-farm-cookie-ice-cream-sandwiches",
-          "name": "Cookie Ice Cream Sandwiches"
+          "id": "pickle-barrel-pickles",
+          "name": "Pickles"
+        },
+        {
+          "id": "pickle-barrel-apple-cider",
+          "name": "Apple Cider"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Wright’s Dairy Farm\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Wright%E2%80%99s+Dairy+Farm%22+%22Big+E%22+2026"
+          "query": "\"Pickle Barrel\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Pickle+Barrel%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Wright’s Dairy Farm\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Wright%E2%80%99s+Dairy+Farm%22+Instagram+Facebook+official"
+          "query": "\"Pickle Barrel\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Pickle+Barrel%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "wrights-dairy-farm",
+        "vendorId": "pickle-barrel",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Wright’s Dairy Farm\" \"Big E\" 2026",
-          "\"Wright’s Dairy Farm\" Instagram Facebook official"
+          "\"Pickle Barrel\" \"Big E\" 2026",
+          "\"Pickle Barrel\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -101,32 +113,36 @@
       }
     },
     {
-      "vendorId": "zacks-mac-attack",
-      "name": "Zack’s Mac Attack",
+      "vendorId": "pickle-barrel-sirloin-tips",
+      "name": "Pickle Barrel Sirloin Tips",
       "catalogItems": [
         {
-          "id": "zack-s-mac-attack-mac-and-cheese",
-          "name": "Mac & Cheese"
+          "id": "pickle-barrel-sirloin-tips-sirloin-tips",
+          "name": "Sirloin Tips"
+        },
+        {
+          "id": "pickle-barrel-sirloin-tips-sirloin-pita",
+          "name": "Sirloin Pita"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Zack’s Mac Attack\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Zack%E2%80%99s+Mac+Attack%22+%22Big+E%22+2026"
+          "query": "\"Pickle Barrel Sirloin Tips\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Pickle+Barrel+Sirloin+Tips%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Zack’s Mac Attack\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Zack%E2%80%99s+Mac+Attack%22+Instagram+Facebook+official"
+          "query": "\"Pickle Barrel Sirloin Tips\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Pickle+Barrel+Sirloin+Tips%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "zacks-mac-attack",
+        "vendorId": "pickle-barrel-sirloin-tips",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Zack’s Mac Attack\" \"Big E\" 2026",
-          "\"Zack’s Mac Attack\" Instagram Facebook official"
+          "\"Pickle Barrel Sirloin Tips\" \"Big E\" 2026",
+          "\"Pickle Barrel Sirloin Tips\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -134,36 +150,36 @@
       }
     },
     {
-      "vendorId": "connecticut-building",
-      "name": "Connecticut Building",
+      "vendorId": "pioneer-valley-poppers",
+      "name": "Pioneer Valley Poppers",
       "catalogItems": [
         {
-          "id": "connecticut-building-baked-potatoes",
-          "name": "Baked Potatoes"
+          "id": "pioneer-valley-poppers-kettle-corn",
+          "name": "Kettle Corn"
         },
         {
-          "id": "connecticut-building-connecticut-beers",
-          "name": "Connecticut Beers"
+          "id": "pioneer-valley-poppers-lemonade",
+          "name": "Lemonade"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Connecticut Building\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Connecticut+Building%22+%22Big+E%22+2026"
+          "query": "\"Pioneer Valley Poppers\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Pioneer+Valley+Poppers%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Connecticut Building\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Connecticut+Building%22+Instagram+Facebook+official"
+          "query": "\"Pioneer Valley Poppers\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Pioneer+Valley+Poppers%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "connecticut-building",
+        "vendorId": "pioneer-valley-poppers",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Connecticut Building\" \"Big E\" 2026",
-          "\"Connecticut Building\" Instagram Facebook official"
+          "\"Pioneer Valley Poppers\" \"Big E\" 2026",
+          "\"Pioneer Valley Poppers\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -171,36 +187,36 @@
       }
     },
     {
-      "vendorId": "crazy-boba",
-      "name": "Crazy Boba",
+      "vendorId": "poppies-fresh-onion-rings",
+      "name": "Poppie’s Fresh Onion Rings",
       "catalogItems": [
         {
-          "id": "crazy-boba-bubble-tea",
-          "name": "Bubble Tea"
+          "id": "poppies-green-tea-refresher",
+          "name": "Green Tea Refresher"
         },
         {
-          "id": "crazy-boba-candied-strawberries-on-a-stick",
-          "name": "Candied Strawberries on a Stick"
+          "id": "poppies-lemonade-refresher",
+          "name": "Lemonade Refresher"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Crazy Boba\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Crazy+Boba%22+%22Big+E%22+2026"
+          "query": "\"Poppie’s Fresh Onion Rings\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Poppie%E2%80%99s+Fresh+Onion+Rings%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Crazy Boba\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Crazy+Boba%22+Instagram+Facebook+official"
+          "query": "\"Poppie’s Fresh Onion Rings\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Poppie%E2%80%99s+Fresh+Onion+Rings%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "crazy-boba",
+        "vendorId": "poppies-fresh-onion-rings",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Crazy Boba\" \"Big E\" 2026",
-          "\"Crazy Boba\" Instagram Facebook official"
+          "\"Poppie’s Fresh Onion Rings\" \"Big E\" 2026",
+          "\"Poppie’s Fresh Onion Rings\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -208,36 +224,36 @@
       }
     },
     {
-      "vendorId": "dingle-distillery",
-      "name": "Dingle Distillery",
+      "vendorId": "qp-burger-food-truck",
+      "name": "QP Burger Food Truck",
       "catalogItems": [
         {
-          "id": "dingle-distillery-whiskey",
-          "name": "Whiskey"
+          "id": "qp-burger-food-truck-burger",
+          "name": "Burger"
         },
         {
-          "id": "dingle-distillery-cocktails",
-          "name": "Cocktails"
+          "id": "qp-burger-food-truck-hot-dog",
+          "name": "Hot Dog"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Dingle Distillery\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Dingle+Distillery%22+%22Big+E%22+2026"
+          "query": "\"QP Burger Food Truck\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22QP+Burger+Food+Truck%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Dingle Distillery\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Dingle+Distillery%22+Instagram+Facebook+official"
+          "query": "\"QP Burger Food Truck\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22QP+Burger+Food+Truck%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "dingle-distillery",
+        "vendorId": "qp-burger-food-truck",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Dingle Distillery\" \"Big E\" 2026",
-          "\"Dingle Distillery\" Instagram Facebook official"
+          "\"QP Burger Food Truck\" \"Big E\" 2026",
+          "\"QP Burger Food Truck\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -245,36 +261,36 @@
       }
     },
     {
-      "vendorId": "fields-fields-blueberries",
-      "name": "Fields Fields Blueberries",
+      "vendorId": "rhode-island-building",
+      "name": "Rhode Island Building",
       "catalogItems": [
         {
-          "id": "fields-fields-wild-blueberry-crisp",
-          "name": "Wild Blueberry Crisp"
+          "id": "rhode-island-building-quahogs",
+          "name": "Quahogs"
         },
         {
-          "id": "fields-fields-blueberry-leaf-tea",
-          "name": "Blueberry Leaf Tea"
+          "id": "rhode-island-building-chowder-in-a-bread-bowl",
+          "name": "Chowder in a Bread Bowl"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Fields Fields Blueberries\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Fields+Fields+Blueberries%22+%22Big+E%22+2026"
+          "query": "\"Rhode Island Building\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Rhode+Island+Building%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Fields Fields Blueberries\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Fields+Fields+Blueberries%22+Instagram+Facebook+official"
+          "query": "\"Rhode Island Building\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Rhode+Island+Building%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "fields-fields-blueberries",
+        "vendorId": "rhode-island-building",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Fields Fields Blueberries\" \"Big E\" 2026",
-          "\"Fields Fields Blueberries\" Instagram Facebook official"
+          "\"Rhode Island Building\" \"Big E\" 2026",
+          "\"Rhode Island Building\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -282,36 +298,36 @@
       }
     },
     {
-      "vendorId": "main-street-deli",
-      "name": "Main Street Deli",
+      "vendorId": "sangria-shack",
+      "name": "Sangria Shack",
       "catalogItems": [
         {
-          "id": "main-street-deli-pilgrim-sandwich",
-          "name": "Pilgrim Sandwich"
+          "id": "sangria-shack-sangria-buckets",
+          "name": "Sangria Buckets"
         },
         {
-          "id": "main-street-deli-thanksgiving-bowl",
-          "name": "Thanksgiving Bowl"
+          "id": "sangria-shack-sun-cruiser-buckets",
+          "name": "Sun Cruiser Buckets"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Main Street Deli\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Main+Street+Deli%22+%22Big+E%22+2026"
+          "query": "\"Sangria Shack\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Sangria+Shack%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Main Street Deli\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Main+Street+Deli%22+Instagram+Facebook+official"
+          "query": "\"Sangria Shack\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Sangria+Shack%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "main-street-deli",
+        "vendorId": "sangria-shack",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Main Street Deli\" \"Big E\" 2026",
-          "\"Main Street Deli\" Instagram Facebook official"
+          "\"Sangria Shack\" \"Big E\" 2026",
+          "\"Sangria Shack\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -319,36 +335,36 @@
       }
     },
     {
-      "vendorId": "maine-aquaculture-association",
-      "name": "Maine Aquaculture Association",
+      "vendorId": "storrowton-tavern-carriage-house",
+      "name": "Storrowton Tavern & Carriage House",
       "catalogItems": [
         {
-          "id": "maine-aquaculture-smoked-salmon-on-a-stick",
-          "name": "Smoked Salmon on a Stick"
+          "id": "storrowton-tavern-and-carriage-house-ice-cream-cake-ball",
+          "name": "Ice Cream Cake Ball"
         },
         {
-          "id": "maine-aquaculture-captn-elis-root-beer",
-          "name": "Capt’n Eli’s Root Beer"
+          "id": "storrowton-tavern-and-carriage-house-dessert-ball",
+          "name": "Dessert Ball"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Maine Aquaculture Association\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Maine+Aquaculture+Association%22+%22Big+E%22+2026"
+          "query": "\"Storrowton Tavern & Carriage House\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Storrowton+Tavern+%26+Carriage+House%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Maine Aquaculture Association\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Maine+Aquaculture+Association%22+Instagram+Facebook+official"
+          "query": "\"Storrowton Tavern & Carriage House\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Storrowton+Tavern+%26+Carriage+House%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "maine-aquaculture-association",
+        "vendorId": "storrowton-tavern-carriage-house",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Maine Aquaculture Association\" \"Big E\" 2026",
-          "\"Maine Aquaculture Association\" Instagram Facebook official"
+          "\"Storrowton Tavern & Carriage House\" \"Big E\" 2026",
+          "\"Storrowton Tavern & Carriage House\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],

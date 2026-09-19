@@ -1,0 +1,31 @@
+{
+  "batchId": "batch-006",
+  "itemIds": [
+    "main-street-deli-maple-bacon-mac-cheese",
+    "valley-malt-beer-garden-timberyard-honey-blueberry-ale",
+    "connecticut-building-connecticut-dog"
+  ],
+  "updatedItemIds": [
+    "main-street-deli-pilgrim-sandwich",
+    "main-street-deli-thanksgiving-bowl",
+    "valley-malt-beer-garden-craft-beer",
+    "connecticut-building-baked-potatoes",
+    "connecticut-building-connecticut-beers",
+    "fields-fields-wild-blueberry-crisp",
+    "fields-fields-blueberry-leaf-tea",
+    "the-spirited-christmas-bar-holiday-themed-cocktails",
+    "v-one-snow-globe-martini"
+  ],
+  "vendorLinksAdded": [
+    "The Spirited Christmas Bar",
+    "Valley Malt Beer Garden",
+    "Wright’s Dairy Farm",
+    "Connecticut Building",
+    "Crazy Boba",
+    "Dingle Distillery",
+    "Fields Fields Blueberries",
+    "Main Street Deli",
+    "Maine Aquaculture Association"
+  ],
+  "notes": "Three sourced listings added; nine descriptions enriched; nine profiles linked. Existing PDF IDs and vendor names preserved. Turkey Bowls and Snow Globe Martini were not duplicated. Current season-specific Connecticut menu is direct catalog evidence despite lacking a publication date; its research finding remains distinguished from dated confirmations. Crazy Boba links use historical operator identity evidence, not a new 2026 menu claim. New-for-fair flags remain conservative."
+}

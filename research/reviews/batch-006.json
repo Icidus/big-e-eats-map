@@ -1,0 +1,345 @@
+[
+  {
+    "vendorId": "the-spirited-christmas-bar",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "V-One Vodka official website social links",
+      "The Big E new foods Spirited Christmas Bar"
+    ],
+    "notes": "Rechecked official new-food menu and V-One website social links. Fair explicitly identifies this bar as operated by V-One. Instagram is restricted; no additional drink names inferred. Snow Globe Martini already exists under V-One, so cross-described rather than duplicated. Undated current fair menu recorded as a lead in research, used as direct catalog evidence.",
+    "accounts": [
+      {
+        "url": "https://www.v1vodka.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.v1vodka.com/",
+        "evidence": "Official operator website links both accounts; current fair menu explicitly names The Spirited Christmas Bar by V-One."
+      },
+      {
+        "url": "https://www.instagram.com/v1vodka/",
+        "verified": true,
+        "evidenceUrl": "https://www.v1vodka.com/",
+        "evidence": "Official operator website links both accounts; current fair menu explicitly names The Spirited Christmas Bar by V-One."
+      },
+      {
+        "url": "https://www.facebook.com/v1vodka",
+        "verified": true,
+        "evidenceUrl": "https://www.v1vodka.com/",
+        "evidence": "Official operator website links both accounts; current fair menu explicitly names The Spirited Christmas Bar by V-One."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Snow Globe Martini is served at The Spirited Christmas Bar in the Young Building; existing V-One listing enriched, no duplicate added.",
+        "url": "https://www.thebige.com/p/food2/newfoods",
+        "kind": "detail",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "valley-malt-beer-garden",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "Valley Malt Big E Beer Garden",
+      "valleymalt.com official social links"
+    ],
+    "notes": "Read website social links and Facebook Aug 11 announcement. Scanned 12 Instagram grid entries Sep 22, 2025–Aug 11, 2026; opened Aug 11 caption using /p/ because /reel/ was blank. Caption confirms returning Timberyard Honey Blueberry Ale for this year’s Big E. No other beer varieties inferred.",
+    "accounts": [
+      {
+        "url": "https://www.valleymalt.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.valleymalt.com/",
+        "evidence": "Official website links both accounts; Aug 11 vendor caption names the Big E beer garden."
+      },
+      {
+        "url": "https://www.instagram.com/valleymalt/",
+        "verified": true,
+        "evidenceUrl": "https://www.valleymalt.com/",
+        "evidence": "Official website links both accounts; Aug 11 vendor caption names the Big E beer garden."
+      },
+      {
+        "url": "https://www.facebook.com/valleymalt",
+        "verified": true,
+        "evidenceUrl": "https://www.valleymalt.com/",
+        "evidence": "Official website links both accounts; Aug 11 vendor caption names the Big E beer garden."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Timberyard Honey Blueberry Ale returns to Valley Malt Beer Garden for the Big E. Added a named beer alongside the general craft-beer listing.",
+        "url": "https://www.instagram.com/valleymalt/p/Db6L8_Bq8Gw/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-08-11"
+      }
+    ]
+  },
+  {
+    "vendorId": "wrights-dairy-farm",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Wright's\" \"Big E\" 2026 ice cream",
+      "wrightsri.com official social links"
+    ],
+    "notes": "Read official farm website and linked accounts. Scanned 12 Instagram grid entries Aug 19–Sep 16, 2026; no fair caption identified/opened. Facebook latest visible Sep 18 segment is about fall bakery treats, not a fair menu. Targeted fair search returned existing coverage and older menus. No new fair flavors promoted.",
+    "accounts": [
+      {
+        "url": "https://www.wrightsri.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.wrightsri.com/",
+        "evidence": "Official North Smithfield dairy farm website links both accounts, matching the catalog vendor."
+      },
+      {
+        "url": "https://www.instagram.com/wrightsbakeryri/",
+        "verified": true,
+        "evidenceUrl": "https://www.wrightsri.com/",
+        "evidence": "Official North Smithfield dairy farm website links both accounts, matching the catalog vendor."
+      },
+      {
+        "url": "https://www.facebook.com/wrightsbakeryri",
+        "verified": true,
+        "evidenceUrl": "https://www.wrightsri.com/",
+        "evidence": "Official North Smithfield dairy farm website links both accounts, matching the catalog vendor."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "zacks-mac-attack",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Zack’s Mac Attack\" Big E facebook",
+      "\"Zack's Mac Attack\" Instagram official"
+    ],
+    "notes": "Exact-name searches returned MassLive references and unrelated restaurant menu entries, but no verified operator account. Current NH Building mac-and-cheese operator identity was not established as Zack’s; retained existing PDF listing without merging it or attaching speculative accounts.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "connecticut-building",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Connecticut Building\" \"Big E\" 2026",
+      "The Big E Connecticut Building 2026 exhibitors"
+    ],
+    "notes": "Read official 2026 Connecticut Building exhibitor menu. It names Dannys Smoke House for loaded baked potatoes and The Connecticut Dog, and Connecticut Craft Beer Works for craft beer/malt beverages. Preserved existing generic building vendor and PDF IDs, clarified operators in descriptions. Linked the official building page; no speculative operator socials. Page has no publication date, so research keeps it as a lead while the explicit current-season menu is catalog evidence.",
+    "accounts": [
+      {
+        "url": "https://www.thebige.com/p/thingstodo/avenue/connecticut-building",
+        "verified": true,
+        "evidenceUrl": "https://www.thebige.com/p/thingstodo/avenue/connecticut-building",
+        "evidence": "Official fair page explicitly lists 2026 Connecticut Building exhibitors; this catalog vendor is the building umbrella."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "The Connecticut Dog from Dannys Smoke House is missing; loaded baked potatoes and Connecticut Craft Beer Works drinks already have generic building listings.",
+        "url": "https://www.thebige.com/p/thingstodo/avenue/connecticut-building",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "crazy-boba",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Crazy Boba\" \"Big E\" facebook",
+      "crazyseafoodma.com official social links"
+    ],
+    "notes": "Opened restaurant website and social profiles. Scanned 12 Instagram grid entries Aug 4–Sep 6, 2026; opened Sep 1 Apple-Rita caption, explicitly restaurant dine-in only, so excluded. Opened Facebook Crazy Boba fair post dated Sep 18, 2025: confirms operator identity, Young Building and the two foods already cataloged from current MassLive coverage. Historical post is not 2026 menu confirmation; no promotions or prices carried forward.",
+    "accounts": [
+      {
+        "url": "https://crazyseafoodma.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/crazyseafoodma/photos/-catch-crazy-boba-at-the-big-e-were-bringing-the-crazy-beyond-crab-boils-%EF%B8%8Fcrazy-/1890124938553174/",
+        "evidence": "September 18, 2025 vendor post explicitly identifies Crazy Seafood as the operator of Crazy Boba in the Young Building; website and profiles match 847 Riverdale Street. Historical identity evidence only."
+      },
+      {
+        "url": "https://www.instagram.com/crazyseafoodma/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/crazyseafoodma/photos/-catch-crazy-boba-at-the-big-e-were-bringing-the-crazy-beyond-crab-boils-%EF%B8%8Fcrazy-/1890124938553174/",
+        "evidence": "September 18, 2025 vendor post explicitly identifies Crazy Seafood as the operator of Crazy Boba in the Young Building; website and profiles match 847 Riverdale Street. Historical identity evidence only."
+      },
+      {
+        "url": "https://www.facebook.com/crazyseafoodma/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/crazyseafoodma/photos/-catch-crazy-boba-at-the-big-e-were-bringing-the-crazy-beyond-crab-boils-%EF%B8%8Fcrazy-/1890124938553174/",
+        "evidence": "September 18, 2025 vendor post explicitly identifies Crazy Seafood as the operator of Crazy Boba in the Young Building; website and profiles match 847 Riverdale Street. Historical identity evidence only."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "dingle-distillery",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "Dingle Distillery official website social links"
+    ],
+    "notes": "Read official distillery website and its social links. Instagram and Facebook both restrict public posts behind age/login gates. No drink names or restaurant menu items inferred for the fair.",
+    "accounts": [
+      {
+        "url": "https://dingledistillery.ie/",
+        "verified": true,
+        "evidenceUrl": "https://dingledistillery.ie/",
+        "evidence": "Official distillery website directly links both accounts."
+      },
+      {
+        "url": "https://www.instagram.com/dingledistillery/",
+        "verified": true,
+        "evidenceUrl": "https://dingledistillery.ie/",
+        "evidence": "Official distillery website directly links both accounts."
+      },
+      {
+        "url": "https://www.facebook.com/dinglewhiskey/",
+        "verified": true,
+        "evidenceUrl": "https://dingledistillery.ie/",
+        "evidence": "Official distillery website directly links both accounts."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "fields-fields-blueberries",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "Fields Fields Blueberries Big E",
+      "fieldsfieldsblueberries.com official social links"
+    ],
+    "notes": "Read official website social links. Scanned 12 Instagram grid entries Aug 1, 2025–Aug 27, 2026; opened Aug 27 caption announcing a new Crisp Cart behind the Maine Building for the Big E. Updated vendor location in existing listings; no flavors or menu claims inferred from comments.",
+    "accounts": [
+      {
+        "url": "https://www.fieldsfieldsblueberries.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.fieldsfieldsblueberries.com/",
+        "evidence": "Official website links the matching Instagram and Facebook profiles."
+      },
+      {
+        "url": "https://www.instagram.com/fieldsfieldsblueberries/",
+        "verified": true,
+        "evidenceUrl": "https://www.fieldsfieldsblueberries.com/",
+        "evidence": "Official website links the matching Instagram and Facebook profiles."
+      },
+      {
+        "url": "https://www.facebook.com/fieldsfieldsblueberries/",
+        "verified": true,
+        "evidenceUrl": "https://www.fieldsfieldsblueberries.com/",
+        "evidence": "Official website links the matching Instagram and Facebook profiles."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Vendor announces its new Crisp Cart behind the Maine Building for this year’s Big E; clarified location on existing crisp and tea listings.",
+        "url": "https://www.instagram.com/fieldsfieldsblueberries/reel/DcjnZOYPRVi/",
+        "kind": "location",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-08-27"
+      }
+    ]
+  },
+  {
+    "vendorId": "main-street-deli",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "Main Street Deli Big E Instagram",
+      "mainstreet-deli.com official social links"
+    ],
+    "notes": "Read fair-linked official deli website and parent social accounts. Scanned 12 Instagram entries Sep 18, 2025–Sep 17, 2026; opened Sep 17 evening caption (Sep 18 UTC). It names Pilgrim Sandwich, Turkey Bowls and Maple Bacon Mac & Cheese, and launches dedicated fair accounts. Opened eatpilgrim Instagram bio and eatthepilgrim Facebook profile to verify identity. Turkey Bowls treated as the existing Thanksgiving Bowl, avoiding duplication.",
+    "accounts": [
+      {
+        "url": "https://www.mainstreet-deli.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/141mainst/reel/DdaNId6jDg5/",
+        "evidence": "Parent account linked by official deli website announces these dedicated Big E accounts; their bios identify The Pilgrim at the Big E in the Massachusetts Building."
+      },
+      {
+        "url": "https://www.instagram.com/eatpilgrim/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/141mainst/reel/DdaNId6jDg5/",
+        "evidence": "Parent account linked by official deli website announces these dedicated Big E accounts; their bios identify The Pilgrim at the Big E in the Massachusetts Building."
+      },
+      {
+        "url": "https://www.facebook.com/eatthepilgrim",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/141mainst/reel/DdaNId6jDg5/",
+        "evidence": "Parent account linked by official deli website announces these dedicated Big E accounts; their bios identify The Pilgrim at the Big E in the Massachusetts Building."
+      },
+      {
+        "url": "https://www.instagram.com/141mainst/",
+        "verified": true,
+        "evidenceUrl": "https://www.mainstreet-deli.com/",
+        "evidence": "Official deli website links the parent account that published the fair menu."
+      },
+      {
+        "url": "https://www.facebook.com/141main",
+        "verified": true,
+        "evidenceUrl": "https://www.mainstreet-deli.com/",
+        "evidence": "Official deli website links the parent Facebook profile."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Maple Bacon Mac & Cheese is confirmed for the Massachusetts Building and missing from catalog. Pilgrim Sandwich and Turkey Bowls already represented; added current supporting citation.",
+        "url": "https://www.instagram.com/141mainst/reel/DdaNId6jDg5/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-17"
+      }
+    ]
+  },
+  {
+    "vendorId": "maine-aquaculture-association",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "Maine Aquaculture Association Big E",
+      "maineaqua.org official social links"
+    ],
+    "notes": "Read official website social links. Scanned 12 Instagram grid entries Apr 30–Aug 31, 2026; no fair post identified/opened. Facebook latest visible Aug 31 post is an educational panel in Saint George, not a fair menu. Existing salmon and root-beer listings retained with their existing evidence; no varieties or prices inferred.",
+    "accounts": [
+      {
+        "url": "https://maineaqua.org/",
+        "verified": true,
+        "evidenceUrl": "https://maineaqua.org/",
+        "evidence": "Official association website links both accounts and matches the Maine Building exhibitor."
+      },
+      {
+        "url": "https://www.instagram.com/maine_aquaculture/",
+        "verified": true,
+        "evidenceUrl": "https://maineaqua.org/",
+        "evidence": "Official association website links both accounts and matches the Maine Building exhibitor."
+      },
+      {
+        "url": "https://www.facebook.com/maineaquacultureassoc/",
+        "verified": true,
+        "evidenceUrl": "https://maineaqua.org/",
+        "evidence": "Official association website links both accounts and matches the Maine Building exhibitor."
+      }
+    ],
+    "findings": []
+  }
+]

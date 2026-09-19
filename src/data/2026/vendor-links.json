@@ -425,5 +425,150 @@
         "url": "https://www.facebook.com/v1vodka"
       }
     ]
+  },
+  {
+    "name": "The Spirited Christmas Bar",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.v1vodka.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/v1vodka/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/v1vodka"
+      }
+    ]
+  },
+  {
+    "name": "Valley Malt Beer Garden",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.valleymalt.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/valleymalt/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/valleymalt"
+      }
+    ]
+  },
+  {
+    "name": "Wright’s Dairy Farm",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.wrightsri.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/wrightsbakeryri/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/wrightsbakeryri"
+      }
+    ]
+  },
+  {
+    "name": "Connecticut Building",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.thebige.com/p/thingstodo/avenue/connecticut-building"
+      }
+    ]
+  },
+  {
+    "name": "Crazy Boba",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://crazyseafoodma.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/crazyseafoodma/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/crazyseafoodma/"
+      }
+    ]
+  },
+  {
+    "name": "Dingle Distillery",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://dingledistillery.ie/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/dingledistillery/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/dinglewhiskey/"
+      }
+    ]
+  },
+  {
+    "name": "Fields Fields Blueberries",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.fieldsfieldsblueberries.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/fieldsfieldsblueberries/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/fieldsfieldsblueberries/"
+      }
+    ]
+  },
+  {
+    "name": "Main Street Deli",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.mainstreet-deli.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/eatpilgrim/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/eatthepilgrim"
+      }
+    ]
+  },
+  {
+    "name": "Maine Aquaculture Association",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://maineaqua.org/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/maine_aquaculture/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/maineaquacultureassoc/"
+      }
+    ]
   }
 ]

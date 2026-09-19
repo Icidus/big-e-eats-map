@@ -1,6 +1,6 @@
 # Vendor research progress
 
-55 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+65 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -369,6 +369,44 @@ Searched Smoking Dragon/Krakow aliases. Official 2026 new-food page identifies b
 - Account: https://www.facebook.com/v1vodka (verified)
 - **lead / new-item**: Dragon Fruit Spritz at Krakow Smoking Dragon Bar in Young Building is absent from catalog. Added under existing V-One operator; Caramel Apple and Salted Caramel Espresso Martini preserved without duplicates. [Source](https://www.thebige.com/p/food2/newfoods) (checked 2026-09-19)
 
+## The Spirited Christmas Bar
+
+inaccessible · 2026-09-19 · 1 catalog items
+
+Rechecked official new-food menu and V-One website social links. Fair explicitly identifies this bar as operated by V-One. Instagram is restricted; no additional drink names inferred. Snow Globe Martini already exists under V-One, so cross-described rather than duplicated. Undated current fair menu recorded as a lead in research, used as direct catalog evidence.
+
+- Account: https://www.v1vodka.com/ (verified)
+- Account: https://www.instagram.com/v1vodka/ (verified)
+- Account: https://www.facebook.com/v1vodka (verified)
+- **lead / detail**: Snow Globe Martini is served at The Spirited Christmas Bar in the Young Building; existing V-One listing enriched, no duplicate added. [Source](https://www.thebige.com/p/food2/newfoods) (checked 2026-09-19)
+
+## Wright’s Dairy Farm
+
+reviewed · 2026-09-19 · 1 catalog items
+
+Read official farm website and linked accounts. Scanned 12 Instagram grid entries Aug 19–Sep 16, 2026; no fair caption identified/opened. Facebook latest visible Sep 18 segment is about fall bakery treats, not a fair menu. Targeted fair search returned existing coverage and older menus. No new fair flavors promoted.
+
+- Account: https://www.wrightsri.com/ (verified)
+- Account: https://www.instagram.com/wrightsbakeryri/ (verified)
+- Account: https://www.facebook.com/wrightsbakeryri (verified)
+
+## Zack’s Mac Attack
+
+no-account-found · 2026-09-19 · 1 catalog items
+
+Exact-name searches returned MassLive references and unrelated restaurant menu entries, but no verified operator account. Current NH Building mac-and-cheese operator identity was not established as Zack’s; retained existing PDF listing without merging it or attaching speculative accounts.
+
+
+## Crazy Boba
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Opened restaurant website and social profiles. Scanned 12 Instagram grid entries Aug 4–Sep 6, 2026; opened Sep 1 Apple-Rita caption, explicitly restaurant dine-in only, so excluded. Opened Facebook Crazy Boba fair post dated Sep 18, 2025: confirms operator identity, Young Building and the two foods already cataloged from current MassLive coverage. Historical post is not 2026 menu confirmation; no promotions or prices carried forward.
+
+- Account: https://crazyseafoodma.com/ (verified)
+- Account: https://www.instagram.com/crazyseafoodma/ (verified)
+- Account: https://www.facebook.com/crazyseafoodma/ (verified)
+
 ## Delaney's Market
 
 reviewed · 2026-09-19 · 2 catalog items
@@ -379,6 +417,27 @@ Verified matching website and public profile; inspected 12 grid entries and read
 - **confirmed / new-item**: Hot popovers with a choice of maple bacon, strawberry, or apple cinnamon butter, in addition to savory stuffed popovers. Proposed hot-popover entry with butter choices; generic Popover Sandwiches already exists. [Source](https://www.instagram.com/delaneysmarket/reel/DdUu84VxgCx/) (checked 2026-09-19)
 - **confirmed / location**: Vendor directs fairgoers to the Massachusetts Building. [Source](https://www.instagram.com/delaneysmarket/reel/DdUu84VxgCx/) (checked 2026-09-19)
 
+## Dingle Distillery
+
+inaccessible · 2026-09-19 · 2 catalog items
+
+Read official distillery website and its social links. Instagram and Facebook both restrict public posts behind age/login gates. No drink names or restaurant menu items inferred for the fair.
+
+- Account: https://dingledistillery.ie/ (verified)
+- Account: https://www.instagram.com/dingledistillery/ (verified)
+- Account: https://www.facebook.com/dinglewhiskey/ (verified)
+
+## Fields Fields Blueberries
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Read official website social links. Scanned 12 Instagram grid entries Aug 1, 2025–Aug 27, 2026; opened Aug 27 caption announcing a new Crisp Cart behind the Maine Building for the Big E. Updated vendor location in existing listings; no flavors or menu claims inferred from comments.
+
+- Account: https://www.fieldsfieldsblueberries.com/ (verified)
+- Account: https://www.instagram.com/fieldsfieldsblueberries/ (verified)
+- Account: https://www.facebook.com/fieldsfieldsblueberries/ (verified)
+- **confirmed / location**: Vendor announces its new Crisp Cart behind the Maine Building for this year’s Big E; clarified location on existing crisp and tea listings. [Source](https://www.instagram.com/fieldsfieldsblueberries/reel/DcjnZOYPRVi/) (checked 2026-09-19)
+
 ## Friskie Fries
 
 reviewed · 2026-09-19 · 2 catalog items
@@ -388,6 +447,16 @@ Scanned 12 public entries and read two September 18 captions. One concerns Roger
 - Account: https://www.instagram.com/friskiefries/ (verified)
 - **confirmed / new-item**: Rhode Island-style calamari is explicitly advertised as the Big E special. No price or detailed ingredients supplied. [Source](https://www.instagram.com/friskiefries/p/DdbwANtjM56/) (checked 2026-09-19)
 - **confirmed / location**: Rhode Island Building on Avenue of the States; September 18 caption advertises 10 a.m.–9 p.m. Do not assume unchanged daily hours without further evidence. [Source](https://www.instagram.com/friskiefries/p/DdbwANtjM56/) (checked 2026-09-19)
+
+## Maine Aquaculture Association
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Read official website social links. Scanned 12 Instagram grid entries Apr 30–Aug 31, 2026; no fair post identified/opened. Facebook latest visible Aug 31 post is an educational panel in Saint George, not a fair menu. Existing salmon and root-beer listings retained with their existing evidence; no varieties or prices inferred.
+
+- Account: https://maineaqua.org/ (verified)
+- Account: https://www.instagram.com/maine_aquaculture/ (verified)
+- Account: https://www.facebook.com/maineaquacultureassoc/ (verified)
 
 ## Rudy’s Slush
 
@@ -411,6 +480,17 @@ Official website links both accounts; matching Three Rivers MA business confirme
 - **confirmed / new-item**: Sweet Talkin’ Jalapeño dip offered on day two in Massachusetts Building; vendor describes sweet flavor with heat. No dietary claims inferred from hashtags. [Source](https://www.instagram.com/simplydiplicious/p/DdeF68mHHCr/) (checked 2026-09-19)
 - **confirmed / confirmation**: Opening-day post confirms dips in Massachusetts Building. [Source](https://www.instagram.com/simplydiplicious/p/DdbheoejXlM/) (checked 2026-09-19)
 
+## Valley Malt Beer Garden
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Read website social links and Facebook Aug 11 announcement. Scanned 12 Instagram grid entries Sep 22, 2025–Aug 11, 2026; opened Aug 11 caption using /p/ because /reel/ was blank. Caption confirms returning Timberyard Honey Blueberry Ale for this year’s Big E. No other beer varieties inferred.
+
+- Account: https://www.valleymalt.com/ (verified)
+- Account: https://www.instagram.com/valleymalt/ (verified)
+- Account: https://www.facebook.com/valleymalt (verified)
+- **confirmed / new-item**: Timberyard Honey Blueberry Ale returns to Valley Malt Beer Garden for the Big E. Added a named beer alongside the general craft-beer listing. [Source](https://www.instagram.com/valleymalt/p/Db6L8_Bq8Gw/) (checked 2026-09-19)
+
 ## Bear’s Smokehouse
 
 reviewed · 2026-09-19 · 3 catalog items
@@ -421,6 +501,28 @@ Verified account, scanned 12 visible entries, then read vendor captions on Septe
 - **confirmed / new-item**: Bucket of Moinks: 16 pieces for $25 in a souvenir bucket, while supplies last. Proposed new item; catalog currently lists only BBQ. [Source](https://www.instagram.com/bearssmokehouse/p/DdZ3QdOR-Dq/) (checked 2026-09-19)
 - **confirmed / new-item**: Bear Necessit-E sandwich explicitly offered at the fair; absent from catalog. Ingredients and price not confirmed by this caption. [Source](https://www.instagram.com/bearssmokehouse/p/DdbbxEexE89/) (checked 2026-09-19)
 - **confirmed / location**: Vendor says it is outside the Connecticut Building, serving daily 10 a.m.–9 p.m. at the fair. [Source](https://www.instagram.com/bearssmokehouse/p/DdbbxEexE89/) (checked 2026-09-19)
+
+## Connecticut Building
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Read official 2026 Connecticut Building exhibitor menu. It names Dannys Smoke House for loaded baked potatoes and The Connecticut Dog, and Connecticut Craft Beer Works for craft beer/malt beverages. Preserved existing generic building vendor and PDF IDs, clarified operators in descriptions. Linked the official building page; no speculative operator socials. Page has no publication date, so research keeps it as a lead while the explicit current-season menu is catalog evidence.
+
+- Account: https://www.thebige.com/p/thingstodo/avenue/connecticut-building (verified)
+- **lead / new-item**: The Connecticut Dog from Dannys Smoke House is missing; loaded baked potatoes and Connecticut Craft Beer Works drinks already have generic building listings. [Source](https://www.thebige.com/p/thingstodo/avenue/connecticut-building) (checked 2026-09-19)
+
+## Main Street Deli
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Read fair-linked official deli website and parent social accounts. Scanned 12 Instagram entries Sep 18, 2025–Sep 17, 2026; opened Sep 17 evening caption (Sep 18 UTC). It names Pilgrim Sandwich, Turkey Bowls and Maple Bacon Mac & Cheese, and launches dedicated fair accounts. Opened eatpilgrim Instagram bio and eatthepilgrim Facebook profile to verify identity. Turkey Bowls treated as the existing Thanksgiving Bowl, avoiding duplication.
+
+- Account: https://www.mainstreet-deli.com/ (verified)
+- Account: https://www.instagram.com/eatpilgrim/ (verified)
+- Account: https://www.facebook.com/eatthepilgrim (verified)
+- Account: https://www.instagram.com/141mainst/ (verified)
+- Account: https://www.facebook.com/141main (verified)
+- **confirmed / new-item**: Maple Bacon Mac & Cheese is confirmed for the Massachusetts Building and missing from catalog. Pilgrim Sandwich and Turkey Bowls already represented; added current supporting citation. [Source](https://www.instagram.com/141mainst/reel/DdaNId6jDg5/) (checked 2026-09-19)
 
 ## Joey's Deli & Market
 

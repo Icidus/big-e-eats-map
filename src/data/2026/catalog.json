@@ -114,7 +114,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "Gluten-free wild blueberry crisp topped with Gifford’s ice cream from the Maine Building food trucks.",
+    "description": "Gluten-free wild blueberry crisp topped with Gifford’s ice cream. Find Fields Fields Blueberries at its Crisp Cart behind the Maine Building.",
     "categoryIds": [
       "desserts"
     ],
@@ -130,7 +130,15 @@
       "title": "Maine Building",
       "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building",
       "accessedOn": "2026-09-14"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Fields Fields Blueberries",
+        "title": "Big E Crisp Cart location",
+        "url": "https://www.instagram.com/fieldsfieldsblueberries/reel/DcjnZOYPRVi/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "fire-and-co-wood-fired-pizza",
@@ -4005,7 +4013,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "White cranberry and lime martini served in an ornamental bulb at The Spirited Christmas Bar by V-One in the Young Building."
   },
   {
     "id": "v-one-caramel-apple",
@@ -4796,7 +4805,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "A homemade Pilgrim Sandwich from Main Street Deli.",
+    "description": "The Pilgrim Sandwich from Main Street Deli in the Massachusetts Building, confirmed on the vendor’s 2026 fair menu.",
     "categoryIds": [
       "sandwiches"
     ],
@@ -4810,7 +4819,15 @@
       "title": "Massachusetts Building",
       "url": "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building",
       "accessedOn": "2026-09-16"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Main Street Deli",
+        "title": "The Pilgrim’s Big E menu and dedicated accounts",
+        "url": "https://www.instagram.com/141mainst/reel/DdaNId6jDg5/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "main-street-deli-thanksgiving-bowl",
@@ -4820,7 +4837,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "A homemade Thanksgiving Bowl from Main Street Deli.",
+    "description": "Main Street Deli’s Thanksgiving Bowl, promoted as Turkey Bowls on its 2026 fair menu, in the Massachusetts Building.",
     "categoryIds": [
       "comfort-bowls"
     ],
@@ -4834,7 +4851,15 @@
       "title": "Massachusetts Building",
       "url": "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building",
       "accessedOn": "2026-09-16"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Main Street Deli",
+        "title": "The Pilgrim’s Big E menu and dedicated accounts",
+        "url": "https://www.instagram.com/141mainst/reel/DdaNId6jDg5/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "maureens-sweet-shoppe-handmade-chocolates",
@@ -5088,7 +5113,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "Blueberry leaf tea from Fields Fields Blueberries in the Maine Building.",
+    "description": "Blueberry leaf tea from Fields Fields Blueberries. The vendor’s 2026 Crisp Cart is behind the Maine Building.",
     "categoryIds": [
       "nonalcoholic-drinks"
     ],
@@ -5103,7 +5128,15 @@
       "title": "‘A foodie festival’: The Big E state fair overflows with Maine eats",
       "url": "https://www.pressherald.com/2026/09/08/a-foodie-festival-the-big-e-state-fair-overflows-with-maine-eats/",
       "accessedOn": "2026-09-17"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Fields Fields Blueberries",
+        "title": "Big E Crisp Cart location",
+        "url": "https://www.instagram.com/fieldsfieldsblueberries/reel/DcjnZOYPRVi/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "valley-view-orchard-pies-whoopie-pies",
@@ -13345,7 +13378,7 @@
     "locationIds": [
       "young-building"
     ],
-    "description": "Holiday-themed Cocktails listed for The Spirited Christmas Bar in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Holiday cocktails at The Spirited Christmas Bar by V-One in the Young Building, including the Snow Globe Martini also listed under V-One Vodka in this guide.",
     "categoryIds": [
       "cocktails"
     ],
@@ -13360,7 +13393,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "New Foods",
+        "url": "https://www.thebige.com/p/food2/newfoods",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "the-smoking-dragon-bar-smoking-cocktails",
@@ -13869,7 +13910,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "Craft Beer listed for Valley Malt Beer Garden in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Craft beer at Valley Malt Beer Garden on the Avenue of States, including returning Timberyard Honey Blueberry Ale.",
     "categoryIds": [
       "beer-cider"
     ],
@@ -13884,7 +13925,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Valley Malt",
+        "title": "Honey Blueberry Ale returns to the Big E",
+        "url": "https://www.instagram.com/valleymalt/p/Db6L8_Bq8Gw/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "vermont-marshmallow-company-s-macaron",
@@ -16989,7 +17038,15 @@
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
     },
-    "description": "Listed on the Avenue Of States map in the saved MassLive Eater’s Guide (PDF page 22); availability is source-reported."
+    "description": "Loaded baked potatoes from Dannys Smoke House in the Connecticut Building, listed on the official 2026 exhibitor menu.",
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "2026 Connecticut Building Exhibitors",
+        "url": "https://www.thebige.com/p/thingstodo/avenue/connecticut-building",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "connecticut-building-connecticut-beers",
@@ -17014,7 +17071,15 @@
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
     },
-    "description": "Listed on the Avenue Of States map in the saved MassLive Eater’s Guide (PDF page 22); availability is source-reported."
+    "description": "Connecticut craft beer and malt beverages from Connecticut Craft Beer Works in the Connecticut Building.",
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "2026 Connecticut Building Exhibitors",
+        "url": "https://www.thebige.com/p/thingstodo/avenue/connecticut-building",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "new-hampshire-building-lobster-mac-and-cheese",
@@ -17613,6 +17678,82 @@
       "accessedOn": "2026-09-19"
     },
     "year": 2026,
+    "dietaryClaims": [],
+    "isNewFor2026": false
+  },
+  {
+    "id": "main-street-deli-maple-bacon-mac-cheese",
+    "name": "Maple Bacon Mac & Cheese",
+    "vendor": "Main Street Deli",
+    "description": "Maple bacon mac and cheese from The Pilgrim by Main Street Deli in the Massachusetts Building.",
+    "categoryIds": [
+      "mac-cheese"
+    ],
+    "tagIds": [
+      "savory",
+      "maple",
+      "bacon",
+      "cheese"
+    ],
+    "source": {
+      "publisher": "Main Street Deli",
+      "title": "The Pilgrim’s Big E menu and dedicated accounts",
+      "url": "https://www.instagram.com/141mainst/reel/DdaNId6jDg5/",
+      "accessedOn": "2026-09-19"
+    },
+    "year": 2026,
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false
+  },
+  {
+    "id": "valley-malt-beer-garden-timberyard-honey-blueberry-ale",
+    "name": "Timberyard Honey Blueberry Ale",
+    "vendor": "Valley Malt Beer Garden",
+    "description": "Timberyard’s Honey Blueberry Ale, confirmed by Valley Malt as returning to its Big E beer garden.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "source": {
+      "publisher": "Valley Malt",
+      "title": "Honey Blueberry Ale returns to the Big E",
+      "url": "https://www.instagram.com/valleymalt/p/Db6L8_Bq8Gw/",
+      "accessedOn": "2026-09-19"
+    },
+    "year": 2026,
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false
+  },
+  {
+    "id": "connecticut-building-connecticut-dog",
+    "name": "The Connecticut Dog",
+    "vendor": "Connecticut Building",
+    "description": "A hot dog from Dannys Smoke House in the Connecticut Building, listed on the official 2026 exhibitor menu.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 Connecticut Building Exhibitors",
+      "url": "https://www.thebige.com/p/thingstodo/avenue/connecticut-building",
+      "accessedOn": "2026-09-19"
+    },
+    "year": 2026,
+    "locationIds": [
+      "avenue-of-states"
+    ],
     "dietaryClaims": [],
     "isNewFor2026": false
   }
