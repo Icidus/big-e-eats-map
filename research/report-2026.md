@@ -1,6 +1,6 @@
 # Vendor research progress
 
-75 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+85 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -540,6 +540,39 @@ Read website’s explicit 2026 Big E service notice and hours, linked Facebook i
 - Account: https://www.facebook.com/pages/category/Restaurant/Storrowton-Tavern-111399762227584/ (verified)
 - Account: https://www.instagram.com/storrowtontavern/ (verified)
 
+## Sweet Babu's
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Read official website and social links. Scanned 12 Instagram grid entries, including two older pinned posts and ten Aug–Sep 2026 entries. Opened Sep 17 Maple Pecan/nuts and Sep 10 photoshoot captions; neither establishes fair flavor inventory. Kept current generic fair granola/nuts listings; online-store flavors excluded.
+
+- Account: https://sweetbabus.com/ (verified)
+- Account: https://www.instagram.com/sweetbabus/ (verified)
+- Account: https://www.facebook.com/sweetbabus (verified)
+
+## The Big Fizz E
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Exact-name searches found dedicated Instagram after excluding unrelated Georgia sweetandsaltysnacks_ account. Bio explicitly identifies Big E 2026 and sister stand Sweet & Salty. Scanned 12 grid entries Sep 10–19; opened Sep 16 menu announcement and Sep 17 location caption. Official fair menu already has eleven named sodas preserved under Sweet & Salty; clarified sister-stand location without duplicating or renaming PDF records. No video-only prices transcribed.
+
+- Account: https://www.instagram.com/thebigfizze/ (verified)
+- **confirmed / location**: The Big Fizz E operates beside Giant Slide on Springfield Road; profile identifies sister stand Sweet & Salty. Existing named soda descriptions clarified. [Source](https://www.instagram.com/thebigfizze/p/DdaGx0ght_Q/) (checked 2026-09-19)
+
+## The Wine Loft
+
+inaccessible · 2026-09-19 · 2 catalog items
+
+Exact-name fair search found official historical fair announcement and a Toast menu at 1305 Memorial Avenue. Attempt to open ordering page aborted; no current menu or independent social account verified. Unrelated same-name bars excluded.
+
+
+## Turkey Legs
+
+no-account-found · 2026-09-19 · 2 catalog items
+
+Searched generic stand name with Big E/vendor/Instagram terms. Results are other vendors and visitor videos; no operator can be safely assigned to the generic PDF stand. No speculative account or menu promoted.
+
+
 ## Valley Malt Beer Garden
 
 reviewed · 2026-09-19 · 2 catalog items
@@ -551,6 +584,34 @@ Read website social links and Facebook Aug 11 announcement. Scanned 12 Instagram
 - Account: https://www.facebook.com/valleymalt (verified)
 - **confirmed / new-item**: Timberyard Honey Blueberry Ale returns to Valley Malt Beer Garden for the Big E. Added a named beer alongside the general craft-beer listing. [Source](https://www.instagram.com/valleymalt/p/Db6L8_Bq8Gw/) (checked 2026-09-19)
 
+## Vermont Marshmallow Company
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Read official website announcing current Big E attendance and linking social accounts. Scanned 12 Instagram grid entries including pinned posts; opened Sep 16 contingency plan, Sep 17 setup and Sep 19 product captions. Vendor plans S’mored Oreos Friday–Tuesday and S’Macarons Wednesday onward after shipping disruption. Replaced conflicting older Tuesday return statement with explicitly dated tentative vendor plan. Current caption supplies Oreo composition; no blanket gluten-free claim inferred merely from GF Oreo ingredient.
+
+- Account: https://vermontmarshmallow.com/ (verified)
+- Account: https://www.instagram.com/vermontmarshmallow/ (verified)
+- Account: https://www.facebook.com/vermontmarshmallow/ (verified)
+- **confirmed / detail**: S’mored Oreo uses handmade marshmallow torched on two GF Oreos, rolled in handmade caramelized graham-cracker crumble; existing listing enriched. [Source](https://www.instagram.com/vermontmarshmallow/p/DdeOboszuE2/) (checked 2026-09-19)
+- **confirmed / detail**: Vendor’s contingency plan is S’mored Oreos Friday–Tuesday, S’Macarons returning Wednesday September 23. Plan remains tentative; corrects older Tuesday wording. [Source](https://www.instagram.com/vermontmarshmallow/p/DdXvobVTVa2/) (checked 2026-09-19)
+
+## All American Craft Beer Bar & Grill
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Searched exact stand name with fair and Facebook terms. Results identify existing fair Stinger cheeseburger and historical foods, but no verified stand account. Unrelated all-American beer bars excluded; no old menu items promoted as current.
+
+
+## Ann Marie’s Candies
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Opened Instagram profile and historical Sep 15, 2023 Big E caption establishing identity. Visible grid entries reviewed through Jul 2024; matching Facebook Rehoboth profile latest post is Jul 11, 2024. No 2026 food update established; links are operator discovery only.
+
+- Account: https://www.instagram.com/annmariescandies/ (verified)
+- Account: https://www.facebook.com/annmariescandies/ (verified)
+
 ## Bear’s Smokehouse
 
 reviewed · 2026-09-19 · 3 catalog items
@@ -561,6 +622,22 @@ Verified account, scanned 12 visible entries, then read vendor captions on Septe
 - **confirmed / new-item**: Bucket of Moinks: 16 pieces for $25 in a souvenir bucket, while supplies last. Proposed new item; catalog currently lists only BBQ. [Source](https://www.instagram.com/bearssmokehouse/p/DdZ3QdOR-Dq/) (checked 2026-09-19)
 - **confirmed / new-item**: Bear Necessit-E sandwich explicitly offered at the fair; absent from catalog. Ingredients and price not confirmed by this caption. [Source](https://www.instagram.com/bearssmokehouse/p/DdbbxEexE89/) (checked 2026-09-19)
 - **confirmed / location**: Vendor says it is outside the Connecticut Building, serving daily 10 a.m.–9 p.m. at the fair. [Source](https://www.instagram.com/bearssmokehouse/p/DdbbxEexE89/) (checked 2026-09-19)
+
+## Buni’s Bakery
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Found bunis_bakery Instagram with fair/festival biography. Scanned 12 entries Aug 2022–Aug 2026; opened Aug 13 pretzel-dog caption (Iowa State Fair) and Mar 27 pastry caption (Miami Youth Fair). Neither establishes Big E menu or matching local operation. Fair directory locates Buni’s in Belleview Florida; unrelated Laguna cookie shop excluded. Candidate kept in research but not published without stronger identity evidence.
+
+- Account: https://www.instagram.com/bunis_bakery/ (candidate)
+
+## Chan’s Original Chicken-on-a-Stick
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Found chans_chickenonastick account and scanned its 12 grid entries May 2019–Aug 2023. Opened Sep 22, 2021 caption, which is Texas fair. Exact Big E account search did not corroborate identity. Candidate retained but no other-fair menu or account assigned to this stand.
+
+- Account: https://www.instagram.com/chans_chickenonastick/ (candidate)
 
 ## Connecticut Building
 
@@ -602,6 +679,16 @@ Read official fair Maine menu, vendor website and matching Instagram bio. Scanne
 - Account: https://qpburger.com/ (verified)
 - Account: https://www.instagram.com/qpburgermaine/ (verified)
 - **lead / new-item**: Fox Family Potato Chips explicitly listed as a side with QP burgers/hot dogs in the current Maine Building menu. [Source](https://www.thebige.com/p/thingstodo/avenue/maine-building) (checked 2026-09-19)
+
+## Boardwok Noodles
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Opened Facebook profile, linked CW Concessions website and its Board Wok Noodles page. Matching phone/email/name corroborate operator. Latest exposed Facebook post July 13 contains no menu text. General website noodles and Florida-only seafood not imported as fair menu. Current official Bargain Bites confirms noodle or rice sampler with honey/pineapple teriyaki chicken.
+
+- Account: https://www.cwconcessions.com/board-wok-noodles (verified)
+- Account: https://www.facebook.com/boardwoknoodles/ (verified)
+- **lead / new-item**: Noodle or Rice Sampler with Honey, Pineapple Teriyaki Chicken is a September 21 special at The Front Porch. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 
 ## Poppie’s Fresh Onion Rings
 

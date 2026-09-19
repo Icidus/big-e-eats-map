@@ -1,0 +1,245 @@
+[
+  {
+    "vendorId": "sweet-babu-s",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Sweet Babu\" Big E official"
+    ],
+    "notes": "Read official website and social links. Scanned 12 Instagram grid entries, including two older pinned posts and ten Aug–Sep 2026 entries. Opened Sep 17 Maple Pecan/nuts and Sep 10 photoshoot captions; neither establishes fair flavor inventory. Kept current generic fair granola/nuts listings; online-store flavors excluded.",
+    "accounts": [
+      {
+        "url": "https://sweetbabus.com/",
+        "verified": true,
+        "evidenceUrl": "https://sweetbabus.com/",
+        "evidence": "Official granola maker website links both accounts and matches the fair Massachusetts Building vendor."
+      },
+      {
+        "url": "https://www.instagram.com/sweetbabus/",
+        "verified": true,
+        "evidenceUrl": "https://sweetbabus.com/",
+        "evidence": "Official granola maker website links both accounts and matches the fair Massachusetts Building vendor."
+      },
+      {
+        "url": "https://www.facebook.com/sweetbabus",
+        "verified": true,
+        "evidenceUrl": "https://sweetbabus.com/",
+        "evidence": "Official granola maker website links both accounts and matches the fair Massachusetts Building vendor."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "the-big-fizz-e",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"The Big Fizz E\" Instagram Facebook",
+      "\"The Big Fizz-E\" official Instagram Facebook",
+      "\"Big Fizz\" \"sweetandsaltysnacks_\"",
+      "\"The Big Fizz E\" \"get your first\""
+    ],
+    "notes": "Exact-name searches found dedicated Instagram after excluding unrelated Georgia sweetandsaltysnacks_ account. Bio explicitly identifies Big E 2026 and sister stand Sweet & Salty. Scanned 12 grid entries Sep 10–19; opened Sep 16 menu announcement and Sep 17 location caption. Official fair menu already has eleven named sodas preserved under Sweet & Salty; clarified sister-stand location without duplicating or renaming PDF records. No video-only prices transcribed.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/thebigfizze/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/thebigfizze/p/DdaGx0ght_Q/",
+        "evidence": "Vendor caption and profile identify exact stand beside Giant Slide on Springfield Road, consistent with official fair menu; fair account responds to location post."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "The Big Fizz E operates beside Giant Slide on Springfield Road; profile identifies sister stand Sweet & Salty. Existing named soda descriptions clarified.",
+        "url": "https://www.instagram.com/thebigfizze/p/DdaGx0ght_Q/",
+        "kind": "location",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-17"
+      }
+    ]
+  },
+  {
+    "vendorId": "the-wine-loft",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "\"The Wine Loft\" Big E official",
+      "\"The Wine Loft\" \"Big E\" Toast"
+    ],
+    "notes": "Exact-name fair search found official historical fair announcement and a Toast menu at 1305 Memorial Avenue. Attempt to open ordering page aborted; no current menu or independent social account verified. Unrelated same-name bars excluded.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "turkey-legs",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Turkey Legs\" \"Big E\" vendor Instagram"
+    ],
+    "notes": "Searched generic stand name with Big E/vendor/Instagram terms. Results are other vendors and visitor videos; no operator can be safely assigned to the generic PDF stand. No speculative account or menu promoted.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "vermont-marshmallow-company",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Vermont Marshmallow Company\" official"
+    ],
+    "notes": "Read official website announcing current Big E attendance and linking social accounts. Scanned 12 Instagram grid entries including pinned posts; opened Sep 16 contingency plan, Sep 17 setup and Sep 19 product captions. Vendor plans S’mored Oreos Friday–Tuesday and S’Macarons Wednesday onward after shipping disruption. Replaced conflicting older Tuesday return statement with explicitly dated tentative vendor plan. Current caption supplies Oreo composition; no blanket gluten-free claim inferred merely from GF Oreo ingredient.",
+    "accounts": [
+      {
+        "url": "https://vermontmarshmallow.com/",
+        "verified": true,
+        "evidenceUrl": "https://vermontmarshmallow.com/",
+        "evidence": "Official vendor website announces Big E participation and links both accounts."
+      },
+      {
+        "url": "https://www.instagram.com/vermontmarshmallow/",
+        "verified": true,
+        "evidenceUrl": "https://vermontmarshmallow.com/",
+        "evidence": "Official vendor website announces Big E participation and links both accounts."
+      },
+      {
+        "url": "https://www.facebook.com/vermontmarshmallow/",
+        "verified": true,
+        "evidenceUrl": "https://vermontmarshmallow.com/",
+        "evidence": "Official vendor website announces Big E participation and links both accounts."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "S’mored Oreo uses handmade marshmallow torched on two GF Oreos, rolled in handmade caramelized graham-cracker crumble; existing listing enriched.",
+        "url": "https://www.instagram.com/vermontmarshmallow/p/DdeOboszuE2/",
+        "kind": "detail",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-19"
+      },
+      {
+        "detail": "Vendor’s contingency plan is S’mored Oreos Friday–Tuesday, S’Macarons returning Wednesday September 23. Plan remains tentative; corrects older Tuesday wording.",
+        "url": "https://www.instagram.com/vermontmarshmallow/p/DdXvobVTVa2/",
+        "kind": "detail",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-16"
+      }
+    ]
+  },
+  {
+    "vendorId": "all-american-craft-beer-bar-grill",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"All American Craft Beer\" \"Big E\" official",
+      "\"All American Craft Beer Bar\" Facebook"
+    ],
+    "notes": "Searched exact stand name with fair and Facebook terms. Results identify existing fair Stinger cheeseburger and historical foods, but no verified stand account. Unrelated all-American beer bars excluded; no old menu items promoted as current.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "ann-maries-candies",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Ann Marie’s Candies\" \"Big E\"",
+      "\"Ann Maries Candies\" Facebook"
+    ],
+    "notes": "Opened Instagram profile and historical Sep 15, 2023 Big E caption establishing identity. Visible grid entries reviewed through Jul 2024; matching Facebook Rehoboth profile latest post is Jul 11, 2024. No 2026 food update established; links are operator discovery only.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/annmariescandies/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/annmariescandies/p/CxNyMqTua8A/",
+        "evidence": "Instagram’s own historical Big E opening caption identifies stand; matching Facebook name, Rehoboth location and same latest July 2024 event establish paired profile."
+      },
+      {
+        "url": "https://www.facebook.com/annmariescandies/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/annmariescandies/p/CxNyMqTua8A/",
+        "evidence": "Instagram’s own historical Big E opening caption identifies stand; matching Facebook name, Rehoboth location and same latest July 2024 event establish paired profile."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "boardwok-noodles",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Boardwok Noodles\" \"Big E\""
+    ],
+    "notes": "Opened Facebook profile, linked CW Concessions website and its Board Wok Noodles page. Matching phone/email/name corroborate operator. Latest exposed Facebook post July 13 contains no menu text. General website noodles and Florida-only seafood not imported as fair menu. Current official Bargain Bites confirms noodle or rice sampler with honey/pineapple teriyaki chicken.",
+    "accounts": [
+      {
+        "url": "https://www.cwconcessions.com/board-wok-noodles",
+        "verified": true,
+        "evidenceUrl": "https://www.cwconcessions.com/board-wok-noodles",
+        "evidence": "Vendor Facebook links CW Concessions and has the same phone/email as its site, which explicitly identifies Board Wok Noodles."
+      },
+      {
+        "url": "https://www.facebook.com/boardwoknoodles/",
+        "verified": true,
+        "evidenceUrl": "https://www.cwconcessions.com/board-wok-noodles",
+        "evidence": "Vendor Facebook links CW Concessions and has the same phone/email as its site, which explicitly identifies Board Wok Noodles."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Noodle or Rice Sampler with Honey, Pineapple Teriyaki Chicken is a September 21 special at The Front Porch.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "bunis-bakery",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Bunis Bakery\" Big E official",
+      "\"Buni's Bakery\" Instagram Facebook cinnamon",
+      "\"Buni’s Bakery\" \"Big E\" Instagram"
+    ],
+    "notes": "Found bunis_bakery Instagram with fair/festival biography. Scanned 12 entries Aug 2022–Aug 2026; opened Aug 13 pretzel-dog caption (Iowa State Fair) and Mar 27 pastry caption (Miami Youth Fair). Neither establishes Big E menu or matching local operation. Fair directory locates Buni’s in Belleview Florida; unrelated Laguna cookie shop excluded. Candidate kept in research but not published without stronger identity evidence.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/bunis_bakery/",
+        "verified": false
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "chans-original-chicken-on-a-stick",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Chan’s Original Chicken\" \"Big E\"",
+      "\"Chan's\" \"Chicken on a Stick\" official",
+      "\"chans_chickenonastick\" \"Big E\""
+    ],
+    "notes": "Found chans_chickenonastick account and scanned its 12 grid entries May 2019–Aug 2023. Opened Sep 22, 2021 caption, which is Texas fair. Exact Big E account search did not corroborate identity. Candidate retained but no other-fair menu or account assigned to this stand.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/chans_chickenonastick/",
+        "verified": false
+      }
+    ],
+    "findings": []
+  }
+]

@@ -670,5 +670,74 @@
         "url": "https://www.instagram.com/storrowtontavern/"
       }
     ]
+  },
+  {
+    "name": "Sweet Babu's",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://sweetbabus.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/sweetbabus/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/sweetbabus"
+      }
+    ]
+  },
+  {
+    "name": "The Big Fizz E",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/thebigfizze/"
+      }
+    ]
+  },
+  {
+    "name": "Vermont Marshmallow Company",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://vermontmarshmallow.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/vermontmarshmallow/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/vermontmarshmallow/"
+      }
+    ]
+  },
+  {
+    "name": "Ann Marie’s Candies",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/annmariescandies/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/annmariescandies/"
+      }
+    ]
+  },
+  {
+    "name": "Boardwok Noodles",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.cwconcessions.com/board-wok-noodles"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/boardwoknoodles/"
+      }
+    ]
   }
 ]

@@ -26,6 +26,10 @@ const requiredReturningVendors = [
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
 const trustedFoodSources = new Set([
+  "https://www.instagram.com/thebigfizze/p/DdaGx0ght_Q/",
+  "https://www.instagram.com/vermontmarshmallow/p/DdXvobVTVa2/",
+  "https://www.instagram.com/vermontmarshmallow/p/DdeOboszuE2/",
+
   "https://www.instagram.com/poppiesconcessions/p/DdW_iUmpAlb/",
   "https://www.instagram.com/poppiesconcessions/p/DdeTYmQjy5R/",
 
@@ -251,7 +255,7 @@ describe("2026 catalog content", () => {
         "captain-nemos-savory-snack-wrap", "indian-restaurant-mixed-veggie-pakora", "west-springfield-lions-bacon-cheeseburger",
         "golden-kdog-cinnamozz-ball", "ny-style-pizza-hot-honey-chicken-pizza", "sugar-shakers-small-funnel-cake",
         "the-big-cheese-cheese-curds", "poutine-gourmet-mini-poutine", "kora-milas-cookie-dough-stick",
-        "french-fry-corndog", "funnel-cake-waffle-cone", "carnival-candy-cotton-candy", "midway-slice-of-cheese-pizza", "rudys-slush-regular-slush", "pickle-barrel-sirloin-tips-side-of-mushrooms",
+        "french-fry-corndog", "funnel-cake-waffle-cone", "carnival-candy-cotton-candy", "midway-slice-of-cheese-pizza", "rudys-slush-regular-slush", "pickle-barrel-sirloin-tips-side-of-mushrooms", "boardwok-noodles-noodle-or-rice-sampler",
       ]],
       ["maine-food-stops", [
         "maine-aquaculture-smoked-salmon-on-a-stick", "maine-aquaculture-captn-elis-root-beer", "maine-lobster-roll",
@@ -307,6 +311,7 @@ describe("2026 catalog content", () => {
       "Slice of Cheese Pizza",
       "Regular Slush",
       "Side of Mushrooms",
+      "Noodle or Rice Sampler",
     ]);
   });
 
