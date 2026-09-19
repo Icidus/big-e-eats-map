@@ -1511,5 +1511,23 @@
         "url": "https://www.facebook.com/Bean-Restaurant-Group-353788725167016"
       }
     ]
+  },
+  {
+    "name": "Yankee Boy",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/yankeeboybige/"
+      }
+    ]
+  },
+  {
+    "name": "Sweet & Salty",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/people/Sweet-and-Salty-Big-E/100054664771004/"
+      }
+    ]
   }
 ]

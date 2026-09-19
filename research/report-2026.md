@@ -1,6 +1,6 @@
 # Vendor research progress
 
-185 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+187 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -1594,6 +1594,28 @@ Official website says closed for The Big E and links matching Facebook; latest F
 - **lead / new-item**: Limeade listed in the official 2026 fair specials. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 - **lead / new-item**: Kettle Corn listed in the official 2026 fair specials. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 - **lead / new-item**: Popcorn listed in the official 2026 fair specials. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## Yankee Boy
+
+reviewed · 2026-09-19 · 15 catalog items
+
+Dedicated Instagram bio names Yankee Boy and International Lobster, with 2026 Big E dates. Opened all three own August 27 food captions: burger, lobster roll and wings already cataloged; enriched preparation details. Official fair corn special was missing.
+
+- Account: https://www.instagram.com/yankeeboybige/ (verified)
+- **confirmed / detail**: Half-pound Wagyu beef burger with lobster meat, lettuce, tomato, cheese, onion and Old Bay garlic aioli on a brioche bun. [Source](https://www.instagram.com/yankeeboybige/p/DcjqsrpuDvi/) (checked 2026-09-19)
+- **confirmed / detail**: Butter-sautéed lobster with Old Bay garlic aioli on toasted brioche, introduced for Yankee Boy’s 100th year at The Big E. [Source](https://www.instagram.com/yankeeboybige/p/DcjqVGeutSH/) (checked 2026-09-19)
+- **confirmed / detail**: Chicken wings smoked over oak and hickory, tossed in honey barbecue sauce and served with ranch dipping sauce. [Source](https://www.instagram.com/yankeeboybige/p/Dcjp7WiuX5B/) (checked 2026-09-19)
+- **lead / new-item**: Corn on the Cob appears on official fair specials list. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## Sweet & Salty
+
+reviewed · 2026-09-19 · 17 catalog items
+
+Dedicated Facebook bio explicitly says Big E 2026, gives fairgrounds address and landmarks. Opened latest September 19 pretzel-bites reel; existing item confirmed. Official fair cotton candy special was missing. Older 2025 search snippets were not treated as current menu evidence.
+
+- Account: https://www.facebook.com/people/Sweet-and-Salty-Big-E/100054664771004/ (verified)
+- **confirmed / confirmation**: Own September 19 post confirms sweet and salty pretzel bites; profile gives big-slide and circus landmarks. [Source](https://www.facebook.com/reel/1065751882930784/) (checked 2026-09-19)
+- **lead / new-item**: Cotton Candy appears on official fair specials list. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 
 ## Harpoon Beer Hall
 

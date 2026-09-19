@@ -1,0 +1,98 @@
+[
+  {
+    "vendorId": "yankee-boy",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Yankee Boy\" \"Big E\" Facebook Instagram"
+    ],
+    "notes": "Dedicated Instagram bio names Yankee Boy and International Lobster, with 2026 Big E dates. Opened all three own August 27 food captions: burger, lobster roll and wings already cataloged; enriched preparation details. Official fair corn special was missing.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/yankeeboybige/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/yankeeboybige/",
+        "evidence": "Dedicated vendor bio identifies the two fair stands and exact 2026 Big E dates; own fair food captions corroborate identity."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Half-pound Wagyu beef burger with lobster meat, lettuce, tomato, cheese, onion and Old Bay garlic aioli on a brioche bun.",
+        "url": "https://www.instagram.com/yankeeboybige/p/DcjqsrpuDvi/",
+        "kind": "detail",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-08-27"
+      },
+      {
+        "detail": "Butter-sautéed lobster with Old Bay garlic aioli on toasted brioche, introduced for Yankee Boy’s 100th year at The Big E.",
+        "url": "https://www.instagram.com/yankeeboybige/p/DcjqVGeutSH/",
+        "kind": "detail",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-08-27"
+      },
+      {
+        "detail": "Chicken wings smoked over oak and hickory, tossed in honey barbecue sauce and served with ranch dipping sauce.",
+        "url": "https://www.instagram.com/yankeeboybige/p/Dcjp7WiuX5B/",
+        "kind": "detail",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-08-27"
+      },
+      {
+        "detail": "Corn on the Cob appears on official fair specials list.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "sweet-salty",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Sweet and Salty\" \"Big E\" Facebook Instagram"
+    ],
+    "notes": "Dedicated Facebook bio explicitly says Big E 2026, gives fairgrounds address and landmarks. Opened latest September 19 pretzel-bites reel; existing item confirmed. Official fair cotton candy special was missing. Older 2025 search snippets were not treated as current menu evidence.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/people/Sweet-and-Salty-Big-E/100054664771004/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/people/Sweet-and-Salty-Big-E/100054664771004/",
+        "evidence": "Own bio explicitly identifies Big E 2026, fairgrounds address, and stand near the big slide and circus."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Own September 19 post confirms sweet and salty pretzel bites; profile gives big-slide and circus landmarks.",
+        "url": "https://www.facebook.com/reel/1065751882930784/",
+        "kind": "confirmation",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-19"
+      },
+      {
+        "detail": "Cotton Candy appears on official fair specials list.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  }
+]

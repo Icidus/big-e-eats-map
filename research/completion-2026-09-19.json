@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-09-19",
+  "vendorsReviewed": 187,
+  "catalogItems": 783,
+  "vendorProfiles": 115,
+  "bargainBitesCollectionItems": 59,
+  "descriptionSpacingCorrected": [
+    "apple-fries-creamsicle-slush",
+    "las-kangris-food-truck-baked-pork",
+    "pig-park-bbq-memphis-ribs",
+    "butcher-boys-italian-sausage-bites",
+    "butcher-boys-mini-kabob-bites",
+    "white-hut-plain-hot-dog",
+    "new-hampshire-building-kettle-korn",
+    "wurst-haus-pretzel-bites-beer-cheese",
+    "jacks-fries-hot-dog"
+  ],
+  "scope": "Initial public-web review attempt for every catalog vendor; inaccessible profiles and unsuccessful account searches remain documented, not claimed fully read.",
+  "pendingVendors": 0,
+  "validation": {
+    "applicationTestsPassed": 249,
+    "applicationTestFiles": 28,
+    "researchTestsPassed": 6,
+    "productionBuild": "passed",
+    "promotionReferences": "all referenced item IDs exist",
+    "pendingQueue": "No eligible vendors"
+  }
+}

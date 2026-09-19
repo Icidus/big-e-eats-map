@@ -2307,7 +2307,7 @@
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
     },
-    "description": "Orange slush over vanilla soft serve. The September21 Bargain Bites offer is a mini Jolly Rancher Creamsicle with vanilla soft serve and crunchy Nerds.",
+    "description": "Orange slush over vanilla soft serve. The September 21 Bargain Bites offer is a mini Jolly Rancher Creamsicle with vanilla soft serve and crunchy Nerds.",
     "supportingSources": [
       {
         "publisher": "The Big E",
@@ -4615,7 +4615,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Chicken wings smoked over oak and hickory, tossed in honey barbecue sauce and served with ranch dipping sauce.",
+    "supportingSources": [
+      {
+        "publisher": "Yankee Boy",
+        "title": "2026 Big E food announcement",
+        "url": "https://www.instagram.com/yankeeboybige/p/Dcjp7WiuX5B/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "yankee-boy-colossal-centennial-lobster-roll",
@@ -4638,7 +4647,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Butter-sautéed lobster with Old Bay garlic aioli on toasted brioche, introduced for Yankee Boy’s 100th year at The Big E.",
+    "supportingSources": [
+      {
+        "publisher": "Yankee Boy",
+        "title": "2026 Big E food announcement",
+        "url": "https://www.instagram.com/yankeeboybige/p/DcjqVGeutSH/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "yankee-boy-wagyu-beef-surf-n-turf-burger",
@@ -4661,7 +4679,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Half-pound Wagyu beef burger with lobster meat, lettuce, tomato, cheese, onion and Old Bay garlic aioli on a brioche bun.",
+    "supportingSources": [
+      {
+        "publisher": "Yankee Boy",
+        "title": "2026 Big E food announcement",
+        "url": "https://www.instagram.com/yankeeboybige/p/DcjqsrpuDvi/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "cindy-drive-in-cake-shake",
@@ -10194,7 +10221,7 @@
     "locationIds": [
       "food-court"
     ],
-    "description": "Baked pork in the Food Court, included in September21 Bargain Bites Day.",
+    "description": "Baked pork in the Food Court, included in September 21 Bargain Bites Day.",
     "categoryIds": [
       "global-eats"
     ],
@@ -12147,7 +12174,7 @@
     "locationIds": [
       "west-road"
     ],
-    "description": "Memphis-style ribs on East Road. One Memphis rib is the September21 Bargain Bites Day special.",
+    "description": "Memphis-style ribs on East Road. One Memphis rib is the September 21 Bargain Bites Day special.",
     "categoryIds": [
       "barbecue"
     ],
@@ -12768,7 +12795,7 @@
     "locationIds": [
       "springfield-road"
     ],
-    "description": "Pretzel Bites listed for Sweet & Salty in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Sweet or salty pretzel bites. Find Sweet & Salty near the big slide and Circus Spectacular on Springfield Road.",
     "categoryIds": [
       "pretzels-corn"
     ],
@@ -12782,7 +12809,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Sweet & Salty",
+        "title": "Pretzel bites at The Big E",
+        "url": "https://www.facebook.com/reel/1065751882930784/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "sweet-and-salty-butterbeer",
@@ -19026,7 +19061,7 @@
     "locationIds": [
       "new-england-avenue"
     ],
-    "description": "Italian sausage bites at the New England Avenue stand; September21 Bargain Bites Day offer.",
+    "description": "Italian sausage bites at the New England Avenue stand; September 21 Bargain Bites Day offer.",
     "categoryIds": [
       "hot-dogs-corndogs"
     ],
@@ -19050,7 +19085,7 @@
     "locationIds": [
       "new-england-avenue"
     ],
-    "description": "Mini kabob bites at the New England Avenue stand; September21 Bargain Bites Day offer.",
+    "description": "Mini kabob bites at the New England Avenue stand; September 21 Bargain Bites Day offer.",
     "categoryIds": [
       "barbecue"
     ],
@@ -19074,7 +19109,7 @@
     "locationIds": [
       "food-court"
     ],
-    "description": "Plain hot dog with ketchup or mustard in the Food Court; September21 Bargain Bites Day special.",
+    "description": "Plain hot dog with ketchup or mustard in the Food Court; September 21 Bargain Bites Day special.",
     "categoryIds": [
       "hot-dogs-corndogs"
     ],
@@ -19098,7 +19133,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "Kettle corn from Champions of New Hampshire Farms inside the New Hampshire Building, listed in the2026 exhibitor directory.",
+    "description": "Kettle corn from Champions of New Hampshire Farms inside the New Hampshire Building, listed in the 2026 exhibitor directory.",
     "categoryIds": [
       "pretzels-corn"
     ],
@@ -19122,7 +19157,7 @@
     "locationIds": [
       "commonwealth-avenue"
     ],
-    "description": "Plain pretzel bites with beer cheese on Commonwealth Avenue; September21 Bargain Bites Day special.",
+    "description": "Plain pretzel bites with beer cheese on Commonwealth Avenue; September 21 Bargain Bites Day special.",
     "categoryIds": [
       "pretzels-corn"
     ],
@@ -19148,7 +19183,7 @@
       "new-england-avenue",
       "industrial-avenue"
     ],
-    "description": "Hot dog at Jack’s Fries on New England Avenue and Industrial Avenue; September21 Bargain Bites Day special.",
+    "description": "Hot dog at Jack’s Fries on New England Avenue and Industrial Avenue; September 21 Bargain Bites Day special.",
     "categoryIds": [
       "hot-dogs-corndogs"
     ],
@@ -19938,6 +19973,54 @@
       "publisher": "Bean Restaurant Group",
       "title": "Harpoon Beer Hall — 2026 Big E menu",
       "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "yankee-boy-corn-on-the-cob",
+    "year": 2026,
+    "name": "Corn on the Cob",
+    "vendor": "Yankee Boy",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "Listed for the September 21, 2026 Bargain Bites event.",
+    "categoryIds": [
+      "pretzels-corn"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 Bargain Bites",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "sweet-salty-cotton-candy",
+    "year": 2026,
+    "name": "Cotton Candy",
+    "vendor": "Sweet & Salty",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "Listed for the September 21, 2026 Bargain Bites event.",
+    "categoryIds": [
+      "candy"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 Bargain Bites",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
       "accessedOn": "2026-09-19"
     }
   }

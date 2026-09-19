@@ -4,9 +4,9 @@ This is a supervised research queue for all 187 catalog vendor names. It generat
 
 ## Current state
 
-- Batches 001–018: 180 vendor records checked.
-- Five earlier pilot reviews imported; 185 vendor records checked in total.
-- Batch 019: ten vendors reserved in `next-batch.json`; these are still pending.
+- Batches 001–018: 180 vendor records checked; batch 019 checked the final two.
+- Five earlier pilot reviews imported; 187 vendor records checked in total.
+- Initial pass complete: all 187 vendors have a recorded review attempt. `next-batch.json` contains no pending vendors.
 - Two confirmed missing items from Bear’s: Bucket of Moinks and Bear Necessit-E Sandwich. See `report-2026.md` for exact citations, price evidence, and location details.
 - Batch 002: confirmed hot popovers with three butter choices at Delaney’s, Rhode Island-style calamari at Friskie Fries, and six crème brûlée flavors at Crème Bru LA. Exact post citations are in the report.
 - Batch 003: It’s Kelewele 31 has seven named food/drink offerings; Joey’s confirms four hand-pie fillings plus whoopie pies. Findings and limitations are in the report.
@@ -41,6 +41,10 @@ This is a supervised research queue for all 187 catalog vendor names. It generat
 - Batch 017 published: 2 listings added (752 total), 2 descriptions enriched, 8 vendor profiles linked (110 total). See `promoted-items-2026-09-19-batch-017.json`.
 
 - Batch 018 published: 29 listings added (781 total), 2 descriptions enriched, 4 vendor profiles linked (113 total). See `promoted-items-2026-09-19-batch-018.json`.
+
+- Batch 019 published: 2 listings added (783 total), 4 descriptions enriched, 2 vendor profiles linked (115 total). See `promoted-items-2026-09-19-batch-019.json`.
+
+- Completion audit: 783 catalog items, 115 vendor profiles with verified links, and 59 source-backed Bargain Bites entries in the dated collection. Review outcomes: 109 reviewed, 63 no account found, 15 inaccessible. These statuses describe the public-web attempt, not proof that no other information exists. See `completion-2026-09-19.json`.
 
 ## Commands
 
