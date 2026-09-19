@@ -1,0 +1,27 @@
+{
+  "batchId": "batch-015",
+  "itemIds": [
+    "butcher-boys-london-broil-pita",
+    "butcher-boys-italian-sausage-bites",
+    "butcher-boys-mini-kabob-bites",
+    "white-hut-plain-hot-dog"
+  ],
+  "updatedItemIds": [
+    "white-hut-uncrusta-double-burger",
+    "indian-restaurant-vada-pav",
+    "jims-deep-fried-birria-taco",
+    "jims-nacho-grande",
+    "apple-fries-best-of-both-worlds",
+    "apple-fries-creamsicle-slush"
+  ],
+  "vendorLinksAdded": [
+    "Tootsie’s Fried Dough",
+    "Vermont Building",
+    "Villa of Lebanon",
+    "White Hut in the Food Court",
+    "Apple Fries",
+    "Butcher Boys",
+    "Dolly’s Honky Tonk"
+  ],
+  "notes": "Four listings added, six descriptions enriched, seven profiles linked. Exact stand locations retained and unresolved Greek operator left as candidate only."
+}

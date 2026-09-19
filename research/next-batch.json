@@ -1,49 +1,53 @@
 {
-  "batchId": "batch-015",
+  "batchId": "batch-016",
   "vendors": [
     {
-      "vendorId": "the-indian-restaurant-in-the-food-court",
-      "name": "The Indian Restaurant in the Food Court",
+      "vendorId": "las-kangris-food-truck",
+      "name": "Las Kangris Food Truck",
       "catalogItems": [
         {
-          "id": "indian-restaurant-mixed-veggie-pakora",
-          "name": "Mixed Veggie Pakora"
+          "id": "las-kangris-yellow-rice",
+          "name": "Yellow Rice"
         },
         {
-          "id": "indian-restaurant-vada-pav",
-          "name": "Vada Pav"
+          "id": "las-kangris-food-truck-yellow-rice-with-pigeon-peas",
+          "name": "Yellow Rice with Pigeon Peas"
         },
         {
-          "id": "the-indian-restaurant-chicken-tikka-masala",
-          "name": "Chicken Tikka Masala"
+          "id": "las-kangris-food-truck-baked-pork",
+          "name": "Baked Pork"
         },
         {
-          "id": "the-indian-restaurant-naan-bread",
-          "name": "Naan Bread"
+          "id": "las-kangris-food-truck-baked-chicken",
+          "name": "Baked Chicken"
         },
         {
-          "id": "the-indian-restaurant-mix-parathas",
-          "name": "Mix Parathas"
+          "id": "las-kangris-food-truck-green-bananas-al-mojo",
+          "name": "Green Bananas al Mojo"
+        },
+        {
+          "id": "las-kangris-food-truck-tres-leches-cake",
+          "name": "Tres Leches Cake"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"The Indian Restaurant in the Food Court\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22The+Indian+Restaurant+in+the+Food+Court%22+%22Big+E%22+2026"
+          "query": "\"Las Kangris Food Truck\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Las+Kangris+Food+Truck%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"The Indian Restaurant in the Food Court\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22The+Indian+Restaurant+in+the+Food+Court%22+Instagram+Facebook+official"
+          "query": "\"Las Kangris Food Truck\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Las+Kangris+Food+Truck%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "the-indian-restaurant-in-the-food-court",
+        "vendorId": "las-kangris-food-truck",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"The Indian Restaurant in the Food Court\" \"Big E\" 2026",
-          "\"The Indian Restaurant in the Food Court\" Instagram Facebook official"
+          "\"Las Kangris Food Truck\" \"Big E\" 2026",
+          "\"Las Kangris Food Truck\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -51,48 +55,264 @@
       }
     },
     {
-      "vendorId": "tootsies-fried-dough",
-      "name": "Tootsie’s Fried Dough",
+      "vendorId": "new-hampshire-building",
+      "name": "New Hampshire Building",
       "catalogItems": [
         {
-          "id": "tootsies-deep-fried-cheesecake",
-          "name": "Deep-fried Cheesecake"
+          "id": "new-hampshire-building-apple-nachos",
+          "name": "Apple Nachos"
         },
         {
-          "id": "tootsie-s-fried-dough-fried-oreos",
+          "id": "new-hampshire-building-lobster-mac-and-cheese",
+          "name": "Lobster Mac & Cheese"
+        },
+        {
+          "id": "new-hampshire-building-maple-cotton-candy",
+          "name": "Maple Cotton Candy"
+        },
+        {
+          "id": "new-hampshire-building-mac-and-cheese",
+          "name": "NH Mac & Cheese"
+        },
+        {
+          "id": "new-hampshire-building-corn-on-the-cob",
+          "name": "Corn on the Cob"
+        },
+        {
+          "id": "new-hampshire-building-cider-slushies",
+          "name": "Cider Slushies"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"New Hampshire Building\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22New+Hampshire+Building%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"New Hampshire Building\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22New+Hampshire+Building%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "new-hampshire-building",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"New Hampshire Building\" \"Big E\" 2026",
+          "\"New Hampshire Building\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "pig-park-bbq",
+      "name": "Pig Park BBQ",
+      "catalogItems": [
+        {
+          "id": "pig-park-bbq-bbq-sandwiches",
+          "name": "BBQ Sandwiches"
+        },
+        {
+          "id": "pig-park-bbq-memphis-ribs",
+          "name": "Memphis Ribs"
+        },
+        {
+          "id": "pig-park-bbq-bbq-bowls",
+          "name": "BBQ Bowls"
+        },
+        {
+          "id": "pig-park-bbq-the-bomb-nachos",
+          "name": "The Bomb Nachos"
+        },
+        {
+          "id": "pig-park-bbq-pulled-pork",
+          "name": "Pulled Pork"
+        },
+        {
+          "id": "pig-park-bbq-brisket",
+          "name": "Brisket"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Pig Park BBQ\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Pig+Park+BBQ%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Pig Park BBQ\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Pig+Park+BBQ%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "pig-park-bbq",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Pig Park BBQ\" \"Big E\" 2026",
+          "\"Pig Park BBQ\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "poppies-belgian-waffles",
+      "name": "Poppie’s Belgian Waffles",
+      "catalogItems": [
+        {
+          "id": "poppie-s-belgian-waffles-fried-cheesecake",
+          "name": "Fried Cheesecake"
+        },
+        {
+          "id": "poppie-s-belgian-waffles-belgian-waffles",
+          "name": "Belgian Waffles"
+        },
+        {
+          "id": "poppie-s-belgian-waffles-fried-twinkies",
+          "name": "Fried Twinkies"
+        },
+        {
+          "id": "poppie-s-belgian-waffles-dubai-waffle",
+          "name": "Dubai Waffle"
+        },
+        {
+          "id": "poppies-belgian-waffles-corn-dogs",
+          "name": "Corn Dogs"
+        },
+        {
+          "id": "poppies-belgian-waffles-waffle-dogs",
+          "name": "Waffle Dogs"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Poppie’s Belgian Waffles\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Poppie%E2%80%99s+Belgian+Waffles%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Poppie’s Belgian Waffles\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Poppie%E2%80%99s+Belgian+Waffles%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "poppies-belgian-waffles",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Poppie’s Belgian Waffles\" \"Big E\" 2026",
+          "\"Poppie’s Belgian Waffles\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "poutine-gourmet",
+      "name": "Poutine Gourmet",
+      "catalogItems": [
+        {
+          "id": "poutine-gourmet-mini-poutine",
+          "name": "Mini Poutine"
+        },
+        {
+          "id": "poutine-hot-honey-and-bacon-poutine",
+          "name": "Hot Honey and Bacon Poutine"
+        },
+        {
+          "id": "poutine-gourmet-classic-poutine",
+          "name": "Classic Poutine"
+        },
+        {
+          "id": "poutine-gourmet-pulled-pork-poutine",
+          "name": "Pulled Pork Poutine"
+        },
+        {
+          "id": "poutine-gourmet-chicken-bacon-ranch-poutine",
+          "name": "Chicken Bacon Ranch Poutine"
+        },
+        {
+          "id": "poutine-gourmet-buffalo-chicken-poutine",
+          "name": "Buffalo Chicken Poutine"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Poutine Gourmet\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Poutine+Gourmet%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Poutine Gourmet\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Poutine+Gourmet%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "poutine-gourmet",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Poutine Gourmet\" \"Big E\" 2026",
+          "\"Poutine Gourmet\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "simply-gluten-free",
+      "name": "Simply Gluten Free",
+      "catalogItems": [
+        {
+          "id": "simply-gluten-free-funnel-cakes",
+          "name": "Funnel Cakes"
+        },
+        {
+          "id": "simply-gluten-free-fried-oreos",
           "name": "Fried Oreos"
         },
         {
-          "id": "tootsie-s-fried-dough-dough-nuggets",
-          "name": "Dough Nuggets"
+          "id": "simply-gluten-free-corndogs",
+          "name": "Corndogs"
         },
         {
-          "id": "tootsie-s-fried-dough-fried-candy-bars",
-          "name": "Fried Candy Bars"
+          "id": "simply-gluten-free-chicken-tenders",
+          "name": "Chicken Tenders"
         },
         {
-          "id": "tootsies-fried-dough-funnel-cake-sundaes",
-          "name": "Funnel Cake Sundaes"
+          "id": "simply-gluten-free-jumbo-mozzarella-stick",
+          "name": "Jumbo Mozzarella Stick"
+        },
+        {
+          "id": "simply-gluten-free-fountain-lemonade",
+          "name": "Fountain Lemonade"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Tootsie’s Fried Dough\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Tootsie%E2%80%99s+Fried+Dough%22+%22Big+E%22+2026"
+          "query": "\"Simply Gluten Free\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Simply+Gluten+Free%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Tootsie’s Fried Dough\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Tootsie%E2%80%99s+Fried+Dough%22+Instagram+Facebook+official"
+          "query": "\"Simply Gluten Free\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Simply+Gluten+Free%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "tootsies-fried-dough",
+        "vendorId": "simply-gluten-free",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Tootsie’s Fried Dough\" \"Big E\" 2026",
-          "\"Tootsie’s Fried Dough\" Instagram Facebook official"
+          "\"Simply Gluten Free\" \"Big E\" 2026",
+          "\"Simply Gluten Free\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -100,48 +320,52 @@
       }
     },
     {
-      "vendorId": "vermont-building",
-      "name": "Vermont Building",
+      "vendorId": "storrowton-soup-shack",
+      "name": "Storrowton Soup Shack",
       "catalogItems": [
         {
-          "id": "vermont-building-cider",
-          "name": "Cider"
+          "id": "storrowton-fried-boneless-chicken-basket",
+          "name": "Fried Boneless Chicken Basket"
         },
         {
-          "id": "vermont-building-pizza",
-          "name": "Pizza"
+          "id": "storrowton-soup-shack-soups",
+          "name": "Soups"
         },
         {
-          "id": "vermont-building-desserts",
-          "name": "Desserts"
+          "id": "storrowton-soup-shack-chowder",
+          "name": "Chowder"
         },
         {
-          "id": "vermont-building-waffle-bowls",
-          "name": "Waffle Bowls"
+          "id": "storrowton-soup-shack-mac-and-cheese",
+          "name": "Mac & Cheese"
         },
         {
-          "id": "vermont-building-vermont-beers",
-          "name": "Vermont Beers"
+          "id": "storrowton-soup-shack-bread-bowls",
+          "name": "Bread Bowls"
+        },
+        {
+          "id": "storrowton-soup-shack-mac-and-cheese-in-bread-bowls",
+          "name": "Mac & Cheese in Bread Bowls"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Vermont Building\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Vermont+Building%22+%22Big+E%22+2026"
+          "query": "\"Storrowton Soup Shack\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Storrowton+Soup+Shack%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Vermont Building\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Vermont+Building%22+Instagram+Facebook+official"
+          "query": "\"Storrowton Soup Shack\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Storrowton+Soup+Shack%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "vermont-building",
+        "vendorId": "storrowton-soup-shack",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Vermont Building\" \"Big E\" 2026",
-          "\"Vermont Building\" Instagram Facebook official"
+          "\"Storrowton Soup Shack\" \"Big E\" 2026",
+          "\"Storrowton Soup Shack\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -149,309 +373,52 @@
       }
     },
     {
-      "vendorId": "villa-of-lebanon",
-      "name": "Villa of Lebanon",
+      "vendorId": "west-springfield-firehouse-restaurant",
+      "name": "West Springfield Firehouse Restaurant",
       "catalogItems": [
         {
-          "id": "villa-of-lebanon-hummus",
-          "name": "Hummus"
+          "id": "west-springfield-firehouse-restaurant-full-egg-breakfast",
+          "name": "Full Egg Breakfast"
         },
         {
-          "id": "villa-of-lebanon-meat-pies",
-          "name": "Meat Pies"
+          "id": "west-springfield-firehouse-restaurant-breakfast-sandwiches",
+          "name": "Breakfast Sandwiches"
         },
         {
-          "id": "villa-of-lebanon-baklava",
-          "name": "Baklava"
+          "id": "west-springfield-firehouse-restaurant-deli-sandwiches",
+          "name": "Deli Sandwiches"
         },
         {
-          "id": "villa-of-lebanon-kofta-kabobs",
-          "name": "Kofta Kabobs"
+          "id": "west-springfield-firehouse-restaurant-chowder",
+          "name": "Chowder"
         },
         {
-          "id": "villa-of-lebanon-shawarma",
-          "name": "Shawarma"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Villa of Lebanon\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Villa+of+Lebanon%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Villa of Lebanon\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Villa+of+Lebanon%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "villa-of-lebanon",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Villa of Lebanon\" \"Big E\" 2026",
-          "\"Villa of Lebanon\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "white-hut-in-the-food-court",
-      "name": "White Hut in the Food Court",
-      "catalogItems": [
-        {
-          "id": "white-hut-uncrusta-double-burger",
-          "name": "Uncrusta Double Burger"
-        },
-        {
-          "id": "white-hut-two-foot-chili-cheese-dog",
-          "name": "Two-foot Chili Cheese Dog"
-        },
-        {
-          "id": "white-hut-in-the-food-court-burgers",
+          "id": "west-springfield-firehouse-restaurant-burgers",
           "name": "Burgers"
         },
         {
-          "id": "white-hut-in-the-food-court-fries",
-          "name": "Fries"
-        },
-        {
-          "id": "white-hut-in-the-food-court-chicken-tenders",
-          "name": "Chicken Tenders"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"White Hut in the Food Court\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22White+Hut+in+the+Food+Court%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"White Hut in the Food Court\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22White+Hut+in+the+Food+Court%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "white-hut-in-the-food-court",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"White Hut in the Food Court\" \"Big E\" 2026",
-          "\"White Hut in the Food Court\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "apple-fries",
-      "name": "Apple Fries",
-      "catalogItems": [
-        {
-          "id": "apple-fries-best-of-both-worlds",
-          "name": "The Best of Both Worlds Apple Fries"
-        },
-        {
-          "id": "apple-fries-creamsicle-slush",
-          "name": "Creamsicle Slush"
-        },
-        {
-          "id": "apple-fries-jolly-ranchers-extreme-slush",
-          "name": "Jolly Ranchers Extreme Slush"
-        },
-        {
-          "id": "apple-fries-apple-fries",
-          "name": "Apple Fries"
-        },
-        {
-          "id": "apple-fries-bacon-caramel-apple-fries",
-          "name": "Bacon Caramel Apple Fries"
-        },
-        {
-          "id": "apple-fries-apple-fry-sundaes",
-          "name": "Apple Fry Sundaes"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Apple Fries\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Apple+Fries%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Apple Fries\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Apple+Fries%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "apple-fries",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Apple Fries\" \"Big E\" 2026",
-          "\"Apple Fries\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "butcher-boys",
-      "name": "Butcher Boys",
-      "catalogItems": [
-        {
-          "id": "butcher-boys-pop-pops-greek-burger",
-          "name": "Pop Pop’s Greek Burger"
-        },
-        {
-          "id": "butcher-boys-rice-and-bean-bowls",
-          "name": "Rice and Bean Bowls"
-        },
-        {
-          "id": "butcher-boys-london-broil-steak-sandwich",
-          "name": "London Broil Steak Sandwich"
-        },
-        {
-          "id": "butcher-boys-charbroiled-chicken-pita",
-          "name": "Charbroiled Chicken Pita"
-        },
-        {
-          "id": "butcher-boys-gyros",
-          "name": "Gyros"
-        },
-        {
-          "id": "butcher-boys-italian-sausage",
-          "name": "Italian Sausage"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Butcher Boys\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Butcher+Boys%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Butcher Boys\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Butcher+Boys%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "butcher-boys",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Butcher Boys\" \"Big E\" 2026",
-          "\"Butcher Boys\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "dimitris-greek-food",
-      "name": "Dimitri’s Greek Food",
-      "catalogItems": [
-        {
-          "id": "dimitri-s-greek-food-pita",
-          "name": "Pita"
-        },
-        {
-          "id": "dimitri-s-greek-food-falafel",
-          "name": "Falafel"
-        },
-        {
-          "id": "dimitri-s-greek-food-hummus",
-          "name": "Hummus"
-        },
-        {
-          "id": "dimitri-s-greek-food-baklava",
-          "name": "Baklava"
-        },
-        {
-          "id": "dimitri-s-greek-food-gyros",
-          "name": "Gyros"
-        },
-        {
-          "id": "dimitri-s-greek-food-kabobs",
-          "name": "Kabobs"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Dimitri’s Greek Food\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Dimitri%E2%80%99s+Greek+Food%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Dimitri’s Greek Food\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Dimitri%E2%80%99s+Greek+Food%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "dimitris-greek-food",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Dimitri’s Greek Food\" \"Big E\" 2026",
-          "\"Dimitri’s Greek Food\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "dollys-honky-tonk",
-      "name": "Dolly’s Honky Tonk",
-      "catalogItems": [
-        {
-          "id": "dollys-classic-cheddar-cheese-dog",
-          "name": "Classic Cheddar Cheese Dog"
-        },
-        {
-          "id": "dollys-chili-cheese-dog",
-          "name": "Chili Cheese Dog"
-        },
-        {
-          "id": "dollys-pulled-pork-cheese-dog",
-          "name": "Pulled Pork Cheese Dog"
-        },
-        {
-          "id": "dolly-s-honky-tonk-beer-boot",
-          "name": "Beer Boot"
-        },
-        {
-          "id": "dolly-s-honky-tonk-cowboy-nachos",
-          "name": "Cowboy Nachos"
-        },
-        {
-          "id": "dollys-honky-tonk-hot-dogs",
+          "id": "west-springfield-firehouse-restaurant-hot-dogs",
           "name": "Hot Dogs"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Dolly’s Honky Tonk\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Dolly%E2%80%99s+Honky+Tonk%22+%22Big+E%22+2026"
+          "query": "\"West Springfield Firehouse Restaurant\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22West+Springfield+Firehouse+Restaurant%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Dolly’s Honky Tonk\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Dolly%E2%80%99s+Honky+Tonk%22+Instagram+Facebook+official"
+          "query": "\"West Springfield Firehouse Restaurant\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22West+Springfield+Firehouse+Restaurant%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "dollys-honky-tonk",
+        "vendorId": "west-springfield-firehouse-restaurant",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Dolly’s Honky Tonk\" \"Big E\" 2026",
-          "\"Dolly’s Honky Tonk\" Instagram Facebook official"
+          "\"West Springfield Firehouse Restaurant\" \"Big E\" 2026",
+          "\"West Springfield Firehouse Restaurant\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -459,52 +426,109 @@
       }
     },
     {
-      "vendorId": "jims-deep-fried-taco",
-      "name": "Jim’s Deep Fried Taco",
+      "vendorId": "wurst-haus",
+      "name": "Wurst Haus",
       "catalogItems": [
         {
-          "id": "jims-deep-fried-birria-taco",
-          "name": "Deep-fried Birria Taco"
+          "id": "wurst-haus-german-mac-n-cheese",
+          "name": "German Mac ‘n Cheese"
         },
         {
-          "id": "jims-nacho-grande",
-          "name": "The Nacho Grande"
+          "id": "wurst-haus-apple-pretzel-bites",
+          "name": "Apple Pretzel Bites"
         },
         {
-          "id": "jim-s-deep-fried-tacos-deep-fried-tacos",
-          "name": "Deep-Fried Tacos"
+          "id": "wurst-haus-german-giant-10-inch-bratwurst",
+          "name": "German Giant 10-inch Bratwurst"
         },
         {
-          "id": "jim-s-deep-fried-tacos-bbq-brisket-mac-taco",
-          "name": "BBQ Brisket Mac Taco"
+          "id": "wurst-haus-beer-boot",
+          "name": "Beer Boot"
         },
         {
-          "id": "jim-s-deep-fried-tacos-pot-roast-sundae-taco",
-          "name": "Pot Roast Sundae Taco"
+          "id": "wurst-haus-the-mighty-pretzel",
+          "name": "The Mighty Pretzel"
         },
         {
-          "id": "jim-s-deep-fried-tacos-buffalo-chicken-taco",
-          "name": "Buffalo Chicken Taco"
+          "id": "wurst-haus-giant-schnitzel-sandwich",
+          "name": "Giant Schnitzel Sandwich"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Jim’s Deep Fried Taco\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Jim%E2%80%99s+Deep+Fried+Taco%22+%22Big+E%22+2026"
+          "query": "\"Wurst Haus\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Wurst+Haus%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Jim’s Deep Fried Taco\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Jim%E2%80%99s+Deep+Fried+Taco%22+Instagram+Facebook+official"
+          "query": "\"Wurst Haus\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Wurst+Haus%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "jims-deep-fried-taco",
+        "vendorId": "wurst-haus",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Jim’s Deep Fried Taco\" \"Big E\" 2026",
-          "\"Jim’s Deep Fried Taco\" Instagram Facebook official"
+          "\"Wurst Haus\" \"Big E\" 2026",
+          "\"Wurst Haus\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "jacks-fries",
+      "name": "Jack’s Fries",
+      "catalogItems": [
+        {
+          "id": "jacks-chicken-bacon-ranch-fries",
+          "name": "Jack’s Signature Fries"
+        },
+        {
+          "id": "jacks-fried-spicy-pickle-fries",
+          "name": "Fried Spicy Pickle Fries"
+        },
+        {
+          "id": "jack-s-fries-millennium-chips",
+          "name": "Millennium Chips"
+        },
+        {
+          "id": "jack-s-fries-dough-nuggets",
+          "name": "Dough Nuggets"
+        },
+        {
+          "id": "jack-s-fries-funnel-cakes",
+          "name": "Funnel Cakes"
+        },
+        {
+          "id": "jacks-fries-chicken-tenders",
+          "name": "Chicken Tenders"
+        },
+        {
+          "id": "jacks-fries-corn-dogs",
+          "name": "Corn Dogs"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Jack’s Fries\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Jack%E2%80%99s+Fries%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Jack’s Fries\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Jack%E2%80%99s+Fries%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "jacks-fries",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Jack’s Fries\" \"Big E\" 2026",
+          "\"Jack’s Fries\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],

@@ -2218,7 +2218,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Apple fries with Ghirardelli caramel on one half and Mike’s Hot Honey on the other, on East Road."
   },
   {
     "id": "apple-fries-creamsicle-slush",
@@ -2242,7 +2243,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Orange slush over vanilla soft serve. The September21 Bargain Bites offer is a mini Jolly Rancher Creamsicle with vanilla soft serve and crunchy Nerds.",
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "Bargain Bites Day",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "barbies-frozen-cheesecake-dipped-in-chocolate",
@@ -3373,7 +3383,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Deep-fried taco with shredded Mexican beef, melted Mexican-blend cheese, onion and cilantro. Served with birria consommé for dipping and a lime wedge."
   },
   {
     "id": "jims-nacho-grande",
@@ -3396,7 +3407,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Tortilla chips and nacho cheese with beef, chicken or buffalo chicken, plus lettuce, onions, tomatoes, olives, jalapeños, cilantro and homemade Jimmy Saas sauce."
   },
   {
     "id": "las-kangris-yellow-rice",
@@ -3938,7 +3950,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Spiced potato fritter in a soft bun with Indian chutneys; a spicy, tangy and savory bite in the Food Court on East Road."
   },
   {
     "id": "italian-pavillion-arancini",
@@ -4427,7 +4440,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Double cheeseburger served between two deep-fried Uncrustables. Find White Hut in the Food Court before the Midway.",
+    "supportingSources": [
+      {
+        "publisher": "White Hut",
+        "title": "First Uncrustadouble at The Big E",
+        "url": "https://www.instagram.com/whitehut/p/Ddbn65lNZbp/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "wurst-haus-german-mac-n-cheese",
@@ -18856,6 +18878,102 @@
     "tagIds": [
       "savory",
       "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "butcher-boys-london-broil-pita",
+    "year": 2026,
+    "name": "London Broil Pita",
+    "vendor": "Butcher Boys",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "London Broil steak served in a pita at The Front Porch, as listed on the current official fair menu.",
+    "categoryIds": [
+      "sandwiches"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "butcher-boys-italian-sausage-bites",
+    "year": 2026,
+    "name": "Italian Sausage Bites",
+    "vendor": "Butcher Boys",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Italian sausage bites at the New England Avenue stand; September21 Bargain Bites Day offer.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "butcher-boys-mini-kabob-bites",
+    "year": 2026,
+    "name": "Mini Kabob Bites",
+    "vendor": "Butcher Boys",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Mini kabob bites at the New England Avenue stand; September21 Bargain Bites Day offer.",
+    "categoryIds": [
+      "barbecue"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "white-hut-plain-hot-dog",
+    "year": 2026,
+    "name": "Plain Hot Dog",
+    "vendor": "White Hut in the Food Court",
+    "locationIds": [
+      "food-court"
+    ],
+    "description": "Plain hot dog with ketchup or mustard in the Food Court; September21 Bargain Bites Day special.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory"
     ],
     "dietaryClaims": [],
     "isNewFor2026": false,

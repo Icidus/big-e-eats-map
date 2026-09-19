@@ -26,6 +26,8 @@ const requiredReturningVendors = [
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
 const trustedFoodSources = new Set([
+  "https://www.instagram.com/whitehut/p/Ddbn65lNZbp/",
+
   "https://www.instagram.com/koraandmilascookiedough/p/DdZ6p68h6qt/",
   "https://www.instagram.com/soul_fully_vegan/p/Ddb8uH0RyAG/",
   "https://www.mackenssliders.com/",

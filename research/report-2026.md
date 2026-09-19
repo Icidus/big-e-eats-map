@@ -1,6 +1,6 @@
 # Vendor research progress
 
-145 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+155 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -1110,6 +1110,64 @@ Read matching Facebook: current Big E White Chocolate Raspberry announcement con
 
 - Account: https://www.facebook.com/Thedonutfamily/ (verified)
 
+## The Indian Restaurant in the Food Court
+
+no-account-found · 2026-09-19 · 5 catalog items
+
+Exact fair search found current fair and news, no verified operator. Official Vada Pav recipe enriches existing item; pakora special already present.
+
+
+## Tootsie’s Fried Dough
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Opened Facebook account now named Jack’s Fries; own current Big E post and linked website explicitly naming Tootsie’s Fried Dough establish shared operator. No other-fair Wisconsin menu imported.
+
+- Account: https://savannahgrout.wixsite.com/jacksfries (verified)
+- Account: https://www.facebook.com/tootsies.fried.dough/ (verified)
+
+## Vermont Building
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Read official Vermont government2026 exhibitor list. Linked umbrella to state page; generic saved-guide foods cannot safely all be reassigned to individual exhibitors. No speculative operator mergers.
+
+- Account: https://agriculture.vermont.gov/bige (verified)
+
+## Villa of Lebanon
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Read South Windsor restaurant site and its Facebook link. Historical Big E debut coverage identifies same South Windsor operator. General restaurant menu excluded.
+
+- Account: https://www.villapizzasouthwindsor.com/ (verified)
+- Account: https://www.facebook.com/VillaPizzaSouthWindsor/ (verified)
+
+## Apple Fries
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Opened Facebook current Big E post and linked matching Instagram with Big E promotional reels. No menu inferred from thumbnail text. Official fair confirms both sauces and slush recipes.
+
+- Account: https://www.facebook.com/applefriesFL/ (verified)
+- Account: https://www.instagram.com/applefriesfl/ (verified)
+
+## Dimitri’s Greek Food
+
+no-account-found · 2026-09-19 · 6 catalog items
+
+Searched Dimitri/Demetri variants and opened touring-style Demetri’s Greek Foods Facebook. No posts/location evidence exposed, so no claimed Big E identity or restaurant menu imported.
+
+- Account: https://www.facebook.com/p/Demetris-Greek-Foods-100054850206443/ (candidate)
+
+## Dolly’s Honky Tonk
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Opened official fair venue page; linked directly as vendor venue website. Current New Foods lists already cataloged three dogs. No unrelated Dolly Parton business account assigned.
+
+- Account: https://www.thebige.com/p/entertainment/dollys-honky-tonk (verified)
+
 ## Dr. Vegetable
 
 reviewed · 2026-09-19 · 6 catalog items
@@ -1148,6 +1206,13 @@ Verified touring operator website and linked Instagram, excluding unrelated Spok
 
 - Account: https://fluffyshandcutdonuts.com/ (verified)
 - Account: https://www.instagram.com/fluffysdonuts/ (verified)
+
+## Jim’s Deep Fried Taco
+
+no-account-found · 2026-09-19 · 6 catalog items
+
+Exact name and Facebook query found fair news and visitor content, no verified operator account. Current official menu gives complete birria/nacho descriptions; enriched both.
+
 
 ## Joey's Deli & Market
 
@@ -1207,6 +1272,17 @@ no-account-found · 2026-09-19 · 6 catalog items
 Exact fair-name search returned official/news listings and unrelated media Hub. No verified operator. Official current Small Cheese Fries special missing; added.
 
 
+## White Hut in the Food Court
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Official website links profiles and Big E location. Opened Sep18 own Uncrustadouble caption: double cheeseburger between two deep-fried Uncrustables, Food Court before Midway. Added plain hot dog official bargain offer.
+
+- Account: https://www.whitehut.com/ (verified)
+- Account: https://www.instagram.com/whitehut/ (verified)
+- Account: https://www.facebook.com/whitehutws/ (verified)
+- **confirmed / detail**: Own opening-day post describes double cheeseburger between two fried Uncrustables. [Source](https://www.instagram.com/whitehut/p/Ddbn65lNZbp/) (checked 2026-09-19)
+
 ## Golden K-Dog
 
 no-account-found · 2026-09-19 · 7 catalog items
@@ -1251,6 +1327,15 @@ Imported from docs/vendor-instagram-pilot-2026-09-19.md; limited public review, 
 - Account: https://www.instagram.com/tripps_207/ (verified)
 - **confirmed / location**: Chicken fingers and fried Oreos confirmed; new spot at village entrance off Commonwealth Avenue. Both items already in catalog; reconcile entrance wording with current Craft Common area before changing map. [Source](https://www.instagram.com/tripps_207/p/DdZ_1_oDFYE/) (checked 2026-09-19)
 - **confirmed / confirmation**: French fries confirmed; vendor identifies Penobscot McCrum as supplier. Existing catalog item. [Source](https://www.instagram.com/tripps_207/p/DdeZBh4x4P3/) (checked 2026-09-19)
+
+## Butcher Boys
+
+reviewed · 2026-09-19 · 9 catalog items
+
+Official operator website explicitly names Eastern States fair route and linked Instagram. Sep18 own Greek burger caption confirms existing item. Current fair New Foods also lists London Broil in a pita at Front Porch; added separately from sandwich. Bargain Bites gives location-specific bites.
+
+- Account: https://butcher-boys.com/ (verified)
+- Account: https://www.instagram.com/thebutcherboys82/ (verified)
 
 ## Moolicious Farm
 

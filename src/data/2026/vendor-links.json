@@ -1168,5 +1168,92 @@
         "url": "https://www.facebook.com/Thedonutfamily/"
       }
     ]
+  },
+  {
+    "name": "Tootsie’s Fried Dough",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://savannahgrout.wixsite.com/jacksfries"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/tootsies.fried.dough/"
+      }
+    ]
+  },
+  {
+    "name": "Vermont Building",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://agriculture.vermont.gov/bige"
+      }
+    ]
+  },
+  {
+    "name": "Villa of Lebanon",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.villapizzasouthwindsor.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/VillaPizzaSouthWindsor/"
+      }
+    ]
+  },
+  {
+    "name": "White Hut in the Food Court",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.whitehut.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/whitehut/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/whitehutws/"
+      }
+    ]
+  },
+  {
+    "name": "Apple Fries",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/applefriesFL/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/applefriesfl/"
+      }
+    ]
+  },
+  {
+    "name": "Butcher Boys",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://butcher-boys.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/thebutcherboys82/"
+      }
+    ]
+  },
+  {
+    "name": "Dolly’s Honky Tonk",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.thebige.com/p/entertainment/dollys-honky-tonk"
+      }
+    ]
   }
 ]

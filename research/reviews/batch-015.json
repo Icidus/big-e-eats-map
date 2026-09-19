@@ -1,0 +1,213 @@
+[
+  {
+    "vendorId": "the-indian-restaurant-in-the-food-court",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Indian Restaurant\" \"Big E\" official"
+    ],
+    "notes": "Exact fair search found current fair and news, no verified operator. Official Vada Pav recipe enriches existing item; pakora special already present.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "tootsies-fried-dough",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Tootsie’s Fried Dough\""
+    ],
+    "notes": "Opened Facebook account now named Jack’s Fries; own current Big E post and linked website explicitly naming Tootsie’s Fried Dough establish shared operator. No other-fair Wisconsin menu imported.",
+    "accounts": [
+      {
+        "url": "https://savannahgrout.wixsite.com/jacksfries",
+        "verified": true,
+        "evidenceUrl": "https://savannahgrout.wixsite.com/jacksfries",
+        "evidence": "Website explicitly identifies Tootsie’s Fried Dough and Jack’s Fries; linked Facebook has current Big E opening post."
+      },
+      {
+        "url": "https://www.facebook.com/tootsies.fried.dough/",
+        "verified": true,
+        "evidenceUrl": "https://savannahgrout.wixsite.com/jacksfries",
+        "evidence": "Website explicitly identifies Tootsie’s Fried Dough and Jack’s Fries; linked Facebook has current Big E opening post."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "vermont-building",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Vermont Building\" \"Big E\" official"
+    ],
+    "notes": "Read official Vermont government2026 exhibitor list. Linked umbrella to state page; generic saved-guide foods cannot safely all be reassigned to individual exhibitors. No speculative operator mergers.",
+    "accounts": [
+      {
+        "url": "https://agriculture.vermont.gov/bige",
+        "verified": true,
+        "evidenceUrl": "https://agriculture.vermont.gov/bige",
+        "evidence": "Official state agency2026 Vermont Building exhibitor page."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "villa-of-lebanon",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Villa of Lebanon\" \"Big E\""
+    ],
+    "notes": "Read South Windsor restaurant site and its Facebook link. Historical Big E debut coverage identifies same South Windsor operator. General restaurant menu excluded.",
+    "accounts": [
+      {
+        "url": "https://www.villapizzasouthwindsor.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.villapizzasouthwindsor.com/",
+        "evidence": "Official South Windsor restaurant site links Facebook; historical fair coverage identifies same operator."
+      },
+      {
+        "url": "https://www.facebook.com/VillaPizzaSouthWindsor/",
+        "verified": true,
+        "evidenceUrl": "https://www.villapizzasouthwindsor.com/",
+        "evidence": "Official South Windsor restaurant site links Facebook; historical fair coverage identifies same operator."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "white-hut-in-the-food-court",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"White Hut\" \"Big E\""
+    ],
+    "notes": "Official website links profiles and Big E location. Opened Sep18 own Uncrustadouble caption: double cheeseburger between two deep-fried Uncrustables, Food Court before Midway. Added plain hot dog official bargain offer.",
+    "accounts": [
+      {
+        "url": "https://www.whitehut.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.whitehut.com/",
+        "evidence": "Official site directly links profiles and names its Big E location."
+      },
+      {
+        "url": "https://www.instagram.com/whitehut/",
+        "verified": true,
+        "evidenceUrl": "https://www.whitehut.com/",
+        "evidence": "Official site directly links profiles and names its Big E location."
+      },
+      {
+        "url": "https://www.facebook.com/whitehutws/",
+        "verified": true,
+        "evidenceUrl": "https://www.whitehut.com/",
+        "evidence": "Official site directly links profiles and names its Big E location."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Own opening-day post describes double cheeseburger between two fried Uncrustables.",
+        "url": "https://www.instagram.com/whitehut/p/Ddbn65lNZbp/",
+        "kind": "detail",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "vendorId": "apple-fries",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Apple Fries\" \"Big E\" official"
+    ],
+    "notes": "Opened Facebook current Big E post and linked matching Instagram with Big E promotional reels. No menu inferred from thumbnail text. Official fair confirms both sauces and slush recipes.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/applefriesFL/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/applefriesFL/",
+        "evidence": "Own current Big E post and matching Instagram handle in vendor bio."
+      },
+      {
+        "url": "https://www.instagram.com/applefriesfl/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/applefriesFL/",
+        "evidence": "Own current Big E post and matching Instagram handle in vendor bio."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "butcher-boys",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Butcher Boys\" \"Big E\""
+    ],
+    "notes": "Official operator website explicitly names Eastern States fair route and linked Instagram. Sep18 own Greek burger caption confirms existing item. Current fair New Foods also lists London Broil in a pita at Front Porch; added separately from sandwich. Bargain Bites gives location-specific bites.",
+    "accounts": [
+      {
+        "url": "https://butcher-boys.com/",
+        "verified": true,
+        "evidenceUrl": "https://butcher-boys.com/about-butcher-boys/",
+        "evidence": "Official site explicitly names fair route and links Instagram; own opening-day post confirms Greek burger."
+      },
+      {
+        "url": "https://www.instagram.com/thebutcherboys82/",
+        "verified": true,
+        "evidenceUrl": "https://butcher-boys.com/about-butcher-boys/",
+        "evidence": "Official site explicitly names fair route and links Instagram; own opening-day post confirms Greek burger."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "dimitris-greek-food",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Dimitri’s Greek Food\" \"Big E\""
+    ],
+    "notes": "Searched Dimitri/Demetri variants and opened touring-style Demetri’s Greek Foods Facebook. No posts/location evidence exposed, so no claimed Big E identity or restaurant menu imported.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/p/Demetris-Greek-Foods-100054850206443/",
+        "verified": false
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "dollys-honky-tonk",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Dolly’s Honky Tonk\" \"Big E\""
+    ],
+    "notes": "Opened official fair venue page; linked directly as vendor venue website. Current New Foods lists already cataloged three dogs. No unrelated Dolly Parton business account assigned.",
+    "accounts": [
+      {
+        "url": "https://www.thebige.com/p/entertainment/dollys-honky-tonk",
+        "verified": true,
+        "evidenceUrl": "https://www.thebige.com/p/entertainment/dollys-honky-tonk",
+        "evidence": "Official venue-specific fair page."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "jims-deep-fried-taco",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Jim’s Deep Fried Taco\""
+    ],
+    "notes": "Exact name and Facebook query found fair news and visitor content, no verified operator account. Current official menu gives complete birria/nacho descriptions; enriched both.",
+    "accounts": [],
+    "findings": []
+  }
+]
