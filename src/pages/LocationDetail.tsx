@@ -86,7 +86,7 @@ export function LocationMapPanel({ location, itemCount }: { location: FairLocati
           {destination.coordinates.precision === "estimated" ? <p className="mt-2 inline-block border border-dashed border-primary/60 px-2 py-0.5 font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-primary">Approximate</p> : null}
           <div className="mt-4 h-72 border border-border">
             <Suspense fallback={<div className="flex h-full items-center justify-center text-sm text-muted-foreground">Loading map…</div>}>
-              <FairMap locations={[location]} itemCounts={new Map([[location.id, itemCount]])} destination={destination} onSelectLocation={() => undefined} />
+              {!import.meta.env.SSR ? <FairMap locations={[location]} itemCounts={new Map([[location.id, itemCount]])} destination={destination} onSelectLocation={() => undefined} /> : <p className="p-4 text-sm">Open the interactive map for this food area.</p>}
             </Suspense>
           </div>
           <div className="mt-4 flex flex-col gap-2">

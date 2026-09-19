@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/verify-no-legacy-map-assets.mjs",
+    "build": "vite build && node scripts/prerender.mjs && node scripts/verify-no-legacy-map-assets.mjs && node scripts/verify-seo.mjs",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",

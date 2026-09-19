@@ -46,3 +46,7 @@ npm run build
 ## GitHub Pages deployment
 
 The GitHub Actions workflow at `.github/workflows/deploy.yml` deploys pushes to `main`. It installs dependencies with `npm ci`, builds the site, copies the built entry point to `dist/404.html` for SPA fallback, uploads the artifact, and deploys it with GitHub Pages. Run the production build locally before merging a deployment change.
+
+## Search engine setup
+
+The production build generates crawlable HTML, individual vendor menus, page metadata and a sitemap. See [Google Search setup](docs/SEO.md) for deployment checks and the owner’s Search Console verification/submission steps.

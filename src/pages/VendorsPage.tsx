@@ -34,7 +34,7 @@ export function VendorsPage() {
       {results.length ? <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{results.map((vendor) => <article key={vendor.id} className="flex flex-col border border-primary/20 border-t-4 border-t-secondary bg-card p-5 shadow-[4px_4px_0_hsl(var(--secondary)/0.3)]">
         <h2 className="font-serif text-2xl font-bold">{vendor.name}</h2>
         <p className="mt-2 text-sm text-muted-foreground">{vendor.items.length} {vendor.items.length === 1 ? "listing" : "listings"} · {vendor.locationIds.map((id) => locationsById.get(id)?.name).join(" · ") || "Location not yet announced"}</p>
-        <Link to={`/browse?vendors=${encodeURIComponent(vendor.id)}`} className="mt-3 inline-flex min-h-11 items-center font-bold text-primary underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" aria-label={`View ${vendor.name} menu`}>View menu →</Link>
+        <Link to={`/vendors/${vendor.id}`} className="mt-3 inline-flex min-h-11 items-center font-bold text-primary underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" aria-label={`View ${vendor.name} menu`}>View menu →</Link>
         <div className="mt-auto border-t border-dashed border-primary/20 pt-1"><VendorLinks vendorId={vendor.id} /></div>
       </article>)}</div> : <div className="mt-5 border border-dashed border-primary/40 bg-card p-8 text-center"><p className="font-serif text-2xl font-bold">No vendors match your search.</p><button onClick={() => setParams({})} className="mt-3 min-h-11 font-semibold text-primary underline">Show all vendors</button></div>}
     </main>

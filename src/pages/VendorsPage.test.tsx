@@ -15,7 +15,7 @@ it('browses vendors, searches without case or accent sensitivity, and opens thei
   expect(screen.getAllByRole('article')).toHaveLength(1);
   expect(screen.getByRole('link',{name:'Instagram'})).toHaveAttribute('href','https://www.instagram.com/cremebru.la/');
   await user.click(screen.getByRole('link',{name:/view.*menu/i}));
-  expect(screen.getByRole('heading',{name:'Crème Bru LA'})).toBeInTheDocument();
+  expect(screen.getByRole('heading',{name:'Crème Bru LA at The Big E 2026'})).toBeInTheDocument();
   expect(screen.getByRole('link',{name:'Instagram'})).toHaveAttribute('href','https://www.instagram.com/cremebru.la/');
   await user.click(screen.getByRole('button',{name:'More about Crème Brûlée'}));
   expect(screen.getByText(/Sweet Corn/)).toBeInTheDocument();

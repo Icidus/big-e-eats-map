@@ -7,6 +7,8 @@ import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
 import { AppNav } from "@/components/AppNav";
 import { VendorsPage } from "./pages/VendorsPage";
+import { RouteSeo } from "@/features/seo/RouteSeo";
+import { VendorMenuPage } from "./pages/VendorMenuPage";
 import Index from "./pages/Index";
 import { BrowsePage } from "./pages/BrowsePage";
 import LocationDetail from "./pages/LocationDetail";
@@ -24,11 +26,13 @@ function RouteLoadingFallback() {
 export function AppRoutes() {
   return (
     <div className="pb-[calc(4rem+env(safe-area-inset-bottom))] md:pb-0">
+      <RouteSeo />
       <AppNav />
       <Suspense fallback={<RouteLoadingFallback />}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/vendors" element={<VendorsPage />} />
+          <Route path="/vendors/:id" element={<VendorMenuPage />} />
           <Route path="/browse" element={<BrowsePage />} />
           <Route path="/location/:id" element={<LocationDetail />} />
           <Route path="/masslive-favorites" element={<Navigate replace to="/" />} />
