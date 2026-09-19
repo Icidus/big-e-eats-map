@@ -821,7 +821,30 @@
           "name": "Maine Lobster Roll"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "maine-lobster-rolls",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Maine Lobster Rolls\" \"Big E\" vendor",
+            "\"Maine Lobster Rolls\" \"Big E\" facebook"
+          ],
+          "notes": "Searched the vendor name and Big E/social terms; read the 2026 fair Maine Building page. Its link points to a Maine seafood industry site, not a verified stand operator. Historical Hancock results do not establish the current operator. No social account linked; no additional confirmed dish.",
+          "accounts": [],
+          "findings": [
+            {
+              "detail": "The official Maine Building page confirms the existing lobster roll; operator identity is still unresolved. Do not assign Hancock or another lobster company based on old posts.",
+              "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building",
+              "kind": "confirmation",
+              "confidence": "lead",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "maine-potato-board",
@@ -832,7 +855,50 @@
           "name": "Maine Baked Potato"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "maine-potato-board",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Maine Potato Board\" \"Big E\" 2026",
+            "mainepotatoes.com official social links"
+          ],
+          "notes": "Read official website social links and Instagram profile; scanned 12 grid entries dated Sep 7–18, 2026 and opened the Sep 18 opening-day caption and datetime. Existing baked potato confirmed; no additional named dish.",
+          "accounts": [
+            {
+              "url": "https://mainepotatoes.com/",
+              "verified": true,
+              "evidenceUrl": "https://mainepotatoes.com/",
+              "evidence": "Official Maine Potato Board website identifies the organization and links both social profiles; fair Maine Building page also links this website."
+            },
+            {
+              "url": "https://www.instagram.com/mainepotatoes/",
+              "verified": true,
+              "evidenceUrl": "https://mainepotatoes.com/",
+              "evidence": "Official Maine Potato Board website identifies the organization and links both social profiles; fair Maine Building page also links this website."
+            },
+            {
+              "url": "https://www.facebook.com/MainePotatoes",
+              "verified": true,
+              "evidenceUrl": "https://mainepotatoes.com/",
+              "evidence": "Official Maine Potato Board website identifies the organization and links both social profiles; fair Maine Building page also links this website."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Baked potato sales began on opening day at The Big E 2026 in the Maine Building.",
+              "url": "https://www.instagram.com/mainepotatoes/p/Ddbq5B0kRQa/",
+              "kind": "confirmation",
+              "confidence": "confirmed",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "publishedOn": "2026-09-18"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "maureen-s-sweet-shoppe",
@@ -843,7 +909,44 @@
           "name": "Handmade Chocolates"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "maureen-s-sweet-shoppe",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Maureen's Sweet Shoppe\" Instagram Big E",
+            "\"Maureen's Sweet Shoppe\" official"
+          ],
+          "notes": "Official store currently shows maintenance. Matching Instagram bio links that store; business directory independently lists the same handle. Scanned 12 grid entries (Apr 2–Sep 18, 2026), opened the Sep 18 caption and datetime. Location update confirmed, but no named chocolate varieties in the fair caption.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/maureens_sweet_shoppe/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/maureens_sweet_shoppe/",
+              "evidence": "Profile identifies Maureen’s Sweet Shoppe, links maureenssweetshoppe.com, and publishes a Massachusetts Building opening-day post; Restaurant Guru lists the same handle and shop."
+            },
+            {
+              "url": "https://maureenssweetshoppe.com/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/maureens_sweet_shoppe/",
+              "evidence": "Profile identifies Maureen’s Sweet Shoppe, links maureenssweetshoppe.com, and publishes a Massachusetts Building opening-day post; Restaurant Guru lists the same handle and shop."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "New 2026 spot just inside the Massachusetts Building side door facing Rhode Island.",
+              "url": "https://www.instagram.com/maureens_sweet_shoppe/p/Ddb5L63mRTx/",
+              "kind": "location",
+              "confidence": "confirmed",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "publishedOn": "2026-09-18"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "meatball-factory",
@@ -854,7 +957,30 @@
           "name": "Sushi Corndog"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "meatball-factory",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Meatball Factory\" \"Big E\" instagram facebook",
+            "\"Meatball Factory\" \"Collmer\" Facebook"
+          ],
+          "notes": "Searched Big E, Instagram, Facebook and owner Ryan Collmer variants. Fair new-food page confirms existing Sushi Corndog. Industry directory identifies Ryan and Nichole Collmer but does not supply a verified social account. Excluded unrelated businesses and old-menu references.",
+          "accounts": [],
+          "findings": [
+            {
+              "detail": "Existing Sushi Corndog confirmed on the current official fair page; no additional dated 2026 vendor menu found. Older Elote/Korean/Dilly Dilly references remain unconfirmed for this batch.",
+              "url": "https://www.thebige.com/p/food2/newfoods",
+              "kind": "confirmation",
+              "confidence": "lead",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "mini-donut-express",
@@ -865,7 +991,20 @@
           "name": "Mini Donuts by the Bag"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "mini-donut-express",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Mini Donut Express\" \"Big E\" instagram facebook",
+            "\"Mini Donut Express\" facebook"
+          ],
+          "notes": "Searched exact name with Big E and social terms in web and Google. Results were the existing MassLive guide and older fair references; no verified operator account. The fair Bargain Bites page lists Mini Donut but does not establish that this is the same operator.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "new-hampshire-kettle-corn",
@@ -876,7 +1015,30 @@
           "name": "Kettle Corn"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "new-hampshire-kettle-corn",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"New Hampshire Kettle Corn\" website instagram",
+            "\"Champions of New Hampshire Farms\" Facebook Instagram"
+          ],
+          "notes": "Read the official 2026 NH Building exhibitor list and searched named operator Champions of New Hampshire Farms. Fair page ties NH Kettle Korn to that operator. No verified operator social account found; unrelated NH popcorn companies excluded. Existing Apple Nachos already cataloged under NH Building.",
+          "accounts": [],
+          "findings": [
+            {
+              "detail": "Official 2026 exhibitor menu identifies Champions of New Hampshire Farms as the NH Kettle Korn operator and lists NH Mac & Cheese, corn on the cob, Apple Nachos and Cider Slushies. Apple Nachos already exists. Added the other three missing dishes under existing New Hampshire Building vendor. The page is explicitly for 2026 but lacks a publication date; this finding uses lead under the dated-post queue schema, while the current official menu supplies direct catalog evidence.",
+              "url": "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building",
+              "kind": "detail",
+              "confidence": "lead",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "pizza",
@@ -887,7 +1049,19 @@
           "name": "Slice of Cheese Pizza"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "pizza",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Pizza\" \"Midway\" \"Big E\" \"Bargain Bites\""
+          ],
+          "notes": "Read official Bargain Bites page and searched Pizza + Midway + Big E. Generic stand label still has no identified operator; did not attach a different pizza business account.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "randys-wooster-street-pizza",
@@ -898,7 +1072,49 @@
           "name": "Pizza"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "randys-wooster-street-pizza",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Randy's Wooster Street Pizza\" Instagram",
+            "Randy Wooster Street Pizza official website"
+          ],
+          "notes": "Official website links Instagram and Facebook, but direct browser navigation to its domain has a certificate error. Instagram bio links working ordering website. Scanned 12 grid entries (Jul 28–Sep 15, 2026), opened Sep 10 and Sep 6 captions: restaurant promotions, not fair menus. Facebook latest visible Sep 16 post is also for Manchester. Historical Skippy’s Dare/other pizza stories do not confirm 2026 fair availability.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/randyswoosterstreetpizza/",
+              "verified": true,
+              "evidenceUrl": "https://randyswoosterstreetpizza.com/",
+              "evidence": "Official restaurant homepage links these exact social profiles; profiles match Manchester name/address."
+            },
+            {
+              "url": "https://www.facebook.com/2208606732697764",
+              "verified": true,
+              "evidenceUrl": "https://randyswoosterstreetpizza.com/",
+              "evidence": "Official restaurant homepage links these exact social profiles; profiles match Manchester name/address."
+            },
+            {
+              "url": "https://www.randyswoosterstreetpizzamenu.com/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/randyswoosterstreetpizza/",
+              "evidence": "Verified Instagram bio links this ordering website; it identifies Randy’s at 285 E Center St, Manchester."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Skippy’s Dare is on the restaurant menu and labeled a longstanding Big E favorite, but the page does not establish availability at the 2026 fair. Retained as a lead only.",
+              "url": "https://www.randyswoosterstreetpizzamenu.com/",
+              "kind": "new-item",
+              "confidence": "lead",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "rickeys-jerky",
@@ -909,7 +1125,50 @@
           "name": "Assorted Beef Jerky"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "rickeys-jerky",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Rickey’s Jerky\" official",
+            "\"Rickeys Jerky\" \"Big E\" 2026 flavors"
+          ],
+          "notes": "Read official site and its social links. Instagram grid only exposes 12 older entries (Oct 2021–Aug 2022); no current menu inferred. Facebook visible Sep 19 post and permalink confirm Better Living Center. Also opened Sep 17 event-list photo. Online exotic varieties are not evidence of particular 2026 fair stock. Corrected existing jerky candy/sweet classification to savory snacks.",
+          "accounts": [
+            {
+              "url": "https://rickeysjerky.com/",
+              "verified": true,
+              "evidenceUrl": "https://rickeysjerky.com/",
+              "evidence": "Official vendor website links these Instagram and Facebook profiles; Facebook links back and confirms Big E presence."
+            },
+            {
+              "url": "https://www.instagram.com/rickeysjerky/",
+              "verified": true,
+              "evidenceUrl": "https://rickeysjerky.com/",
+              "evidence": "Official vendor website links these Instagram and Facebook profiles; Facebook links back and confirms Big E presence."
+            },
+            {
+              "url": "https://www.facebook.com/RickeysJerky/",
+              "verified": true,
+              "evidenceUrl": "https://rickeysjerky.com/",
+              "evidence": "Official vendor website links these Instagram and Facebook profiles; Facebook links back and confirms Big E presence."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Day-two post confirms the stand in the Better Living Center, identifiable by tall flags. Timestamp shown as 3h on Sep 19, 2026.",
+              "url": "https://www.facebook.com/RickeysJerky/posts/pfbid0QskTt1c6JqgxR8rnp93rSwjqveoXivnwDrjNnHNpWSQUawL1S8xHJxJLC9SSCB5Tl",
+              "kind": "location",
+              "confidence": "confirmed",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "publishedOn": "2026-09-19"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "royal-rose",
@@ -920,7 +1179,49 @@
           "name": "Wild Blueberry Beverage"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "royal-rose",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Royal Rose\" \"Big E\" 2026",
+            "\"Royal Rose\" syrups instagram Big E 2026"
+          ],
+          "notes": "Read official fair listing and syrup website social links. Website Instagram link is malformed relative URL; verified intended royalroseme profile links back. Scanned 12 Instagram entries (Sep 1–18, 2026); opened Sep 18, Sep 16 and Sep 10 captions, which discuss general syrups/retailers/tasting room, not Big E menus. Facebook content is age/login gated. Fair listing clarifies existing drink is served by Fire & Co. behind Maine Building.",
+          "accounts": [
+            {
+              "url": "https://royalrosesyrups.com/",
+              "verified": true,
+              "evidenceUrl": "https://royalrosesyrups.com/",
+              "evidence": "Official Maine syrup website links Facebook and intended Instagram royalroseme; matching Instagram profile links back. Fair Maine Building page links this brand."
+            },
+            {
+              "url": "https://www.instagram.com/royalroseme/",
+              "verified": true,
+              "evidenceUrl": "https://royalrosesyrups.com/",
+              "evidence": "Official Maine syrup website links Facebook and intended Instagram royalroseme; matching Instagram profile links back. Fair Maine Building page links this brand."
+            },
+            {
+              "url": "https://www.facebook.com/royalrosesyrups",
+              "verified": true,
+              "evidenceUrl": "https://royalrosesyrups.com/",
+              "evidence": "Official Maine syrup website links Facebook and intended Instagram royalroseme; matching Instagram profile links back. Fair Maine Building page links this brand."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Current official Maine Building listing places Royal Rose syrup beverages at Fire & Co. behind the Maine Building, not a separate indoor stand. No additional named Big E drink confirmed; page lacks publication date.",
+              "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building",
+              "kind": "location",
+              "confidence": "lead",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "rudys-slush",
@@ -1881,25 +2182,6 @@
         {
           "id": "moose-joose-summerween",
           "name": "Summerween"
-        }
-      ],
-      "reviews": []
-    },
-    {
-      "id": "new-hampshire-building",
-      "name": "New Hampshire Building",
-      "items": [
-        {
-          "id": "new-hampshire-building-apple-nachos",
-          "name": "Apple Nachos"
-        },
-        {
-          "id": "new-hampshire-building-lobster-mac-and-cheese",
-          "name": "Lobster Mac & Cheese"
-        },
-        {
-          "id": "new-hampshire-building-maple-cotton-candy",
-          "name": "Maple Cotton Candy"
         }
       ],
       "reviews": []
@@ -3425,6 +3707,37 @@
         {
           "id": "las-kangris-food-truck-tres-leches-cake",
           "name": "Tres Leches Cake"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "new-hampshire-building",
+      "name": "New Hampshire Building",
+      "items": [
+        {
+          "id": "new-hampshire-building-apple-nachos",
+          "name": "Apple Nachos"
+        },
+        {
+          "id": "new-hampshire-building-lobster-mac-and-cheese",
+          "name": "Lobster Mac & Cheese"
+        },
+        {
+          "id": "new-hampshire-building-maple-cotton-candy",
+          "name": "Maple Cotton Candy"
+        },
+        {
+          "id": "new-hampshire-building-mac-and-cheese",
+          "name": "NH Mac & Cheese"
+        },
+        {
+          "id": "new-hampshire-building-corn-on-the-cob",
+          "name": "Corn on the Cob"
+        },
+        {
+          "id": "new-hampshire-building-cider-slushies",
+          "name": "Cider Slushies"
         }
       ],
       "reviews": []
@@ -5063,6 +5376,34 @@
         "randys-wooster-street-pizza",
         "rickeys-jerky",
         "royal-rose"
+      ],
+      "completedIds": [
+        "maine-lobster-rolls",
+        "maine-potato-board",
+        "maureen-s-sweet-shoppe",
+        "meatball-factory",
+        "mini-donut-express",
+        "new-hampshire-kettle-corn",
+        "pizza",
+        "randys-wooster-street-pizza",
+        "rickeys-jerky",
+        "royal-rose"
+      ]
+    },
+    {
+      "id": "batch-005",
+      "createdOn": "2026-09-19",
+      "vendorIds": [
+        "rudys-slush",
+        "run-amok-meadery",
+        "sammontana-gelato",
+        "schroders-cheese-curds",
+        "simply-dip-licious",
+        "spiked-coffee-bar",
+        "the-big-cheese",
+        "the-big-e",
+        "the-bone-sauce",
+        "the-smoking-dragon-bar"
       ],
       "completedIds": []
     }

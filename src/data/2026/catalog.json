@@ -82,7 +82,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "A fresh-baked Maine-grown potato with toppings from the Maine Potato Board exhibit.",
+    "description": "A fresh-baked Maine-grown potato with toppings from the Maine Potato Board exhibit. Served in the Maine Building; the line begins outside. The vendor confirmed opening-day sales on September 18, 2026.",
     "categoryIds": [
       "potatoes-fries"
     ],
@@ -96,7 +96,15 @@
       "title": "Maine Building",
       "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building",
       "accessedOn": "2026-09-14"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Maine Potato Board",
+        "title": "Big E opening-day potato sales",
+        "url": "https://www.instagram.com/mainepotatoes/p/Ddbq5B0kRQa/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "fields-fields-wild-blueberry-crisp",
@@ -1207,11 +1215,11 @@
       "better-living-center"
     ],
     "categoryIds": [
-      "candy"
+      "snacks-sides"
     ],
     "tagIds": [
       "new-vendor",
-      "sweet"
+      "savory"
     ],
     "dietaryClaims": [],
     "isNewFor2026": true,
@@ -1220,7 +1228,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Assorted jerky from Rickey’s in the Better Living Center. Look for the tall vendor flags, noted in its September 19, 2026 update.",
+    "supportingSources": [
+      {
+        "publisher": "Rickey’s Jerky",
+        "title": "Big E day-two stand location",
+        "url": "https://www.facebook.com/RickeysJerky/posts/pfbid0QskTt1c6JqgxR8rnp93rSwjqveoXivnwDrjNnHNpWSQUawL1S8xHJxJLC9SSCB5Tl",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "simply-gluten-free-funnel-cakes",
@@ -4807,7 +4824,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "Small-batch handmade chocolates from Maureen's Sweet Shoppe.",
+    "description": "Small-batch handmade chocolates. For 2026, find Maureen’s just inside the Massachusetts Building side door facing the Rhode Island Building.",
     "categoryIds": [
       "candy"
     ],
@@ -4822,7 +4839,15 @@
       "title": "Massachusetts Building",
       "url": "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building",
       "accessedOn": "2026-09-16"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Maureen's Sweet Shoppe",
+        "title": "Big E opening-day location",
+        "url": "https://www.instagram.com/maureens_sweet_shoppe/p/Ddb5L63mRTx/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "simply-dip-licious-dips",
@@ -5563,7 +5588,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "A nonalcoholic beverage featuring Maine wild blueberry from Royal Rose in the Maine Building.",
+    "description": "A nonalcoholic wild blueberry beverage featuring Royal Rose syrups, served by Fire & Co. behind the Maine Building.",
     "categoryIds": [
       "nonalcoholic-drinks"
     ],
@@ -5577,7 +5602,7 @@
       "publisher": "The Big E",
       "title": "Maine Building",
       "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building",
-      "accessedOn": "2026-09-17"
+      "accessedOn": "2026-09-19"
     }
   },
   {
@@ -15344,7 +15369,15 @@
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
     },
-    "description": "Kettle Corn listed in MassLive’s saved 2026 Eater’s Guide."
+    "description": "Kettle corn from Champions of New Hampshire Farms at the New Hampshire Building.",
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "2026 New Hampshire Building exhibitors",
+        "url": "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "sugar-shakers-fried-oreos",
@@ -17393,6 +17426,81 @@
       "publisher": "Joey's Deli & Market",
       "title": "Big E menu announcement",
       "url": "https://www.instagram.com/joeysdelimarket/p/DdT9iPdOjRa/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "new-hampshire-building-mac-and-cheese",
+    "year": 2026,
+    "name": "NH Mac & Cheese",
+    "vendor": "New Hampshire Building",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "NH Mac & Cheese served by Champions of New Hampshire Farms at the New Hampshire Building, listed in the official 2026 exhibitor menu.",
+    "categoryIds": [
+      "mac-cheese"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 New Hampshire Building exhibitors",
+      "url": "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "new-hampshire-building-corn-on-the-cob",
+    "year": 2026,
+    "name": "Corn on the Cob",
+    "vendor": "New Hampshire Building",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Corn on the Cob served by Champions of New Hampshire Farms at the New Hampshire Building, listed in the official 2026 exhibitor menu.",
+    "categoryIds": [
+      "pretzels-corn"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 New Hampshire Building exhibitors",
+      "url": "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "new-hampshire-building-cider-slushies",
+    "year": 2026,
+    "name": "Cider Slushies",
+    "vendor": "New Hampshire Building",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Cider Slushies served by Champions of New Hampshire Farms at the New Hampshire Building, listed in the official 2026 exhibitor menu.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "apple"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 New Hampshire Building exhibitors",
+      "url": "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building",
       "accessedOn": "2026-09-19"
     }
   }

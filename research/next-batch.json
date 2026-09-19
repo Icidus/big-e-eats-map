@@ -1,33 +1,33 @@
 {
-  "batchId": "batch-004",
+  "batchId": "batch-005",
   "vendors": [
     {
-      "vendorId": "maine-lobster-rolls",
-      "name": "Maine Lobster Rolls",
+      "vendorId": "rudys-slush",
+      "name": "Rudy’s Slush",
       "catalogItems": [
         {
-          "id": "maine-lobster-roll",
-          "name": "Maine Lobster Roll"
+          "id": "rudys-frozen-pickle-lemonade-slush",
+          "name": "Frozen Pickle Lemonade Slush"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Maine Lobster Rolls\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Maine+Lobster+Rolls%22+%22Big+E%22+2026"
+          "query": "\"Rudy’s Slush\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Rudy%E2%80%99s+Slush%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Maine Lobster Rolls\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Maine+Lobster+Rolls%22+Instagram+Facebook+official"
+          "query": "\"Rudy’s Slush\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Rudy%E2%80%99s+Slush%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "maine-lobster-rolls",
+        "vendorId": "rudys-slush",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Maine Lobster Rolls\" \"Big E\" 2026",
-          "\"Maine Lobster Rolls\" Instagram Facebook official"
+          "\"Rudy’s Slush\" \"Big E\" 2026",
+          "\"Rudy’s Slush\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -35,32 +35,32 @@
       }
     },
     {
-      "vendorId": "maine-potato-board",
-      "name": "Maine Potato Board",
+      "vendorId": "run-amok-meadery",
+      "name": "Run Amok Meadery",
       "catalogItems": [
         {
-          "id": "maine-potato-board-baked-potato",
-          "name": "Maine Baked Potato"
+          "id": "run-amok-meadery-craft-mead",
+          "name": "Craft Mead"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Maine Potato Board\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Maine+Potato+Board%22+%22Big+E%22+2026"
+          "query": "\"Run Amok Meadery\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Run+Amok+Meadery%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Maine Potato Board\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Maine+Potato+Board%22+Instagram+Facebook+official"
+          "query": "\"Run Amok Meadery\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Run+Amok+Meadery%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "maine-potato-board",
+        "vendorId": "run-amok-meadery",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Maine Potato Board\" \"Big E\" 2026",
-          "\"Maine Potato Board\" Instagram Facebook official"
+          "\"Run Amok Meadery\" \"Big E\" 2026",
+          "\"Run Amok Meadery\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -68,32 +68,32 @@
       }
     },
     {
-      "vendorId": "maureen-s-sweet-shoppe",
-      "name": "Maureen's Sweet Shoppe",
+      "vendorId": "sammontana-gelato",
+      "name": "Sammontana Gelato",
       "catalogItems": [
         {
-          "id": "maureens-sweet-shoppe-handmade-chocolates",
-          "name": "Handmade Chocolates"
+          "id": "sammontana-gelato-gelato",
+          "name": "Gelato"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Maureen's Sweet Shoppe\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Maureen%27s+Sweet+Shoppe%22+%22Big+E%22+2026"
+          "query": "\"Sammontana Gelato\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Sammontana+Gelato%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Maureen's Sweet Shoppe\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Maureen%27s+Sweet+Shoppe%22+Instagram+Facebook+official"
+          "query": "\"Sammontana Gelato\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Sammontana+Gelato%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "maureen-s-sweet-shoppe",
+        "vendorId": "sammontana-gelato",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Maureen's Sweet Shoppe\" \"Big E\" 2026",
-          "\"Maureen's Sweet Shoppe\" Instagram Facebook official"
+          "\"Sammontana Gelato\" \"Big E\" 2026",
+          "\"Sammontana Gelato\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -101,32 +101,32 @@
       }
     },
     {
-      "vendorId": "meatball-factory",
-      "name": "Meatball Factory",
+      "vendorId": "schroders-cheese-curds",
+      "name": "Schroder’s Cheese Curds",
       "catalogItems": [
         {
-          "id": "meatball-factory-sushi-corndog",
-          "name": "Sushi Corndog"
+          "id": "schroder-s-cheese-curds-cheese-curds",
+          "name": "Cheese Curds"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Meatball Factory\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Meatball+Factory%22+%22Big+E%22+2026"
+          "query": "\"Schroder’s Cheese Curds\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Schroder%E2%80%99s+Cheese+Curds%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Meatball Factory\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Meatball+Factory%22+Instagram+Facebook+official"
+          "query": "\"Schroder’s Cheese Curds\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Schroder%E2%80%99s+Cheese+Curds%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "meatball-factory",
+        "vendorId": "schroders-cheese-curds",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Meatball Factory\" \"Big E\" 2026",
-          "\"Meatball Factory\" Instagram Facebook official"
+          "\"Schroder’s Cheese Curds\" \"Big E\" 2026",
+          "\"Schroder’s Cheese Curds\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -134,32 +134,32 @@
       }
     },
     {
-      "vendorId": "mini-donut-express",
-      "name": "Mini Donut Express",
+      "vendorId": "simply-dip-licious",
+      "name": "Simply Dip-Licious",
       "catalogItems": [
         {
-          "id": "mini-donut-express-mini-donuts-by-the-bag",
-          "name": "Mini Donuts by the Bag"
+          "id": "simply-dip-licious-dips",
+          "name": "Dips"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Mini Donut Express\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Mini+Donut+Express%22+%22Big+E%22+2026"
+          "query": "\"Simply Dip-Licious\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Simply+Dip-Licious%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Mini Donut Express\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Mini+Donut+Express%22+Instagram+Facebook+official"
+          "query": "\"Simply Dip-Licious\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Simply+Dip-Licious%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "mini-donut-express",
+        "vendorId": "simply-dip-licious",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Mini Donut Express\" \"Big E\" 2026",
-          "\"Mini Donut Express\" Instagram Facebook official"
+          "\"Simply Dip-Licious\" \"Big E\" 2026",
+          "\"Simply Dip-Licious\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -167,32 +167,32 @@
       }
     },
     {
-      "vendorId": "new-hampshire-kettle-corn",
-      "name": "New Hampshire Kettle Corn",
+      "vendorId": "spiked-coffee-bar",
+      "name": "Spiked Coffee Bar",
       "catalogItems": [
         {
-          "id": "new-hampshire-kettle-corn-kettle-corn",
-          "name": "Kettle Corn"
+          "id": "spiked-coffee-bar-spiked-iced-coffee",
+          "name": "Spiked Iced Coffee"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"New Hampshire Kettle Corn\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22New+Hampshire+Kettle+Corn%22+%22Big+E%22+2026"
+          "query": "\"Spiked Coffee Bar\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Spiked+Coffee+Bar%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"New Hampshire Kettle Corn\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22New+Hampshire+Kettle+Corn%22+Instagram+Facebook+official"
+          "query": "\"Spiked Coffee Bar\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Spiked+Coffee+Bar%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "new-hampshire-kettle-corn",
+        "vendorId": "spiked-coffee-bar",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"New Hampshire Kettle Corn\" \"Big E\" 2026",
-          "\"New Hampshire Kettle Corn\" Instagram Facebook official"
+          "\"Spiked Coffee Bar\" \"Big E\" 2026",
+          "\"Spiked Coffee Bar\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -200,32 +200,32 @@
       }
     },
     {
-      "vendorId": "pizza",
-      "name": "Pizza",
+      "vendorId": "the-big-cheese",
+      "name": "The Big Cheese",
       "catalogItems": [
         {
-          "id": "midway-slice-of-cheese-pizza",
-          "name": "Slice of Cheese Pizza"
+          "id": "the-big-cheese-cheese-curds",
+          "name": "Cheese Curds"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Pizza\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Pizza%22+%22Big+E%22+2026"
+          "query": "\"The Big Cheese\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Big+Cheese%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Pizza\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Pizza%22+Instagram+Facebook+official"
+          "query": "\"The Big Cheese\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Big+Cheese%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "pizza",
+        "vendorId": "the-big-cheese",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Pizza\" \"Big E\" 2026",
-          "\"Pizza\" Instagram Facebook official"
+          "\"The Big Cheese\" \"Big E\" 2026",
+          "\"The Big Cheese\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -233,32 +233,32 @@
       }
     },
     {
-      "vendorId": "randys-wooster-street-pizza",
-      "name": "Randy’s Wooster Street Pizza",
+      "vendorId": "the-big-e",
+      "name": "The Big E",
       "catalogItems": [
         {
-          "id": "randys-wooster-street-pizza-pizza",
-          "name": "Pizza"
+          "id": "big-e-chocolate-pickle-tacos",
+          "name": "Chocolate Pickle Tacos"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Randy’s Wooster Street Pizza\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Randy%E2%80%99s+Wooster+Street+Pizza%22+%22Big+E%22+2026"
+          "query": "\"The Big E\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Big+E%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Randy’s Wooster Street Pizza\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Randy%E2%80%99s+Wooster+Street+Pizza%22+Instagram+Facebook+official"
+          "query": "\"The Big E\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Big+E%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "randys-wooster-street-pizza",
+        "vendorId": "the-big-e",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Randy’s Wooster Street Pizza\" \"Big E\" 2026",
-          "\"Randy’s Wooster Street Pizza\" Instagram Facebook official"
+          "\"The Big E\" \"Big E\" 2026",
+          "\"The Big E\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -266,32 +266,32 @@
       }
     },
     {
-      "vendorId": "rickeys-jerky",
-      "name": "Rickey’s Jerky",
+      "vendorId": "the-bone-sauce",
+      "name": "The Bone Sauce",
       "catalogItems": [
         {
-          "id": "rickeys-jerky-assorted-beef-jerky",
-          "name": "Assorted Beef Jerky"
+          "id": "the-bone-sauce-wings",
+          "name": "Wings"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Rickey’s Jerky\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Rickey%E2%80%99s+Jerky%22+%22Big+E%22+2026"
+          "query": "\"The Bone Sauce\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Bone+Sauce%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Rickey’s Jerky\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Rickey%E2%80%99s+Jerky%22+Instagram+Facebook+official"
+          "query": "\"The Bone Sauce\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Bone+Sauce%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "rickeys-jerky",
+        "vendorId": "the-bone-sauce",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Rickey’s Jerky\" \"Big E\" 2026",
-          "\"Rickey’s Jerky\" Instagram Facebook official"
+          "\"The Bone Sauce\" \"Big E\" 2026",
+          "\"The Bone Sauce\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -299,32 +299,32 @@
       }
     },
     {
-      "vendorId": "royal-rose",
-      "name": "Royal Rose",
+      "vendorId": "the-smoking-dragon-bar",
+      "name": "The Smoking Dragon Bar",
       "catalogItems": [
         {
-          "id": "royal-rose-wild-blueberry-beverage",
-          "name": "Wild Blueberry Beverage"
+          "id": "the-smoking-dragon-bar-smoking-cocktails",
+          "name": "Smoking Cocktails"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Royal Rose\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Royal+Rose%22+%22Big+E%22+2026"
+          "query": "\"The Smoking Dragon Bar\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Smoking+Dragon+Bar%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Royal Rose\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Royal+Rose%22+Instagram+Facebook+official"
+          "query": "\"The Smoking Dragon Bar\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Smoking+Dragon+Bar%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "royal-rose",
+        "vendorId": "the-smoking-dragon-bar",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Royal Rose\" \"Big E\" 2026",
-          "\"Royal Rose\" Instagram Facebook official"
+          "\"The Smoking Dragon Bar\" \"Big E\" 2026",
+          "\"The Smoking Dragon Bar\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],

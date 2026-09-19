@@ -4,13 +4,15 @@ This is a supervised research queue for all 187 catalog vendor names. It generat
 
 ## Current state
 
-- Batches 001–003: thirty vendors checked, prioritizing one-item menus.
-- Five earlier pilot reviews imported; 35 vendor records checked in total.
-- Batch 004: ten vendors reserved in `next-batch.json`; these are still pending.
+- Batches 001–004: forty vendors checked, prioritizing one-item menus.
+- Five earlier pilot reviews imported; 45 vendor records checked in total.
+- Batch 005: ten vendors reserved in `next-batch.json`; these are still pending.
 - Two confirmed missing items from Bear’s: Bucket of Moinks and Bear Necessit-E Sandwich. See `report-2026.md` for exact citations, price evidence, and location details.
 - Batch 002: confirmed hot popovers with three butter choices at Delaney’s, Rhode Island-style calamari at Friskie Fries, and six crème brûlée flavors at Crème Bru LA. Exact post citations are in the report.
 - Batch 003: It’s Kelewele 31 has seven named food/drink offerings; Joey’s confirms four hand-pie fillings plus whoopie pies. Findings and limitations are in the report.
 - September 19 promotion: 16 sourced foods/drinks added (702 catalog entries total), existing Crème Bru LA and Tripp’s descriptions enriched, and verified profile/site links published for 19 vendors. See `promoted-items-2026-09-19.json`. Research findings retain their original wording as an evidence log.
+
+- Batch 004 published: three NH Building foods added (705 entries), five food descriptions updated, and five vendor profiles added (24 vendors with verified links). Rickey’s jerky corrected to savory snacks. See `promoted-items-2026-09-19-batch-004.json`.
 
 ## Commands
 
@@ -44,7 +46,7 @@ After finishing any active batch, this selects unreviewed vendors or vendors las
 2. Inspect the public profile and record the scope: number/date range of visible posts, captions opened, any access restriction. Use thumbnails only to identify posts worth opening. Open promising post permalinks and read the vendor caption and publication date; comments, inferred image descriptions, and search snippets alone do not confirm a dish.
 3. Compare named food against the packet and the full catalog, including spelling variants and alternate vendor names. An existing generic “BBQ” listing does not represent every named sandwich. Record potential duplicates explicitly.
 4. Save paraphrased facts, not copied captions, in `research/reviews/`. Keep the exact source URL. Use `confirmed` only with dated vendor/fair evidence explicitly tied to The Big E 2026. General menus, other fairs, undated information, and press-only leads stay `lead` until corroborated. Never infer dietary claims from food names or customer questions.
-5. Import the review. Add confirmed, relevant missing foods to `src/data/2026/catalog.json` during each batch, with exact source citations. Enrich existing entries instead of duplicating flavors or synonyms; preserve existing source citations using `supportingSources`. Add verified accounts/sites to `src/data/2026/vendor-links.json`. Keep unresolved leads in research only. Record promoted IDs in a dated `promoted-items-*.json` file, run catalog tests, then sync the queue and regenerate the report. Price and opening-hours observations are dated and may change.
+5. Import the review. Add confirmed, relevant missing foods to `src/data/2026/catalog.json` during each batch, with exact source citations. Enrich existing entries instead of duplicating flavors or synonyms; preserve existing source citations using `supportingSources`. Add verified accounts/sites to `src/data/2026/vendor-links.json`. Keep unresolved leads in research only. For current official fair pages explicitly listing 2026 menus, use the page as direct catalog evidence and record the access date; never invent a publication date to satisfy the dated-post research schema. Keep undated-page findings distinguished in the research notes. Record promoted IDs in a dated `promoted-items-*.json` file, run catalog tests, then sync the queue and regenerate the report. Price and opening-hours observations are dated and may change. Commit and push each validated batch before researching the next batch, per the user’s September 19 instruction.
 
 Review statuses describe this attempt: `reviewed`, `inaccessible`, or `no-account-found`. The latter means the limited searches were unsuccessful, not that no account exists. Notes must distinguish a profile/grid scan from a caption review. Existing pilot examples and batch 001 are valid import templates.
 

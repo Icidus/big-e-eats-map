@@ -26,6 +26,10 @@ const requiredReturningVendors = [
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
 const trustedFoodSources = new Set([
+  "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building",
+  "https://www.instagram.com/mainepotatoes/p/Ddbq5B0kRQa/",
+  "https://www.instagram.com/maureens_sweet_shoppe/p/Ddb5L63mRTx/",
+  "https://www.facebook.com/RickeysJerky/posts/pfbid0QskTt1c6JqgxR8rnp93rSwjqveoXivnwDrjNnHNpWSQUawL1S8xHJxJLC9SSCB5Tl",
   "https://www.instagram.com/bearssmokehouse/p/DdZ3QdOR-Dq/",
   "https://www.instagram.com/bearssmokehouse/p/DdbbxEexE89/",
   "https://www.instagram.com/delaneysmarket/reel/DdUu84VxgCx/",
@@ -151,7 +155,7 @@ describe("2026 catalog content", () => {
       expect(item?.source.url).toBe(vendor === "Harpoon Beer Hall"
         ? "https://www.beanrg.com/harpoonbeerhall"
         : "https://www.thebige.com/p/thingstodo/avenue/maine-building");
-      expect(item?.source.accessedOn).toBe("2026-09-17");
+      expect(item?.source.accessedOn).toBe(id === "royal-rose-wild-blueberry-beverage" ? "2026-09-19" : "2026-09-17");
     }
   });
 

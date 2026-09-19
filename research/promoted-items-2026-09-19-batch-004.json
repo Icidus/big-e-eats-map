@@ -1,0 +1,23 @@
+{
+  "batchId": "batch-004",
+  "itemIds": [
+    "new-hampshire-building-mac-and-cheese",
+    "new-hampshire-building-corn-on-the-cob",
+    "new-hampshire-building-cider-slushies"
+  ],
+  "updatedItemIds": [
+    "maine-potato-board-baked-potato",
+    "maureens-sweet-shoppe-handmade-chocolates",
+    "rickeys-jerky-assorted-beef-jerky",
+    "royal-rose-wild-blueberry-beverage",
+    "new-hampshire-kettle-corn-kettle-corn"
+  ],
+  "vendorLinksAdded": [
+    "Maine Potato Board",
+    "Maureen's Sweet Shoppe",
+    "Randy’s Wooster Street Pizza",
+    "Rickey’s Jerky",
+    "Royal Rose"
+  ],
+  "notes": "Three missing NH Building foods added from the official 2026 exhibitor menu. Five existing listings enriched and five vendor profiles linked. Current season-specific fair pages corroborate the NH menu/operator and Royal Rose location; no publication date invented. Undated-page evidence remains labeled separately from dated post confirmations in research. Rickey’s jerky retagged from candy/sweet to savory snacks."
+}

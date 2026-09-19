@@ -230,6 +230,87 @@
     ]
   },
   {
+    "name": "Maine Potato Board",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://mainepotatoes.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/mainepotatoes/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/MainePotatoes"
+      }
+    ]
+  },
+  {
+    "name": "Maureen's Sweet Shoppe",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/maureens_sweet_shoppe/"
+      },
+      {
+        "label": "Website",
+        "url": "https://maureenssweetshoppe.com/"
+      }
+    ]
+  },
+  {
+    "name": "Randy’s Wooster Street Pizza",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/randyswoosterstreetpizza/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/2208606732697764"
+      },
+      {
+        "label": "Website",
+        "url": "https://www.randyswoosterstreetpizzamenu.com/"
+      }
+    ]
+  },
+  {
+    "name": "Rickey’s Jerky",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://rickeysjerky.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/rickeysjerky/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RickeysJerky/"
+      }
+    ]
+  },
+  {
+    "name": "Royal Rose",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://royalrosesyrups.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/royalroseme/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/royalrosesyrups"
+      }
+    ]
+  },
+  {
     "name": "Tripp’s Farmhouse Café",
     "links": [
       {
