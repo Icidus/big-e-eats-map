@@ -1,0 +1,26 @@
+{
+  "batchId": "batch-010",
+  "itemIds": [
+    "steaming-tender-pumpkin-bread-pudding",
+    "steaming-tender-chocolate-banana-whiskey-bread-pudding",
+    "moose-joose-small-slush",
+    "super-dog-mini-corndog"
+  ],
+  "updatedItemIds": [
+    "moose-joose-fall-in-a-cup",
+    "moose-joose-summerween",
+    "big-e-bakery-peanut-butter-cream-puff",
+    "steaming-tender-smores-whiskey-bread-pudding",
+    "rudys-pizza-pizza",
+    "ny-style-pizza-hot-honey-chicken-pizza"
+  ],
+  "vendorLinksAdded": [
+    "Moose Joose Slush",
+    "Rudy’s Pizza",
+    "Sassy’s Sweet Potatoes",
+    "Steaming Tender",
+    "Stella’s Milk & Cookies",
+    "The Big E Bakery"
+  ],
+  "notes": "Four listings added, six descriptions enriched, six profiles linked/updated. Caramel Apple Slush matched to existing Fall in a Cup. Stale bakery dates and non-fair catering menus excluded. Undated official fair specials recorded as research leads rather than invented publication dates."
+}

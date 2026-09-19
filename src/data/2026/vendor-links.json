@@ -843,5 +843,74 @@
         "url": "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building"
       }
     ]
+  },
+  {
+    "name": "Moose Joose Slush",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/moosejooseslush/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/MooseJooseSlush"
+      }
+    ]
+  },
+  {
+    "name": "Sassy’s Sweet Potatoes",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/sassyssweetpotatoes/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/people/Sassys-Catering/100042938535699/"
+      }
+    ]
+  },
+  {
+    "name": "Steaming Tender",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.steamingtender.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/SteamingTenderRestaurant/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/steamingtender/"
+      }
+    ]
+  },
+  {
+    "name": "Stella’s Milk & Cookies",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://toast.app/r/stellas-cookies-and-milk-65-cedar-woods-gln"
+      }
+    ]
+  },
+  {
+    "name": "The Big E Bakery",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.thebigebakery.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/TheBigE/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/thebigefair/"
+      }
+    ]
   }
 ]

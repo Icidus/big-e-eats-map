@@ -321,7 +321,7 @@
     "locationIds": [
       "new-england-avenue"
     ],
-    "description": "A small slice of Hot Honey Chicken Pizza listed as a Bargain Bites Day special.",
+    "description": "Hot honey chicken pizza on New England Avenue. A small slice is the September 21 Bargain Bites Day offer.",
     "categoryIds": [
       "pizza-italian"
     ],
@@ -1164,7 +1164,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Green apple slush swirled with caramel drizzle, topped with whipped cream, caramel candy bits and fresh apple slices. The vendor also calls it Caramel Apple Slush.",
+    "supportingSources": [
+      {
+        "publisher": "Moose Joose Slush",
+        "title": "Caramel Apple Slush at The Big E",
+        "url": "https://www.instagram.com/moosejooseslush/p/DdZGKseRGPW/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "moose-joose-strawberry-cheesecake-slush",
@@ -1214,7 +1223,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Creamsicle-flavored slush served in a Halloween-themed cup on Springfield Road."
   },
   {
     "id": "rickeys-jerky-assorted-beef-jerky",
@@ -2156,7 +2166,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Peanut butter cream puff, served plain or with a pour-over garnish of chocolate or marshmallow fluff."
   },
   {
     "id": "all-american-stinger-cheeseburger",
@@ -3816,7 +3827,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Warm house-made whiskey bread pudding with melted marshmallow, buttery graham cracker crumble, Jack Daniel’s whiskey sauce, chocolate ribbons and a torched marshmallow. Find the green trolley at Craft Common.",
+    "supportingSources": [
+      {
+        "publisher": "Steaming Tender",
+        "title": "Opening-day Big E bread pudding menu",
+        "url": "https://www.instagram.com/steamingtender/p/Ddbn0EsxBt5/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "storrowton-fried-boneless-chicken-basket",
@@ -15135,7 +15155,15 @@
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
     },
-    "description": "Pizza listed in MassLive’s saved 2026 Eater’s Guide."
+    "description": "Pizza on Springfield Road. A slice of cheese pizza is the September 21 Bargain Bites Day offer.",
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "Bargain Bites Day",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "sweet-and-salty-flavored-popcorn",
@@ -18241,6 +18269,108 @@
     ],
     "tagIds": [
       "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "steaming-tender-pumpkin-bread-pudding",
+    "year": 2026,
+    "name": "Pumpkin Bread Pudding",
+    "vendor": "Steaming Tender",
+    "locationIds": [
+      "craft-common"
+    ],
+    "description": "Pumpkin bread pudding at Steaming Tender’s green trolley in Craft Common, confirmed in the opening-day menu.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "pumpkin",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Steaming Tender",
+      "title": "Opening-day Big E bread pudding menu",
+      "url": "https://www.instagram.com/steamingtender/p/Ddbn0EsxBt5/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "steaming-tender-chocolate-banana-whiskey-bread-pudding",
+    "year": 2026,
+    "name": "Chocolate Banana Whiskey Bread Pudding",
+    "vendor": "Steaming Tender",
+    "locationIds": [
+      "craft-common"
+    ],
+    "description": "Chocolate Banana Whiskey Bread Pudding at the green trolley in Craft Common, confirmed in the opening-day menu.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Steaming Tender",
+      "title": "Opening-day Big E bread pudding menu",
+      "url": "https://www.instagram.com/steamingtender/p/Ddbn0EsxBt5/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "moose-joose-small-slush",
+    "year": 2026,
+    "name": "Small Slush",
+    "vendor": "Moose Joose Slush",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "Small slush on Springfield Road; a September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "super-dog-mini-corndog",
+    "year": 2026,
+    "name": "Mini Corndog",
+    "vendor": "Super Dog",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "Mini corndog on Springfield Road; a September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "food-on-a-stick"
     ],
     "dietaryClaims": [],
     "isNewFor2026": false,

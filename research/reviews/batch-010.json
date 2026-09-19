@@ -1,0 +1,233 @@
+[
+  {
+    "vendorId": "moose-joose-slush",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Moose Joose Slush\"",
+      "Moose Joose current Instagram posts"
+    ],
+    "notes": "Verified matching touring slush profile and opened September 17 own caption explicitly advertising caramel apple slush only at Big E. Compared current fair description: already represented by Fall in a Cup, so no duplicate. Added small-slush Bargain Bites option.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/moosejooseslush/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/moosejooseslush/p/DdZGKseRGPW/",
+        "evidence": "Matching distinctive touring vendor profiles; own Instagram caption explicitly names Big E."
+      },
+      {
+        "url": "https://www.facebook.com/MooseJooseSlush",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/moosejooseslush/p/DdZGKseRGPW/",
+        "evidence": "Matching distinctive touring vendor profiles; own Instagram caption explicitly names Big E."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Caramel Apple Slush advertised specifically at Big E; existing Fall in a Cup enriched.",
+        "url": "https://www.instagram.com/moosejooseslush/p/DdZGKseRGPW/",
+        "kind": "confirmation",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-17"
+      }
+    ]
+  },
+  {
+    "vendorId": "ny-style-pizza",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"NY Style Pizza\" \"Big E\"",
+      "\"NY Style Pizza\" Big E official Facebook Instagram"
+    ],
+    "notes": "Searched exact stand name with Big E and social terms using web/Bing. Fair and news references found, but no verifiable operator account. Unrelated businesses excluded. Checked current official New Foods and Bargain Bites; retained existing PDF entries.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "penalty-box-pub",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Penalty Box Pub\" \"Big E\"",
+      "\"Penalty Box Pub\" Big E official Facebook Instagram"
+    ],
+    "notes": "Searched exact stand name with Big E and social terms using web/Bing. Fair and news references found, but no verifiable operator account. Unrelated businesses excluded. Checked current official New Foods and Bargain Bites; retained existing PDF entries.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "roasted-corn-in-a-cup",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Roasted Corn in a Cup\" \"Big E\"",
+      "\"Roasted Corn in a Cup\" Big E official Facebook Instagram"
+    ],
+    "notes": "Searched exact stand name with Big E and social terms using web/Bing. Fair and news references found, but no verifiable operator account. Unrelated businesses excluded. Checked current official New Foods and Bargain Bites; retained existing PDF entries.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "rudys-pizza",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "Rudy’s Pizza Big E current operator evidence from batch005",
+      "The Big E Bargain Bites Rudy’s Pizza"
+    ],
+    "notes": "Operator and current August 27 pizza/slush announcement already verified in batch005. Reused that evidence and current fair Bargain Bites listing; no duplicate Baked Potato Pizza. Cheese pizza offer attached to existing Pizza entry.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/people/Rudys-Pizza-Slush/100057841531621/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/100057841531621/posts/whos-ready-for-the-big-e-we-are-excited-to-present-our-new-foods-for-this-years-/1478534170751287/",
+        "evidence": "August 27 operator post explicitly names pizza stand on Springfield Road; previously verified in batch005."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "sassys-sweet-potatoes",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Sassy’s Sweet Potatoes\"",
+      "\"Sassy's Sweet Potatoes\" \"Big E\"",
+      "\"Sassy's Catering\" Facebook Palmer"
+    ],
+    "notes": "Reviewed Instagram profile/grid and Aug18 post (Delaware County Fair, not Big E). Facebook Palmer catering profile phone matches Instagram July14 catering image. Current posts are other events; no historical sushi/taco menu promoted to 2026. IG Big E highlight and distinctive stand identity establish vendor link.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/sassyssweetpotatoes/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/sassyssweetpotatoes/",
+        "evidence": "Exact sweet-potato stand profile with Big E highlight; Facebook Palmer caterer phone 413-544-9819 matches Instagram catering image. WWLP historical coverage identifies fair operator as Sassy’s Catering; historical menu not reused."
+      },
+      {
+        "url": "https://www.facebook.com/people/Sassys-Catering/100042938535699/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/sassyssweetpotatoes/",
+        "evidence": "Exact sweet-potato stand profile with Big E highlight; Facebook Palmer caterer phone 413-544-9819 matches Instagram catering image. WWLP historical coverage identifies fair operator as Sassy’s Catering; historical menu not reused."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "steaming-tender",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Steaming Tender\" Big E restaurant",
+      "Steaming Tender official website linked Instagram"
+    ],
+    "notes": "Official website links Facebook and Instagram. Opened own Sep18 opening-day post confirming four bread pudding flavors at Craft Common Sep18–Oct4. Added missing Pumpkin and Chocolate Banana Whiskey; generic restaurant menu excluded.",
+    "accounts": [
+      {
+        "url": "https://www.steamingtender.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.steamingtender.com/",
+        "evidence": "Official restaurant website links profiles; September18 own caption confirms exact Craft Common stand."
+      },
+      {
+        "url": "https://www.facebook.com/SteamingTenderRestaurant/",
+        "verified": true,
+        "evidenceUrl": "https://www.steamingtender.com/",
+        "evidence": "Official restaurant website links profiles; September18 own caption confirms exact Craft Common stand."
+      },
+      {
+        "url": "https://www.instagram.com/steamingtender/",
+        "verified": true,
+        "evidenceUrl": "https://www.steamingtender.com/",
+        "evidence": "Official restaurant website links profiles; September18 own caption confirms exact Craft Common stand."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Opening-day post confirms Whiskey, Pumpkin, S’mores and Chocolate Banana Whiskey Bread Pudding at Craft Common.",
+        "url": "https://www.instagram.com/steamingtender/p/Ddbn0EsxBt5/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "vendorId": "stellas-milk-cookies",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Stella’s Milk & Cookies\" Facebook",
+      "\"Stella's Cookies and Milk\" \"Big E\""
+    ],
+    "notes": "Exact-name searches found Toast business listing explicitly at Big E with matching 1305 Memorial Avenue address, but no menu or verified social account. Linked location page only. Unrelated Stella’s Gourmet and Wisconsin bakery excluded.",
+    "accounts": [
+      {
+        "url": "https://toast.app/r/stellas-cookies-and-milk-65-cedar-woods-gln",
+        "verified": true,
+        "evidenceUrl": "https://toast.app/r/stellas-cookies-and-milk-65-cedar-woods-gln",
+        "evidence": "Toast business listing explicitly named Stella’s Cookies and Milk at the Big E with fairground address; no food claims inferred."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "super-dog",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Super Dog\" \"Big E\"",
+      "\"Super Dog\" Big E official Facebook Instagram"
+    ],
+    "notes": "Searched exact stand name with Big E and social terms using web/Bing. Fair and news references found, but no verifiable operator account. Unrelated businesses excluded. Checked current official New Foods and Bargain Bites; retained existing PDF entries.",
+    "accounts": [],
+    "findings": [
+      {
+        "detail": "Mini Corndog on Springfield Road is listed for September21 Bargain Bites.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "the-big-e-bakery",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Big E Bakery\" official",
+      "\"Big E Bakery\" Instagram Facebook"
+    ],
+    "notes": "Read dedicated bakery website: matching fairground address and official fair social links. Its Sep12–28 hours are stale, so not used for current dates/hours. Current official fair page verifies peanut butter cream puff garnishes.",
+    "accounts": [
+      {
+        "url": "https://www.thebigebakery.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.thebigebakery.com/",
+        "evidence": "Dedicated bakery website identifies fairground pickup sites and directly links these official fair accounts."
+      },
+      {
+        "url": "https://www.facebook.com/TheBigE/",
+        "verified": true,
+        "evidenceUrl": "https://www.thebigebakery.com/",
+        "evidence": "Dedicated bakery website identifies fairground pickup sites and directly links these official fair accounts."
+      },
+      {
+        "url": "https://www.instagram.com/thebigefair/",
+        "verified": true,
+        "evidenceUrl": "https://www.thebigebakery.com/",
+        "evidence": "Dedicated bakery website identifies fairground pickup sites and directly links these official fair accounts."
+      }
+    ],
+    "findings": []
+  }
+]

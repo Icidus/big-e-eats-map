@@ -1,41 +1,41 @@
 {
-  "batchId": "batch-010",
+  "batchId": "batch-011",
   "vendors": [
     {
-      "vendorId": "moose-joose-slush",
-      "name": "Moose Joose Slush",
+      "vendorId": "the-cantina",
+      "name": "The Cantina",
       "catalogItems": [
         {
-          "id": "moose-joose-fall-in-a-cup",
-          "name": "Fall in a Cup"
+          "id": "the-cantina-margarita-topped-with-cotton-candy",
+          "name": "Margarita topped with Cotton Candy"
         },
         {
-          "id": "moose-joose-strawberry-cheesecake-slush",
-          "name": "Strawberry Cheesecake Slush"
+          "id": "the-cantina-margaritas",
+          "name": "Margaritas"
         },
         {
-          "id": "moose-joose-summerween",
-          "name": "Summerween"
+          "id": "the-cantina-sangria",
+          "name": "Sangria"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Moose Joose Slush\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Moose+Joose+Slush%22+%22Big+E%22+2026"
+          "query": "\"The Cantina\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Cantina%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Moose Joose Slush\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Moose+Joose+Slush%22+Instagram+Facebook+official"
+          "query": "\"The Cantina\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Cantina%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "moose-joose-slush",
+        "vendorId": "the-cantina",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Moose Joose Slush\" \"Big E\" 2026",
-          "\"Moose Joose Slush\" Instagram Facebook official"
+          "\"The Cantina\" \"Big E\" 2026",
+          "\"The Cantina\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -43,40 +43,40 @@
       }
     },
     {
-      "vendorId": "ny-style-pizza",
-      "name": "NY Style Pizza",
+      "vendorId": "the-emporium",
+      "name": "The Emporium",
       "catalogItems": [
         {
-          "id": "ny-style-pizza-hot-honey-chicken-pizza",
-          "name": "Hot Honey Chicken Pizza"
+          "id": "the-emporium-craz-e-burger",
+          "name": "Craz-E Burger"
         },
         {
-          "id": "ny-style-pizza-pizza-slices",
-          "name": "Pizza Slices"
+          "id": "the-emporium-insanit-e-burger",
+          "name": "Insanit-E Burger"
         },
         {
-          "id": "ny-style-pizza-pickle-pizza",
-          "name": "Pickle Pizza"
+          "id": "the-emporium-spic-e-burger",
+          "name": "Spic-E Burger"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"NY Style Pizza\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22NY+Style+Pizza%22+%22Big+E%22+2026"
+          "query": "\"The Emporium\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Emporium%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"NY Style Pizza\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22NY+Style+Pizza%22+Instagram+Facebook+official"
+          "query": "\"The Emporium\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Emporium%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "ny-style-pizza",
+        "vendorId": "the-emporium",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"NY Style Pizza\" \"Big E\" 2026",
-          "\"NY Style Pizza\" Instagram Facebook official"
+          "\"The Emporium\" \"Big E\" 2026",
+          "\"The Emporium\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -84,40 +84,40 @@
       }
     },
     {
-      "vendorId": "penalty-box-pub",
-      "name": "Penalty Box Pub",
+      "vendorId": "the-mick",
+      "name": "The Mick",
       "catalogItems": [
         {
-          "id": "penalty-box-pub-frozen-cocktails",
-          "name": "Frozen Cocktails"
+          "id": "the-mick-alfredo-pasta-bomb",
+          "name": "The Alfredo Pasta Bomb"
         },
         {
-          "id": "penalty-box-pub-beer",
-          "name": "Beer"
+          "id": "the-mick-craft-beer",
+          "name": "Craft Beer"
         },
         {
-          "id": "penalty-box-pub-hard-seltzer",
-          "name": "Hard Seltzer"
+          "id": "the-mick-hard-cider",
+          "name": "Hard Cider"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Penalty Box Pub\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Penalty+Box+Pub%22+%22Big+E%22+2026"
+          "query": "\"The Mick\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Mick%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Penalty Box Pub\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Penalty+Box+Pub%22+Instagram+Facebook+official"
+          "query": "\"The Mick\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Mick%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "penalty-box-pub",
+        "vendorId": "the-mick",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Penalty Box Pub\" \"Big E\" 2026",
-          "\"Penalty Box Pub\" Instagram Facebook official"
+          "\"The Mick\" \"Big E\" 2026",
+          "\"The Mick\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -125,81 +125,40 @@
       }
     },
     {
-      "vendorId": "roasted-corn-in-a-cup",
-      "name": "Roasted Corn in a Cup",
+      "vendorId": "top-the-crust",
+      "name": "Top The Crust",
       "catalogItems": [
         {
-          "id": "roasted-corn-in-a-cup-flamin-hot-cheetos-corn",
-          "name": "Flamin’ Hot Cheetos Corn"
-        },
-        {
-          "id": "roasted-corn-in-a-cup-parmesan-corn",
-          "name": "Parmesan Corn"
-        },
-        {
-          "id": "roasted-corn-in-a-cup-mexican-style-corn",
-          "name": "Mexican Style Corn"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Roasted Corn in a Cup\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Roasted+Corn+in+a+Cup%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Roasted Corn in a Cup\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Roasted+Corn+in+a+Cup%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "roasted-corn-in-a-cup",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Roasted Corn in a Cup\" \"Big E\" 2026",
-          "\"Roasted Corn in a Cup\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "rudys-pizza",
-      "name": "Rudy’s Pizza",
-      "catalogItems": [
-        {
-          "id": "rudys-baked-potato-pizza",
-          "name": "Baked Potato Pizza"
-        },
-        {
-          "id": "rudy-s-pizza-flaming-hot-cheeto-pickle-pizza",
-          "name": "Flaming Hot Cheeto Pickle Pizza"
-        },
-        {
-          "id": "rudys-pizza-pizza",
+          "id": "top-the-crust-pizza",
           "name": "Pizza"
+        },
+        {
+          "id": "top-the-crust-dessert-pizza",
+          "name": "Dessert Pizza"
+        },
+        {
+          "id": "top-the-crust-candy-bar-pizza",
+          "name": "Candy Bar Pizza"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Rudy’s Pizza\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Rudy%E2%80%99s+Pizza%22+%22Big+E%22+2026"
+          "query": "\"Top The Crust\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Top+The+Crust%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Rudy’s Pizza\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Rudy%E2%80%99s+Pizza%22+Instagram+Facebook+official"
+          "query": "\"Top The Crust\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Top+The+Crust%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "rudys-pizza",
+        "vendorId": "top-the-crust",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Rudy’s Pizza\" \"Big E\" 2026",
-          "\"Rudy’s Pizza\" Instagram Facebook official"
+          "\"Top The Crust\" \"Big E\" 2026",
+          "\"Top The Crust\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -207,40 +166,40 @@
       }
     },
     {
-      "vendorId": "sassys-sweet-potatoes",
-      "name": "Sassy’s Sweet Potatoes",
+      "vendorId": "wild-bills-curly-fries",
+      "name": "Wild Bill’s Curly Fries",
       "catalogItems": [
         {
-          "id": "sassy-s-sweet-potatoes-loaded-potatoes",
-          "name": "Loaded Potatoes"
+          "id": "wild-bill-s-curly-fries-chicken-tenders",
+          "name": "Chicken Tenders"
         },
         {
-          "id": "sassy-s-sweet-potatoes-mac-and-cheese-potatoes",
-          "name": "Mac & Cheese Potatoes"
+          "id": "wild-bill-s-curly-fries-foot-long-corn-dogs",
+          "name": "Foot-Long Corn Dogs"
         },
         {
-          "id": "sassy-s-sweet-potatoes-s-mores-potatoes",
-          "name": "S’mores Potatoes"
+          "id": "wild-bill-s-curly-fries-curly-fries",
+          "name": "Curly Fries"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Sassy’s Sweet Potatoes\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Sassy%E2%80%99s+Sweet+Potatoes%22+%22Big+E%22+2026"
+          "query": "\"Wild Bill’s Curly Fries\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Wild+Bill%E2%80%99s+Curly+Fries%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Sassy’s Sweet Potatoes\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Sassy%E2%80%99s+Sweet+Potatoes%22+Instagram+Facebook+official"
+          "query": "\"Wild Bill’s Curly Fries\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Wild+Bill%E2%80%99s+Curly+Fries%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "sassys-sweet-potatoes",
+        "vendorId": "wild-bills-curly-fries",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Sassy’s Sweet Potatoes\" \"Big E\" 2026",
-          "\"Sassy’s Sweet Potatoes\" Instagram Facebook official"
+          "\"Wild Bill’s Curly Fries\" \"Big E\" 2026",
+          "\"Wild Bill’s Curly Fries\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -248,40 +207,40 @@
       }
     },
     {
-      "vendorId": "steaming-tender",
-      "name": "Steaming Tender",
+      "vendorId": "wisconsin-hot-cheese",
+      "name": "Wisconsin Hot Cheese",
       "catalogItems": [
         {
-          "id": "steaming-tender-smores-whiskey-bread-pudding",
-          "name": "S’mores Whiskey Bread Pudding"
+          "id": "wisconsin-hot-cheese-monster-mozzarella",
+          "name": "Monster Mozzarella"
         },
         {
-          "id": "steaming-tender-bread-pudding",
-          "name": "Bread Pudding"
+          "id": "wisconsin-hot-cheese-cheddar-nuggets",
+          "name": "Cheddar Nuggets"
         },
         {
-          "id": "steaming-tender-whiskey-bread-pudding",
-          "name": "Whiskey Bread Pudding"
+          "id": "wisconsin-hot-cheese-mozzarella-fingers",
+          "name": "Mozzarella Fingers"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Steaming Tender\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Steaming+Tender%22+%22Big+E%22+2026"
+          "query": "\"Wisconsin Hot Cheese\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Wisconsin+Hot+Cheese%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Steaming Tender\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Steaming+Tender%22+Instagram+Facebook+official"
+          "query": "\"Wisconsin Hot Cheese\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Wisconsin+Hot+Cheese%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "steaming-tender",
+        "vendorId": "wisconsin-hot-cheese",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Steaming Tender\" \"Big E\" 2026",
-          "\"Steaming Tender\" Instagram Facebook official"
+          "\"Wisconsin Hot Cheese\" \"Big E\" 2026",
+          "\"Wisconsin Hot Cheese\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -289,40 +248,44 @@
       }
     },
     {
-      "vendorId": "stellas-milk-cookies",
-      "name": "Stella’s Milk & Cookies",
+      "vendorId": "amys-sweet-treats",
+      "name": "Amy’s Sweet Treats",
       "catalogItems": [
         {
-          "id": "stella-s-milk-and-cookies-homemade-chocolate-chip-cookies",
-          "name": "Homemade Chocolate Chip Cookies"
+          "id": "amy-s-sweet-treats-crazy-milkshakes",
+          "name": "Crazy Milkshakes"
         },
         {
-          "id": "stella-s-milk-and-cookies-milk",
-          "name": "Milk"
+          "id": "amy-s-sweet-treats-hot-honey-sundae",
+          "name": "Hot Honey Sundae"
         },
         {
-          "id": "stellas-milk-and-cookies-muffin-tops",
-          "name": "Muffin Tops"
+          "id": "amys-sweet-treats-ice-cream",
+          "name": "Ice Cream"
+        },
+        {
+          "id": "amys-sweet-treats-pickle-sundae",
+          "name": "Pickle Sundae"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Stella’s Milk & Cookies\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Stella%E2%80%99s+Milk+%26+Cookies%22+%22Big+E%22+2026"
+          "query": "\"Amy’s Sweet Treats\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Amy%E2%80%99s+Sweet+Treats%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Stella’s Milk & Cookies\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Stella%E2%80%99s+Milk+%26+Cookies%22+Instagram+Facebook+official"
+          "query": "\"Amy’s Sweet Treats\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Amy%E2%80%99s+Sweet+Treats%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "stellas-milk-cookies",
+        "vendorId": "amys-sweet-treats",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Stella’s Milk & Cookies\" \"Big E\" 2026",
-          "\"Stella’s Milk & Cookies\" Instagram Facebook official"
+          "\"Amy’s Sweet Treats\" \"Big E\" 2026",
+          "\"Amy’s Sweet Treats\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -330,40 +293,44 @@
       }
     },
     {
-      "vendorId": "super-dog",
-      "name": "Super Dog",
+      "vendorId": "angelas-pizza",
+      "name": "Angela’s Pizza",
       "catalogItems": [
         {
-          "id": "super-dog-6-inch-dog-on-a-stick",
-          "name": "6-inch Dog-on-a-Stick"
+          "id": "angela-s-pizza-giant-mozzarella-stick",
+          "name": "Giant Mozzarella Stick"
         },
         {
-          "id": "super-dog-12-inch-super-dog",
-          "name": "12-inch Super Dog"
+          "id": "angela-s-pizza-pickle-pizza",
+          "name": "Pickle Pizza"
         },
         {
-          "id": "super-dog-18-inch-mega-dog",
-          "name": "18-inch Mega Dog"
+          "id": "angela-s-pizza-mexican-street-corn-pizza",
+          "name": "Mexican Street Corn Pizza"
+        },
+        {
+          "id": "angelas-pizza-normal-pizza",
+          "name": "Normal Pizza"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Super Dog\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Super+Dog%22+%22Big+E%22+2026"
+          "query": "\"Angela’s Pizza\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Angela%E2%80%99s+Pizza%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Super Dog\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Super+Dog%22+Instagram+Facebook+official"
+          "query": "\"Angela’s Pizza\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Angela%E2%80%99s+Pizza%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "super-dog",
+        "vendorId": "angelas-pizza",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Super Dog\" \"Big E\" 2026",
-          "\"Super Dog\" Instagram Facebook official"
+          "\"Angela’s Pizza\" \"Big E\" 2026",
+          "\"Angela’s Pizza\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -371,40 +338,89 @@
       }
     },
     {
-      "vendorId": "the-big-e-bakery",
-      "name": "The Big E Bakery",
+      "vendorId": "annas-fried-dough",
+      "name": "Anna’s Fried Dough",
       "catalogItems": [
         {
-          "id": "big-e-bakery-peanut-butter-cream-puff",
-          "name": "Peanut Butter Cream Puff"
+          "id": "anna-s-fried-dough-fried-dough",
+          "name": "Fried Dough"
         },
         {
-          "id": "big-e-cream-puff-bakery-big-e-cream-puff",
-          "name": "Big E Cream Puff"
+          "id": "anna-s-fried-dough-doughco",
+          "name": "Doughco"
         },
         {
-          "id": "big-e-cream-puff-bakery-big-e-clair",
-          "name": "Big E-clair"
+          "id": "anna-s-fried-dough-fried-dough-bites",
+          "name": "Fried Dough Bites"
+        },
+        {
+          "id": "annas-fried-dough-sloppy-dough",
+          "name": "Sloppy Dough"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"The Big E Bakery\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22The+Big+E+Bakery%22+%22Big+E%22+2026"
+          "query": "\"Anna’s Fried Dough\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Anna%E2%80%99s+Fried+Dough%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"The Big E Bakery\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22The+Big+E+Bakery%22+Instagram+Facebook+official"
+          "query": "\"Anna’s Fried Dough\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Anna%E2%80%99s+Fried+Dough%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "the-big-e-bakery",
+        "vendorId": "annas-fried-dough",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"The Big E Bakery\" \"Big E\" 2026",
-          "\"The Big E Bakery\" Instagram Facebook official"
+          "\"Anna’s Fried Dough\" \"Big E\" 2026",
+          "\"Anna’s Fried Dough\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "big-kahunas",
+      "name": "Big Kahuna’s",
+      "catalogItems": [
+        {
+          "id": "big-kahunas-fried-feta-cheese-cubes",
+          "name": "Fried Feta Cheese Cubes"
+        },
+        {
+          "id": "big-kahuna-s-gyros",
+          "name": "Gyros"
+        },
+        {
+          "id": "big-kahuna-s-dorito-gyro",
+          "name": "Dorito Gyro"
+        },
+        {
+          "id": "big-kahuna-s-falafel",
+          "name": "Falafel"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Big Kahuna’s\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Big+Kahuna%E2%80%99s%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Big Kahuna’s\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Big+Kahuna%E2%80%99s%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "big-kahunas",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Big Kahuna’s\" \"Big E\" 2026",
+          "\"Big Kahuna’s\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],

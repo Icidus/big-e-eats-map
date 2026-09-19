@@ -1,6 +1,6 @@
 # Vendor research progress
 
-95 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+105 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -711,6 +711,20 @@ no-account-found · 2026-09-19 · 3 catalog items
 Discovery search rate-limited; alternative web search returned no verified exact stand. Read known Clemenza’s current drink/multi-stand previews, which mention specialty mojitos but do not explicitly identify the catalog’s generic Mojito Bar. No operator link attached based only on a common drink name.
 
 
+## NY Style Pizza
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Searched exact stand name with Big E and social terms using web/Bing. Fair and news references found, but no verifiable operator account. Unrelated businesses excluded. Checked current official New Foods and Bargain Bites; retained existing PDF entries.
+
+
+## Penalty Box Pub
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Searched exact stand name with Big E and social terms using web/Bing. Fair and news references found, but no verifiable operator account. Unrelated businesses excluded. Checked current official New Foods and Bargain Bites; retained existing PDF entries.
+
+
 ## Pickle Barrel Sirloin Tips
 
 reviewed · 2026-09-19 · 3 catalog items
@@ -729,6 +743,48 @@ Read official fair Maine menu, vendor website and matching Instagram bio. Scanne
 - Account: https://qpburger.com/ (verified)
 - Account: https://www.instagram.com/qpburgermaine/ (verified)
 - **lead / new-item**: Fox Family Potato Chips explicitly listed as a side with QP burgers/hot dogs in the current Maine Building menu. [Source](https://www.thebige.com/p/thingstodo/avenue/maine-building) (checked 2026-09-19)
+
+## Roasted Corn in a Cup
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Searched exact stand name with Big E and social terms using web/Bing. Fair and news references found, but no verifiable operator account. Unrelated businesses excluded. Checked current official New Foods and Bargain Bites; retained existing PDF entries.
+
+
+## Rudy’s Pizza
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Operator and current August 27 pizza/slush announcement already verified in batch005. Reused that evidence and current fair Bargain Bites listing; no duplicate Baked Potato Pizza. Cheese pizza offer attached to existing Pizza entry.
+
+- Account: https://www.facebook.com/people/Rudys-Pizza-Slush/100057841531621/ (verified)
+
+## Sassy’s Sweet Potatoes
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Reviewed Instagram profile/grid and Aug18 post (Delaware County Fair, not Big E). Facebook Palmer catering profile phone matches Instagram July14 catering image. Current posts are other events; no historical sushi/taco menu promoted to 2026. IG Big E highlight and distinctive stand identity establish vendor link.
+
+- Account: https://www.instagram.com/sassyssweetpotatoes/ (verified)
+- Account: https://www.facebook.com/people/Sassys-Catering/100042938535699/ (verified)
+
+## Stella’s Milk & Cookies
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Exact-name searches found Toast business listing explicitly at Big E with matching 1305 Memorial Avenue address, but no menu or verified social account. Linked location page only. Unrelated Stella’s Gourmet and Wisconsin bakery excluded.
+
+- Account: https://toast.app/r/stellas-cookies-and-milk-65-cedar-woods-gln (verified)
+
+## The Big E Bakery
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Read dedicated bakery website: matching fairground address and official fair social links. Its Sep12–28 hours are stale, so not used for current dates/hours. Current official fair page verifies peanut butter cream puff garnishes.
+
+- Account: https://www.thebigebakery.com/ (verified)
+- Account: https://www.facebook.com/TheBigE/ (verified)
+- Account: https://www.instagram.com/thebigefair/ (verified)
 
 ## Boardwok Noodles
 
@@ -758,6 +814,24 @@ Opened indexed vendor Facebook profile matching touring East Coast smoothie oper
 - Account: https://www.facebook.com/junglejuicesmoothies/ (verified)
 - **lead / new-item**: Java Jungle Mango Lemon Refresher listed at Jungle Juice Smoothie, Commonwealth Avenue, for September 21. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 
+## Moose Joose Slush
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Verified matching touring slush profile and opened September 17 own caption explicitly advertising caramel apple slush only at Big E. Compared current fair description: already represented by Fall in a Cup, so no duplicate. Added small-slush Bargain Bites option.
+
+- Account: https://www.instagram.com/moosejooseslush/ (verified)
+- Account: https://www.facebook.com/MooseJooseSlush (verified)
+- **confirmed / confirmation**: Caramel Apple Slush advertised specifically at Big E; existing Fall in a Cup enriched. [Source](https://www.instagram.com/moosejooseslush/p/DdZGKseRGPW/) (checked 2026-09-19)
+
+## Super Dog
+
+no-account-found · 2026-09-19 · 4 catalog items
+
+Searched exact stand name with Big E and social terms using web/Bing. Fair and news references found, but no verifiable operator account. Unrelated businesses excluded. Checked current official New Foods and Bargain Bites; retained existing PDF entries.
+
+- **lead / new-item**: Mini Corndog on Springfield Road is listed for September21 Bargain Bites. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
 ## Chocolate Moonshine
 
 reviewed · 2026-09-19 · 5 catalog items
@@ -780,6 +854,17 @@ Official website names Poppies Fresh Onion Rings and links both profiles. Scanne
 - Account: https://www.facebook.com/poppiesconcessions (verified)
 - **confirmed / new-item**: Cinnamon Roll Waffle Sundae and Waffle Dogs on a Stick debut at the Cheesecake Trailer in front of Massachusetts Building. Menu photo specifies vanilla ice cream, whipped cream, icing and caramel sauce on sundae. [Source](https://www.instagram.com/poppiesconcessions/p/DdW_iUmpAlb/) (checked 2026-09-19)
 - **confirmed / new-item**: Fried cheesecake confirmed in front of Massachusetts Building in today’s caption. [Source](https://www.instagram.com/poppiesconcessions/p/DdeTYmQjy5R/) (checked 2026-09-19)
+
+## Steaming Tender
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Official website links Facebook and Instagram. Opened own Sep18 opening-day post confirming four bread pudding flavors at Craft Common Sep18–Oct4. Added missing Pumpkin and Chocolate Banana Whiskey; generic restaurant menu excluded.
+
+- Account: https://www.steamingtender.com/ (verified)
+- Account: https://www.facebook.com/SteamingTenderRestaurant/ (verified)
+- Account: https://www.instagram.com/steamingtender/ (verified)
+- **confirmed / new-item**: Opening-day post confirms Whiskey, Pumpkin, S’mores and Chocolate Banana Whiskey Bread Pudding at Craft Common. [Source](https://www.instagram.com/steamingtender/p/Ddbn0EsxBt5/) (checked 2026-09-19)
 
 ## Joey's Deli & Market
 
