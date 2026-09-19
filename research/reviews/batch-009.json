@@ -1,0 +1,282 @@
+[
+  {
+    "vendorId": "chocolate-moonshine",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Chocolate Moonshine\" Big E official"
+    ],
+    "notes": "Read official brand website and linked socials. Scanned 12 Instagram grid entries Jul 30–Sep 18, 2026; opened latest Pumpkin Patch assortment caption, which does not establish fair stock. Current official Bargain Bites explicitly lists hand-painted truffle bar, Pecan Caramel Explosion and already-cataloged chocolate-covered pickles by stall. Added two missing items only, not online flavor catalog.",
+    "accounts": [
+      {
+        "url": "https://www.chocolatemoonshine.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.chocolatemoonshine.com/",
+        "evidence": "Official brand website links matching profiles; fair explicitly names the brand at its three locations. Links identify brand, not a claimed separate franchise account."
+      },
+      {
+        "url": "https://www.instagram.com/chocolatemoonshineco/",
+        "verified": true,
+        "evidenceUrl": "https://www.chocolatemoonshine.com/",
+        "evidence": "Official brand website links matching profiles; fair explicitly names the brand at its three locations. Links identify brand, not a claimed separate franchise account."
+      },
+      {
+        "url": "https://www.facebook.com/chocolatemoonshineco/",
+        "verified": true,
+        "evidenceUrl": "https://www.chocolatemoonshine.com/",
+        "evidence": "Official brand website links matching profiles; fair explicitly names the brand at its three locations. Links identify brand, not a claimed separate franchise account."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Hand-painted Truffle Bar (Better Living Center) and Pecan Caramel Explosion (Young Building) are current September 21 specials.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "clemenzas-italian-street-food",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Clemenza’s Italian Street Food\" Big E",
+      "Clemenza’s Facebook related Big E stand previews"
+    ],
+    "notes": "Discovery search was rate-limited; used already discovered operator Facebook links instead and alternative web search. Opened current Italian Street Food preview caption and multi-stand preview. Caption establishes exact stand, but no extra ingredients inferred from video or visitor comments. Existing pasta/arancini/knots retained.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/people/Clemenzas/100063715069515/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/100063715069515/videos/1099124562580003/",
+        "evidence": "Operator’s own current caption explicitly names Clemenza’s Italian Street Food at The Big E."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "deep-fried-calzones",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Deep Fried Calzones\" \"Clemenza\"",
+      "Clemenza’s current multi-stand Big E menu preview"
+    ],
+    "notes": "Initial discovery search was rate-limited; continued through known Clemenza’s related videos and alternative web search. Opened operator multi-stand 2026 caption naming Deep Fried Calzones. Current official fair menu confirms cheese, pepperoni and meatball parmesan; existing catalog omitted separate pepperoni option.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/people/Clemenzas/100063715069515/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/100063715069515/videos/2143629959891281/",
+        "evidence": "Operator’s 2026 Big E preview explicitly includes Deep Fried Calzones among its stands; matches current fair vendor name."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Official menu lists pepperoni calzones in addition to already-cataloged cheese and meatball parmesan.",
+        "url": "https://www.thebige.com/p/food2/newfoods",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "downeast-cider-garden",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "Downeast Cider official website and linked profiles"
+    ],
+    "notes": "Read public website with age form present; did not submit age. Website links both accounts. Instagram age-restricted; Facebook accessible latest Aug 31 collaborative Big E post starts cream-puff announcement but rest collapsed. Existing official fair Cream Puff listing retained; online White Peach and other cider flavors not promoted as fair stock.",
+    "accounts": [
+      {
+        "url": "https://downeastcider.com/",
+        "verified": true,
+        "evidenceUrl": "https://downeastcider.com/",
+        "evidence": "Official cidery website links both profiles; Facebook has current coauthored Big E announcement."
+      },
+      {
+        "url": "https://www.instagram.com/downeastcider/",
+        "verified": true,
+        "evidenceUrl": "https://downeastcider.com/",
+        "evidence": "Official cidery website links both profiles; Facebook has current coauthored Big E announcement."
+      },
+      {
+        "url": "https://www.facebook.com/downeastcider/",
+        "verified": true,
+        "evidenceUrl": "https://downeastcider.com/",
+        "evidence": "Official cidery website links both profiles; Facebook has current coauthored Big E announcement."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "fried-factory",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Fried Factory\" \"Big E\" Instagram",
+      "\"Fried Factory\" \"Big E\" facebook official"
+    ],
+    "notes": "Exact-name fair/Instagram discovery returned visitor and existing MassLive listings. Alternative web search did not establish official operator. No unrelated Fried Factory accounts or old menu assigned.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "jungle-juice-smoothies",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Jungle Juice Smoothies\" \"Big E\"",
+      "\"Jungle Juice Smoothies\" \"Big E\" facebook"
+    ],
+    "notes": "Opened indexed vendor Facebook profile matching touring East Coast smoothie operation; profile search excerpt explicitly says back at The Big E. Latest exposed May 2025 post links a Rochester festival reel, not its own Instagram, so did not misattribute it. Website timed out. Current fair Bargain Bites lists Java Jungle Mango Lemon Refresher for Jungle Juice Smoothie on Commonwealth. Coffee-named stand’s separate strawberry drink not assigned without identity confirmation.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/junglejuicesmoothies/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/junglejuicesmoothies/",
+        "evidence": "Matching distinctive vendor name and East Coast touring smoothie profile; indexed profile text explicitly identifies its Big E stand and fresh fruit smoothies. No dated menu claim made from index."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Java Jungle Mango Lemon Refresher listed at Jungle Juice Smoothie, Commonwealth Avenue, for September 21.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "ks-japanese-restaurant-food-court",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"K’s Japanese\" Big E official"
+    ],
+    "notes": "Read official Westfield restaurant website and its directly linked accounts. Scanned 12 Instagram grid entries Sep 3–19, 2026; opened two Sep 19 posts whose captions are empty. No restaurant sushi menu imported. Existing official fair three sushi offerings confirmed; descriptions now identify Food Court on East Road.",
+    "accounts": [
+      {
+        "url": "https://ksjapanese.com/",
+        "verified": true,
+        "evidenceUrl": "https://ksjapanese.com/",
+        "evidence": "Official restaurant website links Instagram and numeric Facebook ID, which redirects to KsJapaneseRestaurant with matching Westfield address and website."
+      },
+      {
+        "url": "https://www.instagram.com/westfieldks/",
+        "verified": true,
+        "evidenceUrl": "https://ksjapanese.com/",
+        "evidence": "Official restaurant website links Instagram and numeric Facebook ID, which redirects to KsJapaneseRestaurant with matching Westfield address and website."
+      },
+      {
+        "url": "https://www.facebook.com/KsJapaneseRestaurant/",
+        "verified": true,
+        "evidenceUrl": "https://ksjapanese.com/",
+        "evidence": "Official restaurant website links Instagram and numeric Facebook ID, which redirects to KsJapaneseRestaurant with matching Westfield address and website."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "luanns-bakery",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"LuAnns Bakery\" Big E official",
+      "LuAnn’s official What’s Happening 2026 Big E menu"
+    ],
+    "notes": "Read official website’s specific Sep 18–Oct 4, 2026 fair announcement: N28, New England Avenue outside Young Building; cupcakes, bucket cakes, apple crisp and brownie bar. Scanned 12 Instagram grid entries including pinned posts; opened Sep 18 Cookies & Cream announcement and Sep 19 location/brownie caption. Full-size cake described in Sep 18 caption is cafe-only; only cupcake is confirmed for fair. Two website images inspected are booth photo and unrelated festival poster, not menu. Current Bargain Bites adds Mini Funfetti Cupcakes.",
+    "accounts": [
+      {
+        "url": "https://www.luannsbakery.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.luannsbakery.com/",
+        "evidence": "Official bakery website links both primary profiles and specifically advertises current Big E booth."
+      },
+      {
+        "url": "https://www.instagram.com/luanns_bakery/",
+        "verified": true,
+        "evidenceUrl": "https://www.luannsbakery.com/",
+        "evidence": "Official bakery website links both primary profiles and specifically advertises current Big E booth."
+      },
+      {
+        "url": "https://www.facebook.com/luannsbakery",
+        "verified": true,
+        "evidenceUrl": "https://www.luannsbakery.com/",
+        "evidence": "Official bakery website links both primary profiles and specifically advertises current Big E booth."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Cookies & Cream Cupcakes debut at Big E booth; cafe-only full cake excluded.",
+        "url": "https://www.instagram.com/luanns_bakery/p/DdbPAYqRpFN/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-18"
+      },
+      {
+        "detail": "Apple Crisp confirmed in official 2026 fair menu at N28, outside Young Building.",
+        "url": "https://www.luannsbakery.com/pages/what",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      },
+      {
+        "detail": "Mini Funfetti Cupcakes listed as September 21 Bargain Bites special.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "massachusetts-building",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "The Big E official Massachusetts Building 2026 exhibitors"
+    ],
+    "notes": "Read official 2026 Massachusetts Building exhibitor page. It does not identify exact operators of all three generic PDF listings (lobster rolls, whoopie pies, cider doughnuts); retained their citations and IDs without assigning an unrelated bakery. Linked building umbrella to official page.",
+    "accounts": [
+      {
+        "url": "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building",
+        "verified": true,
+        "evidenceUrl": "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building",
+        "evidence": "Official fair page for the building umbrella used in saved PDF listings."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "mojito-bar",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Mojito Bar\" \"Big E\" official",
+      "\"Mojito Bar\" \"Big E\" instagram",
+      "Clemenza’s current drink previews"
+    ],
+    "notes": "Discovery search rate-limited; alternative web search returned no verified exact stand. Read known Clemenza’s current drink/multi-stand previews, which mention specialty mojitos but do not explicitly identify the catalog’s generic Mojito Bar. No operator link attached based only on a common drink name.",
+    "accounts": [],
+    "findings": []
+  }
+]

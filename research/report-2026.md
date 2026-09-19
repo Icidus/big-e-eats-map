@@ -1,6 +1,6 @@
 # Vendor research progress
 
-85 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+95 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -639,6 +639,14 @@ Found chans_chickenonastick account and scanned its 12 grid entries May 2019–A
 
 - Account: https://www.instagram.com/chans_chickenonastick/ (candidate)
 
+## Clemenza’s Italian Street Food
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Discovery search was rate-limited; used already discovered operator Facebook links instead and alternative web search. Opened current Italian Street Food preview caption and multi-stand preview. Caption establishes exact stand, but no extra ingredients inferred from video or visitor comments. Existing pasta/arancini/knots retained.
+
+- Account: https://www.facebook.com/people/Clemenzas/100063715069515/ (verified)
+
 ## Connecticut Building
 
 reviewed · 2026-09-19 · 3 catalog items
@@ -647,6 +655,33 @@ Read official 2026 Connecticut Building exhibitor menu. It names Dannys Smoke Ho
 
 - Account: https://www.thebige.com/p/thingstodo/avenue/connecticut-building (verified)
 - **lead / new-item**: The Connecticut Dog from Dannys Smoke House is missing; loaded baked potatoes and Connecticut Craft Beer Works drinks already have generic building listings. [Source](https://www.thebige.com/p/thingstodo/avenue/connecticut-building) (checked 2026-09-19)
+
+## Downeast Cider Garden
+
+inaccessible · 2026-09-19 · 3 catalog items
+
+Read public website with age form present; did not submit age. Website links both accounts. Instagram age-restricted; Facebook accessible latest Aug 31 collaborative Big E post starts cream-puff announcement but rest collapsed. Existing official fair Cream Puff listing retained; online White Peach and other cider flavors not promoted as fair stock.
+
+- Account: https://downeastcider.com/ (verified)
+- Account: https://www.instagram.com/downeastcider/ (verified)
+- Account: https://www.facebook.com/downeastcider/ (verified)
+
+## Fried Factory
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Exact-name fair/Instagram discovery returned visitor and existing MassLive listings. Alternative web search did not establish official operator. No unrelated Fried Factory accounts or old menu assigned.
+
+
+## K’s Japanese Restaurant Food Court
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Read official Westfield restaurant website and its directly linked accounts. Scanned 12 Instagram grid entries Sep 3–19, 2026; opened two Sep 19 posts whose captions are empty. No restaurant sushi menu imported. Existing official fair three sushi offerings confirmed; descriptions now identify Food Court on East Road.
+
+- Account: https://ksjapanese.com/ (verified)
+- Account: https://www.instagram.com/westfieldks/ (verified)
+- Account: https://www.facebook.com/KsJapaneseRestaurant/ (verified)
 
 ## Main Street Deli
 
@@ -660,6 +695,21 @@ Read fair-linked official deli website and parent social accounts. Scanned 12 In
 - Account: https://www.instagram.com/141mainst/ (verified)
 - Account: https://www.facebook.com/141main (verified)
 - **confirmed / new-item**: Maple Bacon Mac & Cheese is confirmed for the Massachusetts Building and missing from catalog. Pilgrim Sandwich and Turkey Bowls already represented; added current supporting citation. [Source](https://www.instagram.com/141mainst/reel/DdaNId6jDg5/) (checked 2026-09-19)
+
+## Massachusetts Building
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Read official 2026 Massachusetts Building exhibitor page. It does not identify exact operators of all three generic PDF listings (lobster rolls, whoopie pies, cider doughnuts); retained their citations and IDs without assigning an unrelated bakery. Linked building umbrella to official page.
+
+- Account: https://www.thebige.com/p/thingstodo/avenue/massachusetts-building (verified)
+
+## Mojito Bar
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Discovery search rate-limited; alternative web search returned no verified exact stand. Read known Clemenza’s current drink/multi-stand previews, which mention specialty mojitos but do not explicitly identify the catalog’s generic Mojito Bar. No operator link attached based only on a common drink name.
+
 
 ## Pickle Barrel Sirloin Tips
 
@@ -690,6 +740,35 @@ Opened Facebook profile, linked CW Concessions website and its Board Wok Noodles
 - Account: https://www.facebook.com/boardwoknoodles/ (verified)
 - **lead / new-item**: Noodle or Rice Sampler with Honey, Pineapple Teriyaki Chicken is a September 21 special at The Front Porch. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 
+## Deep-fried Calzones
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Initial discovery search was rate-limited; continued through known Clemenza’s related videos and alternative web search. Opened operator multi-stand 2026 caption naming Deep Fried Calzones. Current official fair menu confirms cheese, pepperoni and meatball parmesan; existing catalog omitted separate pepperoni option.
+
+- Account: https://www.facebook.com/people/Clemenzas/100063715069515/ (verified)
+- **lead / new-item**: Official menu lists pepperoni calzones in addition to already-cataloged cheese and meatball parmesan. [Source](https://www.thebige.com/p/food2/newfoods) (checked 2026-09-19)
+
+## Jungle Juice Smoothies
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Opened indexed vendor Facebook profile matching touring East Coast smoothie operation; profile search excerpt explicitly says back at The Big E. Latest exposed May 2025 post links a Rochester festival reel, not its own Instagram, so did not misattribute it. Website timed out. Current fair Bargain Bites lists Java Jungle Mango Lemon Refresher for Jungle Juice Smoothie on Commonwealth. Coffee-named stand’s separate strawberry drink not assigned without identity confirmation.
+
+- Account: https://www.facebook.com/junglejuicesmoothies/ (verified)
+- **lead / new-item**: Java Jungle Mango Lemon Refresher listed at Jungle Juice Smoothie, Commonwealth Avenue, for September 21. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## Chocolate Moonshine
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Read official brand website and linked socials. Scanned 12 Instagram grid entries Jul 30–Sep 18, 2026; opened latest Pumpkin Patch assortment caption, which does not establish fair stock. Current official Bargain Bites explicitly lists hand-painted truffle bar, Pecan Caramel Explosion and already-cataloged chocolate-covered pickles by stall. Added two missing items only, not online flavor catalog.
+
+- Account: https://www.chocolatemoonshine.com/ (verified)
+- Account: https://www.instagram.com/chocolatemoonshineco/ (verified)
+- Account: https://www.facebook.com/chocolatemoonshineco/ (verified)
+- **lead / new-item**: Hand-painted Truffle Bar (Better Living Center) and Pecan Caramel Explosion (Young Building) are current September 21 specials. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
 ## Poppie’s Fresh Onion Rings
 
 reviewed · 2026-09-19 · 5 catalog items
@@ -710,6 +789,19 @@ Verified via vendor website and scanned 12 visible public grid entries. Limited 
 
 - Account: https://www.instagram.com/joeysdelimarket/ (verified)
 - **confirmed / new-item**: Vendor offers hand pies filled with chicken pot pie, pulled pork mac and cheese, shepherd’s pie, or warm apple pie, plus whoopie pies at the Massachusetts Building. Five proposed named offerings; no prices provided. [Source](https://www.instagram.com/joeysdelimarket/p/DdT9iPdOjRa/) (checked 2026-09-19)
+
+## LuAnn’s Bakery
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Read official website’s specific Sep 18–Oct 4, 2026 fair announcement: N28, New England Avenue outside Young Building; cupcakes, bucket cakes, apple crisp and brownie bar. Scanned 12 Instagram grid entries including pinned posts; opened Sep 18 Cookies & Cream announcement and Sep 19 location/brownie caption. Full-size cake described in Sep 18 caption is cafe-only; only cupcake is confirmed for fair. Two website images inspected are booth photo and unrelated festival poster, not menu. Current Bargain Bites adds Mini Funfetti Cupcakes.
+
+- Account: https://www.luannsbakery.com/ (verified)
+- Account: https://www.instagram.com/luanns_bakery/ (verified)
+- Account: https://www.facebook.com/luannsbakery (verified)
+- **confirmed / new-item**: Cookies & Cream Cupcakes debut at Big E booth; cafe-only full cake excluded. [Source](https://www.instagram.com/luanns_bakery/p/DdbPAYqRpFN/) (checked 2026-09-19)
+- **lead / new-item**: Apple Crisp confirmed in official 2026 fair menu at N28, outside Young Building. [Source](https://www.luannsbakery.com/pages/what) (checked 2026-09-19)
+- **lead / new-item**: Mini Funfetti Cupcakes listed as September 21 Bargain Bites special. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 
 ## Golden K-Dog
 

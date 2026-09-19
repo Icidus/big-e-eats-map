@@ -1,41 +1,41 @@
 {
-  "batchId": "batch-009",
+  "batchId": "batch-010",
   "vendors": [
     {
-      "vendorId": "chocolate-moonshine",
-      "name": "Chocolate Moonshine",
+      "vendorId": "moose-joose-slush",
+      "name": "Moose Joose Slush",
       "catalogItems": [
         {
-          "id": "chocolate-moonshine-chocolate-covered-pickles",
-          "name": "Chocolate-covered Pickles"
+          "id": "moose-joose-fall-in-a-cup",
+          "name": "Fall in a Cup"
         },
         {
-          "id": "chocolate-moonshine-candy-lollipops",
-          "name": "Candy Lollipops"
+          "id": "moose-joose-strawberry-cheesecake-slush",
+          "name": "Strawberry Cheesecake Slush"
         },
         {
-          "id": "chocolate-moonshine-co-specialty-chocolates",
-          "name": "Specialty Chocolates"
+          "id": "moose-joose-summerween",
+          "name": "Summerween"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Chocolate Moonshine\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Chocolate+Moonshine%22+%22Big+E%22+2026"
+          "query": "\"Moose Joose Slush\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Moose+Joose+Slush%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Chocolate Moonshine\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Chocolate+Moonshine%22+Instagram+Facebook+official"
+          "query": "\"Moose Joose Slush\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Moose+Joose+Slush%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "chocolate-moonshine",
+        "vendorId": "moose-joose-slush",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Chocolate Moonshine\" \"Big E\" 2026",
-          "\"Chocolate Moonshine\" Instagram Facebook official"
+          "\"Moose Joose Slush\" \"Big E\" 2026",
+          "\"Moose Joose Slush\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -43,40 +43,40 @@
       }
     },
     {
-      "vendorId": "clemenzas-italian-street-food",
-      "name": "Clemenza’s Italian Street Food",
+      "vendorId": "ny-style-pizza",
+      "name": "NY Style Pizza",
       "catalogItems": [
         {
-          "id": "clemenza-s-italian-street-food-arancini-balls",
-          "name": "Arancini Balls"
+          "id": "ny-style-pizza-hot-honey-chicken-pizza",
+          "name": "Hot Honey Chicken Pizza"
         },
         {
-          "id": "clemenza-s-italian-street-food-pasta",
-          "name": "Pasta"
+          "id": "ny-style-pizza-pizza-slices",
+          "name": "Pizza Slices"
         },
         {
-          "id": "clemenza-s-italian-street-food-garlic-knots",
-          "name": "Garlic Knots"
+          "id": "ny-style-pizza-pickle-pizza",
+          "name": "Pickle Pizza"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Clemenza’s Italian Street Food\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Clemenza%E2%80%99s+Italian+Street+Food%22+%22Big+E%22+2026"
+          "query": "\"NY Style Pizza\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22NY+Style+Pizza%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Clemenza’s Italian Street Food\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Clemenza%E2%80%99s+Italian+Street+Food%22+Instagram+Facebook+official"
+          "query": "\"NY Style Pizza\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22NY+Style+Pizza%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "clemenzas-italian-street-food",
+        "vendorId": "ny-style-pizza",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Clemenza’s Italian Street Food\" \"Big E\" 2026",
-          "\"Clemenza’s Italian Street Food\" Instagram Facebook official"
+          "\"NY Style Pizza\" \"Big E\" 2026",
+          "\"NY Style Pizza\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -84,40 +84,40 @@
       }
     },
     {
-      "vendorId": "deep-fried-calzones",
-      "name": "Deep-fried Calzones",
+      "vendorId": "penalty-box-pub",
+      "name": "Penalty Box Pub",
       "catalogItems": [
         {
-          "id": "deep-fried-calzones",
-          "name": "Deep-fried Calzones"
+          "id": "penalty-box-pub-frozen-cocktails",
+          "name": "Frozen Cocktails"
         },
         {
-          "id": "deep-fried-calzones-cheese-calzones",
-          "name": "Cheese Calzones"
+          "id": "penalty-box-pub-beer",
+          "name": "Beer"
         },
         {
-          "id": "deep-fried-calzones-meatball-parm-calzones",
-          "name": "Meatball Parm Calzones"
+          "id": "penalty-box-pub-hard-seltzer",
+          "name": "Hard Seltzer"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Deep-fried Calzones\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Deep-fried+Calzones%22+%22Big+E%22+2026"
+          "query": "\"Penalty Box Pub\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Penalty+Box+Pub%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Deep-fried Calzones\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Deep-fried+Calzones%22+Instagram+Facebook+official"
+          "query": "\"Penalty Box Pub\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Penalty+Box+Pub%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "deep-fried-calzones",
+        "vendorId": "penalty-box-pub",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Deep-fried Calzones\" \"Big E\" 2026",
-          "\"Deep-fried Calzones\" Instagram Facebook official"
+          "\"Penalty Box Pub\" \"Big E\" 2026",
+          "\"Penalty Box Pub\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -125,40 +125,40 @@
       }
     },
     {
-      "vendorId": "downeast-cider-garden",
-      "name": "Downeast Cider Garden",
+      "vendorId": "roasted-corn-in-a-cup",
+      "name": "Roasted Corn in a Cup",
       "catalogItems": [
         {
-          "id": "downeast-cream-puff-cider",
-          "name": "Cream Puff"
+          "id": "roasted-corn-in-a-cup-flamin-hot-cheetos-corn",
+          "name": "Flamin’ Hot Cheetos Corn"
         },
         {
-          "id": "downeast-cider-hard-ciders",
-          "name": "Hard Ciders"
+          "id": "roasted-corn-in-a-cup-parmesan-corn",
+          "name": "Parmesan Corn"
         },
         {
-          "id": "downeast-cider-garden-apple-pie-cider",
-          "name": "Apple Pie Cider"
+          "id": "roasted-corn-in-a-cup-mexican-style-corn",
+          "name": "Mexican Style Corn"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Downeast Cider Garden\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Downeast+Cider+Garden%22+%22Big+E%22+2026"
+          "query": "\"Roasted Corn in a Cup\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Roasted+Corn+in+a+Cup%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Downeast Cider Garden\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Downeast+Cider+Garden%22+Instagram+Facebook+official"
+          "query": "\"Roasted Corn in a Cup\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Roasted+Corn+in+a+Cup%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "downeast-cider-garden",
+        "vendorId": "roasted-corn-in-a-cup",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Downeast Cider Garden\" \"Big E\" 2026",
-          "\"Downeast Cider Garden\" Instagram Facebook official"
+          "\"Roasted Corn in a Cup\" \"Big E\" 2026",
+          "\"Roasted Corn in a Cup\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -166,40 +166,40 @@
       }
     },
     {
-      "vendorId": "fried-factory",
-      "name": "Fried Factory",
+      "vendorId": "rudys-pizza",
+      "name": "Rudy’s Pizza",
       "catalogItems": [
         {
-          "id": "fried-factory-blooming-onion",
-          "name": "Blooming Onion"
+          "id": "rudys-baked-potato-pizza",
+          "name": "Baked Potato Pizza"
         },
         {
-          "id": "fried-factory-chicken-strips-and-fries-buckets",
-          "name": "Chicken Strips and Fries Buckets"
+          "id": "rudy-s-pizza-flaming-hot-cheeto-pickle-pizza",
+          "name": "Flaming Hot Cheeto Pickle Pizza"
         },
         {
-          "id": "fried-factory-spiral-spuds",
-          "name": "Spiral Spuds"
+          "id": "rudys-pizza-pizza",
+          "name": "Pizza"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Fried Factory\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Fried+Factory%22+%22Big+E%22+2026"
+          "query": "\"Rudy’s Pizza\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Rudy%E2%80%99s+Pizza%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Fried Factory\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Fried+Factory%22+Instagram+Facebook+official"
+          "query": "\"Rudy’s Pizza\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Rudy%E2%80%99s+Pizza%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "fried-factory",
+        "vendorId": "rudys-pizza",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Fried Factory\" \"Big E\" 2026",
-          "\"Fried Factory\" Instagram Facebook official"
+          "\"Rudy’s Pizza\" \"Big E\" 2026",
+          "\"Rudy’s Pizza\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -207,40 +207,40 @@
       }
     },
     {
-      "vendorId": "jungle-juice-smoothies",
-      "name": "Jungle Juice Smoothies",
+      "vendorId": "sassys-sweet-potatoes",
+      "name": "Sassy’s Sweet Potatoes",
       "catalogItems": [
         {
-          "id": "jungle-juice-smoothies-tie-dye-smoothie",
-          "name": "Tie-Dye Smoothie"
+          "id": "sassy-s-sweet-potatoes-loaded-potatoes",
+          "name": "Loaded Potatoes"
         },
         {
-          "id": "jungle-juice-smoothies-berry-jalapeno-smoothie",
-          "name": "Berry-Jalapeno Smoothie"
+          "id": "sassy-s-sweet-potatoes-mac-and-cheese-potatoes",
+          "name": "Mac & Cheese Potatoes"
         },
         {
-          "id": "jungle-juice-smoothies-frozen-cheesecake",
-          "name": "Frozen Cheesecake"
+          "id": "sassy-s-sweet-potatoes-s-mores-potatoes",
+          "name": "S’mores Potatoes"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Jungle Juice Smoothies\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Jungle+Juice+Smoothies%22+%22Big+E%22+2026"
+          "query": "\"Sassy’s Sweet Potatoes\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Sassy%E2%80%99s+Sweet+Potatoes%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Jungle Juice Smoothies\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Jungle+Juice+Smoothies%22+Instagram+Facebook+official"
+          "query": "\"Sassy’s Sweet Potatoes\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Sassy%E2%80%99s+Sweet+Potatoes%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "jungle-juice-smoothies",
+        "vendorId": "sassys-sweet-potatoes",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Jungle Juice Smoothies\" \"Big E\" 2026",
-          "\"Jungle Juice Smoothies\" Instagram Facebook official"
+          "\"Sassy’s Sweet Potatoes\" \"Big E\" 2026",
+          "\"Sassy’s Sweet Potatoes\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -248,40 +248,40 @@
       }
     },
     {
-      "vendorId": "ks-japanese-restaurant-food-court",
-      "name": "K’s Japanese Restaurant Food Court",
+      "vendorId": "steaming-tender",
+      "name": "Steaming Tender",
       "catalogItems": [
         {
-          "id": "ks-japanese-deep-fried-sushi",
-          "name": "Deep-Fried Sushi"
+          "id": "steaming-tender-smores-whiskey-bread-pudding",
+          "name": "S’mores Whiskey Bread Pudding"
         },
         {
-          "id": "ks-japanese-spicy-tuna-roll-push-up-sushi-pop",
-          "name": "Spicy Tuna Roll Push-Up Sushi Pop"
+          "id": "steaming-tender-bread-pudding",
+          "name": "Bread Pudding"
         },
         {
-          "id": "ks-japanese-california-roll-push-up-sushi-pop",
-          "name": "California Roll Push-Up Sushi Pop"
+          "id": "steaming-tender-whiskey-bread-pudding",
+          "name": "Whiskey Bread Pudding"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"K’s Japanese Restaurant Food Court\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22K%E2%80%99s+Japanese+Restaurant+Food+Court%22+%22Big+E%22+2026"
+          "query": "\"Steaming Tender\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Steaming+Tender%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"K’s Japanese Restaurant Food Court\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22K%E2%80%99s+Japanese+Restaurant+Food+Court%22+Instagram+Facebook+official"
+          "query": "\"Steaming Tender\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Steaming+Tender%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "ks-japanese-restaurant-food-court",
+        "vendorId": "steaming-tender",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"K’s Japanese Restaurant Food Court\" \"Big E\" 2026",
-          "\"K’s Japanese Restaurant Food Court\" Instagram Facebook official"
+          "\"Steaming Tender\" \"Big E\" 2026",
+          "\"Steaming Tender\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -289,40 +289,40 @@
       }
     },
     {
-      "vendorId": "luanns-bakery",
-      "name": "LuAnn’s Bakery",
+      "vendorId": "stellas-milk-cookies",
+      "name": "Stella’s Milk & Cookies",
       "catalogItems": [
         {
-          "id": "luanns-build-your-own-brownie-bar",
-          "name": "Build-Your-Own Brownie Bar"
+          "id": "stella-s-milk-and-cookies-homemade-chocolate-chip-cookies",
+          "name": "Homemade Chocolate Chip Cookies"
         },
         {
-          "id": "luann-s-bakery-specialty-cupcakes",
-          "name": "Specialty Cupcakes"
+          "id": "stella-s-milk-and-cookies-milk",
+          "name": "Milk"
         },
         {
-          "id": "luann-s-bakery-bucket-cakes",
-          "name": "Bucket Cakes"
+          "id": "stellas-milk-and-cookies-muffin-tops",
+          "name": "Muffin Tops"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"LuAnn’s Bakery\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22LuAnn%E2%80%99s+Bakery%22+%22Big+E%22+2026"
+          "query": "\"Stella’s Milk & Cookies\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Stella%E2%80%99s+Milk+%26+Cookies%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"LuAnn’s Bakery\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22LuAnn%E2%80%99s+Bakery%22+Instagram+Facebook+official"
+          "query": "\"Stella’s Milk & Cookies\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Stella%E2%80%99s+Milk+%26+Cookies%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "luanns-bakery",
+        "vendorId": "stellas-milk-cookies",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"LuAnn’s Bakery\" \"Big E\" 2026",
-          "\"LuAnn’s Bakery\" Instagram Facebook official"
+          "\"Stella’s Milk & Cookies\" \"Big E\" 2026",
+          "\"Stella’s Milk & Cookies\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -330,40 +330,40 @@
       }
     },
     {
-      "vendorId": "massachusetts-building",
-      "name": "Massachusetts Building",
+      "vendorId": "super-dog",
+      "name": "Super Dog",
       "catalogItems": [
         {
-          "id": "massachusetts-building-lobster-rolls",
-          "name": "Lobster Rolls"
+          "id": "super-dog-6-inch-dog-on-a-stick",
+          "name": "6-inch Dog-on-a-Stick"
         },
         {
-          "id": "massachusetts-building-whoopie-pies",
-          "name": "Whoopie Pies"
+          "id": "super-dog-12-inch-super-dog",
+          "name": "12-inch Super Dog"
         },
         {
-          "id": "massachusetts-building-cider-doughnuts",
-          "name": "Cider Doughnuts"
+          "id": "super-dog-18-inch-mega-dog",
+          "name": "18-inch Mega Dog"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Massachusetts Building\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Massachusetts+Building%22+%22Big+E%22+2026"
+          "query": "\"Super Dog\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Super+Dog%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Massachusetts Building\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Massachusetts+Building%22+Instagram+Facebook+official"
+          "query": "\"Super Dog\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Super+Dog%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "massachusetts-building",
+        "vendorId": "super-dog",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Massachusetts Building\" \"Big E\" 2026",
-          "\"Massachusetts Building\" Instagram Facebook official"
+          "\"Super Dog\" \"Big E\" 2026",
+          "\"Super Dog\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -371,40 +371,40 @@
       }
     },
     {
-      "vendorId": "mojito-bar",
-      "name": "Mojito Bar",
+      "vendorId": "the-big-e-bakery",
+      "name": "The Big E Bakery",
       "catalogItems": [
         {
-          "id": "mojito-bar-giant-mojitos",
-          "name": "Giant Mojitos"
+          "id": "big-e-bakery-peanut-butter-cream-puff",
+          "name": "Peanut Butter Cream Puff"
         },
         {
-          "id": "mojito-bar-giant-margaritas",
-          "name": "Giant Margaritas"
+          "id": "big-e-cream-puff-bakery-big-e-cream-puff",
+          "name": "Big E Cream Puff"
         },
         {
-          "id": "mojito-bar-rum-buckets",
-          "name": "Rum Buckets"
+          "id": "big-e-cream-puff-bakery-big-e-clair",
+          "name": "Big E-clair"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Mojito Bar\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Mojito+Bar%22+%22Big+E%22+2026"
+          "query": "\"The Big E Bakery\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Big+E+Bakery%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Mojito Bar\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Mojito+Bar%22+Instagram+Facebook+official"
+          "query": "\"The Big E Bakery\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Big+E+Bakery%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "mojito-bar",
+        "vendorId": "the-big-e-bakery",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Mojito Bar\" \"Big E\" 2026",
-          "\"Mojito Bar\" Instagram Facebook official"
+          "\"The Big E Bakery\" \"Big E\" 2026",
+          "\"The Big E Bakery\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],

@@ -1,0 +1,32 @@
+{
+  "batchId": "batch-009",
+  "itemIds": [
+    "chocolate-moonshine-hand-painted-truffle-bar",
+    "chocolate-moonshine-pecan-caramel-explosion",
+    "deep-fried-calzones-pepperoni-calzones",
+    "jungle-juice-smoothies-java-jungle-mango-lemon-refresher",
+    "luanns-bakery-apple-crisp",
+    "luanns-bakery-cookies-and-cream-cupcake",
+    "luanns-bakery-mini-funfetti-cupcakes"
+  ],
+  "updatedItemIds": [
+    "deep-fried-calzones",
+    "ks-japanese-deep-fried-sushi",
+    "ks-japanese-spicy-tuna-roll-push-up-sushi-pop",
+    "ks-japanese-california-roll-push-up-sushi-pop",
+    "luanns-build-your-own-brownie-bar",
+    "luann-s-bakery-specialty-cupcakes",
+    "luann-s-bakery-bucket-cakes"
+  ],
+  "vendorLinksAdded": [
+    "Chocolate Moonshine",
+    "Clemenza’s Italian Street Food",
+    "Deep-fried Calzones",
+    "Downeast Cider Garden",
+    "Jungle Juice Smoothies",
+    "K’s Japanese Restaurant Food Court",
+    "LuAnn’s Bakery",
+    "Massachusetts Building"
+  ],
+  "notes": "Seven fair-specific foods/drinks added; seven descriptions enriched; eight vendor profiles linked. Cookies & Cream Cupcake explicitly new at fair. Source-specific locations preserved; historical/general product catalogs excluded. Discovery rate limit noted; known direct vendor accounts and alternate search continued. Current undated official fair/vendor menus are distinguished from dated post confirmations."
+}

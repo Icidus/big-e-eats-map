@@ -739,5 +739,109 @@
         "url": "https://www.facebook.com/boardwoknoodles/"
       }
     ]
+  },
+  {
+    "name": "Chocolate Moonshine",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.chocolatemoonshine.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/chocolatemoonshineco/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/chocolatemoonshineco/"
+      }
+    ]
+  },
+  {
+    "name": "Clemenza’s Italian Street Food",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/people/Clemenzas/100063715069515/"
+      }
+    ]
+  },
+  {
+    "name": "Deep-fried Calzones",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/people/Clemenzas/100063715069515/"
+      }
+    ]
+  },
+  {
+    "name": "Downeast Cider Garden",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://downeastcider.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/downeastcider/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/downeastcider/"
+      }
+    ]
+  },
+  {
+    "name": "Jungle Juice Smoothies",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/junglejuicesmoothies/"
+      }
+    ]
+  },
+  {
+    "name": "K’s Japanese Restaurant Food Court",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://ksjapanese.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/westfieldks/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/KsJapaneseRestaurant/"
+      }
+    ]
+  },
+  {
+    "name": "LuAnn’s Bakery",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.luannsbakery.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/luanns_bakery/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/luannsbakery"
+      }
+    ]
+  },
+  {
+    "name": "Massachusetts Building",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building"
+      }
+    ]
   }
 ]

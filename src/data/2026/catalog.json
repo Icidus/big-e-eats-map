@@ -827,7 +827,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Deep-fried calzones on Industrial Avenue with cheese, pepperoni or meatball parmesan fillings."
   },
   {
     "id": "golden-k-dog-korean-corndogs",
@@ -978,7 +979,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Deep-fried sushi from K’s Japanese Restaurant in the Food Court on East Road."
   },
   {
     "id": "ks-japanese-spicy-tuna-roll-push-up-sushi-pop",
@@ -988,7 +990,7 @@
     "locationIds": [
       "east-road"
     ],
-    "description": "A spicy tuna roll served in a portable push-up sushi pop format.",
+    "description": "Spicy tuna roll in a push-up sushi pop from K’s Japanese Restaurant in the Food Court on East Road.",
     "categoryIds": [
       "seafood",
       "global-eats"
@@ -1015,7 +1017,7 @@
     "locationIds": [
       "east-road"
     ],
-    "description": "A California roll served in a portable push-up sushi pop format.",
+    "description": "California roll in a push-up sushi pop from K’s Japanese Restaurant in the Food Court on East Road.",
     "categoryIds": [
       "seafood",
       "global-eats"
@@ -3406,7 +3408,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Build-Your-Own Brownie Bar Find LuAnn’s at N28 on New England Avenue, just outside the Young Building.",
+    "supportingSources": [
+      {
+        "publisher": "LuAnn’s Bakery",
+        "title": "2026 Big E booth and menu",
+        "url": "https://www.luannsbakery.com/pages/what",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "macho-taco-birria-bomb",
@@ -6883,7 +6894,7 @@
     "locationIds": [
       "new-england-avenue"
     ],
-    "description": "Specialty Cupcakes listed for LuAnn’s Bakery in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Specialty Cupcakes listed for LuAnn’s Bakery in MassLive’s 2026 Big E Eater’s Guide. Find LuAnn’s at N28 on New England Avenue, just outside the Young Building.",
     "categoryIds": [
       "desserts"
     ],
@@ -6897,7 +6908,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "LuAnn’s Bakery",
+        "title": "2026 Big E booth and menu",
+        "url": "https://www.luannsbakery.com/pages/what",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "luann-s-bakery-bucket-cakes",
@@ -6907,7 +6926,7 @@
     "locationIds": [
       "new-england-avenue"
     ],
-    "description": "Bucket Cakes listed for LuAnn’s Bakery in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Bucket Cakes listed for LuAnn’s Bakery in MassLive’s 2026 Big E Eater’s Guide. Find LuAnn’s at N28 on New England Avenue, just outside the Young Building.",
     "categoryIds": [
       "desserts"
     ],
@@ -6921,7 +6940,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "LuAnn’s Bakery",
+        "title": "2026 Big E booth and menu",
+        "url": "https://www.luannsbakery.com/pages/what",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "marion-s-fried-dough-fried-butter",
@@ -18039,6 +18066,181 @@
     ],
     "tagIds": [
       "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "chocolate-moonshine-hand-painted-truffle-bar",
+    "year": 2026,
+    "name": "Hand-painted Truffle Bar",
+    "vendor": "Chocolate Moonshine",
+    "locationIds": [
+      "better-living-center"
+    ],
+    "description": "Hand-painted truffle bar at the Better Living Center stand; a September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "candy"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "chocolate-moonshine-pecan-caramel-explosion",
+    "year": 2026,
+    "name": "Pecan Caramel Explosion",
+    "vendor": "Chocolate Moonshine",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "Pecan Caramel Explosion at the Young Building stand; a September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "candy"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "deep-fried-calzones-pepperoni-calzones",
+    "year": 2026,
+    "name": "Pepperoni Calzones",
+    "vendor": "Deep-fried Calzones",
+    "locationIds": [
+      "industrial-avenue"
+    ],
+    "description": "Deep-fried pepperoni calzones on Industrial Avenue, one of three filling choices in the official fair menu.",
+    "categoryIds": [
+      "pizza-italian"
+    ],
+    "tagIds": [
+      "savory",
+      "fried",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "jungle-juice-smoothies-java-jungle-mango-lemon-refresher",
+    "year": 2026,
+    "name": "Java Jungle Mango Lemon Refresher",
+    "vendor": "Jungle Juice Smoothies",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "Mango lemon refresher at Jungle Juice Smoothie on Commonwealth Avenue; a September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "luanns-bakery-apple-crisp",
+    "year": 2026,
+    "name": "Apple Crisp",
+    "vendor": "LuAnn’s Bakery",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Apple crisp on LuAnn’s 2026 fair menu at N28 on New England Avenue, just outside the Young Building.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "apple",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "LuAnn’s Bakery",
+      "title": "2026 Big E booth and menu",
+      "url": "https://www.luannsbakery.com/pages/what",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "luanns-bakery-cookies-and-cream-cupcake",
+    "year": 2026,
+    "name": "Cookies & Cream Cupcake",
+    "vendor": "LuAnn’s Bakery",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Cookies and cream cupcake debuting at LuAnn’s Big E booth in 2026. Find it at N28 on New England Avenue, just outside the Young Building.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "LuAnn’s Bakery",
+      "title": "Cookies & Cream Cupcakes debut at The Big E",
+      "url": "https://www.instagram.com/luanns_bakery/p/DdbPAYqRpFN/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "luanns-bakery-mini-funfetti-cupcakes",
+    "year": 2026,
+    "name": "Mini Funfetti Cupcakes",
+    "vendor": "LuAnn’s Bakery",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Mini Funfetti cupcakes on New England Avenue; a September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet"
     ],
     "dietaryClaims": [],
     "isNewFor2026": false,

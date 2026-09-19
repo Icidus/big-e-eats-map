@@ -26,6 +26,9 @@ const requiredReturningVendors = [
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
 const trustedFoodSources = new Set([
+  "https://www.instagram.com/luanns_bakery/p/DdbPAYqRpFN/",
+  "https://www.luannsbakery.com/pages/what",
+
   "https://www.instagram.com/thebigfizze/p/DdaGx0ght_Q/",
   "https://www.instagram.com/vermontmarshmallow/p/DdXvobVTVa2/",
   "https://www.instagram.com/vermontmarshmallow/p/DdeOboszuE2/",
@@ -255,7 +258,7 @@ describe("2026 catalog content", () => {
         "captain-nemos-savory-snack-wrap", "indian-restaurant-mixed-veggie-pakora", "west-springfield-lions-bacon-cheeseburger",
         "golden-kdog-cinnamozz-ball", "ny-style-pizza-hot-honey-chicken-pizza", "sugar-shakers-small-funnel-cake",
         "the-big-cheese-cheese-curds", "poutine-gourmet-mini-poutine", "kora-milas-cookie-dough-stick",
-        "french-fry-corndog", "funnel-cake-waffle-cone", "carnival-candy-cotton-candy", "midway-slice-of-cheese-pizza", "rudys-slush-regular-slush", "pickle-barrel-sirloin-tips-side-of-mushrooms", "boardwok-noodles-noodle-or-rice-sampler",
+        "french-fry-corndog", "funnel-cake-waffle-cone", "carnival-candy-cotton-candy", "midway-slice-of-cheese-pizza", "rudys-slush-regular-slush", "pickle-barrel-sirloin-tips-side-of-mushrooms", "boardwok-noodles-noodle-or-rice-sampler", "chocolate-moonshine-hand-painted-truffle-bar", "chocolate-moonshine-pecan-caramel-explosion", "jungle-juice-smoothies-java-jungle-mango-lemon-refresher", "luanns-bakery-mini-funfetti-cupcakes",
       ]],
       ["maine-food-stops", [
         "maine-aquaculture-smoked-salmon-on-a-stick", "maine-aquaculture-captn-elis-root-beer", "maine-lobster-roll",
@@ -312,6 +315,10 @@ describe("2026 catalog content", () => {
       "Regular Slush",
       "Side of Mushrooms",
       "Noodle or Rice Sampler",
+      "Hand-painted Truffle Bar",
+      "Pecan Caramel Explosion",
+      "Java Jungle Mango Lemon Refresher",
+      "Mini Funfetti Cupcakes",
     ]);
   });
 
