@@ -8,6 +8,8 @@ The preferred site is **https://bigeeats.com/**. GitHub Pages is a secondary dep
 
 Each page has a title, description, canonical URL, Open Graph/Twitter metadata, and factual WebSite/WebPage JSON-LD. No ratings, prices, business ownership, or rich-result eligibility are invented. Search and filter combinations, personal plans, and missing pages use `noindex, follow`. Query-based vendor menus remain usable; the directory links to `/vendors/:id` as the preferred menu URL.
 
+Cloudflare uses `404-page` fallback and `drop-trailing-slash` HTML handling so preferred URLs return content directly and unknown URLs return 404.
+
 The static pages use the same React components as the application. JavaScript enables search, saving, maps, and other interactions. Food content and vendor links are available in the initial HTML. Map and plan routes have their own HTML entry files; `404.html` is a genuine missing-page template. Do not restore the old workflow step that copies the homepage over `404.html`.
 
 ## One-time owner steps
