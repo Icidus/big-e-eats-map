@@ -1573,7 +1573,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Sweet potato fries. The September 21, 2026 Bargain Bites menu lists a small serving with hot honey and cinnamon and sugar on East Road.",
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "2026 Bargain Bites",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "spudtastic-sweet-potato-ribbon-fries",
@@ -2821,7 +2830,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Fresh lemons, limes and mint crushed into a house-made strawberry mojito base with sparkling refresher and mango popping boba. Listed at the Young Building for the September 21, 2026 Bargain Bites event.",
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "2026 Bargain Bites",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "crave-honey-dew-milk-tea-with-tapioca",
@@ -19124,6 +19142,55 @@
     "source": {
       "publisher": "The Big E",
       "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "reds-red-apples-small-popcorn",
+    "year": 2026,
+    "name": "Small Popcorn",
+    "vendor": "Red’s Red Apples",
+    "locationIds": [
+      "commonwealth-avenue",
+      "new-england-avenue"
+    ],
+    "description": "Listed by The Big E for its September 21, 2026 Bargain Bites event.",
+    "categoryIds": [
+      "pretzels-corn"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 Bargain Bites",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "agawam-lions-club-corn-on-the-cob",
+    "year": 2026,
+    "name": "Corn on the Cob",
+    "vendor": "Agawam Lions Club",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "Listed by The Big E for its September 21, 2026 Bargain Bites event.",
+    "categoryIds": [
+      "pretzels-corn"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 Bargain Bites",
       "url": "https://www.thebige.com/p/food2/bargain-bites",
       "accessedOn": "2026-09-19"
     }

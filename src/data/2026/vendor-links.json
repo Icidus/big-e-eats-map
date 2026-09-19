@@ -1372,5 +1372,101 @@
         "url": "https://www.facebook.com/tootsies.fried.dough/"
       }
     ]
+  },
+  {
+    "name": "Piche’s Beignets",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/picheconcessions/"
+      }
+    ]
+  },
+  {
+    "name": "Red’s Red Apples",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/REDSREDAPPLESINC/"
+      }
+    ]
+  },
+  {
+    "name": "Sam Adams Beer Garden",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.eddieshorecatering.com/beer-garden-sponsored-by-sam-adams/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/people/Beer-Garden-sponsored-by-Sam-Adams/100063490664040/"
+      }
+    ]
+  },
+  {
+    "name": "Tree of Life Maple Farm",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://treeoflifemaplefarm.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/TreeofLifeMapleFarm/"
+      }
+    ]
+  },
+  {
+    "name": "West Springfield Lions Club",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.westspringfieldlionsclub.org/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/WestSpringfieldLions/"
+      }
+    ]
+  },
+  {
+    "name": "Agawam Lions Club",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://agawamlions.org/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/lionsclubagawam/"
+      }
+    ]
+  },
+  {
+    "name": "Cinnamon Saloon",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/cinnamonsaloon/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/cinnamonsaloon/"
+      },
+      {
+        "label": "Website",
+        "url": "https://www.cinnamonsaloon.com/"
+      }
+    ]
+  },
+  {
+    "name": "Crave Café",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/cravecafe413/"
+      }
+    ]
   }
 ]

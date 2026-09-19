@@ -1,0 +1,228 @@
+[
+  {
+    "vendorId": "piches-beignets",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "Piche Concessions New York State Fair"
+    ],
+    "notes": "Parent Piche Concessions Instagram identifies Jack’s Fries and Tootsie’s. New York State Fair separately lists its beignets stand. Facebook was unavailable; Instagram posts visible were from 2020. No current Big E food additions verified.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/picheconcessions/",
+        "verified": true,
+        "evidenceUrl": "https://nysfair.ny.gov/vendor/piche-concessions-2/",
+        "evidence": "State fair lists Piche Concessions beignets; parent Instagram identifies the associated Jack’s Fries and Tootsie’s stands. Parent brand account, not a dedicated beignets account."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "reds-red-apples",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Red’s Red Apples\""
+    ],
+    "notes": "Own Facebook opening-day post confirms The Big E. Official fair Bargain Bites page adds small popcorn at both listed avenues.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/REDSREDAPPLESINC/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/REDSREDAPPLESINC/",
+        "evidence": "Own opening-day post explicitly names The Big E."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Small Popcorn appears on the official 2026 Bargain Bites list.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "sam-adams-beer-garden",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "\"Sam Adams Beer Garden\" \"Big E\""
+    ],
+    "notes": "Eddie Shore Catering identifies its Big E grounds beer garden and links Facebook. Website schedule is for the summer popup, not the fair; no summer foods imported. Facebook requires login and age verification.",
+    "accounts": [
+      {
+        "url": "https://www.eddieshorecatering.com/beer-garden-sponsored-by-sam-adams/",
+        "verified": true,
+        "evidenceUrl": "https://www.eddieshorecatering.com/beer-garden-sponsored-by-sam-adams/",
+        "evidence": "Operator identifies Big E grounds location and directly links Facebook."
+      },
+      {
+        "url": "https://www.facebook.com/people/Beer-Garden-sponsored-by-Sam-Adams/100063490664040/",
+        "verified": true,
+        "evidenceUrl": "https://www.eddieshorecatering.com/beer-garden-sponsored-by-sam-adams/",
+        "evidence": "Operator identifies Big E grounds location and directly links Facebook."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "spudtastic",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Spudtastic\" \"Big E\"",
+      "\"Spudtastic\" \"Big E\" Facebook"
+    ],
+    "notes": "Searches returned unrelated UK businesses and other festivals; no verified account. Official fair small sweet-potato-fries special enriches the existing item.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "tree-of-life-maple-farm",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Tree of Life Maple Farm\""
+    ],
+    "notes": "Maine farm website and matching Facebook verified. Website retail products do not establish additional fair offerings; visible Facebook post was from 2020.",
+    "accounts": [
+      {
+        "url": "https://treeoflifemaplefarm.com/",
+        "verified": true,
+        "evidenceUrl": "https://treeoflifemaplefarm.com/",
+        "evidence": "Matching Maine maple farm identity and domain on Facebook."
+      },
+      {
+        "url": "https://www.facebook.com/TreeofLifeMapleFarm/",
+        "verified": true,
+        "evidenceUrl": "https://treeoflifemaplefarm.com/",
+        "evidence": "Matching Maine maple farm identity and domain on Facebook."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "west-springfield-lions-club",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"West Springfield Lions Club\" \"Big E\""
+    ],
+    "notes": "Official club website links its Facebook. No additional current fair menu visible; official bacon cheeseburger special already cataloged.",
+    "accounts": [
+      {
+        "url": "https://www.westspringfieldlionsclub.org/",
+        "verified": true,
+        "evidenceUrl": "https://www.westspringfieldlionsclub.org/",
+        "evidence": "Official club website directly links Facebook."
+      },
+      {
+        "url": "https://www.facebook.com/WestSpringfieldLions/",
+        "verified": true,
+        "evidenceUrl": "https://www.westspringfieldlionsclub.org/",
+        "evidence": "Official club website directly links Facebook."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "agawam-lions-club",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Agawam Lions Club\" \"Big E\""
+    ],
+    "notes": "Official website describes the Big E chicken barbecue operation. Matching Facebook contains club news. Official fair corn on the cob was missing and is added.",
+    "accounts": [
+      {
+        "url": "https://agawamlions.org/",
+        "verified": true,
+        "evidenceUrl": "https://agawamlions.org/",
+        "evidence": "Official club website describes Big E operation; Facebook identifies same club and domain."
+      },
+      {
+        "url": "https://www.facebook.com/lionsclubagawam/",
+        "verified": true,
+        "evidenceUrl": "https://agawamlions.org/",
+        "evidence": "Official club website describes Big E operation; Facebook identifies same club and domain."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Corn on the Cob appears on the official 2026 Bargain Bites list.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "cinnamon-saloon",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Cinnamon Saloon\" \"Big E\"",
+      "\"Cinnamon Saloon\" facebook"
+    ],
+    "notes": "Southwick Facebook and Instagram cross-identify the business and website. Website timed out; visible posts concern other events and do not verify extra Big E foods.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/cinnamonsaloon/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/cinnamonsaloon/",
+        "evidence": "Southwick business profile identifies website and Instagram handle; website timed out during this check."
+      },
+      {
+        "url": "https://www.instagram.com/cinnamonsaloon/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/cinnamonsaloon/",
+        "evidence": "Southwick business profile identifies website and Instagram handle; website timed out during this check."
+      },
+      {
+        "url": "https://www.cinnamonsaloon.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/cinnamonsaloon/",
+        "evidence": "Southwick business profile identifies website and Instagram handle; website timed out during this check."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "crave-cafe",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Crave Cafe\" \"Big E\" crepes"
+    ],
+    "notes": "Marketspread Big E vendor profile links cravecafe413, whose bio says FIND US AT BIG E. September preparation captions confirm return but name no extra foods. Official strawberry mojito recipe enriches existing listing.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/cravecafe413/",
+        "verified": true,
+        "evidenceUrl": "https://marketspread.com/vendor/218437/crave-cafe/",
+        "evidence": "Big E vendor directory directly links this Westfield cafe Instagram; account bio confirms Big E."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "porkys-bbq-concessions",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "\"Porky’s BBQ\" \"Big E\"",
+      "\"Porkys\" \"Big E\" barbecue official",
+      "\"Porky's\" concessions barbecue"
+    ],
+    "notes": "Porky’s/Buddy’s Barnstable event-catering site found, but readable pages did not establish its Big E identity. Linked Instagram and Facebook unavailable. Do not attach uncertain accounts or import catering menu. Fair Pork Palace slider alias remains unconfirmed.",
+    "accounts": [],
+    "findings": []
+  }
+]

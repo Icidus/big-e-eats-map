@@ -1,6 +1,6 @@
 # Vendor research progress
 
-165 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+175 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -1360,6 +1360,39 @@ Read official2026 building exhibitors: Champions of NH Farms serves named existi
 
 - Account: https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building (verified)
 
+## Piche’s Beignets
+
+inaccessible · 2026-09-19 · 7 catalog items
+
+Parent Piche Concessions Instagram identifies Jack’s Fries and Tootsie’s. New York State Fair separately lists its beignets stand. Facebook was unavailable; Instagram posts visible were from 2020. No current Big E food additions verified.
+
+- Account: https://www.instagram.com/picheconcessions/ (verified)
+
+## Sam Adams Beer Garden
+
+inaccessible · 2026-09-19 · 7 catalog items
+
+Eddie Shore Catering identifies its Big E grounds beer garden and links Facebook. Website schedule is for the summer popup, not the fair; no summer foods imported. Facebook requires login and age verification.
+
+- Account: https://www.eddieshorecatering.com/beer-garden-sponsored-by-sam-adams/ (verified)
+- Account: https://www.facebook.com/people/Beer-Garden-sponsored-by-Sam-Adams/100063490664040/ (verified)
+
+## Spudtastic
+
+no-account-found · 2026-09-19 · 7 catalog items
+
+Searches returned unrelated UK businesses and other festivals; no verified account. Official fair small sweet-potato-fries special enriches the existing item.
+
+
+## Tree of Life Maple Farm
+
+reviewed · 2026-09-19 · 7 catalog items
+
+Maine farm website and matching Facebook verified. Website retail products do not establish additional fair offerings; visible Facebook post was from 2020.
+
+- Account: https://treeoflifemaplefarm.com/ (verified)
+- Account: https://www.facebook.com/TreeofLifeMapleFarm/ (verified)
+
 ## Valley View Orchard Pies
 
 reviewed · 2026-09-19 · 7 catalog items
@@ -1370,6 +1403,15 @@ Read official website and Facebook profile with matching Oxford address. Current
 - Account: https://www.facebook.com/ValleyViewOrchardPies/ (verified)
 - **lead / new-item**: Opening-day caption confirms blueberry tea, milkshakes and iced coffee in Maine Building. [Source](https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl) (checked 2026-09-19)
 
+## West Springfield Lions Club
+
+reviewed · 2026-09-19 · 7 catalog items
+
+Official club website links its Facebook. No additional current fair menu visible; official bacon cheeseburger special already cataloged.
+
+- Account: https://www.westspringfieldlionsclub.org/ (verified)
+- Account: https://www.facebook.com/WestSpringfieldLions/ (verified)
+
 ## Wurst Haus
 
 reviewed · 2026-09-19 · 7 catalog items
@@ -1379,6 +1421,24 @@ Read Bean Restaurant Group’s official fair page: Booth341 Commonwealth; follow
 - Account: https://www.wurst-haus.com/ (verified)
 - Account: https://www.facebook.com/wursthausnoho (verified)
 - Account: https://www.instagram.com/wursthausnoho/ (verified)
+
+## Cinnamon Saloon
+
+reviewed · 2026-09-19 · 8 catalog items
+
+Southwick Facebook and Instagram cross-identify the business and website. Website timed out; visible posts concern other events and do not verify extra Big E foods.
+
+- Account: https://www.facebook.com/cinnamonsaloon/ (verified)
+- Account: https://www.instagram.com/cinnamonsaloon/ (verified)
+- Account: https://www.cinnamonsaloon.com/ (verified)
+
+## Crave Café
+
+reviewed · 2026-09-19 · 8 catalog items
+
+Marketspread Big E vendor profile links cravecafe413, whose bio says FIND US AT BIG E. September preparation captions confirm return but name no extra foods. Official strawberry mojito recipe enriches existing listing.
+
+- Account: https://www.instagram.com/cravecafe413/ (verified)
 
 ## ItsKelewele31 LLC
 
@@ -1399,6 +1459,22 @@ Verified shared Jack’s Fries/Tootsie’s operator in batch015 from current own
 - Account: https://savannahgrout.wixsite.com/jacksfries (verified)
 - Account: https://www.facebook.com/tootsies.fried.dough/ (verified)
 
+## Porky’s BBQ Concessions
+
+inaccessible · 2026-09-19 · 8 catalog items
+
+Porky’s/Buddy’s Barnstable event-catering site found, but readable pages did not establish its Big E identity. Linked Instagram and Facebook unavailable. Do not attach uncertain accounts or import catering menu. Fair Pork Palace slider alias remains unconfirmed.
+
+
+## Red’s Red Apples
+
+reviewed · 2026-09-19 · 8 catalog items
+
+Own Facebook opening-day post confirms The Big E. Official fair Bargain Bites page adds small popcorn at both listed avenues.
+
+- Account: https://www.facebook.com/REDSREDAPPLESINC/ (verified)
+- **lead / new-item**: Small Popcorn appears on the official 2026 Bargain Bites list. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
 ## Tater Tot Heaven
 
 no-account-found · 2026-09-19 · 8 catalog items
@@ -1416,6 +1492,16 @@ Imported from docs/vendor-instagram-pilot-2026-09-19.md; limited public review, 
 - Account: https://www.instagram.com/tripps_207/ (verified)
 - **confirmed / location**: Chicken fingers and fried Oreos confirmed; new spot at village entrance off Commonwealth Avenue. Both items already in catalog; reconcile entrance wording with current Craft Common area before changing map. [Source](https://www.instagram.com/tripps_207/p/DdZ_1_oDFYE/) (checked 2026-09-19)
 - **confirmed / confirmation**: French fries confirmed; vendor identifies Penobscot McCrum as supplier. Existing catalog item. [Source](https://www.instagram.com/tripps_207/p/DdeZBh4x4P3/) (checked 2026-09-19)
+
+## Agawam Lions Club
+
+reviewed · 2026-09-19 · 9 catalog items
+
+Official website describes the Big E chicken barbecue operation. Matching Facebook contains club news. Official fair corn on the cob was missing and is added.
+
+- Account: https://agawamlions.org/ (verified)
+- Account: https://www.facebook.com/lionsclubagawam/ (verified)
+- **lead / new-item**: Corn on the Cob appears on the official 2026 Bargain Bites list. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 
 ## Butcher Boys
 

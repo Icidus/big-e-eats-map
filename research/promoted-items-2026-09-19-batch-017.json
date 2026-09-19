@@ -1,0 +1,22 @@
+{
+  "batchId": "batch-017",
+  "itemIds": [
+    "reds-red-apples-small-popcorn",
+    "agawam-lions-club-corn-on-the-cob"
+  ],
+  "updatedItemIds": [
+    "spudtastic-sweet-potato-fries",
+    "crave-strawberry-mojito-sparkling-boba"
+  ],
+  "vendorLinksAdded": [
+    "Piche’s Beignets",
+    "Red’s Red Apples",
+    "Sam Adams Beer Garden",
+    "Tree of Life Maple Farm",
+    "West Springfield Lions Club",
+    "Agawam Lions Club",
+    "Cinnamon Saloon",
+    "Crave Café"
+  ],
+  "notes": "Added two official fair specials and enriched two existing foods. Verified eight vendor profiles. Unavailable accounts, unrelated names and an uncertain Porky’s identity are documented; no catering or other-fair menus imported."
+}
