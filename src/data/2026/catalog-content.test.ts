@@ -26,6 +26,10 @@ const requiredReturningVendors = [
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
 const trustedFoodSources = new Set([
+  "https://www.facebook.com/100057841531621/posts/whos-ready-for-the-big-e-we-are-excited-to-present-our-new-foods-for-this-years-/1478534170751287/",
+  "https://www.instagram.com/simplydiplicious/p/DdeF68mHHCr/",
+  "https://www.instagram.com/simplydiplicious/p/DdbheoejXlM/",
+
   "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building",
   "https://www.instagram.com/mainepotatoes/p/Ddbq5B0kRQa/",
   "https://www.instagram.com/maureens_sweet_shoppe/p/Ddb5L63mRTx/",
@@ -239,7 +243,7 @@ describe("2026 catalog content", () => {
         "captain-nemos-savory-snack-wrap", "indian-restaurant-mixed-veggie-pakora", "west-springfield-lions-bacon-cheeseburger",
         "golden-kdog-cinnamozz-ball", "ny-style-pizza-hot-honey-chicken-pizza", "sugar-shakers-small-funnel-cake",
         "the-big-cheese-cheese-curds", "poutine-gourmet-mini-poutine", "kora-milas-cookie-dough-stick",
-        "french-fry-corndog", "funnel-cake-waffle-cone", "carnival-candy-cotton-candy", "midway-slice-of-cheese-pizza",
+        "french-fry-corndog", "funnel-cake-waffle-cone", "carnival-candy-cotton-candy", "midway-slice-of-cheese-pizza", "rudys-slush-regular-slush",
       ]],
       ["maine-food-stops", [
         "maine-aquaculture-smoked-salmon-on-a-stick", "maine-aquaculture-captn-elis-root-beer", "maine-lobster-roll",
@@ -293,6 +297,7 @@ describe("2026 catalog content", () => {
       "Waffle Cone",
       "Cotton Candy",
       "Slice of Cheese Pizza",
+      "Regular Slush",
     ]);
   });
 

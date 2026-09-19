@@ -4,15 +4,17 @@ This is a supervised research queue for all 187 catalog vendor names. It generat
 
 ## Current state
 
-- Batches 001–004: forty vendors checked, prioritizing one-item menus.
-- Five earlier pilot reviews imported; 45 vendor records checked in total.
-- Batch 005: ten vendors reserved in `next-batch.json`; these are still pending.
+- Batches 001–005: fifty vendors checked, prioritizing one-item menus.
+- Five earlier pilot reviews imported; 55 vendor records checked in total.
+- Batch 006: ten vendors reserved in `next-batch.json`; these are still pending.
 - Two confirmed missing items from Bear’s: Bucket of Moinks and Bear Necessit-E Sandwich. See `report-2026.md` for exact citations, price evidence, and location details.
 - Batch 002: confirmed hot popovers with three butter choices at Delaney’s, Rhode Island-style calamari at Friskie Fries, and six crème brûlée flavors at Crème Bru LA. Exact post citations are in the report.
 - Batch 003: It’s Kelewele 31 has seven named food/drink offerings; Joey’s confirms four hand-pie fillings plus whoopie pies. Findings and limitations are in the report.
 - September 19 promotion: 16 sourced foods/drinks added (702 catalog entries total), existing Crème Bru LA and Tripp’s descriptions enriched, and verified profile/site links published for 19 vendors. See `promoted-items-2026-09-19.json`. Research findings retain their original wording as an evidence log.
 
 - Batch 004 published: three NH Building foods added (705 entries), five food descriptions updated, and five vendor profiles added (24 vendors with verified links). Rickey’s jerky corrected to savory snacks. See `promoted-items-2026-09-19-batch-004.json`.
+
+- Batch 005 published: Sweet Talkin’ Jalapeño Dip, regular slush and Dragon Fruit Spritz added (708 entries); seven descriptions enriched; seven vendor profiles linked (31 total). Unresolved operator identities remain unlinked. See `promoted-items-2026-09-19-batch-005.json`.
 
 ## Commands
 

@@ -1,0 +1,286 @@
+[
+  {
+    "vendorId": "rudys-slush",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Rudys Slush\" facebook",
+      "\"Rudy's Pizza & Slush\" facebook",
+      "site:facebook.com \"Rudy's Pizza\" \"Who's ready for the Big E\""
+    ],
+    "notes": "Searched Slush and combined Pizza & Slush name; opened Facebook profile and Aug 27 Big E menu post. Exact foods and street locations match official fair new-food page, establishing account identity for both catalog vendors. Profile latest visible reel is Sep 1; no extra menu inferred from video. Current official Bargain Bites lists regular slush, missing from catalog.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/people/Rudys-Pizza-Slush/100057841531621/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/100057841531621/posts/whos-ready-for-the-big-e-we-are-excited-to-present-our-new-foods-for-this-years-/1478534170751287/",
+        "evidence": "Vendor post identifies Rudy’s Pizza on Springfield Road and Slush Factory on Commonwealth Avenue with the same two named dishes as the official 2026 new-food page."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Vendor confirms baked potato pizza on Springfield Road and dill pickle lemonade slush on Commonwealth Avenue. Both already cataloged; added supporting citation.",
+        "url": "https://www.facebook.com/100057841531621/posts/whos-ready-for-the-big-e-we-are-excited-to-present-our-new-foods-for-this-years-/1478534170751287/",
+        "kind": "confirmation",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-08-27"
+      },
+      {
+        "detail": "Regular slush on Commonwealth Avenue is a September 21 Bargain Bites special. Added as a separate listing from the pickle lemonade slush, with no invented flavor or price.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "run-amok-meadery",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Run Amok Meadery\" Big E 2026",
+      "runamokmead.com official social links"
+    ],
+    "notes": "Read official website social links and fair Maine Building listing. Scanned 12 Instagram grid entries Jul 13–Sep 9, 2026; opened Sep 9 caption, which discusses processing equipment, not fair stock. Facebook is age/login gated. No specific mead variety confirmed for the fair; corrected existing listing to Fire & Co. behind Maine Building.",
+    "accounts": [
+      {
+        "url": "https://runamokmead.com/",
+        "verified": true,
+        "evidenceUrl": "https://runamokmead.com/",
+        "evidence": "Official website links both social profiles and is linked by the fair Maine Building exhibitor page."
+      },
+      {
+        "url": "https://www.instagram.com/runamokmead/",
+        "verified": true,
+        "evidenceUrl": "https://runamokmead.com/",
+        "evidence": "Official website links both social profiles and is linked by the fair Maine Building exhibitor page."
+      },
+      {
+        "url": "https://www.facebook.com/runamokmead/",
+        "verified": true,
+        "evidenceUrl": "https://runamokmead.com/",
+        "evidence": "Official website links both social profiles and is linked by the fair Maine Building exhibitor page."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Current official Maine Building page places Run Amok mead with Fire & Co. behind the building. No variety list supplied.",
+        "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building",
+        "kind": "location",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "sammontana-gelato",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Sammontana Gelato\" \"Big E\"",
+      "\"Sammontana\" \"Big E\" Instagram Facebook official"
+    ],
+    "notes": "Exact-name and brand-name searches with Big E/social terms find the existing MassLive listing but no confirmed stand operator. Did not attach global brand or another event’s seller to the local stand.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "schroders-cheese-curds",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Schroder\" \"Cheese Curds\" facebook",
+      "\"Schroder\" \"Big E\" facebook"
+    ],
+    "notes": "Searched name variants and opened Schroder Concessions Facebook profile (Faribault MN, Ralph/Brad Schroder). Latest exposed post is Jan 25, 2024 cover photo. Old references and a comment mentioning a Big E visit do not prove this account operates the current Big E stand. Candidate retained, not published.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/schroderconcessions/",
+        "verified": false,
+        "evidenceUrl": "https://www.facebook.com/schroderconcessions/",
+        "evidence": "Same concession surname but insufficient evidence connecting this Minnesota profile to the Big E stand."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "simply-dip-licious",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Simply Dip-Licious\" official instagram",
+      "simplydiplicious.com official social links"
+    ],
+    "notes": "Official website links both accounts; matching Three Rivers MA business confirmed on fair Massachusetts Building page. Scanned 12 Instagram grid entries Aug 19–Sep 19, 2026; read opening-day Sep 18 and day-two Sep 19 captions with datetime. Facebook repeats day-two announcement. Website events page says Coming Soon. Promoted only specifically named fair dip; older product flavors not assumed to be fair stock.",
+    "accounts": [
+      {
+        "url": "https://www.simplydiplicious.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.simplydiplicious.com/",
+        "evidence": "Official Massachusetts vendor website links these accounts; fair Massachusetts Building page links this website."
+      },
+      {
+        "url": "https://www.instagram.com/simplydiplicious/",
+        "verified": true,
+        "evidenceUrl": "https://www.simplydiplicious.com/",
+        "evidence": "Official Massachusetts vendor website links these accounts; fair Massachusetts Building page links this website."
+      },
+      {
+        "url": "https://www.facebook.com/simply.dips",
+        "verified": true,
+        "evidenceUrl": "https://www.simplydiplicious.com/",
+        "evidence": "Official Massachusetts vendor website links these accounts; fair Massachusetts Building page links this website."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Sweet Talkin’ Jalapeño dip offered on day two in Massachusetts Building; vendor describes sweet flavor with heat. No dietary claims inferred from hashtags.",
+        "url": "https://www.instagram.com/simplydiplicious/p/DdeF68mHHCr/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-19"
+      },
+      {
+        "detail": "Opening-day post confirms dips in Massachusetts Building.",
+        "url": "https://www.instagram.com/simplydiplicious/p/DdbheoejXlM/",
+        "kind": "confirmation",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "vendorId": "spiked-coffee-bar",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Spiked Coffee Bar\" \"Big E\"",
+      "\"Spiked Coffee Bar\" Instagram Facebook"
+    ],
+    "notes": "Exact stand name with Big E returns existing MassLive guide. Broader social searches found unrelated restaurants, cruises and event packages; operator not identified.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "the-big-cheese",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"The Big Cheese\" \"Big E\" facebook",
+      "\"The Big Cheese\" \"Big E\" Instagram",
+      "\"The Big Cheese\" \"Big E\" cheese curds vendor"
+    ],
+    "notes": "Searched Big E with Facebook/Instagram and cheese-curd terms. Generic name yields unrelated cheese businesses and an ambiguous Rhode Island pizza post. Official Bargain Bites confirms existing cheese curds on New England Avenue; no verified operator account or new dish.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "the-big-e",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"The Big E\" \"chocolate pickle tacos\"",
+      "\"The Big E\" \"Chocolate Pickle\" vendor"
+    ],
+    "notes": "This catalog name is a placeholder for MassLive’s Chocolate Pickle Tacos, not an identified food vendor. Read fair homepage and found official social links, but these do not identify the taco seller. Exact dish search found the existing MassLive article; direct web article retrieval failed. Left vendor attribution and location unresolved rather than labeling fair accounts as the seller. This was an identity check, not a complete scan of the fair’s social feed.",
+    "accounts": [],
+    "findings": [
+      {
+        "detail": "Chocolate Pickle Tacos seller still unidentified; fair’s official social accounts should not be presented as the vendor. Existing source retained.",
+        "url": "https://www.masslive.com/the-big-e/2026/09/everything-we-ate-at-the-big-e-prices-ratings-and-our-favorites.html",
+        "kind": "detail",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  },
+  {
+    "vendorId": "the-bone-sauce",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"The Bone Sauce\" Big E instagram",
+      "\"The Bone Sauce\" \"Big E\" 2026"
+    ],
+    "notes": "Read official website and linked social profiles. Instagram exposes 12 grid entries Dec 24, 2025–Sep 12, 2026, including collaborations; no caption review or fair menu inferred from thumbnails. Facebook latest visible Aug 29 post discusses Natick Farmers Market, not Big E. Current official fair page confirms existing grilled wings with house-made ranch/blue cheese and sauce available to take home; no new named wing dish.",
+    "accounts": [
+      {
+        "url": "https://thebonesauce.com/",
+        "verified": true,
+        "evidenceUrl": "https://thebonesauce.com/",
+        "evidence": "Official sauce website links both profiles; the fair Massachusetts Building page links this website."
+      },
+      {
+        "url": "https://www.instagram.com/the_bone_sauce/",
+        "verified": true,
+        "evidenceUrl": "https://thebonesauce.com/",
+        "evidence": "Official sauce website links both profiles; the fair Massachusetts Building page links this website."
+      },
+      {
+        "url": "https://www.facebook.com/The-Bone-Sauce-109591941947018",
+        "verified": true,
+        "evidenceUrl": "https://thebonesauce.com/",
+        "evidence": "Official sauce website links both profiles; the fair Massachusetts Building page links this website."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "the-smoking-dragon-bar",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "\"Smoking Dragon Bar\" \"Big E\"",
+      "\"Smoking Dragon Bar\" 2026 instagram",
+      "V-One vodka official website"
+    ],
+    "notes": "Searched Smoking Dragon/Krakow aliases. Official 2026 new-food page identifies bar as V-One’s and names Dragon Fruit Spritz, Caramel Apple and Salted Caramel Espresso Martini. Last two already cataloged under V-One; Dragon Fruit Spritz missing. Official V-One website verifies social accounts. Instagram profile is restricted; no access bypass attempted. Published shared operator links for Smoking Dragon and V-One.",
+    "accounts": [
+      {
+        "url": "https://www.v1vodka.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.v1vodka.com/",
+        "evidence": "Official V-One website links both accounts; fair 2026 menu explicitly calls Krakow Smoking Dragon Bar a V-One bar."
+      },
+      {
+        "url": "https://www.instagram.com/v1vodka/",
+        "verified": true,
+        "evidenceUrl": "https://www.v1vodka.com/",
+        "evidence": "Official V-One website links both accounts; fair 2026 menu explicitly calls Krakow Smoking Dragon Bar a V-One bar."
+      },
+      {
+        "url": "https://www.facebook.com/v1vodka",
+        "verified": true,
+        "evidenceUrl": "https://www.v1vodka.com/",
+        "evidence": "Official V-One website links both accounts; fair 2026 menu explicitly calls Krakow Smoking Dragon Bar a V-One bar."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Dragon Fruit Spritz at Krakow Smoking Dragon Bar in Young Building is absent from catalog. Added under existing V-One operator; Caramel Apple and Salted Caramel Espresso Martini preserved without duplicates.",
+        "url": "https://www.thebige.com/p/food2/newfoods",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  }
+]

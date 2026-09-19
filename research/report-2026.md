@@ -1,6 +1,6 @@
 # Vendor research progress
 
-45 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+55 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -300,6 +300,75 @@ Read official fair listing and syrup website social links. Website Instagram lin
 - Account: https://www.facebook.com/royalrosesyrups (verified)
 - **lead / location**: Current official Maine Building listing places Royal Rose syrup beverages at Fire & Co. behind the Maine Building, not a separate indoor stand. No additional named Big E drink confirmed; page lacks publication date. [Source](https://www.thebige.com/p/thingstodo/avenue/maine-building) (checked 2026-09-19)
 
+## Run Amok Meadery
+
+reviewed · 2026-09-19 · 1 catalog items
+
+Read official website social links and fair Maine Building listing. Scanned 12 Instagram grid entries Jul 13–Sep 9, 2026; opened Sep 9 caption, which discusses processing equipment, not fair stock. Facebook is age/login gated. No specific mead variety confirmed for the fair; corrected existing listing to Fire & Co. behind Maine Building.
+
+- Account: https://runamokmead.com/ (verified)
+- Account: https://www.instagram.com/runamokmead/ (verified)
+- Account: https://www.facebook.com/runamokmead/ (verified)
+- **lead / location**: Current official Maine Building page places Run Amok mead with Fire & Co. behind the building. No variety list supplied. [Source](https://www.thebige.com/p/thingstodo/avenue/maine-building) (checked 2026-09-19)
+
+## Sammontana Gelato
+
+no-account-found · 2026-09-19 · 1 catalog items
+
+Exact-name and brand-name searches with Big E/social terms find the existing MassLive listing but no confirmed stand operator. Did not attach global brand or another event’s seller to the local stand.
+
+
+## Schroder’s Cheese Curds
+
+no-account-found · 2026-09-19 · 1 catalog items
+
+Searched name variants and opened Schroder Concessions Facebook profile (Faribault MN, Ralph/Brad Schroder). Latest exposed post is Jan 25, 2024 cover photo. Old references and a comment mentioning a Big E visit do not prove this account operates the current Big E stand. Candidate retained, not published.
+
+- Account: https://www.facebook.com/schroderconcessions/ (candidate)
+
+## Spiked Coffee Bar
+
+no-account-found · 2026-09-19 · 1 catalog items
+
+Exact stand name with Big E returns existing MassLive guide. Broader social searches found unrelated restaurants, cruises and event packages; operator not identified.
+
+
+## The Big Cheese
+
+no-account-found · 2026-09-19 · 1 catalog items
+
+Searched Big E with Facebook/Instagram and cheese-curd terms. Generic name yields unrelated cheese businesses and an ambiguous Rhode Island pizza post. Official Bargain Bites confirms existing cheese curds on New England Avenue; no verified operator account or new dish.
+
+
+## The Big E
+
+no-account-found · 2026-09-19 · 1 catalog items
+
+This catalog name is a placeholder for MassLive’s Chocolate Pickle Tacos, not an identified food vendor. Read fair homepage and found official social links, but these do not identify the taco seller. Exact dish search found the existing MassLive article; direct web article retrieval failed. Left vendor attribution and location unresolved rather than labeling fair accounts as the seller. This was an identity check, not a complete scan of the fair’s social feed.
+
+- **lead / detail**: Chocolate Pickle Tacos seller still unidentified; fair’s official social accounts should not be presented as the vendor. Existing source retained. [Source](https://www.masslive.com/the-big-e/2026/09/everything-we-ate-at-the-big-e-prices-ratings-and-our-favorites.html) (checked 2026-09-19)
+
+## The Bone Sauce
+
+reviewed · 2026-09-19 · 1 catalog items
+
+Read official website and linked social profiles. Instagram exposes 12 grid entries Dec 24, 2025–Sep 12, 2026, including collaborations; no caption review or fair menu inferred from thumbnails. Facebook latest visible Aug 29 post discusses Natick Farmers Market, not Big E. Current official fair page confirms existing grilled wings with house-made ranch/blue cheese and sauce available to take home; no new named wing dish.
+
+- Account: https://thebonesauce.com/ (verified)
+- Account: https://www.instagram.com/the_bone_sauce/ (verified)
+- Account: https://www.facebook.com/The-Bone-Sauce-109591941947018 (verified)
+
+## The Smoking Dragon Bar
+
+inaccessible · 2026-09-19 · 1 catalog items
+
+Searched Smoking Dragon/Krakow aliases. Official 2026 new-food page identifies bar as V-One’s and names Dragon Fruit Spritz, Caramel Apple and Salted Caramel Espresso Martini. Last two already cataloged under V-One; Dragon Fruit Spritz missing. Official V-One website verifies social accounts. Instagram profile is restricted; no access bypass attempted. Published shared operator links for Smoking Dragon and V-One.
+
+- Account: https://www.v1vodka.com/ (verified)
+- Account: https://www.instagram.com/v1vodka/ (verified)
+- Account: https://www.facebook.com/v1vodka (verified)
+- **lead / new-item**: Dragon Fruit Spritz at Krakow Smoking Dragon Bar in Young Building is absent from catalog. Added under existing V-One operator; Caramel Apple and Salted Caramel Espresso Martini preserved without duplicates. [Source](https://www.thebige.com/p/food2/newfoods) (checked 2026-09-19)
+
 ## Delaney's Market
 
 reviewed · 2026-09-19 · 2 catalog items
@@ -319,6 +388,28 @@ Scanned 12 public entries and read two September 18 captions. One concerns Roger
 - Account: https://www.instagram.com/friskiefries/ (verified)
 - **confirmed / new-item**: Rhode Island-style calamari is explicitly advertised as the Big E special. No price or detailed ingredients supplied. [Source](https://www.instagram.com/friskiefries/p/DdbwANtjM56/) (checked 2026-09-19)
 - **confirmed / location**: Rhode Island Building on Avenue of the States; September 18 caption advertises 10 a.m.–9 p.m. Do not assume unchanged daily hours without further evidence. [Source](https://www.instagram.com/friskiefries/p/DdbwANtjM56/) (checked 2026-09-19)
+
+## Rudy’s Slush
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Searched Slush and combined Pizza & Slush name; opened Facebook profile and Aug 27 Big E menu post. Exact foods and street locations match official fair new-food page, establishing account identity for both catalog vendors. Profile latest visible reel is Sep 1; no extra menu inferred from video. Current official Bargain Bites lists regular slush, missing from catalog.
+
+- Account: https://www.facebook.com/people/Rudys-Pizza-Slush/100057841531621/ (verified)
+- **confirmed / confirmation**: Vendor confirms baked potato pizza on Springfield Road and dill pickle lemonade slush on Commonwealth Avenue. Both already cataloged; added supporting citation. [Source](https://www.facebook.com/100057841531621/posts/whos-ready-for-the-big-e-we-are-excited-to-present-our-new-foods-for-this-years-/1478534170751287/) (checked 2026-09-19)
+- **lead / new-item**: Regular slush on Commonwealth Avenue is a September 21 Bargain Bites special. Added as a separate listing from the pickle lemonade slush, with no invented flavor or price. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## Simply Dip-Licious
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Official website links both accounts; matching Three Rivers MA business confirmed on fair Massachusetts Building page. Scanned 12 Instagram grid entries Aug 19–Sep 19, 2026; read opening-day Sep 18 and day-two Sep 19 captions with datetime. Facebook repeats day-two announcement. Website events page says Coming Soon. Promoted only specifically named fair dip; older product flavors not assumed to be fair stock.
+
+- Account: https://www.simplydiplicious.com/ (verified)
+- Account: https://www.instagram.com/simplydiplicious/ (verified)
+- Account: https://www.facebook.com/simply.dips (verified)
+- **confirmed / new-item**: Sweet Talkin’ Jalapeño dip offered on day two in Massachusetts Building; vendor describes sweet flavor with heat. No dietary claims inferred from hashtags. [Source](https://www.instagram.com/simplydiplicious/p/DdeF68mHHCr/) (checked 2026-09-19)
+- **confirmed / confirmation**: Opening-day post confirms dips in Massachusetts Building. [Source](https://www.instagram.com/simplydiplicious/p/DdbheoejXlM/) (checked 2026-09-19)
 
 ## Bear’s Smokehouse
 

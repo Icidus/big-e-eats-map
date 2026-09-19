@@ -3602,7 +3602,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Baked potato pizza at Rudy’s Pizza stand on Springfield Road, confirmed by the vendor for the 2026 fair.",
+    "supportingSources": [
+      {
+        "publisher": "Rudy’s Pizza & Slush",
+        "title": "Big E pizza and slush announcement",
+        "url": "https://www.facebook.com/100057841531621/posts/whos-ready-for-the-big-e-we-are-excited-to-present-our-new-foods-for-this-years-/1478534170751287/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "rudys-frozen-pickle-lemonade-slush",
@@ -3627,7 +3636,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Frozen pickle lemonade slush at Rudy’s Slush Factory stand on Commonwealth Avenue.",
+    "supportingSources": [
+      {
+        "publisher": "Rudy’s Pizza & Slush",
+        "title": "Big E pizza and slush announcement",
+        "url": "https://www.facebook.com/100057841531621/posts/whos-ready-for-the-big-e-we-are-excited-to-present-our-new-foods-for-this-years-/1478534170751287/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "sam-adams-headless-pumpkin-cider",
@@ -4013,7 +4031,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "At The Krakow Smoking Dragon Bar in the Young Building: V-One Vanilla vodka, local apple cider, lemon juice and caramel syrup, garnished with a caramel apple hard candy."
   },
   {
     "id": "v-one-salted-caramel-espresso-martini",
@@ -4037,7 +4056,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "At The Krakow Smoking Dragon Bar in the Young Building: V-One Vanilla vodka, espresso, salted caramel Irish cream and caramel cold foam."
   },
   {
     "id": "v-one-ultra-premium-vodka-seltzer",
@@ -4857,7 +4877,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "Fresh dips made with ingredients selected by Simply Dip-Licious.",
+    "description": "Dips from Simply Dip-Licious in the Massachusetts Building, confirmed in its September 18 opening-day post.",
     "categoryIds": [
       "snacks-sides"
     ],
@@ -4871,7 +4891,15 @@
       "title": "Massachusetts Building",
       "url": "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building",
       "accessedOn": "2026-09-16"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Simply Dip-Licious",
+        "title": "Big E opening-day dips",
+        "url": "https://www.instagram.com/simplydiplicious/p/DdbheoejXlM/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "sweet-babus-gluten-free-granola",
@@ -5638,7 +5666,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "Craft alcoholic mead from Run Amok Meadery in the Maine Building.",
+    "description": "Craft alcoholic mead from Run Amok Meadery, served by Fire & Co. behind the Maine Building.",
     "categoryIds": [
       "beer-cider"
     ],
@@ -13342,7 +13370,7 @@
     "locationIds": [
       "young-building"
     ],
-    "description": "Smoking Cocktails listed for The Smoking Dragon Bar in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "The Krakow Smoking Dragon Bar by V-One in the Young Building. Named drinks include Caramel Apple, Dragon Fruit Spritz and Salted Caramel Espresso Martini, also listed under V-One Vodka in this guide.",
     "categoryIds": [
       "cocktails"
     ],
@@ -13357,7 +13385,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "New Foods",
+        "url": "https://www.thebige.com/p/food2/newfoods",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "villa-of-lebanon-hummus",
@@ -17503,5 +17539,81 @@
       "url": "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building",
       "accessedOn": "2026-09-19"
     }
+  },
+  {
+    "id": "simply-dip-licious-sweet-talkin-jalapeno",
+    "name": "Sweet Talkin’ Jalapeño Dip",
+    "vendor": "Simply Dip-Licious",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "A sweet dip with jalapeño heat, offered in the Massachusetts Building in the vendor’s September 19 Big E announcement.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory",
+      "spicy",
+      "sweet"
+    ],
+    "source": {
+      "publisher": "Simply Dip-Licious",
+      "title": "Big E day-two dip announcement",
+      "url": "https://www.instagram.com/simplydiplicious/p/DdeF68mHHCr/",
+      "accessedOn": "2026-09-19"
+    },
+    "year": 2026,
+    "dietaryClaims": [],
+    "isNewFor2026": false
+  },
+  {
+    "id": "rudys-slush-regular-slush",
+    "name": "Regular Slush",
+    "vendor": "Rudy’s Slush",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "Regular slush listed as a September 21 Bargain Bites Day special on Commonwealth Avenue. Flavor and price are not specified.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    },
+    "year": 2026,
+    "dietaryClaims": [],
+    "isNewFor2026": false
+  },
+  {
+    "id": "v-one-dragon-fruit-spritz",
+    "name": "Dragon Fruit Spritz",
+    "vendor": "V-One Vodka",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "Served at The Krakow Smoking Dragon Bar by V-One in the Young Building, as listed in the official 2026 new-food menu.",
+    "categoryIds": [
+      "cocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "source": {
+      "publisher": "The Big E",
+      "title": "New Foods",
+      "url": "https://www.thebige.com/p/food2/newfoods",
+      "accessedOn": "2026-09-19"
+    },
+    "year": 2026,
+    "dietaryClaims": [],
+    "isNewFor2026": false
   }
 ]

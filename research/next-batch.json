@@ -1,33 +1,33 @@
 {
-  "batchId": "batch-005",
+  "batchId": "batch-006",
   "vendors": [
     {
-      "vendorId": "rudys-slush",
-      "name": "Rudy’s Slush",
+      "vendorId": "the-spirited-christmas-bar",
+      "name": "The Spirited Christmas Bar",
       "catalogItems": [
         {
-          "id": "rudys-frozen-pickle-lemonade-slush",
-          "name": "Frozen Pickle Lemonade Slush"
+          "id": "the-spirited-christmas-bar-holiday-themed-cocktails",
+          "name": "Holiday-themed Cocktails"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Rudy’s Slush\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Rudy%E2%80%99s+Slush%22+%22Big+E%22+2026"
+          "query": "\"The Spirited Christmas Bar\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Spirited+Christmas+Bar%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Rudy’s Slush\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Rudy%E2%80%99s+Slush%22+Instagram+Facebook+official"
+          "query": "\"The Spirited Christmas Bar\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Spirited+Christmas+Bar%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "rudys-slush",
+        "vendorId": "the-spirited-christmas-bar",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Rudy’s Slush\" \"Big E\" 2026",
-          "\"Rudy’s Slush\" Instagram Facebook official"
+          "\"The Spirited Christmas Bar\" \"Big E\" 2026",
+          "\"The Spirited Christmas Bar\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -35,32 +35,32 @@
       }
     },
     {
-      "vendorId": "run-amok-meadery",
-      "name": "Run Amok Meadery",
+      "vendorId": "valley-malt-beer-garden",
+      "name": "Valley Malt Beer Garden",
       "catalogItems": [
         {
-          "id": "run-amok-meadery-craft-mead",
-          "name": "Craft Mead"
+          "id": "valley-malt-beer-garden-craft-beer",
+          "name": "Craft Beer"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Run Amok Meadery\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Run+Amok+Meadery%22+%22Big+E%22+2026"
+          "query": "\"Valley Malt Beer Garden\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Valley+Malt+Beer+Garden%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Run Amok Meadery\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Run+Amok+Meadery%22+Instagram+Facebook+official"
+          "query": "\"Valley Malt Beer Garden\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Valley+Malt+Beer+Garden%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "run-amok-meadery",
+        "vendorId": "valley-malt-beer-garden",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Run Amok Meadery\" \"Big E\" 2026",
-          "\"Run Amok Meadery\" Instagram Facebook official"
+          "\"Valley Malt Beer Garden\" \"Big E\" 2026",
+          "\"Valley Malt Beer Garden\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -68,32 +68,32 @@
       }
     },
     {
-      "vendorId": "sammontana-gelato",
-      "name": "Sammontana Gelato",
+      "vendorId": "wrights-dairy-farm",
+      "name": "Wright’s Dairy Farm",
       "catalogItems": [
         {
-          "id": "sammontana-gelato-gelato",
-          "name": "Gelato"
+          "id": "wright-s-dairy-farm-cookie-ice-cream-sandwiches",
+          "name": "Cookie Ice Cream Sandwiches"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Sammontana Gelato\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Sammontana+Gelato%22+%22Big+E%22+2026"
+          "query": "\"Wright’s Dairy Farm\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Wright%E2%80%99s+Dairy+Farm%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Sammontana Gelato\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Sammontana+Gelato%22+Instagram+Facebook+official"
+          "query": "\"Wright’s Dairy Farm\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Wright%E2%80%99s+Dairy+Farm%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "sammontana-gelato",
+        "vendorId": "wrights-dairy-farm",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Sammontana Gelato\" \"Big E\" 2026",
-          "\"Sammontana Gelato\" Instagram Facebook official"
+          "\"Wright’s Dairy Farm\" \"Big E\" 2026",
+          "\"Wright’s Dairy Farm\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -101,32 +101,32 @@
       }
     },
     {
-      "vendorId": "schroders-cheese-curds",
-      "name": "Schroder’s Cheese Curds",
+      "vendorId": "zacks-mac-attack",
+      "name": "Zack’s Mac Attack",
       "catalogItems": [
         {
-          "id": "schroder-s-cheese-curds-cheese-curds",
-          "name": "Cheese Curds"
+          "id": "zack-s-mac-attack-mac-and-cheese",
+          "name": "Mac & Cheese"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Schroder’s Cheese Curds\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Schroder%E2%80%99s+Cheese+Curds%22+%22Big+E%22+2026"
+          "query": "\"Zack’s Mac Attack\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Zack%E2%80%99s+Mac+Attack%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Schroder’s Cheese Curds\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Schroder%E2%80%99s+Cheese+Curds%22+Instagram+Facebook+official"
+          "query": "\"Zack’s Mac Attack\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Zack%E2%80%99s+Mac+Attack%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "schroders-cheese-curds",
+        "vendorId": "zacks-mac-attack",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Schroder’s Cheese Curds\" \"Big E\" 2026",
-          "\"Schroder’s Cheese Curds\" Instagram Facebook official"
+          "\"Zack’s Mac Attack\" \"Big E\" 2026",
+          "\"Zack’s Mac Attack\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -134,32 +134,36 @@
       }
     },
     {
-      "vendorId": "simply-dip-licious",
-      "name": "Simply Dip-Licious",
+      "vendorId": "connecticut-building",
+      "name": "Connecticut Building",
       "catalogItems": [
         {
-          "id": "simply-dip-licious-dips",
-          "name": "Dips"
+          "id": "connecticut-building-baked-potatoes",
+          "name": "Baked Potatoes"
+        },
+        {
+          "id": "connecticut-building-connecticut-beers",
+          "name": "Connecticut Beers"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Simply Dip-Licious\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Simply+Dip-Licious%22+%22Big+E%22+2026"
+          "query": "\"Connecticut Building\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Connecticut+Building%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Simply Dip-Licious\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Simply+Dip-Licious%22+Instagram+Facebook+official"
+          "query": "\"Connecticut Building\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Connecticut+Building%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "simply-dip-licious",
+        "vendorId": "connecticut-building",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Simply Dip-Licious\" \"Big E\" 2026",
-          "\"Simply Dip-Licious\" Instagram Facebook official"
+          "\"Connecticut Building\" \"Big E\" 2026",
+          "\"Connecticut Building\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -167,32 +171,36 @@
       }
     },
     {
-      "vendorId": "spiked-coffee-bar",
-      "name": "Spiked Coffee Bar",
+      "vendorId": "crazy-boba",
+      "name": "Crazy Boba",
       "catalogItems": [
         {
-          "id": "spiked-coffee-bar-spiked-iced-coffee",
-          "name": "Spiked Iced Coffee"
+          "id": "crazy-boba-bubble-tea",
+          "name": "Bubble Tea"
+        },
+        {
+          "id": "crazy-boba-candied-strawberries-on-a-stick",
+          "name": "Candied Strawberries on a Stick"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Spiked Coffee Bar\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Spiked+Coffee+Bar%22+%22Big+E%22+2026"
+          "query": "\"Crazy Boba\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Crazy+Boba%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Spiked Coffee Bar\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Spiked+Coffee+Bar%22+Instagram+Facebook+official"
+          "query": "\"Crazy Boba\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Crazy+Boba%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "spiked-coffee-bar",
+        "vendorId": "crazy-boba",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Spiked Coffee Bar\" \"Big E\" 2026",
-          "\"Spiked Coffee Bar\" Instagram Facebook official"
+          "\"Crazy Boba\" \"Big E\" 2026",
+          "\"Crazy Boba\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -200,32 +208,36 @@
       }
     },
     {
-      "vendorId": "the-big-cheese",
-      "name": "The Big Cheese",
+      "vendorId": "dingle-distillery",
+      "name": "Dingle Distillery",
       "catalogItems": [
         {
-          "id": "the-big-cheese-cheese-curds",
-          "name": "Cheese Curds"
+          "id": "dingle-distillery-whiskey",
+          "name": "Whiskey"
+        },
+        {
+          "id": "dingle-distillery-cocktails",
+          "name": "Cocktails"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"The Big Cheese\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22The+Big+Cheese%22+%22Big+E%22+2026"
+          "query": "\"Dingle Distillery\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Dingle+Distillery%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"The Big Cheese\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22The+Big+Cheese%22+Instagram+Facebook+official"
+          "query": "\"Dingle Distillery\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Dingle+Distillery%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "the-big-cheese",
+        "vendorId": "dingle-distillery",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"The Big Cheese\" \"Big E\" 2026",
-          "\"The Big Cheese\" Instagram Facebook official"
+          "\"Dingle Distillery\" \"Big E\" 2026",
+          "\"Dingle Distillery\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -233,32 +245,36 @@
       }
     },
     {
-      "vendorId": "the-big-e",
-      "name": "The Big E",
+      "vendorId": "fields-fields-blueberries",
+      "name": "Fields Fields Blueberries",
       "catalogItems": [
         {
-          "id": "big-e-chocolate-pickle-tacos",
-          "name": "Chocolate Pickle Tacos"
+          "id": "fields-fields-wild-blueberry-crisp",
+          "name": "Wild Blueberry Crisp"
+        },
+        {
+          "id": "fields-fields-blueberry-leaf-tea",
+          "name": "Blueberry Leaf Tea"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"The Big E\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22The+Big+E%22+%22Big+E%22+2026"
+          "query": "\"Fields Fields Blueberries\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Fields+Fields+Blueberries%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"The Big E\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22The+Big+E%22+Instagram+Facebook+official"
+          "query": "\"Fields Fields Blueberries\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Fields+Fields+Blueberries%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "the-big-e",
+        "vendorId": "fields-fields-blueberries",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"The Big E\" \"Big E\" 2026",
-          "\"The Big E\" Instagram Facebook official"
+          "\"Fields Fields Blueberries\" \"Big E\" 2026",
+          "\"Fields Fields Blueberries\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -266,32 +282,36 @@
       }
     },
     {
-      "vendorId": "the-bone-sauce",
-      "name": "The Bone Sauce",
+      "vendorId": "main-street-deli",
+      "name": "Main Street Deli",
       "catalogItems": [
         {
-          "id": "the-bone-sauce-wings",
-          "name": "Wings"
+          "id": "main-street-deli-pilgrim-sandwich",
+          "name": "Pilgrim Sandwich"
+        },
+        {
+          "id": "main-street-deli-thanksgiving-bowl",
+          "name": "Thanksgiving Bowl"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"The Bone Sauce\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22The+Bone+Sauce%22+%22Big+E%22+2026"
+          "query": "\"Main Street Deli\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Main+Street+Deli%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"The Bone Sauce\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22The+Bone+Sauce%22+Instagram+Facebook+official"
+          "query": "\"Main Street Deli\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Main+Street+Deli%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "the-bone-sauce",
+        "vendorId": "main-street-deli",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"The Bone Sauce\" \"Big E\" 2026",
-          "\"The Bone Sauce\" Instagram Facebook official"
+          "\"Main Street Deli\" \"Big E\" 2026",
+          "\"Main Street Deli\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -299,32 +319,36 @@
       }
     },
     {
-      "vendorId": "the-smoking-dragon-bar",
-      "name": "The Smoking Dragon Bar",
+      "vendorId": "maine-aquaculture-association",
+      "name": "Maine Aquaculture Association",
       "catalogItems": [
         {
-          "id": "the-smoking-dragon-bar-smoking-cocktails",
-          "name": "Smoking Cocktails"
+          "id": "maine-aquaculture-smoked-salmon-on-a-stick",
+          "name": "Smoked Salmon on a Stick"
+        },
+        {
+          "id": "maine-aquaculture-captn-elis-root-beer",
+          "name": "Capt’n Eli’s Root Beer"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"The Smoking Dragon Bar\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22The+Smoking+Dragon+Bar%22+%22Big+E%22+2026"
+          "query": "\"Maine Aquaculture Association\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Maine+Aquaculture+Association%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"The Smoking Dragon Bar\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22The+Smoking+Dragon+Bar%22+Instagram+Facebook+official"
+          "query": "\"Maine Aquaculture Association\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Maine+Aquaculture+Association%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "the-smoking-dragon-bar",
+        "vendorId": "maine-aquaculture-association",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"The Smoking Dragon Bar\" \"Big E\" 2026",
-          "\"The Smoking Dragon Bar\" Instagram Facebook official"
+          "\"Maine Aquaculture Association\" \"Big E\" 2026",
+          "\"Maine Aquaculture Association\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],

@@ -311,6 +311,92 @@
     ]
   },
   {
+    "name": "Rudy’s Pizza",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/people/Rudys-Pizza-Slush/100057841531621/"
+      }
+    ]
+  },
+  {
+    "name": "Rudy’s Slush",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/people/Rudys-Pizza-Slush/100057841531621/"
+      }
+    ]
+  },
+  {
+    "name": "Run Amok Meadery",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://runamokmead.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/runamokmead/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/runamokmead/"
+      }
+    ]
+  },
+  {
+    "name": "Simply Dip-Licious",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.simplydiplicious.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/simplydiplicious/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/simply.dips"
+      }
+    ]
+  },
+  {
+    "name": "The Bone Sauce",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://thebonesauce.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/the_bone_sauce/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/The-Bone-Sauce-109591941947018"
+      }
+    ]
+  },
+  {
+    "name": "The Smoking Dragon Bar",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.v1vodka.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/v1vodka/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/v1vodka"
+      }
+    ]
+  },
+  {
     "name": "Tripp’s Farmhouse Café",
     "links": [
       {
@@ -320,6 +406,23 @@
       {
         "label": "Website",
         "url": "https://www.trippsfarmhousecafe.com/"
+      }
+    ]
+  },
+  {
+    "name": "V-One Vodka",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.v1vodka.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/v1vodka/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/v1vodka"
       }
     ]
   }
