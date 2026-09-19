@@ -1,0 +1,244 @@
+[
+  {
+    "vendorId": "crazy-sushi",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Crazy Sushi\" \"Big E\" instagram",
+      "\"Crazy Sushi\" \"Big E\" \"push\""
+    ],
+    "notes": "Limited vendor-name and fair searches did not identify a reliable social account. This is not evidence that no account exists. No new current fair food confirmed.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "creme-bru-la",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Creme Bru LA\" instagram",
+      "\"Creme Bru LA\" food truck website"
+    ],
+    "notes": "Verified via vendor website; scanned 12 public grid entries. Read September 18 opening/flavor caption and September 19 location caption; September 16 page exposed comments without a vendor caption, so those comments were not used as evidence. Catalog has only generic Crème Brûlée.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/cremebru.la/",
+        "verified": true,
+        "evidenceUrl": "https://www.cremebru.la/",
+        "evidence": "Vendor website links directly to this account; public business profile matches."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Six Big E 2026 crème brûlée flavors: Maple, Vanilla, Sweet Corn, Cappuccino, Pumpkin Spice, and Happy Valley Mint Chocolate. Expand the existing generic entry with these verified options; do not imply six unrelated dishes.",
+        "url": "https://www.instagram.com/cremebru.la/reel/DdbyWuox2U0/",
+        "kind": "detail",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-18",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "flavors": [
+          "Maple",
+          "Vanilla",
+          "Sweet Corn",
+          "Cappuccino",
+          "Pumpkin Spice",
+          "Happy Valley Mint Chocolate"
+        ]
+      },
+      {
+        "detail": "Vendor locates its shed outside the Massachusetts Building on the Rhode Island side; opening post gives September 18–October 4 fair dates.",
+        "url": "https://www.instagram.com/cremebru.la/reel/DdbyWuox2U0/",
+        "kind": "location",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-18",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  },
+  {
+    "vendorId": "dannys-spuds",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Danny’s Spuds\" \"Big E\"",
+      "\"Danny\" \"Spuds\" \"Big E\" facebook",
+      "\"Danny’s Smokehouse\" Instagram"
+    ],
+    "notes": "Limited vendor-name and fair searches did not identify a reliable social account. This is not evidence that no account exists. No new current fair food confirmed. A 2024 Connecticut news result refers to Danny’s Smokehouse; treat as an operator-name lead, not a verified alias. Unrelated similarly named restaurants were excluded.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "delaney-s-market",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Delaney's Market\" instagram"
+    ],
+    "notes": "Verified matching website and public profile; inspected 12 grid entries and read September 15 Big E caption. Existing catalog contains Popover Sandwiches but no hot-popover butter options. Did not infer the drink text from automatic image descriptions.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/delaneysmarket/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/delaneysmarket/",
+        "evidence": "Profile names the same five Massachusetts locations as delaneysmarket.com and links to that website."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Hot popovers with a choice of maple bacon, strawberry, or apple cinnamon butter, in addition to savory stuffed popovers. Proposed hot-popover entry with butter choices; generic Popover Sandwiches already exists.",
+        "url": "https://www.instagram.com/delaneysmarket/reel/DdUu84VxgCx/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-15",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "itemName": "Hot Popovers with Flavored Butter",
+        "options": [
+          "Maple bacon butter",
+          "Strawberry butter",
+          "Apple cinnamon butter"
+        ]
+      },
+      {
+        "detail": "Vendor directs fairgoers to the Massachusetts Building.",
+        "url": "https://www.instagram.com/delaneysmarket/reel/DdUu84VxgCx/",
+        "kind": "location",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-15",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  },
+  {
+    "vendorId": "dels-lemonade",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Del’s Lemonade\" instagram official"
+    ],
+    "notes": "Verified account and inspected 12 visible public grid entries. No new Big E menu confirmed in this limited thumbnail scan; full captions and archives not exhaustively reviewed.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/delslemonade/",
+        "verified": true,
+        "evidenceUrl": "https://dels.com/",
+        "evidence": "Vendor website links directly to this account; public business profile matches."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "emmas-wine-garden",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Emma’s Wine Garden\" \"Big E\"",
+      "\"Emma\" \"Wine Garden\" \"Big E\" instagram",
+      "\"Emmas\" \"wine garden\" Big E"
+    ],
+    "notes": "Limited vendor-name and fair searches did not identify a reliable social account. This is not evidence that no account exists. No new current fair food confirmed.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "finn-cakes",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Finn Cakes\" instagram",
+      "\"Finn Cakes\" \"Big E\" facebook",
+      "\"Finn Cakes\" Massachusetts social"
+    ],
+    "notes": "Limited vendor-name and fair searches did not identify a reliable social account. This is not evidence that no account exists. No new current fair food confirmed.",
+    "accounts": [],
+    "findings": [
+      {
+        "detail": "2023 coverage names pumpkin raisin bread pudding and pickled eggs alongside Finnish pancakes. Historical leads only; no 2026 availability or price confirmed.",
+        "url": "https://spectrumnews1.com/ma/worcester/news/2023/09/21/massachusetts-day-at-the-big-e",
+        "kind": "new-item",
+        "confidence": "lead",
+        "publishedOn": "2023-09-21",
+        "event": "The Big E",
+        "year": 2023,
+        "sourceType": "press"
+      }
+    ]
+  },
+  {
+    "vendorId": "fire-co-catering",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Fire & Co\" catering Maine instagram"
+    ],
+    "notes": "Verified account and inspected 12 visible public grid entries. No new Big E menu confirmed in this limited thumbnail scan; full captions and archives not exhaustively reviewed.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/fireandco/",
+        "verified": true,
+        "evidenceUrl": "https://www.fireandcompany.com/",
+        "evidence": "Vendor website links directly to this account; public business profile matches."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "french-fry",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"French Fry\" \"Corndog\" \"Big E\" vendor"
+    ],
+    "notes": "Limited vendor-name and fair searches did not identify a reliable social account. This is not evidence that no account exists. No new current fair food confirmed. Generic stall label needs operator identification before matching social profiles.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "friskie-fries",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Friskie Fries\" instagram"
+    ],
+    "notes": "Scanned 12 public entries and read two September 18 captions. One concerns Roger Williams Park Zoo, so excluded. Big E caption confirms calamari; full catalog search found no calamari entry. Generic Creative Fries should not be treated as this distinct food.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/friskiefries/",
+        "verified": true,
+        "evidenceUrl": "https://www.friskiefries.com/",
+        "evidence": "Vendor homepage displays @friskiefries; public profile links back to the same website."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Rhode Island-style calamari is explicitly advertised as the Big E special. No price or detailed ingredients supplied.",
+        "url": "https://www.instagram.com/friskiefries/p/DdbwANtjM56/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-18",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "itemName": "Rhode Island-style Calamari"
+      },
+      {
+        "detail": "Rhode Island Building on Avenue of the States; September 18 caption advertises 10 a.m.–9 p.m. Do not assume unchanged daily hours without further evidence.",
+        "url": "https://www.instagram.com/friskiefries/p/DdbwANtjM56/",
+        "kind": "location",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-18",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  }
+]

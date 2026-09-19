@@ -1,0 +1,5070 @@
+{
+  "version": 1,
+  "year": 2026,
+  "vendors": [
+    {
+      "id": "athletic-brewing",
+      "name": "Athletic Brewing",
+      "items": [
+        {
+          "id": "athletic-brewing-non-alcoholic-beers",
+          "name": "Non-alcoholic Beers"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "athletic-brewing",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Athletic Brewing\" \"Big E\" instagram"
+          ],
+          "notes": "Verified account via vendor website and inspected the 12 visible public grid entries. This was a discovery/thumbnail scan, not a full caption or archive review; no absence-of-food conclusion. No current Big E menu detail confirmed in this scope.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/athleticbrewing/",
+              "verified": true,
+              "evidenceUrl": "https://athleticbrewing.com/",
+              "evidence": "Linked directly from the vendor website."
+            }
+          ],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "bacardi-rum-beach-bar",
+      "name": "Bacardi Rum Beach Bar",
+      "items": [
+        {
+          "id": "bacardi-rum-beach-bar-drink-buckets",
+          "name": "Drink Buckets"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "bacardi-rum-beach-bar",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Bacardi\" \"Rum Beach Bar\" \"Big E\" instagram",
+            "\"Bacardi Rum Beach Bar\" Instagram Facebook"
+          ],
+          "notes": "Vendor-name + Big E + Instagram/Facebook searches did not identify a reliable vendor account in this limited pass. Generic concession/sponsor naming needs operator identification; do not substitute unrelated brands or similarly named businesses.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "ben-jerrys",
+      "name": "Ben & Jerry’s",
+      "items": [
+        {
+          "id": "ben-and-jerrys-ice-cream",
+          "name": "Ice Cream"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "ben-jerrys",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Ben & Jerry\" \"Big E\" instagram"
+          ],
+          "notes": "Verified account via vendor website and inspected the 12 visible public grid entries. This was a discovery/thumbnail scan, not a full caption or archive review; no absence-of-food conclusion. No current Big E menu detail confirmed in this scope.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/benandjerrys/",
+              "verified": true,
+              "evidenceUrl": "https://www.benjerry.com/",
+              "evidence": "Linked directly from the vendor website."
+            }
+          ],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "billies-baked-potato",
+      "name": "Billie’s Baked Potato",
+      "items": [
+        {
+          "id": "billie-s-baked-potato-baked-potatoes",
+          "name": "Baked Potatoes"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "billies-baked-potato",
+          "checkedAt": "2026-09-19",
+          "status": "inaccessible",
+          "searches": [
+            "\"Billie's Baked Potato\" Instagram",
+            "\"Billies Baked Potatoes\" instagram"
+          ],
+          "notes": "Vendor website links to Facebook; direct public Facebook visit showed a login prompt. Website reviewed: dated 2026 fair schedule plus general menu; individual menu availability at Big E remains unverified. No Instagram account verified.",
+          "accounts": [
+            {
+              "url": "https://www.facebook.com/p/Billies-Baked-Potatoes-100057525914795/",
+              "verified": true,
+              "evidenceUrl": "https://www.billiesbakedpotatoes.com/home",
+              "evidence": "Linked directly from the vendor website."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Vendor website lists its 2026 Big E dates and a general menu: Billie’s Special, Broccoli & Cheese, Chilli & Cheese, and Veggie Potato. Potential variants beyond generic Baked Potatoes; confirm the fair menu before adding.",
+              "url": "https://www.billiesbakedpotatoes.com/home",
+              "kind": "new-item",
+              "confidence": "lead",
+              "publishedOn": null,
+              "event": null,
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bluet",
+      "name": "Bluet",
+      "items": [
+        {
+          "id": "bluet-sparkling-wild-blueberry-wine",
+          "name": "Sparkling Wild Blueberry Wine"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "bluet",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Bluet\" wine Instagram official"
+          ],
+          "notes": "Inspected vendor site, directory account link, and 12 public Instagram grid entries (2024–2026). No Big E-specific menu verified; national/general product posts do not prove fair availability.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/bluetbubbles/",
+              "verified": true,
+              "evidenceUrl": "https://mainebeertastingrooms.com/regions/portlandcascobay/bluet/",
+              "evidence": "Directory identifies the account; live profile identifies Maine blueberry sparkling wine and links back to bluet.me/shop."
+            }
+          ],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "carnival-candy",
+      "name": "Carnival Candy",
+      "items": [
+        {
+          "id": "carnival-candy-cotton-candy",
+          "name": "Cotton Candy"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "carnival-candy",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Carnival Candy\" \"Big E\"",
+            "\"Carnival Candy\" \"Big E\" Instagram Facebook"
+          ],
+          "notes": "Vendor-name + Big E + Instagram/Facebook searches did not identify a reliable vendor account in this limited pass. Generic concession/sponsor naming needs operator identification; do not substitute unrelated brands or similarly named businesses.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "cindy-s-drive-in",
+      "name": "Cindy's Drive-in",
+      "items": [
+        {
+          "id": "cindy-drive-in-cake-shake",
+          "name": "Cake Shake"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "cindy-s-drive-in",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Cindy's Drive-in\" instagram"
+          ],
+          "notes": "Verified account, scanned 12 visible entries, and read September 18 Big E reel caption. Confirmed attendance; caption does not enumerate menu items. Video and full menu were not transcribed. Visitor dairy-free question is not confirmation.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/cindysdrivein/",
+              "verified": true,
+              "evidenceUrl": "https://cindysdrivein.com/",
+              "evidence": "Linked directly from the vendor website."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "September 18 vendor reel confirms return to The Big E; no additional named food confirmed in caption.",
+              "url": "https://www.instagram.com/cindysdrivein/reel/Ddbxqsluu_-/",
+              "kind": "confirmation",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-18",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cotton-candy-stall",
+      "name": "Cotton Candy Stall",
+      "items": [
+        {
+          "id": "cotton-candy-stall-tajin-candy-apples",
+          "name": "Tajin Candy Apples"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "cotton-candy-stall",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Cotton Candy\" \"Tajin Candy Apples\" \"Big E\"",
+            "\"Cotton Candy Stall\" \"Big E\" Instagram Facebook"
+          ],
+          "notes": "Vendor-name + Big E + Instagram/Facebook searches did not identify a reliable vendor account in this limited pass. Generic concession/sponsor naming needs operator identification; do not substitute unrelated brands or similarly named businesses.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "craic-sauce",
+      "name": "Craic Sauce",
+      "items": [
+        {
+          "id": "craic-sauce-hot-sauce",
+          "name": "Hot Sauce"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "craic-sauce",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Craic Sauce\" instagram \"Big E\""
+          ],
+          "notes": "Verified account; scanned 12 public entries and read September 10 caption. The food/drink specials in that post concern Lowell Irish Festival, not The Big E.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/craicsauce/",
+              "verified": true,
+              "evidenceUrl": "https://craicsauce.com/",
+              "evidence": "Linked directly from the vendor website."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Bloody Sungold drink and curry aioli burger topping relate to Lowell Irish Festival; exclude from Big E additions.",
+              "url": "https://www.instagram.com/craicsauce/p/DdHGNLIEXV9/",
+              "kind": "detail",
+              "confidence": "lead",
+              "publishedOn": "2026-09-10",
+              "event": "Lowell Irish Festival",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crazy-sushi",
+      "name": "Crazy Sushi",
+      "items": [
+        {
+          "id": "crazy-sushi-push-up-sushi",
+          "name": "Push-Up Sushi"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "crazy-sushi",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Crazy Sushi\" \"Big E\" instagram",
+            "\"Crazy Sushi\" \"Big E\" \"push\""
+          ],
+          "notes": "Limited vendor-name and fair searches did not identify a reliable social account. This is not evidence that no account exists. No new current fair food confirmed.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "creme-bru-la",
+      "name": "Crème Bru LA",
+      "items": [
+        {
+          "id": "creme-bru-la-creme-brulee",
+          "name": "Crème Brûlée"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "creme-bru-la",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Creme Bru LA\" instagram",
+            "\"Creme Bru LA\" food truck website"
+          ],
+          "notes": "Verified via vendor website; scanned 12 public grid entries. Read September 18 opening/flavor caption and September 19 location caption; September 16 page exposed comments without a vendor caption, so those comments were not used as evidence. Catalog has only generic Crème Brûlée.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/cremebru.la/",
+              "verified": true,
+              "evidenceUrl": "https://www.cremebru.la/",
+              "evidence": "Vendor website links directly to this account; public business profile matches."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Six Big E 2026 crème brûlée flavors: Maple, Vanilla, Sweet Corn, Cappuccino, Pumpkin Spice, and Happy Valley Mint Chocolate. Expand the existing generic entry with these verified options; do not imply six unrelated dishes.",
+              "url": "https://www.instagram.com/cremebru.la/reel/DdbyWuox2U0/",
+              "kind": "detail",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-18",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "flavors": [
+                "Maple",
+                "Vanilla",
+                "Sweet Corn",
+                "Cappuccino",
+                "Pumpkin Spice",
+                "Happy Valley Mint Chocolate"
+              ]
+            },
+            {
+              "detail": "Vendor locates its shed outside the Massachusetts Building on the Rhode Island side; opening post gives September 18–October 4 fair dates.",
+              "url": "https://www.instagram.com/cremebru.la/reel/DdbyWuox2U0/",
+              "kind": "location",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-18",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dannys-spuds",
+      "name": "Danny’s Spuds",
+      "items": [
+        {
+          "id": "dannys-spuds-pulled-pork-baked-potato",
+          "name": "Pulled Pork Baked Potato"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "dannys-spuds",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Danny’s Spuds\" \"Big E\"",
+            "\"Danny\" \"Spuds\" \"Big E\" facebook",
+            "\"Danny’s Smokehouse\" Instagram"
+          ],
+          "notes": "Limited vendor-name and fair searches did not identify a reliable social account. This is not evidence that no account exists. No new current fair food confirmed. A 2024 Connecticut news result refers to Danny’s Smokehouse; treat as an operator-name lead, not a verified alias. Unrelated similarly named restaurants were excluded.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "dels-lemonade",
+      "name": "Del’s Lemonade",
+      "items": [
+        {
+          "id": "del-s-lemonade-lemonade",
+          "name": "Lemonade"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "dels-lemonade",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Del’s Lemonade\" instagram official"
+          ],
+          "notes": "Verified account and inspected 12 visible public grid entries. No new Big E menu confirmed in this limited thumbnail scan; full captions and archives not exhaustively reviewed.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/delslemonade/",
+              "verified": true,
+              "evidenceUrl": "https://dels.com/",
+              "evidence": "Vendor website links directly to this account; public business profile matches."
+            }
+          ],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "emmas-wine-garden",
+      "name": "Emma’s Wine Garden",
+      "items": [
+        {
+          "id": "emmas-wine-garden-wine",
+          "name": "Wine"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "emmas-wine-garden",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Emma’s Wine Garden\" \"Big E\"",
+            "\"Emma\" \"Wine Garden\" \"Big E\" instagram",
+            "\"Emmas\" \"wine garden\" Big E"
+          ],
+          "notes": "Limited vendor-name and fair searches did not identify a reliable social account. This is not evidence that no account exists. No new current fair food confirmed.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "finn-cakes",
+      "name": "Finn Cakes",
+      "items": [
+        {
+          "id": "finn-cakes-finnish-pancake",
+          "name": "Finnish Pancake"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "finn-cakes",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Finn Cakes\" instagram",
+            "\"Finn Cakes\" \"Big E\" facebook",
+            "\"Finn Cakes\" Massachusetts social"
+          ],
+          "notes": "Limited vendor-name and fair searches did not identify a reliable social account. This is not evidence that no account exists. No new current fair food confirmed.",
+          "accounts": [],
+          "findings": [
+            {
+              "detail": "2023 coverage names pumpkin raisin bread pudding and pickled eggs alongside Finnish pancakes. Historical leads only; no 2026 availability or price confirmed.",
+              "url": "https://spectrumnews1.com/ma/worcester/news/2023/09/21/massachusetts-day-at-the-big-e",
+              "kind": "new-item",
+              "confidence": "lead",
+              "publishedOn": "2023-09-21",
+              "event": "The Big E",
+              "year": 2023,
+              "sourceType": "press"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fire-co-catering",
+      "name": "Fire & Co. Catering",
+      "items": [
+        {
+          "id": "fire-and-co-wood-fired-pizza",
+          "name": "Wood-fired Pizza"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "fire-co-catering",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Fire & Co\" catering Maine instagram"
+          ],
+          "notes": "Verified account and inspected 12 visible public grid entries. No new Big E menu confirmed in this limited thumbnail scan; full captions and archives not exhaustively reviewed.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/fireandco/",
+              "verified": true,
+              "evidenceUrl": "https://www.fireandcompany.com/",
+              "evidence": "Vendor website links directly to this account; public business profile matches."
+            }
+          ],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "french-fry",
+      "name": "French Fry",
+      "items": [
+        {
+          "id": "french-fry-corndog",
+          "name": "Corndog"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "french-fry",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"French Fry\" \"Corndog\" \"Big E\" vendor"
+          ],
+          "notes": "Limited vendor-name and fair searches did not identify a reliable social account. This is not evidence that no account exists. No new current fair food confirmed. Generic stall label needs operator identification before matching social profiles.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "funnel-cake",
+      "name": "Funnel Cake",
+      "items": [
+        {
+          "id": "funnel-cake-waffle-cone",
+          "name": "Waffle Cone"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "funnel-cake",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Funnel Cake\" \"Waffle Cone\" \"Big E\" vendor"
+          ],
+          "notes": "Limited public vendor-name searches did not identify a reliable account. No current Big E menu additions verified; this does not establish that no account exists. Fair Bargain Bites page uses this generic Midway stall label; operator still unidentified.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "hawke-s",
+      "name": "Hawke's",
+      "items": [
+        {
+          "id": "hawkes-lobster-roll",
+          "name": "Maine Lobster Roll"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "hawke-s",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Hawke\" \"Big E\" lobster instagram",
+            "\"Hawkes\" lobster \"Big E\""
+          ],
+          "notes": "Limited public vendor-name searches did not identify a reliable account. No current Big E menu additions verified; this does not establish that no account exists.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "hot-fresh-mini-donuts",
+      "name": "Hot & Fresh Mini Donuts",
+      "items": [
+        {
+          "id": "hot-and-fresh-mini-donuts-mini-donuts",
+          "name": "Mini Donuts"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "hot-fresh-mini-donuts",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Hot & Fresh Mini Donuts\" \"Big E\"",
+            "\"Hot Fresh Mini Donuts\" \"Big E\" instagram"
+          ],
+          "notes": "Limited public vendor-name searches did not identify a reliable account. No current Big E menu additions verified; this does not establish that no account exists. Prior-year coverage uses the same generic label. Donuts with a Twist was an unrelated search lead, not a verified alias.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "iona-s-kitchen",
+      "name": "Iona's Kitchen",
+      "items": [
+        {
+          "id": "iona-kitchen-southern-food",
+          "name": "Southern Food"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "iona-s-kitchen",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Iona's Kitchen\" instagram",
+            "\"Iona's Kitchen\" Massachusetts website"
+          ],
+          "notes": "Limited public vendor-name searches did not identify a reliable account. No current Big E menu additions verified; this does not establish that no account exists. Opened ionaskitchen.com without finding social links. Candidate @ionaskitchen exposed no matching business identity and was not accepted. General Springfield restaurant menu was not treated as a fair menu.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "jamaican-jewelz",
+      "name": "Jamaican Jewelz",
+      "items": [
+        {
+          "id": "jamaican-jewelz-maple-jerk-chicken-plate",
+          "name": "Maple Jerk Chicken Plate"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "jamaican-jewelz",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/jamaicanjewelz/",
+              "verified": true,
+              "evidenceUrl": "https://cweonline.org/news/julian-perkins-jamaican-jewelz-llc-bellows-falls-vt",
+              "evidence": "Business profile links to account; live Instagram bio links to vendor website."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "General website offers maple jerk pork as well as chicken; current fair availability of pork not confirmed.",
+              "url": "https://jamaicanjewelz.com/about-us/",
+              "kind": "new-item",
+              "confidence": "lead",
+              "publishedOn": null,
+              "event": null,
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ],
+          "searches": [
+            "Jamaican Jewelz Instagram Big E"
+          ],
+          "notes": "Imported from docs/vendor-instagram-pilot-2026-09-19.md; limited public review, not a complete archive scan."
+        }
+      ]
+    },
+    {
+      "id": "janik-s-pierogi-cafe",
+      "name": "Janik's Pierogi Café",
+      "items": [
+        {
+          "id": "janiks-pierogi-cafe-pierogi",
+          "name": "Pierogi"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "janik-s-pierogi-cafe",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Janik\" \"Pierogi\" instagram"
+          ],
+          "notes": "Verified via vendor website and scanned 12 visible public grid entries. Limited review, not an exhaustive caption/archive scan. Most recent visible entry was September 2025; no 2026 menu confirmed. General retail frozen-pierogi flavors/prices were not imported as fair offerings.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/janikspierogicafe/",
+              "verified": true,
+              "evidenceUrl": "https://janikspierogicafe.com/",
+              "evidence": "Vendor website links directly to account; public business profile matches."
+            }
+          ],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "koffee-kup-bakery",
+      "name": "Koffee Kup Bakery",
+      "items": [
+        {
+          "id": "koffee-kup-bakery-baked-goods",
+          "name": "Made-from-scratch Baked Goods"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "koffee-kup-bakery",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Koffee Kup Bakery\" Springfield instagram"
+          ],
+          "notes": "Public Facebook intro and one relative-dated post accessible before login prompt. Post advertises Massachusetts Building September 18–October 4; no exact publication timestamp or post permalink recovered, so retained as a lead. Menu images not transcribed.",
+          "accounts": [
+            {
+              "url": "https://www.facebook.com/p/Koffee-Kup-Bakery-100063562330509/",
+              "verified": true,
+              "evidenceUrl": "https://wanderlog.com/place/details/3017471/koffee-kup-bakery",
+              "evidence": "Directory links to this page; public profile matches Chicopee address and phone and shows a Massachusetts Building post."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Public page shows a fair attendance announcement, but no named additional baked goods were verified. Recover dated post permalink before treating as a confirmed research finding.",
+              "url": "https://www.facebook.com/p/Koffee-Kup-Bakery-100063562330509/",
+              "kind": "confirmation",
+              "confidence": "lead",
+              "publishedOn": null,
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "madhrasi",
+      "name": "Madhrasi",
+      "items": [
+        {
+          "id": "madhrasi-specialty-chai",
+          "name": "Specialty Chai"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "madhrasi",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Madhrasi\" instagram"
+          ],
+          "notes": "Verified via vendor website and scanned 12 visible public grid entries. Limited review, not an exhaustive caption/archive scan. Read September 3 caption: it advertises Utah tastings, not Big E availability. A Big E highlight exists but its contents were not reviewed. No new fair menu confirmed.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/madhrasichai/",
+              "verified": true,
+              "evidenceUrl": "https://madhrasi.com/contact/",
+              "evidence": "Vendor website links directly to account; public business profile matches."
+            }
+          ],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "maine-building",
+      "name": "Maine Building",
+      "items": [
+        {
+          "id": "maine-building-blueberry-treats",
+          "name": "Blueberry Treats"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "maine-building",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Maine Building\" \"Blueberry\" \"2026\" Big E"
+          ],
+          "notes": "Area-level catalog label, not a single vendor. Reviewed Maine DACF 2026 exhibitor table and fair building page instead of assigning an unrelated social account. Named exhibitors should be researched individually.",
+          "accounts": [],
+          "findings": [
+            {
+              "detail": "Official 2026 exhibitor table identifies Fields Fields Blueberries for blueberry crisp/leaf teas. It also lists Noble Pizzeria & Barbecue at O-4, while earlier catalog/press naming uses Fire & Co.; reconcile operator identity before merging records. Page is undated, so queued for follow-up under the current evidence rules.",
+              "url": "https://www.maine.gov/dacf/ard/events/bige/index.shtml",
+              "kind": "detail",
+              "confidence": "lead",
+              "publishedOn": null,
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maine-lobster-rolls",
+      "name": "Maine Lobster Rolls",
+      "items": [
+        {
+          "id": "maine-lobster-roll",
+          "name": "Maine Lobster Roll"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "maine-potato-board",
+      "name": "Maine Potato Board",
+      "items": [
+        {
+          "id": "maine-potato-board-baked-potato",
+          "name": "Maine Baked Potato"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "maureen-s-sweet-shoppe",
+      "name": "Maureen's Sweet Shoppe",
+      "items": [
+        {
+          "id": "maureens-sweet-shoppe-handmade-chocolates",
+          "name": "Handmade Chocolates"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "meatball-factory",
+      "name": "Meatball Factory",
+      "items": [
+        {
+          "id": "meatball-factory-sushi-corndog",
+          "name": "Sushi Corndog"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "mini-donut-express",
+      "name": "Mini Donut Express",
+      "items": [
+        {
+          "id": "mini-donut-express-mini-donuts-by-the-bag",
+          "name": "Mini Donuts by the Bag"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "new-hampshire-kettle-corn",
+      "name": "New Hampshire Kettle Corn",
+      "items": [
+        {
+          "id": "new-hampshire-kettle-corn-kettle-corn",
+          "name": "Kettle Corn"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "items": [
+        {
+          "id": "midway-slice-of-cheese-pizza",
+          "name": "Slice of Cheese Pizza"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "randys-wooster-street-pizza",
+      "name": "Randy’s Wooster Street Pizza",
+      "items": [
+        {
+          "id": "randys-wooster-street-pizza-pizza",
+          "name": "Pizza"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "rickeys-jerky",
+      "name": "Rickey’s Jerky",
+      "items": [
+        {
+          "id": "rickeys-jerky-assorted-beef-jerky",
+          "name": "Assorted Beef Jerky"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "royal-rose",
+      "name": "Royal Rose",
+      "items": [
+        {
+          "id": "royal-rose-wild-blueberry-beverage",
+          "name": "Wild Blueberry Beverage"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "rudys-slush",
+      "name": "Rudy’s Slush",
+      "items": [
+        {
+          "id": "rudys-frozen-pickle-lemonade-slush",
+          "name": "Frozen Pickle Lemonade Slush"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "run-amok-meadery",
+      "name": "Run Amok Meadery",
+      "items": [
+        {
+          "id": "run-amok-meadery-craft-mead",
+          "name": "Craft Mead"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "sammontana-gelato",
+      "name": "Sammontana Gelato",
+      "items": [
+        {
+          "id": "sammontana-gelato-gelato",
+          "name": "Gelato"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "schroders-cheese-curds",
+      "name": "Schroder’s Cheese Curds",
+      "items": [
+        {
+          "id": "schroder-s-cheese-curds-cheese-curds",
+          "name": "Cheese Curds"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "simply-dip-licious",
+      "name": "Simply Dip-Licious",
+      "items": [
+        {
+          "id": "simply-dip-licious-dips",
+          "name": "Dips"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "spiked-coffee-bar",
+      "name": "Spiked Coffee Bar",
+      "items": [
+        {
+          "id": "spiked-coffee-bar-spiked-iced-coffee",
+          "name": "Spiked Iced Coffee"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-big-cheese",
+      "name": "The Big Cheese",
+      "items": [
+        {
+          "id": "the-big-cheese-cheese-curds",
+          "name": "Cheese Curds"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-big-e",
+      "name": "The Big E",
+      "items": [
+        {
+          "id": "big-e-chocolate-pickle-tacos",
+          "name": "Chocolate Pickle Tacos"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-bone-sauce",
+      "name": "The Bone Sauce",
+      "items": [
+        {
+          "id": "the-bone-sauce-wings",
+          "name": "Wings"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-smoking-dragon-bar",
+      "name": "The Smoking Dragon Bar",
+      "items": [
+        {
+          "id": "the-smoking-dragon-bar-smoking-cocktails",
+          "name": "Smoking Cocktails"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-spirited-christmas-bar",
+      "name": "The Spirited Christmas Bar",
+      "items": [
+        {
+          "id": "the-spirited-christmas-bar-holiday-themed-cocktails",
+          "name": "Holiday-themed Cocktails"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "valley-malt-beer-garden",
+      "name": "Valley Malt Beer Garden",
+      "items": [
+        {
+          "id": "valley-malt-beer-garden-craft-beer",
+          "name": "Craft Beer"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "wrights-dairy-farm",
+      "name": "Wright’s Dairy Farm",
+      "items": [
+        {
+          "id": "wright-s-dairy-farm-cookie-ice-cream-sandwiches",
+          "name": "Cookie Ice Cream Sandwiches"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "zacks-mac-attack",
+      "name": "Zack’s Mac Attack",
+      "items": [
+        {
+          "id": "zack-s-mac-attack-mac-and-cheese",
+          "name": "Mac & Cheese"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "connecticut-building",
+      "name": "Connecticut Building",
+      "items": [
+        {
+          "id": "connecticut-building-baked-potatoes",
+          "name": "Baked Potatoes"
+        },
+        {
+          "id": "connecticut-building-connecticut-beers",
+          "name": "Connecticut Beers"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "crazy-boba",
+      "name": "Crazy Boba",
+      "items": [
+        {
+          "id": "crazy-boba-bubble-tea",
+          "name": "Bubble Tea"
+        },
+        {
+          "id": "crazy-boba-candied-strawberries-on-a-stick",
+          "name": "Candied Strawberries on a Stick"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "delaney-s-market",
+      "name": "Delaney's Market",
+      "items": [
+        {
+          "id": "delaneys-market-popover-sandwiches",
+          "name": "Popover Sandwiches"
+        },
+        {
+          "id": "delaney-s-market-hot-popovers-with-flavored-butter",
+          "name": "Hot Popovers with Flavored Butter"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "delaney-s-market",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Delaney's Market\" instagram"
+          ],
+          "notes": "Verified matching website and public profile; inspected 12 grid entries and read September 15 Big E caption. Existing catalog contains Popover Sandwiches but no hot-popover butter options. Did not infer the drink text from automatic image descriptions.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/delaneysmarket/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/delaneysmarket/",
+              "evidence": "Profile names the same five Massachusetts locations as delaneysmarket.com and links to that website."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Hot popovers with a choice of maple bacon, strawberry, or apple cinnamon butter, in addition to savory stuffed popovers. Proposed hot-popover entry with butter choices; generic Popover Sandwiches already exists.",
+              "url": "https://www.instagram.com/delaneysmarket/reel/DdUu84VxgCx/",
+              "kind": "new-item",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-15",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "itemName": "Hot Popovers with Flavored Butter",
+              "options": [
+                "Maple bacon butter",
+                "Strawberry butter",
+                "Apple cinnamon butter"
+              ]
+            },
+            {
+              "detail": "Vendor directs fairgoers to the Massachusetts Building.",
+              "url": "https://www.instagram.com/delaneysmarket/reel/DdUu84VxgCx/",
+              "kind": "location",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-15",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dingle-distillery",
+      "name": "Dingle Distillery",
+      "items": [
+        {
+          "id": "dingle-distillery-whiskey",
+          "name": "Whiskey"
+        },
+        {
+          "id": "dingle-distillery-cocktails",
+          "name": "Cocktails"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "fields-fields-blueberries",
+      "name": "Fields Fields Blueberries",
+      "items": [
+        {
+          "id": "fields-fields-wild-blueberry-crisp",
+          "name": "Wild Blueberry Crisp"
+        },
+        {
+          "id": "fields-fields-blueberry-leaf-tea",
+          "name": "Blueberry Leaf Tea"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "friskie-fries",
+      "name": "Friskie Fries",
+      "items": [
+        {
+          "id": "friskie-fries-creative-fries",
+          "name": "Creative Fries"
+        },
+        {
+          "id": "friskie-fries-rhode-island-style-calamari",
+          "name": "Rhode Island-style Calamari"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "friskie-fries",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Friskie Fries\" instagram"
+          ],
+          "notes": "Scanned 12 public entries and read two September 18 captions. One concerns Roger Williams Park Zoo, so excluded. Big E caption confirms calamari; full catalog search found no calamari entry. Generic Creative Fries should not be treated as this distinct food.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/friskiefries/",
+              "verified": true,
+              "evidenceUrl": "https://www.friskiefries.com/",
+              "evidence": "Vendor homepage displays @friskiefries; public profile links back to the same website."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Rhode Island-style calamari is explicitly advertised as the Big E special. No price or detailed ingredients supplied.",
+              "url": "https://www.instagram.com/friskiefries/p/DdbwANtjM56/",
+              "kind": "new-item",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-18",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "itemName": "Rhode Island-style Calamari"
+            },
+            {
+              "detail": "Rhode Island Building on Avenue of the States; September 18 caption advertises 10 a.m.–9 p.m. Do not assume unchanged daily hours without further evidence.",
+              "url": "https://www.instagram.com/friskiefries/p/DdbwANtjM56/",
+              "kind": "location",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-18",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main-street-deli",
+      "name": "Main Street Deli",
+      "items": [
+        {
+          "id": "main-street-deli-pilgrim-sandwich",
+          "name": "Pilgrim Sandwich"
+        },
+        {
+          "id": "main-street-deli-thanksgiving-bowl",
+          "name": "Thanksgiving Bowl"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "maine-aquaculture-association",
+      "name": "Maine Aquaculture Association",
+      "items": [
+        {
+          "id": "maine-aquaculture-smoked-salmon-on-a-stick",
+          "name": "Smoked Salmon on a Stick"
+        },
+        {
+          "id": "maine-aquaculture-captn-elis-root-beer",
+          "name": "Capt’n Eli’s Root Beer"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "millies-pierogi",
+      "name": "Millie’s Pierogi",
+      "items": [
+        {
+          "id": "millie-s-pierogi-millie-s-masterpiece",
+          "name": "Millie’s Masterpiece"
+        },
+        {
+          "id": "millie-s-pierogi-pierogi",
+          "name": "Pierogi"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "new-england-ciders",
+      "name": "New England Ciders",
+      "items": [
+        {
+          "id": "new-england-ciders-hard-cider",
+          "name": "Hard Cider"
+        },
+        {
+          "id": "new-england-ciders-big-e-cream-puff-cider",
+          "name": "Big E Cream Puff Cider"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "pickle-barrel",
+      "name": "Pickle Barrel",
+      "items": [
+        {
+          "id": "pickle-barrel-pickles",
+          "name": "Pickles"
+        },
+        {
+          "id": "pickle-barrel-apple-cider",
+          "name": "Apple Cider"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "pickle-barrel-sirloin-tips",
+      "name": "Pickle Barrel Sirloin Tips",
+      "items": [
+        {
+          "id": "pickle-barrel-sirloin-tips-sirloin-tips",
+          "name": "Sirloin Tips"
+        },
+        {
+          "id": "pickle-barrel-sirloin-tips-sirloin-pita",
+          "name": "Sirloin Pita"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "pioneer-valley-poppers",
+      "name": "Pioneer Valley Poppers",
+      "items": [
+        {
+          "id": "pioneer-valley-poppers-kettle-corn",
+          "name": "Kettle Corn"
+        },
+        {
+          "id": "pioneer-valley-poppers-lemonade",
+          "name": "Lemonade"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "poppies-fresh-onion-rings",
+      "name": "Poppie’s Fresh Onion Rings",
+      "items": [
+        {
+          "id": "poppies-green-tea-refresher",
+          "name": "Green Tea Refresher"
+        },
+        {
+          "id": "poppies-lemonade-refresher",
+          "name": "Lemonade Refresher"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "qp-burger-food-truck",
+      "name": "QP Burger Food Truck",
+      "items": [
+        {
+          "id": "qp-burger-food-truck-burger",
+          "name": "Burger"
+        },
+        {
+          "id": "qp-burger-food-truck-hot-dog",
+          "name": "Hot Dog"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "rhode-island-building",
+      "name": "Rhode Island Building",
+      "items": [
+        {
+          "id": "rhode-island-building-quahogs",
+          "name": "Quahogs"
+        },
+        {
+          "id": "rhode-island-building-chowder-in-a-bread-bowl",
+          "name": "Chowder in a Bread Bowl"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "sangria-shack",
+      "name": "Sangria Shack",
+      "items": [
+        {
+          "id": "sangria-shack-sangria-buckets",
+          "name": "Sangria Buckets"
+        },
+        {
+          "id": "sangria-shack-sun-cruiser-buckets",
+          "name": "Sun Cruiser Buckets"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "storrowton-tavern-carriage-house",
+      "name": "Storrowton Tavern & Carriage House",
+      "items": [
+        {
+          "id": "storrowton-tavern-and-carriage-house-ice-cream-cake-ball",
+          "name": "Ice Cream Cake Ball"
+        },
+        {
+          "id": "storrowton-tavern-and-carriage-house-dessert-ball",
+          "name": "Dessert Ball"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "sweet-babu-s",
+      "name": "Sweet Babu's",
+      "items": [
+        {
+          "id": "sweet-babus-gluten-free-granola",
+          "name": "Gluten-free Granola"
+        },
+        {
+          "id": "sweet-babus-maple-roasted-nuts",
+          "name": "Maple Roasted Nuts"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-big-fizz-e",
+      "name": "The Big Fizz E",
+      "items": [
+        {
+          "id": "the-big-fizz-e-dirty-sodas",
+          "name": "Dirty Sodas"
+        },
+        {
+          "id": "the-big-fizz-e-frozen-sodas",
+          "name": "Frozen Sodas"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-wine-loft",
+      "name": "The Wine Loft",
+      "items": [
+        {
+          "id": "the-wine-loft-charcuterie-boards",
+          "name": "Charcuterie Boards"
+        },
+        {
+          "id": "the-wine-loft-wine-flights",
+          "name": "Wine Flights"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "turkey-legs",
+      "name": "Turkey Legs",
+      "items": [
+        {
+          "id": "turkey-legs-turkey-legs",
+          "name": "Turkey Legs"
+        },
+        {
+          "id": "turkey-legs-shish-kabobs",
+          "name": "Shish-Kabobs"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "vermont-marshmallow-company",
+      "name": "Vermont Marshmallow Company",
+      "items": [
+        {
+          "id": "vermont-marshmallow-company-smored-oreo",
+          "name": "S’mored Oreo"
+        },
+        {
+          "id": "vermont-marshmallow-company-s-macaron",
+          "name": "S’Macaron"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "all-american-craft-beer-bar-grill",
+      "name": "All American Craft Beer Bar & Grill",
+      "items": [
+        {
+          "id": "all-american-stinger-cheeseburger",
+          "name": "The Stinger Cheeseburger"
+        },
+        {
+          "id": "all-american-craft-beer-bar-and-grill-specialty-sliders",
+          "name": "Specialty Sliders"
+        },
+        {
+          "id": "all-american-craft-beer-bar-and-grill-craft-beer",
+          "name": "Craft Beer"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "ann-maries-candies",
+      "name": "Ann Marie’s Candies",
+      "items": [
+        {
+          "id": "ann-marie-s-candies-candies",
+          "name": "Candies"
+        },
+        {
+          "id": "ann-marie-s-candies-fudge",
+          "name": "Fudge"
+        },
+        {
+          "id": "ann-marie-s-candies-nuts",
+          "name": "Nuts"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "bears-smokehouse",
+      "name": "Bear’s Smokehouse",
+      "items": [
+        {
+          "id": "bear-s-smokehouse-bbq",
+          "name": "BBQ"
+        },
+        {
+          "id": "bears-smokehouse-bucket-of-moinks",
+          "name": "Bucket of Moinks"
+        },
+        {
+          "id": "bears-smokehouse-bear-necessit-e-sandwich",
+          "name": "Bear Necessit-E Sandwich"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "bears-smokehouse",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Bear’s Smokehouse\" \"Big E\" instagram"
+          ],
+          "notes": "Verified account, scanned 12 visible entries, then read vendor captions on September 17 and 18 Big E posts. Compared named foods against the entire catalog; only generic BBQ exists for this vendor.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/bearssmokehouse/",
+              "verified": true,
+              "evidenceUrl": "https://bearsbbq.com/",
+              "evidence": "Linked directly from the vendor website."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Bucket of Moinks: 16 pieces for $25 in a souvenir bucket, while supplies last. Proposed new item; catalog currently lists only BBQ.",
+              "url": "https://www.instagram.com/bearssmokehouse/p/DdZ3QdOR-Dq/",
+              "kind": "new-item",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-17",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "itemName": "Bucket of Moinks",
+              "priceUSD": 25,
+              "quantity": 16
+            },
+            {
+              "detail": "Bear Necessit-E sandwich explicitly offered at the fair; absent from catalog. Ingredients and price not confirmed by this caption.",
+              "url": "https://www.instagram.com/bearssmokehouse/p/DdbbxEexE89/",
+              "kind": "new-item",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-18",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "itemName": "Bear Necessit-E Sandwich"
+            },
+            {
+              "detail": "Vendor says it is outside the Connecticut Building, serving daily 10 a.m.–9 p.m. at the fair.",
+              "url": "https://www.instagram.com/bearssmokehouse/p/DdbbxEexE89/",
+              "kind": "location",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-18",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boardwok-noodles",
+      "name": "Boardwok Noodles",
+      "items": [
+        {
+          "id": "boardwok-noodles-noodle-bowls",
+          "name": "Noodle Bowls"
+        },
+        {
+          "id": "boardwok-noodles-rice-bowls",
+          "name": "Rice Bowls"
+        },
+        {
+          "id": "boardwok-noodles-teriyaki",
+          "name": "Teriyaki"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "bunis-bakery",
+      "name": "Buni’s Bakery",
+      "items": [
+        {
+          "id": "bunis-apple-crumble-cinnamon-roll",
+          "name": "Apple Crumble Cinnamon Roll"
+        },
+        {
+          "id": "buni-s-cinnamon-rolls-gourmet-cinnamon-rolls",
+          "name": "Gourmet Cinnamon Rolls"
+        },
+        {
+          "id": "buni-s-cinnamon-rolls-cinnamon-roll-sundaes",
+          "name": "Cinnamon Roll Sundaes"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "chans-original-chicken-on-a-stick",
+      "name": "Chan’s Original Chicken-on-a-Stick",
+      "items": [
+        {
+          "id": "chan-s-original-chicken-on-a-stick-chicken-on-a-stick",
+          "name": "Chicken-on-a-Stick"
+        },
+        {
+          "id": "chan-s-original-chicken-on-a-stick-noodles",
+          "name": "Noodles"
+        },
+        {
+          "id": "chan-s-original-chicken-on-a-stick-egg-rolls",
+          "name": "Egg Rolls"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "chocolate-moonshine",
+      "name": "Chocolate Moonshine",
+      "items": [
+        {
+          "id": "chocolate-moonshine-chocolate-covered-pickles",
+          "name": "Chocolate-covered Pickles"
+        },
+        {
+          "id": "chocolate-moonshine-candy-lollipops",
+          "name": "Candy Lollipops"
+        },
+        {
+          "id": "chocolate-moonshine-co-specialty-chocolates",
+          "name": "Specialty Chocolates"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "clemenzas-italian-street-food",
+      "name": "Clemenza’s Italian Street Food",
+      "items": [
+        {
+          "id": "clemenza-s-italian-street-food-arancini-balls",
+          "name": "Arancini Balls"
+        },
+        {
+          "id": "clemenza-s-italian-street-food-pasta",
+          "name": "Pasta"
+        },
+        {
+          "id": "clemenza-s-italian-street-food-garlic-knots",
+          "name": "Garlic Knots"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "deep-fried-calzones",
+      "name": "Deep-fried Calzones",
+      "items": [
+        {
+          "id": "deep-fried-calzones",
+          "name": "Deep-fried Calzones"
+        },
+        {
+          "id": "deep-fried-calzones-cheese-calzones",
+          "name": "Cheese Calzones"
+        },
+        {
+          "id": "deep-fried-calzones-meatball-parm-calzones",
+          "name": "Meatball Parm Calzones"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "downeast-cider-garden",
+      "name": "Downeast Cider Garden",
+      "items": [
+        {
+          "id": "downeast-cream-puff-cider",
+          "name": "Cream Puff"
+        },
+        {
+          "id": "downeast-cider-hard-ciders",
+          "name": "Hard Ciders"
+        },
+        {
+          "id": "downeast-cider-garden-apple-pie-cider",
+          "name": "Apple Pie Cider"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "fried-factory",
+      "name": "Fried Factory",
+      "items": [
+        {
+          "id": "fried-factory-blooming-onion",
+          "name": "Blooming Onion"
+        },
+        {
+          "id": "fried-factory-chicken-strips-and-fries-buckets",
+          "name": "Chicken Strips and Fries Buckets"
+        },
+        {
+          "id": "fried-factory-spiral-spuds",
+          "name": "Spiral Spuds"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "jungle-juice-smoothies",
+      "name": "Jungle Juice Smoothies",
+      "items": [
+        {
+          "id": "jungle-juice-smoothies-tie-dye-smoothie",
+          "name": "Tie-Dye Smoothie"
+        },
+        {
+          "id": "jungle-juice-smoothies-berry-jalapeno-smoothie",
+          "name": "Berry-Jalapeno Smoothie"
+        },
+        {
+          "id": "jungle-juice-smoothies-frozen-cheesecake",
+          "name": "Frozen Cheesecake"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "ks-japanese-restaurant-food-court",
+      "name": "K’s Japanese Restaurant Food Court",
+      "items": [
+        {
+          "id": "ks-japanese-deep-fried-sushi",
+          "name": "Deep-Fried Sushi"
+        },
+        {
+          "id": "ks-japanese-spicy-tuna-roll-push-up-sushi-pop",
+          "name": "Spicy Tuna Roll Push-Up Sushi Pop"
+        },
+        {
+          "id": "ks-japanese-california-roll-push-up-sushi-pop",
+          "name": "California Roll Push-Up Sushi Pop"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "luanns-bakery",
+      "name": "LuAnn’s Bakery",
+      "items": [
+        {
+          "id": "luanns-build-your-own-brownie-bar",
+          "name": "Build-Your-Own Brownie Bar"
+        },
+        {
+          "id": "luann-s-bakery-specialty-cupcakes",
+          "name": "Specialty Cupcakes"
+        },
+        {
+          "id": "luann-s-bakery-bucket-cakes",
+          "name": "Bucket Cakes"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "massachusetts-building",
+      "name": "Massachusetts Building",
+      "items": [
+        {
+          "id": "massachusetts-building-lobster-rolls",
+          "name": "Lobster Rolls"
+        },
+        {
+          "id": "massachusetts-building-whoopie-pies",
+          "name": "Whoopie Pies"
+        },
+        {
+          "id": "massachusetts-building-cider-doughnuts",
+          "name": "Cider Doughnuts"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "mojito-bar",
+      "name": "Mojito Bar",
+      "items": [
+        {
+          "id": "mojito-bar-giant-mojitos",
+          "name": "Giant Mojitos"
+        },
+        {
+          "id": "mojito-bar-giant-margaritas",
+          "name": "Giant Margaritas"
+        },
+        {
+          "id": "mojito-bar-rum-buckets",
+          "name": "Rum Buckets"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "moose-joose-slush",
+      "name": "Moose Joose Slush",
+      "items": [
+        {
+          "id": "moose-joose-fall-in-a-cup",
+          "name": "Fall in a Cup"
+        },
+        {
+          "id": "moose-joose-strawberry-cheesecake-slush",
+          "name": "Strawberry Cheesecake Slush"
+        },
+        {
+          "id": "moose-joose-summerween",
+          "name": "Summerween"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "new-hampshire-building",
+      "name": "New Hampshire Building",
+      "items": [
+        {
+          "id": "new-hampshire-building-apple-nachos",
+          "name": "Apple Nachos"
+        },
+        {
+          "id": "new-hampshire-building-lobster-mac-and-cheese",
+          "name": "Lobster Mac & Cheese"
+        },
+        {
+          "id": "new-hampshire-building-maple-cotton-candy",
+          "name": "Maple Cotton Candy"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "ny-style-pizza",
+      "name": "NY Style Pizza",
+      "items": [
+        {
+          "id": "ny-style-pizza-hot-honey-chicken-pizza",
+          "name": "Hot Honey Chicken Pizza"
+        },
+        {
+          "id": "ny-style-pizza-pizza-slices",
+          "name": "Pizza Slices"
+        },
+        {
+          "id": "ny-style-pizza-pickle-pizza",
+          "name": "Pickle Pizza"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "penalty-box-pub",
+      "name": "Penalty Box Pub",
+      "items": [
+        {
+          "id": "penalty-box-pub-frozen-cocktails",
+          "name": "Frozen Cocktails"
+        },
+        {
+          "id": "penalty-box-pub-beer",
+          "name": "Beer"
+        },
+        {
+          "id": "penalty-box-pub-hard-seltzer",
+          "name": "Hard Seltzer"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "roasted-corn-in-a-cup",
+      "name": "Roasted Corn in a Cup",
+      "items": [
+        {
+          "id": "roasted-corn-in-a-cup-flamin-hot-cheetos-corn",
+          "name": "Flamin’ Hot Cheetos Corn"
+        },
+        {
+          "id": "roasted-corn-in-a-cup-parmesan-corn",
+          "name": "Parmesan Corn"
+        },
+        {
+          "id": "roasted-corn-in-a-cup-mexican-style-corn",
+          "name": "Mexican Style Corn"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "rudys-pizza",
+      "name": "Rudy’s Pizza",
+      "items": [
+        {
+          "id": "rudys-baked-potato-pizza",
+          "name": "Baked Potato Pizza"
+        },
+        {
+          "id": "rudy-s-pizza-flaming-hot-cheeto-pickle-pizza",
+          "name": "Flaming Hot Cheeto Pickle Pizza"
+        },
+        {
+          "id": "rudys-pizza-pizza",
+          "name": "Pizza"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "sassys-sweet-potatoes",
+      "name": "Sassy’s Sweet Potatoes",
+      "items": [
+        {
+          "id": "sassy-s-sweet-potatoes-loaded-potatoes",
+          "name": "Loaded Potatoes"
+        },
+        {
+          "id": "sassy-s-sweet-potatoes-mac-and-cheese-potatoes",
+          "name": "Mac & Cheese Potatoes"
+        },
+        {
+          "id": "sassy-s-sweet-potatoes-s-mores-potatoes",
+          "name": "S’mores Potatoes"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "steaming-tender",
+      "name": "Steaming Tender",
+      "items": [
+        {
+          "id": "steaming-tender-smores-whiskey-bread-pudding",
+          "name": "S’mores Whiskey Bread Pudding"
+        },
+        {
+          "id": "steaming-tender-bread-pudding",
+          "name": "Bread Pudding"
+        },
+        {
+          "id": "steaming-tender-whiskey-bread-pudding",
+          "name": "Whiskey Bread Pudding"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "stellas-milk-cookies",
+      "name": "Stella’s Milk & Cookies",
+      "items": [
+        {
+          "id": "stella-s-milk-and-cookies-homemade-chocolate-chip-cookies",
+          "name": "Homemade Chocolate Chip Cookies"
+        },
+        {
+          "id": "stella-s-milk-and-cookies-milk",
+          "name": "Milk"
+        },
+        {
+          "id": "stellas-milk-and-cookies-muffin-tops",
+          "name": "Muffin Tops"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "super-dog",
+      "name": "Super Dog",
+      "items": [
+        {
+          "id": "super-dog-6-inch-dog-on-a-stick",
+          "name": "6-inch Dog-on-a-Stick"
+        },
+        {
+          "id": "super-dog-12-inch-super-dog",
+          "name": "12-inch Super Dog"
+        },
+        {
+          "id": "super-dog-18-inch-mega-dog",
+          "name": "18-inch Mega Dog"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-big-e-bakery",
+      "name": "The Big E Bakery",
+      "items": [
+        {
+          "id": "big-e-bakery-peanut-butter-cream-puff",
+          "name": "Peanut Butter Cream Puff"
+        },
+        {
+          "id": "big-e-cream-puff-bakery-big-e-cream-puff",
+          "name": "Big E Cream Puff"
+        },
+        {
+          "id": "big-e-cream-puff-bakery-big-e-clair",
+          "name": "Big E-clair"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-cantina",
+      "name": "The Cantina",
+      "items": [
+        {
+          "id": "the-cantina-margarita-topped-with-cotton-candy",
+          "name": "Margarita topped with Cotton Candy"
+        },
+        {
+          "id": "the-cantina-margaritas",
+          "name": "Margaritas"
+        },
+        {
+          "id": "the-cantina-sangria",
+          "name": "Sangria"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-emporium",
+      "name": "The Emporium",
+      "items": [
+        {
+          "id": "the-emporium-craz-e-burger",
+          "name": "Craz-E Burger"
+        },
+        {
+          "id": "the-emporium-insanit-e-burger",
+          "name": "Insanit-E Burger"
+        },
+        {
+          "id": "the-emporium-spic-e-burger",
+          "name": "Spic-E Burger"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-mick",
+      "name": "The Mick",
+      "items": [
+        {
+          "id": "the-mick-alfredo-pasta-bomb",
+          "name": "The Alfredo Pasta Bomb"
+        },
+        {
+          "id": "the-mick-craft-beer",
+          "name": "Craft Beer"
+        },
+        {
+          "id": "the-mick-hard-cider",
+          "name": "Hard Cider"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "top-the-crust",
+      "name": "Top The Crust",
+      "items": [
+        {
+          "id": "top-the-crust-pizza",
+          "name": "Pizza"
+        },
+        {
+          "id": "top-the-crust-dessert-pizza",
+          "name": "Dessert Pizza"
+        },
+        {
+          "id": "top-the-crust-candy-bar-pizza",
+          "name": "Candy Bar Pizza"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "wild-bills-curly-fries",
+      "name": "Wild Bill’s Curly Fries",
+      "items": [
+        {
+          "id": "wild-bill-s-curly-fries-chicken-tenders",
+          "name": "Chicken Tenders"
+        },
+        {
+          "id": "wild-bill-s-curly-fries-foot-long-corn-dogs",
+          "name": "Foot-Long Corn Dogs"
+        },
+        {
+          "id": "wild-bill-s-curly-fries-curly-fries",
+          "name": "Curly Fries"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "wisconsin-hot-cheese",
+      "name": "Wisconsin Hot Cheese",
+      "items": [
+        {
+          "id": "wisconsin-hot-cheese-monster-mozzarella",
+          "name": "Monster Mozzarella"
+        },
+        {
+          "id": "wisconsin-hot-cheese-cheddar-nuggets",
+          "name": "Cheddar Nuggets"
+        },
+        {
+          "id": "wisconsin-hot-cheese-mozzarella-fingers",
+          "name": "Mozzarella Fingers"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "amys-sweet-treats",
+      "name": "Amy’s Sweet Treats",
+      "items": [
+        {
+          "id": "amy-s-sweet-treats-crazy-milkshakes",
+          "name": "Crazy Milkshakes"
+        },
+        {
+          "id": "amy-s-sweet-treats-hot-honey-sundae",
+          "name": "Hot Honey Sundae"
+        },
+        {
+          "id": "amys-sweet-treats-ice-cream",
+          "name": "Ice Cream"
+        },
+        {
+          "id": "amys-sweet-treats-pickle-sundae",
+          "name": "Pickle Sundae"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "angelas-pizza",
+      "name": "Angela’s Pizza",
+      "items": [
+        {
+          "id": "angela-s-pizza-giant-mozzarella-stick",
+          "name": "Giant Mozzarella Stick"
+        },
+        {
+          "id": "angela-s-pizza-pickle-pizza",
+          "name": "Pickle Pizza"
+        },
+        {
+          "id": "angela-s-pizza-mexican-street-corn-pizza",
+          "name": "Mexican Street Corn Pizza"
+        },
+        {
+          "id": "angelas-pizza-normal-pizza",
+          "name": "Normal Pizza"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "annas-fried-dough",
+      "name": "Anna’s Fried Dough",
+      "items": [
+        {
+          "id": "anna-s-fried-dough-fried-dough",
+          "name": "Fried Dough"
+        },
+        {
+          "id": "anna-s-fried-dough-doughco",
+          "name": "Doughco"
+        },
+        {
+          "id": "anna-s-fried-dough-fried-dough-bites",
+          "name": "Fried Dough Bites"
+        },
+        {
+          "id": "annas-fried-dough-sloppy-dough",
+          "name": "Sloppy Dough"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "big-kahunas",
+      "name": "Big Kahuna’s",
+      "items": [
+        {
+          "id": "big-kahunas-fried-feta-cheese-cubes",
+          "name": "Fried Feta Cheese Cubes"
+        },
+        {
+          "id": "big-kahuna-s-gyros",
+          "name": "Gyros"
+        },
+        {
+          "id": "big-kahuna-s-dorito-gyro",
+          "name": "Dorito Gyro"
+        },
+        {
+          "id": "big-kahuna-s-falafel",
+          "name": "Falafel"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "broccoli-bar",
+      "name": "Broccoli Bar",
+      "items": [
+        {
+          "id": "broccoli-bar-broccarita",
+          "name": "The Broccarita"
+        },
+        {
+          "id": "the-broccoli-bar-tempura",
+          "name": "Tempura"
+        },
+        {
+          "id": "the-broccoli-bar-dumplings",
+          "name": "Dumplings"
+        },
+        {
+          "id": "the-broccoli-bar-big-sexy-platter",
+          "name": "Big Sexy Platter"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "cannoli-king",
+      "name": "Cannoli King",
+      "items": [
+        {
+          "id": "cannoli-king-cannoli-dip",
+          "name": "Cannoli Dip"
+        },
+        {
+          "id": "cannoli-king-cannoli-donut",
+          "name": "Cannoli Donut"
+        },
+        {
+          "id": "cannoli-king-cannoli-cake-bomb",
+          "name": "Cannoli Cake Bomb"
+        },
+        {
+          "id": "cannoli-king-cannoli",
+          "name": "Cannoli"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "captain-nemos",
+      "name": "Captain Nemo’s",
+      "items": [
+        {
+          "id": "captain-nemos-savory-snack-wrap",
+          "name": "Nemo’s Savory Snack Wrap"
+        },
+        {
+          "id": "captain-nemo-s-hot-diggid-e-dog",
+          "name": "Hot Diggid-E Dog"
+        },
+        {
+          "id": "captain-nemo-s-sundae-supper-keg-tots",
+          "name": "Sundae Supper Keg Tots"
+        },
+        {
+          "id": "captain-nemo-s-pot-roast-patty-melt",
+          "name": "Pot Roast Patty Melt"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "dribbles",
+      "name": "Dribbles",
+      "items": [
+        {
+          "id": "dribbles-mini-pancakes",
+          "name": "Mini Pancakes"
+        },
+        {
+          "id": "dribbles-coffee",
+          "name": "Coffee"
+        },
+        {
+          "id": "dribbles-mini-doughnuts-with-sauces",
+          "name": "Mini Doughnuts with Sauces"
+        },
+        {
+          "id": "dribbles-sweet-crepes",
+          "name": "Sweet Crepes"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "giant-corn-dog-factory",
+      "name": "Giant Corn Dog Factory",
+      "items": [
+        {
+          "id": "giant-corn-dog-factory-dilly-dilly-dog",
+          "name": "Dilly Dilly Dog"
+        },
+        {
+          "id": "giant-corn-dog-factory-giant-corn-dogs",
+          "name": "Giant Corn Dogs"
+        },
+        {
+          "id": "giant-corn-dog-factory-korean-dog",
+          "name": "Korean Dog"
+        },
+        {
+          "id": "giant-corn-dog-factory-elote-corn-dog",
+          "name": "Elote Corn Dog"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "granville-country-store",
+      "name": "Granville Country Store",
+      "items": [
+        {
+          "id": "granville-mac-n-cheese-bread-bowl",
+          "name": "Mac ‘n Cheese Bread Bowl"
+        },
+        {
+          "id": "granville-kansas-city-potato",
+          "name": "Kansas City Potato"
+        },
+        {
+          "id": "granville-country-store-mac-melt",
+          "name": "Mac Melt"
+        },
+        {
+          "id": "granville-country-store-mac-and-cheese",
+          "name": "Mac & Cheese"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "mclaughlin-family-homemade-ice-cream",
+      "name": "McLaughlin Family Homemade Ice Cream",
+      "items": [
+        {
+          "id": "mclaughlin-maine-blueberry-ice-cream",
+          "name": "Maine Blueberry"
+        },
+        {
+          "id": "mclaughlin-sea-salt-caramel-ice-cream",
+          "name": "Sea Salt Caramel"
+        },
+        {
+          "id": "mclaughlin-pumpkin-chocolate-chip-ice-cream",
+          "name": "Pumpkin Chocolate Chip"
+        },
+        {
+          "id": "mclaughlin-chocolate-coconut-ice-cream",
+          "name": "Chocolate Coconut"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "soup-r-bowl",
+      "name": "Soup-R Bowl",
+      "items": [
+        {
+          "id": "soup-r-bowl-soups",
+          "name": "Soups"
+        },
+        {
+          "id": "soup-r-bowl-chili",
+          "name": "Chili"
+        },
+        {
+          "id": "soup-r-bowl-bread-bowls",
+          "name": "Bread Bowls"
+        },
+        {
+          "id": "soup-r-bowl-maple-marshmallow-drizzled-sweet-potato-fries",
+          "name": "Maple Marshmallow Drizzled Sweet Potato Fries"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-italian-pavillion",
+      "name": "The Italian Pavillion",
+      "items": [
+        {
+          "id": "italian-pavillion-arancini",
+          "name": "Arancini"
+        },
+        {
+          "id": "italian-pavillion-gnocchi-and-tortellini",
+          "name": "Gnocchi and Tortellini"
+        },
+        {
+          "id": "italian-pavillion-garlic-knots",
+          "name": "Garlic Knots"
+        },
+        {
+          "id": "italian-pavillion-gelato",
+          "name": "Gelato"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-nook",
+      "name": "The Nook",
+      "items": [
+        {
+          "id": "the-nook-strawberry-dubai-cup",
+          "name": "Strawberry Dubai Cup"
+        },
+        {
+          "id": "the-nook-chocolate-covered-strawberries",
+          "name": "Chocolate-Covered Strawberries"
+        },
+        {
+          "id": "the-nook-chocolate-dipped-treats",
+          "name": "Chocolate-Dipped Treats"
+        },
+        {
+          "id": "the-nook-smashed-potato",
+          "name": "Smashed Potato"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "valley-view-orchard-pies",
+      "name": "Valley View Orchard Pies",
+      "items": [
+        {
+          "id": "valley-view-orchard-pies-whoopie-pies",
+          "name": "Whoopie Pies"
+        },
+        {
+          "id": "valley-view-orchard-pies-blueberry-pie",
+          "name": "Blueberry Pie"
+        },
+        {
+          "id": "valley-view-orchard-pies-blueberry-crisp",
+          "name": "Blueberry Crisp"
+        },
+        {
+          "id": "valley-view-orchard-pies-frozen-drinks",
+          "name": "Frozen Drinks"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "w-a-v-e-mocktail-bar",
+      "name": "W.A.V.E. Mocktail Bar",
+      "items": [
+        {
+          "id": "wave-caramel-apple-mocktail",
+          "name": "Caramel Apple Mocktail"
+        },
+        {
+          "id": "w-a-v-e-mocktails-swamp-water-mocktail",
+          "name": "Swamp Water Mocktail"
+        },
+        {
+          "id": "w-a-v-e-mocktails-shark-attack-mocktail",
+          "name": "Shark Attack Mocktail"
+        },
+        {
+          "id": "w-a-v-e-mocktail-bar-mocktails",
+          "name": "Mocktails"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "wings-n-fries",
+      "name": "Wings-N-Fries",
+      "items": [
+        {
+          "id": "wings-n-fries-buffalo-chicken-eggroll",
+          "name": "Buffalo Chicken Eggroll"
+        },
+        {
+          "id": "wings-n-fries-chicken-waffle-on-a-stick",
+          "name": "Chicken Waffle on a Stick"
+        },
+        {
+          "id": "wings-n-fries-poutine",
+          "name": "Poutine"
+        },
+        {
+          "id": "wings-n-fries-roasted-corn-on-the-cob",
+          "name": "Roasted Corn on the Cob"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "boricua-bites",
+      "name": "Boricua Bites",
+      "items": [
+        {
+          "id": "boricua-xl-empanada-cheesy-dog",
+          "name": "XL Empanada Cheesy Dog"
+        },
+        {
+          "id": "boricua-bites-cheese-dog",
+          "name": "Cheese Dog"
+        },
+        {
+          "id": "boricua-bites-bacalaito",
+          "name": "Bacalaito"
+        },
+        {
+          "id": "boricua-bites-plantain-baskets",
+          "name": "Plantain Baskets"
+        },
+        {
+          "id": "boricua-bites-puerto-rican-foods",
+          "name": "Puerto Rican Foods"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "chompers",
+      "name": "Chompers",
+      "items": [
+        {
+          "id": "chompers-chicken-pot-pie-chompers",
+          "name": "Chicken Pot Pie Chompers"
+        },
+        {
+          "id": "chompers-bacon-cheeseburger-croquette",
+          "name": "Bacon Cheeseburger Croquette"
+        },
+        {
+          "id": "chompers-chicken-parm-croquette",
+          "name": "Chicken Parm Croquette"
+        },
+        {
+          "id": "chompers-taco-croquette",
+          "name": "Taco Croquette"
+        },
+        {
+          "id": "chompers-vegetarian-potato-and-corn-croquette",
+          "name": "Vegetarian Potato & Corn Croquette"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "delucas",
+      "name": "Deluca’s",
+      "items": [
+        {
+          "id": "deluca-s-caramel-apple-sundae",
+          "name": "Caramel Apple Sundae"
+        },
+        {
+          "id": "deluca-s-chicken-parm-sandwich",
+          "name": "Chicken Parm Sandwich"
+        },
+        {
+          "id": "deluca-s-deep-fried-meatballs-on-a-stick",
+          "name": "Deep-fried Meatballs on a Stick"
+        },
+        {
+          "id": "deluca-s-toasted-garlic-bread-bowl",
+          "name": "Toasted Garlic Bread Bowl"
+        },
+        {
+          "id": "deluca-s-deep-fried-ice-cream-sandwich",
+          "name": "Deep-Fried Ice Cream Sandwich"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "dr-vegetable",
+      "name": "Dr. Vegetable",
+      "items": [
+        {
+          "id": "dr-vegetable-nashville-hot-pickles",
+          "name": "Nashville Hot Pickles"
+        },
+        {
+          "id": "dr-vegetable-corn-dogs",
+          "name": "Corn Dogs"
+        },
+        {
+          "id": "dr-vegetable-fried-veggies",
+          "name": "Fried Veggies"
+        },
+        {
+          "id": "dr-vegetable-onion-rings",
+          "name": "Onion Rings"
+        },
+        {
+          "id": "dr-vegetable-mozzarella-sticks",
+          "name": "Mozzarella Sticks"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "e-b-s",
+      "name": "E.B.’s",
+      "items": [
+        {
+          "id": "ebs-fried-turkey-dinner",
+          "name": "Everything-but-the-football-game Fried Turkey Dinner"
+        },
+        {
+          "id": "eb-s-food-for-fun-fried-shepherd-s-pie",
+          "name": "Fried Shepherd’s Pie"
+        },
+        {
+          "id": "eb-s-food-for-fun-fried-mac-and-cheese",
+          "name": "Fried Mac & Cheese"
+        },
+        {
+          "id": "eb-s-food-for-fun-fried-thanksgiving-dinner",
+          "name": "Fried Thanksgiving Dinner"
+        },
+        {
+          "id": "e-b-s-fried-bacon-mac-and-cheese",
+          "name": "Fried Bacon Mac & Cheese"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "ferrindino-maple",
+      "name": "Ferrindino Maple",
+      "items": [
+        {
+          "id": "ferrindino-maple-creemee-bacon-waffle",
+          "name": "Maple Creemee Bacon Waffle"
+        },
+        {
+          "id": "ferrindino-maple-ferrindino-maple-bacon-hot-dog",
+          "name": "Ferrindino Maple Bacon Hot Dog"
+        },
+        {
+          "id": "ferrindino-maple-maple-creemee-sundae",
+          "name": "Maple Creemee Sundae"
+        },
+        {
+          "id": "ferrindino-maple-maple-creemee-latte",
+          "name": "Maple Creemee Latte"
+        },
+        {
+          "id": "ferrindino-maple-maple-cannoli",
+          "name": "Maple Cannoli"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "fluffys-hand-cut-donuts",
+      "name": "Fluffy’s Hand Cut Donuts",
+      "items": [
+        {
+          "id": "fluffys-cookie-butter-cheesecake-donut",
+          "name": "Cookie Butter Cheesecake Donut"
+        },
+        {
+          "id": "fluffys-samoa-doughnut",
+          "name": "Samoa Doughnut"
+        },
+        {
+          "id": "fluffy-s-hand-cut-donuts-giant-donuts",
+          "name": "Giant Donuts"
+        },
+        {
+          "id": "fluffy-s-hand-cut-donuts-donut-sundaes",
+          "name": "Donut Sundaes"
+        },
+        {
+          "id": "fluffys-hand-cut-donuts-iced-coffee-donut-float",
+          "name": "Iced Coffee Donut Float"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "kora-mila-s-cookie-dough",
+      "name": "Kora & Mila's Cookie Dough",
+      "items": [
+        {
+          "id": "kora-milas-cookie-dough-stick",
+          "name": "Cookie Dough Stick"
+        },
+        {
+          "id": "kora-milas-brandy-old-fashioned-cookie-dough",
+          "name": "Brandy Old Fashioned Cookie Dough"
+        },
+        {
+          "id": "kora-s-cookie-dough-on-a-stick-deep-fried-cookie-dough",
+          "name": "Deep-Fried Cookie Dough"
+        },
+        {
+          "id": "kora-s-cookie-dough-on-a-stick-bacon-berry-cookie-dough",
+          "name": "Bacon Berry Cookie Dough"
+        },
+        {
+          "id": "kora-s-cookie-dough-on-a-stick-deep-fried-cookie-dough-sundae",
+          "name": "Deep-Fried Cookie Dough Sundae"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "macho-taco",
+      "name": "Macho Taco",
+      "items": [
+        {
+          "id": "macho-taco-birria-bomb",
+          "name": "Birria Bomb"
+        },
+        {
+          "id": "macho-taco-empanada-tacos",
+          "name": "Empanada Tacos"
+        },
+        {
+          "id": "macho-taco-birria-tacos",
+          "name": "Birria Tacos"
+        },
+        {
+          "id": "macho-taco-al-pastor-tacos",
+          "name": "Al Pastor Tacos"
+        },
+        {
+          "id": "macho-taco-fried-stuffed-pepper",
+          "name": "Fried Stuffed Pepper"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "mackens-sliders",
+      "name": "Mackens Sliders",
+      "items": [
+        {
+          "id": "mackens-sliders-bbq-cowboy-slider",
+          "name": "BBQ Cowboy Slider"
+        },
+        {
+          "id": "mackens-sliders-garlic-bomb-slider",
+          "name": "Garlic Bomb Slider"
+        },
+        {
+          "id": "mackens-sliders-bacon-waffle-slider",
+          "name": "Bacon Waffle Slider"
+        },
+        {
+          "id": "mackens-sliders-vegetarian-caprese-slider",
+          "name": "Vegetarian Caprese Slider"
+        },
+        {
+          "id": "mackens-sliders-french-fries",
+          "name": "French Fries"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "marions-fried-dough",
+      "name": "Marion’s Fried Dough",
+      "items": [
+        {
+          "id": "marion-s-fried-dough-fried-butter",
+          "name": "Fried Butter"
+        },
+        {
+          "id": "marion-s-fried-dough-fried-dough",
+          "name": "Fried Dough"
+        },
+        {
+          "id": "marion-s-fried-dough-fried-oreos",
+          "name": "Fried Oreos"
+        },
+        {
+          "id": "marion-s-fried-dough-fried-kool-aid",
+          "name": "Fried Kool-Aid"
+        },
+        {
+          "id": "marion-s-fried-dough-fried-jelly-beans",
+          "name": "Fried Jelly Beans"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "nola-cajun-kitchen-raw-bar",
+      "name": "NOLA Cajun Kitchen & Raw Bar",
+      "items": [
+        {
+          "id": "nola-cajun-lobster-tail",
+          "name": "Cajun Lobster Tail"
+        },
+        {
+          "id": "nola-crawfish-po-boy",
+          "name": "Crawfish Po’ Boy"
+        },
+        {
+          "id": "nola-hush-puppy-skewers",
+          "name": "Hush Puppy Skewers"
+        },
+        {
+          "id": "nola-cajun-kitchen-and-raw-bar-po-boys",
+          "name": "Po’ Boys"
+        },
+        {
+          "id": "nola-cajun-kitchen-and-raw-bar-chicken-etouffee",
+          "name": "Chicken Etouffee"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "omar-gourmet-coffee",
+      "name": "Omar Gourmet Coffee",
+      "items": [
+        {
+          "id": "omar-gourmet-coffee-coffee",
+          "name": "Coffee"
+        },
+        {
+          "id": "omar-gourmet-coffee-brownie-sundae",
+          "name": "Brownie Sundae"
+        },
+        {
+          "id": "omar-gourmet-coffee-cinnamon-buns",
+          "name": "Cinnamon Buns"
+        },
+        {
+          "id": "omar-gourmet-coffee-cookies",
+          "name": "Cookies"
+        },
+        {
+          "id": "omar-gourmet-coffee-baked-goods",
+          "name": "Baked Goods"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "soulfully",
+      "name": "SoulFully",
+      "items": [
+        {
+          "id": "soulfully-spicy-pbandj-burger",
+          "name": "Spicy PB&J Burger"
+        },
+        {
+          "id": "soulfully-loaded-fries",
+          "name": "Loaded Fries"
+        },
+        {
+          "id": "soulfully-milkshakes",
+          "name": "Milkshakes"
+        },
+        {
+          "id": "soulfully-hot-dogs",
+          "name": "Hot Dogs"
+        },
+        {
+          "id": "soulfully-vegan-sundaes",
+          "name": "Vegan Sundaes"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "sugar-shakers",
+      "name": "Sugar Shakers",
+      "items": [
+        {
+          "id": "sugar-shakers-small-funnel-cake",
+          "name": "Small Funnel Cake"
+        },
+        {
+          "id": "sugar-shakers-deep-fried-whoopie-pie",
+          "name": "Deep-Fried Whoopie Pie"
+        },
+        {
+          "id": "sugar-shakers-funnel-cake",
+          "name": "Funnel Cake"
+        },
+        {
+          "id": "sugar-shakers-giant-eclairs",
+          "name": "Giant Eclairs"
+        },
+        {
+          "id": "sugar-shakers-fried-oreos",
+          "name": "Fried Oreos"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-donut-family",
+      "name": "The Donut Family",
+      "items": [
+        {
+          "id": "donut-family-star-spangled-mini-donuts",
+          "name": "Star-Spangled White Chocolate Raspberry Mini Donuts"
+        },
+        {
+          "id": "donut-family-cinn-a-roll-donuts",
+          "name": "Cinn-a-roll Donuts"
+        },
+        {
+          "id": "donut-family-mini-donuts",
+          "name": "Mini Donuts"
+        },
+        {
+          "id": "donut-family-mochi-mini-donuts",
+          "name": "Mochi Mini Donuts"
+        },
+        {
+          "id": "the-donut-family-donut-buckets",
+          "name": "Donut Buckets"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-hub",
+      "name": "The Hub",
+      "items": [
+        {
+          "id": "the-hub-cheese-dogs",
+          "name": "Cheese Dogs"
+        },
+        {
+          "id": "the-hub-chili-dogs",
+          "name": "Chili Dogs"
+        },
+        {
+          "id": "the-hub-burgers",
+          "name": "Burgers"
+        },
+        {
+          "id": "the-hub-fries",
+          "name": "Fries"
+        },
+        {
+          "id": "the-hub-chicken-tenders",
+          "name": "Chicken Tenders"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-indian-restaurant-in-the-food-court",
+      "name": "The Indian Restaurant in the Food Court",
+      "items": [
+        {
+          "id": "indian-restaurant-mixed-veggie-pakora",
+          "name": "Mixed Veggie Pakora"
+        },
+        {
+          "id": "indian-restaurant-vada-pav",
+          "name": "Vada Pav"
+        },
+        {
+          "id": "the-indian-restaurant-chicken-tikka-masala",
+          "name": "Chicken Tikka Masala"
+        },
+        {
+          "id": "the-indian-restaurant-naan-bread",
+          "name": "Naan Bread"
+        },
+        {
+          "id": "the-indian-restaurant-mix-parathas",
+          "name": "Mix Parathas"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "tootsies-fried-dough",
+      "name": "Tootsie’s Fried Dough",
+      "items": [
+        {
+          "id": "tootsies-deep-fried-cheesecake",
+          "name": "Deep-fried Cheesecake"
+        },
+        {
+          "id": "tootsie-s-fried-dough-fried-oreos",
+          "name": "Fried Oreos"
+        },
+        {
+          "id": "tootsie-s-fried-dough-dough-nuggets",
+          "name": "Dough Nuggets"
+        },
+        {
+          "id": "tootsie-s-fried-dough-fried-candy-bars",
+          "name": "Fried Candy Bars"
+        },
+        {
+          "id": "tootsies-fried-dough-funnel-cake-sundaes",
+          "name": "Funnel Cake Sundaes"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "vermont-building",
+      "name": "Vermont Building",
+      "items": [
+        {
+          "id": "vermont-building-cider",
+          "name": "Cider"
+        },
+        {
+          "id": "vermont-building-pizza",
+          "name": "Pizza"
+        },
+        {
+          "id": "vermont-building-desserts",
+          "name": "Desserts"
+        },
+        {
+          "id": "vermont-building-waffle-bowls",
+          "name": "Waffle Bowls"
+        },
+        {
+          "id": "vermont-building-vermont-beers",
+          "name": "Vermont Beers"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "villa-of-lebanon",
+      "name": "Villa of Lebanon",
+      "items": [
+        {
+          "id": "villa-of-lebanon-hummus",
+          "name": "Hummus"
+        },
+        {
+          "id": "villa-of-lebanon-meat-pies",
+          "name": "Meat Pies"
+        },
+        {
+          "id": "villa-of-lebanon-baklava",
+          "name": "Baklava"
+        },
+        {
+          "id": "villa-of-lebanon-kofta-kabobs",
+          "name": "Kofta Kabobs"
+        },
+        {
+          "id": "villa-of-lebanon-shawarma",
+          "name": "Shawarma"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "white-hut-in-the-food-court",
+      "name": "White Hut in the Food Court",
+      "items": [
+        {
+          "id": "white-hut-uncrusta-double-burger",
+          "name": "Uncrusta Double Burger"
+        },
+        {
+          "id": "white-hut-two-foot-chili-cheese-dog",
+          "name": "Two-foot Chili Cheese Dog"
+        },
+        {
+          "id": "white-hut-in-the-food-court-burgers",
+          "name": "Burgers"
+        },
+        {
+          "id": "white-hut-in-the-food-court-fries",
+          "name": "Fries"
+        },
+        {
+          "id": "white-hut-in-the-food-court-chicken-tenders",
+          "name": "Chicken Tenders"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "apple-fries",
+      "name": "Apple Fries",
+      "items": [
+        {
+          "id": "apple-fries-best-of-both-worlds",
+          "name": "The Best of Both Worlds Apple Fries"
+        },
+        {
+          "id": "apple-fries-creamsicle-slush",
+          "name": "Creamsicle Slush"
+        },
+        {
+          "id": "apple-fries-jolly-ranchers-extreme-slush",
+          "name": "Jolly Ranchers Extreme Slush"
+        },
+        {
+          "id": "apple-fries-apple-fries",
+          "name": "Apple Fries"
+        },
+        {
+          "id": "apple-fries-bacon-caramel-apple-fries",
+          "name": "Bacon Caramel Apple Fries"
+        },
+        {
+          "id": "apple-fries-apple-fry-sundaes",
+          "name": "Apple Fry Sundaes"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "butcher-boys",
+      "name": "Butcher Boys",
+      "items": [
+        {
+          "id": "butcher-boys-pop-pops-greek-burger",
+          "name": "Pop Pop’s Greek Burger"
+        },
+        {
+          "id": "butcher-boys-rice-and-bean-bowls",
+          "name": "Rice and Bean Bowls"
+        },
+        {
+          "id": "butcher-boys-london-broil-steak-sandwich",
+          "name": "London Broil Steak Sandwich"
+        },
+        {
+          "id": "butcher-boys-charbroiled-chicken-pita",
+          "name": "Charbroiled Chicken Pita"
+        },
+        {
+          "id": "butcher-boys-gyros",
+          "name": "Gyros"
+        },
+        {
+          "id": "butcher-boys-italian-sausage",
+          "name": "Italian Sausage"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "dimitris-greek-food",
+      "name": "Dimitri’s Greek Food",
+      "items": [
+        {
+          "id": "dimitri-s-greek-food-pita",
+          "name": "Pita"
+        },
+        {
+          "id": "dimitri-s-greek-food-falafel",
+          "name": "Falafel"
+        },
+        {
+          "id": "dimitri-s-greek-food-hummus",
+          "name": "Hummus"
+        },
+        {
+          "id": "dimitri-s-greek-food-baklava",
+          "name": "Baklava"
+        },
+        {
+          "id": "dimitri-s-greek-food-gyros",
+          "name": "Gyros"
+        },
+        {
+          "id": "dimitri-s-greek-food-kabobs",
+          "name": "Kabobs"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "dollys-honky-tonk",
+      "name": "Dolly’s Honky Tonk",
+      "items": [
+        {
+          "id": "dollys-classic-cheddar-cheese-dog",
+          "name": "Classic Cheddar Cheese Dog"
+        },
+        {
+          "id": "dollys-chili-cheese-dog",
+          "name": "Chili Cheese Dog"
+        },
+        {
+          "id": "dollys-pulled-pork-cheese-dog",
+          "name": "Pulled Pork Cheese Dog"
+        },
+        {
+          "id": "dolly-s-honky-tonk-beer-boot",
+          "name": "Beer Boot"
+        },
+        {
+          "id": "dolly-s-honky-tonk-cowboy-nachos",
+          "name": "Cowboy Nachos"
+        },
+        {
+          "id": "dollys-honky-tonk-hot-dogs",
+          "name": "Hot Dogs"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "jims-deep-fried-taco",
+      "name": "Jim’s Deep Fried Taco",
+      "items": [
+        {
+          "id": "jims-deep-fried-birria-taco",
+          "name": "Deep-fried Birria Taco"
+        },
+        {
+          "id": "jims-nacho-grande",
+          "name": "The Nacho Grande"
+        },
+        {
+          "id": "jim-s-deep-fried-tacos-deep-fried-tacos",
+          "name": "Deep-Fried Tacos"
+        },
+        {
+          "id": "jim-s-deep-fried-tacos-bbq-brisket-mac-taco",
+          "name": "BBQ Brisket Mac Taco"
+        },
+        {
+          "id": "jim-s-deep-fried-tacos-pot-roast-sundae-taco",
+          "name": "Pot Roast Sundae Taco"
+        },
+        {
+          "id": "jim-s-deep-fried-tacos-buffalo-chicken-taco",
+          "name": "Buffalo Chicken Taco"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "joey-s-deli-market",
+      "name": "Joey's Deli & Market",
+      "items": [
+        {
+          "id": "joeys-deli-create-your-own-dinners",
+          "name": "Create-your-own Dinners"
+        },
+        {
+          "id": "joey-s-deli-market-chicken-pot-hand-pie",
+          "name": "Chicken Pot Hand Pie"
+        },
+        {
+          "id": "joey-s-deli-market-pulled-pork-mac-cheese-hand-pie",
+          "name": "Pulled Pork Mac & Cheese Hand Pie"
+        },
+        {
+          "id": "joey-s-deli-market-shepherds-hand-pie",
+          "name": "Shepherd’s Hand Pie"
+        },
+        {
+          "id": "joey-s-deli-market-warm-apple-hand-pie",
+          "name": "Warm Apple Hand Pie"
+        },
+        {
+          "id": "joey-s-deli-market-whoopie-pies",
+          "name": "Whoopie Pies"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "joey-s-deli-market",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Joey's Deli\" \"Big E\" instagram",
+            "\"Joey's Deli & Market\" website"
+          ],
+          "notes": "Verified via vendor website and scanned 12 visible public grid entries. Limited review, not an exhaustive caption/archive scan. Read September 15 Big E menu caption and September 17 retail-shop caption. Excluded local grocery products and deli opening hours from fair data. Catalog has only Create-your-own Dinners for this vendor.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/joeysdelimarket/",
+              "verified": true,
+              "evidenceUrl": "https://joeysdelimarket.com/",
+              "evidence": "Vendor website links directly to account; public business profile matches."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Vendor offers hand pies filled with chicken pot pie, pulled pork mac and cheese, shepherd’s pie, or warm apple pie, plus whoopie pies at the Massachusetts Building. Five proposed named offerings; no prices provided.",
+              "url": "https://www.instagram.com/joeysdelimarket/p/DdT9iPdOjRa/",
+              "kind": "new-item",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-15",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "itemNames": [
+                "Chicken Pot Hand Pie",
+                "Pulled Pork Mac & Cheese Hand Pie",
+                "Shepherd’s Hand Pie",
+                "Warm Apple Hand Pie",
+                "Whoopie Pies"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "las-kangris-food-truck",
+      "name": "Las Kangris Food Truck",
+      "items": [
+        {
+          "id": "las-kangris-yellow-rice",
+          "name": "Yellow Rice"
+        },
+        {
+          "id": "las-kangris-food-truck-yellow-rice-with-pigeon-peas",
+          "name": "Yellow Rice with Pigeon Peas"
+        },
+        {
+          "id": "las-kangris-food-truck-baked-pork",
+          "name": "Baked Pork"
+        },
+        {
+          "id": "las-kangris-food-truck-baked-chicken",
+          "name": "Baked Chicken"
+        },
+        {
+          "id": "las-kangris-food-truck-green-bananas-al-mojo",
+          "name": "Green Bananas al Mojo"
+        },
+        {
+          "id": "las-kangris-food-truck-tres-leches-cake",
+          "name": "Tres Leches Cake"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "pig-park-bbq",
+      "name": "Pig Park BBQ",
+      "items": [
+        {
+          "id": "pig-park-bbq-bbq-sandwiches",
+          "name": "BBQ Sandwiches"
+        },
+        {
+          "id": "pig-park-bbq-memphis-ribs",
+          "name": "Memphis Ribs"
+        },
+        {
+          "id": "pig-park-bbq-bbq-bowls",
+          "name": "BBQ Bowls"
+        },
+        {
+          "id": "pig-park-bbq-the-bomb-nachos",
+          "name": "The Bomb Nachos"
+        },
+        {
+          "id": "pig-park-bbq-pulled-pork",
+          "name": "Pulled Pork"
+        },
+        {
+          "id": "pig-park-bbq-brisket",
+          "name": "Brisket"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "poppies-belgian-waffles",
+      "name": "Poppie’s Belgian Waffles",
+      "items": [
+        {
+          "id": "poppie-s-belgian-waffles-fried-cheesecake",
+          "name": "Fried Cheesecake"
+        },
+        {
+          "id": "poppie-s-belgian-waffles-belgian-waffles",
+          "name": "Belgian Waffles"
+        },
+        {
+          "id": "poppie-s-belgian-waffles-fried-twinkies",
+          "name": "Fried Twinkies"
+        },
+        {
+          "id": "poppie-s-belgian-waffles-dubai-waffle",
+          "name": "Dubai Waffle"
+        },
+        {
+          "id": "poppies-belgian-waffles-corn-dogs",
+          "name": "Corn Dogs"
+        },
+        {
+          "id": "poppies-belgian-waffles-waffle-dogs",
+          "name": "Waffle Dogs"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "poutine-gourmet",
+      "name": "Poutine Gourmet",
+      "items": [
+        {
+          "id": "poutine-gourmet-mini-poutine",
+          "name": "Mini Poutine"
+        },
+        {
+          "id": "poutine-hot-honey-and-bacon-poutine",
+          "name": "Hot Honey and Bacon Poutine"
+        },
+        {
+          "id": "poutine-gourmet-classic-poutine",
+          "name": "Classic Poutine"
+        },
+        {
+          "id": "poutine-gourmet-pulled-pork-poutine",
+          "name": "Pulled Pork Poutine"
+        },
+        {
+          "id": "poutine-gourmet-chicken-bacon-ranch-poutine",
+          "name": "Chicken Bacon Ranch Poutine"
+        },
+        {
+          "id": "poutine-gourmet-buffalo-chicken-poutine",
+          "name": "Buffalo Chicken Poutine"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "simply-gluten-free",
+      "name": "Simply Gluten Free",
+      "items": [
+        {
+          "id": "simply-gluten-free-funnel-cakes",
+          "name": "Funnel Cakes"
+        },
+        {
+          "id": "simply-gluten-free-fried-oreos",
+          "name": "Fried Oreos"
+        },
+        {
+          "id": "simply-gluten-free-corndogs",
+          "name": "Corndogs"
+        },
+        {
+          "id": "simply-gluten-free-chicken-tenders",
+          "name": "Chicken Tenders"
+        },
+        {
+          "id": "simply-gluten-free-jumbo-mozzarella-stick",
+          "name": "Jumbo Mozzarella Stick"
+        },
+        {
+          "id": "simply-gluten-free-fountain-lemonade",
+          "name": "Fountain Lemonade"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "storrowton-soup-shack",
+      "name": "Storrowton Soup Shack",
+      "items": [
+        {
+          "id": "storrowton-fried-boneless-chicken-basket",
+          "name": "Fried Boneless Chicken Basket"
+        },
+        {
+          "id": "storrowton-soup-shack-soups",
+          "name": "Soups"
+        },
+        {
+          "id": "storrowton-soup-shack-chowder",
+          "name": "Chowder"
+        },
+        {
+          "id": "storrowton-soup-shack-mac-and-cheese",
+          "name": "Mac & Cheese"
+        },
+        {
+          "id": "storrowton-soup-shack-bread-bowls",
+          "name": "Bread Bowls"
+        },
+        {
+          "id": "storrowton-soup-shack-mac-and-cheese-in-bread-bowls",
+          "name": "Mac & Cheese in Bread Bowls"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "west-springfield-firehouse-restaurant",
+      "name": "West Springfield Firehouse Restaurant",
+      "items": [
+        {
+          "id": "west-springfield-firehouse-restaurant-full-egg-breakfast",
+          "name": "Full Egg Breakfast"
+        },
+        {
+          "id": "west-springfield-firehouse-restaurant-breakfast-sandwiches",
+          "name": "Breakfast Sandwiches"
+        },
+        {
+          "id": "west-springfield-firehouse-restaurant-deli-sandwiches",
+          "name": "Deli Sandwiches"
+        },
+        {
+          "id": "west-springfield-firehouse-restaurant-chowder",
+          "name": "Chowder"
+        },
+        {
+          "id": "west-springfield-firehouse-restaurant-burgers",
+          "name": "Burgers"
+        },
+        {
+          "id": "west-springfield-firehouse-restaurant-hot-dogs",
+          "name": "Hot Dogs"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "wurst-haus",
+      "name": "Wurst Haus",
+      "items": [
+        {
+          "id": "wurst-haus-german-mac-n-cheese",
+          "name": "German Mac ‘n Cheese"
+        },
+        {
+          "id": "wurst-haus-apple-pretzel-bites",
+          "name": "Apple Pretzel Bites"
+        },
+        {
+          "id": "wurst-haus-german-giant-10-inch-bratwurst",
+          "name": "German Giant 10-inch Bratwurst"
+        },
+        {
+          "id": "wurst-haus-beer-boot",
+          "name": "Beer Boot"
+        },
+        {
+          "id": "wurst-haus-the-mighty-pretzel",
+          "name": "The Mighty Pretzel"
+        },
+        {
+          "id": "wurst-haus-giant-schnitzel-sandwich",
+          "name": "Giant Schnitzel Sandwich"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "golden-k-dog",
+      "name": "Golden K-Dog",
+      "items": [
+        {
+          "id": "golden-kdog-cinnamozz-ball",
+          "name": "Cinnamozz Ball"
+        },
+        {
+          "id": "golden-k-dog-korean-corndogs",
+          "name": "Korean Corndogs"
+        },
+        {
+          "id": "golden-k-dog-classic-corndogs",
+          "name": "Classic Corndogs"
+        },
+        {
+          "id": "golden-k-dog-half-and-half-korean-corndog",
+          "name": "Half & Half Korean Corndog"
+        },
+        {
+          "id": "golden-k-dog-cinnamozza",
+          "name": "CinnaMozza"
+        },
+        {
+          "id": "golden-k-dog-half-and-half-flamin-hot-cheetos",
+          "name": "Half & Half Flamin’ Hot Cheetos"
+        },
+        {
+          "id": "golden-k-dog-cinnamon-sugar-mozzarella-stick",
+          "name": "Cinnamon Sugar Mozzarella Stick"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "golden-k-dog",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "accounts": [],
+          "findings": [],
+          "searches": [
+            "Golden K-Dog Instagram Big E"
+          ],
+          "notes": "Imported from docs/vendor-instagram-pilot-2026-09-19.md; limited public review, not a complete archive scan. Searches did not identify a reliable account; other-fair menus are not Big E evidence."
+        }
+      ]
+    },
+    {
+      "id": "jacks-fries",
+      "name": "Jack’s Fries",
+      "items": [
+        {
+          "id": "jacks-chicken-bacon-ranch-fries",
+          "name": "Jack’s Signature Fries"
+        },
+        {
+          "id": "jacks-fried-spicy-pickle-fries",
+          "name": "Fried Spicy Pickle Fries"
+        },
+        {
+          "id": "jack-s-fries-millennium-chips",
+          "name": "Millennium Chips"
+        },
+        {
+          "id": "jack-s-fries-dough-nuggets",
+          "name": "Dough Nuggets"
+        },
+        {
+          "id": "jack-s-fries-funnel-cakes",
+          "name": "Funnel Cakes"
+        },
+        {
+          "id": "jacks-fries-chicken-tenders",
+          "name": "Chicken Tenders"
+        },
+        {
+          "id": "jacks-fries-corn-dogs",
+          "name": "Corn Dogs"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "piches-beignets",
+      "name": "Piche’s Beignets",
+      "items": [
+        {
+          "id": "piche-s-beignets-beignets",
+          "name": "Beignets"
+        },
+        {
+          "id": "piche-s-beignets-beignet-sundaes",
+          "name": "Beignet Sundaes"
+        },
+        {
+          "id": "piche-s-beignets-fried-oreos",
+          "name": "Fried Oreos"
+        },
+        {
+          "id": "piche-s-beignets-funnel-cake-sundaes",
+          "name": "Funnel Cake Sundaes"
+        },
+        {
+          "id": "piche-s-beignets-funnel-cakes",
+          "name": "Funnel Cakes"
+        },
+        {
+          "id": "piche-s-beignets-fried-snickers",
+          "name": "Fried Snickers"
+        },
+        {
+          "id": "piche-s-beignets-fried-reese-s-peanut-butter-cups",
+          "name": "Fried Reese’s Peanut Butter Cups"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "reds-red-apples",
+      "name": "Red’s Red Apples",
+      "items": [
+        {
+          "id": "red-s-red-apples-candy-apples",
+          "name": "Candy Apples"
+        },
+        {
+          "id": "red-s-red-apples-samoa-apples",
+          "name": "Samoa Apples"
+        },
+        {
+          "id": "red-s-red-apples-pickle-popcorn",
+          "name": "Pickle Popcorn"
+        },
+        {
+          "id": "red-s-red-apples-gourmet-apples",
+          "name": "Gourmet Apples"
+        },
+        {
+          "id": "red-s-red-apples-caramel-apples",
+          "name": "Caramel Apples"
+        },
+        {
+          "id": "red-s-red-apples-caramel-corn",
+          "name": "Caramel Corn"
+        },
+        {
+          "id": "red-s-red-apples-cotton-candy",
+          "name": "Cotton Candy"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "sam-adams-beer-garden",
+      "name": "Sam Adams Beer Garden",
+      "items": [
+        {
+          "id": "sam-adams-headless-pumpkin-cider",
+          "name": "Headless Pumpkin Cider"
+        },
+        {
+          "id": "sam-adams-beer-garden-frozen-pumpkin-cider",
+          "name": "Frozen Pumpkin Cider"
+        },
+        {
+          "id": "sam-adams-beer-garden-craft-beer",
+          "name": "Craft Beer"
+        },
+        {
+          "id": "sam-adams-beer-garden-burgers",
+          "name": "Burgers"
+        },
+        {
+          "id": "sam-adams-beer-garden-pizza",
+          "name": "Pizza"
+        },
+        {
+          "id": "sam-adams-beer-garden-cider-glazed-pulled-pork-grilled-cheese",
+          "name": "Cider-Glazed Pulled Pork Grilled Cheese"
+        },
+        {
+          "id": "sam-adams-beer-garden-local-smash-burger",
+          "name": "Local Smash Burger"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "spudtastic",
+      "name": "Spudtastic",
+      "items": [
+        {
+          "id": "spudtastic-all-american-sweet-potato",
+          "name": "All-American Sweet Potato"
+        },
+        {
+          "id": "spudtastic-plain-jane",
+          "name": "Plain Jane"
+        },
+        {
+          "id": "spudtastic-batata",
+          "name": "Batata"
+        },
+        {
+          "id": "spudtastic-sweet-potato-fries",
+          "name": "Sweet Potato Fries"
+        },
+        {
+          "id": "spudtastic-sweet-potato-ribbon-fries",
+          "name": "Sweet Potato Ribbon Fries"
+        },
+        {
+          "id": "spudtastic-smores-sweet-potato",
+          "name": "S’mores Sweet Potato"
+        },
+        {
+          "id": "spudtastic-apple-pie-sweet-potato",
+          "name": "Apple Pie Sweet Potato"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "tree-of-life-maple-farm",
+      "name": "Tree of Life Maple Farm",
+      "items": [
+        {
+          "id": "tree-of-life-maple-farm-maple-products",
+          "name": "Maple Products"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-syrup",
+          "name": "Maple Syrup"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-cream",
+          "name": "Maple Cream"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-candies",
+          "name": "Maple Candies"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-cotton-candy",
+          "name": "Maple Cotton Candy"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-coffee",
+          "name": "Maple Coffee"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-milkshake",
+          "name": "Maple Milkshake"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "west-springfield-lions-club",
+      "name": "West Springfield Lions Club",
+      "items": [
+        {
+          "id": "west-springfield-lions-bacon-cheeseburger",
+          "name": "Bacon Cheeseburger"
+        },
+        {
+          "id": "west-springfield-lions-flatliner-hot-dog",
+          "name": "Flatliner Hot Dog"
+        },
+        {
+          "id": "west-springfield-lions-flatliner-burger",
+          "name": "Flatliner Burger"
+        },
+        {
+          "id": "west-springfield-lions-club-burgers",
+          "name": "Burgers"
+        },
+        {
+          "id": "west-springfield-lions-club-grilled-cheese",
+          "name": "Grilled Cheese"
+        },
+        {
+          "id": "west-springfield-lions-club-reubens",
+          "name": "Reubens"
+        },
+        {
+          "id": "west-springfield-lions-club-reuben-burger",
+          "name": "Reuben Burger"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "agawam-lions-club",
+      "name": "Agawam Lions Club",
+      "items": [
+        {
+          "id": "agawam-lions-club-bbq",
+          "name": "BBQ"
+        },
+        {
+          "id": "agawam-lions-club-chicken-dinner",
+          "name": "Chicken Dinner"
+        },
+        {
+          "id": "agawam-lions-club-pulled-bbq-chicken-sandwich",
+          "name": "Pulled BBQ Chicken Sandwich"
+        },
+        {
+          "id": "agawam-lions-club-bacon-mac-and-cheese-all-in-a-cone",
+          "name": "Bacon Mac & Cheese All-in-a-Cone"
+        },
+        {
+          "id": "agawam-lions-club-meatball-all-in-a-cone",
+          "name": "Meatball All-in-a-Cone"
+        },
+        {
+          "id": "agawam-lions-club-pulled-chicken-all-in-a-cone",
+          "name": "Pulled Chicken All-in-a-Cone"
+        },
+        {
+          "id": "agawam-lions-club-shepherd-s-pie-all-in-a-cone",
+          "name": "Shepherd’s Pie All-in-a-Cone"
+        },
+        {
+          "id": "agawam-lions-club-pizza-in-a-cone",
+          "name": "Pizza in a Cone"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "cinnamon-saloon",
+      "name": "Cinnamon Saloon",
+      "items": [
+        {
+          "id": "cinnamon-saloon-apple-cider-slush",
+          "name": "Apple Cider Slush"
+        },
+        {
+          "id": "cinnamon-saloon-cinnamon-rolls",
+          "name": "Cinnamon Rolls"
+        },
+        {
+          "id": "cinnamon-saloon-apple-crisp",
+          "name": "Apple Crisp"
+        },
+        {
+          "id": "cinnamon-saloon-muffins",
+          "name": "Muffins"
+        },
+        {
+          "id": "cinnamon-saloon-oreo-cookie-cinnamon-bun",
+          "name": "Oreo Cookie Cinnamon Bun"
+        },
+        {
+          "id": "cinnamon-saloon-tie-dye-smoothie",
+          "name": "Tie-Dye Smoothie"
+        },
+        {
+          "id": "cinnamon-saloon-coffee",
+          "name": "Coffee"
+        },
+        {
+          "id": "cinnamon-saloon-frozen-cappuccino",
+          "name": "Frozen Cappuccino"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "crave-cafe",
+      "name": "Crave Café",
+      "items": [
+        {
+          "id": "crave-ube-coconut-cloud-with-jelly",
+          "name": "Ube Coconut Cloud with Jelly"
+        },
+        {
+          "id": "crave-strawberry-mojito-sparkling-boba",
+          "name": "Strawberry Mojito Sparkling Boba"
+        },
+        {
+          "id": "crave-honey-dew-milk-tea-with-tapioca",
+          "name": "Honey Dew Milk Tea with Tapioca"
+        },
+        {
+          "id": "crave-caramelized-orange-butter-crepe",
+          "name": "The Caramelized Orange Butter Crêpe"
+        },
+        {
+          "id": "crave-cookie-butter-crepe",
+          "name": "Cookie Butter Crêpe"
+        },
+        {
+          "id": "crave-cafe-strawberry-dubai-cup",
+          "name": "Strawberry Dubai Cup"
+        },
+        {
+          "id": "crave-cafe-bubble-waffle",
+          "name": "Bubble Waffle"
+        },
+        {
+          "id": "crave-cafe-sweet-crepes",
+          "name": "Sweet Crepes"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "itskelewele31-llc",
+      "name": "ItsKelewele31 LLC",
+      "items": [
+        {
+          "id": "itskelewele31-ghanaian-inspired-food",
+          "name": "Ghanaian-inspired Food"
+        },
+        {
+          "id": "itskelewele31-llc-kelewele",
+          "name": "Kelewele"
+        },
+        {
+          "id": "itskelewele31-llc-jollof-arancini",
+          "name": "Jollof Arancini"
+        },
+        {
+          "id": "itskelewele31-llc-turkey-tails-on-a-stick",
+          "name": "Turkey Tails on a Stick"
+        },
+        {
+          "id": "itskelewele31-llc-hibiscus-sun",
+          "name": "Hibiscus Sun"
+        },
+        {
+          "id": "itskelewele31-llc-mango-paradise",
+          "name": "Mango Paradise"
+        },
+        {
+          "id": "itskelewele31-llc-lychee-bloom",
+          "name": "Lychee Bloom"
+        },
+        {
+          "id": "itskelewele31-llc-lavender-moon",
+          "name": "Lavender Moon"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "itskelewele31-llc",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"ItsKelewele31\" instagram"
+          ],
+          "notes": "Verified via vendor website and scanned 12 visible public grid entries. Limited review, not an exhaustive caption/archive scan. Read September 8 and 16 captions; visually inspected September 8 menu image after dismissing the signup prompt. Used legible image text, not automatic alt text, to confirm named foods. Full catalog comparison found only a generic listing for this vendor.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/itskelewele31/",
+              "verified": true,
+              "evidenceUrl": "https://www.itskelewele31.com/",
+              "evidence": "Vendor website links directly to account; public business profile matches."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Menu image names Kelewele, Jollof Arancini, and Turkey Tails on a Stick, plus mocktails Hibiscus Sun, Mango Paradise, Lychee Bloom, and Lavender Moon. Caption ties the menu to the 2026 fair. Seven proposed named entries; ingredients/prices not supplied.",
+              "url": "https://www.instagram.com/itskelewele31/p/DdCEoieBf2j/",
+              "kind": "new-item",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-08",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "itemNames": [
+                "Kelewele",
+                "Jollof Arancini",
+                "Turkey Tails on a Stick",
+                "Hibiscus Sun",
+                "Mango Paradise",
+                "Lychee Bloom",
+                "Lavender Moon"
+              ]
+            },
+            {
+              "detail": "September 16 caption confirms still and sparkling botanical mocktails and a new slushy machine; no slushy flavors or prices stated. Massachusetts Building, September 18–October 4, 10 a.m.–9 p.m. daily.",
+              "url": "https://www.instagram.com/itskelewele31/p/DdXZ3fPsn1U/",
+              "kind": "detail",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-16",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "porkys-bbq-concessions",
+      "name": "Porky’s BBQ Concessions",
+      "items": [
+        {
+          "id": "porkys-pork-belly-lollipops",
+          "name": "Pork Belly Lollipops"
+        },
+        {
+          "id": "porky-s-bbq-sundae",
+          "name": "BBQ Sundae"
+        },
+        {
+          "id": "porky-s-pulled-pork",
+          "name": "Pulled Pork"
+        },
+        {
+          "id": "porky-s-giant-turkey-legs",
+          "name": "Giant Turkey Legs"
+        },
+        {
+          "id": "porky-s-bbq-brisket-sandwich",
+          "name": "BBQ Brisket Sandwich"
+        },
+        {
+          "id": "porky-s-bbq-split",
+          "name": "BBQ Split"
+        },
+        {
+          "id": "porky-s-mac-and-cheese",
+          "name": "Mac & Cheese"
+        },
+        {
+          "id": "porky-s-hambo-sandwich",
+          "name": "Hambo Sandwich"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "tater-tot-heaven",
+      "name": "Tater Tot Heaven",
+      "items": [
+        {
+          "id": "tater-tot-heaven-tater-tot-buckets",
+          "name": "Tater Tot Buckets"
+        },
+        {
+          "id": "tater-tot-heaven-strawberry-lemonade",
+          "name": "Strawberry Lemonade"
+        },
+        {
+          "id": "tater-tot-heaven-fountain-drinks",
+          "name": "Fountain Drinks"
+        },
+        {
+          "id": "tater-tot-heaven-pizza-time-tots",
+          "name": "Pizza Time Tots"
+        },
+        {
+          "id": "tater-tot-heaven-the-monster-tots",
+          "name": "The Monster Tots"
+        },
+        {
+          "id": "tater-tot-heaven-the-devil-tots",
+          "name": "The Devil Tots"
+        },
+        {
+          "id": "tater-tot-heaven-bacon-mac-attack-tots",
+          "name": "Bacon Mac Attack Tots"
+        },
+        {
+          "id": "tater-tot-heaven-chicken-tot-pie",
+          "name": "Chicken Tot Pie"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "tater-tot-heaven",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "accounts": [],
+          "findings": [
+            {
+              "detail": "Dill-pickle and spicy buffalo-chicken tot buckets and pulled-pork mac-and-cheese bowl appeared in New York State Fair coverage; not confirmed at The Big E.",
+              "url": "https://eatlocalnewyork.com/blogs/tater-tot-heaven-lives-up-to-its-name/",
+              "kind": "new-item",
+              "confidence": "lead",
+              "publishedOn": "2026-08-27",
+              "event": "New York State Fair",
+              "year": 2026,
+              "sourceType": "press"
+            }
+          ],
+          "searches": [
+            "Tater Tot Heaven Instagram Big E"
+          ],
+          "notes": "Imported from docs/vendor-instagram-pilot-2026-09-19.md; limited public review, not a complete archive scan."
+        }
+      ]
+    },
+    {
+      "id": "the-paddock",
+      "name": "The Paddock",
+      "items": [
+        {
+          "id": "paddock-the-stack",
+          "name": "The Stack"
+        },
+        {
+          "id": "paddock-loaded-sweet-potato-fries",
+          "name": "Loaded Sweet Potato Fries"
+        },
+        {
+          "id": "paddock-the-maple-slider",
+          "name": "The Maple"
+        },
+        {
+          "id": "paddock-the-smash-slider",
+          "name": "The Smash"
+        },
+        {
+          "id": "paddock-the-ancho-slider",
+          "name": "The Ancho"
+        },
+        {
+          "id": "paddock-the-mac-slider",
+          "name": "The Mac"
+        },
+        {
+          "id": "the-paddock-craft-beer",
+          "name": "Craft Beer"
+        },
+        {
+          "id": "the-paddock-sliders",
+          "name": "Sliders"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-ultimate-bbq",
+      "name": "The Ultimate BBQ",
+      "items": [
+        {
+          "id": "the-ultimate-bbq-3-pigs-in-a-bun",
+          "name": "3 Pigs in a Bun"
+        },
+        {
+          "id": "the-ultimate-bbq-choco-baco-frenzy",
+          "name": "Choco-Baco Frenzy"
+        },
+        {
+          "id": "the-ultimate-bbq-pulled-pork-mac-and-cheese",
+          "name": "Pulled Pork Mac & Cheese"
+        },
+        {
+          "id": "the-ultimate-bbq-chocolate-dipped-bacon",
+          "name": "Chocolate-Dipped Bacon"
+        },
+        {
+          "id": "the-ultimate-bbq-ultimate-cowboy-nachos",
+          "name": "Ultimate Cowboy Nachos"
+        },
+        {
+          "id": "the-ultimate-bbq-bbq-waffles",
+          "name": "BBQ Waffles"
+        },
+        {
+          "id": "the-ultimate-bbq-mac-and-cheese-waffles",
+          "name": "Mac & Cheese Waffles"
+        },
+        {
+          "id": "the-ultimate-bbq-chocolate-covered-bacon-burnt-ends",
+          "name": "Chocolate-Covered Bacon Burnt Ends"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "tripps-farmhouse-cafe",
+      "name": "Tripp’s Farmhouse Café",
+      "items": [
+        {
+          "id": "tripps-hashbrown-breakfast-sandwich",
+          "name": "Hashbrown Breakfast Sandwich"
+        },
+        {
+          "id": "tripps-donuts",
+          "name": "Donuts"
+        },
+        {
+          "id": "tripps-brownies",
+          "name": "Brownies"
+        },
+        {
+          "id": "tripps-fried-oreos",
+          "name": "Fried Oreos"
+        },
+        {
+          "id": "tripps-chicken-fingers",
+          "name": "Chicken Fingers"
+        },
+        {
+          "id": "tripps-grass-fed-burgers",
+          "name": "Grass-fed Burgers"
+        },
+        {
+          "id": "tripps-french-fries",
+          "name": "French Fries"
+        },
+        {
+          "id": "tripp-s-farmhouse-cafe-donut-breakfast-sandwich",
+          "name": "Donut Breakfast Sandwich"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "tripps-farmhouse-cafe",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/tripps_207/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/tripps_207/",
+              "evidence": "Business name, Maine location, and linked vendor website match the catalog vendor."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Chicken fingers and fried Oreos confirmed; new spot at village entrance off Commonwealth Avenue. Both items already in catalog; reconcile entrance wording with current Craft Common area before changing map.",
+              "url": "https://www.instagram.com/tripps_207/p/DdZ_1_oDFYE/",
+              "kind": "location",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-17",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            },
+            {
+              "detail": "French fries confirmed; vendor identifies Penobscot McCrum as supplier. Existing catalog item.",
+              "url": "https://www.instagram.com/tripps_207/p/DdeZBh4x4P3/",
+              "kind": "confirmation",
+              "confidence": "confirmed",
+              "publishedOn": "2026-09-19",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor"
+            }
+          ],
+          "searches": [
+            "Tripp’s Farmhouse Café Instagram Big E"
+          ],
+          "notes": "Imported from docs/vendor-instagram-pilot-2026-09-19.md; limited public review, not a complete archive scan."
+        }
+      ]
+    },
+    {
+      "id": "v-one-vodka",
+      "name": "V-One Vodka",
+      "items": [
+        {
+          "id": "v-one-snow-globe-martini",
+          "name": "Snow Globe Martini"
+        },
+        {
+          "id": "v-one-caramel-apple",
+          "name": "Caramel Apple"
+        },
+        {
+          "id": "v-one-salted-caramel-espresso-martini",
+          "name": "Salted Caramel Espresso Martini"
+        },
+        {
+          "id": "v-one-ultra-premium-vodka-seltzer",
+          "name": "Ulta-Premium Vodka Seltzer"
+        },
+        {
+          "id": "v-one-vodka-craft-martinis",
+          "name": "Craft Martinis"
+        },
+        {
+          "id": "v-one-vodka-espresso-martinis",
+          "name": "Espresso Martinis"
+        },
+        {
+          "id": "v-one-vodka-sabrinas-espresso",
+          "name": "Sabrina’s Espresso"
+        },
+        {
+          "id": "v-one-vodka-taylors-lavender-haze",
+          "name": "Taylor’s Lavender Haze"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "barbies-ice-cream",
+      "name": "Barbie’s Ice Cream",
+      "items": [
+        {
+          "id": "barbies-frozen-cheesecake-dipped-in-chocolate",
+          "name": "Frozen Cheesecake Dipped in Chocolate"
+        },
+        {
+          "id": "barbies-upside-down-banana-split",
+          "name": "Upside-down Banana Split"
+        },
+        {
+          "id": "barbie-s-ice-cream-shoppe-frozen-bananas",
+          "name": "Frozen Bananas"
+        },
+        {
+          "id": "barbie-s-ice-cream-shoppe-barbie-ice-cream",
+          "name": "Barbie Ice Cream"
+        },
+        {
+          "id": "barbie-s-ice-cream-shoppe-cracker-jack-sundae",
+          "name": "Cracker Jack Sundae"
+        },
+        {
+          "id": "barbies-ice-cream-ice-cream",
+          "name": "Ice Cream"
+        },
+        {
+          "id": "barbies-ice-cream-fancy-waffle-cones",
+          "name": "Fancy Waffle Cones"
+        },
+        {
+          "id": "barbies-ice-cream-sundaes",
+          "name": "Sundaes"
+        },
+        {
+          "id": "barbies-ice-cream-chocolate-covered-bananas",
+          "name": "Chocolate-Covered Bananas"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "calabrese-market",
+      "name": "Calabrese Market",
+      "items": [
+        {
+          "id": "calabrese-panella",
+          "name": "Panella"
+        },
+        {
+          "id": "calabrese-brie-fig-prosciutto",
+          "name": "Brie Cheese, Fig Jam and Prosciutto"
+        },
+        {
+          "id": "calabrese-fluffernutter",
+          "name": "Fluffernutter"
+        },
+        {
+          "id": "calabrese-artery-clogger",
+          "name": "The Artery Clogger"
+        },
+        {
+          "id": "calabrese-alcoholic-bellinis",
+          "name": "Alcoholic Bellinis"
+        },
+        {
+          "id": "calabrese-market-paninis",
+          "name": "Paninis"
+        },
+        {
+          "id": "calabrese-market-cucumber-salads",
+          "name": "Cucumber Salads"
+        },
+        {
+          "id": "calabrese-market-pasta-salads",
+          "name": "Pasta Salads"
+        },
+        {
+          "id": "calabrese-market-caprese-salads",
+          "name": "Caprese Salads"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "cantina-louie",
+      "name": "Cantina Louie",
+      "items": [
+        {
+          "id": "cantina-louie-burrito-bowl",
+          "name": "Burrito Bowl"
+        },
+        {
+          "id": "cantina-louie-traditional-tacos",
+          "name": "Traditional Tacos"
+        },
+        {
+          "id": "cantina-louie-walking-taco",
+          "name": "Walking Taco"
+        },
+        {
+          "id": "cantina-louie-birria-tacos",
+          "name": "Birria Tacos"
+        },
+        {
+          "id": "cantina-louie-loaded-nachos",
+          "name": "Loaded Nachos"
+        },
+        {
+          "id": "cantina-louie-corn-on-a-stick",
+          "name": "Corn on a Stick"
+        },
+        {
+          "id": "cantina-louie-mango-loco",
+          "name": "Mango Loco"
+        },
+        {
+          "id": "cantina-louie-frozen-margarita-mocktail",
+          "name": "Frozen Margarita Mocktail"
+        },
+        {
+          "id": "cantina-louie-beer",
+          "name": "Beer"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "hofbrauhaus-beer-garden",
+      "name": "Hofbrauhaus Beer Garden",
+      "items": [
+        {
+          "id": "hofbrauhaus-reuben-egg-rolls",
+          "name": "Reuben Egg Rolls"
+        },
+        {
+          "id": "hofbrauhaus-famous-goulash-stew",
+          "name": "Hofbrauhaus Famous Goulash Stew"
+        },
+        {
+          "id": "hofbrauhaus-deep-fried-reuben-wrap",
+          "name": "Deep-fried Reuben Wrap"
+        },
+        {
+          "id": "hofbrauhaus-german-home-fries",
+          "name": "German Home Fries with Westphalian Ham"
+        },
+        {
+          "id": "hofbrauhaus-oktoberfest-biergarten-potato-pancake-pie",
+          "name": "Potato Pancake Pie"
+        },
+        {
+          "id": "hofbrauhaus-oktoberfest-biergarten-giant-pretzels",
+          "name": "Giant Pretzels"
+        },
+        {
+          "id": "hofbrauhaus-oktoberfest-biergarten-pickles",
+          "name": "Pickles"
+        },
+        {
+          "id": "hofbrauhaus-oktoberfest-biergarten-bratwurst",
+          "name": "Bratwurst"
+        },
+        {
+          "id": "hofbrauhaus-beer-garden-beer",
+          "name": "Beer"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "the-new-england-craft-beer-pub",
+      "name": "The New England Craft Beer Pub",
+      "items": [
+        {
+          "id": "new-england-craft-beer-pub-cheeseburger-nachos",
+          "name": "Cheeseburger Nachos"
+        },
+        {
+          "id": "new-england-craft-beer-pub-beer-a-misu",
+          "name": "Beer-a-Misu"
+        },
+        {
+          "id": "new-england-craft-beer-pub-turducken-sandwich",
+          "name": "Turducken Sandwich"
+        },
+        {
+          "id": "new-england-craft-beer-pub-pork-belly-lollipops",
+          "name": "Pork Belly Lollipops"
+        },
+        {
+          "id": "new-england-craft-beer-pub-lobster-mac-and-cheese",
+          "name": "Lobster Mac & Cheese"
+        },
+        {
+          "id": "new-england-craft-beer-pub-pulled-pork-stuffed-popover",
+          "name": "Pulled Pork-stuffed Popover"
+        },
+        {
+          "id": "the-new-england-craft-beer-pub-craft-beer",
+          "name": "Craft Beer"
+        },
+        {
+          "id": "the-new-england-craft-beer-pub-thanksgiving-nachos",
+          "name": "Thanksgiving Nachos"
+        },
+        {
+          "id": "the-new-england-craft-beer-pub-lobster-nachos",
+          "name": "Lobster Nachos"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "moolicious-farm",
+      "name": "Moolicious Farm",
+      "items": [
+        {
+          "id": "moolicious-campfire-on-a-stick",
+          "name": "Campfire on a Stick"
+        },
+        {
+          "id": "moolicious-buttered-popcorn-soft-serve",
+          "name": "Buttered Popcorn Soft Serve"
+        },
+        {
+          "id": "moolicious-moo-nut",
+          "name": "Moo-nut"
+        },
+        {
+          "id": "moolicious-cornbread-sundae",
+          "name": "Cornbread Sundae"
+        },
+        {
+          "id": "moolicious-moonugs",
+          "name": "MooNugs"
+        },
+        {
+          "id": "moolicious-farm-ice-cream",
+          "name": "Ice Cream"
+        },
+        {
+          "id": "moolicious-farm-sundaes",
+          "name": "Sundaes"
+        },
+        {
+          "id": "moolicious-farm-floats",
+          "name": "Floats"
+        },
+        {
+          "id": "moolicious-farm-moo-bomb",
+          "name": "Moo Bomb"
+        },
+        {
+          "id": "moolicious-farm-salted-butter-soft-serve",
+          "name": "Salted Butter Soft Serve"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "moolicious-farm",
+          "checkedAt": "2026-09-19",
+          "status": "inaccessible",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/mooliciousfarm/",
+              "verified": false
+            }
+          ],
+          "findings": [],
+          "searches": [
+            "Moolicious Farm Instagram Big E"
+          ],
+          "notes": "Imported from docs/vendor-instagram-pilot-2026-09-19.md; limited public review, not a complete archive scan. Candidate @mooliciousfarm displayed Profile isn’t available. Account ownership not verified."
+        }
+      ]
+    },
+    {
+      "id": "veggie-patch",
+      "name": "Veggie Patch",
+      "items": [
+        {
+          "id": "veggie-patch-dr-pepper-pickle-juice",
+          "name": "Dr. Pepper Pickle Juice"
+        },
+        {
+          "id": "veggie-patch-sweet-chili-cauliflower-wings",
+          "name": "Sweet Chili Cauliflower Wings"
+        },
+        {
+          "id": "veggie-patch-fried-deviled-eggs",
+          "name": "Fried Deviled Eggs"
+        },
+        {
+          "id": "veggie-patch-frozen-cheesecakes",
+          "name": "Frozen Cheesecakes"
+        },
+        {
+          "id": "veggie-patch-frozen-banana",
+          "name": "Frozen Banana"
+        },
+        {
+          "id": "veggie-patch-cheesesteak-eggroll",
+          "name": "Cheesesteak Eggroll"
+        },
+        {
+          "id": "veggie-patch-deep-fried-pickles",
+          "name": "Deep-fried Pickles"
+        },
+        {
+          "id": "veggie-patch-vegetable-tempura",
+          "name": "Vegetable Tempura"
+        },
+        {
+          "id": "veggie-patch-buffalo-cauliflower-wings",
+          "name": "Buffalo Cauliflower Wings"
+        },
+        {
+          "id": "veggie-patch-pickle-juice",
+          "name": "Pickle Juice"
+        },
+        {
+          "id": "veggie-patch-fried-veggies",
+          "name": "Fried Veggies"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "harpoon-beer-hall",
+      "name": "Harpoon Beer Hall",
+      "items": [
+        {
+          "id": "harpoon-reuben",
+          "name": "Reuben"
+        },
+        {
+          "id": "harpoon-maple-bourbon-bacon-corned-beef-sandwich",
+          "name": "Maple Bourbon Bacon Corned Beef Sandwich"
+        },
+        {
+          "id": "harpoon-the-plain-jane-loaded-pretzel-bites",
+          "name": "The Plain Jane Loaded Pretzel Bites"
+        },
+        {
+          "id": "harpoon-buffalo-chicken-loaded-pretzel-bites",
+          "name": "Buffalo Chicken Loaded Pretzel Bites"
+        },
+        {
+          "id": "harpoon-maple-bourbon-pretzel-bites",
+          "name": "Maple Bourbon Pretzel Bites"
+        },
+        {
+          "id": "harpoon-nacho-average-chicken-bacon-ranch-pretzel-bites",
+          "name": "Nacho Average Chicken Bacon Ranch Pretzel Bites"
+        },
+        {
+          "id": "harpoon-colossal-fried-shrimp-skewers",
+          "name": "Colossal Fried Shrimp Skewers"
+        },
+        {
+          "id": "harpoon-deli-style-smoked-corned-beef-sandwich",
+          "name": "Deli Style Smoked Corned Beef Sandwich"
+        },
+        {
+          "id": "harpoon-classic-smoked-corned-beef-sandwich",
+          "name": "Classic Smoked Corned Beef Sandwich"
+        },
+        {
+          "id": "harpoon-korean-style-smoked-corned-beef-sandwich",
+          "name": "Korean Style Smoked Corned Beef Sandwich"
+        },
+        {
+          "id": "harpoon-beer-experience-loaded-pretzel-bites",
+          "name": "Loaded Pretzel Bites"
+        },
+        {
+          "id": "harpoon-beer-hall-craft-beer",
+          "name": "Craft Beer"
+        },
+        {
+          "id": "harpoon-beer-hall-hard-seltzer",
+          "name": "Hard Seltzer"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "yankee-boy",
+      "name": "Yankee Boy",
+      "items": [
+        {
+          "id": "yankee-boy-smoked-honey-barbeque-sticky-wings",
+          "name": "Smoked Honey Barbeque Sticky Wings"
+        },
+        {
+          "id": "yankee-boy-colossal-centennial-lobster-roll",
+          "name": "Colossal Centennial Lobster Roll"
+        },
+        {
+          "id": "yankee-boy-wagyu-beef-surf-n-turf-burger",
+          "name": "Wagyu Beef Surf 'n Turf Burger"
+        },
+        {
+          "id": "yankee-boy-lobster-nachos",
+          "name": "Lobster Nachos"
+        },
+        {
+          "id": "yankee-boy-lobster-volcano",
+          "name": "Lobster Volcano"
+        },
+        {
+          "id": "yankee-boy-tots-topped-with-lobster",
+          "name": "Tots topped with Lobster"
+        },
+        {
+          "id": "yankee-boy-bbq-ribs",
+          "name": "BBQ Ribs"
+        },
+        {
+          "id": "yankee-boy-mac-and-cheese",
+          "name": "Mac & Cheese"
+        },
+        {
+          "id": "yankee-boy-lobster-dinners",
+          "name": "Lobster Dinners"
+        },
+        {
+          "id": "yankee-boy-exotic-meat-burgers",
+          "name": "Exotic Meat Burgers"
+        },
+        {
+          "id": "yankee-boy-camel-burger",
+          "name": "Camel Burger"
+        },
+        {
+          "id": "yankee-boy-kangaroo-burger",
+          "name": "Kangaroo Burger"
+        },
+        {
+          "id": "yankee-boy-gator-burger",
+          "name": "Gator Burger"
+        },
+        {
+          "id": "yankee-boy-jackalope-sausage",
+          "name": "Jackalope Sausage"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "sweet-salty",
+      "name": "Sweet & Salty",
+      "items": [
+        {
+          "id": "sweet-and-salty-founders-fizz",
+          "name": "Founder’s Fizz"
+        },
+        {
+          "id": "sweet-and-salty-fluffy-cola",
+          "name": "Fluffy Cola"
+        },
+        {
+          "id": "sweet-and-salty-sweet-shirley",
+          "name": "Sweet Shirley"
+        },
+        {
+          "id": "sweet-and-salty-cotton-candy-cloud",
+          "name": "Cotton Candy Cloud"
+        },
+        {
+          "id": "sweet-and-salty-autumn-apple",
+          "name": "Autumn Apple"
+        },
+        {
+          "id": "sweet-and-salty-dirty-dot-cake",
+          "name": "Dirty Dot Cake"
+        },
+        {
+          "id": "sweet-and-salty-slush-milk",
+          "name": "Slush Milk"
+        },
+        {
+          "id": "sweet-and-salty-island-treasure",
+          "name": "Island Treasure"
+        },
+        {
+          "id": "sweet-and-salty-hallowtacular",
+          "name": "Hallowtacular"
+        },
+        {
+          "id": "sweet-and-salty-mocha-chocolate-craze",
+          "name": "Mocha Chocolate Craze"
+        },
+        {
+          "id": "sweet-and-salty-pumpkin-spice-dirty-soda",
+          "name": "Pumpkin Spice dirty soda"
+        },
+        {
+          "id": "sweet-and-salty-pretzel-bites",
+          "name": "Pretzel Bites"
+        },
+        {
+          "id": "sweet-and-salty-butterbeer",
+          "name": "Butterbeer"
+        },
+        {
+          "id": "sweet-and-salty-frozen-oreo",
+          "name": "Frozen Oreo"
+        },
+        {
+          "id": "sweet-and-salty-flavored-popcorn",
+          "name": "Flavored popcorn"
+        },
+        {
+          "id": "sweet-and-salty-crookie",
+          "name": "Crookie"
+        }
+      ],
+      "reviews": []
+    }
+  ],
+  "batches": [
+    {
+      "id": "batch-001",
+      "createdOn": "2026-09-19",
+      "vendorIds": [
+        "athletic-brewing",
+        "bacardi-rum-beach-bar",
+        "bears-smokehouse",
+        "ben-jerrys",
+        "billies-baked-potato",
+        "bluet",
+        "carnival-candy",
+        "cindy-s-drive-in",
+        "cotton-candy-stall",
+        "craic-sauce"
+      ],
+      "completedIds": [
+        "athletic-brewing",
+        "bacardi-rum-beach-bar",
+        "bears-smokehouse",
+        "ben-jerrys",
+        "billies-baked-potato",
+        "bluet",
+        "carnival-candy",
+        "cindy-s-drive-in",
+        "cotton-candy-stall",
+        "craic-sauce"
+      ]
+    },
+    {
+      "id": "batch-002",
+      "createdOn": "2026-09-19",
+      "vendorIds": [
+        "crazy-sushi",
+        "creme-bru-la",
+        "dannys-spuds",
+        "delaney-s-market",
+        "dels-lemonade",
+        "emmas-wine-garden",
+        "finn-cakes",
+        "fire-co-catering",
+        "french-fry",
+        "friskie-fries"
+      ],
+      "completedIds": [
+        "crazy-sushi",
+        "creme-bru-la",
+        "dannys-spuds",
+        "delaney-s-market",
+        "dels-lemonade",
+        "emmas-wine-garden",
+        "finn-cakes",
+        "fire-co-catering",
+        "french-fry",
+        "friskie-fries"
+      ]
+    },
+    {
+      "id": "batch-003",
+      "createdOn": "2026-09-19",
+      "vendorIds": [
+        "funnel-cake",
+        "hawke-s",
+        "hot-fresh-mini-donuts",
+        "iona-s-kitchen",
+        "itskelewele31-llc",
+        "janik-s-pierogi-cafe",
+        "joey-s-deli-market",
+        "koffee-kup-bakery",
+        "madhrasi",
+        "maine-building"
+      ],
+      "completedIds": [
+        "funnel-cake",
+        "hawke-s",
+        "hot-fresh-mini-donuts",
+        "iona-s-kitchen",
+        "itskelewele31-llc",
+        "janik-s-pierogi-cafe",
+        "joey-s-deli-market",
+        "koffee-kup-bakery",
+        "madhrasi",
+        "maine-building"
+      ]
+    },
+    {
+      "id": "batch-004",
+      "createdOn": "2026-09-19",
+      "vendorIds": [
+        "maine-lobster-rolls",
+        "maine-potato-board",
+        "maureen-s-sweet-shoppe",
+        "meatball-factory",
+        "mini-donut-express",
+        "new-hampshire-kettle-corn",
+        "pizza",
+        "randys-wooster-street-pizza",
+        "rickeys-jerky",
+        "royal-rose"
+      ],
+      "completedIds": []
+    }
+  ]
+}

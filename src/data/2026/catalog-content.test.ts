@@ -26,6 +26,15 @@ const requiredReturningVendors = [
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
 const trustedFoodSources = new Set([
+  "https://www.instagram.com/bearssmokehouse/p/DdZ3QdOR-Dq/",
+  "https://www.instagram.com/bearssmokehouse/p/DdbbxEexE89/",
+  "https://www.instagram.com/delaneysmarket/reel/DdUu84VxgCx/",
+  "https://www.instagram.com/friskiefries/p/DdbwANtjM56/",
+  "https://www.instagram.com/itskelewele31/p/DdCEoieBf2j/",
+  "https://www.instagram.com/joeysdelimarket/p/DdT9iPdOjRa/",
+  "https://www.instagram.com/cremebru.la/reel/DdbyWuox2U0/",
+  "https://www.instagram.com/tripps_207/p/DdeZBh4x4P3/",
+  "https://www.instagram.com/tripps_207/p/DdZ_1_oDFYE/",
   "https://www.thebige.com/p/food2/newfoods",
   "https://www.thebige.com/p/food2/bargain-bites",
   "https://www.thebige.com/p/thingstodo/avenue/maine-building",
@@ -42,7 +51,9 @@ describe("2026 catalog content", () => {
     expect(catalogData.items.length).toBeGreaterThan(0);
     for (const item of catalogData.items) {
       expect(item.year).toBe(2026);
-      expect(trustedFoodSources.has(item.source.url)).toBe(true);
+      for (const source of [item.source, ...(item.supportingSources ?? [])]) {
+        expect(trustedFoodSources.has(source.url), source.url).toBe(true);
+      }
       expect(item.source.accessedOn).toMatch(/^2026-09-19$|^2026-09-17$|^2026-09-16$|^2026-09-14$|^2026-09-07$|^2026-08-27$/);
     }
   });

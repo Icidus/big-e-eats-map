@@ -117,14 +117,15 @@ export function ItemCard({ item, locationsById, isInPlan, backLabel = "Back to r
             ))}
           </div>
           {item.dietaryClaims.length > 0 ? <p className="mt-3 text-xs leading-5 text-muted-foreground">Confirm dietary needs and preparation details with the vendor.</p> : null}
-          <a
-            href={item.source.url}
+          {[item.source, ...(item.supportingSources ?? [])].map((source) => <a
+            key={source.url}
+            href={source.url}
             target="_blank"
             rel="noreferrer"
             className="mt-3 inline-flex min-h-11 items-center gap-1 text-xs font-semibold text-primary underline decoration-primary/35 underline-offset-4 hover:decoration-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           >
-            {item.source.publisher}: {item.source.title}<ExternalLink className="h-3 w-3" aria-hidden="true" />
-          </a>
+            {source.publisher}: {source.title}<ExternalLink className="h-3 w-3" aria-hidden="true" />
+          </a>)}
         </div>
       ) : null}
     </article>

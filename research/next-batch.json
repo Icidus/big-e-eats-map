@@ -1,0 +1,335 @@
+{
+  "batchId": "batch-004",
+  "vendors": [
+    {
+      "vendorId": "maine-lobster-rolls",
+      "name": "Maine Lobster Rolls",
+      "catalogItems": [
+        {
+          "id": "maine-lobster-roll",
+          "name": "Maine Lobster Roll"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Maine Lobster Rolls\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Maine+Lobster+Rolls%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Maine Lobster Rolls\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Maine+Lobster+Rolls%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "maine-lobster-rolls",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Maine Lobster Rolls\" \"Big E\" 2026",
+          "\"Maine Lobster Rolls\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "maine-potato-board",
+      "name": "Maine Potato Board",
+      "catalogItems": [
+        {
+          "id": "maine-potato-board-baked-potato",
+          "name": "Maine Baked Potato"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Maine Potato Board\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Maine+Potato+Board%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Maine Potato Board\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Maine+Potato+Board%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "maine-potato-board",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Maine Potato Board\" \"Big E\" 2026",
+          "\"Maine Potato Board\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "maureen-s-sweet-shoppe",
+      "name": "Maureen's Sweet Shoppe",
+      "catalogItems": [
+        {
+          "id": "maureens-sweet-shoppe-handmade-chocolates",
+          "name": "Handmade Chocolates"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Maureen's Sweet Shoppe\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Maureen%27s+Sweet+Shoppe%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Maureen's Sweet Shoppe\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Maureen%27s+Sweet+Shoppe%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "maureen-s-sweet-shoppe",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Maureen's Sweet Shoppe\" \"Big E\" 2026",
+          "\"Maureen's Sweet Shoppe\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "meatball-factory",
+      "name": "Meatball Factory",
+      "catalogItems": [
+        {
+          "id": "meatball-factory-sushi-corndog",
+          "name": "Sushi Corndog"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Meatball Factory\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Meatball+Factory%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Meatball Factory\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Meatball+Factory%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "meatball-factory",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Meatball Factory\" \"Big E\" 2026",
+          "\"Meatball Factory\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "mini-donut-express",
+      "name": "Mini Donut Express",
+      "catalogItems": [
+        {
+          "id": "mini-donut-express-mini-donuts-by-the-bag",
+          "name": "Mini Donuts by the Bag"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Mini Donut Express\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Mini+Donut+Express%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Mini Donut Express\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Mini+Donut+Express%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "mini-donut-express",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Mini Donut Express\" \"Big E\" 2026",
+          "\"Mini Donut Express\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "new-hampshire-kettle-corn",
+      "name": "New Hampshire Kettle Corn",
+      "catalogItems": [
+        {
+          "id": "new-hampshire-kettle-corn-kettle-corn",
+          "name": "Kettle Corn"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"New Hampshire Kettle Corn\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22New+Hampshire+Kettle+Corn%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"New Hampshire Kettle Corn\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22New+Hampshire+Kettle+Corn%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "new-hampshire-kettle-corn",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"New Hampshire Kettle Corn\" \"Big E\" 2026",
+          "\"New Hampshire Kettle Corn\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "pizza",
+      "name": "Pizza",
+      "catalogItems": [
+        {
+          "id": "midway-slice-of-cheese-pizza",
+          "name": "Slice of Cheese Pizza"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Pizza\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Pizza%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Pizza\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Pizza%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "pizza",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Pizza\" \"Big E\" 2026",
+          "\"Pizza\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "randys-wooster-street-pizza",
+      "name": "Randy’s Wooster Street Pizza",
+      "catalogItems": [
+        {
+          "id": "randys-wooster-street-pizza-pizza",
+          "name": "Pizza"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Randy’s Wooster Street Pizza\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Randy%E2%80%99s+Wooster+Street+Pizza%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Randy’s Wooster Street Pizza\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Randy%E2%80%99s+Wooster+Street+Pizza%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "randys-wooster-street-pizza",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Randy’s Wooster Street Pizza\" \"Big E\" 2026",
+          "\"Randy’s Wooster Street Pizza\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "rickeys-jerky",
+      "name": "Rickey’s Jerky",
+      "catalogItems": [
+        {
+          "id": "rickeys-jerky-assorted-beef-jerky",
+          "name": "Assorted Beef Jerky"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Rickey’s Jerky\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Rickey%E2%80%99s+Jerky%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Rickey’s Jerky\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Rickey%E2%80%99s+Jerky%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "rickeys-jerky",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Rickey’s Jerky\" \"Big E\" 2026",
+          "\"Rickey’s Jerky\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "royal-rose",
+      "name": "Royal Rose",
+      "catalogItems": [
+        {
+          "id": "royal-rose-wild-blueberry-beverage",
+          "name": "Wild Blueberry Beverage"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Royal Rose\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Royal+Rose%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Royal Rose\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Royal+Rose%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "royal-rose",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Royal Rose\" \"Big E\" 2026",
+          "\"Royal Rose\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    }
+  ]
+}

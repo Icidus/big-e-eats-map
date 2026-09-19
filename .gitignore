@@ -28,3 +28,6 @@ dist-ssr
 
 # Agent workflow artifacts
 .superpowers/
+
+# Python research tooling
+__pycache__/

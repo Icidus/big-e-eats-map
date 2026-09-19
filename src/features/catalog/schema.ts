@@ -42,6 +42,7 @@ export const catalogItemSchema = z.object({
   dietaryClaims: z.array(z.enum(DIETARY_CLAIMS)),
   isNewFor2026: z.boolean(),
   source: sourceSchema,
+  supportingSources: sourceSchema.array().optional(),
   coordinates: coordinateSchema.optional(),
 });
 

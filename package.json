@@ -10,7 +10,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "research": "python3 scripts/vendor_research.py",
+    "test:research": "python3 -m unittest discover -s scripts/tests"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

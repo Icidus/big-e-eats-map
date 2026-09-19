@@ -1,0 +1,233 @@
+[
+  {
+    "vendorId": "athletic-brewing",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Athletic Brewing\" \"Big E\" instagram"
+    ],
+    "notes": "Verified account via vendor website and inspected the 12 visible public grid entries. This was a discovery/thumbnail scan, not a full caption or archive review; no absence-of-food conclusion. No current Big E menu detail confirmed in this scope.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/athleticbrewing/",
+        "verified": true,
+        "evidenceUrl": "https://athleticbrewing.com/",
+        "evidence": "Linked directly from the vendor website."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "bacardi-rum-beach-bar",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Bacardi\" \"Rum Beach Bar\" \"Big E\" instagram",
+      "\"Bacardi Rum Beach Bar\" Instagram Facebook"
+    ],
+    "notes": "Vendor-name + Big E + Instagram/Facebook searches did not identify a reliable vendor account in this limited pass. Generic concession/sponsor naming needs operator identification; do not substitute unrelated brands or similarly named businesses.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "bears-smokehouse",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Bear’s Smokehouse\" \"Big E\" instagram"
+    ],
+    "notes": "Verified account, scanned 12 visible entries, then read vendor captions on September 17 and 18 Big E posts. Compared named foods against the entire catalog; only generic BBQ exists for this vendor.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/bearssmokehouse/",
+        "verified": true,
+        "evidenceUrl": "https://bearsbbq.com/",
+        "evidence": "Linked directly from the vendor website."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Bucket of Moinks: 16 pieces for $25 in a souvenir bucket, while supplies last. Proposed new item; catalog currently lists only BBQ.",
+        "url": "https://www.instagram.com/bearssmokehouse/p/DdZ3QdOR-Dq/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-17",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "itemName": "Bucket of Moinks",
+        "priceUSD": 25,
+        "quantity": 16
+      },
+      {
+        "detail": "Bear Necessit-E sandwich explicitly offered at the fair; absent from catalog. Ingredients and price not confirmed by this caption.",
+        "url": "https://www.instagram.com/bearssmokehouse/p/DdbbxEexE89/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-18",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "itemName": "Bear Necessit-E Sandwich"
+      },
+      {
+        "detail": "Vendor says it is outside the Connecticut Building, serving daily 10 a.m.–9 p.m. at the fair.",
+        "url": "https://www.instagram.com/bearssmokehouse/p/DdbbxEexE89/",
+        "kind": "location",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-18",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  },
+  {
+    "vendorId": "ben-jerrys",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Ben & Jerry\" \"Big E\" instagram"
+    ],
+    "notes": "Verified account via vendor website and inspected the 12 visible public grid entries. This was a discovery/thumbnail scan, not a full caption or archive review; no absence-of-food conclusion. No current Big E menu detail confirmed in this scope.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/benandjerrys/",
+        "verified": true,
+        "evidenceUrl": "https://www.benjerry.com/",
+        "evidence": "Linked directly from the vendor website."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "billies-baked-potato",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "\"Billie's Baked Potato\" Instagram",
+      "\"Billies Baked Potatoes\" instagram"
+    ],
+    "notes": "Vendor website links to Facebook; direct public Facebook visit showed a login prompt. Website reviewed: dated 2026 fair schedule plus general menu; individual menu availability at Big E remains unverified. No Instagram account verified.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/p/Billies-Baked-Potatoes-100057525914795/",
+        "verified": true,
+        "evidenceUrl": "https://www.billiesbakedpotatoes.com/home",
+        "evidence": "Linked directly from the vendor website."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Vendor website lists its 2026 Big E dates and a general menu: Billie’s Special, Broccoli & Cheese, Chilli & Cheese, and Veggie Potato. Potential variants beyond generic Baked Potatoes; confirm the fair menu before adding.",
+        "url": "https://www.billiesbakedpotatoes.com/home",
+        "kind": "new-item",
+        "confidence": "lead",
+        "publishedOn": null,
+        "event": null,
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  },
+  {
+    "vendorId": "bluet",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Bluet\" wine Instagram official"
+    ],
+    "notes": "Inspected vendor site, directory account link, and 12 public Instagram grid entries (2024–2026). No Big E-specific menu verified; national/general product posts do not prove fair availability.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/bluetbubbles/",
+        "verified": true,
+        "evidenceUrl": "https://mainebeertastingrooms.com/regions/portlandcascobay/bluet/",
+        "evidence": "Directory identifies the account; live profile identifies Maine blueberry sparkling wine and links back to bluet.me/shop."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "carnival-candy",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Carnival Candy\" \"Big E\"",
+      "\"Carnival Candy\" \"Big E\" Instagram Facebook"
+    ],
+    "notes": "Vendor-name + Big E + Instagram/Facebook searches did not identify a reliable vendor account in this limited pass. Generic concession/sponsor naming needs operator identification; do not substitute unrelated brands or similarly named businesses.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "cindy-s-drive-in",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Cindy's Drive-in\" instagram"
+    ],
+    "notes": "Verified account, scanned 12 visible entries, and read September 18 Big E reel caption. Confirmed attendance; caption does not enumerate menu items. Video and full menu were not transcribed. Visitor dairy-free question is not confirmation.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/cindysdrivein/",
+        "verified": true,
+        "evidenceUrl": "https://cindysdrivein.com/",
+        "evidence": "Linked directly from the vendor website."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "September 18 vendor reel confirms return to The Big E; no additional named food confirmed in caption.",
+        "url": "https://www.instagram.com/cindysdrivein/reel/Ddbxqsluu_-/",
+        "kind": "confirmation",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-18",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  },
+  {
+    "vendorId": "cotton-candy-stall",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Cotton Candy\" \"Tajin Candy Apples\" \"Big E\"",
+      "\"Cotton Candy Stall\" \"Big E\" Instagram Facebook"
+    ],
+    "notes": "Vendor-name + Big E + Instagram/Facebook searches did not identify a reliable vendor account in this limited pass. Generic concession/sponsor naming needs operator identification; do not substitute unrelated brands or similarly named businesses.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "craic-sauce",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Craic Sauce\" instagram \"Big E\""
+    ],
+    "notes": "Verified account; scanned 12 public entries and read September 10 caption. The food/drink specials in that post concern Lowell Irish Festival, not The Big E.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/craicsauce/",
+        "verified": true,
+        "evidenceUrl": "https://craicsauce.com/",
+        "evidence": "Linked directly from the vendor website."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Bloody Sungold drink and curry aioli burger topping relate to Lowell Irish Festival; exclude from Big E additions.",
+        "url": "https://www.instagram.com/craicsauce/p/DdHGNLIEXV9/",
+        "kind": "detail",
+        "confidence": "lead",
+        "publishedOn": "2026-09-10",
+        "event": "Lowell Irish Festival",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  }
+]

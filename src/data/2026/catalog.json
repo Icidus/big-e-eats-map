@@ -1896,7 +1896,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Tripp’s Farmhouse Café",
+        "title": "Big E food and entrance location",
+        "url": "https://www.instagram.com/tripps_207/p/DdZ_1_oDFYE/",
+        "accessedOn": "2026-09-19"
+      }
+    ],
+    "description": "Vendor directs visitors to the village entrance off Commonwealth Avenue; the map marker is approximate."
   },
   {
     "id": "tripps-chicken-fingers",
@@ -1923,7 +1932,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Tripp’s Farmhouse Café",
+        "title": "Big E food and entrance location",
+        "url": "https://www.instagram.com/tripps_207/p/DdZ_1_oDFYE/",
+        "accessedOn": "2026-09-19"
+      }
+    ],
+    "description": "Vendor directs visitors to the village entrance off Commonwealth Avenue; the map marker is approximate."
   },
   {
     "id": "tripps-grass-fed-burgers",
@@ -1975,7 +1993,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Tripp’s Farmhouse Café",
+        "title": "Big E food and entrance location",
+        "url": "https://www.instagram.com/tripps_207/p/DdeZBh4x4P3/",
+        "accessedOn": "2026-09-19"
+      }
+    ],
+    "description": "Vendor directs visitors to the village entrance off Commonwealth Avenue; the map marker is approximate."
   },
   {
     "id": "big-e-bakery-peanut-butter-cream-puff",
@@ -4376,7 +4403,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "Crème Brûlée from the Massachusetts Building's 2026 exhibitors.",
+    "description": "Torched to order. Big E flavors: Maple, Vanilla, Sweet Corn, Cappuccino, Pumpkin Spice, and Happy Valley Mint Chocolate. Find the Crème Bru LA shed outside the Massachusetts Building on the Rhode Island side.",
     "categoryIds": [
       "desserts"
     ],
@@ -4390,7 +4417,15 @@
       "title": "Massachusetts Building",
       "url": "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building",
       "accessedOn": "2026-09-16"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Crème Bru LA",
+        "title": "Big E flavors and location",
+        "url": "https://www.instagram.com/cremebru.la/reel/DdbyWuox2U0/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "delaneys-market-popover-sandwiches",
@@ -16962,5 +16997,403 @@
       "accessedOn": "2026-09-19"
     },
     "description": "Listed on the Avenue Of States map in the saved MassLive Eater’s Guide (PDF page 22); availability is source-reported."
+  },
+  {
+    "id": "bears-smokehouse-bucket-of-moinks",
+    "year": 2026,
+    "name": "Bucket of Moinks",
+    "vendor": "Bear’s Smokehouse",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "16 Moinks in a souvenir bucket. Vendor advertised $25 on September 17, 2026, while supplies last. Outside the Connecticut Building.",
+    "categoryIds": [
+      "barbecue"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bear’s Smokehouse",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/bearssmokehouse/p/DdZ3QdOR-Dq/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "bears-smokehouse-bear-necessit-e-sandwich",
+    "year": 2026,
+    "name": "Bear Necessit-E Sandwich",
+    "vendor": "Bear’s Smokehouse",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Vendor-confirmed Big E sandwich, served outside the Connecticut Building.",
+    "categoryIds": [
+      "sandwiches",
+      "barbecue"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bear’s Smokehouse",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/bearssmokehouse/p/DdbbxEexE89/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "delaney-s-market-hot-popovers-with-flavored-butter",
+    "year": 2026,
+    "name": "Hot Popovers with Flavored Butter",
+    "vendor": "Delaney's Market",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Fresh hot popovers with a choice of maple bacon, strawberry, or apple cinnamon butter. Find Delaney’s in the Massachusetts Building.",
+    "categoryIds": [
+      "donuts-pastries"
+    ],
+    "tagIds": [
+      "maple",
+      "bacon",
+      "apple"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Delaney's Market",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/delaneysmarket/reel/DdUu84VxgCx/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "friskie-fries-rhode-island-style-calamari",
+    "year": 2026,
+    "name": "Rhode Island-style Calamari",
+    "vendor": "Friskie Fries",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Big E special at the Rhode Island Building. Vendor confirmed September 18, 2026; price not provided.",
+    "categoryIds": [
+      "seafood"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Friskie Fries",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/friskiefries/p/DdbwANtjM56/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "itskelewele31-llc-kelewele",
+    "year": 2026,
+    "name": "Kelewele",
+    "vendor": "ItsKelewele31 LLC",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Named on the vendor’s 2026 Big E menu. Find It’s Kelewele 31 in the Massachusetts Building.",
+    "categoryIds": [
+      "global-eats",
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "ItsKelewele31 LLC",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/itskelewele31/p/DdCEoieBf2j/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "itskelewele31-llc-jollof-arancini",
+    "year": 2026,
+    "name": "Jollof Arancini",
+    "vendor": "ItsKelewele31 LLC",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Named on the vendor’s 2026 Big E menu. Find It’s Kelewele 31 in the Massachusetts Building.",
+    "categoryIds": [
+      "global-eats",
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "ItsKelewele31 LLC",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/itskelewele31/p/DdCEoieBf2j/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "itskelewele31-llc-turkey-tails-on-a-stick",
+    "year": 2026,
+    "name": "Turkey Tails on a Stick",
+    "vendor": "ItsKelewele31 LLC",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Named on the vendor’s 2026 Big E menu. Find It’s Kelewele 31 in the Massachusetts Building.",
+    "categoryIds": [
+      "global-eats",
+      "other-savory"
+    ],
+    "tagIds": [
+      "savory",
+      "food-on-a-stick"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "ItsKelewele31 LLC",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/itskelewele31/p/DdCEoieBf2j/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "itskelewele31-llc-hibiscus-sun",
+    "year": 2026,
+    "name": "Hibiscus Sun",
+    "vendor": "ItsKelewele31 LLC",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Named on the vendor’s 2026 Big E menu. Find It’s Kelewele 31 in the Massachusetts Building.",
+    "categoryIds": [
+      "mocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "ItsKelewele31 LLC",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/itskelewele31/p/DdCEoieBf2j/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "itskelewele31-llc-mango-paradise",
+    "year": 2026,
+    "name": "Mango Paradise",
+    "vendor": "ItsKelewele31 LLC",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Named on the vendor’s 2026 Big E menu. Find It’s Kelewele 31 in the Massachusetts Building.",
+    "categoryIds": [
+      "mocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "ItsKelewele31 LLC",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/itskelewele31/p/DdCEoieBf2j/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "itskelewele31-llc-lychee-bloom",
+    "year": 2026,
+    "name": "Lychee Bloom",
+    "vendor": "ItsKelewele31 LLC",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Named on the vendor’s 2026 Big E menu. Find It’s Kelewele 31 in the Massachusetts Building.",
+    "categoryIds": [
+      "mocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "ItsKelewele31 LLC",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/itskelewele31/p/DdCEoieBf2j/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "itskelewele31-llc-lavender-moon",
+    "year": 2026,
+    "name": "Lavender Moon",
+    "vendor": "ItsKelewele31 LLC",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Named on the vendor’s 2026 Big E menu. Find It’s Kelewele 31 in the Massachusetts Building.",
+    "categoryIds": [
+      "mocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "ItsKelewele31 LLC",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/itskelewele31/p/DdCEoieBf2j/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "joey-s-deli-market-chicken-pot-hand-pie",
+    "year": 2026,
+    "name": "Chicken Pot Hand Pie",
+    "vendor": "Joey's Deli & Market",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Vendor-confirmed for the 2026 Big E at the Massachusetts Building.",
+    "categoryIds": [
+      "comfort-bowls"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Joey's Deli & Market",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/joeysdelimarket/p/DdT9iPdOjRa/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "joey-s-deli-market-pulled-pork-mac-cheese-hand-pie",
+    "year": 2026,
+    "name": "Pulled Pork Mac & Cheese Hand Pie",
+    "vendor": "Joey's Deli & Market",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Vendor-confirmed for the 2026 Big E at the Massachusetts Building.",
+    "categoryIds": [
+      "mac-cheese",
+      "barbecue"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Joey's Deli & Market",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/joeysdelimarket/p/DdT9iPdOjRa/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "joey-s-deli-market-shepherds-hand-pie",
+    "year": 2026,
+    "name": "Shepherd’s Hand Pie",
+    "vendor": "Joey's Deli & Market",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Vendor-confirmed for the 2026 Big E at the Massachusetts Building.",
+    "categoryIds": [
+      "comfort-bowls"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Joey's Deli & Market",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/joeysdelimarket/p/DdT9iPdOjRa/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "joey-s-deli-market-warm-apple-hand-pie",
+    "year": 2026,
+    "name": "Warm Apple Hand Pie",
+    "vendor": "Joey's Deli & Market",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Vendor-confirmed for the 2026 Big E at the Massachusetts Building.",
+    "categoryIds": [
+      "donuts-pastries"
+    ],
+    "tagIds": [
+      "sweet",
+      "apple"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Joey's Deli & Market",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/joeysdelimarket/p/DdT9iPdOjRa/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "joey-s-deli-market-whoopie-pies",
+    "year": 2026,
+    "name": "Whoopie Pies",
+    "vendor": "Joey's Deli & Market",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Vendor-confirmed for the 2026 Big E at the Massachusetts Building.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Joey's Deli & Market",
+      "title": "Big E menu announcement",
+      "url": "https://www.instagram.com/joeysdelimarket/p/DdT9iPdOjRa/",
+      "accessedOn": "2026-09-19"
+    }
   }
 ]

@@ -1,4 +1,4 @@
-import { Compass, Home, Map as MapIcon, MapPinned } from "lucide-react";
+import { Compass, Home, Map as MapIcon, MapPinned, Store } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { readBrowseSearch } from "@/features/discovery/lastBrowse";
@@ -19,6 +19,7 @@ export function AppNav() {
       <div className="mx-auto flex max-w-7xl items-stretch justify-around md:justify-end md:gap-1 md:px-6">
         <AppNavLink to="/" end icon={Home} label="Home" />
         <AppNavLink to={browseTo} icon={Compass} label="Browse" />
+        <AppNavLink to="/vendors" icon={Store} label="Vendors" />
         <AppNavLink to="/map" icon={MapIcon} label="Map" />
         <AppNavLink to="/plan" icon={MapPinned} label="My Plan" ariaLabel={planLabel} badge={itemIds.length} />
       </div>
@@ -41,7 +42,7 @@ function AppNavLink({ to, end, icon: Icon, label, ariaLabel, badge }: {
       aria-label={ariaLabel ?? label}
       className={({ isActive }) =>
         cn(
-          "relative flex min-h-14 min-w-20 flex-col items-center justify-center gap-0.5 px-3 text-[11px] font-bold uppercase tracking-wide transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:min-h-11 md:flex-row md:gap-2 md:text-xs",
+          "relative flex min-h-14 min-w-0 flex-1 flex-col items-center justify-center gap-0.5 px-2 text-[11px] font-bold uppercase tracking-wide transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:flex-none md:px-3 md:min-h-11 md:flex-row md:gap-2 md:text-xs",
           isActive ? "text-primary" : "text-muted-foreground hover:text-primary",
         )
       }

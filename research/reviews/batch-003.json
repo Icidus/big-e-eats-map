@@ -1,0 +1,221 @@
+[
+  {
+    "vendorId": "funnel-cake",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Funnel Cake\" \"Waffle Cone\" \"Big E\" vendor"
+    ],
+    "notes": "Limited public vendor-name searches did not identify a reliable account. No current Big E menu additions verified; this does not establish that no account exists. Fair Bargain Bites page uses this generic Midway stall label; operator still unidentified.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "hawke-s",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Hawke\" \"Big E\" lobster instagram",
+      "\"Hawkes\" lobster \"Big E\""
+    ],
+    "notes": "Limited public vendor-name searches did not identify a reliable account. No current Big E menu additions verified; this does not establish that no account exists.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "hot-fresh-mini-donuts",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Hot & Fresh Mini Donuts\" \"Big E\"",
+      "\"Hot Fresh Mini Donuts\" \"Big E\" instagram"
+    ],
+    "notes": "Limited public vendor-name searches did not identify a reliable account. No current Big E menu additions verified; this does not establish that no account exists. Prior-year coverage uses the same generic label. Donuts with a Twist was an unrelated search lead, not a verified alias.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "iona-s-kitchen",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Iona's Kitchen\" instagram",
+      "\"Iona's Kitchen\" Massachusetts website"
+    ],
+    "notes": "Limited public vendor-name searches did not identify a reliable account. No current Big E menu additions verified; this does not establish that no account exists. Opened ionaskitchen.com without finding social links. Candidate @ionaskitchen exposed no matching business identity and was not accepted. General Springfield restaurant menu was not treated as a fair menu.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "itskelewele31-llc",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"ItsKelewele31\" instagram"
+    ],
+    "notes": "Verified via vendor website and scanned 12 visible public grid entries. Limited review, not an exhaustive caption/archive scan. Read September 8 and 16 captions; visually inspected September 8 menu image after dismissing the signup prompt. Used legible image text, not automatic alt text, to confirm named foods. Full catalog comparison found only a generic listing for this vendor.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/itskelewele31/",
+        "verified": true,
+        "evidenceUrl": "https://www.itskelewele31.com/",
+        "evidence": "Vendor website links directly to account; public business profile matches."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Menu image names Kelewele, Jollof Arancini, and Turkey Tails on a Stick, plus mocktails Hibiscus Sun, Mango Paradise, Lychee Bloom, and Lavender Moon. Caption ties the menu to the 2026 fair. Seven proposed named entries; ingredients/prices not supplied.",
+        "url": "https://www.instagram.com/itskelewele31/p/DdCEoieBf2j/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-08",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "itemNames": [
+          "Kelewele",
+          "Jollof Arancini",
+          "Turkey Tails on a Stick",
+          "Hibiscus Sun",
+          "Mango Paradise",
+          "Lychee Bloom",
+          "Lavender Moon"
+        ]
+      },
+      {
+        "detail": "September 16 caption confirms still and sparkling botanical mocktails and a new slushy machine; no slushy flavors or prices stated. Massachusetts Building, September 18–October 4, 10 a.m.–9 p.m. daily.",
+        "url": "https://www.instagram.com/itskelewele31/p/DdXZ3fPsn1U/",
+        "kind": "detail",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-16",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  },
+  {
+    "vendorId": "janik-s-pierogi-cafe",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Janik\" \"Pierogi\" instagram"
+    ],
+    "notes": "Verified via vendor website and scanned 12 visible public grid entries. Limited review, not an exhaustive caption/archive scan. Most recent visible entry was September 2025; no 2026 menu confirmed. General retail frozen-pierogi flavors/prices were not imported as fair offerings.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/janikspierogicafe/",
+        "verified": true,
+        "evidenceUrl": "https://janikspierogicafe.com/",
+        "evidence": "Vendor website links directly to account; public business profile matches."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "joey-s-deli-market",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Joey's Deli\" \"Big E\" instagram",
+      "\"Joey's Deli & Market\" website"
+    ],
+    "notes": "Verified via vendor website and scanned 12 visible public grid entries. Limited review, not an exhaustive caption/archive scan. Read September 15 Big E menu caption and September 17 retail-shop caption. Excluded local grocery products and deli opening hours from fair data. Catalog has only Create-your-own Dinners for this vendor.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/joeysdelimarket/",
+        "verified": true,
+        "evidenceUrl": "https://joeysdelimarket.com/",
+        "evidence": "Vendor website links directly to account; public business profile matches."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Vendor offers hand pies filled with chicken pot pie, pulled pork mac and cheese, shepherd’s pie, or warm apple pie, plus whoopie pies at the Massachusetts Building. Five proposed named offerings; no prices provided.",
+        "url": "https://www.instagram.com/joeysdelimarket/p/DdT9iPdOjRa/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "publishedOn": "2026-09-15",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "itemNames": [
+          "Chicken Pot Hand Pie",
+          "Pulled Pork Mac & Cheese Hand Pie",
+          "Shepherd’s Hand Pie",
+          "Warm Apple Hand Pie",
+          "Whoopie Pies"
+        ]
+      }
+    ]
+  },
+  {
+    "vendorId": "koffee-kup-bakery",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Koffee Kup Bakery\" Springfield instagram"
+    ],
+    "notes": "Public Facebook intro and one relative-dated post accessible before login prompt. Post advertises Massachusetts Building September 18–October 4; no exact publication timestamp or post permalink recovered, so retained as a lead. Menu images not transcribed.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/p/Koffee-Kup-Bakery-100063562330509/",
+        "verified": true,
+        "evidenceUrl": "https://wanderlog.com/place/details/3017471/koffee-kup-bakery",
+        "evidence": "Directory links to this page; public profile matches Chicopee address and phone and shows a Massachusetts Building post."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Public page shows a fair attendance announcement, but no named additional baked goods were verified. Recover dated post permalink before treating as a confirmed research finding.",
+        "url": "https://www.facebook.com/p/Koffee-Kup-Bakery-100063562330509/",
+        "kind": "confirmation",
+        "confidence": "lead",
+        "publishedOn": null,
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  },
+  {
+    "vendorId": "madhrasi",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Madhrasi\" instagram"
+    ],
+    "notes": "Verified via vendor website and scanned 12 visible public grid entries. Limited review, not an exhaustive caption/archive scan. Read September 3 caption: it advertises Utah tastings, not Big E availability. A Big E highlight exists but its contents were not reviewed. No new fair menu confirmed.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/madhrasichai/",
+        "verified": true,
+        "evidenceUrl": "https://madhrasi.com/contact/",
+        "evidence": "Vendor website links directly to account; public business profile matches."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "maine-building",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Maine Building\" \"Blueberry\" \"2026\" Big E"
+    ],
+    "notes": "Area-level catalog label, not a single vendor. Reviewed Maine DACF 2026 exhibitor table and fair building page instead of assigning an unrelated social account. Named exhibitors should be researched individually.",
+    "accounts": [],
+    "findings": [
+      {
+        "detail": "Official 2026 exhibitor table identifies Fields Fields Blueberries for blueberry crisp/leaf teas. It also lists Noble Pizzeria & Barbecue at O-4, while earlier catalog/press naming uses Fire & Co.; reconcile operator identity before merging records. Page is undated, so queued for follow-up under the current evidence rules.",
+        "url": "https://www.maine.gov/dacf/ard/events/bige/index.shtml",
+        "kind": "detail",
+        "confidence": "lead",
+        "publishedOn": null,
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  }
+]

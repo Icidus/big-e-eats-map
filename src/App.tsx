@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
 import { AppNav } from "@/components/AppNav";
+import { VendorsPage } from "./pages/VendorsPage";
 import Index from "./pages/Index";
 import { BrowsePage } from "./pages/BrowsePage";
 import LocationDetail from "./pages/LocationDetail";
@@ -27,6 +28,7 @@ export function AppRoutes() {
       <Suspense fallback={<RouteLoadingFallback />}>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/vendors" element={<VendorsPage />} />
           <Route path="/browse" element={<BrowsePage />} />
           <Route path="/location/:id" element={<LocationDetail />} />
           <Route path="/masslive-favorites" element={<Navigate replace to="/" />} />

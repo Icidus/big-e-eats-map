@@ -4,6 +4,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import { CategoryChips } from "@/components/discovery/CategoryChips";
 import { CatalogStatusNotice } from "@/components/discovery/CatalogStatusNotice";
 import { FilterSheet } from "@/components/discovery/FilterSheet";
+import { VendorLinks } from "@/components/discovery/VendorLinks";
 import { ItemCard } from "@/components/discovery/ItemCard";
 import { SelectedFilters, type SelectedFilter } from "@/components/discovery/SelectedFilters";
 import { Button } from "@/components/ui/button";
@@ -76,6 +77,11 @@ export function BrowsePage() {
       <CatalogStatusNotice />
 
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        {state.vendorIds.map((id) => <section key={id} className="mb-5 border-l-4 border-secondary bg-card p-4" aria-label="Selected vendor">
+          <Link to="/vendors" className="inline-flex min-h-11 items-center text-sm font-semibold text-primary underline">← All vendors</Link>
+          <h2 className="font-serif text-2xl font-bold">{vendorNamesById.get(id) ?? id}</h2>
+          <VendorLinks vendorId={id} />
+        </section>)}
         {activeCollection ? <section aria-label="Selected collection" className="mb-5 border-l-4 border-secondary bg-card p-4">
           <h2 className="font-serif text-2xl font-bold">{activeCollection.title}</h2>
           <p className="mt-2 text-sm text-muted-foreground">{activeCollection.description}</p>
