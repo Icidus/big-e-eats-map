@@ -1,6 +1,6 @@
 # Vendor research progress
 
-135 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+145 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -1030,6 +1030,48 @@ no-account-found · 2026-09-19 · 5 catalog items
 Exact name and unpunctuated social query returned unrelated restaurants/markets and historical guide, no confirmed operator.
 
 
+## Kora & Mila's Cookie Dough
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Read Facebook current Big E post, linked Instagram and Sep17 Brandy Old Fashioned announcement. Existing flavor confirmed, stand across fire station near Hampden restrooms.
+
+- Account: https://www.facebook.com/koraandmilascookiedough/ (verified)
+- Account: https://www.instagram.com/koraandmilascookiedough/ (verified)
+
+## Mackens Sliders
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Read official website with linked Facebook/Instagram. Current Facebook burger poll does not establish fair availability for extra flavors. Enriched already-listed Caprese only from official recipe.
+
+- Account: https://www.mackenssliders.com/ (verified)
+- Account: https://www.facebook.com/cateringmackenssliders/ (verified)
+- Account: https://www.instagram.com/mackenssliders/ (verified)
+
+## Marion’s Fried Dough
+
+inaccessible · 2026-09-19 · 5 catalog items
+
+Exact-name search found Facebook personal-style page with no work/menu content; insufficient identity, no public link. Official current Fried Kool Aid special already represented.
+
+- Account: https://www.facebook.com/marions.frieddough/ (candidate)
+
+## NOLA Cajun Kitchen & Raw Bar
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Read exact West Springfield Facebook profile at1305 Memorial Avenue with current Day One post. Instagram bio handle unavailable. Excluded similarly named Shrewsbury/West Boylston restaurant. Current official newfoods and bargain menu enrich existing items.
+
+- Account: https://www.facebook.com/p/Nola-Cajun-Kitchen-Raw-Bar-61564673143397/ (verified)
+
+## Omar Gourmet Coffee
+
+no-account-found · 2026-09-19 · 5 catalog items
+
+Read Omar Coffee wholesale website. Regional brand identity established, but no evidence it operates catalog stand; may be supplier. No online coffee flavors or brand account assigned.
+
+
 ## Poppie’s Fresh Onion Rings
 
 reviewed · 2026-09-19 · 5 catalog items
@@ -1052,6 +1094,21 @@ Official website links Facebook and Instagram. Opened own Sep18 opening-day post
 - Account: https://www.facebook.com/SteamingTenderRestaurant/ (verified)
 - Account: https://www.instagram.com/steamingtender/ (verified)
 - **confirmed / new-item**: Opening-day post confirms Whiskey, Pumpkin, S’mores and Chocolate Banana Whiskey Bread Pudding at Craft Common. [Source](https://www.instagram.com/steamingtender/p/Ddbn0EsxBt5/) (checked 2026-09-19)
+
+## Sugar Shakers
+
+no-account-found · 2026-09-19 · 5 catalog items
+
+Exact fair-name search returns fair/news and kitchen equipment; no verified operator. Current official small funnel cake special already present.
+
+
+## The Donut Family
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Read matching Facebook: current Big E White Chocolate Raspberry announcement confirms existing flavor. Website certificate mismatch, not bypassed. Official current New Foods gives full ingredients.
+
+- Account: https://www.facebook.com/Thedonutfamily/ (verified)
 
 ## Dr. Vegetable
 
@@ -1114,6 +1171,26 @@ Read official website’s specific Sep 18–Oct 4, 2026 fair announcement: N28, 
 - **lead / new-item**: Apple Crisp confirmed in official 2026 fair menu at N28, outside Young Building. [Source](https://www.luannsbakery.com/pages/what) (checked 2026-09-19)
 - **lead / new-item**: Mini Funfetti Cupcakes listed as September 21 Bargain Bites special. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 
+## Macho Taco
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Read Agawam website and matching Facebook profile. Latest restaurant quesadilla post not fair-specific; excluded. Current official fair provides Birria Bomb description and watermelon agua fresca special.
+
+- Account: https://www.machotacorestaurant.com/ (verified)
+- Account: https://www.facebook.com/machotacorestaurant/ (verified)
+
+## SoulFully
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Official website links both accounts. Opened own Sep18 post: five-piece tenders new all17days, Front Porch in front of Gate5; $5 September21 offer. Added new fair item. Store-only cheeseburger discount excluded.
+
+- Account: https://soulfullyvegan.com/ (verified)
+- Account: https://www.instagram.com/soul_fully_vegan/ (verified)
+- Account: https://www.facebook.com/soulfullyvegan (verified)
+- **confirmed / new-item**: Five-piece vegan tenders debut at fair; $5 September21 special and Gate5 Front Porch location. [Source](https://www.instagram.com/soul_fully_vegan/p/Ddb8uH0RyAG/) (checked 2026-09-19)
+
 ## Soup-R Bowl
 
 inaccessible · 2026-09-19 · 6 catalog items
@@ -1122,6 +1199,13 @@ Exact-name fair search identifies SoupRBowl Facebook with own Big E caption. Dir
 
 - Account: https://www.facebook.com/SoupRBowl/ (candidate)
 - **lead / new-item**: Current fair Bargain Bites lists Clam Chowder, Cream of Broccoli and Chili. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## The Hub
+
+no-account-found · 2026-09-19 · 6 catalog items
+
+Exact fair-name search returned official/news listings and unrelated media Hub. No verified operator. Official current Small Cheese Fries special missing; added.
+
 
 ## Golden K-Dog
 

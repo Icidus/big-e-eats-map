@@ -3034,7 +3034,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Cookie dough with non-alcoholic brandy flavor, orange zest, cinnamon, dark chocolate chips and dried tart cherries; chocolate-dipped and rolled in Biscoff crumbs. Across from the fire station near Hampden Avenue restrooms.",
+    "supportingSources": [
+      {
+        "publisher": "Kora & Mila’s Cookie Dough",
+        "title": "Big E flavor and location",
+        "url": "https://www.instagram.com/koraandmilascookiedough/p/DdZ6p68h6qt/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "ferrindino-maple-creemee-bacon-waffle",
@@ -3473,7 +3482,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Deep-fried ball of rice, slow-simmered shredded birria beef and nacho cheese, coated with Hot Cheeto dust and served with birria consommé."
   },
   {
     "id": "meatball-factory-sushi-corndog",
@@ -3903,7 +3913,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Sugared mini donuts layered with white chocolate and raspberry drizzle, white chocolate chips, powdered sugar, homemade whipped cream and patriotic sprinkles."
   },
   {
     "id": "indian-restaurant-vada-pav",
@@ -4879,7 +4890,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "A vegetarian Caprese slider from Mackens Sliders.",
+    "description": "Fresh sliced tomato, mozzarella, basil pesto and balsamic reduction.",
     "categoryIds": [
       "burgers"
     ],
@@ -4896,7 +4907,15 @@
       "title": "Massachusetts Building",
       "url": "https://www.thebige.com/p/thingstodo/avenue/massachusetts-building",
       "accessedOn": "2026-09-16"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Macken’s Sliders",
+        "title": "Official slider descriptions",
+        "url": "https://www.mackenssliders.com/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "mackens-sliders-french-fries",
@@ -7147,7 +7166,7 @@
     "locationIds": [
       "new-england-avenue"
     ],
-    "description": "The guide map calls this Chicken Etouffee with Crawfish.",
+    "description": "Chicken etouffee over dirty rice with crispy crawfish and Cajun gravy on New England Avenue; included in September 21 Bargain Bites Day.",
     "categoryIds": [
       "comfort-bowls",
       "global-eats"
@@ -7162,7 +7181,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "Bargain Bites Day",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "ny-style-pizza-pizza-slices",
@@ -18755,6 +18782,80 @@
     "tagIds": [
       "savory",
       "fried"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "soulfully-five-piece-vegan-tenders",
+    "year": 2026,
+    "name": "Five-piece Vegan Tenders",
+    "vendor": "SoulFully",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "Five-piece vegan tender order, new for the 2026 fair at The Front Porch in front of Gate 5. The vendor advertises a $5 special on September 21.",
+    "categoryIds": [
+      "chicken-wings"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": true,
+    "source": {
+      "publisher": "SoulFully Vegan",
+      "title": "New five-piece tenders at The Big E",
+      "url": "https://www.instagram.com/soul_fully_vegan/p/Ddb8uH0RyAG/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "macho-taco-watermelon-agua-fresca",
+    "year": 2026,
+    "name": "Watermelon Agua Fresca",
+    "vendor": "Macho Taco",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "Watermelon agua fresca at E-15 on East Road; September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "the-hub-small-cheese-fries",
+    "year": 2026,
+    "name": "Small Cheese Fries",
+    "vendor": "The Hub",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Small cheese fries on New England Avenue; September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
     ],
     "dietaryClaims": [],
     "isNewFor2026": false,

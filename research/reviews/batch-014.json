@@ -1,0 +1,206 @@
+[
+  {
+    "vendorId": "kora-mila-s-cookie-dough",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Kora\" \"Mila\" cookie dough official"
+    ],
+    "notes": "Read Facebook current Big E post, linked Instagram and Sep17 Brandy Old Fashioned announcement. Existing flavor confirmed, stand across fire station near Hampden restrooms.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/koraandmilascookiedough/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/koraandmilascookiedough/p/DdZ6p68h6qt/",
+        "evidence": "Own current announcement explicitly names Big E stand and matching Facebook links handle."
+      },
+      {
+        "url": "https://www.instagram.com/koraandmilascookiedough/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/koraandmilascookiedough/p/DdZ6p68h6qt/",
+        "evidence": "Own current announcement explicitly names Big E stand and matching Facebook links handle."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "macho-taco",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Macho Taco\" \"Big E\""
+    ],
+    "notes": "Read Agawam website and matching Facebook profile. Latest restaurant quesadilla post not fair-specific; excluded. Current official fair provides Birria Bomb description and watermelon agua fresca special.",
+    "accounts": [
+      {
+        "url": "https://www.machotacorestaurant.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/machotacorestaurant/",
+        "evidence": "Matching Agawam restaurant name/address and official domain; fair names local vendor."
+      },
+      {
+        "url": "https://www.facebook.com/machotacorestaurant/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/machotacorestaurant/",
+        "evidence": "Matching Agawam restaurant name/address and official domain; fair names local vendor."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "mackens-sliders",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Mackens Sliders\""
+    ],
+    "notes": "Read official website with linked Facebook/Instagram. Current Facebook burger poll does not establish fair availability for extra flavors. Enriched already-listed Caprese only from official recipe.",
+    "accounts": [
+      {
+        "url": "https://www.mackenssliders.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.mackenssliders.com/",
+        "evidence": "Official local food truck website links both profiles; Facebook includes its Big E state-building coverage."
+      },
+      {
+        "url": "https://www.facebook.com/cateringmackenssliders/",
+        "verified": true,
+        "evidenceUrl": "https://www.mackenssliders.com/",
+        "evidence": "Official local food truck website links both profiles; Facebook includes its Big E state-building coverage."
+      },
+      {
+        "url": "https://www.instagram.com/mackenssliders/",
+        "verified": true,
+        "evidenceUrl": "https://www.mackenssliders.com/",
+        "evidence": "Official local food truck website links both profiles; Facebook includes its Big E state-building coverage."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "marions-fried-dough",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "\"Marion’s Fried Dough\""
+    ],
+    "notes": "Exact-name search found Facebook personal-style page with no work/menu content; insufficient identity, no public link. Official current Fried Kool Aid special already represented.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/marions.frieddough/",
+        "verified": false
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "nola-cajun-kitchen-raw-bar",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"NOLA Cajun Kitchen\" \"Big E\""
+    ],
+    "notes": "Read exact West Springfield Facebook profile at1305 Memorial Avenue with current Day One post. Instagram bio handle unavailable. Excluded similarly named Shrewsbury/West Boylston restaurant. Current official newfoods and bargain menu enrich existing items.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/p/Nola-Cajun-Kitchen-Raw-Bar-61564673143397/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/p/Nola-Cajun-Kitchen-Raw-Bar-61564673143397/",
+        "evidence": "Exact fair restaurant name and fairground address; current opening-day post."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "omar-gourmet-coffee",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Omar Gourmet Coffee\""
+    ],
+    "notes": "Read Omar Coffee wholesale website. Regional brand identity established, but no evidence it operates catalog stand; may be supplier. No online coffee flavors or brand account assigned.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "soulfully",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"SoulFully\" \"Big E\""
+    ],
+    "notes": "Official website links both accounts. Opened own Sep18 post: five-piece tenders new all17days, Front Porch in front of Gate5; $5 September21 offer. Added new fair item. Store-only cheeseburger discount excluded.",
+    "accounts": [
+      {
+        "url": "https://soulfullyvegan.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/soul_fully_vegan/p/Ddb8uH0RyAG/",
+        "evidence": "Official website links both profiles; own Sep18 post explicitly identifies Front Porch stand."
+      },
+      {
+        "url": "https://www.instagram.com/soul_fully_vegan/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/soul_fully_vegan/p/Ddb8uH0RyAG/",
+        "evidence": "Official website links both profiles; own Sep18 post explicitly identifies Front Porch stand."
+      },
+      {
+        "url": "https://www.facebook.com/soulfullyvegan",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/soul_fully_vegan/p/Ddb8uH0RyAG/",
+        "evidence": "Official website links both profiles; own Sep18 post explicitly identifies Front Porch stand."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Five-piece vegan tenders debut at fair; $5 September21 special and Gate5 Front Porch location.",
+        "url": "https://www.instagram.com/soul_fully_vegan/p/Ddb8uH0RyAG/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "vendorId": "sugar-shakers",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Sugar Shakers\" \"Big E\""
+    ],
+    "notes": "Exact fair-name search returns fair/news and kitchen equipment; no verified operator. Current official small funnel cake special already present.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "the-donut-family",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"The Donut Family\" \"Big E\""
+    ],
+    "notes": "Read matching Facebook: current Big E White Chocolate Raspberry announcement confirms existing flavor. Website certificate mismatch, not bypassed. Official current New Foods gives full ingredients.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/Thedonutfamily/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/Thedonutfamily/",
+        "evidence": "Touring donut operator profile posts current Big E flavor announcement."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "the-hub",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"The Hub\" \"Big E\" food"
+    ],
+    "notes": "Exact fair-name search returned official/news listings and unrelated media Hub. No verified operator. Official current Small Cheese Fries special missing; added.",
+    "accounts": [],
+    "findings": []
+  }
+]

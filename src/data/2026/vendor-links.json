@@ -1090,5 +1090,83 @@
         "url": "https://www.instagram.com/fluffysdonuts/"
       }
     ]
+  },
+  {
+    "name": "Kora & Mila's Cookie Dough",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/koraandmilascookiedough/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/koraandmilascookiedough/"
+      }
+    ]
+  },
+  {
+    "name": "Macho Taco",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.machotacorestaurant.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/machotacorestaurant/"
+      }
+    ]
+  },
+  {
+    "name": "Mackens Sliders",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.mackenssliders.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/cateringmackenssliders/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/mackenssliders/"
+      }
+    ]
+  },
+  {
+    "name": "NOLA Cajun Kitchen & Raw Bar",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/p/Nola-Cajun-Kitchen-Raw-Bar-61564673143397/"
+      }
+    ]
+  },
+  {
+    "name": "SoulFully",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://soulfullyvegan.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/soul_fully_vegan/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/soulfullyvegan"
+      }
+    ]
+  },
+  {
+    "name": "The Donut Family",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/Thedonutfamily/"
+      }
+    ]
   }
 ]
