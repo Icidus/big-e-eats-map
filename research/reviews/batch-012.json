@@ -1,0 +1,177 @@
+[
+  {
+    "vendorId": "broccoli-bar",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Broccoli Bar\" \"Big E\"",
+      "\"Broccoli Bar\" official Facebook Instagram"
+    ],
+    "notes": "Read official website and linked Instagram. Big E highlight establishes identity; latest Sep17 caption concerns Art Hop music, not a fair menu. Current fair Broccarita already present. No campus menu imported.",
+    "accounts": [
+      {
+        "url": "https://www.broccolibar.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.broccolibar.com/",
+        "evidence": "Official website links profiles; Instagram has Big E highlight matching distinctive fair stand."
+      },
+      {
+        "url": "https://www.instagram.com/thebroccolibar/",
+        "verified": true,
+        "evidenceUrl": "https://www.broccolibar.com/",
+        "evidence": "Official website links profiles; Instagram has Big E highlight matching distinctive fair stand."
+      },
+      {
+        "url": "https://www.facebook.com/broccolibar/",
+        "verified": true,
+        "evidenceUrl": "https://www.broccolibar.com/",
+        "evidence": "Official website links profiles; Instagram has Big E highlight matching distinctive fair stand."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "cannoli-king",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Cannoli King\" \"Big E\"",
+      "\"Cannoli King\" official Facebook Instagram"
+    ],
+    "notes": "Exact fair name/social searches found historic fair award and unrelated NYC Cannoli King. No verified operator account; historical cannoli latte not promoted.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "captain-nemos",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Captain Nemo’s\" \"Big E\"",
+      "\"Captain Nemo’s\" official Facebook Instagram"
+    ],
+    "notes": "Verified Instagram bio naming founders Joe and Patty DiStefano and Big E stand. Opened Sep18 opening-day caption and Sep19 50-year award. Opening-day photo includes historical signage; not used as current menu. Current Bargain Bites confirms existing snack wrap.",
+    "accounts": [
+      {
+        "url": "https://www.instagram.com/captain_nemos_galley/",
+        "verified": true,
+        "evidenceUrl": "https://www.instagram.com/captain_nemos_galley/p/DdefSYIFs6L/",
+        "evidence": "Own September19 caption celebrates Big E 50-year vendor award; bio names founders and fair."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "dribbles",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Dribbles\" \"Big E\"",
+      "\"Dribbles\" official Facebook Instagram"
+    ],
+    "notes": "Search found BLC Ventures Toast fair stand. Read Reminder Sep3 2024 operator interview identifying BLC Ventures/E.J. Dean; no current dedicated social found. Current official Mini Pancakes already listed. Historical donut prices excluded.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "giant-corn-dog-factory",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Giant Corn Dog Factory\" \"Big E\"",
+      "\"Giant Corn Dog Factory\" official Facebook Instagram"
+    ],
+    "notes": "Exact-name search found current/historical press, venue directories and manufacturing videos; no verified operator account. Existing corn dog variations retained; current fair bargain regular corn dog covered by Giant Corn Dogs.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "granville-country-store",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Granville Country Store\" \"Big E\"",
+      "\"Granville Country Store\" official Facebook Instagram"
+    ],
+    "notes": "Read matching Granville MA store website; excluded similarly named New York store. No restaurant menu imported. Current official Bargain Bites confirms small Mac n Cheese at Front Porch.",
+    "accounts": [
+      {
+        "url": "https://www.granvillecountrystore.org/",
+        "verified": true,
+        "evidenceUrl": "https://www.granvillecountrystore.org/",
+        "evidence": "Matching Granville MA country store; current fair names this store, not North Granville NY."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "mclaughlin-family-homemade-ice-cream",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"McLaughlin Family Homemade Ice Cream\" \"Big E\"",
+      "\"McLaughlin Family Homemade Ice Cream\" official Facebook Instagram"
+    ],
+    "notes": "Exact-name and fair searches found own June17 Big E 2026 announcement. Direct Facebook photo opens date/identity but caption absent; no new flavor claims inferred. Current official fair lists all four existing flavors.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/100094585311866/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/100094585311866/photos/871671995995636/",
+        "evidence": "Distinctive Maine family ice cream profile; indexed own June17 caption explicitly announces Big E2026. Direct profile/photo identity accessible, caption not used for food claims."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "soup-r-bowl",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "\"Soup-R Bowl\" \"Big E\"",
+      "\"Soup-R Bowl\" official Facebook Instagram"
+    ],
+    "notes": "Exact-name fair search identifies SoupRBowl Facebook with own Big E caption. Direct profile unavailable; retain unverified lead, no public link. Current official Bargain Bites lists clam chowder, cream of broccoli and chili. Added two missing named soups.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/SoupRBowl/",
+        "verified": false
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Current fair Bargain Bites lists Clam Chowder, Cream of Broccoli and Chili.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "the-italian-pavillion",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"The Italian Pavillion\" \"Big E\"",
+      "\"The Italian Pavillion\" official Facebook Instagram"
+    ],
+    "notes": "Searched both Pavillion/Pavilion spellings. Opened vendor Marketspread profile explicitly associated with Big E but no external account or menu. Historical/general Italian restaurants excluded.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "the-nook",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"The Nook\" \"Big E\"",
+      "\"The Nook\" official Facebook Instagram"
+    ],
+    "notes": "Exact-name fair search and historical Reminder operator interview identify BLC Ventures in Better Living Center. No current dedicated social account/menu established. Historical crepes not newly added.",
+    "accounts": [],
+    "findings": []
+  }
+]

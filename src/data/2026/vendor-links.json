@@ -955,5 +955,49 @@
         "url": "https://www.instagram.com/logcabindelaney/"
       }
     ]
+  },
+  {
+    "name": "Broccoli Bar",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.broccolibar.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/thebroccolibar/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/broccolibar/"
+      }
+    ]
+  },
+  {
+    "name": "Captain Nemo’s",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/captain_nemos_galley/"
+      }
+    ]
+  },
+  {
+    "name": "Granville Country Store",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.granvillecountrystore.org/"
+      }
+    ]
+  },
+  {
+    "name": "McLaughlin Family Homemade Ice Cream",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/100094585311866/"
+      }
+    ]
   }
 ]

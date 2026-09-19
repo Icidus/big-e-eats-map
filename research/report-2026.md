@@ -1,6 +1,6 @@
 # Vendor research progress
 
-115 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+125 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -848,6 +848,31 @@ Opened Facebook profile, linked CW Concessions website and its Board Wok Noodles
 - Account: https://www.facebook.com/boardwoknoodles/ (verified)
 - **lead / new-item**: Noodle or Rice Sampler with Honey, Pineapple Teriyaki Chicken is a September 21 special at The Front Porch. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 
+## Broccoli Bar
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Read official website and linked Instagram. Big E highlight establishes identity; latest Sep17 caption concerns Art Hop music, not a fair menu. Current fair Broccarita already present. No campus menu imported.
+
+- Account: https://www.broccolibar.com/ (verified)
+- Account: https://www.instagram.com/thebroccolibar/ (verified)
+- Account: https://www.facebook.com/broccolibar/ (verified)
+
+## Cannoli King
+
+no-account-found · 2026-09-19 · 4 catalog items
+
+Exact fair name/social searches found historic fair award and unrelated NYC Cannoli King. No verified operator account; historical cannoli latte not promoted.
+
+
+## Captain Nemo’s
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Verified Instagram bio naming founders Joe and Patty DiStefano and Big E stand. Opened Sep18 opening-day caption and Sep19 50-year award. Opening-day photo includes historical signage; not used as current menu. Current Bargain Bites confirms existing snack wrap.
+
+- Account: https://www.instagram.com/captain_nemos_galley/ (verified)
+
 ## Deep-fried Calzones
 
 reviewed · 2026-09-19 · 4 catalog items
@@ -857,6 +882,28 @@ Initial discovery search was rate-limited; continued through known Clemenza’s 
 - Account: https://www.facebook.com/people/Clemenzas/100063715069515/ (verified)
 - **lead / new-item**: Official menu lists pepperoni calzones in addition to already-cataloged cheese and meatball parmesan. [Source](https://www.thebige.com/p/food2/newfoods) (checked 2026-09-19)
 
+## Dribbles
+
+no-account-found · 2026-09-19 · 4 catalog items
+
+Search found BLC Ventures Toast fair stand. Read Reminder Sep3 2024 operator interview identifying BLC Ventures/E.J. Dean; no current dedicated social found. Current official Mini Pancakes already listed. Historical donut prices excluded.
+
+
+## Giant Corn Dog Factory
+
+no-account-found · 2026-09-19 · 4 catalog items
+
+Exact-name search found current/historical press, venue directories and manufacturing videos; no verified operator account. Existing corn dog variations retained; current fair bargain regular corn dog covered by Giant Corn Dogs.
+
+
+## Granville Country Store
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Read matching Granville MA store website; excluded similarly named New York store. No restaurant menu imported. Current official Bargain Bites confirms small Mac n Cheese at Front Porch.
+
+- Account: https://www.granvillecountrystore.org/ (verified)
+
 ## Jungle Juice Smoothies
 
 reviewed · 2026-09-19 · 4 catalog items
@@ -865,6 +912,14 @@ Opened indexed vendor Facebook profile matching touring East Coast smoothie oper
 
 - Account: https://www.facebook.com/junglejuicesmoothies/ (verified)
 - **lead / new-item**: Java Jungle Mango Lemon Refresher listed at Jungle Juice Smoothie, Commonwealth Avenue, for September 21. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## McLaughlin Family Homemade Ice Cream
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Exact-name and fair searches found own June17 Big E 2026 announcement. Direct Facebook photo opens date/identity but caption absent; no new flavor claims inferred. Current official fair lists all four existing flavors.
+
+- Account: https://www.facebook.com/100094585311866/ (verified)
 
 ## Moose Joose Slush
 
@@ -884,6 +939,13 @@ Searched exact stand name with Big E and social terms using web/Bing. Fair and n
 
 - **lead / new-item**: Mini Corndog on Springfield Road is listed for September21 Bargain Bites. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 
+## The Italian Pavillion
+
+no-account-found · 2026-09-19 · 4 catalog items
+
+Searched both Pavillion/Pavilion spellings. Opened vendor Marketspread profile explicitly associated with Big E but no external account or menu. Historical/general Italian restaurants excluded.
+
+
 ## The Mick
 
 reviewed · 2026-09-19 · 4 catalog items
@@ -894,6 +956,13 @@ Official Log Rolling Mick Express page explicitly identifies Young Building stan
 - Account: https://www.instagram.com/mick.express/ (verified)
 - Account: https://www.instagram.com/logcabindelaney/ (verified)
 - **confirmed / new-item**: Own September17 Big E post confirms cider donut in Young Building. [Source](https://www.instagram.com/mick.express/p/DdZCTJKtwjF/) (checked 2026-09-19)
+
+## The Nook
+
+no-account-found · 2026-09-19 · 4 catalog items
+
+Exact-name fair search and historical Reminder operator interview identify BLC Ventures in Better Living Center. No current dedicated social account/menu established. Historical crepes not newly added.
+
 
 ## Wisconsin Hot Cheese
 
@@ -968,6 +1037,15 @@ Read official website’s specific Sep 18–Oct 4, 2026 fair announcement: N28, 
 - **confirmed / new-item**: Cookies & Cream Cupcakes debut at Big E booth; cafe-only full cake excluded. [Source](https://www.instagram.com/luanns_bakery/p/DdbPAYqRpFN/) (checked 2026-09-19)
 - **lead / new-item**: Apple Crisp confirmed in official 2026 fair menu at N28, outside Young Building. [Source](https://www.luannsbakery.com/pages/what) (checked 2026-09-19)
 - **lead / new-item**: Mini Funfetti Cupcakes listed as September 21 Bargain Bites special. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## Soup-R Bowl
+
+inaccessible · 2026-09-19 · 6 catalog items
+
+Exact-name fair search identifies SoupRBowl Facebook with own Big E caption. Direct profile unavailable; retain unverified lead, no public link. Current official Bargain Bites lists clam chowder, cream of broccoli and chili. Added two missing named soups.
+
+- Account: https://www.facebook.com/SoupRBowl/ (candidate)
+- **lead / new-item**: Current fair Bargain Bites lists Clam Chowder, Cream of Broccoli and Chili. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 
 ## Golden K-Dog
 

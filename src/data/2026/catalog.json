@@ -218,7 +218,7 @@
     "name": "Nemo’s Savory Snack Wrap",
     "vendor": "Captain Nemo’s",
     "locationIds": [],
-    "description": "A golden crispy tender wrapped in a warm flour tortilla with lettuce, tomato, and creamy mayo, listed as a Bargain Bites Day special.",
+    "description": "Crispy tender in a warm flour tortilla with lettuce, tomato and creamy mayo; September 21 Bargain Bites Day special.",
     "categoryIds": [
       "sandwiches"
     ],
@@ -7474,7 +7474,7 @@
     "locationIds": [
       "new-england-avenue"
     ],
-    "description": "Chili listed for Soup-R Bowl in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Chili on New England Avenue; a small serving is one of the September 21 Bargain Bites Day choices.",
     "categoryIds": [
       "comfort-bowls"
     ],
@@ -7488,7 +7488,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "Bargain Bites Day",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "soup-r-bowl-bread-bowls",
@@ -15929,7 +15937,15 @@
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
     },
-    "description": "Listed on the The Front Porch map in the saved MassLive Eater’s Guide (PDF page 5); availability is source-reported."
+    "description": "Mac and cheese at The Front Porch. A small portion is the September 21 Bargain Bites Day offer.",
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "Bargain Bites Day",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "veggie-patch-pickle-juice",
@@ -18496,6 +18512,54 @@
       "publisher": "Mick Express",
       "title": "Mick-opoly at The Big E",
       "url": "https://www.instagram.com/mick.express/p/DdZCTJKtwjF/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "soup-r-bowl-clam-chowder",
+    "year": 2026,
+    "name": "Clam Chowder",
+    "vendor": "Soup-R Bowl",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Clam Chowder on New England Avenue; a small serving is available for September 21 Bargain Bites Day.",
+    "categoryIds": [
+      "comfort-bowls"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "soup-r-bowl-cream-of-broccoli-soup",
+    "year": 2026,
+    "name": "Cream of Broccoli Soup",
+    "vendor": "Soup-R Bowl",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Cream of Broccoli Soup on New England Avenue; a small serving is available for September 21 Bargain Bites Day.",
+    "categoryIds": [
+      "comfort-bowls"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
       "accessedOn": "2026-09-19"
     }
   }

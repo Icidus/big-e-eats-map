@@ -1,0 +1,19 @@
+{
+  "batchId": "batch-012",
+  "itemIds": [
+    "soup-r-bowl-clam-chowder",
+    "soup-r-bowl-cream-of-broccoli-soup"
+  ],
+  "updatedItemIds": [
+    "captain-nemos-savory-snack-wrap",
+    "granville-country-store-mac-and-cheese",
+    "soup-r-bowl-chili"
+  ],
+  "vendorLinksAdded": [
+    "Broccoli Bar",
+    "Captain Nemo’s",
+    "Granville Country Store",
+    "McLaughlin Family Homemade Ice Cream"
+  ],
+  "notes": "Two soup listings added, three descriptions enriched, four profiles linked. Old photo signage and restaurant menus excluded. Inaccessible Soup-R Bowl profile recorded honestly."
+}
