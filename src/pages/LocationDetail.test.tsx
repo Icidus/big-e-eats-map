@@ -31,7 +31,7 @@ describe("LocationDetail", () => {
     expect(screen.queryByText(/MassLive Pick/i)).not.toBeInTheDocument();
   });
 
-  it.each(["new-england-avenue", "better-living-center", "hampden-avenue", "avenue-of-states"])("shows a multi-location item exactly once at %s", (locationId) => {
+  it.each(["new-england-avenue", "better-living-center", "hampden-avenue", "avenue-of-states"])("shows the cream puff listing at %s", (locationId) => {
     renderLocation(`/location/${locationId}`);
 
     expect(screen.getAllByText("Peanut Butter Cream Puff")).toHaveLength(1);
@@ -54,10 +54,11 @@ describe("LocationDetail", () => {
     expect(screen.getByRole("button", { name: /add caramel apple mocktail to plan/i })).toBeInTheDocument();
   });
 
-  it("shows an honest zero-item location state", () => {
+  it("shows the New England Center guide listings", () => {
     renderLocation("/location/new-england-center");
 
-    expect(screen.getByText(/no 2026 additions are currently confirmed here/i)).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /3 items at this stop/i })).toBeInTheDocument();
+    expect(screen.getByText("Big E-clair")).toBeInTheDocument();
   });
 
   it("shows a useful not-found state for an unknown location", () => {

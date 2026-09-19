@@ -1,13 +1,16 @@
 export const CATEGORIES = [
   ["cocktails", "Cocktails"], ["mocktails", "Mocktails"], ["beer-cider", "Beer & Cider"],
-  ["nonalcoholic-drinks", "Nonalcoholic Drinks"], ["desserts", "Desserts"],
+  ["nonalcoholic-drinks", "Coffee & Cold Drinks"],
+  ["fried-dough", "Fried Dough & Funnel Cakes"], ["desserts", "Desserts"],
   ["ice-cream", "Ice Cream"], ["donuts-pastries", "Donuts & Pastries"], ["candy", "Candy"],
   ["burgers", "Burgers"], ["hot-dogs-corndogs", "Hot Dogs & Corndogs"],
   ["sandwiches", "Sandwiches"], ["tacos-mexican", "Tacos & Mexican"],
   ["pizza-italian", "Pizza & Italian"], ["barbecue", "Barbecue"],
+  ["chicken-wings", "Chicken & Wings"], ["mac-cheese", "Mac & Cheese"],
   ["seafood", "Seafood"], ["potatoes-fries", "Potatoes & Fries"],
-  ["breakfast", "Breakfast"], ["snacks-sides", "Snacks & Sides"],
-  ["other-savory", "Other Savory"],
+  ["pretzels-corn", "Pretzels & Corn"], ["comfort-bowls", "Soups, Bowls & Comfort Plates"],
+  ["global-eats", "Global Eats"], ["breakfast", "Breakfast"],
+  ["snacks-sides", "Snacks & Sides"], ["other-savory", "Other Savory"],
 ] as const;
 
 export const TAGS = [

@@ -106,10 +106,11 @@ function createVendorCatalog(items: CatalogItem[]): {
   return { vendorOptions, vendorNamesById };
 }
 
-function createIdMap<T extends { id: string }>(records: T[], entityName: string): Map<string, T> {
+function createIdMap<T extends { id?: string }>(records: T[], entityName: string): Map<string, T> {
   const recordsById = new Map<string, T>();
 
   for (const record of records) {
+    if (!record.id) throw new Error(`Missing ${entityName} ID.`);
     if (recordsById.has(record.id)) {
       throw new Error(`Duplicate ${entityName} ID "${record.id}".`);
     }

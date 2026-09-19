@@ -1,4 +1,5 @@
 import type { CatalogItem, FairLocation } from "@/features/catalog/catalog";
+import { resolveCatalogAlias } from "@/features/catalog/aliases";
 
 export const PLAN_STORAGE_KEY = "big-e-food-plan:v1";
 
@@ -54,7 +55,7 @@ export function decodeSharedItems(
       continue;
     }
 
-    const id = decodeId(encodedId);
+    const id = resolveCatalogAlias("items", decodeId(encodedId));
     if (!id || seen.has(id)) {
       continue;
     }
@@ -128,10 +129,12 @@ function uniqueIds(ids: string[]): string[] {
   const seen = new Set<string>();
   const unique: string[] = [];
 
-  for (const id of ids) {
-    if (typeof id !== "string" || !id || seen.has(id)) {
+  for (const rawId of ids) {
+    if (typeof rawId !== "string" || !rawId) {
       continue;
     }
+    const id = resolveCatalogAlias("items", rawId);
+    if (seen.has(id)) continue;
     seen.add(id);
     unique.push(id);
   }

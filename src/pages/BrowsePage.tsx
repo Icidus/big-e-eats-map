@@ -26,14 +26,16 @@ export function BrowsePage() {
   const results = useMemo(() => searchAndFilter(catalogItems, state, { locations, collectionsById }), [state]);
   const { addItem, hasItem, removeItem } = useFoodPlan();
   const selectedFilters = selectedFiltersFor(state);
+  const activeCollection = state.collectionId ? collectionsById.get(state.collectionId) : undefined;
+  const hasFacets = selectedFilters.some((filter) => filter.id !== "q");
 
   const categoryCounts = useMemo(() => {
     const counts = new Map<CategoryId, number>();
-    for (const [categoryId] of CATEGORIES) {
-      counts.set(
-        categoryId,
-        searchAndFilter(catalogItems, { ...state, categoryIds: [categoryId] }, { locations, collectionsById }).length,
-      );
+    const matchingItems = searchAndFilter(catalogItems, { ...state, categoryIds: [] }, { locations, collectionsById });
+    for (const item of matchingItems) {
+      for (const categoryId of new Set(item.categoryIds)) {
+        counts.set(categoryId, (counts.get(categoryId) ?? 0) + 1);
+      }
     }
     return counts;
   }, [state]);
@@ -68,11 +70,17 @@ export function BrowsePage() {
           <h1 className="mt-2 font-serif text-4xl font-black tracking-tight sm:text-5xl">Browse 2026 Food</h1>
           <p className="mt-3 max-w-2xl text-base leading-6 text-primary-foreground/90">A living field guide to confirmed 2026 food listings—sorted by craving, not guesswork.</p>
           <Link to="/map" className="mt-4 inline-flex min-h-11 items-center gap-2 border-b-2 border-secondary pb-1 text-sm font-bold text-primary-foreground transition-colors hover:border-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-foreground focus-visible:ring-offset-4 focus-visible:ring-offset-primary"><MapIcon className="h-4 w-4" aria-hidden="true" />Fair map</Link>
+          <Link to="/map?nearby=1" className="ml-5 mt-4 inline-flex min-h-11 items-center border-b-2 border-secondary text-sm font-bold text-primary-foreground">What’s around me?</Link>
         </div>
       </header>
       <CatalogStatusNotice />
 
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        {activeCollection ? <section aria-label="Selected collection" className="mb-5 border-l-4 border-secondary bg-card p-4">
+          <h2 className="font-serif text-2xl font-bold">{activeCollection.title}</h2>
+          <p className="mt-2 text-sm text-muted-foreground">{activeCollection.description}</p>
+          {activeCollection.source ? <a className="mt-2 inline-flex min-h-11 items-center text-sm font-semibold text-primary underline" href={activeCollection.source.url} target="_blank" rel="noreferrer">Source: {activeCollection.source.publisher} — {activeCollection.source.title} ↗</a> : null}
+        </section> : null}
         <section className="border border-primary/25 bg-card p-4 shadow-[6px_6px_0_hsl(var(--secondary)/0.32)] sm:p-5" aria-label="Search the food catalog">
           <label className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-muted-foreground" htmlFor="browse-search">Search 2026 food</label>
           <div className="relative mt-2">
@@ -85,6 +93,10 @@ export function BrowsePage() {
               className="h-12 border-primary/30 pl-10 text-base"
             />
           </div>
+          {hasFacets ? <div className="mt-3 flex flex-wrap items-center gap-x-4 text-sm">
+            <p className="text-muted-foreground">Searching within your selected filters.</p>
+            <Button type="button" variant="link" className="min-h-11" onClick={() => replaceState({ ...EMPTY_DISCOVERY_STATE, query: state.query })}>Search all food</Button>
+          </div> : null}
         </section>
 
         <div className="sticky top-0 z-30 -mx-4 mt-4 border-b border-primary/25 bg-background/95 px-4 py-2 backdrop-blur supports-[backdrop-filter]:bg-background/80 sm:mx-0 sm:px-0 md:top-11">

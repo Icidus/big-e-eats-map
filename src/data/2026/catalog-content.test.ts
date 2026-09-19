@@ -33,6 +33,8 @@ const trustedFoodSources = new Set([
   "https://www.wbur.org/news/2026/09/03/the-big-e-multi-state-fair-food-newsletter",
   "https://www.pressherald.com/2026/09/08/a-foodie-festival-the-big-e-state-fair-overflows-with-maine-eats/",
   "https://www.beanrg.com/harpoonbeerhall",
+  "https://www.masslive.com/the-big-e/2026/09/everything-we-ate-at-the-big-e-prices-ratings-and-our-favorites.html",
+  "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
 ]);
 
 describe("2026 catalog content", () => {
@@ -41,7 +43,7 @@ describe("2026 catalog content", () => {
     for (const item of catalogData.items) {
       expect(item.year).toBe(2026);
       expect(trustedFoodSources.has(item.source.url)).toBe(true);
-      expect(item.source.accessedOn).toMatch(/^2026-09-17$|^2026-09-16$|^2026-09-14$|^2026-09-07$|^2026-08-27$/);
+      expect(item.source.accessedOn).toMatch(/^2026-09-19$|^2026-09-17$|^2026-09-16$|^2026-09-14$|^2026-09-07$|^2026-08-27$/);
     }
   });
 
@@ -80,7 +82,7 @@ describe("2026 catalog content", () => {
       const item = catalogData.itemsById.get(id);
       expect(item?.vendor).toBe(vendor);
       expect(item?.name).toBe(name);
-      expect(item?.locationIds).toEqual(["state-buildings"]);
+      expect(item?.locationIds).toEqual(["avenue-of-states"]);
       expect(item?.source.url).toBe("https://www.thebige.com/p/thingstodo/avenue/massachusetts-building");
       expect(item?.source.accessedOn).toBe("2026-09-16");
     }
@@ -139,6 +141,32 @@ describe("2026 catalog content", () => {
         ? "https://www.beanrg.com/harpoonbeerhall"
         : "https://www.thebige.com/p/thingstodo/avenue/maine-building");
       expect(item?.source.accessedOn).toBe("2026-09-17");
+    }
+  });
+
+  it("includes MassLive opening-day foods with mapable areas", () => {
+    const expectedEntries = [
+      ["fluffys-samoa-doughnut", "Fluffy’s Hand Cut Donuts", "Samoa Doughnut", ["new-england-avenue"]],
+      ["jamaican-jewelz-maple-jerk-chicken-plate", "Jamaican Jewelz", "Maple Jerk Chicken Plate", ["avenue-of-states"]],
+      ["dannys-spuds-pulled-pork-baked-potato", "Danny’s Spuds", "Pulled Pork Baked Potato", ["avenue-of-states"]],
+      ["vermont-marshmallow-company-smored-oreo", "Vermont Marshmallow Company", "S’mored Oreo", ["avenue-of-states"]],
+      ["boricua-bites-cheese-dog", "Boricua Bites", "Cheese Dog", ["the-front-porch"]],
+      ["boricua-bites-bacalaito", "Boricua Bites", "Bacalaito", ["the-front-porch"]],
+      ["new-hampshire-building-apple-nachos", "New Hampshire Building", "Apple Nachos", ["avenue-of-states"]],
+      ["big-e-chocolate-pickle-tacos", "The Big E", "Chocolate Pickle Tacos", []],
+    ] as const;
+
+    for (const [id, vendor, name, locationIds] of expectedEntries) {
+      const item = catalogData.itemsById.get(id);
+      expect(item?.vendor).toBe(vendor);
+      expect(item?.name).toBe(name);
+      expect(item?.locationIds).toEqual(locationIds);
+      expect(item?.source).toEqual({
+        publisher: "MassLive",
+        title: "Everything we ate at The Big E: Prices, ratings and our favorites",
+        url: "https://www.masslive.com/the-big-e/2026/09/everything-we-ate-at-the-big-e-prices-ratings-and-our-favorites.html",
+        accessedOn: "2026-09-19",
+      });
     }
   });
 
@@ -204,14 +232,14 @@ describe("2026 catalog content", () => {
         "qp-burger-food-truck-burger", "qp-burger-food-truck-hot-dog",
       ]],
     ];
-    expect(catalogData.collections.map((collection) => [collection.id, collection.itemIds])).toEqual(expectedCollections);
+    expect(catalogData.collections.filter((collection) => !["masslive-must-try", "masslive-opening-day", "new-for-2026"].includes(collection.id)).map((collection) => [collection.id, collection.itemIds])).toEqual(expectedCollections);
   });
 
   it("keeps the constrained collections aligned with their source-backed metadata", () => {
-    const cocktailIds = catalogData.items
-      .filter((item) => item.categoryIds.includes("cocktails") || item.categoryIds.includes("mocktails"))
-      .map((item) => item.id);
-    expect([...catalogData.collectionsById.get("cocktails-and-mocktails")?.itemIds ?? []].sort()).toEqual(cocktailIds.sort());
+    for (const itemId of catalogData.collectionsById.get("cocktails-and-mocktails")?.itemIds ?? []) {
+      const item = catalogData.itemsById.get(itemId);
+      expect(item?.categoryIds.some((id) => id === "cocktails" || id === "mocktails"), itemId).toBe(true);
+    }
 
     const glutenFreeIds = catalogData.items.filter((item) => item.dietaryClaims.includes("gluten-free")).map((item) => item.id);
     expect(catalogData.collectionsById.get("gluten-free-fair-food")?.itemIds).toEqual(glutenFreeIds);

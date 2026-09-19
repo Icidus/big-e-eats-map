@@ -71,7 +71,7 @@ describe("MapPage", () => {
 
     expect(screen.getByRole("heading", { name: /fair map/i })).toBeInTheDocument();
     expect(screen.getByTestId("fair-map")).toHaveAttribute("data-destination", "");
-    expect(screen.getAllByRole("button", { name: /show .* on map/i })).toHaveLength(15);
+    expect(screen.getAllByRole("button", { name: /show .* on map/i })).toHaveLength(14);
     expect(screen.queryByRole("region", { name: /destination/i })).not.toBeInTheDocument();
     expect(screen.queryByText(/not yet placed/i)).not.toBeInTheDocument();
   });
@@ -169,5 +169,36 @@ describe("MapPage", () => {
 
     await user.click(screen.getByRole("button", { name: "mock select east road" }));
     expect(screen.getByTestId("location-search")).toHaveTextContent("?to=east-road");
+  });
+});
+
+describe('nearby food', () => {
+  it('offers location and a manual fallback without requesting location automatically', async () => {
+    renderMap('/map?nearby=1');
+    const nearby = screen.getByRole('region', { name: 'What’s around me?' });
+    expect(geo.locate).not.toHaveBeenCalled();
+    expect(within(nearby).getByRole('link', { name: /choose a food area/i })).toHaveAttribute('href', '#map-areas-title');
+    await userEvent.setup().click(within(nearby).getByRole('button', { name: /find nearby food/i }));
+    expect(geo.locate).toHaveBeenCalledOnce();
+  });
+
+  it('lists closest areas first with distances and links to their food', () => {
+    geo.status = 'tracking';
+    geo.position = { lat: 42.0905, lng: -72.616, accuracyMeters: 10 };
+    renderMap('/map?nearby=1');
+    const nearby = screen.getByRole('region', { name: 'What’s around me?' });
+    const rows = within(nearby).getAllByRole('listitem');
+    expect(rows).toHaveLength(3);
+    expect(rows[0]).toHaveTextContent('Food Court');
+    expect(rows[0]).toHaveTextContent('About 0 m');
+    expect(within(rows[0]).getByRole('link', { name: /browse.*food court/i })).toHaveAttribute('href', '/browse?locations=food-court');
+    expect(nearby).toHaveTextContent(/approximate/i);
+  });
+
+  it('does not call far-away fair food nearby', () => {
+    geo.status = 'tracking';
+    geo.position = { lat: 40.7, lng: -74, accuracyMeters: 10 };
+    renderMap('/map');
+    expect(screen.getByRole('region', { name: 'What’s around me?' })).toHaveTextContent(/away from the fairgrounds/i);
   });
 });

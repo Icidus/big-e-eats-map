@@ -4,9 +4,10 @@ import { Link, useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { catalogItems, itemsById, locations, locationsById, type FairLocation } from "@/features/catalog/catalog";
 import { FairMap } from "@/features/map/FairMap";
-import { describeWalk, detectPlatform, resolveDestination, walkingDirectionsUrl, type Destination } from "@/features/map/geo";
+import { describeWalk, detectPlatform, distanceMeters, FAIRGROUND_CENTER, resolveDestination, walkingDirectionsUrl, type Destination } from "@/features/map/geo";
 import { useGeolocation, type GeolocationState } from "@/features/map/useGeolocation";
 import { BackButton } from "@/features/navigation/BackButton";
+import { resolveCatalogAlias } from "@/features/catalog/aliases";
 
 const itemCounts = new Map<string, number>();
 for (const item of catalogItems) {
@@ -19,14 +20,14 @@ const orderedLocations = [...locations].sort((first, second) => first.order - se
 
 function destinationFromParams(params: URLSearchParams): Destination | null {
   const itemId = params.get("item");
-  const item = itemId ? itemsById.get(itemId) : undefined;
+  const item = itemId ? itemsById.get(resolveCatalogAlias("items", itemId)) : undefined;
   if (item) {
     const destination = resolveDestination(item, locationsById);
     if (destination) return destination;
   }
 
   const locationId = params.get("to");
-  const location = locationId ? locationsById.get(locationId) : undefined;
+  const location = locationId ? locationsById.get(resolveCatalogAlias("locations", locationId)) : undefined;
   if (location) return resolveDestination(location, locationsById);
 
   return null;
@@ -54,6 +55,11 @@ export function MapPage() {
   const platform = detectPlatform(typeof navigator === "undefined" ? "" : navigator.userAgent);
   const placedLocations = orderedLocations.filter((location) => location.coordinates);
   const unplacedLocations = orderedLocations.filter((location) => !location.coordinates);
+  const nearbyLocations = geolocation.position ? placedLocations
+    .map((location) => ({ location, meters: distanceMeters(geolocation.position!, location.coordinates!) }))
+    .sort((a, b) => a.meters - b.meters)
+    .slice(0, 3) : [];
+  const awayFromFair = geolocation.position && distanceMeters(geolocation.position, FAIRGROUND_CENTER) > 3000;
   const isLocating = geolocation.status === "requesting" || geolocation.status === "tracking";
 
   function selectLocation(id: string) {
@@ -75,13 +81,26 @@ export function MapPage() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:grid lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start lg:gap-8 lg:px-8">
-        <div className="h-[60vh] min-h-[320px] border border-primary/25 bg-card shadow-[6px_6px_0_hsl(var(--secondary)/0.32)] lg:sticky lg:top-[calc(2.75rem+1rem)] lg:h-[calc(100vh-2.75rem-2rem)]">
+      <main className="mx-auto max-w-7xl flex flex-col px-4 py-6 sm:px-6 lg:grid lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start lg:gap-8 lg:px-8">
+        <div className={`${searchParams.has("nearby") ? "order-2" : "order-first"} h-[60vh] min-h-[320px] border border-primary/25 bg-card shadow-[6px_6px_0_hsl(var(--secondary)/0.32)] lg:order-1 lg:sticky lg:top-[calc(2.75rem+1rem)] lg:h-[calc(100vh-2.75rem-2rem)]`}>
           <FairMap locations={placedLocations} itemCounts={itemCounts} destination={destination} userPosition={geolocation.position} onSelectLocation={selectLocation} />
         </div>
 
-        <aside className="mt-6 space-y-6 lg:mt-0">
-          <section className="border border-primary/25 bg-card p-4 shadow-[4px_4px_0_hsl(var(--secondary)/0.25)]" aria-labelledby="map-locate-title">
+        <aside className="contents lg:order-2 lg:block lg:space-y-6">
+          <section id="nearby" aria-labelledby="nearby-title" className="order-1 mb-4 scroll-mt-16 border-2 border-secondary bg-secondary/10 p-4">
+            <h2 id="nearby-title" className="font-serif text-2xl font-bold">What’s around me?</h2>
+            <p className="mt-2 text-sm text-muted-foreground">Find food in the three closest areas. Distances are straight-line estimates to approximate area markers, not individual stalls.</p>
+            {awayFromFair ? <p className="mt-3 text-sm font-semibold">You’re away from the fairgrounds. These are the closest fair food areas to your current location.</p> : null}
+            {geolocation.position ? <ul className="mt-3 divide-y divide-primary/20">
+              {nearbyLocations.map(({ location }) => <li key={location.id} className="py-3">
+                <h3 className="font-semibold">{location.name}</h3>
+                <p className="text-sm text-muted-foreground">{describeWalk(geolocation.position!, location.coordinates!)}</p>
+                <Link className="inline-flex min-h-11 items-center text-sm font-bold text-primary underline" to={`/browse?locations=${location.id}`}>Browse {itemCounts.get(location.id) ?? 0} foods in {location.name} →</Link>
+              </li>)}
+            </ul> : <Button type="button" className="mt-3 min-h-11 w-full" disabled={isLocating} onClick={geolocation.locate}>{isLocating ? "Finding nearby food…" : "Find nearby food"}</Button>}
+            <a className="mt-2 inline-flex min-h-11 items-center text-sm font-semibold text-primary underline" href="#map-areas-title">Choose a food area yourself</a>
+          </section>
+          <section className="order-1 mb-4 border border-primary/25 bg-card p-4 shadow-[4px_4px_0_hsl(var(--secondary)/0.25)]" aria-labelledby="map-locate-title">
             <h2 id="map-locate-title" className="font-serif text-xl font-bold">Where you are</h2>
             <Button type="button" className="mt-3 min-h-11 w-full" variant={isLocating ? "secondary" : "default"} onClick={isLocating ? geolocation.stop : geolocation.locate}>
               <LocateFixed aria-hidden="true" />
@@ -91,7 +110,7 @@ export function MapPage() {
           </section>
 
           {destination ? (
-            <section className="border-2 border-primary bg-card p-4 shadow-[4px_4px_0_hsl(var(--secondary)/0.4)]" aria-label="Destination">
+            <section className="order-3 mt-5 border-2 border-primary bg-card p-4 shadow-[4px_4px_0_hsl(var(--secondary)/0.4)]" aria-label="Destination">
               <p className="font-mono text-[10px] font-bold uppercase tracking-[0.18em] text-primary">Destination</p>
               <h2 className="mt-1 font-serif text-2xl font-bold leading-tight">{destination.vendor ?? destination.name}</h2>
               {destination.vendor ? <p className="mt-1 text-base font-semibold">{destination.name}</p> : null}
@@ -107,7 +126,7 @@ export function MapPage() {
             </section>
           ) : null}
 
-          <section aria-labelledby="map-areas-title">
+          <section className="order-4 mt-5" aria-labelledby="map-areas-title">
             <h2 id="map-areas-title" className="font-serif text-xl font-bold">Food areas</h2>
             <ul className="mt-3 divide-y divide-primary/15 border border-primary/20 bg-card">
               {placedLocations.map((location) => <AreaRow key={location.id} location={location} onShow={selectLocation} />)}

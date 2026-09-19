@@ -50,7 +50,7 @@
   {
     "id": "avenue-of-states",
     "name": "Avenue of States",
-    "description": "The main road through the back of the fairground, alongside the New England state-house buildings.",
+    "description": "The main road through the back of the fairground, home to the six New England state-house buildings and the food stalls around them.",
     "order": 5,
     "coordinates": {
       "lat": 42.0909,
@@ -165,18 +165,6 @@
       "lng": -72.616,
       "source": "Estimated from location description (indoor building east of the Better Living Center); verify on site",
       "precision": "estimated"
-    }
-  },
-  {
-    "id": "state-buildings",
-    "name": "State Buildings",
-    "description": "Replicas of the six New England state houses, each representing its state.",
-    "order": 15,
-    "coordinates": {
-      "lat": 42.0905,
-      "lng": -72.6221,
-      "source": "OpenStreetMap centroid of the six state-house buildings, queried 2026-09-14",
-      "precision": "mapped"
     }
   }
 ]

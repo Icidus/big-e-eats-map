@@ -1,4 +1,5 @@
 import { collections, locations, vendorOptions } from "@/features/catalog/catalog";
+import { resolveCatalogAlias } from "@/features/catalog/aliases";
 import { CATEGORIES, DIETARY_CLAIMS, TAGS, type CategoryId, type DietaryClaim, type TagId } from "@/features/catalog/taxonomy";
 import { EMPTY_DISCOVERY_STATE, type DiscoveryState, type SortMode } from "./types";
 
@@ -58,6 +59,7 @@ function readControlledValues<T extends string>(
 ): T[] {
   return unique(parameters.getAll(key)
     .flatMap((value) => value.split(","))
+    .map((value) => key === "locations" || key === "vendors" ? resolveCatalogAlias(key, value) : value)
     .filter((value): value is T => allowedValues.includes(value as T)));
 }
 

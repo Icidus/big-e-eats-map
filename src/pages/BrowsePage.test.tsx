@@ -1,7 +1,8 @@
 import { cleanup, render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { BrowserRouter, MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
+import * as discoverySearch from "@/features/discovery/search";
 import { FilterSheet } from "@/components/discovery/FilterSheet";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
 import { BrowsePage } from "./BrowsePage";
@@ -221,6 +222,16 @@ describe("BrowsePage", () => {
   });
 
   describe("category chips", () => {
+    it("counts categories without running a full catalog search per category", () => {
+      const search = vi.spyOn(discoverySearch, "searchAndFilter");
+      try {
+        renderBrowse("/browse?q=MooNugs");
+        expect(screen.getByRole("button", { name: /^ice cream · 1$/i })).toBeInTheDocument();
+        expect(search.mock.calls.length).toBeLessThanOrEqual(3);
+      } finally {
+        search.mockRestore();
+      }
+    });
     it("renders pressed state from URL and a per-category count", () => {
       renderBrowse("/browse?categories=desserts");
 
@@ -248,7 +259,7 @@ describe("BrowsePage", () => {
 
     it("hides categories with no items in the current context", () => {
       renderBrowse("/browse?locations=the-front-porch");
-      expect(screen.queryByRole("button", { name: /^seafood/i })).not.toBeInTheDocument();
+      expect(screen.getByRole("button", { name: /^seafood/i })).toBeInTheDocument();
     });
   });
 
@@ -314,4 +325,26 @@ describe("filter sheet", () => {
     renderBrowse("/browse?categories=desserts,burgers&tags=fried");
     expect(screen.getByRole("button", { name: "Filters, 3 active" })).toBeInTheDocument();
   });
+});
+
+it.each(['Chicken Fingers', 'chicken fingers', 'CHICKEN FINGERS'])('finds chicken fingers when typing %s', async (query) => {
+  const user = userEvent.setup();
+  renderBrowse('/browse?q=chicken');
+  const input = screen.getByRole('textbox', { name: 'Search 2026 food' });
+  await user.clear(input);
+  await user.type(input, query);
+  expect(input).toHaveValue(query);
+  expect(within(screen.getAllByRole('article')[0]).getByRole('heading')).toHaveTextContent('Chicken Fingers');
+});
+
+it.each(['masslive-must-try', 'masslive-opening-day'])('cites the original article for %s', (id) => {
+  renderBrowse(`/browse?collection=${id}`);
+  expect(screen.getByRole('link', { name: /source: masslive/i })).toHaveAttribute('href', expect.stringContaining('https://www.masslive.com/'));
+});
+
+it('can search the full catalog without losing the query when a collection hides matches', async () => {
+  renderBrowse('/browse?collection=masslive-must-try&q=Chicken+Fingers');
+  await userEvent.setup().click(screen.getByRole('button', { name: 'Search all food' }));
+  expect(screen.getByRole('textbox', { name: 'Search 2026 food' })).toHaveValue('Chicken Fingers');
+  expect(screen.getByRole('heading', { name: 'Chicken Fingers' })).toBeInTheDocument();
 });

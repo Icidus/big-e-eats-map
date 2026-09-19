@@ -7,12 +7,13 @@ import { catalogItems, locationsById, type FairLocation } from "@/features/catal
 import { detectPlatform, resolveDestination, walkingDirectionsUrl } from "@/features/map/geo";
 import { BackButton } from "@/features/navigation/BackButton";
 import { useFoodPlan } from "@/features/plan/FoodPlanProvider";
+import { resolveCatalogAlias } from "@/features/catalog/aliases";
 
 const FairMap = lazy(() => import("@/features/map/FairMap").then((m) => ({ default: m.FairMap })));
 
 export default function LocationDetail() {
   const { id } = useParams<{ id: string }>();
-  const location = id ? locationsById.get(id) : undefined;
+  const location = id ? locationsById.get(resolveCatalogAlias("locations", id)) : undefined;
   const { addItem, hasItem, removeItem } = useFoodPlan();
 
   if (!location) {
@@ -49,7 +50,7 @@ export default function LocationDetail() {
       <main className="mx-auto max-w-7xl px-4 py-9 sm:px-6 lg:px-8">
         <section className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.65fr)]" aria-labelledby="location-items-title">
           <div>
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">Confirmed 2026 additions</p>
+            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">2026 food and drink</p>
             <h2 id="location-items-title" className="mt-1 font-serif text-3xl font-bold tracking-tight">{items.length} item{items.length === 1 ? "" : "s"} at this stop</h2>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground">Only listings that currently name {location.name} are shown here.</p>
             {items.length ? (
