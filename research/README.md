@@ -4,9 +4,9 @@ This is a supervised research queue for all 187 catalog vendor names. It generat
 
 ## Current state
 
-- Batches 001–010: 100 vendor records checked.
-- Five earlier pilot reviews imported; 105 vendor records checked in total.
-- Batch 011: ten vendors reserved in `next-batch.json`; these are still pending.
+- Batches 001–011: 110 vendor records checked.
+- Five earlier pilot reviews imported; 115 vendor records checked in total.
+- Batch 012: ten vendors reserved in `next-batch.json`; these are still pending.
 - Two confirmed missing items from Bear’s: Bucket of Moinks and Bear Necessit-E Sandwich. See `report-2026.md` for exact citations, price evidence, and location details.
 - Batch 002: confirmed hot popovers with three butter choices at Delaney’s, Rhode Island-style calamari at Friskie Fries, and six crème brûlée flavors at Crème Bru LA. Exact post citations are in the report.
 - Batch 003: It’s Kelewele 31 has seven named food/drink offerings; Joey’s confirms four hand-pie fillings plus whoopie pies. Findings and limitations are in the report.
@@ -25,6 +25,8 @@ This is a supervised research queue for all 187 catalog vendor names. It generat
 - Batch 009 published: 7 listings added (724 total), 7 descriptions enriched, 8 vendor profiles linked (61 total). See `promoted-items-2026-09-19-batch-009.json`.
 
 - Batch 010 published: 4 listings added (728 total), 6 descriptions enriched, 6 vendor profiles linked (66 total). See `promoted-items-2026-09-19-batch-010.json`.
+
+- Batch 011 published: 3 listings added (731 total), 6 descriptions enriched, 3 vendor profiles linked (69 total). See `promoted-items-2026-09-19-batch-011.json`.
 
 ## Commands
 

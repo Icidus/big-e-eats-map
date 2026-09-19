@@ -26,6 +26,9 @@ const requiredReturningVendors = [
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
 const trustedFoodSources = new Set([
+  "https://angelasconcessions.com/menu/",
+  "https://www.instagram.com/mick.express/p/DdZCTJKtwjF/",
+
   "https://www.instagram.com/moosejooseslush/p/DdZGKseRGPW/",
   "https://www.instagram.com/steamingtender/p/Ddbn0EsxBt5/",
 

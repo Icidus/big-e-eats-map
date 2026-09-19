@@ -1,6 +1,6 @@
 # Vendor research progress
 
-105 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+115 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -786,6 +786,58 @@ Read dedicated bakery website: matching fairground address and official fair soc
 - Account: https://www.facebook.com/TheBigE/ (verified)
 - Account: https://www.instagram.com/thebigefair/ (verified)
 
+## The Cantina
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Searched exact name and fair Instagram terms. theecantina.com is an unrelated Wisconsin restaurant; current Backyard Cantina is named Cantina Louie and not safely identical to generic PDF drink stand. No account assigned.
+
+
+## The Emporium
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Exact name and Craz-E Burger Facebook searches returned fair posts and historic news, not a verified stand operator. No unrelated department store assigned.
+
+
+## Top The Crust
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Exact-name and fair Facebook searches returned local delivery and Toast fair listing; no verified social operator. No delivery menu imported as fair stock.
+
+
+## Wild Bill’s Curly Fries
+
+no-account-found · 2026-09-19 · 3 catalog items
+
+Opened matching Facebook search result: explicitly an Unofficial Page with zero followers and no posts. Excluded from public vendor links. NY State Fair menu not used for Big E.
+
+- Account: https://www.facebook.com/WILD-BILLS-CURLY-FRIES-295286297180043/ (candidate)
+
+## Amy’s Sweet Treats
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Matching Facebook profile and historical own Big E caption establish CT vendor on Commonwealth. Latest visible Sep11 post is Hebron, not Big E. Instagram handle in bio is unavailable; excluded. Current fair confirms small vanilla or chocolate ice cream special.
+
+- Account: https://www.facebook.com/AmysSweetTreatsCT/ (verified)
+
+## Anna’s Fried Dough
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Exact-name search found Facebook company profile last visible July2014; no explicit fair association on accessible profile, so retained as unverified lead only. Current official Bargain Bites confirms existing Original Fried Dough Bites on East Road.
+
+- Account: https://www.facebook.com/people/Annas-Fried-Dough/100064239240275/ (candidate)
+
+## Big Kahuna’s
+
+no-account-found · 2026-09-19 · 4 catalog items
+
+Exact fair name search returned official menu and news, no operator account. Excluded unrelated waterpark. Current official menu confirms honey-drizzled Fried Feta Cheese Cubes.
+
+
 ## Boardwok Noodles
 
 reviewed · 2026-09-19 · 4 catalog items
@@ -831,6 +883,35 @@ no-account-found · 2026-09-19 · 4 catalog items
 Searched exact stand name with Big E and social terms using web/Bing. Fair and news references found, but no verifiable operator account. Unrelated businesses excluded. Checked current official New Foods and Bargain Bites; retained existing PDF entries.
 
 - **lead / new-item**: Mini Corndog on Springfield Road is listed for September21 Bargain Bites. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## The Mick
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Official Log Rolling Mick Express page explicitly identifies Young Building stand; linked Log Cabin Instagram coauthors September17 Mick Express post at same stand. Caption confirms cider donut. Older undated bar webpage not treated as 2026 beer roster.
+
+- Account: https://www.logrollingcatering.com/mick-express (verified)
+- Account: https://www.instagram.com/mick.express/ (verified)
+- Account: https://www.instagram.com/logcabindelaney/ (verified)
+- **confirmed / new-item**: Own September17 Big E post confirms cider donut in Young Building. [Source](https://www.instagram.com/mick.express/p/DdZCTJKtwjF/) (checked 2026-09-19)
+
+## Wisconsin Hot Cheese
+
+reviewed · 2026-09-19 · 4 catalog items
+
+Opened hotwisconsincheese.net, linked Instagram and Facebook. Website schedule names Florida/Indiana/Michigan events, not Big E; Instagram only January19 post and Facebook unavailable. Exact current Big E operator association remains unverified. Current official Bargain Bites identifies Hot Wisconsin Cheese on Springfield Road; added explicitly listed Jalapeño Cheddar Bites, without claiming unrelated route menu.
+
+- Account: https://hotwisconsincheese.net/ (candidate)
+
+## Angela’s Pizza
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Official concessions menu explicitly identifies Big E on its route and links both social accounts. Instagram grid latest collaboration is Sep7, other content historical; no extra 2026 menu from old posts. Existing fair-listed foods enriched from consistent official recipes; current Bargain Bites adds cookie.
+
+- Account: https://angelasconcessions.com/ (verified)
+- Account: https://www.facebook.com/angelasinternational (verified)
+- Account: https://www.instagram.com/angelasconcessions/ (verified)
 
 ## Chocolate Moonshine
 

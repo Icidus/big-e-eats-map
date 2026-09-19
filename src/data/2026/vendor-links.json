@@ -912,5 +912,48 @@
         "url": "https://www.instagram.com/thebigefair/"
       }
     ]
+  },
+  {
+    "name": "Angela’s Pizza",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://angelasconcessions.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/angelasinternational"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/angelasconcessions/"
+      }
+    ]
+  },
+  {
+    "name": "Amy’s Sweet Treats",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/AmysSweetTreatsCT/"
+      }
+    ]
+  },
+  {
+    "name": "The Mick",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.logrollingcatering.com/mick-express"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/mick.express/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/logcabindelaney/"
+      }
+    ]
   }
 ]

@@ -1,41 +1,45 @@
 {
-  "batchId": "batch-011",
+  "batchId": "batch-012",
   "vendors": [
     {
-      "vendorId": "the-cantina",
-      "name": "The Cantina",
+      "vendorId": "broccoli-bar",
+      "name": "Broccoli Bar",
       "catalogItems": [
         {
-          "id": "the-cantina-margarita-topped-with-cotton-candy",
-          "name": "Margarita topped with Cotton Candy"
+          "id": "broccoli-bar-broccarita",
+          "name": "The Broccarita"
         },
         {
-          "id": "the-cantina-margaritas",
-          "name": "Margaritas"
+          "id": "the-broccoli-bar-tempura",
+          "name": "Tempura"
         },
         {
-          "id": "the-cantina-sangria",
-          "name": "Sangria"
+          "id": "the-broccoli-bar-dumplings",
+          "name": "Dumplings"
+        },
+        {
+          "id": "the-broccoli-bar-big-sexy-platter",
+          "name": "Big Sexy Platter"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"The Cantina\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22The+Cantina%22+%22Big+E%22+2026"
+          "query": "\"Broccoli Bar\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Broccoli+Bar%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"The Cantina\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22The+Cantina%22+Instagram+Facebook+official"
+          "query": "\"Broccoli Bar\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Broccoli+Bar%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "the-cantina",
+        "vendorId": "broccoli-bar",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"The Cantina\" \"Big E\" 2026",
-          "\"The Cantina\" Instagram Facebook official"
+          "\"Broccoli Bar\" \"Big E\" 2026",
+          "\"Broccoli Bar\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -43,40 +47,44 @@
       }
     },
     {
-      "vendorId": "the-emporium",
-      "name": "The Emporium",
+      "vendorId": "cannoli-king",
+      "name": "Cannoli King",
       "catalogItems": [
         {
-          "id": "the-emporium-craz-e-burger",
-          "name": "Craz-E Burger"
+          "id": "cannoli-king-cannoli-dip",
+          "name": "Cannoli Dip"
         },
         {
-          "id": "the-emporium-insanit-e-burger",
-          "name": "Insanit-E Burger"
+          "id": "cannoli-king-cannoli-donut",
+          "name": "Cannoli Donut"
         },
         {
-          "id": "the-emporium-spic-e-burger",
-          "name": "Spic-E Burger"
+          "id": "cannoli-king-cannoli-cake-bomb",
+          "name": "Cannoli Cake Bomb"
+        },
+        {
+          "id": "cannoli-king-cannoli",
+          "name": "Cannoli"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"The Emporium\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22The+Emporium%22+%22Big+E%22+2026"
+          "query": "\"Cannoli King\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Cannoli+King%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"The Emporium\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22The+Emporium%22+Instagram+Facebook+official"
+          "query": "\"Cannoli King\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Cannoli+King%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "the-emporium",
+        "vendorId": "cannoli-king",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"The Emporium\" \"Big E\" 2026",
-          "\"The Emporium\" Instagram Facebook official"
+          "\"Cannoli King\" \"Big E\" 2026",
+          "\"Cannoli King\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -84,40 +92,44 @@
       }
     },
     {
-      "vendorId": "the-mick",
-      "name": "The Mick",
+      "vendorId": "captain-nemos",
+      "name": "Captain Nemo’s",
       "catalogItems": [
         {
-          "id": "the-mick-alfredo-pasta-bomb",
-          "name": "The Alfredo Pasta Bomb"
+          "id": "captain-nemos-savory-snack-wrap",
+          "name": "Nemo’s Savory Snack Wrap"
         },
         {
-          "id": "the-mick-craft-beer",
-          "name": "Craft Beer"
+          "id": "captain-nemo-s-hot-diggid-e-dog",
+          "name": "Hot Diggid-E Dog"
         },
         {
-          "id": "the-mick-hard-cider",
-          "name": "Hard Cider"
+          "id": "captain-nemo-s-sundae-supper-keg-tots",
+          "name": "Sundae Supper Keg Tots"
+        },
+        {
+          "id": "captain-nemo-s-pot-roast-patty-melt",
+          "name": "Pot Roast Patty Melt"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"The Mick\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22The+Mick%22+%22Big+E%22+2026"
+          "query": "\"Captain Nemo’s\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Captain+Nemo%E2%80%99s%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"The Mick\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22The+Mick%22+Instagram+Facebook+official"
+          "query": "\"Captain Nemo’s\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Captain+Nemo%E2%80%99s%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "the-mick",
+        "vendorId": "captain-nemos",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"The Mick\" \"Big E\" 2026",
-          "\"The Mick\" Instagram Facebook official"
+          "\"Captain Nemo’s\" \"Big E\" 2026",
+          "\"Captain Nemo’s\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -125,40 +137,44 @@
       }
     },
     {
-      "vendorId": "top-the-crust",
-      "name": "Top The Crust",
+      "vendorId": "dribbles",
+      "name": "Dribbles",
       "catalogItems": [
         {
-          "id": "top-the-crust-pizza",
-          "name": "Pizza"
+          "id": "dribbles-mini-pancakes",
+          "name": "Mini Pancakes"
         },
         {
-          "id": "top-the-crust-dessert-pizza",
-          "name": "Dessert Pizza"
+          "id": "dribbles-coffee",
+          "name": "Coffee"
         },
         {
-          "id": "top-the-crust-candy-bar-pizza",
-          "name": "Candy Bar Pizza"
+          "id": "dribbles-mini-doughnuts-with-sauces",
+          "name": "Mini Doughnuts with Sauces"
+        },
+        {
+          "id": "dribbles-sweet-crepes",
+          "name": "Sweet Crepes"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Top The Crust\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Top+The+Crust%22+%22Big+E%22+2026"
+          "query": "\"Dribbles\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Dribbles%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Top The Crust\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Top+The+Crust%22+Instagram+Facebook+official"
+          "query": "\"Dribbles\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Dribbles%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "top-the-crust",
+        "vendorId": "dribbles",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Top The Crust\" \"Big E\" 2026",
-          "\"Top The Crust\" Instagram Facebook official"
+          "\"Dribbles\" \"Big E\" 2026",
+          "\"Dribbles\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -166,40 +182,44 @@
       }
     },
     {
-      "vendorId": "wild-bills-curly-fries",
-      "name": "Wild Bill’s Curly Fries",
+      "vendorId": "giant-corn-dog-factory",
+      "name": "Giant Corn Dog Factory",
       "catalogItems": [
         {
-          "id": "wild-bill-s-curly-fries-chicken-tenders",
-          "name": "Chicken Tenders"
+          "id": "giant-corn-dog-factory-dilly-dilly-dog",
+          "name": "Dilly Dilly Dog"
         },
         {
-          "id": "wild-bill-s-curly-fries-foot-long-corn-dogs",
-          "name": "Foot-Long Corn Dogs"
+          "id": "giant-corn-dog-factory-giant-corn-dogs",
+          "name": "Giant Corn Dogs"
         },
         {
-          "id": "wild-bill-s-curly-fries-curly-fries",
-          "name": "Curly Fries"
+          "id": "giant-corn-dog-factory-korean-dog",
+          "name": "Korean Dog"
+        },
+        {
+          "id": "giant-corn-dog-factory-elote-corn-dog",
+          "name": "Elote Corn Dog"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Wild Bill’s Curly Fries\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Wild+Bill%E2%80%99s+Curly+Fries%22+%22Big+E%22+2026"
+          "query": "\"Giant Corn Dog Factory\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Giant+Corn+Dog+Factory%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Wild Bill’s Curly Fries\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Wild+Bill%E2%80%99s+Curly+Fries%22+Instagram+Facebook+official"
+          "query": "\"Giant Corn Dog Factory\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Giant+Corn+Dog+Factory%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "wild-bills-curly-fries",
+        "vendorId": "giant-corn-dog-factory",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Wild Bill’s Curly Fries\" \"Big E\" 2026",
-          "\"Wild Bill’s Curly Fries\" Instagram Facebook official"
+          "\"Giant Corn Dog Factory\" \"Big E\" 2026",
+          "\"Giant Corn Dog Factory\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -207,40 +227,44 @@
       }
     },
     {
-      "vendorId": "wisconsin-hot-cheese",
-      "name": "Wisconsin Hot Cheese",
+      "vendorId": "granville-country-store",
+      "name": "Granville Country Store",
       "catalogItems": [
         {
-          "id": "wisconsin-hot-cheese-monster-mozzarella",
-          "name": "Monster Mozzarella"
+          "id": "granville-mac-n-cheese-bread-bowl",
+          "name": "Mac ‘n Cheese Bread Bowl"
         },
         {
-          "id": "wisconsin-hot-cheese-cheddar-nuggets",
-          "name": "Cheddar Nuggets"
+          "id": "granville-kansas-city-potato",
+          "name": "Kansas City Potato"
         },
         {
-          "id": "wisconsin-hot-cheese-mozzarella-fingers",
-          "name": "Mozzarella Fingers"
+          "id": "granville-country-store-mac-melt",
+          "name": "Mac Melt"
+        },
+        {
+          "id": "granville-country-store-mac-and-cheese",
+          "name": "Mac & Cheese"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Wisconsin Hot Cheese\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Wisconsin+Hot+Cheese%22+%22Big+E%22+2026"
+          "query": "\"Granville Country Store\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Granville+Country+Store%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Wisconsin Hot Cheese\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Wisconsin+Hot+Cheese%22+Instagram+Facebook+official"
+          "query": "\"Granville Country Store\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Granville+Country+Store%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "wisconsin-hot-cheese",
+        "vendorId": "granville-country-store",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Wisconsin Hot Cheese\" \"Big E\" 2026",
-          "\"Wisconsin Hot Cheese\" Instagram Facebook official"
+          "\"Granville Country Store\" \"Big E\" 2026",
+          "\"Granville Country Store\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -248,44 +272,44 @@
       }
     },
     {
-      "vendorId": "amys-sweet-treats",
-      "name": "Amy’s Sweet Treats",
+      "vendorId": "mclaughlin-family-homemade-ice-cream",
+      "name": "McLaughlin Family Homemade Ice Cream",
       "catalogItems": [
         {
-          "id": "amy-s-sweet-treats-crazy-milkshakes",
-          "name": "Crazy Milkshakes"
+          "id": "mclaughlin-maine-blueberry-ice-cream",
+          "name": "Maine Blueberry"
         },
         {
-          "id": "amy-s-sweet-treats-hot-honey-sundae",
-          "name": "Hot Honey Sundae"
+          "id": "mclaughlin-sea-salt-caramel-ice-cream",
+          "name": "Sea Salt Caramel"
         },
         {
-          "id": "amys-sweet-treats-ice-cream",
-          "name": "Ice Cream"
+          "id": "mclaughlin-pumpkin-chocolate-chip-ice-cream",
+          "name": "Pumpkin Chocolate Chip"
         },
         {
-          "id": "amys-sweet-treats-pickle-sundae",
-          "name": "Pickle Sundae"
+          "id": "mclaughlin-chocolate-coconut-ice-cream",
+          "name": "Chocolate Coconut"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Amy’s Sweet Treats\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Amy%E2%80%99s+Sweet+Treats%22+%22Big+E%22+2026"
+          "query": "\"McLaughlin Family Homemade Ice Cream\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22McLaughlin+Family+Homemade+Ice+Cream%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Amy’s Sweet Treats\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Amy%E2%80%99s+Sweet+Treats%22+Instagram+Facebook+official"
+          "query": "\"McLaughlin Family Homemade Ice Cream\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22McLaughlin+Family+Homemade+Ice+Cream%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "amys-sweet-treats",
+        "vendorId": "mclaughlin-family-homemade-ice-cream",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Amy’s Sweet Treats\" \"Big E\" 2026",
-          "\"Amy’s Sweet Treats\" Instagram Facebook official"
+          "\"McLaughlin Family Homemade Ice Cream\" \"Big E\" 2026",
+          "\"McLaughlin Family Homemade Ice Cream\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -293,44 +317,44 @@
       }
     },
     {
-      "vendorId": "angelas-pizza",
-      "name": "Angela’s Pizza",
+      "vendorId": "soup-r-bowl",
+      "name": "Soup-R Bowl",
       "catalogItems": [
         {
-          "id": "angela-s-pizza-giant-mozzarella-stick",
-          "name": "Giant Mozzarella Stick"
+          "id": "soup-r-bowl-soups",
+          "name": "Soups"
         },
         {
-          "id": "angela-s-pizza-pickle-pizza",
-          "name": "Pickle Pizza"
+          "id": "soup-r-bowl-chili",
+          "name": "Chili"
         },
         {
-          "id": "angela-s-pizza-mexican-street-corn-pizza",
-          "name": "Mexican Street Corn Pizza"
+          "id": "soup-r-bowl-bread-bowls",
+          "name": "Bread Bowls"
         },
         {
-          "id": "angelas-pizza-normal-pizza",
-          "name": "Normal Pizza"
+          "id": "soup-r-bowl-maple-marshmallow-drizzled-sweet-potato-fries",
+          "name": "Maple Marshmallow Drizzled Sweet Potato Fries"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Angela’s Pizza\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Angela%E2%80%99s+Pizza%22+%22Big+E%22+2026"
+          "query": "\"Soup-R Bowl\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Soup-R+Bowl%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Angela’s Pizza\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Angela%E2%80%99s+Pizza%22+Instagram+Facebook+official"
+          "query": "\"Soup-R Bowl\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Soup-R+Bowl%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "angelas-pizza",
+        "vendorId": "soup-r-bowl",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Angela’s Pizza\" \"Big E\" 2026",
-          "\"Angela’s Pizza\" Instagram Facebook official"
+          "\"Soup-R Bowl\" \"Big E\" 2026",
+          "\"Soup-R Bowl\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -338,44 +362,44 @@
       }
     },
     {
-      "vendorId": "annas-fried-dough",
-      "name": "Anna’s Fried Dough",
+      "vendorId": "the-italian-pavillion",
+      "name": "The Italian Pavillion",
       "catalogItems": [
         {
-          "id": "anna-s-fried-dough-fried-dough",
-          "name": "Fried Dough"
+          "id": "italian-pavillion-arancini",
+          "name": "Arancini"
         },
         {
-          "id": "anna-s-fried-dough-doughco",
-          "name": "Doughco"
+          "id": "italian-pavillion-gnocchi-and-tortellini",
+          "name": "Gnocchi and Tortellini"
         },
         {
-          "id": "anna-s-fried-dough-fried-dough-bites",
-          "name": "Fried Dough Bites"
+          "id": "italian-pavillion-garlic-knots",
+          "name": "Garlic Knots"
         },
         {
-          "id": "annas-fried-dough-sloppy-dough",
-          "name": "Sloppy Dough"
+          "id": "italian-pavillion-gelato",
+          "name": "Gelato"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Anna’s Fried Dough\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Anna%E2%80%99s+Fried+Dough%22+%22Big+E%22+2026"
+          "query": "\"The Italian Pavillion\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Italian+Pavillion%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Anna’s Fried Dough\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Anna%E2%80%99s+Fried+Dough%22+Instagram+Facebook+official"
+          "query": "\"The Italian Pavillion\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Italian+Pavillion%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "annas-fried-dough",
+        "vendorId": "the-italian-pavillion",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Anna’s Fried Dough\" \"Big E\" 2026",
-          "\"Anna’s Fried Dough\" Instagram Facebook official"
+          "\"The Italian Pavillion\" \"Big E\" 2026",
+          "\"The Italian Pavillion\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -383,44 +407,44 @@
       }
     },
     {
-      "vendorId": "big-kahunas",
-      "name": "Big Kahuna’s",
+      "vendorId": "the-nook",
+      "name": "The Nook",
       "catalogItems": [
         {
-          "id": "big-kahunas-fried-feta-cheese-cubes",
-          "name": "Fried Feta Cheese Cubes"
+          "id": "the-nook-strawberry-dubai-cup",
+          "name": "Strawberry Dubai Cup"
         },
         {
-          "id": "big-kahuna-s-gyros",
-          "name": "Gyros"
+          "id": "the-nook-chocolate-covered-strawberries",
+          "name": "Chocolate-Covered Strawberries"
         },
         {
-          "id": "big-kahuna-s-dorito-gyro",
-          "name": "Dorito Gyro"
+          "id": "the-nook-chocolate-dipped-treats",
+          "name": "Chocolate-Dipped Treats"
         },
         {
-          "id": "big-kahuna-s-falafel",
-          "name": "Falafel"
+          "id": "the-nook-smashed-potato",
+          "name": "Smashed Potato"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Big Kahuna’s\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Big+Kahuna%E2%80%99s%22+%22Big+E%22+2026"
+          "query": "\"The Nook\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Nook%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Big Kahuna’s\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Big+Kahuna%E2%80%99s%22+Instagram+Facebook+official"
+          "query": "\"The Nook\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Nook%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "big-kahunas",
+        "vendorId": "the-nook",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Big Kahuna’s\" \"Big E\" 2026",
-          "\"Big Kahuna’s\" Instagram Facebook official"
+          "\"The Nook\" \"Big E\" 2026",
+          "\"The Nook\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],

@@ -2314,7 +2314,8 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Tangy, soft fried feta cheese cubes drizzled with honey on West Road."
   },
   {
     "id": "boricua-xl-empanada-cheesy-dog",
@@ -8315,7 +8316,7 @@
     "locationIds": [
       "commonwealth-avenue"
     ],
-    "description": "Giant Mozzarella Stick listed for Angela’s Pizza in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Quarter-pound Wisconsin mozzarella on a stick, dipped in Italian batter and fried. Marinara or buttermilk ranch available for dipping.",
     "categoryIds": [
       "snacks-sides"
     ],
@@ -8330,7 +8331,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Angela’s Concessions",
+        "title": "Official menu and Big E route",
+        "url": "https://angelasconcessions.com/menu/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "angela-s-pizza-pickle-pizza",
@@ -8340,7 +8349,7 @@
     "locationIds": [
       "commonwealth-avenue"
     ],
-    "description": "Pickle Pizza listed for Angela’s Pizza in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "White garlic sauce, Wisconsin mozzarella and dill pickle chips, finished with buttermilk ranch drizzle and dill weed.",
     "categoryIds": [
       "pizza-italian"
     ],
@@ -8355,7 +8364,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Angela’s Concessions",
+        "title": "Official menu and Big E route",
+        "url": "https://angelasconcessions.com/menu/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "angela-s-pizza-mexican-street-corn-pizza",
@@ -8365,7 +8382,7 @@
     "locationIds": [
       "commonwealth-avenue"
     ],
-    "description": "Mexican Street Corn Pizza listed for Angela’s Pizza in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Butter base, Wisconsin mozzarella and sweet corn, finished with Parmesan, mayonnaise drizzle and Tajin seasoning.",
     "categoryIds": [
       "pizza-italian"
     ],
@@ -8379,7 +8396,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "Angela’s Concessions",
+        "title": "Official menu and Big E route",
+        "url": "https://angelasconcessions.com/menu/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "captain-nemo-s-hot-diggid-e-dog",
@@ -11130,7 +11155,7 @@
     "locationIds": [
       "east-road"
     ],
-    "description": "Fried Dough Bites listed for Anna’s Fried Dough in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Anna’s Original Fried Dough Bites on East Road, included in September 21 Bargain Bites Day.",
     "categoryIds": [
       "fried-dough"
     ],
@@ -11145,7 +11170,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "Bargain Bites Day",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "apple-fries-jolly-ranchers-extreme-slush",
@@ -14517,7 +14550,15 @@
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
     },
-    "description": "Ice Cream listed in MassLive’s saved 2026 Eater’s Guide."
+    "description": "Ice cream on Commonwealth Avenue. A small cup of vanilla or chocolate is the September 21 Bargain Bites Day special.",
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "Bargain Bites Day",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "angelas-pizza-normal-pizza",
@@ -18378,6 +18419,83 @@
       "publisher": "The Big E",
       "title": "Bargain Bites Day",
       "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "angelas-pizza-soft-baked-chocolate-chip-cookie",
+    "year": 2026,
+    "name": "Soft Baked Chocolate Chip Cookie",
+    "vendor": "Angela’s Pizza",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "Soft-baked chocolate chip cookie on Commonwealth Avenue; a September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "desserts"
+    ],
+    "tagIds": [
+      "sweet",
+      "chocolate"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "wisconsin-hot-cheese-jalapeno-cheddar-bites",
+    "year": 2026,
+    "name": "Jalapeño Cheddar Bites",
+    "vendor": "Wisconsin Hot Cheese",
+    "locationIds": [
+      "springfield-road"
+    ],
+    "description": "Aged white cheddar bites with jalapeño flakes and jalapeño ranch at Hot Wisconsin Cheese on Springfield Road; a September 21 Bargain Bites Day special.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese",
+      "spicy"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "the-mick-cider-donut",
+    "year": 2026,
+    "name": "Cider Donut",
+    "vendor": "The Mick",
+    "locationIds": [
+      "young-building"
+    ],
+    "description": "Cider donut at Mick Express in the Young Building, advertised in its September 17 Big E announcement.",
+    "categoryIds": [
+      "donuts-pastries"
+    ],
+    "tagIds": [
+      "sweet",
+      "apple",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Mick Express",
+      "title": "Mick-opoly at The Big E",
+      "url": "https://www.instagram.com/mick.express/p/DdZCTJKtwjF/",
       "accessedOn": "2026-09-19"
     }
   }

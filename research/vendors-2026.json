@@ -3603,7 +3603,20 @@
           "name": "Sangria"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "the-cantina",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"The Cantina\" \"Big E\"",
+            "\"The Cantina\" Facebook Instagram official"
+          ],
+          "notes": "Searched exact name and fair Instagram terms. theecantina.com is an unrelated Wisconsin restaurant; current Backyard Cantina is named Cantina Louie and not safely identical to generic PDF drink stand. No account assigned.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "the-emporium",
@@ -3622,26 +3635,20 @@
           "name": "Spic-E Burger"
         }
       ],
-      "reviews": []
-    },
-    {
-      "id": "the-mick",
-      "name": "The Mick",
-      "items": [
+      "reviews": [
         {
-          "id": "the-mick-alfredo-pasta-bomb",
-          "name": "The Alfredo Pasta Bomb"
-        },
-        {
-          "id": "the-mick-craft-beer",
-          "name": "Craft Beer"
-        },
-        {
-          "id": "the-mick-hard-cider",
-          "name": "Hard Cider"
+          "vendorId": "the-emporium",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"The Emporium\" \"Big E\"",
+            "\"The Emporium\" Facebook Instagram official"
+          ],
+          "notes": "Exact name and Craz-E Burger Facebook searches returned fair posts and historic news, not a verified stand operator. No unrelated department store assigned.",
+          "accounts": [],
+          "findings": []
         }
-      ],
-      "reviews": []
+      ]
     },
     {
       "id": "top-the-crust",
@@ -3660,7 +3667,20 @@
           "name": "Candy Bar Pizza"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "top-the-crust",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Top The Crust\" \"Big E\"",
+            "\"Top The Crust\" Facebook Instagram official"
+          ],
+          "notes": "Exact-name and fair Facebook searches returned local delivery and Toast fair listing; no verified social operator. No delivery menu imported as fair stock.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "wild-bills-curly-fries",
@@ -3679,26 +3699,25 @@
           "name": "Curly Fries"
         }
       ],
-      "reviews": []
-    },
-    {
-      "id": "wisconsin-hot-cheese",
-      "name": "Wisconsin Hot Cheese",
-      "items": [
+      "reviews": [
         {
-          "id": "wisconsin-hot-cheese-monster-mozzarella",
-          "name": "Monster Mozzarella"
-        },
-        {
-          "id": "wisconsin-hot-cheese-cheddar-nuggets",
-          "name": "Cheddar Nuggets"
-        },
-        {
-          "id": "wisconsin-hot-cheese-mozzarella-fingers",
-          "name": "Mozzarella Fingers"
+          "vendorId": "wild-bills-curly-fries",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Wild Bill’s Curly Fries\" \"Big E\"",
+            "\"Wild Bill’s Curly Fries\" Facebook Instagram official"
+          ],
+          "notes": "Opened matching Facebook search result: explicitly an Unofficial Page with zero followers and no posts. Excluded from public vendor links. NY State Fair menu not used for Big E.",
+          "accounts": [
+            {
+              "url": "https://www.facebook.com/WILD-BILLS-CURLY-FRIES-295286297180043/",
+              "verified": false
+            }
+          ],
+          "findings": []
         }
-      ],
-      "reviews": []
+      ]
     },
     {
       "id": "amys-sweet-treats",
@@ -3721,30 +3740,27 @@
           "name": "Pickle Sundae"
         }
       ],
-      "reviews": []
-    },
-    {
-      "id": "angelas-pizza",
-      "name": "Angela’s Pizza",
-      "items": [
+      "reviews": [
         {
-          "id": "angela-s-pizza-giant-mozzarella-stick",
-          "name": "Giant Mozzarella Stick"
-        },
-        {
-          "id": "angela-s-pizza-pickle-pizza",
-          "name": "Pickle Pizza"
-        },
-        {
-          "id": "angela-s-pizza-mexican-street-corn-pizza",
-          "name": "Mexican Street Corn Pizza"
-        },
-        {
-          "id": "angelas-pizza-normal-pizza",
-          "name": "Normal Pizza"
+          "vendorId": "amys-sweet-treats",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Amy’s Sweet Treats\" \"Big E\"",
+            "\"Amy’s Sweet Treats\" Facebook Instagram official"
+          ],
+          "notes": "Matching Facebook profile and historical own Big E caption establish CT vendor on Commonwealth. Latest visible Sep11 post is Hebron, not Big E. Instagram handle in bio is unavailable; excluded. Current fair confirms small vanilla or chocolate ice cream special.",
+          "accounts": [
+            {
+              "url": "https://www.facebook.com/AmysSweetTreatsCT/",
+              "verified": true,
+              "evidenceUrl": "https://www.facebook.com/AmysSweetTreatsCT/posts/get-crazy-at-the-big-e-with-our-krazy-shakes-we-are-located-on-commonwealth-avenu/847637254103157/",
+              "evidence": "Indexed own historical caption explicitly names Commonwealth Avenue Big E stand; current profile matches CT ice cream business. Used for identity only."
+            }
+          ],
+          "findings": []
         }
-      ],
-      "reviews": []
+      ]
     },
     {
       "id": "annas-fried-dough",
@@ -3767,7 +3783,25 @@
           "name": "Sloppy Dough"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "annas-fried-dough",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Anna’s Fried Dough\" \"Big E\"",
+            "\"Anna’s Fried Dough\" Facebook Instagram official"
+          ],
+          "notes": "Exact-name search found Facebook company profile last visible July2014; no explicit fair association on accessible profile, so retained as unverified lead only. Current official Bargain Bites confirms existing Original Fried Dough Bites on East Road.",
+          "accounts": [
+            {
+              "url": "https://www.facebook.com/people/Annas-Fried-Dough/100064239240275/",
+              "verified": false
+            }
+          ],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "big-kahunas",
@@ -3790,7 +3824,20 @@
           "name": "Falafel"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "big-kahunas",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"Big Kahuna’s\" \"Big E\"",
+            "\"Big Kahuna’s\" Facebook Instagram official"
+          ],
+          "notes": "Exact fair name search returned official menu and news, no operator account. Excluded unrelated waterpark. Current official menu confirms honey-drizzled Fried Feta Cheese Cubes.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "boardwok-noodles",
@@ -4270,6 +4317,72 @@
       "reviews": []
     },
     {
+      "id": "the-mick",
+      "name": "The Mick",
+      "items": [
+        {
+          "id": "the-mick-alfredo-pasta-bomb",
+          "name": "The Alfredo Pasta Bomb"
+        },
+        {
+          "id": "the-mick-craft-beer",
+          "name": "Craft Beer"
+        },
+        {
+          "id": "the-mick-hard-cider",
+          "name": "Hard Cider"
+        },
+        {
+          "id": "the-mick-cider-donut",
+          "name": "Cider Donut"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "the-mick",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"The Mick\" \"Big E\"",
+            "\"The Mick\" Facebook Instagram official"
+          ],
+          "notes": "Official Log Rolling Mick Express page explicitly identifies Young Building stand; linked Log Cabin Instagram coauthors September17 Mick Express post at same stand. Caption confirms cider donut. Older undated bar webpage not treated as 2026 beer roster.",
+          "accounts": [
+            {
+              "url": "https://www.logrollingcatering.com/mick-express",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/mick.express/p/DdZCTJKtwjF/",
+              "evidence": "Own current post coauthored by official hospitality group explicitly names Mick Express in Young Building; website confirms operator."
+            },
+            {
+              "url": "https://www.instagram.com/mick.express/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/mick.express/p/DdZCTJKtwjF/",
+              "evidence": "Own current post coauthored by official hospitality group explicitly names Mick Express in Young Building; website confirms operator."
+            },
+            {
+              "url": "https://www.instagram.com/logcabindelaney/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/mick.express/p/DdZCTJKtwjF/",
+              "evidence": "Own current post coauthored by official hospitality group explicitly names Mick Express in Young Building; website confirms operator."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Own September17 Big E post confirms cider donut in Young Building.",
+              "url": "https://www.instagram.com/mick.express/p/DdZCTJKtwjF/",
+              "kind": "new-item",
+              "confidence": "confirmed",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "publishedOn": "2026-09-17"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "the-nook",
       "name": "The Nook",
       "items": [
@@ -4360,6 +4473,106 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "id": "wisconsin-hot-cheese",
+      "name": "Wisconsin Hot Cheese",
+      "items": [
+        {
+          "id": "wisconsin-hot-cheese-monster-mozzarella",
+          "name": "Monster Mozzarella"
+        },
+        {
+          "id": "wisconsin-hot-cheese-cheddar-nuggets",
+          "name": "Cheddar Nuggets"
+        },
+        {
+          "id": "wisconsin-hot-cheese-mozzarella-fingers",
+          "name": "Mozzarella Fingers"
+        },
+        {
+          "id": "wisconsin-hot-cheese-jalapeno-cheddar-bites",
+          "name": "Jalapeño Cheddar Bites"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "wisconsin-hot-cheese",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Wisconsin Hot Cheese\" \"Big E\"",
+            "\"Wisconsin Hot Cheese\" Facebook Instagram official"
+          ],
+          "notes": "Opened hotwisconsincheese.net, linked Instagram and Facebook. Website schedule names Florida/Indiana/Michigan events, not Big E; Instagram only January19 post and Facebook unavailable. Exact current Big E operator association remains unverified. Current official Bargain Bites identifies Hot Wisconsin Cheese on Springfield Road; added explicitly listed Jalapeño Cheddar Bites, without claiming unrelated route menu.",
+          "accounts": [
+            {
+              "url": "https://hotwisconsincheese.net/",
+              "verified": false
+            }
+          ],
+          "findings": []
+        }
+      ]
+    },
+    {
+      "id": "angelas-pizza",
+      "name": "Angela’s Pizza",
+      "items": [
+        {
+          "id": "angela-s-pizza-giant-mozzarella-stick",
+          "name": "Giant Mozzarella Stick"
+        },
+        {
+          "id": "angela-s-pizza-pickle-pizza",
+          "name": "Pickle Pizza"
+        },
+        {
+          "id": "angela-s-pizza-mexican-street-corn-pizza",
+          "name": "Mexican Street Corn Pizza"
+        },
+        {
+          "id": "angelas-pizza-normal-pizza",
+          "name": "Normal Pizza"
+        },
+        {
+          "id": "angelas-pizza-soft-baked-chocolate-chip-cookie",
+          "name": "Soft Baked Chocolate Chip Cookie"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "angelas-pizza",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Angela’s Pizza\" \"Big E\"",
+            "\"Angela’s Pizza\" Facebook Instagram official"
+          ],
+          "notes": "Official concessions menu explicitly identifies Big E on its route and links both social accounts. Instagram grid latest collaboration is Sep7, other content historical; no extra 2026 menu from old posts. Existing fair-listed foods enriched from consistent official recipes; current Bargain Bites adds cookie.",
+          "accounts": [
+            {
+              "url": "https://angelasconcessions.com/",
+              "verified": true,
+              "evidenceUrl": "https://angelasconcessions.com/menu/",
+              "evidence": "Official operator menu explicitly names Big E and links both social profiles."
+            },
+            {
+              "url": "https://www.facebook.com/angelasinternational",
+              "verified": true,
+              "evidenceUrl": "https://angelasconcessions.com/menu/",
+              "evidence": "Official operator menu explicitly names Big E and links both social profiles."
+            },
+            {
+              "url": "https://www.instagram.com/angelasconcessions/",
+              "verified": true,
+              "evidenceUrl": "https://angelasconcessions.com/menu/",
+              "evidence": "Official operator menu explicitly names Big E and links both social profiles."
+            }
+          ],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "boricua-bites",
@@ -7384,6 +7597,34 @@
         "angelas-pizza",
         "annas-fried-dough",
         "big-kahunas"
+      ],
+      "completedIds": [
+        "the-cantina",
+        "the-emporium",
+        "the-mick",
+        "top-the-crust",
+        "wild-bills-curly-fries",
+        "wisconsin-hot-cheese",
+        "amys-sweet-treats",
+        "angelas-pizza",
+        "annas-fried-dough",
+        "big-kahunas"
+      ]
+    },
+    {
+      "id": "batch-012",
+      "createdOn": "2026-09-19",
+      "vendorIds": [
+        "broccoli-bar",
+        "cannoli-king",
+        "captain-nemos",
+        "dribbles",
+        "giant-corn-dog-factory",
+        "granville-country-store",
+        "mclaughlin-family-homemade-ice-cream",
+        "soup-r-bowl",
+        "the-italian-pavillion",
+        "the-nook"
       ],
       "completedIds": []
     }
