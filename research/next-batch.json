@@ -1,37 +1,37 @@
 {
-  "batchId": "batch-007",
+  "batchId": "batch-008",
   "vendors": [
     {
-      "vendorId": "millies-pierogi",
-      "name": "Millie’s Pierogi",
+      "vendorId": "sweet-babu-s",
+      "name": "Sweet Babu's",
       "catalogItems": [
         {
-          "id": "millie-s-pierogi-millie-s-masterpiece",
-          "name": "Millie’s Masterpiece"
+          "id": "sweet-babus-gluten-free-granola",
+          "name": "Gluten-free Granola"
         },
         {
-          "id": "millie-s-pierogi-pierogi",
-          "name": "Pierogi"
+          "id": "sweet-babus-maple-roasted-nuts",
+          "name": "Maple Roasted Nuts"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Millie’s Pierogi\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Millie%E2%80%99s+Pierogi%22+%22Big+E%22+2026"
+          "query": "\"Sweet Babu's\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Sweet+Babu%27s%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Millie’s Pierogi\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Millie%E2%80%99s+Pierogi%22+Instagram+Facebook+official"
+          "query": "\"Sweet Babu's\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Sweet+Babu%27s%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "millies-pierogi",
+        "vendorId": "sweet-babu-s",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Millie’s Pierogi\" \"Big E\" 2026",
-          "\"Millie’s Pierogi\" Instagram Facebook official"
+          "\"Sweet Babu's\" \"Big E\" 2026",
+          "\"Sweet Babu's\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -39,36 +39,36 @@
       }
     },
     {
-      "vendorId": "new-england-ciders",
-      "name": "New England Ciders",
+      "vendorId": "the-big-fizz-e",
+      "name": "The Big Fizz E",
       "catalogItems": [
         {
-          "id": "new-england-ciders-hard-cider",
-          "name": "Hard Cider"
+          "id": "the-big-fizz-e-dirty-sodas",
+          "name": "Dirty Sodas"
         },
         {
-          "id": "new-england-ciders-big-e-cream-puff-cider",
-          "name": "Big E Cream Puff Cider"
+          "id": "the-big-fizz-e-frozen-sodas",
+          "name": "Frozen Sodas"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"New England Ciders\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22New+England+Ciders%22+%22Big+E%22+2026"
+          "query": "\"The Big Fizz E\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Big+Fizz+E%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"New England Ciders\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22New+England+Ciders%22+Instagram+Facebook+official"
+          "query": "\"The Big Fizz E\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Big+Fizz+E%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "new-england-ciders",
+        "vendorId": "the-big-fizz-e",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"New England Ciders\" \"Big E\" 2026",
-          "\"New England Ciders\" Instagram Facebook official"
+          "\"The Big Fizz E\" \"Big E\" 2026",
+          "\"The Big Fizz E\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -76,36 +76,36 @@
       }
     },
     {
-      "vendorId": "pickle-barrel",
-      "name": "Pickle Barrel",
+      "vendorId": "the-wine-loft",
+      "name": "The Wine Loft",
       "catalogItems": [
         {
-          "id": "pickle-barrel-pickles",
-          "name": "Pickles"
+          "id": "the-wine-loft-charcuterie-boards",
+          "name": "Charcuterie Boards"
         },
         {
-          "id": "pickle-barrel-apple-cider",
-          "name": "Apple Cider"
+          "id": "the-wine-loft-wine-flights",
+          "name": "Wine Flights"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Pickle Barrel\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Pickle+Barrel%22+%22Big+E%22+2026"
+          "query": "\"The Wine Loft\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22The+Wine+Loft%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Pickle Barrel\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Pickle+Barrel%22+Instagram+Facebook+official"
+          "query": "\"The Wine Loft\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22The+Wine+Loft%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "pickle-barrel",
+        "vendorId": "the-wine-loft",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Pickle Barrel\" \"Big E\" 2026",
-          "\"Pickle Barrel\" Instagram Facebook official"
+          "\"The Wine Loft\" \"Big E\" 2026",
+          "\"The Wine Loft\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -113,36 +113,36 @@
       }
     },
     {
-      "vendorId": "pickle-barrel-sirloin-tips",
-      "name": "Pickle Barrel Sirloin Tips",
+      "vendorId": "turkey-legs",
+      "name": "Turkey Legs",
       "catalogItems": [
         {
-          "id": "pickle-barrel-sirloin-tips-sirloin-tips",
-          "name": "Sirloin Tips"
+          "id": "turkey-legs-turkey-legs",
+          "name": "Turkey Legs"
         },
         {
-          "id": "pickle-barrel-sirloin-tips-sirloin-pita",
-          "name": "Sirloin Pita"
+          "id": "turkey-legs-shish-kabobs",
+          "name": "Shish-Kabobs"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Pickle Barrel Sirloin Tips\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Pickle+Barrel+Sirloin+Tips%22+%22Big+E%22+2026"
+          "query": "\"Turkey Legs\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Turkey+Legs%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Pickle Barrel Sirloin Tips\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Pickle+Barrel+Sirloin+Tips%22+Instagram+Facebook+official"
+          "query": "\"Turkey Legs\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Turkey+Legs%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "pickle-barrel-sirloin-tips",
+        "vendorId": "turkey-legs",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Pickle Barrel Sirloin Tips\" \"Big E\" 2026",
-          "\"Pickle Barrel Sirloin Tips\" Instagram Facebook official"
+          "\"Turkey Legs\" \"Big E\" 2026",
+          "\"Turkey Legs\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -150,36 +150,36 @@
       }
     },
     {
-      "vendorId": "pioneer-valley-poppers",
-      "name": "Pioneer Valley Poppers",
+      "vendorId": "vermont-marshmallow-company",
+      "name": "Vermont Marshmallow Company",
       "catalogItems": [
         {
-          "id": "pioneer-valley-poppers-kettle-corn",
-          "name": "Kettle Corn"
+          "id": "vermont-marshmallow-company-smored-oreo",
+          "name": "S’mored Oreo"
         },
         {
-          "id": "pioneer-valley-poppers-lemonade",
-          "name": "Lemonade"
+          "id": "vermont-marshmallow-company-s-macaron",
+          "name": "S’Macaron"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Pioneer Valley Poppers\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Pioneer+Valley+Poppers%22+%22Big+E%22+2026"
+          "query": "\"Vermont Marshmallow Company\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Vermont+Marshmallow+Company%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Pioneer Valley Poppers\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Pioneer+Valley+Poppers%22+Instagram+Facebook+official"
+          "query": "\"Vermont Marshmallow Company\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Vermont+Marshmallow+Company%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "pioneer-valley-poppers",
+        "vendorId": "vermont-marshmallow-company",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Pioneer Valley Poppers\" \"Big E\" 2026",
-          "\"Pioneer Valley Poppers\" Instagram Facebook official"
+          "\"Vermont Marshmallow Company\" \"Big E\" 2026",
+          "\"Vermont Marshmallow Company\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -187,36 +187,40 @@
       }
     },
     {
-      "vendorId": "poppies-fresh-onion-rings",
-      "name": "Poppie’s Fresh Onion Rings",
+      "vendorId": "all-american-craft-beer-bar-grill",
+      "name": "All American Craft Beer Bar & Grill",
       "catalogItems": [
         {
-          "id": "poppies-green-tea-refresher",
-          "name": "Green Tea Refresher"
+          "id": "all-american-stinger-cheeseburger",
+          "name": "The Stinger Cheeseburger"
         },
         {
-          "id": "poppies-lemonade-refresher",
-          "name": "Lemonade Refresher"
+          "id": "all-american-craft-beer-bar-and-grill-specialty-sliders",
+          "name": "Specialty Sliders"
+        },
+        {
+          "id": "all-american-craft-beer-bar-and-grill-craft-beer",
+          "name": "Craft Beer"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Poppie’s Fresh Onion Rings\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Poppie%E2%80%99s+Fresh+Onion+Rings%22+%22Big+E%22+2026"
+          "query": "\"All American Craft Beer Bar & Grill\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22All+American+Craft+Beer+Bar+%26+Grill%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Poppie’s Fresh Onion Rings\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Poppie%E2%80%99s+Fresh+Onion+Rings%22+Instagram+Facebook+official"
+          "query": "\"All American Craft Beer Bar & Grill\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22All+American+Craft+Beer+Bar+%26+Grill%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "poppies-fresh-onion-rings",
+        "vendorId": "all-american-craft-beer-bar-grill",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Poppie’s Fresh Onion Rings\" \"Big E\" 2026",
-          "\"Poppie’s Fresh Onion Rings\" Instagram Facebook official"
+          "\"All American Craft Beer Bar & Grill\" \"Big E\" 2026",
+          "\"All American Craft Beer Bar & Grill\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -224,36 +228,40 @@
       }
     },
     {
-      "vendorId": "qp-burger-food-truck",
-      "name": "QP Burger Food Truck",
+      "vendorId": "ann-maries-candies",
+      "name": "Ann Marie’s Candies",
       "catalogItems": [
         {
-          "id": "qp-burger-food-truck-burger",
-          "name": "Burger"
+          "id": "ann-marie-s-candies-candies",
+          "name": "Candies"
         },
         {
-          "id": "qp-burger-food-truck-hot-dog",
-          "name": "Hot Dog"
+          "id": "ann-marie-s-candies-fudge",
+          "name": "Fudge"
+        },
+        {
+          "id": "ann-marie-s-candies-nuts",
+          "name": "Nuts"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"QP Burger Food Truck\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22QP+Burger+Food+Truck%22+%22Big+E%22+2026"
+          "query": "\"Ann Marie’s Candies\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Ann+Marie%E2%80%99s+Candies%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"QP Burger Food Truck\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22QP+Burger+Food+Truck%22+Instagram+Facebook+official"
+          "query": "\"Ann Marie’s Candies\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Ann+Marie%E2%80%99s+Candies%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "qp-burger-food-truck",
+        "vendorId": "ann-maries-candies",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"QP Burger Food Truck\" \"Big E\" 2026",
-          "\"QP Burger Food Truck\" Instagram Facebook official"
+          "\"Ann Marie’s Candies\" \"Big E\" 2026",
+          "\"Ann Marie’s Candies\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -261,36 +269,40 @@
       }
     },
     {
-      "vendorId": "rhode-island-building",
-      "name": "Rhode Island Building",
+      "vendorId": "boardwok-noodles",
+      "name": "Boardwok Noodles",
       "catalogItems": [
         {
-          "id": "rhode-island-building-quahogs",
-          "name": "Quahogs"
+          "id": "boardwok-noodles-noodle-bowls",
+          "name": "Noodle Bowls"
         },
         {
-          "id": "rhode-island-building-chowder-in-a-bread-bowl",
-          "name": "Chowder in a Bread Bowl"
+          "id": "boardwok-noodles-rice-bowls",
+          "name": "Rice Bowls"
+        },
+        {
+          "id": "boardwok-noodles-teriyaki",
+          "name": "Teriyaki"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Rhode Island Building\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Rhode+Island+Building%22+%22Big+E%22+2026"
+          "query": "\"Boardwok Noodles\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Boardwok+Noodles%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Rhode Island Building\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Rhode+Island+Building%22+Instagram+Facebook+official"
+          "query": "\"Boardwok Noodles\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Boardwok+Noodles%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "rhode-island-building",
+        "vendorId": "boardwok-noodles",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Rhode Island Building\" \"Big E\" 2026",
-          "\"Rhode Island Building\" Instagram Facebook official"
+          "\"Boardwok Noodles\" \"Big E\" 2026",
+          "\"Boardwok Noodles\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -298,36 +310,40 @@
       }
     },
     {
-      "vendorId": "sangria-shack",
-      "name": "Sangria Shack",
+      "vendorId": "bunis-bakery",
+      "name": "Buni’s Bakery",
       "catalogItems": [
         {
-          "id": "sangria-shack-sangria-buckets",
-          "name": "Sangria Buckets"
+          "id": "bunis-apple-crumble-cinnamon-roll",
+          "name": "Apple Crumble Cinnamon Roll"
         },
         {
-          "id": "sangria-shack-sun-cruiser-buckets",
-          "name": "Sun Cruiser Buckets"
+          "id": "buni-s-cinnamon-rolls-gourmet-cinnamon-rolls",
+          "name": "Gourmet Cinnamon Rolls"
+        },
+        {
+          "id": "buni-s-cinnamon-rolls-cinnamon-roll-sundaes",
+          "name": "Cinnamon Roll Sundaes"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Sangria Shack\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Sangria+Shack%22+%22Big+E%22+2026"
+          "query": "\"Buni’s Bakery\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Buni%E2%80%99s+Bakery%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Sangria Shack\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Sangria+Shack%22+Instagram+Facebook+official"
+          "query": "\"Buni’s Bakery\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Buni%E2%80%99s+Bakery%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "sangria-shack",
+        "vendorId": "bunis-bakery",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Sangria Shack\" \"Big E\" 2026",
-          "\"Sangria Shack\" Instagram Facebook official"
+          "\"Buni’s Bakery\" \"Big E\" 2026",
+          "\"Buni’s Bakery\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],
@@ -335,36 +351,40 @@
       }
     },
     {
-      "vendorId": "storrowton-tavern-carriage-house",
-      "name": "Storrowton Tavern & Carriage House",
+      "vendorId": "chans-original-chicken-on-a-stick",
+      "name": "Chan’s Original Chicken-on-a-Stick",
       "catalogItems": [
         {
-          "id": "storrowton-tavern-and-carriage-house-ice-cream-cake-ball",
-          "name": "Ice Cream Cake Ball"
+          "id": "chan-s-original-chicken-on-a-stick-chicken-on-a-stick",
+          "name": "Chicken-on-a-Stick"
         },
         {
-          "id": "storrowton-tavern-and-carriage-house-dessert-ball",
-          "name": "Dessert Ball"
+          "id": "chan-s-original-chicken-on-a-stick-noodles",
+          "name": "Noodles"
+        },
+        {
+          "id": "chan-s-original-chicken-on-a-stick-egg-rolls",
+          "name": "Egg Rolls"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Storrowton Tavern & Carriage House\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Storrowton+Tavern+%26+Carriage+House%22+%22Big+E%22+2026"
+          "query": "\"Chan’s Original Chicken-on-a-Stick\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Chan%E2%80%99s+Original+Chicken-on-a-Stick%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Storrowton Tavern & Carriage House\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Storrowton+Tavern+%26+Carriage+House%22+Instagram+Facebook+official"
+          "query": "\"Chan’s Original Chicken-on-a-Stick\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Chan%E2%80%99s+Original+Chicken-on-a-Stick%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "storrowton-tavern-carriage-house",
+        "vendorId": "chans-original-chicken-on-a-stick",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Storrowton Tavern & Carriage House\" \"Big E\" 2026",
-          "\"Storrowton Tavern & Carriage House\" Instagram Facebook official"
+          "\"Chan’s Original Chicken-on-a-Stick\" \"Big E\" 2026",
+          "\"Chan’s Original Chicken-on-a-Stick\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],

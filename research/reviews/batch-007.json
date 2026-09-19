@@ -1,0 +1,281 @@
+[
+  {
+    "vendorId": "millies-pierogi",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "Millies Pierogi Big E official Instagram Facebook"
+    ],
+    "notes": "Read official website and linked Instagram/Facebook. Scanned 12 Instagram grid entries Sep 2020–Sep 2025; Facebook latest exposed post is Sep 23, 2025 at Big E. No 2026 fair flavor update confirmed; did not import eight online-store fillings as fair inventory.",
+    "accounts": [
+      {
+        "url": "https://milliespierogi.com/",
+        "verified": true,
+        "evidenceUrl": "https://milliespierogi.com/",
+        "evidence": "Official website links both profiles; Facebook page matches Chicopee business and posts from the Big E."
+      },
+      {
+        "url": "https://www.instagram.com/milliespierogi/",
+        "verified": true,
+        "evidenceUrl": "https://milliespierogi.com/",
+        "evidence": "Official website links both profiles; Facebook page matches Chicopee business and posts from the Big E."
+      },
+      {
+        "url": "https://www.facebook.com/milliespierogi",
+        "verified": true,
+        "evidenceUrl": "https://milliespierogi.com/",
+        "evidence": "Official website links both profiles; Facebook page matches Chicopee business and posts from the Big E."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "new-england-ciders",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"New England Ciders\" \"Big E\"",
+      "New England Cider Big E official Instagram"
+    ],
+    "notes": "Exact-name fair search returns current MassLive entry but no verified operator. Did not equate this stand with New England Cider Company or Downeast solely from product names.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "pickle-barrel",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Pickle Barrel\" \"Big E\" pickles cider"
+    ],
+    "notes": "Searched pickle/cider stand separately from Sirloin Tips. Results include historical visitor references to a Craft Common pickle stand but do not establish current operator identity. Existing Commonwealth Avenue pickle confirmed by current Bargain Bites page; no operator account attached.",
+    "accounts": [],
+    "findings": [
+      {
+        "detail": "Current Bargain Bites menu lists a pickle on Commonwealth Avenue; existing listing retained.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "confirmation",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "pickle-barrel-sirloin-tips",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "Pickle Barrel Sirloin Tips Big E official",
+      "\"Pickle Barrel Sirloin Tips\" facebook official",
+      "\"Pickle Barrel Sirloin Tips\" \"Opening Day at The Big E\""
+    ],
+    "notes": "Read Facebook profile (latest Sep 5 post is another fair), opened its 2018 Big E post for identity. Scanned 12 Instagram entries Aug 2019–Apr 2021, no current menu. Website fails DNS; excluded dead link and uncorroborated Instagram. Current official Bargain Bites places side of mushrooms at West Road, matching existing Sirloin Tips location.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/people/Pickle-Barrel-Sirloin-Tips/100063563349169/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/100063563349169/photos/opening-day-at-the-big-e-we-are-open-and-ready/1500661426703178/",
+        "evidence": "Historical vendor post explicitly identifies its Big E participation. Used for operator identity only, not current menu availability."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Side of Mushrooms at West Road is a September 21 Bargain Bites special, missing from catalog.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "pioneer-valley-poppers",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "Pioneer Valley Poppers Big E official",
+      "\"Pioneer Valley Poppers\" Calabrese",
+      "site:facebook.com/calabresemarket \"Pioneer Valley Poppers\""
+    ],
+    "notes": "Opened Calabrese Market Facebook profile, Sep 10 fair transition post and Sep 22, 2023 video explicitly identifying Pioneer Valley Poppers as its stand. Latest profile post is current fair hiring. Historical food/location details not promoted as new 2026 claims.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/calabresemarket/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/calabresemarket/videos/come-visit-calabrese-market-pioneer-valley-poppers-at-the-big-e-in-the-front-por/1777331076028960/",
+        "evidence": "Operator’s own 2023 caption calls its Big E stand Calabrese Market “Pioneer Valley Poppers”; current profile still posts about its Big E operation."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "poppies-fresh-onion-rings",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "Poppies Fresh Onion Rings Big E official"
+    ],
+    "notes": "Official website names Poppies Fresh Onion Rings and links both profiles. Scanned 12 Instagram grid entries Aug 24–Sep 19, 2026. Opened Sep 16 waffle announcement, Sep 18 opening post and Sep 19 fried cheesecake caption. Visually read Sep 16 menu photo after dismissing optional signup prompt: Cinnamon Roll Waffle Sundae and Waffle Dogs on a Stick, plus sundae toppings. Caption explicitly says two new items at Cheesecake Trailer in front of Massachusetts Building. These are same-operator offerings at a separate stall, precisely described and mapped to Avenue of States.",
+    "accounts": [
+      {
+        "url": "https://www.poppiesconcessions.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.poppiesconcessions.com/",
+        "evidence": "Official website identifies the fair concession operation and links both profiles."
+      },
+      {
+        "url": "https://www.instagram.com/poppiesconcessions/",
+        "verified": true,
+        "evidenceUrl": "https://www.poppiesconcessions.com/",
+        "evidence": "Official website identifies the fair concession operation and links both profiles."
+      },
+      {
+        "url": "https://www.facebook.com/poppiesconcessions",
+        "verified": true,
+        "evidenceUrl": "https://www.poppiesconcessions.com/",
+        "evidence": "Official website identifies the fair concession operation and links both profiles."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Cinnamon Roll Waffle Sundae and Waffle Dogs on a Stick debut at the Cheesecake Trailer in front of Massachusetts Building. Menu photo specifies vanilla ice cream, whipped cream, icing and caramel sauce on sundae.",
+        "url": "https://www.instagram.com/poppiesconcessions/p/DdW_iUmpAlb/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-16"
+      },
+      {
+        "detail": "Fried cheesecake confirmed in front of Massachusetts Building in today’s caption.",
+        "url": "https://www.instagram.com/poppiesconcessions/p/DdeTYmQjy5R/",
+        "kind": "new-item",
+        "confidence": "confirmed",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor",
+        "publishedOn": "2026-09-19"
+      }
+    ]
+  },
+  {
+    "vendorId": "qp-burger-food-truck",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"QP Burger\" Big E",
+      "\"QP Burger\" Instagram Facebook",
+      "\"QP Burger\" official Maine Instagram"
+    ],
+    "notes": "Read official fair Maine menu, vendor website and matching Instagram bio. Scanned 12 grid entries Jul 2025–Aug 2026; opened Aug 23 supplier caption, which is not a fair menu. General website burger/dog/fries combinations not imported without fair confirmation. Official fair explicitly confirms Fox Family Potato Chips as a side.",
+    "accounts": [
+      {
+        "url": "https://qpburger.com/",
+        "verified": true,
+        "evidenceUrl": "https://qpburger.com/",
+        "evidence": "Maine food truck website links its Instagram; matching biography describes quarter-pound smash burgers and Maine suppliers."
+      },
+      {
+        "url": "https://www.instagram.com/qpburgermaine/",
+        "verified": true,
+        "evidenceUrl": "https://qpburger.com/",
+        "evidence": "Maine food truck website links its Instagram; matching biography describes quarter-pound smash burgers and Maine suppliers."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Fox Family Potato Chips explicitly listed as a side with QP burgers/hot dogs in the current Maine Building menu.",
+        "url": "https://www.thebige.com/p/thingstodo/avenue/maine-building",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "rhode-island-building",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "The Big E Rhode Island Building 2026 exhibitors"
+    ],
+    "notes": "Read 2026 official building exhibitor page. It names Blount Clam Shack for clam cakes/chowder/stuffies but does not establish that the PDF’s generic quahog and bread-bowl listings refer to that operator. Preserved generic listings and linked building page without speculative merge.",
+    "accounts": [
+      {
+        "url": "https://www.thebige.com/p/thingstodo/avenue/rhode-island-building",
+        "verified": true,
+        "evidenceUrl": "https://www.thebige.com/p/thingstodo/avenue/rhode-island-building",
+        "evidence": "Official current fair page for the catalog’s building umbrella."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "sangria-shack",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Sangria Shack\" Big E official",
+      "\"Sangria Shack\" \"Blueberry\"",
+      "\"Sangria Shack\" \"Hand Crafted Sangrias\"",
+      "site:facebook.com \"Sangria Shack\" \"Blueberry\""
+    ],
+    "notes": "Opened Clemenza’s Facebook fair-preview video and operator profile. Caption names Sangria Shack, house-crafted sangria buckets and Sun Cruiser buckets. Profile latest post is another stand’s food preview; did not assign those products to Sangria Shack. Blueberry flavor appears in search snippets for a separate video, but TikTok is login-only and exact Facebook caption not obtained, so flavor remains unpromoted.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/people/Clemenzas/100063715069515/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/100063715069515/videos/sangria-shack-the-big-e-featuring-house-crafted-sangria-buckets-sun-crusiee-buck/2071405617069698/",
+        "evidence": "Operator’s own video caption identifies its Sangria Shack stand at The Big E."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Operator confirms house-crafted sangria buckets and Sun Cruiser buckets. Relative timestamp only exposed; no exact date invented.",
+        "url": "https://www.facebook.com/100063715069515/videos/sangria-shack-the-big-e-featuring-house-crafted-sangria-buckets-sun-crusiee-buck/2071405617069698/",
+        "kind": "confirmation",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  },
+  {
+    "vendorId": "storrowton-tavern-carriage-house",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Storrowton Tavern\" official Instagram"
+    ],
+    "notes": "Read website’s explicit 2026 Big E service notice and hours, linked Facebook identity, and matching Instagram bio. Scanned 12 grid entries May 2025–Sep 2026, mostly music/giveaway/general events. No new fair dessert named; did not import banquet or year-round menus.",
+    "accounts": [
+      {
+        "url": "https://www.storrowton.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.storrowton.com/",
+        "evidence": "Official website links Facebook; Instagram identifies Eastern States Exposition venue and links back to the same official website."
+      },
+      {
+        "url": "https://www.facebook.com/pages/category/Restaurant/Storrowton-Tavern-111399762227584/",
+        "verified": true,
+        "evidenceUrl": "https://www.storrowton.com/",
+        "evidence": "Official website links Facebook; Instagram identifies Eastern States Exposition venue and links back to the same official website."
+      },
+      {
+        "url": "https://www.instagram.com/storrowtontavern/",
+        "verified": true,
+        "evidenceUrl": "https://www.storrowton.com/",
+        "evidence": "Official website links Facebook; Instagram identifies Eastern States Exposition venue and links back to the same official website."
+      }
+    ],
+    "findings": []
+  }
+]

@@ -1,6 +1,6 @@
 # Vendor research progress
 
-65 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+75 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -458,6 +458,47 @@ Read official website social links. Scanned 12 Instagram grid entries Apr 30–A
 - Account: https://www.instagram.com/maine_aquaculture/ (verified)
 - Account: https://www.facebook.com/maineaquacultureassoc/ (verified)
 
+## Millie’s Pierogi
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Read official website and linked Instagram/Facebook. Scanned 12 Instagram grid entries Sep 2020–Sep 2025; Facebook latest exposed post is Sep 23, 2025 at Big E. No 2026 fair flavor update confirmed; did not import eight online-store fillings as fair inventory.
+
+- Account: https://milliespierogi.com/ (verified)
+- Account: https://www.instagram.com/milliespierogi/ (verified)
+- Account: https://www.facebook.com/milliespierogi (verified)
+
+## New England Ciders
+
+no-account-found · 2026-09-19 · 2 catalog items
+
+Exact-name fair search returns current MassLive entry but no verified operator. Did not equate this stand with New England Cider Company or Downeast solely from product names.
+
+
+## Pickle Barrel
+
+no-account-found · 2026-09-19 · 2 catalog items
+
+Searched pickle/cider stand separately from Sirloin Tips. Results include historical visitor references to a Craft Common pickle stand but do not establish current operator identity. Existing Commonwealth Avenue pickle confirmed by current Bargain Bites page; no operator account attached.
+
+- **lead / confirmation**: Current Bargain Bites menu lists a pickle on Commonwealth Avenue; existing listing retained. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## Pioneer Valley Poppers
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Opened Calabrese Market Facebook profile, Sep 10 fair transition post and Sep 22, 2023 video explicitly identifying Pioneer Valley Poppers as its stand. Latest profile post is current fair hiring. Historical food/location details not promoted as new 2026 claims.
+
+- Account: https://www.facebook.com/calabresemarket/ (verified)
+
+## Rhode Island Building
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Read 2026 official building exhibitor page. It names Blount Clam Shack for clam cakes/chowder/stuffies but does not establish that the PDF’s generic quahog and bread-bowl listings refer to that operator. Preserved generic listings and linked building page without speculative merge.
+
+- Account: https://www.thebige.com/p/thingstodo/avenue/rhode-island-building (verified)
+
 ## Rudy’s Slush
 
 reviewed · 2026-09-19 · 2 catalog items
@@ -467,6 +508,15 @@ Searched Slush and combined Pizza & Slush name; opened Facebook profile and Aug 
 - Account: https://www.facebook.com/people/Rudys-Pizza-Slush/100057841531621/ (verified)
 - **confirmed / confirmation**: Vendor confirms baked potato pizza on Springfield Road and dill pickle lemonade slush on Commonwealth Avenue. Both already cataloged; added supporting citation. [Source](https://www.facebook.com/100057841531621/posts/whos-ready-for-the-big-e-we-are-excited-to-present-our-new-foods-for-this-years-/1478534170751287/) (checked 2026-09-19)
 - **lead / new-item**: Regular slush on Commonwealth Avenue is a September 21 Bargain Bites special. Added as a separate listing from the pickle lemonade slush, with no invented flavor or price. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## Sangria Shack
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Opened Clemenza’s Facebook fair-preview video and operator profile. Caption names Sangria Shack, house-crafted sangria buckets and Sun Cruiser buckets. Profile latest post is another stand’s food preview; did not assign those products to Sangria Shack. Blueberry flavor appears in search snippets for a separate video, but TikTok is login-only and exact Facebook caption not obtained, so flavor remains unpromoted.
+
+- Account: https://www.facebook.com/people/Clemenzas/100063715069515/ (verified)
+- **lead / confirmation**: Operator confirms house-crafted sangria buckets and Sun Cruiser buckets. Relative timestamp only exposed; no exact date invented. [Source](https://www.facebook.com/100063715069515/videos/sangria-shack-the-big-e-featuring-house-crafted-sangria-buckets-sun-crusiee-buck/2071405617069698/) (checked 2026-09-19)
 
 ## Simply Dip-Licious
 
@@ -479,6 +529,16 @@ Official website links both accounts; matching Three Rivers MA business confirme
 - Account: https://www.facebook.com/simply.dips (verified)
 - **confirmed / new-item**: Sweet Talkin’ Jalapeño dip offered on day two in Massachusetts Building; vendor describes sweet flavor with heat. No dietary claims inferred from hashtags. [Source](https://www.instagram.com/simplydiplicious/p/DdeF68mHHCr/) (checked 2026-09-19)
 - **confirmed / confirmation**: Opening-day post confirms dips in Massachusetts Building. [Source](https://www.instagram.com/simplydiplicious/p/DdbheoejXlM/) (checked 2026-09-19)
+
+## Storrowton Tavern & Carriage House
+
+reviewed · 2026-09-19 · 2 catalog items
+
+Read website’s explicit 2026 Big E service notice and hours, linked Facebook identity, and matching Instagram bio. Scanned 12 grid entries May 2025–Sep 2026, mostly music/giveaway/general events. No new fair dessert named; did not import banquet or year-round menus.
+
+- Account: https://www.storrowton.com/ (verified)
+- Account: https://www.facebook.com/pages/category/Restaurant/Storrowton-Tavern-111399762227584/ (verified)
+- Account: https://www.instagram.com/storrowtontavern/ (verified)
 
 ## Valley Malt Beer Garden
 
@@ -523,6 +583,37 @@ Read fair-linked official deli website and parent social accounts. Scanned 12 In
 - Account: https://www.instagram.com/141mainst/ (verified)
 - Account: https://www.facebook.com/141main (verified)
 - **confirmed / new-item**: Maple Bacon Mac & Cheese is confirmed for the Massachusetts Building and missing from catalog. Pilgrim Sandwich and Turkey Bowls already represented; added current supporting citation. [Source](https://www.instagram.com/141mainst/reel/DdaNId6jDg5/) (checked 2026-09-19)
+
+## Pickle Barrel Sirloin Tips
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Read Facebook profile (latest Sep 5 post is another fair), opened its 2018 Big E post for identity. Scanned 12 Instagram entries Aug 2019–Apr 2021, no current menu. Website fails DNS; excluded dead link and uncorroborated Instagram. Current official Bargain Bites places side of mushrooms at West Road, matching existing Sirloin Tips location.
+
+- Account: https://www.facebook.com/people/Pickle-Barrel-Sirloin-Tips/100063563349169/ (verified)
+- **lead / new-item**: Side of Mushrooms at West Road is a September 21 Bargain Bites special, missing from catalog. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## QP Burger Food Truck
+
+reviewed · 2026-09-19 · 3 catalog items
+
+Read official fair Maine menu, vendor website and matching Instagram bio. Scanned 12 grid entries Jul 2025–Aug 2026; opened Aug 23 supplier caption, which is not a fair menu. General website burger/dog/fries combinations not imported without fair confirmation. Official fair explicitly confirms Fox Family Potato Chips as a side.
+
+- Account: https://qpburger.com/ (verified)
+- Account: https://www.instagram.com/qpburgermaine/ (verified)
+- **lead / new-item**: Fox Family Potato Chips explicitly listed as a side with QP burgers/hot dogs in the current Maine Building menu. [Source](https://www.thebige.com/p/thingstodo/avenue/maine-building) (checked 2026-09-19)
+
+## Poppie’s Fresh Onion Rings
+
+reviewed · 2026-09-19 · 5 catalog items
+
+Official website names Poppies Fresh Onion Rings and links both profiles. Scanned 12 Instagram grid entries Aug 24–Sep 19, 2026. Opened Sep 16 waffle announcement, Sep 18 opening post and Sep 19 fried cheesecake caption. Visually read Sep 16 menu photo after dismissing optional signup prompt: Cinnamon Roll Waffle Sundae and Waffle Dogs on a Stick, plus sundae toppings. Caption explicitly says two new items at Cheesecake Trailer in front of Massachusetts Building. These are same-operator offerings at a separate stall, precisely described and mapped to Avenue of States.
+
+- Account: https://www.poppiesconcessions.com/ (verified)
+- Account: https://www.instagram.com/poppiesconcessions/ (verified)
+- Account: https://www.facebook.com/poppiesconcessions (verified)
+- **confirmed / new-item**: Cinnamon Roll Waffle Sundae and Waffle Dogs on a Stick debut at the Cheesecake Trailer in front of Massachusetts Building. Menu photo specifies vanilla ice cream, whipped cream, icing and caramel sauce on sundae. [Source](https://www.instagram.com/poppiesconcessions/p/DdW_iUmpAlb/) (checked 2026-09-19)
+- **confirmed / new-item**: Fried cheesecake confirmed in front of Massachusetts Building in today’s caption. [Source](https://www.instagram.com/poppiesconcessions/p/DdeTYmQjy5R/) (checked 2026-09-19)
 
 ## Joey's Deli & Market
 

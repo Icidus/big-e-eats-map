@@ -4,9 +4,9 @@ This is a supervised research queue for all 187 catalog vendor names. It generat
 
 ## Current state
 
-- Batches 001–006: sixty vendors checked, prioritizing one-item menus.
-- Five earlier pilot reviews imported; 65 vendor records checked in total.
-- Batch 007: ten vendors reserved in `next-batch.json`; these are still pending.
+- Batches 001–007: 70 vendor records checked.
+- Five earlier pilot reviews imported; 75 vendor records checked in total.
+- Batch 008: ten vendors reserved in `next-batch.json`; these are still pending.
 - Two confirmed missing items from Bear’s: Bucket of Moinks and Bear Necessit-E Sandwich. See `report-2026.md` for exact citations, price evidence, and location details.
 - Batch 002: confirmed hot popovers with three butter choices at Delaney’s, Rhode Island-style calamari at Friskie Fries, and six crème brûlée flavors at Crème Bru LA. Exact post citations are in the report.
 - Batch 003: It’s Kelewele 31 has seven named food/drink offerings; Joey’s confirms four hand-pie fillings plus whoopie pies. Findings and limitations are in the report.
@@ -17,6 +17,8 @@ This is a supervised research queue for all 187 catalog vendor names. It generat
 - Batch 005 published: Sweet Talkin’ Jalapeño Dip, regular slush and Dragon Fruit Spritz added (708 entries); seven descriptions enriched; seven vendor profiles linked (31 total). Unresolved operator identities remain unlinked. See `promoted-items-2026-09-19-batch-005.json`.
 
 - Batch 006 published: Maple Bacon Mac & Cheese, Timberyard Honey Blueberry Ale and The Connecticut Dog added (711 entries); nine descriptions enriched; nine vendor profiles linked (40 total). Main Street Deli now links its dedicated fair accounts. See `promoted-items-2026-09-19-batch-006.json`.
+
+- Batch 007 published: 5 listings added (716 total), 2 descriptions enriched, 8 vendor profiles linked (48 total). See `promoted-items-2026-09-19-batch-007.json`.
 
 ## Commands
 
