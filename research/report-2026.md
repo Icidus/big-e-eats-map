@@ -1,6 +1,6 @@
 # Vendor research progress
 
-175 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+185 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -1512,6 +1512,62 @@ Official operator website explicitly names Eastern States fair route and linked 
 - Account: https://butcher-boys.com/ (verified)
 - Account: https://www.instagram.com/thebutcherboys82/ (verified)
 
+## Cantina Louie
+
+no-account-found · 2026-09-19 · 9 catalog items
+
+Official fair confirms Backyard Cantina and existing menu. A same-name southeastern restaurant chain website lists no Big E location; no proven connection, so no account/menu imported.
+
+
+## Hofbrauhaus Beer Garden
+
+no-account-found · 2026-09-19 · 9 catalog items
+
+Fair current new-food and special lists checked; named foods already cataloged. Searches found no verified vendor-owned account; unrelated Hofbrauhaus franchises excluded.
+
+
+## The New England Craft Beer Pub
+
+inaccessible · 2026-09-19 · 9 catalog items
+
+Dedicated Facebook profile has Big E name and grounds address. Latest shared status content unavailable; customer comments do not confirm menu. Existing official cheeseburger nachos special enriched.
+
+- Account: https://www.facebook.com/p/New-England-Craft-Beer-Pub-at-The-Big-E-100064069181908/ (verified)
+
+## The Paddock
+
+no-account-found · 2026-09-19 · 9 catalog items
+
+Two searches found fair/news coverage but no verified vendor account. Official Bargain Bites lists plain small sweet potato fries, distinct from the loaded item.
+
+- **lead / new-item**: Small Sweet Potato Fries listed in the official 2026 fair specials. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## The Ultimate BBQ
+
+inaccessible · 2026-09-19 · 9 catalog items
+
+Search indexed ultimate-bbq.com Big E history, but homepage/about/past-events all return 404. TheUltimateBBQ Facebook is unavailable. Added official fair cornbread; no inaccessible account promoted.
+
+- **lead / new-item**: Cornbread listed in the official 2026 fair specials. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## V-One Vodka
+
+inaccessible · 2026-09-19 · 9 catalog items
+
+Official brand website directly links Facebook and Instagram. Facebook unavailable and Instagram audience-restricted; no access bypass attempted. Website cocktail recipes are not Big E menu evidence.
+
+- Account: https://www.v1vodka.com/ (verified)
+- Account: https://www.facebook.com/v1vodka/ (verified)
+- Account: https://www.instagram.com/v1vodka/ (verified)
+
+## Barbie’s Ice Cream
+
+no-account-found · 2026-09-19 · 10 catalog items
+
+Searches found an unrelated Instagram storefront across Cloud 9 and other-fair listings, not a verified Big E account. Fair lists a small Flavor Blend Ice Cream Cone special.
+
+- **lead / new-item**: Flavor Blend Ice Cream Cone listed in the official 2026 fair specials. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
 ## Moolicious Farm
 
 inaccessible · 2026-09-19 · 10 catalog items
@@ -1519,4 +1575,34 @@ inaccessible · 2026-09-19 · 10 catalog items
 Imported from docs/vendor-instagram-pilot-2026-09-19.md; limited public review, not a complete archive scan. Candidate @mooliciousfarm displayed Profile isn’t available. Account ownership not verified.
 
 - Account: https://www.instagram.com/mooliciousfarm/ (candidate)
+
+## Veggie Patch
+
+no-account-found · 2026-09-19 · 11 catalog items
+
+Two searches found unrelated gardens/co-ops and no verified fair vendor account. Current official new-food descriptions checked; all three highlighted foods already cataloged.
+
+
+## Calabrese Market
+
+reviewed · 2026-09-19 · 12 catalog items
+
+Official website says closed for The Big E and links matching Facebook; latest Facebook caption recruits fair staff. Official specials identify limeade, kettle corn and popcorn at separate locations. Deli menu not imported.
+
+- Account: https://www.calabresemarketma.com/ (verified)
+- Account: https://www.facebook.com/calabresemarket/ (verified)
+- **lead / new-item**: Limeade listed in the official 2026 fair specials. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+- **lead / new-item**: Kettle Corn listed in the official 2026 fair specials. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+- **lead / new-item**: Popcorn listed in the official 2026 fair specials. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
+
+## Harpoon Beer Hall
+
+reviewed · 2026-09-19 · 36 catalog items
+
+Operator’s Big E page links dedicated Harpoon menu explicitly dated September 18–October 4, 2026. Existing named foods covered; added named beverage options. Parent social links verified through operator website; brewery Boston Beer Hall account not confused with fair stand.
+
+- Account: https://www.beanrg.com/harpoonbeerhall (verified)
+- Account: https://www.instagram.com/beanrestaurantgroup/ (verified)
+- Account: https://www.facebook.com/Bean-Restaurant-Group-353788725167016 (verified)
+- **lead / new-item**: Current dated 2026 fair menu adds named beers/ciders, Golden Orchard and Fall Muffin mixed drafts, hard Italian ices and nonalcoholic drinks. [Source](https://www.beanrg.com/harpoonbeerhall) (checked 2026-09-19)
 

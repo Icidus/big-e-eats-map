@@ -2655,7 +2655,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Grilled panini with Nutella, brie cheese and bacon. Listed at the Food Court for the September 21, 2026 Bargain Bites event.",
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "2026 Bargain Bites",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "calabrese-alcoholic-bellinis",
@@ -4165,7 +4174,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Cheeseburger nachos. A mini serving is listed on Avenue of States for the September 21, 2026 Bargain Bites event.",
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "2026 Bargain Bites",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "paddock-the-stack",
@@ -19192,6 +19210,734 @@
       "publisher": "The Big E",
       "title": "2026 Bargain Bites",
       "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "the-paddock-small-sweet-potato-fries",
+    "year": 2026,
+    "name": "Small Sweet Potato Fries",
+    "vendor": "The Paddock",
+    "locationIds": [
+      "west-road"
+    ],
+    "description": "Listed for the September 21, 2026 Bargain Bites event.",
+    "categoryIds": [
+      "potatoes-fries"
+    ],
+    "tagIds": [
+      "savory",
+      "fried"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 Bargain Bites",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "ultimate-bbq-cornbread",
+    "year": 2026,
+    "name": "Cornbread",
+    "vendor": "The Ultimate BBQ",
+    "locationIds": [
+      "east-road"
+    ],
+    "description": "Listed for the September 21, 2026 Bargain Bites event. Two pieces.",
+    "categoryIds": [
+      "barbecue"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 Bargain Bites",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "barbies-flavor-blend-ice-cream-cone",
+    "year": 2026,
+    "name": "Flavor Blend Ice Cream Cone",
+    "vendor": "Barbie’s Ice Cream",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed for the September 21, 2026 Bargain Bites event. Small cone.",
+    "categoryIds": [
+      "ice-cream"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 Bargain Bites",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "calabrese-market-limeade",
+    "year": 2026,
+    "name": "Limeade",
+    "vendor": "Calabrese Market",
+    "locationIds": [
+      "better-living-center"
+    ],
+    "description": "Listed for the September 21, 2026 Bargain Bites event. A 16-ounce serving at the Better Living Center.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 Bargain Bites",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "calabrese-market-kettle-corn",
+    "year": 2026,
+    "name": "Kettle Corn",
+    "vendor": "Calabrese Market",
+    "locationIds": [
+      "the-front-porch"
+    ],
+    "description": "Listed for the September 21, 2026 Bargain Bites event. Available at The Front Porch and Storrowton Village.",
+    "categoryIds": [
+      "pretzels-corn"
+    ],
+    "tagIds": [
+      "sweet",
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 Bargain Bites",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "calabrese-market-popcorn",
+    "year": 2026,
+    "name": "Popcorn",
+    "vendor": "Calabrese Market",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed for the September 21, 2026 Bargain Bites event.",
+    "categoryIds": [
+      "pretzels-corn"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 Bargain Bites",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-harpoon-ipa",
+    "year": 2026,
+    "name": "Harpoon IPA",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed on Harpoon Beer Hall’s 2026 Big E drinks menu, on New England Avenue across from the Young Building.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-harpoon-octoberfest",
+    "year": 2026,
+    "name": "Harpoon Octoberfest",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed on Harpoon Beer Hall’s 2026 Big E drinks menu, on New England Avenue across from the Young Building.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-harpoon-pumpkin-cider",
+    "year": 2026,
+    "name": "Harpoon Pumpkin Cider",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed on Harpoon Beer Hall’s 2026 Big E drinks menu, on New England Avenue across from the Young Building.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic",
+      "pumpkin",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-harpoon-cider",
+    "year": 2026,
+    "name": "Harpoon Cider",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed on Harpoon Beer Hall’s 2026 Big E drinks menu, on New England Avenue across from the Young Building.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-ufo-pumpkin",
+    "year": 2026,
+    "name": "UFO Pumpkin",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed on Harpoon Beer Hall’s 2026 Big E drinks menu, on New England Avenue across from the Young Building.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic",
+      "pumpkin",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-ufo-maine-blueberry",
+    "year": 2026,
+    "name": "UFO Maine Blueberry",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed on Harpoon Beer Hall’s 2026 Big E drinks menu, on New England Avenue across from the Young Building.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-harpoon-you-can-t-beat-boston-ipa",
+    "year": 2026,
+    "name": "Harpoon You Can’t Beat Boston IPA",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed on Harpoon Beer Hall’s 2026 Big E drinks menu, on New England Avenue across from the Young Building.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-clown-shoes-pumpkin-sombrero",
+    "year": 2026,
+    "name": "Clown Shoes Pumpkin Sombrero",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed on Harpoon Beer Hall’s 2026 Big E drinks menu, on New England Avenue across from the Young Building.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic",
+      "pumpkin",
+      "fall-flavors"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-clown-shoes-rainbows-are-real-hazy-ipa",
+    "year": 2026,
+    "name": "Clown Shoes Rainbows Are Real Hazy IPA",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed on Harpoon Beer Hall’s 2026 Big E drinks menu, on New England Avenue across from the Young Building.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-michelob-ultra",
+    "year": 2026,
+    "name": "Michelob Ultra",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed on Harpoon Beer Hall’s 2026 Big E drinks menu, on New England Avenue across from the Young Building.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-budweiser",
+    "year": 2026,
+    "name": "Budweiser",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Listed on Harpoon Beer Hall’s 2026 Big E drinks menu, on New England Avenue across from the Young Building.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-golden-orchard",
+    "year": 2026,
+    "name": "Golden Orchard",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Harpoon IPA mixed with Harpoon Cider. Listed on the 2026 Big E menu.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-fall-muffin",
+    "year": 2026,
+    "name": "Fall Muffin",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Harpoon Cider mixed with UFO Blueberry. Listed on the 2026 Big E menu.",
+    "categoryIds": [
+      "beer-cider"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-cherry-chill-hard-italian-ice",
+    "year": 2026,
+    "name": "Cherry Chill Hard Italian Ice",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Right Coast cherry-flavored hard Italian ice. Listed on the 2026 Big E menu.",
+    "categoryIds": [
+      "cocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-lemon-freeze-hard-italian-ice",
+    "year": 2026,
+    "name": "Lemon Freeze Hard Italian Ice",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Right Coast lemon-flavored hard Italian ice. Listed on the 2026 Big E menu.",
+    "categoryIds": [
+      "cocktails"
+    ],
+    "tagIds": [
+      "drinks",
+      "alcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-smartwater",
+    "year": 2026,
+    "name": "Smartwater",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Nonalcoholic option listed on Harpoon Beer Hall’s 2026 Big E menu.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-coke",
+    "year": 2026,
+    "name": "Coke",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Nonalcoholic option listed on Harpoon Beer Hall’s 2026 Big E menu.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-coke-zero",
+    "year": 2026,
+    "name": "Coke Zero",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Nonalcoholic option listed on Harpoon Beer Hall’s 2026 Big E menu.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-diet-coke",
+    "year": 2026,
+    "name": "Diet Coke",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Nonalcoholic option listed on Harpoon Beer Hall’s 2026 Big E menu.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-sprite",
+    "year": 2026,
+    "name": "Sprite",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Nonalcoholic option listed on Harpoon Beer Hall’s 2026 Big E menu.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-body-armor",
+    "year": 2026,
+    "name": "Body Armor",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Nonalcoholic option listed on Harpoon Beer Hall’s 2026 Big E menu.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-monster-energy",
+    "year": 2026,
+    "name": "Monster Energy",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Nonalcoholic option listed on Harpoon Beer Hall’s 2026 Big E menu.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "harpoon-gold-peak-sweet-tea",
+    "year": 2026,
+    "name": "Gold Peak Sweet Tea",
+    "vendor": "Harpoon Beer Hall",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Nonalcoholic option listed on Harpoon Beer Hall’s 2026 Big E menu.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "Bean Restaurant Group",
+      "title": "Harpoon Beer Hall — 2026 Big E menu",
+      "url": "https://www.beanrg.com/harpoonbeerhall",
       "accessedOn": "2026-09-19"
     }
   }

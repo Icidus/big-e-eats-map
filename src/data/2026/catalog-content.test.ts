@@ -257,7 +257,7 @@ describe("2026 catalog content", () => {
   });
 
   it("maps the exact Food Court, East Road vendor label only to the Food Court", () => {
-    const compoundLabelItems = catalogData.items.filter((item) => foodCourtOnlyVendors.includes(item.vendor));
+    const compoundLabelItems = catalogData.items.filter((item) => foodCourtOnlyVendors.includes(item.vendor) && item.source.url !== "https://www.thebige.com/p/food2/bargain-bites");
     expect(compoundLabelItems.length).toBeGreaterThan(0);
     for (const item of compoundLabelItems) {
       expect(item.locationIds).toEqual(["food-court"]);

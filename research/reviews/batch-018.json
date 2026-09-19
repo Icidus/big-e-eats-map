@@ -1,0 +1,245 @@
+[
+  {
+    "vendorId": "the-paddock",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"The Paddock\" \"Big E\" official",
+      "\"The Paddock\" \"Big E\" Facebook Instagram"
+    ],
+    "notes": "Two searches found fair/news coverage but no verified vendor account. Official Bargain Bites lists plain small sweet potato fries, distinct from the loaded item.",
+    "accounts": [],
+    "findings": [
+      {
+        "detail": "Small Sweet Potato Fries listed in the official 2026 fair specials.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "the-ultimate-bbq",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "\"Ultimate BBQ\" \"Big E\" Facebook",
+      "\"The Ultimate BBQ\" Enfield facebook"
+    ],
+    "notes": "Search indexed ultimate-bbq.com Big E history, but homepage/about/past-events all return 404. TheUltimateBBQ Facebook is unavailable. Added official fair cornbread; no inaccessible account promoted.",
+    "accounts": [],
+    "findings": [
+      {
+        "detail": "Cornbread listed in the official 2026 fair specials.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "barbies-ice-cream",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Barbies Ice Cream\" \"Big E\"",
+      "\"Barbie’s Ice Cream\" fair Facebook"
+    ],
+    "notes": "Searches found an unrelated Instagram storefront across Cloud 9 and other-fair listings, not a verified Big E account. Fair lists a small Flavor Blend Ice Cream Cone special.",
+    "accounts": [],
+    "findings": [
+      {
+        "detail": "Flavor Blend Ice Cream Cone listed in the official 2026 fair specials.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "calabrese-market",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Calabrese Market\" \"Big E\""
+    ],
+    "notes": "Official website says closed for The Big E and links matching Facebook; latest Facebook caption recruits fair staff. Official specials identify limeade, kettle corn and popcorn at separate locations. Deli menu not imported.",
+    "accounts": [
+      {
+        "url": "https://www.calabresemarketma.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.calabresemarketma.com/",
+        "evidence": "Website confirms Big E closure and directly links matching Facebook."
+      },
+      {
+        "url": "https://www.facebook.com/calabresemarket/",
+        "verified": true,
+        "evidenceUrl": "https://www.calabresemarketma.com/",
+        "evidence": "Website confirms Big E closure and directly links matching Facebook."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Limeade listed in the official 2026 fair specials.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      },
+      {
+        "detail": "Kettle Corn listed in the official 2026 fair specials.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      },
+      {
+        "detail": "Popcorn listed in the official 2026 fair specials.",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "fair"
+      }
+    ]
+  },
+  {
+    "vendorId": "cantina-louie",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Cantina Louie\" \"Big E\"",
+      "\"Cantina Louie\" \"Big E\" instagram"
+    ],
+    "notes": "Official fair confirms Backyard Cantina and existing menu. A same-name southeastern restaurant chain website lists no Big E location; no proven connection, so no account/menu imported.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "hofbrauhaus-beer-garden",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Hofbrauhaus Beer Garden\" \"Big E\"",
+      "\"Hofbrauhaus\" \"Big E\" facebook"
+    ],
+    "notes": "Fair current new-food and special lists checked; named foods already cataloged. Searches found no verified vendor-owned account; unrelated Hofbrauhaus franchises excluded.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "the-new-england-craft-beer-pub",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "\"New England Craft Beer Pub\" official",
+      "\"New England Craft Beer Pub\" Facebook"
+    ],
+    "notes": "Dedicated Facebook profile has Big E name and grounds address. Latest shared status content unavailable; customer comments do not confirm menu. Existing official cheeseburger nachos special enriched.",
+    "accounts": [
+      {
+        "url": "https://www.facebook.com/p/New-England-Craft-Beer-Pub-at-The-Big-E-100064069181908/",
+        "verified": true,
+        "evidenceUrl": "https://www.facebook.com/p/New-England-Craft-Beer-Pub-at-The-Big-E-100064069181908/",
+        "evidence": "Dedicated Big E pub profile identifies the fairgrounds street address."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "v-one-vodka",
+    "checkedAt": "2026-09-19",
+    "status": "inaccessible",
+    "searches": [
+      "\"V-One Vodka\" \"Big E\""
+    ],
+    "notes": "Official brand website directly links Facebook and Instagram. Facebook unavailable and Instagram audience-restricted; no access bypass attempted. Website cocktail recipes are not Big E menu evidence.",
+    "accounts": [
+      {
+        "url": "https://www.v1vodka.com/",
+        "verified": true,
+        "evidenceUrl": "https://www.v1vodka.com/",
+        "evidence": "Official brand website links both social accounts; feeds restricted/unavailable during review."
+      },
+      {
+        "url": "https://www.facebook.com/v1vodka/",
+        "verified": true,
+        "evidenceUrl": "https://www.v1vodka.com/",
+        "evidence": "Official brand website links both social accounts; feeds restricted/unavailable during review."
+      },
+      {
+        "url": "https://www.instagram.com/v1vodka/",
+        "verified": true,
+        "evidenceUrl": "https://www.v1vodka.com/",
+        "evidence": "Official brand website links both social accounts; feeds restricted/unavailable during review."
+      }
+    ],
+    "findings": []
+  },
+  {
+    "vendorId": "veggie-patch",
+    "checkedAt": "2026-09-19",
+    "status": "no-account-found",
+    "searches": [
+      "\"Veggie Patch\" \"Big E\" facebook",
+      "\"Veggie Patch\" concessions instagram"
+    ],
+    "notes": "Two searches found unrelated gardens/co-ops and no verified fair vendor account. Current official new-food descriptions checked; all three highlighted foods already cataloged.",
+    "accounts": [],
+    "findings": []
+  },
+  {
+    "vendorId": "harpoon-beer-hall",
+    "checkedAt": "2026-09-19",
+    "status": "reviewed",
+    "searches": [
+      "\"Harpoon Beer Hall\" \"Big E\""
+    ],
+    "notes": "Operator’s Big E page links dedicated Harpoon menu explicitly dated September 18–October 4, 2026. Existing named foods covered; added named beverage options. Parent social links verified through operator website; brewery Boston Beer Hall account not confused with fair stand.",
+    "accounts": [
+      {
+        "url": "https://www.beanrg.com/harpoonbeerhall",
+        "verified": true,
+        "evidenceUrl": "https://www.beanrg.com/harpoonbeerhall",
+        "evidence": "Operator’s current 2026 fair menu identifies stand and links parent social accounts."
+      },
+      {
+        "url": "https://www.instagram.com/beanrestaurantgroup/",
+        "verified": true,
+        "evidenceUrl": "https://www.beanrg.com/harpoonbeerhall",
+        "evidence": "Operator’s current 2026 fair menu identifies stand and links parent social accounts."
+      },
+      {
+        "url": "https://www.facebook.com/Bean-Restaurant-Group-353788725167016",
+        "verified": true,
+        "evidenceUrl": "https://www.beanrg.com/harpoonbeerhall",
+        "evidence": "Operator’s current 2026 fair menu identifies stand and links parent social accounts."
+      }
+    ],
+    "findings": [
+      {
+        "detail": "Current dated 2026 fair menu adds named beers/ciders, Golden Orchard and Fall Muffin mixed drafts, hard Italian ices and nonalcoholic drinks.",
+        "url": "https://www.beanrg.com/harpoonbeerhall",
+        "kind": "new-item",
+        "confidence": "lead",
+        "event": "The Big E",
+        "year": 2026,
+        "sourceType": "vendor"
+      }
+    ]
+  }
+]

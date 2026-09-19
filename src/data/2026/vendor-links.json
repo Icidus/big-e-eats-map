@@ -423,6 +423,10 @@
       {
         "label": "Facebook",
         "url": "https://www.facebook.com/v1vodka"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/v1vodka/"
       }
     ]
   },
@@ -1466,6 +1470,45 @@
       {
         "label": "Instagram",
         "url": "https://www.instagram.com/cravecafe413/"
+      }
+    ]
+  },
+  {
+    "name": "Calabrese Market",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.calabresemarketma.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/calabresemarket/"
+      }
+    ]
+  },
+  {
+    "name": "The New England Craft Beer Pub",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/p/New-England-Craft-Beer-Pub-at-The-Big-E-100064069181908/"
+      }
+    ]
+  },
+  {
+    "name": "Harpoon Beer Hall",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.beanrg.com/harpoonbeerhall"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/beanrestaurantgroup/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/Bean-Restaurant-Group-353788725167016"
       }
     ]
   }
