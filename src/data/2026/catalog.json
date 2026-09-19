@@ -1284,7 +1284,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Funnel Cakes Find the stand on East Road at the corner of the Young Building, beside the Mallary Building and carnival entrance. The vendor states all items are gluten-free; soy and dairy ingredients vary by item.",
+    "supportingSources": [
+      {
+        "publisher": "Simply Gluten Free",
+        "title": "Big E opening menu and location",
+        "url": "https://www.instagram.com/simplyglutenfreefairfood/p/DdZTm6bFcVq/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "simply-gluten-free-fried-oreos",
@@ -1312,7 +1321,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Fried Oreos Find the stand on East Road at the corner of the Young Building, beside the Mallary Building and carnival entrance. The vendor states all items are gluten-free; soy and dairy ingredients vary by item.",
+    "supportingSources": [
+      {
+        "publisher": "Simply Gluten Free",
+        "title": "Big E opening menu and location",
+        "url": "https://www.instagram.com/simplyglutenfreefairfood/p/DdZTm6bFcVq/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "simply-gluten-free-corndogs",
@@ -1338,7 +1356,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Corndogs Find the stand on East Road at the corner of the Young Building, beside the Mallary Building and carnival entrance. The vendor states all items are gluten-free; soy and dairy ingredients vary by item.",
+    "supportingSources": [
+      {
+        "publisher": "Simply Gluten Free",
+        "title": "Big E opening menu and location",
+        "url": "https://www.instagram.com/simplyglutenfreefairfood/p/DdZTm6bFcVq/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "simply-gluten-free-chicken-tenders",
@@ -1365,7 +1392,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Chicken Tenders Find the stand on East Road at the corner of the Young Building, beside the Mallary Building and carnival entrance. The vendor states all items are gluten-free; soy and dairy ingredients vary by item.",
+    "supportingSources": [
+      {
+        "publisher": "Simply Gluten Free",
+        "title": "Big E opening menu and location",
+        "url": "https://www.instagram.com/simplyglutenfreefairfood/p/DdZTm6bFcVq/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "simply-gluten-free-jumbo-mozzarella-stick",
@@ -1393,7 +1429,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Jumbo Mozzarella Stick Find the stand on East Road at the corner of the Young Building, beside the Mallary Building and carnival entrance. The vendor states all items are gluten-free; soy and dairy ingredients vary by item.",
+    "supportingSources": [
+      {
+        "publisher": "Simply Gluten Free",
+        "title": "Big E opening menu and location",
+        "url": "https://www.instagram.com/simplyglutenfreefairfood/p/DdZTm6bFcVq/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "simply-gluten-free-fountain-lemonade",
@@ -1420,7 +1465,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "Fountain Lemonade Find the stand on East Road at the corner of the Young Building, beside the Mallary Building and carnival entrance. The vendor states all items are gluten-free; soy and dairy ingredients vary by item.",
+    "supportingSources": [
+      {
+        "publisher": "Simply Gluten Free",
+        "title": "Big E opening menu and location",
+        "url": "https://www.instagram.com/simplyglutenfreefairfood/p/DdZTm6bFcVq/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "spudtastic-all-american-sweet-potato",
@@ -10104,7 +10158,7 @@
     "locationIds": [
       "food-court"
     ],
-    "description": "Baked Pork listed for Las Kangris Food Truck in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Baked pork in the Food Court, included in September21 Bargain Bites Day.",
     "categoryIds": [
       "global-eats"
     ],
@@ -10118,7 +10172,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "Bargain Bites Day",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "las-kangris-food-truck-baked-chicken",
@@ -12049,7 +12111,7 @@
     "locationIds": [
       "west-road"
     ],
-    "description": "Memphis Ribs listed for Pig Park BBQ in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Memphis-style ribs on East Road. One Memphis rib is the September21 Bargain Bites Day special.",
     "categoryIds": [
       "barbecue"
     ],
@@ -12063,7 +12125,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "The Big E",
+        "title": "Bargain Bites Day",
+        "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "pig-park-bbq-bbq-bowls",
@@ -18969,6 +19039,80 @@
       "food-court"
     ],
     "description": "Plain hot dog with ketchup or mustard in the Food Court; September21 Bargain Bites Day special.",
+    "categoryIds": [
+      "hot-dogs-corndogs"
+    ],
+    "tagIds": [
+      "savory"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "new-hampshire-building-kettle-korn",
+    "year": 2026,
+    "name": "NH Kettle Korn",
+    "vendor": "New Hampshire Building",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Kettle corn from Champions of New Hampshire Farms inside the New Hampshire Building, listed in the2026 exhibitor directory.",
+    "categoryIds": [
+      "pretzels-corn"
+    ],
+    "tagIds": [
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "2026 New Hampshire Building exhibitors",
+      "url": "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "wurst-haus-pretzel-bites-beer-cheese",
+    "year": 2026,
+    "name": "Pretzel Bites with Beer Cheese",
+    "vendor": "Wurst Haus",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "Plain pretzel bites with beer cheese on Commonwealth Avenue; September21 Bargain Bites Day special.",
+    "categoryIds": [
+      "pretzels-corn"
+    ],
+    "tagIds": [
+      "savory",
+      "cheese"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "The Big E",
+      "title": "Bargain Bites Day",
+      "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "jacks-fries-hot-dog",
+    "year": 2026,
+    "name": "Hot Dog",
+    "vendor": "Jack’s Fries",
+    "locationIds": [
+      "new-england-avenue",
+      "industrial-avenue"
+    ],
+    "description": "Hot dog at Jack’s Fries on New England Avenue and Industrial Avenue; September21 Bargain Bites Day special.",
     "categoryIds": [
       "hot-dogs-corndogs"
     ],

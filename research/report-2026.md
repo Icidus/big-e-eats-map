@@ -1,6 +1,6 @@
 # Vendor research progress
 
-155 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
+165 of 187 vendor records checked. Catalog promotions are tracked in `promoted-items-*.json`.
 
 Checks cover the recorded scope only; inaccessible accounts and unsuccessful discovery are not exhaustive reviews.
 
@@ -1223,6 +1223,14 @@ Verified via vendor website and scanned 12 visible public grid entries. Limited 
 - Account: https://www.instagram.com/joeysdelimarket/ (verified)
 - **confirmed / new-item**: Vendor offers hand pies filled with chicken pot pie, pulled pork mac and cheese, shepherd’s pie, or warm apple pie, plus whoopie pies at the Massachusetts Building. Five proposed named offerings; no prices provided. [Source](https://www.instagram.com/joeysdelimarket/p/DdT9iPdOjRa/) (checked 2026-09-19)
 
+## Las Kangris Food Truck
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Exact-name search found Springfield operation; Instagram bio/highlights explicitly identify Big E2022–25. No new current menu from thumbnails. Current fair Bargain Bites confirms existing Baked Pork.
+
+- Account: https://www.instagram.com/laskangris_foodtruck/ (verified)
+
 ## LuAnn’s Bakery
 
 reviewed · 2026-09-19 · 6 catalog items
@@ -1245,6 +1253,44 @@ Read Agawam website and matching Facebook profile. Latest restaurant quesadilla 
 - Account: https://www.machotacorestaurant.com/ (verified)
 - Account: https://www.facebook.com/machotacorestaurant/ (verified)
 
+## Pig Park BBQ
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Official Ware BBQ website links Facebook. Sep2 own caption says trailers heading to Big E; restaurant menu not imported. Current fair confirms Memphis rib special.
+
+- Account: https://pigparkbbq.com/ (verified)
+- Account: https://www.facebook.com/pigparkbbq/ (verified)
+
+## Poppie’s Belgian Waffles
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Search led to Poppies Concessions. Reused batch007 verified operator website and Sep16 waffle-trailer post; same operator’s two new foods already promoted there. No duplicate waffle dog/cinnamon-roll listing. Linked waffle stand to same verified operator.
+
+- Account: https://www.poppiesconcessions.com/ (verified)
+- Account: https://www.instagram.com/poppiesconcessions/ (verified)
+- Account: https://www.facebook.com/poppiesconcessions (verified)
+
+## Poutine Gourmet
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Facebook current opening-day post confirms location between circus and giant slide. Instagram bio/profile matches distinctive CT operation, latest exposed posts2025. No old flavors imported; existing current hot-honey and mini poutine retained.
+
+- Account: https://www.facebook.com/Poutinegourmet/ (verified)
+- Account: https://www.instagram.com/poutine.gourmet/ (verified)
+
+## Simply Gluten Free
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Opened official Facebook and Instagram; Sep17 own menu and exact landmarks confirm all six existing items. Sep10 ingredient caption says everything gluten-free but soy/dairy vary per item; no blanket additional allergen claims. Added direct sources/location to all six.
+
+- Account: https://www.facebook.com/p/Simply-Gluten-Free-61574493905646/ (verified)
+- Account: https://www.instagram.com/simplyglutenfreefairfood/ (verified)
+- **confirmed / location**: Own Sep17 menu confirms all six existing fair items and Young/Mallary/carnival landmarks. [Source](https://www.instagram.com/simplyglutenfreefairfood/p/DdZTm6bFcVq/) (checked 2026-09-19)
+
 ## SoulFully
 
 reviewed · 2026-09-19 · 6 catalog items
@@ -1265,11 +1311,27 @@ Exact-name fair search identifies SoupRBowl Facebook with own Big E caption. Dir
 - Account: https://www.facebook.com/SoupRBowl/ (candidate)
 - **lead / new-item**: Current fair Bargain Bites lists Clam Chowder, Cream of Broccoli and Chili. [Source](https://www.thebige.com/p/food2/bargain-bites) (checked 2026-09-19)
 
+## Storrowton Soup Shack
+
+reviewed · 2026-09-19 · 6 catalog items
+
+Read official tavern website explicitly promoting2026 Soup Shack across from Maine Building. Linked official Facebook from website. Tavern’s separate dining menu excluded.
+
+- Account: https://storrowton.com/ (verified)
+- Account: https://www.facebook.com/pages/category/Restaurant/Storrowton-Tavern-111399762227584/ (verified)
+
 ## The Hub
 
 no-account-found · 2026-09-19 · 6 catalog items
 
 Exact fair-name search returned official/news listings and unrelated media Hub. No verified operator. Official current Small Cheese Fries special missing; added.
+
+
+## West Springfield Firehouse Restaurant
+
+no-account-found · 2026-09-19 · 6 catalog items
+
+Exact-name and fair Facebook searches found station directories/visitor posts and historical coverage, no verified restaurant-operated account. Did not attach unrelated Firehouse Subs or station check-in page.
 
 
 ## White Hut in the Food Court
@@ -1290,6 +1352,14 @@ no-account-found · 2026-09-19 · 7 catalog items
 Imported from docs/vendor-instagram-pilot-2026-09-19.md; limited public review, not a complete archive scan. Searches did not identify a reliable account; other-fair menus are not Big E evidence.
 
 
+## New Hampshire Building
+
+reviewed · 2026-09-19 · 7 catalog items
+
+Read official2026 building exhibitors: Champions of NH Farms serves named existing foods plus missing NH Kettle Korn. Linked building umbrella and identified operator in new item description.
+
+- Account: https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building (verified)
+
 ## Valley View Orchard Pies
 
 reviewed · 2026-09-19 · 7 catalog items
@@ -1300,6 +1370,16 @@ Read official website and Facebook profile with matching Oxford address. Current
 - Account: https://www.facebook.com/ValleyViewOrchardPies/ (verified)
 - **lead / new-item**: Opening-day caption confirms blueberry tea, milkshakes and iced coffee in Maine Building. [Source](https://www.facebook.com/ValleyViewOrchardPies/posts/pfbid02HXW5KmyZT3xVFXgDX73BjSXGQnD3tytCr7vbmwxEm66gbx43PNdctyFf68QdPsUnl) (checked 2026-09-19)
 
+## Wurst Haus
+
+reviewed · 2026-09-19 · 7 catalog items
+
+Read Bean Restaurant Group’s official fair page: Booth341 Commonwealth; followed official Wurst Haus site social links. General restaurant menu not used. Current fair pretzel bites with beer cheese special added.
+
+- Account: https://www.wurst-haus.com/ (verified)
+- Account: https://www.facebook.com/wursthausnoho (verified)
+- Account: https://www.instagram.com/wursthausnoho/ (verified)
+
 ## ItsKelewele31 LLC
 
 reviewed · 2026-09-19 · 8 catalog items
@@ -1309,6 +1389,15 @@ Verified via vendor website and scanned 12 visible public grid entries. Limited 
 - Account: https://www.instagram.com/itskelewele31/ (verified)
 - **confirmed / new-item**: Menu image names Kelewele, Jollof Arancini, and Turkey Tails on a Stick, plus mocktails Hibiscus Sun, Mango Paradise, Lychee Bloom, and Lavender Moon. Caption ties the menu to the 2026 fair. Seven proposed named entries; ingredients/prices not supplied. [Source](https://www.instagram.com/itskelewele31/p/DdCEoieBf2j/) (checked 2026-09-19)
 - **confirmed / detail**: September 16 caption confirms still and sparkling botanical mocktails and a new slushy machine; no slushy flavors or prices stated. Massachusetts Building, September 18–October 4, 10 a.m.–9 p.m. daily. [Source](https://www.instagram.com/itskelewele31/p/DdXZ3fPsn1U/) (checked 2026-09-19)
+
+## Jack’s Fries
+
+reviewed · 2026-09-19 · 8 catalog items
+
+Verified shared Jack’s Fries/Tootsie’s operator in batch015 from current own opening-day Facebook and linked website. Current fair hot dog special missing; added at both stated avenues.
+
+- Account: https://savannahgrout.wixsite.com/jacksfries (verified)
+- Account: https://www.facebook.com/tootsies.fried.dough/ (verified)
 
 ## Tater Tot Heaven
 

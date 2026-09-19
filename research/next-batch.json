@@ -1,534 +1,586 @@
 {
-  "batchId": "batch-016",
+  "batchId": "batch-017",
   "vendors": [
     {
-      "vendorId": "las-kangris-food-truck",
-      "name": "Las Kangris Food Truck",
+      "vendorId": "piches-beignets",
+      "name": "Piche’s Beignets",
       "catalogItems": [
         {
-          "id": "las-kangris-yellow-rice",
-          "name": "Yellow Rice"
+          "id": "piche-s-beignets-beignets",
+          "name": "Beignets"
         },
         {
-          "id": "las-kangris-food-truck-yellow-rice-with-pigeon-peas",
-          "name": "Yellow Rice with Pigeon Peas"
+          "id": "piche-s-beignets-beignet-sundaes",
+          "name": "Beignet Sundaes"
         },
         {
-          "id": "las-kangris-food-truck-baked-pork",
-          "name": "Baked Pork"
-        },
-        {
-          "id": "las-kangris-food-truck-baked-chicken",
-          "name": "Baked Chicken"
-        },
-        {
-          "id": "las-kangris-food-truck-green-bananas-al-mojo",
-          "name": "Green Bananas al Mojo"
-        },
-        {
-          "id": "las-kangris-food-truck-tres-leches-cake",
-          "name": "Tres Leches Cake"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Las Kangris Food Truck\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Las+Kangris+Food+Truck%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Las Kangris Food Truck\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Las+Kangris+Food+Truck%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "las-kangris-food-truck",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Las Kangris Food Truck\" \"Big E\" 2026",
-          "\"Las Kangris Food Truck\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "new-hampshire-building",
-      "name": "New Hampshire Building",
-      "catalogItems": [
-        {
-          "id": "new-hampshire-building-apple-nachos",
-          "name": "Apple Nachos"
-        },
-        {
-          "id": "new-hampshire-building-lobster-mac-and-cheese",
-          "name": "Lobster Mac & Cheese"
-        },
-        {
-          "id": "new-hampshire-building-maple-cotton-candy",
-          "name": "Maple Cotton Candy"
-        },
-        {
-          "id": "new-hampshire-building-mac-and-cheese",
-          "name": "NH Mac & Cheese"
-        },
-        {
-          "id": "new-hampshire-building-corn-on-the-cob",
-          "name": "Corn on the Cob"
-        },
-        {
-          "id": "new-hampshire-building-cider-slushies",
-          "name": "Cider Slushies"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"New Hampshire Building\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22New+Hampshire+Building%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"New Hampshire Building\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22New+Hampshire+Building%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "new-hampshire-building",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"New Hampshire Building\" \"Big E\" 2026",
-          "\"New Hampshire Building\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "pig-park-bbq",
-      "name": "Pig Park BBQ",
-      "catalogItems": [
-        {
-          "id": "pig-park-bbq-bbq-sandwiches",
-          "name": "BBQ Sandwiches"
-        },
-        {
-          "id": "pig-park-bbq-memphis-ribs",
-          "name": "Memphis Ribs"
-        },
-        {
-          "id": "pig-park-bbq-bbq-bowls",
-          "name": "BBQ Bowls"
-        },
-        {
-          "id": "pig-park-bbq-the-bomb-nachos",
-          "name": "The Bomb Nachos"
-        },
-        {
-          "id": "pig-park-bbq-pulled-pork",
-          "name": "Pulled Pork"
-        },
-        {
-          "id": "pig-park-bbq-brisket",
-          "name": "Brisket"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Pig Park BBQ\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Pig+Park+BBQ%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Pig Park BBQ\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Pig+Park+BBQ%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "pig-park-bbq",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Pig Park BBQ\" \"Big E\" 2026",
-          "\"Pig Park BBQ\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "poppies-belgian-waffles",
-      "name": "Poppie’s Belgian Waffles",
-      "catalogItems": [
-        {
-          "id": "poppie-s-belgian-waffles-fried-cheesecake",
-          "name": "Fried Cheesecake"
-        },
-        {
-          "id": "poppie-s-belgian-waffles-belgian-waffles",
-          "name": "Belgian Waffles"
-        },
-        {
-          "id": "poppie-s-belgian-waffles-fried-twinkies",
-          "name": "Fried Twinkies"
-        },
-        {
-          "id": "poppie-s-belgian-waffles-dubai-waffle",
-          "name": "Dubai Waffle"
-        },
-        {
-          "id": "poppies-belgian-waffles-corn-dogs",
-          "name": "Corn Dogs"
-        },
-        {
-          "id": "poppies-belgian-waffles-waffle-dogs",
-          "name": "Waffle Dogs"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Poppie’s Belgian Waffles\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Poppie%E2%80%99s+Belgian+Waffles%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Poppie’s Belgian Waffles\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Poppie%E2%80%99s+Belgian+Waffles%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "poppies-belgian-waffles",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Poppie’s Belgian Waffles\" \"Big E\" 2026",
-          "\"Poppie’s Belgian Waffles\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "poutine-gourmet",
-      "name": "Poutine Gourmet",
-      "catalogItems": [
-        {
-          "id": "poutine-gourmet-mini-poutine",
-          "name": "Mini Poutine"
-        },
-        {
-          "id": "poutine-hot-honey-and-bacon-poutine",
-          "name": "Hot Honey and Bacon Poutine"
-        },
-        {
-          "id": "poutine-gourmet-classic-poutine",
-          "name": "Classic Poutine"
-        },
-        {
-          "id": "poutine-gourmet-pulled-pork-poutine",
-          "name": "Pulled Pork Poutine"
-        },
-        {
-          "id": "poutine-gourmet-chicken-bacon-ranch-poutine",
-          "name": "Chicken Bacon Ranch Poutine"
-        },
-        {
-          "id": "poutine-gourmet-buffalo-chicken-poutine",
-          "name": "Buffalo Chicken Poutine"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Poutine Gourmet\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Poutine+Gourmet%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Poutine Gourmet\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Poutine+Gourmet%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "poutine-gourmet",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Poutine Gourmet\" \"Big E\" 2026",
-          "\"Poutine Gourmet\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "simply-gluten-free",
-      "name": "Simply Gluten Free",
-      "catalogItems": [
-        {
-          "id": "simply-gluten-free-funnel-cakes",
-          "name": "Funnel Cakes"
-        },
-        {
-          "id": "simply-gluten-free-fried-oreos",
+          "id": "piche-s-beignets-fried-oreos",
           "name": "Fried Oreos"
         },
         {
-          "id": "simply-gluten-free-corndogs",
-          "name": "Corndogs"
+          "id": "piche-s-beignets-funnel-cake-sundaes",
+          "name": "Funnel Cake Sundaes"
         },
         {
-          "id": "simply-gluten-free-chicken-tenders",
-          "name": "Chicken Tenders"
-        },
-        {
-          "id": "simply-gluten-free-jumbo-mozzarella-stick",
-          "name": "Jumbo Mozzarella Stick"
-        },
-        {
-          "id": "simply-gluten-free-fountain-lemonade",
-          "name": "Fountain Lemonade"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Simply Gluten Free\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Simply+Gluten+Free%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Simply Gluten Free\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Simply+Gluten+Free%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "simply-gluten-free",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Simply Gluten Free\" \"Big E\" 2026",
-          "\"Simply Gluten Free\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "storrowton-soup-shack",
-      "name": "Storrowton Soup Shack",
-      "catalogItems": [
-        {
-          "id": "storrowton-fried-boneless-chicken-basket",
-          "name": "Fried Boneless Chicken Basket"
-        },
-        {
-          "id": "storrowton-soup-shack-soups",
-          "name": "Soups"
-        },
-        {
-          "id": "storrowton-soup-shack-chowder",
-          "name": "Chowder"
-        },
-        {
-          "id": "storrowton-soup-shack-mac-and-cheese",
-          "name": "Mac & Cheese"
-        },
-        {
-          "id": "storrowton-soup-shack-bread-bowls",
-          "name": "Bread Bowls"
-        },
-        {
-          "id": "storrowton-soup-shack-mac-and-cheese-in-bread-bowls",
-          "name": "Mac & Cheese in Bread Bowls"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Storrowton Soup Shack\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Storrowton+Soup+Shack%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Storrowton Soup Shack\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Storrowton+Soup+Shack%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "storrowton-soup-shack",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Storrowton Soup Shack\" \"Big E\" 2026",
-          "\"Storrowton Soup Shack\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "west-springfield-firehouse-restaurant",
-      "name": "West Springfield Firehouse Restaurant",
-      "catalogItems": [
-        {
-          "id": "west-springfield-firehouse-restaurant-full-egg-breakfast",
-          "name": "Full Egg Breakfast"
-        },
-        {
-          "id": "west-springfield-firehouse-restaurant-breakfast-sandwiches",
-          "name": "Breakfast Sandwiches"
-        },
-        {
-          "id": "west-springfield-firehouse-restaurant-deli-sandwiches",
-          "name": "Deli Sandwiches"
-        },
-        {
-          "id": "west-springfield-firehouse-restaurant-chowder",
-          "name": "Chowder"
-        },
-        {
-          "id": "west-springfield-firehouse-restaurant-burgers",
-          "name": "Burgers"
-        },
-        {
-          "id": "west-springfield-firehouse-restaurant-hot-dogs",
-          "name": "Hot Dogs"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"West Springfield Firehouse Restaurant\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22West+Springfield+Firehouse+Restaurant%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"West Springfield Firehouse Restaurant\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22West+Springfield+Firehouse+Restaurant%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "west-springfield-firehouse-restaurant",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"West Springfield Firehouse Restaurant\" \"Big E\" 2026",
-          "\"West Springfield Firehouse Restaurant\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "wurst-haus",
-      "name": "Wurst Haus",
-      "catalogItems": [
-        {
-          "id": "wurst-haus-german-mac-n-cheese",
-          "name": "German Mac ‘n Cheese"
-        },
-        {
-          "id": "wurst-haus-apple-pretzel-bites",
-          "name": "Apple Pretzel Bites"
-        },
-        {
-          "id": "wurst-haus-german-giant-10-inch-bratwurst",
-          "name": "German Giant 10-inch Bratwurst"
-        },
-        {
-          "id": "wurst-haus-beer-boot",
-          "name": "Beer Boot"
-        },
-        {
-          "id": "wurst-haus-the-mighty-pretzel",
-          "name": "The Mighty Pretzel"
-        },
-        {
-          "id": "wurst-haus-giant-schnitzel-sandwich",
-          "name": "Giant Schnitzel Sandwich"
-        }
-      ],
-      "lastReview": null,
-      "searches": [
-        {
-          "query": "\"Wurst Haus\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Wurst+Haus%22+%22Big+E%22+2026"
-        },
-        {
-          "query": "\"Wurst Haus\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Wurst+Haus%22+Instagram+Facebook+official"
-        }
-      ],
-      "reviewTemplate": {
-        "vendorId": "wurst-haus",
-        "checkedAt": "2026-09-19",
-        "status": "reviewed",
-        "searches": [
-          "\"Wurst Haus\" \"Big E\" 2026",
-          "\"Wurst Haus\" Instagram Facebook official"
-        ],
-        "notes": "",
-        "accounts": [],
-        "findings": []
-      }
-    },
-    {
-      "vendorId": "jacks-fries",
-      "name": "Jack’s Fries",
-      "catalogItems": [
-        {
-          "id": "jacks-chicken-bacon-ranch-fries",
-          "name": "Jack’s Signature Fries"
-        },
-        {
-          "id": "jacks-fried-spicy-pickle-fries",
-          "name": "Fried Spicy Pickle Fries"
-        },
-        {
-          "id": "jack-s-fries-millennium-chips",
-          "name": "Millennium Chips"
-        },
-        {
-          "id": "jack-s-fries-dough-nuggets",
-          "name": "Dough Nuggets"
-        },
-        {
-          "id": "jack-s-fries-funnel-cakes",
+          "id": "piche-s-beignets-funnel-cakes",
           "name": "Funnel Cakes"
         },
         {
-          "id": "jacks-fries-chicken-tenders",
-          "name": "Chicken Tenders"
+          "id": "piche-s-beignets-fried-snickers",
+          "name": "Fried Snickers"
         },
         {
-          "id": "jacks-fries-corn-dogs",
-          "name": "Corn Dogs"
+          "id": "piche-s-beignets-fried-reese-s-peanut-butter-cups",
+          "name": "Fried Reese’s Peanut Butter Cups"
         }
       ],
       "lastReview": null,
       "searches": [
         {
-          "query": "\"Jack’s Fries\" \"Big E\" 2026",
-          "url": "https://www.google.com/search?q=%22Jack%E2%80%99s+Fries%22+%22Big+E%22+2026"
+          "query": "\"Piche’s Beignets\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Piche%E2%80%99s+Beignets%22+%22Big+E%22+2026"
         },
         {
-          "query": "\"Jack’s Fries\" Instagram Facebook official",
-          "url": "https://www.google.com/search?q=%22Jack%E2%80%99s+Fries%22+Instagram+Facebook+official"
+          "query": "\"Piche’s Beignets\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Piche%E2%80%99s+Beignets%22+Instagram+Facebook+official"
         }
       ],
       "reviewTemplate": {
-        "vendorId": "jacks-fries",
+        "vendorId": "piches-beignets",
         "checkedAt": "2026-09-19",
         "status": "reviewed",
         "searches": [
-          "\"Jack’s Fries\" \"Big E\" 2026",
-          "\"Jack’s Fries\" Instagram Facebook official"
+          "\"Piche’s Beignets\" \"Big E\" 2026",
+          "\"Piche’s Beignets\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "reds-red-apples",
+      "name": "Red’s Red Apples",
+      "catalogItems": [
+        {
+          "id": "red-s-red-apples-candy-apples",
+          "name": "Candy Apples"
+        },
+        {
+          "id": "red-s-red-apples-samoa-apples",
+          "name": "Samoa Apples"
+        },
+        {
+          "id": "red-s-red-apples-pickle-popcorn",
+          "name": "Pickle Popcorn"
+        },
+        {
+          "id": "red-s-red-apples-gourmet-apples",
+          "name": "Gourmet Apples"
+        },
+        {
+          "id": "red-s-red-apples-caramel-apples",
+          "name": "Caramel Apples"
+        },
+        {
+          "id": "red-s-red-apples-caramel-corn",
+          "name": "Caramel Corn"
+        },
+        {
+          "id": "red-s-red-apples-cotton-candy",
+          "name": "Cotton Candy"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Red’s Red Apples\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Red%E2%80%99s+Red+Apples%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Red’s Red Apples\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Red%E2%80%99s+Red+Apples%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "reds-red-apples",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Red’s Red Apples\" \"Big E\" 2026",
+          "\"Red’s Red Apples\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "sam-adams-beer-garden",
+      "name": "Sam Adams Beer Garden",
+      "catalogItems": [
+        {
+          "id": "sam-adams-headless-pumpkin-cider",
+          "name": "Headless Pumpkin Cider"
+        },
+        {
+          "id": "sam-adams-beer-garden-frozen-pumpkin-cider",
+          "name": "Frozen Pumpkin Cider"
+        },
+        {
+          "id": "sam-adams-beer-garden-craft-beer",
+          "name": "Craft Beer"
+        },
+        {
+          "id": "sam-adams-beer-garden-burgers",
+          "name": "Burgers"
+        },
+        {
+          "id": "sam-adams-beer-garden-pizza",
+          "name": "Pizza"
+        },
+        {
+          "id": "sam-adams-beer-garden-cider-glazed-pulled-pork-grilled-cheese",
+          "name": "Cider-Glazed Pulled Pork Grilled Cheese"
+        },
+        {
+          "id": "sam-adams-beer-garden-local-smash-burger",
+          "name": "Local Smash Burger"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Sam Adams Beer Garden\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Sam+Adams+Beer+Garden%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Sam Adams Beer Garden\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Sam+Adams+Beer+Garden%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "sam-adams-beer-garden",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Sam Adams Beer Garden\" \"Big E\" 2026",
+          "\"Sam Adams Beer Garden\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "spudtastic",
+      "name": "Spudtastic",
+      "catalogItems": [
+        {
+          "id": "spudtastic-all-american-sweet-potato",
+          "name": "All-American Sweet Potato"
+        },
+        {
+          "id": "spudtastic-plain-jane",
+          "name": "Plain Jane"
+        },
+        {
+          "id": "spudtastic-batata",
+          "name": "Batata"
+        },
+        {
+          "id": "spudtastic-sweet-potato-fries",
+          "name": "Sweet Potato Fries"
+        },
+        {
+          "id": "spudtastic-sweet-potato-ribbon-fries",
+          "name": "Sweet Potato Ribbon Fries"
+        },
+        {
+          "id": "spudtastic-smores-sweet-potato",
+          "name": "S’mores Sweet Potato"
+        },
+        {
+          "id": "spudtastic-apple-pie-sweet-potato",
+          "name": "Apple Pie Sweet Potato"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Spudtastic\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Spudtastic%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Spudtastic\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Spudtastic%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "spudtastic",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Spudtastic\" \"Big E\" 2026",
+          "\"Spudtastic\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "tree-of-life-maple-farm",
+      "name": "Tree of Life Maple Farm",
+      "catalogItems": [
+        {
+          "id": "tree-of-life-maple-farm-maple-products",
+          "name": "Maple Products"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-syrup",
+          "name": "Maple Syrup"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-cream",
+          "name": "Maple Cream"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-candies",
+          "name": "Maple Candies"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-cotton-candy",
+          "name": "Maple Cotton Candy"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-coffee",
+          "name": "Maple Coffee"
+        },
+        {
+          "id": "tree-of-life-maple-farm-maple-milkshake",
+          "name": "Maple Milkshake"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Tree of Life Maple Farm\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Tree+of+Life+Maple+Farm%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Tree of Life Maple Farm\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Tree+of+Life+Maple+Farm%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "tree-of-life-maple-farm",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Tree of Life Maple Farm\" \"Big E\" 2026",
+          "\"Tree of Life Maple Farm\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "west-springfield-lions-club",
+      "name": "West Springfield Lions Club",
+      "catalogItems": [
+        {
+          "id": "west-springfield-lions-bacon-cheeseburger",
+          "name": "Bacon Cheeseburger"
+        },
+        {
+          "id": "west-springfield-lions-flatliner-hot-dog",
+          "name": "Flatliner Hot Dog"
+        },
+        {
+          "id": "west-springfield-lions-flatliner-burger",
+          "name": "Flatliner Burger"
+        },
+        {
+          "id": "west-springfield-lions-club-burgers",
+          "name": "Burgers"
+        },
+        {
+          "id": "west-springfield-lions-club-grilled-cheese",
+          "name": "Grilled Cheese"
+        },
+        {
+          "id": "west-springfield-lions-club-reubens",
+          "name": "Reubens"
+        },
+        {
+          "id": "west-springfield-lions-club-reuben-burger",
+          "name": "Reuben Burger"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"West Springfield Lions Club\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22West+Springfield+Lions+Club%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"West Springfield Lions Club\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22West+Springfield+Lions+Club%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "west-springfield-lions-club",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"West Springfield Lions Club\" \"Big E\" 2026",
+          "\"West Springfield Lions Club\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "agawam-lions-club",
+      "name": "Agawam Lions Club",
+      "catalogItems": [
+        {
+          "id": "agawam-lions-club-bbq",
+          "name": "BBQ"
+        },
+        {
+          "id": "agawam-lions-club-chicken-dinner",
+          "name": "Chicken Dinner"
+        },
+        {
+          "id": "agawam-lions-club-pulled-bbq-chicken-sandwich",
+          "name": "Pulled BBQ Chicken Sandwich"
+        },
+        {
+          "id": "agawam-lions-club-bacon-mac-and-cheese-all-in-a-cone",
+          "name": "Bacon Mac & Cheese All-in-a-Cone"
+        },
+        {
+          "id": "agawam-lions-club-meatball-all-in-a-cone",
+          "name": "Meatball All-in-a-Cone"
+        },
+        {
+          "id": "agawam-lions-club-pulled-chicken-all-in-a-cone",
+          "name": "Pulled Chicken All-in-a-Cone"
+        },
+        {
+          "id": "agawam-lions-club-shepherd-s-pie-all-in-a-cone",
+          "name": "Shepherd’s Pie All-in-a-Cone"
+        },
+        {
+          "id": "agawam-lions-club-pizza-in-a-cone",
+          "name": "Pizza in a Cone"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Agawam Lions Club\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Agawam+Lions+Club%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Agawam Lions Club\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Agawam+Lions+Club%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "agawam-lions-club",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Agawam Lions Club\" \"Big E\" 2026",
+          "\"Agawam Lions Club\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "cinnamon-saloon",
+      "name": "Cinnamon Saloon",
+      "catalogItems": [
+        {
+          "id": "cinnamon-saloon-apple-cider-slush",
+          "name": "Apple Cider Slush"
+        },
+        {
+          "id": "cinnamon-saloon-cinnamon-rolls",
+          "name": "Cinnamon Rolls"
+        },
+        {
+          "id": "cinnamon-saloon-apple-crisp",
+          "name": "Apple Crisp"
+        },
+        {
+          "id": "cinnamon-saloon-muffins",
+          "name": "Muffins"
+        },
+        {
+          "id": "cinnamon-saloon-oreo-cookie-cinnamon-bun",
+          "name": "Oreo Cookie Cinnamon Bun"
+        },
+        {
+          "id": "cinnamon-saloon-tie-dye-smoothie",
+          "name": "Tie-Dye Smoothie"
+        },
+        {
+          "id": "cinnamon-saloon-coffee",
+          "name": "Coffee"
+        },
+        {
+          "id": "cinnamon-saloon-frozen-cappuccino",
+          "name": "Frozen Cappuccino"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Cinnamon Saloon\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Cinnamon+Saloon%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Cinnamon Saloon\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Cinnamon+Saloon%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "cinnamon-saloon",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Cinnamon Saloon\" \"Big E\" 2026",
+          "\"Cinnamon Saloon\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "crave-cafe",
+      "name": "Crave Café",
+      "catalogItems": [
+        {
+          "id": "crave-ube-coconut-cloud-with-jelly",
+          "name": "Ube Coconut Cloud with Jelly"
+        },
+        {
+          "id": "crave-strawberry-mojito-sparkling-boba",
+          "name": "Strawberry Mojito Sparkling Boba"
+        },
+        {
+          "id": "crave-honey-dew-milk-tea-with-tapioca",
+          "name": "Honey Dew Milk Tea with Tapioca"
+        },
+        {
+          "id": "crave-caramelized-orange-butter-crepe",
+          "name": "The Caramelized Orange Butter Crêpe"
+        },
+        {
+          "id": "crave-cookie-butter-crepe",
+          "name": "Cookie Butter Crêpe"
+        },
+        {
+          "id": "crave-cafe-strawberry-dubai-cup",
+          "name": "Strawberry Dubai Cup"
+        },
+        {
+          "id": "crave-cafe-bubble-waffle",
+          "name": "Bubble Waffle"
+        },
+        {
+          "id": "crave-cafe-sweet-crepes",
+          "name": "Sweet Crepes"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Crave Café\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Crave+Caf%C3%A9%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Crave Café\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Crave+Caf%C3%A9%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "crave-cafe",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Crave Café\" \"Big E\" 2026",
+          "\"Crave Café\" Instagram Facebook official"
+        ],
+        "notes": "",
+        "accounts": [],
+        "findings": []
+      }
+    },
+    {
+      "vendorId": "porkys-bbq-concessions",
+      "name": "Porky’s BBQ Concessions",
+      "catalogItems": [
+        {
+          "id": "porkys-pork-belly-lollipops",
+          "name": "Pork Belly Lollipops"
+        },
+        {
+          "id": "porky-s-bbq-sundae",
+          "name": "BBQ Sundae"
+        },
+        {
+          "id": "porky-s-pulled-pork",
+          "name": "Pulled Pork"
+        },
+        {
+          "id": "porky-s-giant-turkey-legs",
+          "name": "Giant Turkey Legs"
+        },
+        {
+          "id": "porky-s-bbq-brisket-sandwich",
+          "name": "BBQ Brisket Sandwich"
+        },
+        {
+          "id": "porky-s-bbq-split",
+          "name": "BBQ Split"
+        },
+        {
+          "id": "porky-s-mac-and-cheese",
+          "name": "Mac & Cheese"
+        },
+        {
+          "id": "porky-s-hambo-sandwich",
+          "name": "Hambo Sandwich"
+        }
+      ],
+      "lastReview": null,
+      "searches": [
+        {
+          "query": "\"Porky’s BBQ Concessions\" \"Big E\" 2026",
+          "url": "https://www.google.com/search?q=%22Porky%E2%80%99s+BBQ+Concessions%22+%22Big+E%22+2026"
+        },
+        {
+          "query": "\"Porky’s BBQ Concessions\" Instagram Facebook official",
+          "url": "https://www.google.com/search?q=%22Porky%E2%80%99s+BBQ+Concessions%22+Instagram+Facebook+official"
+        }
+      ],
+      "reviewTemplate": {
+        "vendorId": "porkys-bbq-concessions",
+        "checkedAt": "2026-09-19",
+        "status": "reviewed",
+        "searches": [
+          "\"Porky’s BBQ Concessions\" \"Big E\" 2026",
+          "\"Porky’s BBQ Concessions\" Instagram Facebook official"
         ],
         "notes": "",
         "accounts": [],

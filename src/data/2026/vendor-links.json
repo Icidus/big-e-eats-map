@@ -1255,5 +1255,122 @@
         "url": "https://www.thebige.com/p/entertainment/dollys-honky-tonk"
       }
     ]
+  },
+  {
+    "name": "Las Kangris Food Truck",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/laskangris_foodtruck/"
+      }
+    ]
+  },
+  {
+    "name": "New Hampshire Building",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building"
+      }
+    ]
+  },
+  {
+    "name": "Pig Park BBQ",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://pigparkbbq.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/pigparkbbq/"
+      }
+    ]
+  },
+  {
+    "name": "Poppie’s Belgian Waffles",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.poppiesconcessions.com/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/poppiesconcessions/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/poppiesconcessions"
+      }
+    ]
+  },
+  {
+    "name": "Poutine Gourmet",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/Poutinegourmet/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/poutine.gourmet/"
+      }
+    ]
+  },
+  {
+    "name": "Simply Gluten Free",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/p/Simply-Gluten-Free-61574493905646/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/simplyglutenfreefairfood/"
+      }
+    ]
+  },
+  {
+    "name": "Storrowton Soup Shack",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://storrowton.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/pages/category/Restaurant/Storrowton-Tavern-111399762227584/"
+      }
+    ]
+  },
+  {
+    "name": "Wurst Haus",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.wurst-haus.com/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/wursthausnoho"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/wursthausnoho/"
+      }
+    ]
+  },
+  {
+    "name": "Jack’s Fries",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://savannahgrout.wixsite.com/jacksfries"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/tootsies.fried.dough/"
+      }
+    ]
   }
 ]

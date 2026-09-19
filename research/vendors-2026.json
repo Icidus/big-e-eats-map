@@ -6112,7 +6112,26 @@
           "name": "Tres Leches Cake"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "las-kangris-food-truck",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Las Kangris\" food truck"
+          ],
+          "notes": "Exact-name search found Springfield operation; Instagram bio/highlights explicitly identify Big E2022–25. No new current menu from thumbnails. Current fair Bargain Bites confirms existing Baked Pork.",
+          "accounts": [
+            {
+              "url": "https://www.instagram.com/laskangris_foodtruck/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/laskangris_foodtruck/",
+              "evidence": "Distinctive Springfield food truck profile explicitly identifies Big E in bio and highlights."
+            }
+          ],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "luanns-bakery",
@@ -6263,37 +6282,6 @@
       ]
     },
     {
-      "id": "new-hampshire-building",
-      "name": "New Hampshire Building",
-      "items": [
-        {
-          "id": "new-hampshire-building-apple-nachos",
-          "name": "Apple Nachos"
-        },
-        {
-          "id": "new-hampshire-building-lobster-mac-and-cheese",
-          "name": "Lobster Mac & Cheese"
-        },
-        {
-          "id": "new-hampshire-building-maple-cotton-candy",
-          "name": "Maple Cotton Candy"
-        },
-        {
-          "id": "new-hampshire-building-mac-and-cheese",
-          "name": "NH Mac & Cheese"
-        },
-        {
-          "id": "new-hampshire-building-corn-on-the-cob",
-          "name": "Corn on the Cob"
-        },
-        {
-          "id": "new-hampshire-building-cider-slushies",
-          "name": "Cider Slushies"
-        }
-      ],
-      "reviews": []
-    },
-    {
       "id": "pig-park-bbq",
       "name": "Pig Park BBQ",
       "items": [
@@ -6322,7 +6310,32 @@
           "name": "Brisket"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "pig-park-bbq",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Pig Park BBQ\""
+          ],
+          "notes": "Official Ware BBQ website links Facebook. Sep2 own caption says trailers heading to Big E; restaurant menu not imported. Current fair confirms Memphis rib special.",
+          "accounts": [
+            {
+              "url": "https://pigparkbbq.com/",
+              "verified": true,
+              "evidenceUrl": "https://pigparkbbq.com/",
+              "evidence": "Official site links matching Ware profile with current fair trailer announcement."
+            },
+            {
+              "url": "https://www.facebook.com/pigparkbbq/",
+              "verified": true,
+              "evidenceUrl": "https://pigparkbbq.com/",
+              "evidence": "Official site links matching Ware profile with current fair trailer announcement."
+            }
+          ],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "poppies-belgian-waffles",
@@ -6353,7 +6366,38 @@
           "name": "Waffle Dogs"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "poppies-belgian-waffles",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Poppie’s Belgian Waffles\""
+          ],
+          "notes": "Search led to Poppies Concessions. Reused batch007 verified operator website and Sep16 waffle-trailer post; same operator’s two new foods already promoted there. No duplicate waffle dog/cinnamon-roll listing. Linked waffle stand to same verified operator.",
+          "accounts": [
+            {
+              "url": "https://www.poppiesconcessions.com/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/poppiesconcessions/p/DdW_iUmpAlb/",
+              "evidence": "Batch007 directly verified operator’s own waffle/cheesecake-trailer post in front of Massachusetts Building."
+            },
+            {
+              "url": "https://www.instagram.com/poppiesconcessions/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/poppiesconcessions/p/DdW_iUmpAlb/",
+              "evidence": "Batch007 directly verified operator’s own waffle/cheesecake-trailer post in front of Massachusetts Building."
+            },
+            {
+              "url": "https://www.facebook.com/poppiesconcessions",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/poppiesconcessions/p/DdW_iUmpAlb/",
+              "evidence": "Batch007 directly verified operator’s own waffle/cheesecake-trailer post in front of Massachusetts Building."
+            }
+          ],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "poutine-gourmet",
@@ -6384,7 +6428,32 @@
           "name": "Buffalo Chicken Poutine"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "poutine-gourmet",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Poutine Gourmet\" \"Big E\""
+          ],
+          "notes": "Facebook current opening-day post confirms location between circus and giant slide. Instagram bio/profile matches distinctive CT operation, latest exposed posts2025. No old flavors imported; existing current hot-honey and mini poutine retained.",
+          "accounts": [
+            {
+              "url": "https://www.facebook.com/Poutinegourmet/",
+              "verified": true,
+              "evidenceUrl": "https://www.facebook.com/Poutinegourmet/",
+              "evidence": "Own current opening-day caption names fair; matching CT profiles both link Big E awards."
+            },
+            {
+              "url": "https://www.instagram.com/poutine.gourmet/",
+              "verified": true,
+              "evidenceUrl": "https://www.facebook.com/Poutinegourmet/",
+              "evidence": "Own current opening-day caption names fair; matching CT profiles both link Big E awards."
+            }
+          ],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "simply-gluten-free",
@@ -6415,7 +6484,43 @@
           "name": "Fountain Lemonade"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "simply-gluten-free",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Simply Gluten Free\" \"Big E\""
+          ],
+          "notes": "Opened official Facebook and Instagram; Sep17 own menu and exact landmarks confirm all six existing items. Sep10 ingredient caption says everything gluten-free but soy/dairy vary per item; no blanket additional allergen claims. Added direct sources/location to all six.",
+          "accounts": [
+            {
+              "url": "https://www.facebook.com/p/Simply-Gluten-Free-61574493905646/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/simplyglutenfreefairfood/p/DdZTm6bFcVq/",
+              "evidence": "Both distinctive Kingston fair-food profiles explicitly post current Big E opening/menu."
+            },
+            {
+              "url": "https://www.instagram.com/simplyglutenfreefairfood/",
+              "verified": true,
+              "evidenceUrl": "https://www.instagram.com/simplyglutenfreefairfood/p/DdZTm6bFcVq/",
+              "evidence": "Both distinctive Kingston fair-food profiles explicitly post current Big E opening/menu."
+            }
+          ],
+          "findings": [
+            {
+              "detail": "Own Sep17 menu confirms all six existing fair items and Young/Mallary/carnival landmarks.",
+              "url": "https://www.instagram.com/simplyglutenfreefairfood/p/DdZTm6bFcVq/",
+              "kind": "location",
+              "confidence": "confirmed",
+              "event": "The Big E",
+              "year": 2026,
+              "sourceType": "vendor",
+              "publishedOn": "2026-09-17"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "soulfully",
@@ -6578,7 +6683,32 @@
           "name": "Mac & Cheese in Bread Bowls"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "storrowton-soup-shack",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Storrowton Soup Shack\""
+          ],
+          "notes": "Read official tavern website explicitly promoting2026 Soup Shack across from Maine Building. Linked official Facebook from website. Tavern’s separate dining menu excluded.",
+          "accounts": [
+            {
+              "url": "https://storrowton.com/",
+              "verified": true,
+              "evidenceUrl": "https://storrowton.com/",
+              "evidence": "Official operator site explicitly promotes2026 Soup Shack and links Facebook."
+            },
+            {
+              "url": "https://www.facebook.com/pages/category/Restaurant/Storrowton-Tavern-111399762227584/",
+              "verified": true,
+              "evidenceUrl": "https://storrowton.com/",
+              "evidence": "Official operator site explicitly promotes2026 Soup Shack and links Facebook."
+            }
+          ],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "the-hub",
@@ -6652,7 +6782,19 @@
           "name": "Hot Dogs"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "west-springfield-firehouse-restaurant",
+          "checkedAt": "2026-09-19",
+          "status": "no-account-found",
+          "searches": [
+            "\"West Springfield Firehouse Restaurant\""
+          ],
+          "notes": "Exact-name and fair Facebook searches found station directories/visitor posts and historical coverage, no verified restaurant-operated account. Did not attach unrelated Firehouse Subs or station check-in page.",
+          "accounts": [],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "white-hut-in-the-food-court",
@@ -6728,37 +6870,6 @@
       ]
     },
     {
-      "id": "wurst-haus",
-      "name": "Wurst Haus",
-      "items": [
-        {
-          "id": "wurst-haus-german-mac-n-cheese",
-          "name": "German Mac ‘n Cheese"
-        },
-        {
-          "id": "wurst-haus-apple-pretzel-bites",
-          "name": "Apple Pretzel Bites"
-        },
-        {
-          "id": "wurst-haus-german-giant-10-inch-bratwurst",
-          "name": "German Giant 10-inch Bratwurst"
-        },
-        {
-          "id": "wurst-haus-beer-boot",
-          "name": "Beer Boot"
-        },
-        {
-          "id": "wurst-haus-the-mighty-pretzel",
-          "name": "The Mighty Pretzel"
-        },
-        {
-          "id": "wurst-haus-giant-schnitzel-sandwich",
-          "name": "Giant Schnitzel Sandwich"
-        }
-      ],
-      "reviews": []
-    },
-    {
       "id": "golden-k-dog",
       "name": "Golden K-Dog",
       "items": [
@@ -6806,39 +6917,58 @@
       ]
     },
     {
-      "id": "jacks-fries",
-      "name": "Jack’s Fries",
+      "id": "new-hampshire-building",
+      "name": "New Hampshire Building",
       "items": [
         {
-          "id": "jacks-chicken-bacon-ranch-fries",
-          "name": "Jack’s Signature Fries"
+          "id": "new-hampshire-building-apple-nachos",
+          "name": "Apple Nachos"
         },
         {
-          "id": "jacks-fried-spicy-pickle-fries",
-          "name": "Fried Spicy Pickle Fries"
+          "id": "new-hampshire-building-lobster-mac-and-cheese",
+          "name": "Lobster Mac & Cheese"
         },
         {
-          "id": "jack-s-fries-millennium-chips",
-          "name": "Millennium Chips"
+          "id": "new-hampshire-building-maple-cotton-candy",
+          "name": "Maple Cotton Candy"
         },
         {
-          "id": "jack-s-fries-dough-nuggets",
-          "name": "Dough Nuggets"
+          "id": "new-hampshire-building-mac-and-cheese",
+          "name": "NH Mac & Cheese"
         },
         {
-          "id": "jack-s-fries-funnel-cakes",
-          "name": "Funnel Cakes"
+          "id": "new-hampshire-building-corn-on-the-cob",
+          "name": "Corn on the Cob"
         },
         {
-          "id": "jacks-fries-chicken-tenders",
-          "name": "Chicken Tenders"
+          "id": "new-hampshire-building-cider-slushies",
+          "name": "Cider Slushies"
         },
         {
-          "id": "jacks-fries-corn-dogs",
-          "name": "Corn Dogs"
+          "id": "new-hampshire-building-kettle-korn",
+          "name": "NH Kettle Korn"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "vendorId": "new-hampshire-building",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"New Hampshire Building\" \"Big E\" official"
+          ],
+          "notes": "Read official2026 building exhibitors: Champions of NH Farms serves named existing foods plus missing NH Kettle Korn. Linked building umbrella and identified operator in new item description.",
+          "accounts": [
+            {
+              "url": "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building",
+              "verified": true,
+              "evidenceUrl": "https://www.thebige.com/p/thingstodo/avenue/new-hampshire-building",
+              "evidence": "Official current building exhibitor directory."
+            }
+          ],
+          "findings": []
+        }
+      ]
     },
     {
       "id": "piches-beignets",
@@ -7121,6 +7251,72 @@
       "reviews": []
     },
     {
+      "id": "wurst-haus",
+      "name": "Wurst Haus",
+      "items": [
+        {
+          "id": "wurst-haus-german-mac-n-cheese",
+          "name": "German Mac ‘n Cheese"
+        },
+        {
+          "id": "wurst-haus-apple-pretzel-bites",
+          "name": "Apple Pretzel Bites"
+        },
+        {
+          "id": "wurst-haus-german-giant-10-inch-bratwurst",
+          "name": "German Giant 10-inch Bratwurst"
+        },
+        {
+          "id": "wurst-haus-beer-boot",
+          "name": "Beer Boot"
+        },
+        {
+          "id": "wurst-haus-the-mighty-pretzel",
+          "name": "The Mighty Pretzel"
+        },
+        {
+          "id": "wurst-haus-giant-schnitzel-sandwich",
+          "name": "Giant Schnitzel Sandwich"
+        },
+        {
+          "id": "wurst-haus-pretzel-bites-beer-cheese",
+          "name": "Pretzel Bites with Beer Cheese"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "wurst-haus",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Wurst Haus\" \"Big E\""
+          ],
+          "notes": "Read Bean Restaurant Group’s official fair page: Booth341 Commonwealth; followed official Wurst Haus site social links. General restaurant menu not used. Current fair pretzel bites with beer cheese special added.",
+          "accounts": [
+            {
+              "url": "https://www.wurst-haus.com/",
+              "verified": true,
+              "evidenceUrl": "https://www.beanrg.com/bige",
+              "evidence": "Parent restaurant group explicitly identifies fair stand and links Wurst Haus; official site links socials."
+            },
+            {
+              "url": "https://www.facebook.com/wursthausnoho",
+              "verified": true,
+              "evidenceUrl": "https://www.beanrg.com/bige",
+              "evidence": "Parent restaurant group explicitly identifies fair stand and links Wurst Haus; official site links socials."
+            },
+            {
+              "url": "https://www.instagram.com/wursthausnoho/",
+              "verified": true,
+              "evidenceUrl": "https://www.beanrg.com/bige",
+              "evidence": "Parent restaurant group explicitly identifies fair stand and links Wurst Haus; official site links socials."
+            }
+          ],
+          "findings": []
+        }
+      ]
+    },
+    {
       "id": "agawam-lions-club",
       "name": "Agawam Lions Club",
       "items": [
@@ -7322,6 +7518,70 @@
               "sourceType": "vendor"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "jacks-fries",
+      "name": "Jack’s Fries",
+      "items": [
+        {
+          "id": "jacks-chicken-bacon-ranch-fries",
+          "name": "Jack’s Signature Fries"
+        },
+        {
+          "id": "jacks-fried-spicy-pickle-fries",
+          "name": "Fried Spicy Pickle Fries"
+        },
+        {
+          "id": "jack-s-fries-millennium-chips",
+          "name": "Millennium Chips"
+        },
+        {
+          "id": "jack-s-fries-dough-nuggets",
+          "name": "Dough Nuggets"
+        },
+        {
+          "id": "jack-s-fries-funnel-cakes",
+          "name": "Funnel Cakes"
+        },
+        {
+          "id": "jacks-fries-chicken-tenders",
+          "name": "Chicken Tenders"
+        },
+        {
+          "id": "jacks-fries-corn-dogs",
+          "name": "Corn Dogs"
+        },
+        {
+          "id": "jacks-fries-hot-dog",
+          "name": "Hot Dog"
+        }
+      ],
+      "reviews": [
+        {
+          "vendorId": "jacks-fries",
+          "checkedAt": "2026-09-19",
+          "status": "reviewed",
+          "searches": [
+            "\"Jack’s Fries\" \"Big E\""
+          ],
+          "notes": "Verified shared Jack’s Fries/Tootsie’s operator in batch015 from current own opening-day Facebook and linked website. Current fair hot dog special missing; added at both stated avenues.",
+          "accounts": [
+            {
+              "url": "https://savannahgrout.wixsite.com/jacksfries",
+              "verified": true,
+              "evidenceUrl": "https://www.facebook.com/tootsies.fried.dough/",
+              "evidence": "Shared operator explicitly confirmed in website and own current Big E opening caption."
+            },
+            {
+              "url": "https://www.facebook.com/tootsies.fried.dough/",
+              "verified": true,
+              "evidenceUrl": "https://www.facebook.com/tootsies.fried.dough/",
+              "evidence": "Shared operator explicitly confirmed in website and own current Big E opening caption."
+            }
+          ],
+          "findings": []
         }
       ]
     },
@@ -8653,6 +8913,34 @@
         "west-springfield-firehouse-restaurant",
         "wurst-haus",
         "jacks-fries"
+      ],
+      "completedIds": [
+        "las-kangris-food-truck",
+        "new-hampshire-building",
+        "pig-park-bbq",
+        "poppies-belgian-waffles",
+        "poutine-gourmet",
+        "simply-gluten-free",
+        "storrowton-soup-shack",
+        "west-springfield-firehouse-restaurant",
+        "wurst-haus",
+        "jacks-fries"
+      ]
+    },
+    {
+      "id": "batch-017",
+      "createdOn": "2026-09-19",
+      "vendorIds": [
+        "piches-beignets",
+        "reds-red-apples",
+        "sam-adams-beer-garden",
+        "spudtastic",
+        "tree-of-life-maple-farm",
+        "west-springfield-lions-club",
+        "agawam-lions-club",
+        "cinnamon-saloon",
+        "crave-cafe",
+        "porkys-bbq-concessions"
       ],
       "completedIds": []
     }
