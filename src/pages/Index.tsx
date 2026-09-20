@@ -72,12 +72,12 @@ const Index = () => {
 
       <main className="mx-auto max-w-7xl space-y-12 px-4 py-9 sm:px-6 lg:px-8">
         <section aria-labelledby="masslive-heading" className="border-t-4 border-primary pt-5">
-          <SectionHeading eyebrow="The local food desk · MassLive" id="masslive-heading">MassLive’s must-try foods</SectionHeading>
-          <p className="mt-3 max-w-2xl text-sm leading-6 text-muted-foreground">Fried butter, taco-filled dough, and ice cream disguised as nuggets. Start with these standouts from Nick O’Malley’s ten must-try picks.</p>
-          <div className="mt-5 grid gap-4 md:grid-cols-3">{featuredFoods(["marion-s-fried-dough-fried-butter", "anna-s-fried-dough-doughco", "moolicious-moonugs"])}</div>
+          <SectionHeading eyebrow="The local food desk · MassLive" id="masslive-heading">MassLive’s 2026 opening-day favorites</SectionHeading>
+          <p className="mt-3 max-w-2xl text-sm leading-6 text-muted-foreground">Samoa doughnuts, maple jerk chicken, and S’mored Oreos: favorites from MassLive’s September 19, 2026 review of this year’s opening day.</p>
+          <div className="mt-5 grid gap-4 md:grid-cols-3">{featuredFoods(["fluffys-samoa-doughnut", "jamaican-jewelz-maple-jerk-chicken-plate", "vermont-marshmallow-company-smored-oreo"])}</div>
           <div className="mt-5 flex flex-wrap gap-x-6 gap-y-2">
-            <Link className="inline-flex min-h-11 items-center border-b-2 border-primary text-sm font-bold text-primary" to={`/browse?collection=${masslive.id}`}>See all 10 must-try picks →</Link>
-            <Link className="inline-flex min-h-11 items-center border-b-2 border-secondary text-sm font-bold text-primary" to={`/browse?collection=${openingDay.id}`}>Opening-day favorites →</Link>
+            <Link className="inline-flex min-h-11 items-center border-b-2 border-primary text-sm font-bold text-primary" to={`/browse?collection=${openingDay.id}`}>See all {openingDay.itemIds.length} opening-day favorites →</Link>
+            <Link className="inline-flex min-h-11 items-center border-b-2 border-secondary text-sm font-bold text-primary" to={`/browse?collection=${masslive.id}`}>2025 must-try picks →</Link>
           </div>
 <div className="flex flex-wrap gap-x-6">          <a className="mt-4 inline-flex min-h-11 items-center text-xs text-muted-foreground underline underline-offset-4" href={masslive.source?.url} target="_blank" rel="noreferrer">Read MassLive’s Eater’s Guide ↗</a>
           <a className="mt-4 inline-flex min-h-11 items-center text-xs text-muted-foreground underline underline-offset-4" href={openingDay.source?.url} target="_blank" rel="noreferrer">Read MassLive’s opening-day review ↗</a></div>

@@ -166,12 +166,14 @@ describe("Index", () => {
 });
 
 describe("home food spotlights", () => {
-  it("promotes MassLive picks before cravings and links to both recommendation lists", () => {
+  it("promotes verified 2026 reviews and explicitly dates the older guide picks", () => {
     renderIndex();
-    const section = screen.getByRole("region", { name: "MassLive’s must-try foods" });
-    expect(within(section).getByText("Fried Butter")).toBeInTheDocument();
-    expect(within(section).getByText("MooNugs")).toBeInTheDocument();
-    expect(within(section).getByRole("link", { name: /all 10 must-try picks/i })).toHaveAttribute("href", "/browse?collection=masslive-must-try");
+    const section = screen.getByRole("region", { name: "MassLive’s 2026 opening-day favorites" });
+    expect(within(section).getByText("Samoa Doughnut")).toBeInTheDocument();
+    expect(within(section).getByText("S’mored Oreo")).toBeInTheDocument();
+    expect(within(section).queryByText("Fried Butter")).not.toBeInTheDocument();
+    expect(within(section).getByText(/September 19, 2026/)).toBeInTheDocument();
+    expect(within(section).getByRole("link", { name: /2025 must-try picks/i })).toHaveAttribute("href", "/browse?collection=masslive-must-try");
     expect(within(section).getByRole("link", { name: /opening-day favorites/i })).toHaveAttribute("href", "/browse?collection=masslive-opening-day");
   });
 

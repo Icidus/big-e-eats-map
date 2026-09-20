@@ -19,3 +19,12 @@ it("includes exactly the source-backed new-for-2026 foods", () => {
     catalogData.items.filter((item) => item.isNewFor2026).map((item) => item.id),
   );
 });
+
+it("distinguishes the embedded 2025 guide picks from the 2026 opening-day review", () => {
+  const older = catalogData.collectionsById.get("masslive-must-try");
+  expect(older?.title).toContain("2025");
+  expect(older?.description).toContain("2025");
+  const current = catalogData.collectionsById.get("masslive-opening-day");
+  expect(current?.title).toContain("2026");
+  expect(current?.description).toContain("September 19, 2026");
+});

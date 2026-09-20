@@ -213,8 +213,8 @@
   },
   {
     "id": "masslive-must-try",
-    "title": "MassLive’s Must-Try Foods",
-    "description": "Nick O’Malley’s ten must-try foods from the saved Eater’s Guide, in map order—not ranked.",
+    "title": "MassLive’s 2025 Must-Try Picks",
+    "description": "Nick O’Malley’s ten picks explicitly labeled 2025 on pages 23–24 of the saved 2026 Eater’s Guide. These are older recommendations retained in the updated article, in map order—not a new 2026 ranking.",
     "itemIds": [
       "marion-s-fried-dough-fried-butter",
       "anna-s-fried-dough-doughco",
@@ -236,8 +236,8 @@
   },
   {
     "id": "masslive-opening-day",
-    "title": "MassLive’s Opening-Day Favorites",
-    "description": "Nine foods named in MassLive’s top-rated opening-day list. Cheese Dog and Bacalaito are listed separately.",
+    "title": "MassLive’s 2026 Opening-Day Favorites",
+    "description": "Nine foods from MassLive’s September 19, 2026 review of the fair’s 2026 opening day. The article lists eight recommendations; Cheese Dog and Bacalaito share one entry and appear separately here.",
     "itemIds": [
       "fluffys-samoa-doughnut",
       "jamaican-jewelz-maple-jerk-chicken-plate",
