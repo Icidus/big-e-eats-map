@@ -26,6 +26,9 @@ const requiredReturningVendors = [
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
 const trustedFoodSources = new Set([
+  "https://jamaicanjewelz.com/our-menus/",
+  "https://dels.com/pages/flavors",
+  "https://www.mackenssliders.com/menu?menu=mackens-sliders-menu",
   "https://www.instagram.com/p/DdchKszA8YB/",
   "https://www.facebook.com/reel/1065751882930784/",
   "https://www.instagram.com/yankeeboybige/p/Dcjp7WiuX5B/",
