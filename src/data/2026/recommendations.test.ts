@@ -1,6 +1,20 @@
 import { expect, it } from "vitest";
 import { catalogData } from "@/features/catalog/catalog";
 
+it("keeps the complete Instagram taste test separate from the favorites", () => {
+  const tasteTest = catalogData.collectionsById.get("masslive-taste-test");
+  expect(tasteTest?.itemIds).toHaveLength(22);
+  expect(tasteTest?.source?.url).toBe("https://www.instagram.com/p/DdchKszA8YB/");
+  expect(tasteTest?.itemIds).toContain("big-e-chocolate-pickle-tacos");
+  for (const id of tasteTest?.itemIds ?? []) {
+    const item = catalogData.itemsById.get(id);
+    expect(item?.description, id).toContain("September 18, 2026");
+    expect([item?.source, ...(item?.supportingSources ?? [])].some((source) => source?.url === tasteTest?.source?.url), id).toBe(true);
+  }
+  expect(catalogData.itemsById.get("jacks-chicken-bacon-ranch-fries")?.description).toMatch(/4\/10.*8\/10.*extra ranch/);
+  expect(catalogData.itemsById.get("big-e-chocolate-pickle-tacos")?.vendor).toBe("Chocolate Moonshine");
+});
+
 it("preserves MassLive’s ten guide picks and excludes its negatively reviewed taco", () => {
   expect(catalogData.collectionsById.get("masslive-must-try")?.itemIds).toEqual([
     "marion-s-fried-dough-fried-butter", "anna-s-fried-dough-doughco", "crazy-sushi-push-up-sushi",

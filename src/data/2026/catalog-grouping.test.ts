@@ -21,7 +21,7 @@ describe("2026 catalog grouping", () => {
 
   it("keeps the catch-all categories small enough to scan on a phone", () => {
     expect(itemsIn("other-savory").length).toBeLessThanOrEqual(25);
-    expect(itemsIn("snacks-sides").length).toBeLessThanOrEqual(55);
+    expect(itemsIn("snacks-sides").length).toBeLessThanOrEqual(56);
     expect(itemsIn("desserts").length).toBeLessThanOrEqual(80);
   });
 

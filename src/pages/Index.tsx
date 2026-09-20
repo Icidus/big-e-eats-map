@@ -27,8 +27,9 @@ const Index = () => {
   const { itemIds, addItem, removeItem, hasItem } = useFoodPlan();
   const masslive = collectionsById.get("masslive-must-try")!;
   const openingDay = collectionsById.get("masslive-opening-day")!;
+  const tasteTest = collectionsById.get("masslive-taste-test")!;
   const newFoods = collectionsById.get("new-for-2026")!;
-  const otherCollections = collections.filter((collection) => ![masslive.id, openingDay.id, newFoods.id].includes(collection.id));
+  const otherCollections = collections.filter((collection) => ![masslive.id, openingDay.id, tasteTest.id, newFoods.id].includes(collection.id));
 
   function featuredFoods(ids: string[]) {
     return ids.map((id) => {
@@ -77,10 +78,15 @@ const Index = () => {
           <div className="mt-5 grid gap-4 md:grid-cols-3">{featuredFoods(["fluffys-samoa-doughnut", "jamaican-jewelz-maple-jerk-chicken-plate", "vermont-marshmallow-company-smored-oreo"])}</div>
           <div className="mt-5 flex flex-wrap gap-x-6 gap-y-2">
             <Link className="inline-flex min-h-11 items-center border-b-2 border-primary text-sm font-bold text-primary" to={`/browse?collection=${openingDay.id}`}>See all {openingDay.itemIds.length} opening-day favorites →</Link>
+            <Link className="inline-flex min-h-11 items-center border-b-2 border-primary text-sm font-bold text-primary" to={`/browse?collection=${tasteTest.id}`}>All {tasteTest.itemIds.length} foods and drinks MassLive tried →</Link>
             <Link className="inline-flex min-h-11 items-center border-b-2 border-secondary text-sm font-bold text-primary" to={`/browse?collection=${masslive.id}`}>2025 must-try picks →</Link>
           </div>
-<div className="flex flex-wrap gap-x-6">          <a className="mt-4 inline-flex min-h-11 items-center text-xs text-muted-foreground underline underline-offset-4" href={masslive.source?.url} target="_blank" rel="noreferrer">Read MassLive’s Eater’s Guide ↗</a>
-          <a className="mt-4 inline-flex min-h-11 items-center text-xs text-muted-foreground underline underline-offset-4" href={openingDay.source?.url} target="_blank" rel="noreferrer">Read MassLive’s opening-day review ↗</a></div>
+          <p className="mt-3 text-sm text-muted-foreground">The full taste test includes mixed reviews, with opening-day prices and ratings in each food’s details.</p>
+          <div className="flex flex-wrap gap-x-6">
+            <a className="mt-4 inline-flex min-h-11 items-center text-xs text-muted-foreground underline underline-offset-4" href={masslive.source?.url} target="_blank" rel="noreferrer">Read MassLive’s Eater’s Guide ↗</a>
+            <a className="mt-4 inline-flex min-h-11 items-center text-xs text-muted-foreground underline underline-offset-4" href={openingDay.source?.url} target="_blank" rel="noreferrer">Read MassLive’s opening-day review ↗</a>
+            <a className="mt-4 inline-flex min-h-11 items-center text-xs text-muted-foreground underline underline-offset-4" href={tasteTest.source?.url} target="_blank" rel="noreferrer">Watch MassLive’s Instagram taste test ↗</a>
+          </div>
         </section>
 
         <section aria-labelledby="new-foods-heading" className="border-2 border-secondary bg-secondary/10 p-5 sm:p-7">

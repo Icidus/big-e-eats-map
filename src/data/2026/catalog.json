@@ -928,7 +928,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "MassLive’s September 18, 2026 opening-day video reported $19 and a 5/10 rating.",
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "golden-k-dog-half-and-half-flamin-hot-cheetos",
@@ -2656,12 +2665,18 @@
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
     },
-    "description": "Grilled panini with Nutella, brie cheese and bacon. Listed at the Food Court for the September 21, 2026 Bargain Bites event.",
+    "description": "Grilled panini with Nutella, brie cheese and bacon. Listed at the Food Court for the September 21, 2026 Bargain Bites event. MassLive’s September 18, 2026 opening-day video reported $15 and a 7/10 rating.",
     "supportingSources": [
       {
         "publisher": "The Big E",
         "title": "2026 Bargain Bites",
         "url": "https://www.thebige.com/p/food2/bargain-bites",
+        "accessedOn": "2026-09-19"
+      },
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
         "accessedOn": "2026-09-19"
       }
     ]
@@ -3392,12 +3407,12 @@
   {
     "id": "jacks-chicken-bacon-ranch-fries",
     "year": 2026,
-    "name": "Jack’s Signature Fries",
+    "name": "Chicken Bacon Ranch Fries (Jack’s Signature Fries)",
     "vendor": "Jack’s Fries",
     "locationIds": [
       "new-england-avenue"
     ],
-    "description": "Jack's signature fries are newly available loaded with chicken, bacon, and ranch.",
+    "description": "Jack's signature fries are newly available loaded with chicken, bacon, and ranch. MassLive’s September 18, 2026 opening-day video reported $22 and a 4/10 rating. The rating rose to 8/10 with free extra ranch on the side.",
     "categoryIds": [
       "potatoes-fries"
     ],
@@ -3412,7 +3427,15 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "jacks-fried-spicy-pickle-fries",
@@ -4150,7 +4173,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "MassLive’s September 18, 2026 opening-day video reported $19 and a 9/10 rating.",
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "new-england-craft-beer-pub-cheeseburger-nachos",
@@ -4565,7 +4597,16 @@
       "title": "New Foods",
       "url": "https://www.thebige.com/p/food2/newfoods",
       "accessedOn": "2026-08-27"
-    }
+    },
+    "description": "MassLive’s September 18, 2026 opening-day video reported $15 and a 7/10 rating.",
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "wurst-haus-apple-pretzel-bites",
@@ -6033,7 +6074,7 @@
     "locationIds": [
       "new-england-avenue"
     ],
-    "description": "A Samoa doughnut from Fluffy’s Hand Cut Donuts, rated among MassLive’s top opening-day foods.",
+    "description": "A Samoa doughnut from Fluffy’s Hand Cut Donuts, rated among MassLive’s top opening-day foods. MassLive’s September 18, 2026 opening-day video reported $10 and a 10/10 rating.",
     "categoryIds": [
       "donuts-pastries"
     ],
@@ -6047,7 +6088,15 @@
       "title": "Everything we ate at The Big E: Prices, ratings and our favorites",
       "url": "https://www.masslive.com/the-big-e/2026/09/everything-we-ate-at-the-big-e-prices-ratings-and-our-favorites.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "jamaican-jewelz-maple-jerk-chicken-plate",
@@ -6057,7 +6106,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "A maple jerk chicken plate from Jamaican Jewelz in the Vermont Building area, rated among MassLive’s top opening-day foods.",
+    "description": "A maple jerk chicken plate from Jamaican Jewelz in the Vermont Building area, rated among MassLive’s top opening-day foods. MassLive’s September 18, 2026 opening-day video reported $16 and a 9/10 rating.",
     "categoryIds": [
       "chicken-wings",
       "global-eats"
@@ -6074,7 +6123,15 @@
       "title": "Everything we ate at The Big E: Prices, ratings and our favorites",
       "url": "https://www.masslive.com/the-big-e/2026/09/everything-we-ate-at-the-big-e-prices-ratings-and-our-favorites.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "dannys-spuds-pulled-pork-baked-potato",
@@ -6084,7 +6141,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "A baked potato topped with pulled pork from Danny’s Spuds, rated among MassLive’s top opening-day foods.",
+    "description": "A baked potato topped with pulled pork from Danny’s Spuds, rated among MassLive’s top opening-day foods. MassLive’s September 18, 2026 opening-day video reported $22 and a 9/10 rating.",
     "categoryIds": [
       "potatoes-fries"
     ],
@@ -6098,7 +6155,15 @@
       "title": "Everything we ate at The Big E: Prices, ratings and our favorites",
       "url": "https://www.masslive.com/the-big-e/2026/09/everything-we-ate-at-the-big-e-prices-ratings-and-our-favorites.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "vermont-marshmallow-company-smored-oreo",
@@ -6108,7 +6173,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "Handmade marshmallow torched to order on two GF Oreos, rolled in caramelized graham-cracker crumble. Rated 9/10 by MassLive. Vendor plans this opening-week offering through Tuesday, September 22, while awaiting S’Macaron supplies.",
+    "description": "Handmade marshmallow torched to order on two GF Oreos, rolled in caramelized graham-cracker crumble. Rated 9/10 by MassLive. Vendor plans this opening-week offering through Tuesday, September 22, while awaiting S’Macaron supplies. MassLive’s September 18, 2026 opening-day video reported $7 and a 9/10 rating.",
     "categoryIds": [
       "desserts"
     ],
@@ -6135,6 +6200,12 @@
         "title": "Big E contingency menu plan",
         "url": "https://www.instagram.com/vermontmarshmallow/p/DdXvobVTVa2/",
         "accessedOn": "2026-09-19"
+      },
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
       }
     ]
   },
@@ -6146,7 +6217,7 @@
     "locationIds": [
       "the-front-porch"
     ],
-    "description": "A cheese dog from Boricua Bites, rated among MassLive’s top opening-day foods.",
+    "description": "A cheese dog from Boricua Bites, rated among MassLive’s top opening-day foods. MassLive’s September 18, 2026 opening-day video reported $8 and a 9/10 rating.",
     "categoryIds": [
       "hot-dogs-corndogs",
       "global-eats"
@@ -6162,7 +6233,15 @@
       "title": "Everything we ate at The Big E: Prices, ratings and our favorites",
       "url": "https://www.masslive.com/the-big-e/2026/09/everything-we-ate-at-the-big-e-prices-ratings-and-our-favorites.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "boricua-bites-bacalaito",
@@ -6172,7 +6251,7 @@
     "locationIds": [
       "the-front-porch"
     ],
-    "description": "A bacalaito cod fritter from Boricua Bites, rated among MassLive’s top opening-day foods.",
+    "description": "A bacalaito cod fritter from Boricua Bites, rated among MassLive’s top opening-day foods. MassLive’s September 18, 2026 opening-day video reported $10 and a 9/10 rating.",
     "categoryIds": [
       "seafood",
       "global-eats",
@@ -6189,7 +6268,15 @@
       "title": "Everything we ate at The Big E: Prices, ratings and our favorites",
       "url": "https://www.masslive.com/the-big-e/2026/09/everything-we-ate-at-the-big-e-prices-ratings-and-our-favorites.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "new-hampshire-building-apple-nachos",
@@ -6199,7 +6286,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "Apple nachos from the New Hampshire Building, rated among MassLive’s top opening-day foods.",
+    "description": "Apple nachos from the New Hampshire Building, rated among MassLive’s top opening-day foods. MassLive’s September 18, 2026 opening-day video reported $12 and a 10/10 rating.",
     "categoryIds": [
       "desserts"
     ],
@@ -6214,15 +6301,23 @@
       "title": "Everything we ate at The Big E: Prices, ratings and our favorites",
       "url": "https://www.masslive.com/the-big-e/2026/09/everything-we-ate-at-the-big-e-prices-ratings-and-our-favorites.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "big-e-chocolate-pickle-tacos",
     "year": 2026,
     "name": "Chocolate Pickle Tacos",
-    "vendor": "The Big E",
+    "vendor": "Chocolate Moonshine",
     "locationIds": [],
-    "description": "Chocolate pickle tacos, rated 2 out of 10 by MassLive on opening day.",
+    "description": "Chocolate pickle tacos, rated 2 out of 10 by MassLive on opening day. MassLive’s September 18, 2026 opening-day video reported $13 and a 2/10 rating.",
     "categoryIds": [
       "desserts"
     ],
@@ -6238,7 +6333,15 @@
       "title": "Everything we ate at The Big E: Prices, ratings and our favorites",
       "url": "https://www.masslive.com/the-big-e/2026/09/everything-we-ate-at-the-big-e-prices-ratings-and-our-favorites.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "barbie-s-ice-cream-shoppe-frozen-bananas",
@@ -8726,7 +8829,7 @@
     "locationIds": [
       "commonwealth-avenue"
     ],
-    "description": "Mochi Mini Donuts listed for Donut Family in MassLive’s 2026 Big E Eater’s Guide. Also listed under Donut Family.",
+    "description": "Mochi Mini Donuts listed for Donut Family in MassLive’s 2026 Big E Eater’s Guide. Also listed under Donut Family. MassLive’s September 18, 2026 opening-day video reported $26 for the giant bucket and a 8/10 rating.",
     "categoryIds": [
       "donuts-pastries"
     ],
@@ -8740,7 +8843,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "jack-s-fries-millennium-chips",
@@ -10024,7 +10135,7 @@
     "locationIds": [
       "food-court"
     ],
-    "description": "Potato Pancake Pie listed for Hofbrauhaus Oktoberfest Biergarten in MassLive’s 2026 Big E Eater’s Guide. Also listed under Hofbrauhaus Oktoberfest Biergarten.",
+    "description": "Potato Pancake Pie listed for Hofbrauhaus Oktoberfest Biergarten in MassLive’s 2026 Big E Eater’s Guide. Also listed under Hofbrauhaus Oktoberfest Biergarten. MassLive’s September 18, 2026 opening-day video reported $13 and a 7/10 rating.",
     "categoryIds": [
       "potatoes-fries",
       "comfort-bowls"
@@ -10039,7 +10150,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "hofbrauhaus-oktoberfest-biergarten-giant-pretzels",
@@ -14278,7 +14397,7 @@
     "locationIds": [
       "avenue-of-states"
     ],
-    "description": "Lemonade listed for Del’s Lemonade in MassLive’s 2026 Big E Eater’s Guide.",
+    "description": "Lemonade listed for Del’s Lemonade in MassLive’s 2026 Big E Eater’s Guide. MassLive’s September 18, 2026 opening-day video reported $5 and a 9/10 rating. The serving shown was from the Rhode Island Building.",
     "categoryIds": [
       "nonalcoholic-drinks"
     ],
@@ -14293,7 +14412,15 @@
       "title": "The Big E Eater’s Guide 2026: What to eat and where to find it",
       "url": "https://www.masslive.com/ne-where/2026/09/the-big-e-eaters-guide-2026-what-to-eat-and-where-to-find-it.html",
       "accessedOn": "2026-09-19"
-    }
+    },
+    "supportingSources": [
+      {
+        "publisher": "MassLive",
+        "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+        "url": "https://www.instagram.com/p/DdchKszA8YB/",
+        "accessedOn": "2026-09-19"
+      }
+    ]
   },
   {
     "id": "friskie-fries-creative-fries",
@@ -20021,6 +20148,155 @@
       "publisher": "The Big E",
       "title": "2026 Bargain Bites",
       "url": "https://www.thebige.com/p/food2/bargain-bites",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "janiks-buffalo-chicken-pierogi",
+    "year": 2026,
+    "name": "Buffalo Chicken Pierogi",
+    "vendor": "Janik's Pierogi Café",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Buffalo chicken pierogi from Janik’s Pierogi Café. MassLive’s September 18, 2026 opening-day video reported $13 and a 8/10 rating.",
+    "categoryIds": [
+      "global-eats"
+    ],
+    "tagIds": [
+      "savory",
+      "spicy"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "MassLive",
+      "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+      "url": "https://www.instagram.com/p/DdchKszA8YB/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "fluffys-cookie-butter-coffee-float",
+    "year": 2026,
+    "name": "Cookie Butter Coffee Float",
+    "vendor": "Fluffy’s Hand Cut Donuts",
+    "locationIds": [
+      "new-england-avenue"
+    ],
+    "description": "Cookie butter coffee float from Fluffy’s Hand Cut Donuts. MassLive’s September 18, 2026 opening-day video reported $13 and a 8/10 rating.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic",
+      "sweet"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "MassLive",
+      "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+      "url": "https://www.instagram.com/p/DdchKszA8YB/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "schroder-concessions-lemonade",
+    "year": 2026,
+    "name": "Lemonade",
+    "vendor": "Schroder Concessions",
+    "locationIds": [],
+    "description": "Lemonade identified in MassLive’s video as coming from Schroder Concessions. The stand’s location is not specified. MassLive’s September 18, 2026 opening-day video reported $10 and a 8/10 rating.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "MassLive",
+      "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+      "url": "https://www.instagram.com/p/DdchKszA8YB/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "java-jungle-mango-tea-refresher",
+    "year": 2026,
+    "name": "Mango Tea Refresher",
+    "vendor": "Jungle Juice Smoothies",
+    "locationIds": [
+      "commonwealth-avenue"
+    ],
+    "description": "Mango tea refresher from Java Jungle, the name also used in the official Jungle Juice Smoothies drink listing. This video does not specify the mango lemon Bargain Bites special. MassLive’s September 18, 2026 opening-day video reported $10 and a 6/10 rating.",
+    "categoryIds": [
+      "nonalcoholic-drinks"
+    ],
+    "tagIds": [
+      "drinks",
+      "nonalcoholic"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "MassLive",
+      "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+      "url": "https://www.instagram.com/p/DdchKszA8YB/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "vermont-building-pickle-on-a-sword",
+    "year": 2026,
+    "name": "Pickle on a Sword",
+    "vendor": "Vermont Building",
+    "locationIds": [
+      "avenue-of-states"
+    ],
+    "description": "Pickle on a sword at the Vermont Building; the video does not identify the individual vendor. MassLive’s September 18, 2026 opening-day video reported $5 and a 6/10 rating.",
+    "categoryIds": [
+      "snacks-sides"
+    ],
+    "tagIds": [
+      "pickle",
+      "savory",
+      "food-on-a-stick"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "MassLive",
+      "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+      "url": "https://www.instagram.com/p/DdchKszA8YB/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
+    "id": "so-full-sisters-maple-cream-churro-stick",
+    "year": 2026,
+    "name": "Maple Cream Churro Stick",
+    "vendor": "So Full Sisters",
+    "locationIds": [],
+    "description": "Maple cream churro stick from So Full Sisters. The video does not specify the stand’s location. MassLive’s September 18, 2026 opening-day video reported $10 and a 7/10 rating.",
+    "categoryIds": [
+      "fried-dough"
+    ],
+    "tagIds": [
+      "sweet",
+      "maple",
+      "food-on-a-stick"
+    ],
+    "dietaryClaims": [],
+    "isNewFor2026": false,
+    "source": {
+      "publisher": "MassLive",
+      "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+      "url": "https://www.instagram.com/p/DdchKszA8YB/",
       "accessedOn": "2026-09-19"
     }
   }

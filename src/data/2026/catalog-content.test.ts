@@ -26,6 +26,7 @@ const requiredReturningVendors = [
 
 const foodCourtOnlyVendors = ["Calabrese Market", "E.B.’s", "Hofbrauhaus Beer Garden"];
 const trustedFoodSources = new Set([
+  "https://www.instagram.com/p/DdchKszA8YB/",
   "https://www.facebook.com/reel/1065751882930784/",
   "https://www.instagram.com/yankeeboybige/p/Dcjp7WiuX5B/",
   "https://www.instagram.com/yankeeboybige/p/DcjqVGeutSH/",
@@ -210,7 +211,7 @@ describe("2026 catalog content", () => {
       ["boricua-bites-cheese-dog", "Boricua Bites", "Cheese Dog", ["the-front-porch"]],
       ["boricua-bites-bacalaito", "Boricua Bites", "Bacalaito", ["the-front-porch"]],
       ["new-hampshire-building-apple-nachos", "New Hampshire Building", "Apple Nachos", ["avenue-of-states"]],
-      ["big-e-chocolate-pickle-tacos", "The Big E", "Chocolate Pickle Tacos", []],
+      ["big-e-chocolate-pickle-tacos", "Chocolate Moonshine", "Chocolate Pickle Tacos", []],
     ] as const;
 
     for (const [id, vendor, name, locationIds] of expectedEntries) {
@@ -284,7 +285,7 @@ describe("2026 catalog content", () => {
         "qp-burger-food-truck-burger", "qp-burger-food-truck-hot-dog",
       ]],
     ];
-    expect(catalogData.collections.filter((collection) => !["masslive-must-try", "masslive-opening-day", "new-for-2026"].includes(collection.id)).map((collection) => [collection.id, collection.itemIds])).toEqual(expectedCollections);
+    expect(catalogData.collections.filter((collection) => !["masslive-must-try", "masslive-opening-day", "masslive-taste-test", "new-for-2026"].includes(collection.id)).map((collection) => [collection.id, collection.itemIds])).toEqual(expectedCollections);
   });
 
   it("keeps the constrained collections aligned with their source-backed metadata", () => {

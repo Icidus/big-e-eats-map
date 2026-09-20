@@ -7,7 +7,7 @@ import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
 import { PLAN_STORAGE_KEY } from "@/features/plan/planStore";
 import Index from "./Index";
 
-const standardCollections = collections.filter((collection) => !["masslive-must-try", "masslive-opening-day", "new-for-2026"].includes(collection.id));
+const standardCollections = collections.filter((collection) => !["masslive-must-try", "masslive-opening-day", "masslive-taste-test", "new-for-2026"].includes(collection.id));
 
 afterEach(cleanup);
 
@@ -193,4 +193,10 @@ it('links to both MassLive articles and nearby food from home', () => {
   renderIndex();
   expect(screen.getByRole('link', { name: /read masslive’s opening-day review/i })).toHaveAttribute('href', expect.stringContaining('/everything-we-ate-at-the-big-e-'));
   expect(screen.getByRole('link', { name: 'What’s around me?' })).toHaveAttribute('href', '/map?nearby=1');
+});
+
+it("links the complete taste test and its original Instagram source", () => {
+  renderIndex();
+  expect(screen.getByRole("link", { name: /all 22 foods and drinks MassLive tried/i })).toHaveAttribute("href", "/browse?collection=masslive-taste-test");
+  expect(screen.getByRole("link", { name: /watch MassLive’s Instagram taste test/i })).toHaveAttribute("href", "https://www.instagram.com/p/DdchKszA8YB/");
 });

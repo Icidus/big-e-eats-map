@@ -257,6 +257,41 @@
     }
   },
   {
+    "id": "masslive-taste-test",
+    "title": "Everything MassLive Tried in 2026",
+    "description": "All 22 foods and drinks in MassLive’s September 18, 2026 opening-day Instagram taste test, including mixed reviews. Item descriptions include their ratings and the prices reported for the servings shown that day; prices may change.",
+    "itemIds": [
+      "wurst-haus-german-mac-n-cheese",
+      "jacks-chicken-bacon-ranch-fries",
+      "janiks-buffalo-chicken-pierogi",
+      "fluffys-cookie-butter-coffee-float",
+      "fluffys-samoa-doughnut",
+      "schroder-concessions-lemonade",
+      "jamaican-jewelz-maple-jerk-chicken-plate",
+      "java-jungle-mango-tea-refresher",
+      "del-s-lemonade-lemonade",
+      "dannys-spuds-pulled-pork-baked-potato",
+      "big-e-chocolate-pickle-tacos",
+      "vermont-marshmallow-company-smored-oreo",
+      "donut-family-mochi-mini-donuts",
+      "vermont-building-pickle-on-a-sword",
+      "so-full-sisters-maple-cream-churro-stick",
+      "hofbrauhaus-oktoberfest-biergarten-potato-pancake-pie",
+      "calabrese-artery-clogger",
+      "the-mick-alfredo-pasta-bomb",
+      "golden-k-dog-cinnamozza",
+      "boricua-bites-cheese-dog",
+      "boricua-bites-bacalaito",
+      "new-hampshire-building-apple-nachos"
+    ],
+    "source": {
+      "publisher": "MassLive",
+      "title": "Everything we ate at The Big E on 2026 opening day, plus ratings and prices (Instagram)",
+      "url": "https://www.instagram.com/p/DdchKszA8YB/",
+      "accessedOn": "2026-09-19"
+    }
+  },
+  {
     "id": "new-for-2026",
     "title": "New for 2026",
     "description": "Explore foods and drinks from new vendors and offerings marked new in our sourced 2026 catalog.",

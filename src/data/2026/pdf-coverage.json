@@ -447,7 +447,7 @@
   {"document": "guide", "page": 23, "vendor": "New Hampshire Kettle Corn", "food": "Kettle Corn", "itemId": "new-hampshire-kettle-corn-kettle-corn", "locationId": "avenue-of-states"},
   {"document": "guide", "page": 24, "vendor": "Mackens Sliders", "food": "Bacon Waffle Slider", "itemId": "mackens-sliders-bacon-waffle-slider", "locationId": "avenue-of-states"},
   {"document": "guide", "page": 24, "vendor": "Moolicious Farm", "food": "MooNugs", "itemId": "moolicious-moonugs", "locationId": "west-road"},
-  {"document": "review", "page": 1, "vendor": "The Big E", "food": "Chocolate Pickle Tacos", "itemId": "big-e-chocolate-pickle-tacos", "locationId": null},
+  {"document": "review", "page": 1, "vendor": "Chocolate Moonshine", "food": "Chocolate Pickle Tacos", "itemId": "big-e-chocolate-pickle-tacos", "locationId": null},
   {"document": "review", "page": 4, "vendor": "Fluffy’s Hand Cut Donuts", "food": "Samoa Doughnut", "itemId": "fluffys-samoa-doughnut", "locationId": "new-england-avenue"},
   {"document": "review", "page": 5, "vendor": "Jamaican Jewelz", "food": "Maple Jerk Chicken Plate", "itemId": "jamaican-jewelz-maple-jerk-chicken-plate", "locationId": "avenue-of-states"},
   {"document": "review", "page": 5, "vendor": "Del’s Lemonade", "food": "Lemonade", "itemId": "del-s-lemonade-lemonade", "locationId": "avenue-of-states"},
