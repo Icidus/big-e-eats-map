@@ -1,4 +1,4 @@
-import { Compass, Home, Map as MapIcon, MapPinned, Store } from "lucide-react";
+import { Compass, Home, Mail, Map as MapIcon, MapPinned, Store } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { readBrowseSearch } from "@/features/discovery/lastBrowse";
@@ -22,6 +22,13 @@ export function AppNav() {
         <AppNavLink to="/vendors" icon={Store} label="Vendors" />
         <AppNavLink to="/map" icon={MapIcon} label="Map" />
         <AppNavLink to="/plan" icon={MapPinned} label="My Plan" ariaLabel={planLabel} badge={itemIds.length} />
+        <a
+          href={`mailto:contact@bigeeats.com?subject=${encodeURIComponent("Big E Eats — listing question")}`}
+          className="flex min-h-14 min-w-0 flex-1 flex-col items-center justify-center gap-0.5 px-2 text-[11px] font-bold uppercase tracking-wide text-muted-foreground transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:min-h-11 md:flex-none md:flex-row md:gap-2 md:px-3 md:text-xs"
+        >
+          <Mail className="h-5 w-5" aria-hidden="true" />
+          Contact
+        </a>
       </div>
     </nav>
   );
