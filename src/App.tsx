@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import { FoodPlanProvider } from "@/features/plan/FoodPlanProvider";
 import { AppNav } from "@/components/AppNav";
+import { ContactFooter } from "@/components/ContactFooter";
 import { VendorsPage } from "./pages/VendorsPage";
 import { RouteSeo } from "@/features/seo/RouteSeo";
 import { VendorMenuPage } from "./pages/VendorMenuPage";
@@ -43,6 +44,7 @@ export function AppRoutes() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
+      <ContactFooter email="contact@bigeeats.com" />
     </div>
   );
 }
