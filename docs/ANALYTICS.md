@@ -1,6 +1,6 @@
 # Google Analytics
 
-The production site uses GA4 measurement ID `G-MQS9KNPJZR`.
+The production site uses GA4 measurement ID `G-7T271C2QCG`.
 The ID is public and is configured in `src/main.tsx`.
 
 `src/features/analytics/analytics.ts` loads the asynchronous Google tag once,

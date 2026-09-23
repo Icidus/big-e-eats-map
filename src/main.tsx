@@ -3,6 +3,6 @@ import App from "./App.tsx";
 import { initializeAnalytics } from "./features/analytics/analytics";
 import "./index.css";
 
-initializeAnalytics("G-MQS9KNPJZR");
+initializeAnalytics("G-7T271C2QCG");
 
 createRoot(document.getElementById("root")!).render(<App />);
